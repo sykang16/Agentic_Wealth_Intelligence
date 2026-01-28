@@ -21,7 +21,7 @@ Agentic Wealth Intelligence system with 3 modules:
 - Black formatting, 100 char lines
 
 ## File Structure
-- [Architecture](02_ARCHITECTURE.md)
+- [Architecture](docs/02_ARCHITECTURE.md)
 
 ## Important Notes
 - Use synthetic data (no real APIs)
