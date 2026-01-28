@@ -21,7 +21,7 @@ Agentic Wealth Intelligence system with 3 modules:
 - Black formatting, 100 char lines
 
 ## File Structure
-- [Architecture](docs/02_ARCHITECTURE.md)
+- [Architecture](../docs/02_ARCHITECTURE.md)
 
 ## Important Notes
 - Use synthetic data (no real APIs)
@@ -29,9 +29,9 @@ Agentic Wealth Intelligence system with 3 modules:
 - Implement freshness policies for RAG
 
 ## Quick Links
-- Architecture: docs/02_ARCHITECTURE.md
+- Architecture: [docs/02_ARCHITECTURE.md](../docs/02_ARCHITECTURE.md)
 - Current module: docs/0X_MODULE_Y.md
-- Phase plan: docs/06_PHASES.md
+- Phase plan: [docs/06_PHASES.md](../ocs/06_PHASES.md)
 
 
 ## Current Phase
