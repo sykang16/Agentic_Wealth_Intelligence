@@ -3,7 +3,10 @@ services:
     name: agentic-wealth-intelligence
     env: python
     plan: starter
-    buildCommand: pip install -r requirements.txt && python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
+    buildCommand: >-
+      pip install -r requirements.txt &&
+      python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')" &&
+      python scripts/build_rag_index.py
     startCommand: streamlit run ui/streamlit_app.py --server.port=$PORT --server.address=0.0.0.0
     envVars:
       # LLM providers — ANTHROPIC_API_KEY is required; others enable additional model choices
