@@ -111,32 +111,6 @@ _rag_index_result: dict = {}
 _reindex_event = threading.Event()
 _reindex_result: dict = {}
 
-# Embedding model warmup state — delayed so Render health checks pass first
-_model_warmed = threading.Event()
-
-
-def _delayed_warmup_embedding_model() -> None:
-    """Load sentence-transformers into memory after a short delay.
-
-    Starting this 10 s after import gives Render time to complete its health
-    check before the CPU-intensive model load begins.  Once warm, the first
-    recommendation query has no blocking delay.
-    """
-    import time as _time
-    _time.sleep(10)
-    try:
-        from sentence_transformers import SentenceTransformer
-        SentenceTransformer("all-MiniLM-L6-v2")
-        logger.info("Embedding model pre-warmed (delayed startup)")
-    except Exception:
-        pass  # non-critical — model loads lazily on first query if this fails
-    finally:
-        _model_warmed.set()
-
-
-threading.Thread(target=_delayed_warmup_embedding_model, daemon=True).start()
-
-
 def _run_rag_init_background(rag: "RAGInitializer") -> None:
     global _rag_index_result
     logger.info("RAG indexing started in background thread")
