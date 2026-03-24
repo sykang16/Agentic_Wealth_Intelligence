@@ -26,6 +26,7 @@ wheels/
 # Environment variables
 .env
 .env.local
+.env.local.example
 
 # IDE
 .vscode/
@@ -52,14 +53,34 @@ logs/
 htmlcov/
 .pytest_cache/
 
-# Data (synthetic data can be regenerated)
+# Data
 data/synthetic/*
 !data/synthetic/.gitkeep
+# synthetic_portfolios.json is required for demo — keep it tracked
+!data/synthetic/synthetic_portfolios.json
+# ChromaDB vector store — large binary, regenerated at startup
+data/chroma/
+data/trace.db
 
 # Temporary files
 *.tmp
 *.bak
 .cache/
+.mypy_cache/
+.ruff_cache/
+
+# Tests and evaluation (excluded from demo repo)
+tests/
+
+# Evaluation result HTML reports (generated, not source)
+docs/*.html
+
+# UI design prototypes
+ui/designs/*.html
+ui/*.html
+
+# Windows artifacts
+nul
 
 # Claude Code (if you want to exclude)
 # .claude/

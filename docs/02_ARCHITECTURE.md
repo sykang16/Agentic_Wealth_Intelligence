@@ -1,11 +1,13 @@
 # System Architecture
 
 ## Tech Stack
-- **Language**: Python 3.11+
+- **Language**: Python 3.12+
 - **Agent Framework**: LangGraph 0.2+
-- **LLM**: Anthropic Claude (Sonnet 4.5)
+- **LLM**: Anthropic Claude (Sonnet 4.5/4.6)
 - **Data Models**: Pydantic v2
 - **Vector DB**: ChromaDB
+- **MCP Layer**: FastMCP + custom servers (abstraction over external data sources)
+- **Market Data**: yfinance via `MarketMCPServer` (live quotes, ETF data, news headlines — no API key)
 - **Testing**: pytest
 
 ## Module Interactions
@@ -14,8 +16,8 @@ User Query → Asset Management (Module A)
 Investment Profiling (Module B) → InvestmentProfile
      ↓
 Recommendation Engine (Module C)
-  ├─ Vector DB (static knowledge)
-  └─ MCP Server (live data)
+  ├─ Vector DB / RAG (static knowledge: ETF factsheets, FOMC minutes, guides)
+  └─ MCP Layer → MarketMCPServer → yfinance (live quotes + news headlines)
      ↓
 Personalized Recommendation
 
@@ -24,49 +26,60 @@ Personalized Recommendation
 ```
 agentic-wealth-intelligence/
 ├── .claude/
-│   └── context.md                    # This file
-├── docs/
-│   ├── 00_INDEX.md                   # Documentation navigation
-│   ├── 01_PROJECT_OVERVIEW.md
-│   ├── 02_ARCHITECTURE.md
-│   ├── 03_MODULE_A_ASSET.md
-│   ├── 04_MODULE_B_PROFILING.md
-│   ├── 05_MODULE_C_RECOMMENDATION.md
-│   ├── 06_PHASES.md
-│   ├── 07_TECHNICAL_SPECS.md
-│   └── 08_UI_DESIGN.md
+│   └── context.md
+├── docs/                             # Documentation
 ├── backend/
 │   └── src/
 │       ├── agents/
-│       │   ├── orchestrator.py      # Main coordinator
-│       │   ├── asset_agent.py       # Module A
-│       │   ├── profiling_agent.py   # Module B
-│       │   └── advisory_agent.py    # Module C
+│       │   └── orchestrator.py      # Main coordinator (LangGraph)
 │       ├── multi_agent/
 │       │   ├── graph.py             # LangGraph workflow
 │       │   ├── state.py             # State definitions
-│       │   └── routing.py           # Routing logic
-│       ├── api/                      # FastAPI endpoints (Phase 3+)
-│       ├── asset_management/         # Tools for Asset Agent
-│       ├── profiling/                # Tools for Profiling Agent
-│       ├── recommendation/           # Tools for Advisory Agent
-│       ├── data_generation/          # Synthetic data
+│       │   └── routing.py           # Keyword intent routing
+│       ├── api/                      # FastAPI endpoints
+│       ├── asset_management/
+│       │   ├── aggregator.py        # Portfolio aggregation
+│       │   ├── calculator.py        # Financial metrics
+│       │   ├── query_handler.py     # NL query handler
+│       │   └── price_updater.py     # yfinance price fetching + history
+│       ├── profiling/
+│       │   └── agent.py             # Conversational slot-filling
+│       ├── mcp/
+│       │   ├── servers/
+│       │   │   ├── market_server.py # MarketMCPServer → yfinance (quotes, news)
+│       │   │   ├── news_server.py   # NewsMCPServer (Alpha Vantage news)
+│       │   │   └── portfolio_server.py
+│       │   ├── integration/
+│       │   │   ├── hybrid_data_provider.py  # Sync+async MCP facade
+│       │   │   └── data_normalizer.py
+│       │   └── schemas.py           # StockQuote, ETFProfile, HybridDataResponse
+│       ├── recommendation/
+│       │   ├── engine/
+│       │   │   ├── engine.py        # Main recommendation logic
+│       │   │   ├── context_builder.py  # Aggregates portfolio+RAG+MCP live data
+│       │   │   └── ranker.py        # Composite scoring
+│       │   ├── rag/
+│       │   │   ├── vector_store.py  # ChromaDB interface
+│       │   │   ├── retriever.py     # Search & ranking
+│       │   │   ├── freshness.py     # Document expiration policy
+│       │   │   └── initializer.py   # RAG setup with seed documents
+│       │   └── collectors/
+│       │       ├── alpha_vantage.py # News sentiment (API key required)
+│       │       ├── sec_edgar.py     # SEC filings
+│       │       ├── news_api.py      # NewsAPI articles
+│       │       └── manager.py       # Collector orchestration
 │       └── common/
-│           ├── models.py             # Pydantic schemas
-│           ├── llm_client.py
-│           └── utils.py
-├── ui/                               # Streamlit app (Phase 2+)
-│   ├── streamlit_app.py
-│   ├── pages/
-│   ├── components/
-│   ├── utils/
-│   └── config.py                     # UI configuration
+│           ├── models.py            # Pydantic schemas
+│           └── llm_client.py
+├── ui/
+│   ├── streamlit_app.py             # 7-tab Streamlit app
+│   └── styles.py                    # CSS
 ├── tests/
-│   ├── unit/
-│   ├── integration/
-│   └── fixtures/
+│   └── eval/                        # Offline evaluation suite (448 tests)
 ├── data/
-│   ├── synthetic/                    # Generated test data
-│   └── documents/                    # Static financial docs
-└── README.md
+│   ├── synthetic/
+│   │   ├── portfolios.json          # Synthetic user portfolios
+│   │   └── price_history.json       # Price history (yfinance, rolling 365d)
+│   └── documents/                   # Seed RAG documents (FOMC, ETF guides)
+└── requirements.txt
 ```

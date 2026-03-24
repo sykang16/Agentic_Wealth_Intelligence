@@ -41,30 +41,63 @@ Agent: "That's helpful! With a long time horizon, you can afford more
 ```
 User: "Should I invest in tech stocks?"
 System: 
-- Considers: Your conservative risk profile + 30-year horizon + 
+- Considers: Your conservative risk profile + 30-year horizon +
              current 60% tech allocation
 - Retrieves: Latest FOMC minutes, sector analysis from Vector DB
-- Fetches: Current tech sector performance via MCP
-- Recommends: "Given your already high tech exposure (60%), consider 
-              diversifying. Recent Fed signals suggest rising rates, 
+- Fetches: Current tech sector performance via yfinance (live quotes + news)
+- Recommends: "Given your already high tech exposure (60%), consider
+              diversifying. Recent Fed signals suggest rising rates,
               which historically pressure tech valuations..."
 ```
 
 ## System Architecture
-Multi-Agent Design - This system uses 4 specialized AI agents coordinated by an orchestrator:
+
+**LangGraph Hybrid Supervisor Routing** — the orchestrator uses a two-tier Router (keyword fast-path + LLM fallback) that feeds into a flat outer graph. Recommendation queries are handled by an inner Supervisor subgraph that iteratively gathers portfolio and profile context before calling the engine.
+
+### Outer Orchestrator Graph
 
 ```
-┌─────────────────────────────────────────────────────┐
-│          Orchestrator Agent (Main)                  │
-│  - Routes user queries to appropriate agents        │
-│  - Manages conversation flow                        │
-│  - Aggregates results from multiple agents          │
-└─────────────────────────────────────────────────────┘
-                          ║
-        ╔═════════════════╬═════════════════╗
-        ║                 ║                 ║
-┌───────▼──────┐  ┌──────▼───────┐  ┌─────▼────────┐
-│ Asset Agent  │  │Profile Agent │  │ Advisor Agent│
-│  (Module A)  │  │  (Module B)  │  │  (Module C)  │
-└──────────────┘  └──────────────┘  └──────────────┘
+                 ┌──────────────────────────────────────────────────┐
+     User ──────►│                    Router                        │
+                 │  Tier 1: Keyword match  (fast, no LLM call)      │
+                 │  Tier 2: LLM fallback   (T=0, max_tokens=20)     │
+                 └─────────────────────┬────────────────────────────┘
+                                       │ conditional routing
+       ┌───────────────────────────────┼────────────────┬──────────────────┐
+       │ portfolio_query               │ profiling      │ recommendation   │ general
+       ▼                              ▼                ▼                  ▼
+┌─────────────┐           ┌──────────────┐   ┌──────────────────┐  ┌──────────┐
+│  Portfolio  │           │  Profiling   │   │    Recommend     │  │ General  │
+│  Module A   │           │   Module B   │   │  [Subgraph]      │  │  (LLM)   │
+│  AssetAgent │           │ slot-filling │   │  Supervisor loop │  │ fallback │
+│  net worth  │           │  13 slots    │   │  Portfolio+Prof  │  │          │
+│  allocation │           │              │   │  +RAG+live data  │  │          │
+└──────┬──────┘           └──────┬───────┘   └────────┬─────────┘  └────┬─────┘
+       └─────────────────────────┴───────────────────┴─────────────────┘
+                                                       │
+                                              ┌────────▼────────┐
+                                              │     Respond     │
+                                              │ append history  │──► END
+                                              └─────────────────┘
+```
+
+### Recommendation Supervisor Subgraph
+
+Embedded as the `recommend` node in the outer graph. The Supervisor iteratively decides which context to gather before calling the engine.
+
+```
+  outer state ──► Supervisor (LLM decision · guard: steps <= 5)
+                       │                  │                 │
+               portfolio_fetch    profiling_fetch    recommend synthesis
+               AssetAgent         ProfilingAgent     enriched query
+               .process()         .get_profile_      + RAG (ChromaDB)
+                                  summary()          + live data (MCP
+                                                       -> yfinance)
+                       └──────────────────┴─────────────────┘
+                                   loops back to Supervisor
+                                               │
+                                          finish (steps >= 5
+                                          or context complete)
+                                               │
+                                        outer Respond node
 ```

@@ -3,42 +3,60 @@
 ## Dependencies
 ```txt
 # Core
-python>=3.11
+python>=3.12
 anthropic>=0.40.0
 langgraph>=0.2.0
 langchain>=0.3.0
+langchain-anthropic>=0.3.0
 pydantic>=2.0.0
+pydantic-settings>=2.0.0
 
 # Data & Vector DB
-chromadb>=0.5.0  # or pinecone-client
+chromadb>=0.5.0
 sentence-transformers>=2.0.0
 
-# Visualization
-plotly>=5.0.0
+# MCP (Model Context Protocol)
+mcp>=1.0.0
+fastmcp>=0.1.0
+
+# Market Data (no API key required — accessed via MarketMCPServer)
+yfinance>=0.2.40
+
+# HTTP
+httpx>=0.27.0
+
+# Visualization / UI
+streamlit>=1.40.0
+plotly>=5.24.0
+altair>=5.4.0
 pandas>=2.0.0
 
-# MCP (if available)
-mcp-sdk  # Check for official package
+# API
+fastapi>=0.110.0
+uvicorn>=0.27.0
 
 # Testing
 pytest>=8.0.0
-pytest-asyncio>=0.23.0
-pytest-cov>=4.0.0
+pytest-asyncio>=0.24.0
+pytest-cov>=5.0.0
 
 # Development
 python-dotenv>=1.0.0
+faker>=30.0.0
 black>=24.0.0
-ruff>=0.0.292
+ruff>=0.6.0
 ```
 
 ## Environment Variables
 ```bash
 # .env.example
-ANTHROPIC_API_KEY=your_api_key_here
-VECTOR_DB_TYPE=chroma  # or pinecone
-CHROMA_PATH=./data/chroma
+ANTHROPIC_API_KEY=your_api_key_here        # Required
+CHROMA_PATH=./data/chroma                  # Optional (default: ./data/chroma)
 LOG_LEVEL=INFO
-ENABLE_SYNTHETIC_DATA=true
+
+# Optional data collectors (features work without these via yfinance)
+ALPHA_VANTAGE_API_KEY=your_key_here        # Enables "Collect News" in Knowledge Search
+NEWS_API_KEY=your_key_here                 # Enables NewsAPI news collection
 ```
 
 ## Development Setup
@@ -59,8 +77,8 @@ ENABLE_SYNTHETIC_DATA=true
 - Mock external APIs
 
 ## Async/Await
-- Use async/await for all I/O operations
-- API calls, database queries, LLM calls must be async
+- LLM calls use async/await (LangGraph nodes)
+- yfinance and ChromaDB operations are synchronous — do not wrap in asyncio.run() inside Streamlit
 
 ## Error Handling
 - Comprehensive try/catch blocks
@@ -136,11 +154,11 @@ class SyntheticAPIGenerator:
 ### Technical Risks
 - **LLM API Rate Limits**: Implement caching and request batching
 - **Vector DB Performance**: Monitor query latency, optimize indices
-- **MCP Server Downtime**: Implement fallback mechanisms
+- **yfinance Availability**: yfinance may throttle or return empty data for some symbols
 - **Data Quality**: Validate synthetic data realism
 
 ### Mitigation Strategies
-- Comprehensive error handling
-- Retry logic with exponential backoff
-- Graceful degradation (work without MCP if needed)
-- Extensive testing with edge cases
+- Comprehensive error handling with per-symbol try/except in price fetching
+- Retry logic with exponential backoff for LLM calls
+- Graceful degradation: recommendations work without live data (`include_live_data=False`)
+- Extensive testing with edge cases (448 offline eval tests)

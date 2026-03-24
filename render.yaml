@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: agentic-wealth-intelligence
+    env: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run ui/streamlit_app.py --server.port=$PORT --server.address=0.0.0.0
+    envVars:
+      # LLM providers — ANTHROPIC_API_KEY is required; others enable additional model choices
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      # Optional data collectors
+      - key: ALPHA_VANTAGE_API_KEY
+        sync: false
+      - key: NEWS_API_KEY
+        sync: false
+      - key: SEC_USER_AGENT
+        sync: false
+      - key: LANGSMITH_API_KEY
+        sync: false
