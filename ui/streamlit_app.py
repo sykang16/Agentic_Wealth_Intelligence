@@ -368,7 +368,7 @@ def render_dashboard(aggregator: PortfolioAggregator, user_id: str):
             unsafe_allow_html=True
         )
         fig = viz.create_asset_allocation_pie(summary.allocation_by_asset_type)
-        st.plotly_chart(fig, use_container_width=True, key="dash_allocation_pie")
+        st.plotly_chart(fig, width='stretch', key="dash_allocation_pie")
 
     with col2:
         st.markdown(
@@ -376,7 +376,7 @@ def render_dashboard(aggregator: PortfolioAggregator, user_id: str):
             unsafe_allow_html=True
         )
         fig = viz.create_net_worth_breakdown(portfolio)
-        st.plotly_chart(fig, use_container_width=True, key="dash_net_worth")
+        st.plotly_chart(fig, width='stretch', key="dash_net_worth")
 
     # Holdings section
     st.markdown("---")
@@ -387,7 +387,7 @@ def render_dashboard(aggregator: PortfolioAggregator, user_id: str):
 
     top_holdings = aggregator.get_top_holdings(user_id, 10)
     fig = viz.create_holdings_bar(top_holdings, by="value", title="Top 10 Holdings by Value")
-    st.plotly_chart(fig, use_container_width=True, key="dash_top_holdings")
+    st.plotly_chart(fig, width='stretch', key="dash_top_holdings")
 
 
 def render_chat_interface(aggregator: PortfolioAggregator, user_id: str, available_providers: list):
@@ -502,7 +502,7 @@ def render_chat_interface(aggregator: PortfolioAggregator, user_id: str, availab
             st.markdown(f"**You:** {message['query']}")
             st.markdown(f"**Assistant:** {message['answer']}")
             if message.get("visualization"):
-                st.plotly_chart(message["visualization"], use_container_width=True, key=f"chat_viz_{i}")
+                st.plotly_chart(message["visualization"], width='stretch', key=f"chat_viz_{i}")
             st.markdown("---")
     else:
         st.markdown(
@@ -534,7 +534,7 @@ def render_holdings_view(aggregator: PortfolioAggregator, user_id: str):
 
     # Sector bar chart
     fig = viz.create_holdings_by_sector(portfolio.holdings)
-    st.plotly_chart(fig, use_container_width=True, key="portfolio_sector")
+    st.plotly_chart(fig, width='stretch', key="portfolio_sector")
 
     st.markdown("---")
 
@@ -544,7 +544,7 @@ def render_holdings_view(aggregator: PortfolioAggregator, user_id: str):
         unsafe_allow_html=True
     )
     fig = viz.create_gain_loss_chart(portfolio.holdings)
-    st.plotly_chart(fig, use_container_width=True, key="portfolio_gain_loss")
+    st.plotly_chart(fig, width='stretch', key="portfolio_gain_loss")
 
     st.markdown("---")
 
@@ -571,7 +571,7 @@ def render_holdings_view(aggregator: PortfolioAggregator, user_id: str):
             }
         )
 
-    st.dataframe(holdings_data, use_container_width=True)
+    st.dataframe(holdings_data, width='stretch')
 
 
 def _yf_symbol(symbol: str, asset_type) -> str:
@@ -739,7 +739,7 @@ def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collecti
                     st.line_chart(df.set_index("Date")["Close Price"])
                     st.dataframe(
                         df.sort_values("Date", ascending=False).reset_index(drop=True),
-                        use_container_width=True,
+                        width='stretch',
                         hide_index=True,
                     )
 
@@ -1573,7 +1573,7 @@ def render_orchestrator_chat(
                 else:
                     st.markdown(f"**Advisor:** {content}")
                 if msg.get("visualization"):
-                    st.plotly_chart(msg["visualization"], use_container_width=True, key=f"advisor_viz_{msg_i}")
+                    st.plotly_chart(msg["visualization"], width='stretch', key=f"advisor_viz_{msg_i}")
     else:
         st.info(
             "Start chatting! Try:\n"
