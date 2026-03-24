@@ -112,20 +112,6 @@ _reindex_event = threading.Event()
 _reindex_result: dict = {}
 
 
-def _warmup_embedding_model() -> None:
-    """Pre-load sentence-transformers into memory so first query has no delay."""
-    try:
-        from sentence_transformers import SentenceTransformer
-        SentenceTransformer("all-MiniLM-L6-v2")
-        logger.info("Embedding model pre-warmed")
-    except Exception:
-        pass  # non-critical — model loads lazily on first query if this fails
-
-
-# Start warmup immediately at import time (daemon thread, ~3s, non-blocking)
-threading.Thread(target=_warmup_embedding_model, daemon=True).start()
-
-
 def _run_rag_init_background(rag: "RAGInitializer") -> None:
     global _rag_index_result
     logger.info("RAG indexing started in background thread")
