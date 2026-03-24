@@ -91,19 +91,20 @@ def load_data():
 
 @st.cache_resource
 def initialize_rag_system():
-    """Initialize and cache the RAG system with sample documents.
-
-    This runs once at app startup and indexes sample financial documents
-    if the vector store is empty.
-    """
+    """Create RAG objects at startup (fast — no document indexing yet)."""
     persist_dir = str(project_root / "data" / "chroma")
     rag = RAGInitializer(persist_directory=persist_dir)
-    result = rag.initialize_with_sample_documents()
-
-    # Create collection manager for real data collection
     collection_manager = DataCollectionManager(rag_initializer=rag)
+    return rag, collection_manager
 
-    return rag, result, collection_manager
+
+@st.cache_resource
+def ensure_rag_indexed(_rag: RAGInitializer):
+    """Index sample documents if not already done (lazy, runs once).
+
+    The leading underscore tells Streamlit not to hash this argument.
+    """
+    return _rag.initialize_with_sample_documents()
 
 
 def create_agent(aggregator: PortfolioAggregator, provider: LLMProvider) -> AssetAgent:
@@ -558,6 +559,9 @@ def render_live_data_section(aggregator: PortfolioAggregator, user_id: str):
 
 def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collection_manager: DataCollectionManager, aggregator: PortfolioAggregator = None, user_id: str = None):
     """Render the RAG-based knowledge search interface."""
+    with st.spinner("Initializing knowledge base..."):
+        rag_init_result = ensure_rag_indexed(rag)
+
     st.markdown(
         f'{render_section_title("Financial Knowledge Search", "book-open")}',
         unsafe_allow_html=True
@@ -1134,6 +1138,9 @@ def render_recommendations_tab(
         RecommendationCategory,
     )
 
+    with st.spinner("Initializing knowledge base..."):
+        rag_init_result = ensure_rag_indexed(rag_system)
+
     st.markdown(
         f'{render_section_title("Personalized Recommendations", "target")}',
         unsafe_allow_html=True,
@@ -1567,9 +1574,9 @@ def main():
         )
         return
 
-    # Initialize RAG system (runs once at startup, indexes sample documents if empty)
-    with st.spinner("Initializing knowledge base..."):
-        rag_system, rag_init_result, collection_manager = initialize_rag_system()
+    # Create RAG objects (fast — document indexing is deferred to first tab access)
+    rag_system, collection_manager = initialize_rag_system()
+    rag_init_result = None
 
     # Sidebar (must run before get_available_providers so user-entered keys are in os.environ)
     selected_user = render_sidebar(aggregator)
