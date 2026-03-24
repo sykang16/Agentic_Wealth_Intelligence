@@ -195,7 +195,7 @@ def render_sidebar(aggregator: PortfolioAggregator):
     ]
 
     for ex, desc in examples:
-        if st.sidebar.button(ex, key=f"ex_{ex}", use_container_width=True, help=desc):
+        if st.sidebar.button(ex, key=f"ex_{ex}", width='stretch', help=desc):
             st.session_state.selected_query = ex
 
     # API keys — enter any one to use the app
@@ -377,7 +377,7 @@ def render_chat_interface(aggregator: PortfolioAggregator, user_id: str, availab
                 label_visibility="collapsed",
             )
         with col3:
-            submit = st.form_submit_button("Send", type="primary", use_container_width=True)
+            submit = st.form_submit_button("Send", type="primary", width='stretch')
 
     selected_provider = available_providers[selected_idx]["provider"]
     selected_model = available_providers[selected_idx]["model"]
@@ -606,7 +606,7 @@ def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collecti
 
         col_status, col_btn = st.columns([3, 1])
         with col_btn:
-            do_update = st.button("Update Prices", key="update_prices_btn", type="primary", use_container_width=True)
+            do_update = st.button("Update Prices", key="update_prices_btn", type="primary", width='stretch')
 
         if do_update:
             progress_bar = st.progress(0, text="Starting...")
@@ -668,7 +668,7 @@ def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collecti
                     st.line_chart(df.set_index("Date")["Close Price"])
                     st.dataframe(
                         df.sort_values("Date", ascending=False).reset_index(drop=True),
-                        use_container_width=True,
+                        width='stretch',
                         hide_index=True,
                     )
 
@@ -740,7 +740,7 @@ def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collecti
             col1, col2, col3 = st.columns(3)
 
             with col1:
-                if st.button("Collect News", key="collect_news_btn", use_container_width=True,
+                if st.button("Collect News", key="collect_news_btn", width='stretch',
                            disabled="alpha_vantage" not in configured and "news_api" not in configured):
                     with st.spinner("Collecting financial news..."):
                         result = collection_manager.collect_news()
@@ -750,7 +750,7 @@ def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collecti
                             st.error(f"Collection failed: {result.errors}")
 
             with col2:
-                if st.button("Collect ETF Data", key="collect_etf_btn", use_container_width=True):
+                if st.button("Collect ETF Data", key="collect_etf_btn", width='stretch'):
                     with st.spinner("Collecting ETF data..."):
                         result = collection_manager.collect_etf_data()
                         if result.is_success:
@@ -759,7 +759,7 @@ def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collecti
                             st.error(f"Collection failed: {result.errors}")
 
             with col3:
-                if st.button("Collect SEC Filings", key="collect_sec_btn", use_container_width=True,
+                if st.button("Collect SEC Filings", key="collect_sec_btn", width='stretch',
                            disabled="sec_edgar" not in configured):
                     with st.spinner("Collecting SEC filings..."):
                         result = collection_manager.collect_sec_filings()
@@ -770,7 +770,7 @@ def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collecti
 
             # Collect all button
             st.markdown("---")
-            if st.button("Collect All Available Data", key="collect_all_btn", type="primary", use_container_width=True):
+            if st.button("Collect All Available Data", key="collect_all_btn", type="primary", width='stretch'):
                 with st.spinner("Collecting data from all sources..."):
                     result = collection_manager.collect_all()
                     if result.is_success:
@@ -786,7 +786,7 @@ def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collecti
             st.markdown("---")
             col_clean, col_info = st.columns([1, 2])
             with col_clean:
-                if st.button("Cleanup Expired Documents", key="cleanup_btn", use_container_width=True):
+                if st.button("Cleanup Expired Documents", key="cleanup_btn", width='stretch'):
                     removed = collection_manager.cleanup_expired()
                     st.info(f"Removed {removed} expired document chunks")
             with col_info:
@@ -825,7 +825,7 @@ Click **Cleanup Expired Documents** to physically remove them from the index.
         "Retirement planning strategies",
     ]
     for col, query in zip(example_cols, example_queries):
-        if col.button(query, key=f"rag_ex_{query}", use_container_width=True):
+        if col.button(query, key=f"rag_ex_{query}", width='stretch'):
             st.session_state.rag_selected_query = query
 
     # Check for selected example query
@@ -844,7 +844,7 @@ Click **Cleanup Expired Documents** to physically remove them from the index.
         with col2:
             top_k = st.selectbox("Results", [3, 5, 10], index=1, label_visibility="collapsed")
         with col3:
-            search_btn = st.form_submit_button("Search", type="primary", use_container_width=True)
+            search_btn = st.form_submit_button("Search", type="primary", width='stretch')
 
     # Determine if we should search (form submit OR example query clicked)
     search_query = None
@@ -1107,7 +1107,7 @@ def render_profiling_interface(aggregator: PortfolioAggregator, user_id: str, av
                 label_visibility="collapsed",
             )
         with col_send:
-            submit = st.form_submit_button("Send", type="primary", use_container_width=True)
+            submit = st.form_submit_button("Send", type="primary", width='stretch')
 
     # Auto-focus the input box after each response
     if st.session_state.get("profiling_focus_input"):
@@ -1183,7 +1183,7 @@ def render_recommendations_tab(
                 label_visibility="collapsed",
             )
         with col_btn:
-            submit = st.form_submit_button("Generate Recommendations", type="primary", use_container_width=True)
+            submit = st.form_submit_button("Generate Recommendations", type="primary", width='stretch')
 
         col1, col2, col3 = st.columns([2, 1, 1])
         with col1:
@@ -1420,7 +1420,7 @@ def render_orchestrator_chat(
                 label_visibility="collapsed",
             )
         with col2:
-            submit = st.form_submit_button("Send", type="primary", use_container_width=True)
+            submit = st.form_submit_button("Send", type="primary", width='stretch')
 
     # Live data toggle (outside form so it persists across submits)
     use_live_data = st.toggle(
