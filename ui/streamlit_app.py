@@ -3,6 +3,8 @@
 import logging
 import os
 import sys
+import threading
+import time
 import warnings
 from datetime import datetime
 from pathlib import Path
@@ -89,22 +91,39 @@ def load_data():
     return aggregator
 
 
+# Background RAG initialisation — avoids blocking the WebSocket during indexing
+_rag_ready = threading.Event()
+_rag_index_result: dict = {}
+
+
+def _run_rag_init_background(rag: "RAGInitializer") -> None:
+    global _rag_index_result
+    try:
+        _rag_index_result = rag.initialize_with_sample_documents()
+    except Exception as e:
+        _rag_index_result = {"action": "failed", "error": str(e)}
+    finally:
+        _rag_ready.set()
+
+
 @st.cache_resource
 def initialize_rag_system():
-    """Create RAG objects at startup (fast — no document indexing yet)."""
+    """Create RAG objects and kick off background indexing (fast startup)."""
     persist_dir = str(project_root / "data" / "chroma")
     rag = RAGInitializer(persist_directory=persist_dir)
     collection_manager = DataCollectionManager(rag_initializer=rag)
+    t = threading.Thread(target=_run_rag_init_background, args=(rag,), daemon=True)
+    t.start()
     return rag, collection_manager
 
 
-@st.cache_resource
-def ensure_rag_indexed(_rag: RAGInitializer):
-    """Index sample documents if not already done (lazy, runs once).
-
-    The leading underscore tells Streamlit not to hash this argument.
-    """
-    return _rag.initialize_with_sample_documents()
+def ensure_rag_indexed() -> dict:
+    """Wait for background RAG init, polling with st.rerun() to keep WebSocket alive."""
+    if not _rag_ready.is_set():
+        st.info("Initializing knowledge base... this may take up to 30 seconds on first load.")
+        time.sleep(2)
+        st.rerun()
+    return _rag_index_result
 
 
 def create_agent(aggregator: PortfolioAggregator, provider: LLMProvider) -> AssetAgent:
@@ -559,8 +578,7 @@ def render_live_data_section(aggregator: PortfolioAggregator, user_id: str):
 
 def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collection_manager: DataCollectionManager, aggregator: PortfolioAggregator = None, user_id: str = None):
     """Render the RAG-based knowledge search interface."""
-    with st.spinner("Initializing knowledge base..."):
-        rag_init_result = ensure_rag_indexed(rag)
+    rag_init_result = ensure_rag_indexed()
 
     st.markdown(
         f'{render_section_title("Financial Knowledge Search", "book-open")}',
@@ -1138,8 +1156,7 @@ def render_recommendations_tab(
         RecommendationCategory,
     )
 
-    with st.spinner("Initializing knowledge base..."):
-        rag_init_result = ensure_rag_indexed(rag_system)
+    rag_init_result = ensure_rag_indexed()
 
     st.markdown(
         f'{render_section_title("Personalized Recommendations", "target")}',
@@ -1574,9 +1591,8 @@ def main():
         )
         return
 
-    # Create RAG objects (fast — document indexing is deferred to first tab access)
+    # Create RAG objects and start background indexing (non-blocking)
     rag_system, collection_manager = initialize_rag_system()
-    rag_init_result = None
 
     # Sidebar (must run before get_available_providers so user-entered keys are in os.environ)
     selected_user = render_sidebar(aggregator)
@@ -1636,7 +1652,7 @@ def main():
             )
 
     with tab6:
-        render_knowledge_search(rag_system, rag_init_result, collection_manager, aggregator, selected_user)
+        render_knowledge_search(rag_system, None, collection_manager, aggregator, selected_user)
 
     with tab7:
         render_holdings_view(aggregator, selected_user)
