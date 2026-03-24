@@ -243,7 +243,7 @@ def render_sidebar(aggregator: PortfolioAggregator):
     ]
 
     for ex, desc in examples:
-        if st.sidebar.button(ex, key=f"ex_{ex}", width='stretch', help=desc):
+        if st.sidebar.button(ex, key=f"ex_{ex}", help=desc):
             st.session_state.selected_query = ex
 
     # API keys — enter any one to use the app
@@ -677,7 +677,7 @@ def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collecti
 
         col_status, col_btn = st.columns([3, 1])
         with col_btn:
-            do_update = st.button("Update Prices", key="update_prices_btn", type="primary", width='stretch')
+            do_update = st.button("Update Prices", key="update_prices_btn", type="primary")
 
         if do_update:
             progress_bar = st.progress(0, text="Starting...")
@@ -739,7 +739,7 @@ def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collecti
                     st.line_chart(df.set_index("Date")["Close Price"])
                     st.dataframe(
                         df.sort_values("Date", ascending=False).reset_index(drop=True),
-                        width='stretch',
+                        use_container_width=True,
                         hide_index=True,
                     )
 
@@ -826,7 +826,7 @@ def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collecti
             col1, col2, col3 = st.columns(3)
 
             with col1:
-                if st.button("Collect News", key="collect_news_btn", width='stretch',
+                if st.button("Collect News", key="collect_news_btn",
                            disabled="alpha_vantage" not in configured and "news_api" not in configured):
                     with st.spinner("Collecting financial news..."):
                         result = collection_manager.collect_news()
@@ -836,7 +836,7 @@ def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collecti
                             st.error(f"Collection failed: {result.errors}")
 
             with col2:
-                if st.button("Collect ETF Data", key="collect_etf_btn", width='stretch'):
+                if st.button("Collect ETF Data", key="collect_etf_btn"):
                     with st.spinner("Collecting ETF data..."):
                         result = collection_manager.collect_etf_data()
                         if result.is_success:
@@ -845,7 +845,7 @@ def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collecti
                             st.error(f"Collection failed: {result.errors}")
 
             with col3:
-                if st.button("Collect SEC Filings", key="collect_sec_btn", width='stretch',
+                if st.button("Collect SEC Filings", key="collect_sec_btn",
                            disabled="sec_edgar" not in configured):
                     with st.spinner("Collecting SEC filings..."):
                         result = collection_manager.collect_sec_filings()
@@ -856,7 +856,7 @@ def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collecti
 
             # Collect all button
             st.markdown("---")
-            if st.button("Collect All Available Data", key="collect_all_btn", type="primary", width='stretch'):
+            if st.button("Collect All Available Data", key="collect_all_btn", type="primary"):
                 with st.spinner("Collecting data from all sources..."):
                     result = collection_manager.collect_all()
                     if result.is_success:
@@ -872,7 +872,7 @@ def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collecti
             st.markdown("---")
             col_clean, col_info = st.columns([1, 2])
             with col_clean:
-                if st.button("Cleanup Expired Documents", key="cleanup_btn", width='stretch'):
+                if st.button("Cleanup Expired Documents", key="cleanup_btn"):
                     removed = collection_manager.cleanup_expired()
                     st.info(f"Removed {removed} expired document chunks")
             with col_info:
@@ -911,7 +911,7 @@ Click **Cleanup Expired Documents** to physically remove them from the index.
         "Retirement planning strategies",
     ]
     for col, query in zip(example_cols, example_queries):
-        if col.button(query, key=f"rag_ex_{query}", width='stretch'):
+        if col.button(query, key=f"rag_ex_{query}"):
             st.session_state.rag_selected_query = query
 
     # Check for selected example query
