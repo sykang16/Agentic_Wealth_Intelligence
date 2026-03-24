@@ -238,6 +238,20 @@ def render_sidebar(aggregator: PortfolioAggregator):
         if anthropic_key or openai_key or gemini_key:
             st.success("Key(s) active for this session.")
 
+    # --- Debug Info ---
+    st.sidebar.markdown("---")
+    with st.sidebar.expander("Debug Info", expanded=False):
+        import streamlit as _st
+        import sys as _sys
+        st.caption(f"Streamlit: {_st.__version__}")
+        st.caption(f"Python: {_sys.version.split()[0]}")
+        st.caption(f"RAG ready: {_rag_ready.is_set()}")
+        last_err = st.session_state.get("last_ui_error")
+        if last_err:
+            st.error(f"Last error: {last_err}")
+        else:
+            st.caption("No errors recorded.")
+
     return selected_user
 
 
@@ -377,7 +391,7 @@ def render_chat_interface(aggregator: PortfolioAggregator, user_id: str, availab
                 label_visibility="collapsed",
             )
         with col3:
-            submit = st.form_submit_button("Send", type="primary", width='stretch')
+            submit = st.form_submit_button("Send", type="primary")
 
     selected_provider = available_providers[selected_idx]["provider"]
     selected_model = available_providers[selected_idx]["model"]
@@ -403,7 +417,14 @@ def render_chat_interface(aggregator: PortfolioAggregator, user_id: str, availab
 
         # Get response
         with st.spinner(f"Processing with {selected_model}..."):
-            response = agent.process(user_id, query)
+            try:
+                response = agent.process(user_id, query)
+            except Exception as e:
+                analyzing_placeholder.empty()
+                logging.exception("agent.process failed")
+                st.error(f"Error processing query: {e}")
+                st.session_state["last_ui_error"] = str(e)
+                return
 
         # Clear the analyzing message
         analyzing_placeholder.empty()
@@ -844,7 +865,7 @@ Click **Cleanup Expired Documents** to physically remove them from the index.
         with col2:
             top_k = st.selectbox("Results", [3, 5, 10], index=1, label_visibility="collapsed")
         with col3:
-            search_btn = st.form_submit_button("Search", type="primary", width='stretch')
+            search_btn = st.form_submit_button("Search", type="primary")
 
     # Determine if we should search (form submit OR example query clicked)
     search_query = None
@@ -1107,7 +1128,7 @@ def render_profiling_interface(aggregator: PortfolioAggregator, user_id: str, av
                 label_visibility="collapsed",
             )
         with col_send:
-            submit = st.form_submit_button("Send", type="primary", width='stretch')
+            submit = st.form_submit_button("Send", type="primary")
 
     # Auto-focus the input box after each response
     if st.session_state.get("profiling_focus_input"):
@@ -1183,7 +1204,7 @@ def render_recommendations_tab(
                 label_visibility="collapsed",
             )
         with col_btn:
-            submit = st.form_submit_button("Generate Recommendations", type="primary", width='stretch')
+            submit = st.form_submit_button("Generate Recommendations", type="primary")
 
         col1, col2, col3 = st.columns([2, 1, 1])
         with col1:
@@ -1420,7 +1441,7 @@ def render_orchestrator_chat(
                 label_visibility="collapsed",
             )
         with col2:
-            submit = st.form_submit_button("Send", type="primary", width='stretch')
+            submit = st.form_submit_button("Send", type="primary")
 
     # Live data toggle (outside form so it persists across submits)
     use_live_data = st.toggle(
@@ -1545,7 +1566,9 @@ def render_orchestrator_chat(
                     except Exception:
                         pass  # logging failure must not break UI
                 except Exception as e:
+                    logging.exception("orchestrator.process_message failed")
                     st.error(f"Error: {e}")
+                    st.session_state["last_ui_error"] = str(e)
             st.rerun()
 
     # Reset button
