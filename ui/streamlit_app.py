@@ -102,10 +102,28 @@ def load_data():
     return aggregator
 
 
-# Background RAG indexing — started on first access, not at app startup
+# RAG state — events reset on each process restart
 _rag_ready = threading.Event()
 _rag_thread_started = threading.Event()
 _rag_index_result: dict = {}
+
+# Reindex state
+_reindex_event = threading.Event()
+_reindex_result: dict = {}
+
+
+def _warmup_embedding_model() -> None:
+    """Pre-load sentence-transformers into memory so first query has no delay."""
+    try:
+        from sentence_transformers import SentenceTransformer
+        SentenceTransformer("all-MiniLM-L6-v2")
+        logger.info("Embedding model pre-warmed")
+    except Exception:
+        pass  # non-critical — model loads lazily on first query if this fails
+
+
+# Start warmup immediately at import time (daemon thread, ~3s, non-blocking)
+threading.Thread(target=_warmup_embedding_model, daemon=True).start()
 
 
 def _run_rag_init_background(rag: "RAGInitializer") -> None:
@@ -121,6 +139,18 @@ def _run_rag_init_background(rag: "RAGInitializer") -> None:
         _rag_ready.set()
 
 
+def _run_reindex_background(rag: "RAGInitializer") -> None:
+    global _reindex_result
+    try:
+        _reindex_result = rag.initialize_with_sample_documents(force_reindex=True)
+        logger.info("Force reindex complete: %s", _reindex_result)
+    except Exception as e:
+        logger.exception("Force reindex failed")
+        _reindex_result = {"action": "failed", "error": str(e)}
+    finally:
+        _reindex_event.set()
+
+
 @st.cache_resource
 def initialize_rag_system():
     """Create RAG objects at startup — no heavy work, no background thread yet."""
@@ -132,12 +162,23 @@ def initialize_rag_system():
 
 
 def ensure_rag_indexed() -> dict:
-    """Start background indexing on first call; poll with st.rerun() until done."""
-    # Start the thread exactly once (first time a RAG tab is opened)
-    if not _rag_thread_started.is_set():
+    """Return immediately if pre-built ChromaDB exists; otherwise start background thread."""
+    global _rag_index_result
+
+    # Fast path: pre-built index on disk — mark ready instantly, no thread needed
+    chroma_db = project_root / "data" / "chroma" / "chroma.sqlite3"
+    if chroma_db.exists() and not _rag_thread_started.is_set():
+        _rag_thread_started.set()
+        _rag_index_result = {"action": "skipped", "already_initialized": True,
+                             "documents_indexed": 0, "chunks_created": 0}
+        _rag_ready.set()
+        logger.info("RAG index already exists, skipping background thread")
+
+    # Slow path: no pre-built index found — start background thread
+    elif not _rag_thread_started.is_set():
         _rag_thread_started.set()
         rag, _ = initialize_rag_system()
-        logger.info("Starting RAG background thread on first tab access")
+        logger.info("Starting RAG background thread (no pre-built index found)")
         t = threading.Thread(target=_run_rag_init_background, args=(rag,), daemon=True)
         t.start()
 
@@ -741,12 +782,27 @@ def render_knowledge_search(rag: RAGInitializer, rag_init_result: dict, collecti
         elif rag_init_result["action"] == "skipped":
             st.info("Using existing indexed documents.")
 
-        # Reindex button
-        if st.button("Reindex Sample Documents", key="reindex_btn"):
-            with st.spinner("Reindexing documents..."):
-                result = rag.initialize_with_sample_documents(force_reindex=True)
-                st.success(f"Reindexed {result['documents_indexed']} documents ({result['chunks_created']} chunks)")
+        # Reindex button — runs in background thread to avoid blocking WebSocket
+        reindexing = st.session_state.get("reindexing", False)
+        if reindexing:
+            if not _reindex_event.is_set():
+                st.info("Reindexing documents... please wait.")
+                time.sleep(2)
                 st.rerun()
+            else:
+                r = _reindex_result
+                if r.get("action") == "failed":
+                    st.error(f"Reindex failed: {r.get('error')}")
+                else:
+                    st.success(f"Reindexed {r['documents_indexed']} documents ({r['chunks_created']} chunks)")
+                st.session_state["reindexing"] = False
+                _reindex_event.clear()
+
+        if not reindexing and st.button("Reindex Sample Documents", key="reindex_btn"):
+            _reindex_event.clear()
+            threading.Thread(target=_run_reindex_background, args=(rag,), daemon=True).start()
+            st.session_state["reindexing"] = True
+            st.rerun()
 
     # Data Collection Section
     with st.expander("Collect Real Financial Data", expanded=False):
