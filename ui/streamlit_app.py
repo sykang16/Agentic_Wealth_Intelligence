@@ -9,12 +9,23 @@ import warnings
 from datetime import datetime
 from pathlib import Path
 
-# Suppress noisy TensorFlow/PyTorch deprecation warnings
+# Structured logging to stdout so output is visible in Render log viewer
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+    handlers=[logging.StreamHandler(sys.stdout)],
+    force=True,
+)
+logger = logging.getLogger("wealth_ui")
+
+# Suppress noisy third-party warnings
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 logging.getLogger("tensorflow").setLevel(logging.ERROR)
+logging.getLogger("torch").setLevel(logging.ERROR)
+logging.getLogger("sentence_transformers").setLevel(logging.WARNING)
+logging.getLogger("chromadb").setLevel(logging.WARNING)
 warnings.filterwarnings("ignore", message=".*tf\\..*is deprecated.*")
 warnings.filterwarnings("ignore", message=".*torch\\.classes.*")
-logging.getLogger("torch").setLevel(logging.ERROR)
 
 # Add project root to path
 project_root = Path(__file__).parent.parent
@@ -91,16 +102,20 @@ def load_data():
     return aggregator
 
 
-# Background RAG initialisation — avoids blocking the WebSocket during indexing
+# Background RAG indexing — started on first access, not at app startup
 _rag_ready = threading.Event()
+_rag_thread_started = threading.Event()
 _rag_index_result: dict = {}
 
 
 def _run_rag_init_background(rag: "RAGInitializer") -> None:
     global _rag_index_result
+    logger.info("RAG indexing started in background thread")
     try:
         _rag_index_result = rag.initialize_with_sample_documents()
+        logger.info("RAG indexing complete: %s", _rag_index_result)
     except Exception as e:
+        logger.exception("RAG indexing failed")
         _rag_index_result = {"action": "failed", "error": str(e)}
     finally:
         _rag_ready.set()
@@ -108,17 +123,24 @@ def _run_rag_init_background(rag: "RAGInitializer") -> None:
 
 @st.cache_resource
 def initialize_rag_system():
-    """Create RAG objects and kick off background indexing (fast startup)."""
+    """Create RAG objects at startup — no heavy work, no background thread yet."""
+    logger.info("Initializing RAG system objects")
     persist_dir = str(project_root / "data" / "chroma")
     rag = RAGInitializer(persist_directory=persist_dir)
     collection_manager = DataCollectionManager(rag_initializer=rag)
-    t = threading.Thread(target=_run_rag_init_background, args=(rag,), daemon=True)
-    t.start()
     return rag, collection_manager
 
 
 def ensure_rag_indexed() -> dict:
-    """Wait for background RAG init, polling with st.rerun() to keep WebSocket alive."""
+    """Start background indexing on first call; poll with st.rerun() until done."""
+    # Start the thread exactly once (first time a RAG tab is opened)
+    if not _rag_thread_started.is_set():
+        _rag_thread_started.set()
+        rag, _ = initialize_rag_system()
+        logger.info("Starting RAG background thread on first tab access")
+        t = threading.Thread(target=_run_rag_init_background, args=(rag,), daemon=True)
+        t.start()
+
     if not _rag_ready.is_set():
         st.info("Initializing knowledge base... this may take up to 30 seconds on first load.")
         time.sleep(2)
@@ -416,12 +438,14 @@ def render_chat_interface(aggregator: PortfolioAggregator, user_id: str, availab
         analyzing_placeholder.info(f"**Analyzing:** {query}")
 
         # Get response
+        logger.info("Portfolio query: user=%s model=%s query=%r", user_id, selected_model, query[:80])
         with st.spinner(f"Processing with {selected_model}..."):
             try:
                 response = agent.process(user_id, query)
+                logger.info("Portfolio query complete")
             except Exception as e:
                 analyzing_placeholder.empty()
-                logging.exception("agent.process failed")
+                logger.exception("agent.process failed")
                 st.error(f"Error processing query: {e}")
                 st.session_state["last_ui_error"] = str(e)
                 return
@@ -1538,6 +1562,7 @@ def render_orchestrator_chat(
             st.session_state.orchestrator_last_input = None
         else:
             pending_msg_container.markdown(f"**You:** {current_input}")
+            logger.info("Advisor query: user=%s query=%r", user_id, current_input[:80])
             with st.spinner("Advisor is thinking..."):
                 try:
                     updated_state = orchestrator.process_message(
@@ -1566,7 +1591,7 @@ def render_orchestrator_chat(
                     except Exception:
                         pass  # logging failure must not break UI
                 except Exception as e:
-                    logging.exception("orchestrator.process_message failed")
+                    logger.exception("orchestrator.process_message failed")
                     st.error(f"Error: {e}")
                     st.session_state["last_ui_error"] = str(e)
             st.rerun()
