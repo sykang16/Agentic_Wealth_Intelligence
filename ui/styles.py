@@ -236,6 +236,24 @@ MAIN_CSS = """
         min-height: 48px;
     }
 
+    /* Streamlit 1.55: hide Material icon text in expander (keyboard_arrow_down leaks as text) */
+    [data-testid="stExpander"] [data-testid="stIconMaterial"] {
+        display: none !important;
+    }
+
+    /* Replace with CSS-only arrow */
+    [data-testid="stExpander"] details > summary::before {
+        content: '▶';
+        font-size: 0.75rem;
+        color: #64748b;
+        margin-right: 0.4rem;
+        display: inline-block;
+        transition: transform 0.2s ease;
+    }
+    [data-testid="stExpander"] details[open] > summary::before {
+        transform: rotate(90deg);
+    }
+
     /* ============================================
        BUTTON STYLING
        ============================================ */

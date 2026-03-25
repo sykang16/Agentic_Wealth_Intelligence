@@ -83,6 +83,7 @@ st.set_page_config(
 st.markdown(MAIN_CSS, unsafe_allow_html=True)
 
 
+
 @st.cache_resource
 def get_ui_log_repository():
     """Get a cached LogRepository for the Streamlit UI."""
@@ -285,20 +286,6 @@ def render_sidebar(aggregator: PortfolioAggregator):
 
         if anthropic_key or openai_key or gemini_key:
             st.success("Key(s) active for this session.")
-
-    # --- Debug Info ---
-    st.sidebar.markdown("---")
-    with st.sidebar.expander("Debug Info", expanded=False):
-        import streamlit as _st
-        import sys as _sys
-        st.caption(f"Streamlit: {_st.__version__}")
-        st.caption(f"Python: {_sys.version.split()[0]}")
-        st.caption(f"RAG ready: {_rag_ready.is_set()}")
-        last_err = st.session_state.get("last_ui_error")
-        if last_err:
-            st.error(f"Last error: {last_err}")
-        else:
-            st.caption("No errors recorded.")
 
     return selected_user
 
@@ -1496,6 +1483,16 @@ def render_orchestrator_chat(
                 note = entry.get("note", "")
                 st.markdown(f"`{ts}` {icon} **{agent}** — {note}")
 
+    # Hint box — shown only when conversation is empty
+    if not orch_state.get("messages"):
+        st.info(
+            "Start chatting! Try:\n"
+            '- "What\'s my net worth?"\n'
+            '- "Help me build my investment profile"\n'
+            '- "What should I invest in?"\n'
+            '- "Hello!"'
+        )
+
     # Input form at the top
     with st.form(key="orchestrator_form", clear_on_submit=True):
         col1, col2 = st.columns([6, 1])
@@ -1519,10 +1516,21 @@ def render_orchestrator_chat(
 
     st.markdown("---")
 
-    # Display conversation history
+    # Display conversation history (newest first — reverse in user+assistant pairs)
     messages = orch_state.get("messages", [])
     if messages:
-        for msg_i, msg in enumerate(messages):
+        # Build display list: group into [user, assistant] pairs, reverse pair order
+        display_messages = []
+        i = len(messages) - 1
+        while i >= 0:
+            if i > 0 and messages[i-1].get("role") == "user" and messages[i].get("role") == "assistant":
+                display_messages.append(messages[i-1])
+                display_messages.append(messages[i])
+                i -= 2
+            else:
+                display_messages.append(messages[i])
+                i -= 1
+        for msg_i, msg in enumerate(display_messages):
             role = msg.get("role", "")
             content = msg.get("content", "")
             if role == "user":
@@ -1574,15 +1582,6 @@ def render_orchestrator_chat(
                     st.markdown(f"**Advisor:** {content}")
                 if msg.get("visualization"):
                     st.plotly_chart(msg["visualization"], width='stretch', key=f"advisor_viz_{msg_i}")
-    else:
-        st.info(
-            "Start chatting! Try:\n"
-            '- "What\'s my net worth?"\n'
-            '- "Help me build my investment profile"\n'
-            '- "What should I invest in?"\n'
-            '- "Hello!"'
-        )
-
     # Placeholder: filled with the user's pending message while advisor is thinking
     pending_msg_container = st.empty()
 
