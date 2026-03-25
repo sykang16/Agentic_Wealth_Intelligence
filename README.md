@@ -1,3 +1,14 @@
+---
+title: Agentic Wealth Intelligence
+emoji: 📈
+colorFrom: blue
+colorTo: purple
+sdk: streamlit
+sdk_version: 1.55.0
+app_file: ui/streamlit_app.py
+pinned: false
+---
+
 # Agentic Wealth Intelligence
 
 AI-powered wealth management system with multi-agent orchestration, conversational profiling, RAG-enhanced recommendations, and real-time market data integration.
