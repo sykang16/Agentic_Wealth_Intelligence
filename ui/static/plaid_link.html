@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Connect Your Account</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      height: 100vh; margin: 0;
+      background: #f8fafc; color: #475569;
+      font-size: 14px; text-align: center; padding: 20px; box-sizing: border-box;
+    }
+    #msg { font-size: 15px; margin-bottom: 8px; }
+    #detail { color: #94a3b8; font-size: 12px; word-break: break-all; max-width: 440px; }
+  </style>
+</head>
+<body>
+  <p id="msg">Loading Plaid...</p>
+  <p id="detail"></p>
+  <script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
+  <script>
+    var params = new URLSearchParams(window.location.search);
+    var token = params.get('token');
+    var exchangeBase = params.get('exchange_base') || window.location.origin;
+    var profileAge = params.get('age');
+    var profileIncome = params.get('income');
+    var profileOcc = params.get('occ');
+    var customUid = params.get('custom_uid') || '';
+
+    var msg = document.getElementById('msg');
+    var detail = document.getElementById('detail');
+
+    function showError(title, body) {
+      msg.style.color = '#dc2626';
+      msg.textContent = title;
+      detail.textContent = body || '';
+    }
+
+    if (!token) {
+      showError('Missing link token.', 'Close this window and try again.');
+    } else {
+      try {
+        var handler = Plaid.create({
+          token: token,
+          onLoad: function() {
+            msg.textContent = 'Plaid Link ready.';
+          },
+          onEvent: function(eventName) {
+            detail.textContent = 'Status: ' + eventName;
+          },
+          onSuccess: function(public_token, metadata) {
+            msg.style.color = '#16a34a';
+            msg.textContent = 'Account connected! Processing...';
+            detail.textContent = 'Exchanging token...';
+            // Navigate this popup to the /exchange endpoint on the background HTTP server.
+            // The server exchanges the token, saves to DB, clears the data cache,
+            // then serves an HTML page that closes this window.
+            var exchangeUrl = exchangeBase + '/exchange'
+              + '?token=' + encodeURIComponent(public_token)
+              + '&age='   + encodeURIComponent(profileAge || '35')
+              + '&income='+ encodeURIComponent(profileIncome || '0')
+              + '&occ='   + encodeURIComponent(profileOcc || '')
+              + '&custom_uid=' + encodeURIComponent(customUid);
+            // Signal opener so it knows to reload on close
+            if (window.opener && !window.opener.closed) {
+              window.opener.postMessage({ type: 'plaid_exchange_done' }, '*');
+            }
+            window.location.href = exchangeUrl;
+          },
+          onExit: function(err, metadata) {
+            if (err) {
+              showError(
+                err.display_message || err.error_code || 'Plaid error',
+                err.error_message || JSON.stringify(err)
+              );
+            } else {
+              msg.textContent = 'Cancelled.';
+              setTimeout(function() { window.close(); }, 800);
+            }
+          }
+        });
+        handler.open();
+      } catch (e) {
+        showError('Plaid.create failed', e.message);
+      }
+    }
+  </script>
+</body>
+</html>

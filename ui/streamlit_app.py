@@ -56,6 +56,13 @@ from backend.src.multi_agent.nodes import conv_state_to_investment_profile
 from backend.src.recommendation.rag import RAGInitializer
 from backend.src.recommendation.collectors import DataCollectionManager
 
+# Register PlaidToken on Base.metadata before any DB engine is created
+try:
+    import backend.src.plaid.token_store as _plaid_token_store_module  # noqa: F401
+    _PLAID_AVAILABLE = True
+except ImportError:
+    _PLAID_AVAILABLE = False
+
 # Import custom styles
 from styles import (
     MAIN_CSS,
@@ -96,11 +103,49 @@ def get_ui_log_repository():
 
 @st.cache_resource
 def load_data():
-    """Load and cache portfolio data."""
+    """Load and cache portfolio data.
+
+    Also registers a PlaidPortfolioSource when PLAID_CLIENT_ID and
+    PLAID_SECRET are present in the environment.
+    """
     data_path = project_root / "data" / "synthetic" / "synthetic_portfolios.json"
     aggregator = PortfolioAggregator(data_path)
     aggregator.load_data()
+
+    # Attach live Plaid source if credentials are available
+    if _PLAID_AVAILABLE and os.environ.get("PLAID_CLIENT_ID") and os.environ.get("PLAID_SECRET"):
+        try:
+            plaid_source = _build_plaid_source()
+            aggregator.register_plaid_source(plaid_source)
+        except Exception as _exc:
+            logger.warning("Could not register Plaid source in UI: %s", _exc)
+
     return aggregator
+
+
+def _build_plaid_source():
+    """Create a PlaidPortfolioSource wired to the local SQLite DB."""
+    from backend.src.logging_db import get_engine, get_session_factory
+    from backend.src.plaid.client import PlaidClient
+    from backend.src.plaid.adapter import PlaidPortfolioAdapter
+    from backend.src.plaid.source import PlaidPortfolioSource
+    from backend.src.plaid.token_store import PlaidTokenRepository
+
+    engine = get_engine()
+    factory = get_session_factory(engine)
+    repo = PlaidTokenRepository(factory)
+    env = os.environ.get("PLAID_ENV", "sandbox")
+    client = PlaidClient(
+        client_id=os.environ["PLAID_CLIENT_ID"],
+        secret=os.environ["PLAID_SECRET"],
+        env=env,
+    )
+    return PlaidPortfolioSource(
+        plaid_client=client,
+        adapter=PlaidPortfolioAdapter(),
+        token_repo=repo,
+        current_env=env,
+    )
 
 
 # RAG state — events reset on each process restart
@@ -189,10 +234,24 @@ def render_sidebar(aggregator: PortfolioAggregator):
     )
 
     user_ids = aggregator.get_user_ids()
+
+    # Collect live Plaid user_ids to correctly label custom-named Plaid users
+    _live_ids: set[str] = set()
+    if aggregator._plaid_source is not None:
+        try:
+            _live_ids = set(aggregator._plaid_source.get_user_ids())
+        except Exception:
+            pass
+
+    def _format_user_id(uid: str) -> str:
+        if uid in _live_ids or uid.startswith("plaid_"):
+            return f"[Live] {uid}"
+        return uid
+
     selected_user = st.sidebar.selectbox(
         "Choose a user portfolio:",
         user_ids,
-        format_func=lambda x: f"{x}",
+        format_func=_format_user_id,
     )
 
     # Show user info
@@ -286,6 +345,31 @@ def render_sidebar(aggregator: PortfolioAggregator):
 
         if anthropic_key or openai_key or gemini_key:
             st.success("Key(s) active for this session.")
+
+    # Admin login section
+    st.sidebar.markdown("---")
+    if not st.session_state.get("is_admin"):
+        with st.sidebar.expander("Admin Login"):
+            admin_pwd = st.text_input(
+                "Admin Password",
+                type="password",
+                key="sidebar_admin_password",
+            )
+            if st.button("Login as Admin", key="sidebar_admin_login"):
+                expected = os.environ.get("ADMIN_PASSWORD", "admin")
+                if admin_pwd == expected:
+                    st.session_state["is_admin"] = True
+                    st.rerun()
+                else:
+                    st.error("Incorrect password.")
+    else:
+        st.sidebar.markdown(
+            '<p style="font-size: 0.85rem; color: #16a34a;">Admin session active</p>',
+            unsafe_allow_html=True,
+        )
+        if st.sidebar.button("Logout Admin", key="sidebar_admin_logout"):
+            st.session_state["is_admin"] = False
+            st.rerun()
 
     return selected_user
 
@@ -1645,6 +1729,445 @@ def render_orchestrator_chat(
             st.rerun()
 
 
+def render_user_management_tab(aggregator: PortfolioAggregator):
+    """Render the admin-only User Management tab."""
+    if not st.session_state.get("is_admin"):
+        st.warning("This tab is restricted to administrators. Please log in via the sidebar.")
+        return
+
+    # Show results stored during this session
+    if "plaid_connect_success" in st.session_state:
+        st.success(st.session_state.pop("plaid_connect_success"))
+    if "plaid_connect_error" in st.session_state:
+        st.error(st.session_state.pop("plaid_connect_error"))
+
+    st.markdown("### User Management")
+    st.caption("Add, view, and remove users. Changes take effect immediately across all tabs.")
+
+    # ------------------------------------------------------------------
+    # Current user list
+    # ------------------------------------------------------------------
+    st.markdown("#### Current Users")
+
+    user_ids = aggregator.get_user_ids()
+    # Build a set of Plaid user_ids for source detection (handles custom IDs too)
+    plaid_user_ids: set[str] = set()
+    if _PLAID_AVAILABLE:
+        try:
+            from backend.src.plaid.token_store import PlaidTokenRepository
+            from backend.src.logging_db import get_engine, get_session_factory
+            _plaid_repo = PlaidTokenRepository(get_session_factory(get_engine()))
+            plaid_user_ids = {r.user_id for r in _plaid_repo.get_all_active()}
+        except Exception:
+            pass
+
+    if not user_ids:
+        st.info("No users loaded.")
+    else:
+        rows = []
+        for uid in user_ids:
+            source = "Plaid (Live)" if uid in plaid_user_ids or uid.startswith("plaid_") else "Synthetic"
+            portfolio = aggregator.get_portfolio(uid)
+            name = portfolio.user.name if portfolio else uid
+            net_worth = (
+                f"${portfolio.summary.total_net_worth:,.0f}"
+                if portfolio and portfolio.summary
+                else "N/A"
+            )
+            rows.append({"User ID": uid, "Name": name, "Source": source, "Net Worth": net_worth})
+
+        import pandas as pd
+        st.dataframe(
+            pd.DataFrame(rows),
+            use_container_width=True,
+            hide_index=True,
+        )
+
+    st.markdown("---")
+
+    # ------------------------------------------------------------------
+    # Add new user
+    # ------------------------------------------------------------------
+    st.markdown("#### Add New User")
+
+    new_user_id = st.text_input(
+        "User ID (leave blank to auto-generate)",
+        placeholder="e.g. user_006",
+        key="mgmt_new_user_id",
+    )
+
+    col_plaid, col_synthetic = st.columns(2)
+
+    # ---- Synthetic generation ----------------------------------------
+    with col_synthetic:
+        st.markdown("**Generate Synthetic Data**")
+        with st.form("synthetic_form"):
+            age_input = st.number_input("Age", min_value=18, max_value=99, value=35, step=1)
+            income_input = st.number_input(
+                "Annual Income ($)", min_value=0, max_value=10_000_000, value=80_000, step=1_000
+            )
+            risk_input = st.selectbox(
+                "Risk Tolerance",
+                ["conservative", "moderate", "aggressive"],
+                index=1,
+            )
+            occupation_input = st.text_input("Occupation (optional)", placeholder="Software Engineer")
+            submitted_synthetic = st.form_submit_button("Generate Synthetic User")
+
+        if submitted_synthetic:
+            from decimal import Decimal
+            from backend.src.data_generation.generator import SyntheticDataGenerator
+            import random
+
+            target_uid = new_user_id.strip() or None
+            if target_uid is None:
+                existing = set(aggregator.get_user_ids())
+                i = 1
+                while True:
+                    candidate = f"user_{i:03d}"
+                    if candidate not in existing:
+                        target_uid = candidate
+                        break
+                    i += 1
+
+            if aggregator.get_portfolio(target_uid) is not None:
+                st.error(f"User '{target_uid}' already exists.")
+            else:
+                gen = SyntheticDataGenerator(seed=random.randint(0, 999_999))
+                portfolio = gen.generate_user_portfolio(user_id=target_uid)
+                portfolio.user.age = int(age_input)
+                portfolio.user.annual_income = Decimal(str(income_input))
+                if occupation_input:
+                    portfolio.user.occupation = occupation_input
+                if portfolio.investment_profile:
+                    from backend.src.common.models import RiskTolerance
+                    try:
+                        portfolio.investment_profile.risk_tolerance = RiskTolerance(risk_input)
+                    except ValueError:
+                        pass
+
+                aggregator._portfolios[target_uid] = portfolio
+                try:
+                    aggregator.save_portfolios()
+                    st.success(
+                        f"Created synthetic user **{target_uid}** ({portfolio.user.name}). "
+                        "Select them from the sidebar."
+                    )
+                    # Clear cached load_data so the updated JSON is reloaded on next fresh session
+                    load_data.clear()
+                except Exception as exc:
+                    aggregator._portfolios.pop(target_uid, None)
+                    st.error(f"Failed to save: {exc}")
+
+    # ---- Plaid connection --------------------------------------------
+    with col_plaid:
+        st.markdown("**Connect Real Account via Plaid**")
+        if not _PLAID_AVAILABLE:
+            st.info("plaid-python is not installed. Add `plaid-python>=28.0.0` to requirements.txt.")
+        elif not (os.environ.get("PLAID_CLIENT_ID") and os.environ.get("PLAID_SECRET")):
+            st.info("Set PLAID_CLIENT_ID and PLAID_SECRET in .env to enable Plaid connection.")
+        else:
+            plaid_env = os.environ.get("PLAID_ENV", "sandbox")
+            st.caption(f"Environment: `{plaid_env}`")
+            if plaid_env == "sandbox":
+                st.caption("Sandbox credentials: user `user_good` / password `pass_good`")
+
+            plaid_age = st.number_input("Age", min_value=18, max_value=99, value=35, step=1, key="mgmt_plaid_age")
+            plaid_income = st.number_input("Annual Income ($)", min_value=0, max_value=10_000_000, value=80_000, step=1_000, key="mgmt_plaid_income")
+            plaid_occupation = st.text_input("Occupation", placeholder="Software Engineer", key="mgmt_plaid_occupation")
+
+            if st.button("Connect Account via Plaid", key="mgmt_plaid_btn"):
+                try:
+                    from backend.src.plaid.client import PlaidClient
+                    client = PlaidClient(
+                        client_id=os.environ["PLAID_CLIENT_ID"],
+                        secret=os.environ["PLAID_SECRET"],
+                        env=plaid_env,
+                    )
+                    link_token = client.create_link_token(
+                        user_id="streamlit_admin",
+                        products=["transactions"],
+                    )
+                    st.session_state["mgmt_plaid_link_token"] = link_token
+                    # Store profile values so the component can pass them to /exchange
+                    st.session_state["mgmt_plaid_profile"] = {
+                        "age": int(plaid_age),
+                        "annual_income": float(plaid_income),
+                        "occupation": plaid_occupation.strip() or "Unknown",
+                        "custom_uid": new_user_id.strip(),
+                    }
+                    st.rerun()
+                except Exception as exc:
+                    st.error(f"Failed to create link token: {exc}")
+
+            if st.session_state.get("mgmt_plaid_link_token"):
+                profile = st.session_state.get("mgmt_plaid_profile", {})
+                _render_plaid_link_component(
+                    link_token=st.session_state["mgmt_plaid_link_token"],
+                    age=profile.get("age", 35),
+                    annual_income=profile.get("annual_income", 0.0),
+                    occupation=profile.get("occupation", "Unknown"),
+                    custom_uid=profile.get("custom_uid", ""),
+                )
+
+    # ------------------------------------------------------------------
+    # Remove user
+    # ------------------------------------------------------------------
+    st.markdown("---")
+    st.markdown("#### Remove User")
+    remove_uid = st.selectbox(
+        "Select user to remove",
+        [""] + user_ids,
+        format_func=lambda x: "(select)" if x == "" else x,
+        key="mgmt_remove_uid",
+    )
+    if remove_uid:
+        is_plaid = remove_uid.startswith("plaid_")
+        action_label = "Disconnect (Plaid)" if is_plaid else "Delete Synthetic User"
+        if st.button(action_label, key="mgmt_remove_btn", type="primary"):
+            if is_plaid:
+                # Deactivate in DB via token store
+                try:
+                    from backend.src.logging_db import get_engine, get_session_factory
+                    from backend.src.plaid.token_store import PlaidTokenRepository
+                    engine = get_engine()
+                    repo = PlaidTokenRepository(get_session_factory(engine))
+                    repo.deactivate(remove_uid)
+                    if aggregator._plaid_source:
+                        aggregator._plaid_source.invalidate_cache(remove_uid)
+                    st.success(f"Plaid connection for {remove_uid} deactivated.")
+                    st.rerun()
+                except Exception as exc:
+                    st.error(f"Error: {exc}")
+            else:
+                aggregator._portfolios.pop(remove_uid, None)
+                try:
+                    aggregator.save_portfolios()
+                    load_data.clear()
+                    st.success(f"User {remove_uid} deleted.")
+                    st.rerun()
+                except Exception as exc:
+                    st.error(f"Failed to persist deletion: {exc}")
+
+
+@st.cache_resource
+def _start_plaid_file_server() -> int:
+    """Start a background HTTP server that serves plaid_link.html and handles token exchange.
+
+    Routes:
+      GET /plaid_link.html  — serves the Plaid Link popup page
+      GET /exchange         — exchanges public_token, saves to DB, clears data cache
+
+    Returns the port number. Runs once per process (cached by st.cache_resource).
+    """
+    import http.server
+    import socketserver
+    import socket
+    import urllib.parse
+
+    plaid_html_path = Path(__file__).parent / "static" / "plaid_link.html"
+
+    class _PlaidHandler(http.server.BaseHTTPRequestHandler):
+        def do_GET(self):
+            parsed = urllib.parse.urlparse(self.path)
+            qs = urllib.parse.parse_qs(parsed.query)
+
+            if parsed.path == "/plaid_link.html":
+                # Serve the Plaid Link popup page
+                try:
+                    content = plaid_html_path.read_bytes()
+                    self.send_response(200)
+                    self.send_header("Content-Type", "text/html; charset=utf-8")
+                    self.send_header("Content-Length", str(len(content)))
+                    self.send_header("Access-Control-Allow-Origin", "*")
+                    self.end_headers()
+                    self.wfile.write(content)
+                except Exception as exc:
+                    self.send_error(500, str(exc))
+
+            elif parsed.path == "/exchange":
+                # Exchange public_token for access_token and save to DB.
+                # Runs entirely in this background thread — no Streamlit session needed.
+                public_token = qs.get("token", [""])[0]
+                try:
+                    age = int(qs.get("age", ["35"])[0])
+                except (ValueError, TypeError):
+                    age = 35
+                try:
+                    annual_income = float(qs.get("income", ["0"])[0])
+                except (ValueError, TypeError):
+                    annual_income = 0.0
+                occupation = qs.get("occ", ["Unknown"])[0] or "Unknown"
+                custom_uid = qs.get("custom_uid", [""])[0].strip() or None
+
+                try:
+                    if not public_token:
+                        raise ValueError("Missing public_token")
+                    from backend.src.plaid.client import PlaidClient
+                    from backend.src.plaid.token_store import PlaidTokenRepository
+                    from backend.src.logging_db import get_engine, get_session_factory
+
+                    env = os.environ.get("PLAID_ENV", "sandbox")
+                    client = PlaidClient(
+                        client_id=os.environ["PLAID_CLIENT_ID"],
+                        secret=os.environ["PLAID_SECRET"],
+                        env=env,
+                    )
+                    access_token, item_id = client.exchange_public_token(public_token)
+                    institution_name = client.get_institution_name(access_token)
+                    engine = get_engine()
+                    repo = PlaidTokenRepository(get_session_factory(engine))
+                    user_id = repo.save(
+                        item_id=item_id,
+                        access_token=access_token,
+                        institution_name=institution_name,
+                        products=["transactions"],
+                        env=env,
+                        age=age,
+                        annual_income=annual_income,
+                        occupation=occupation,
+                        custom_user_id=custom_uid,
+                    )
+                    # Clear the Streamlit data cache so next load picks up new user
+                    load_data.clear()
+                    logger.info("Plaid exchange success: user_id=%s inst=%s", user_id, institution_name)
+
+                    body = f"""<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Connected</title></head>
+<body style="font-family:sans-serif;text-align:center;padding:40px;background:#f8fafc">
+  <p style="color:#16a34a;font-size:18px;margin-bottom:8px">Connected!</p>
+  <p style="color:#475569;font-size:13px">{user_id} ({institution_name})</p>
+  <p style="color:#94a3b8;font-size:12px">Closing window...</p>
+  <script>setTimeout(function(){{window.close();}}, 1200);</script>
+</body></html>""".encode("utf-8")
+                    self.send_response(200)
+                    self.send_header("Content-Type", "text/html; charset=utf-8")
+                    self.send_header("Content-Length", str(len(body)))
+                    self.end_headers()
+                    self.wfile.write(body)
+
+                except Exception as exc:
+                    logger.error("Plaid exchange error: %s", exc)
+                    err_body = f"""<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Error</title></head>
+<body style="font-family:sans-serif;text-align:center;padding:40px;background:#f8fafc">
+  <p style="color:#dc2626;font-size:16px">Exchange failed</p>
+  <p style="color:#475569;font-size:12px">{str(exc)[:200]}</p>
+  <script>setTimeout(function(){{window.close();}}, 4000);</script>
+</body></html>""".encode("utf-8")
+                    self.send_response(500)
+                    self.send_header("Content-Type", "text/html; charset=utf-8")
+                    self.send_header("Content-Length", str(len(err_body)))
+                    self.end_headers()
+                    self.wfile.write(err_body)
+
+            else:
+                self.send_error(404)
+
+        def log_message(self, *args):  # suppress access logs
+            pass
+
+    with socket.socket() as s:
+        s.bind(("", 0))
+        port = s.getsockname()[1]
+
+    server = socketserver.TCPServer(("", port), _PlaidHandler)
+    threading.Thread(target=server.serve_forever, daemon=True).start()
+    return port
+
+
+def _render_plaid_link_component(
+    link_token: str,
+    age: int = 35,
+    annual_income: float = 0.0,
+    occupation: str = "Unknown",
+    custom_uid: str = "",
+):
+    """Render a button that opens Plaid Link in a popup window.
+
+    Opens ui/static/plaid_link.html served by a background Python HTTP server
+    (correct Content-Type, proper HTTP origin so Plaid's flink.js postMessage works).
+    On success the popup navigates to /exchange which saves the token and closes.
+    """
+    port = _start_plaid_file_server()
+    html = f"""
+<style>body {{ margin: 0; font-family: sans-serif; }}</style>
+<div style="padding: 8px 0;">
+    <button id="plaid-open-btn" style="
+        background: #2563eb; color: white; border: none;
+        border-radius: 6px; padding: 8px 18px; font-size: 14px; cursor: pointer;
+    ">Open Plaid Link</button>
+    <div id="plaid-status" style="margin-top: 8px; font-size: 13px; color: #475569; min-height: 20px;">
+        Ready — click the button to connect your account.
+    </div>
+</div>
+<script>
+(function() {{
+    var statusEl = document.getElementById('plaid-status');
+    var btn = document.getElementById('plaid-open-btn');
+    var exchangeDone = false;
+
+    btn.addEventListener('click', function() {{
+        btn.disabled = true;
+        exchangeDone = false;
+        statusEl.style.color = '#475569';
+        statusEl.textContent = 'Opening Plaid...';
+
+        // Build the plaid_link.html URL served by the background Python HTTP server.
+        // The popup completes Plaid Link and then navigates itself to /exchange,
+        // which exchanges the token and saves it to DB — no Streamlit URL manipulation needed.
+        var plaidPageUrl = 'http://' + window.top.location.hostname
+            + ':{port}/plaid_link.html'
+            + '?token={link_token}'
+            + '&age={age}'
+            + '&income={annual_income}'
+            + '&occ=' + encodeURIComponent('{occupation}')
+            + '&custom_uid=' + encodeURIComponent('{custom_uid}')
+            + '&exchange_base=http://' + window.top.location.hostname + ':{port}';
+
+        var popup = window.open(plaidPageUrl, 'PlaidLink', 'width=500,height=700,left=200,top=80');
+        if (!popup || popup.closed) {{
+            statusEl.style.color = '#dc2626';
+            statusEl.textContent = 'Popup blocked — allow popups for this site and try again.';
+            btn.disabled = false;
+            return;
+        }}
+
+        statusEl.textContent = 'Plaid window open — complete the flow there.';
+
+        // Poll until popup closes.
+        // If exchange succeeded, the /exchange page shows a success message then
+        // closes after ~1.2s. We then reload Streamlit to pick up the new user.
+        var timer = setInterval(function() {{
+            if (popup.closed) {{
+                clearInterval(timer);
+                if (exchangeDone) {{
+                    statusEl.style.color = '#16a34a';
+                    statusEl.textContent = 'Account connected! Reloading...';
+                    setTimeout(function() {{ window.top.location.reload(); }}, 400);
+                }} else {{
+                    btn.disabled = false;
+                    statusEl.style.color = '#64748b';
+                    statusEl.textContent = 'Window closed. Click the button to try again.';
+                }}
+            }}
+        }}, 500);
+    }});
+
+    // Listen for exchange-complete signal from the popup
+    window.addEventListener('message', function(event) {{
+        if (event.data && event.data.type === 'plaid_exchange_done') {{
+            exchangeDone = true;
+        }}
+    }});
+}})();
+</script>
+"""
+    st_components.html(html, height=100)
+
+
+
+
 def main():
     """Main application entry point."""
     # Initialize session state
@@ -1692,9 +2215,18 @@ def main():
         st.info("Please select a user from the sidebar to begin.")
         return
 
-    # Main content tabs
-    tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(
-        ["Dashboard", "AI Advisor", "Ask About Portfolio", "Investment Profile", "Recommendations", "Knowledge Search", "Holdings"]
+    # Main content tabs (tab8 = User Management, admin only)
+    tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs(
+        [
+            "Dashboard",
+            "AI Advisor",
+            "Ask About Portfolio",
+            "Investment Profile",
+            "Recommendations",
+            "Knowledge Search",
+            "Holdings",
+            "User Management",
+        ]
     )
 
     with tab1:
@@ -1744,6 +2276,9 @@ def main():
 
     with tab7:
         render_holdings_view(aggregator, selected_user)
+
+    with tab8:
+        render_user_management_tab(aggregator)
 
     # Footer
     st.markdown("---")

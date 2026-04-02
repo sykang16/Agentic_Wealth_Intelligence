@@ -58,9 +58,8 @@ data/synthetic/*
 !data/synthetic/.gitkeep
 # synthetic_portfolios.json is required for demo — keep it tracked
 !data/synthetic/synthetic_portfolios.json
-# ChromaDB vector store — committed to repo (4MB, pre-built at dev time)
-# data/chroma/  <-- tracked
-!data/chroma/chroma.sqlite3
+# ChromaDB vector store — excluded from HF deploy
+data/chroma/
 data/trace.db
 
 # Temporary files

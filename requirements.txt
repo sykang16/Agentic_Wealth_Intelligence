@@ -31,3 +31,7 @@ streamlit==1.55.0
 plotly>=5.24.0
 altair>=5.4.0
 yfinance>=0.2.40
+pandas>=2.0.0
+
+# Plaid integration (real account data)
+plaid-python>=28.0.0

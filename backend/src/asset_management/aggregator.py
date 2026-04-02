@@ -31,6 +31,8 @@ class PortfolioAggregator:
         self.data_path = Path(data_path) if data_path else None
         self._portfolios: dict[str, UserPortfolio] = {}
         self._loaded = False
+        # Optional live Plaid data source; set via register_plaid_source()
+        self._plaid_source = None
 
     def load_data(self, data_path: str | Path | None = None) -> None:
         """Load portfolio data from JSON file.
@@ -50,6 +52,23 @@ class PortfolioAggregator:
             self._portfolios[portfolio.user.user_id] = portfolio
 
         self._loaded = True
+
+    def reload(self) -> None:
+        """Reload portfolio data from disk (useful after adding new synthetic users)."""
+        self._portfolios.clear()
+        self._loaded = False
+        self.load_data()
+
+    def register_plaid_source(self, source) -> None:
+        """Attach a live Plaid data source.
+
+        When registered, get_user_ids() and get_portfolio() will transparently
+        include Plaid-connected users alongside synthetic ones.
+
+        Args:
+            source: A PlaidPortfolioSource instance.
+        """
+        self._plaid_source = source
 
     def _parse_portfolio(self, data: dict) -> UserPortfolio:
         """Parse portfolio data from JSON."""
@@ -109,22 +128,32 @@ class PortfolioAggregator:
             json.dump(data, f, indent=2, default=str)
 
     def get_portfolio(self, user_id: str) -> UserPortfolio | None:
-        """Get portfolio for a specific user."""
+        """Get portfolio for a specific user.
+
+        Checks synthetic portfolios first, then the Plaid source if registered.
+        """
         if not self._loaded:
             raise RuntimeError("Data not loaded. Call load_data() first.")
-        return self._portfolios.get(user_id)
+        if user_id in self._portfolios:
+            return self._portfolios[user_id]
+        if self._plaid_source and self._plaid_source.has_user(user_id):
+            return self._plaid_source.get_portfolio(user_id)
+        return None
 
     def get_all_portfolios(self) -> list[UserPortfolio]:
-        """Get all loaded portfolios."""
+        """Get all loaded portfolios (synthetic only)."""
         if not self._loaded:
             raise RuntimeError("Data not loaded. Call load_data() first.")
         return list(self._portfolios.values())
 
     def get_user_ids(self) -> list[str]:
-        """Get all user IDs."""
+        """Get all user IDs (synthetic + Plaid if source is registered)."""
         if not self._loaded:
             raise RuntimeError("Data not loaded. Call load_data() first.")
-        return list(self._portfolios.keys())
+        ids = list(self._portfolios.keys())
+        if self._plaid_source:
+            ids += self._plaid_source.get_user_ids()
+        return ids
 
     def get_total_cash(self, user_id: str) -> Decimal:
         """Get total cash and equivalents for a user."""

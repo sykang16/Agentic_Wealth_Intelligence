@@ -5,7 +5,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.src.api.routes import chat, portfolio, profiling, recommendations, sessions
+from backend.src.api.routes import chat, plaid, portfolio, profiling, recommendations, sessions, users
 
 
 @asynccontextmanager
@@ -54,6 +54,8 @@ def create_app() -> FastAPI:
     app.include_router(profiling.router)
     app.include_router(recommendations.router)
     app.include_router(sessions.router)
+    app.include_router(plaid.router)
+    app.include_router(users.router)
 
     @app.get("/health")
     def health():

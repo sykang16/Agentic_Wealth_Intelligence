@@ -2,6 +2,7 @@
 headless = true
 enableCORS = true
 enableXsrfProtection = true
+enableStaticServing = true
 
 [logger]
 level = "warning"
