@@ -8,10 +8,13 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-# Map environment name strings to plaid SDK host constants
+# Map environment name strings to Plaid API hosts.
+# Note: Plaid deprecated the "development" environment — Limited Production now
+# uses the "production" host with restricted access. "development" is aliased to
+# "production" so existing configs continue to work without a DNS failure.
 _ENV_MAP = {
     "sandbox": "https://sandbox.plaid.com",
-    "development": "https://development.plaid.com",
+    "development": "https://production.plaid.com",  # deprecated; aliased to production
     "production": "https://production.plaid.com",
 }
 

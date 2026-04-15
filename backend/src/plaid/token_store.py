@@ -1,5 +1,6 @@
 """SQLAlchemy model and repository for storing Plaid access tokens."""
 
+import os
 from datetime import datetime, timezone
 
 from sqlalchemy import Boolean, Column, DateTime, Integer, Numeric, String, Text
@@ -8,6 +9,39 @@ from sqlalchemy.orm import Session, sessionmaker
 # Import the shared Base so PlaidToken is registered in the same metadata
 # and gets created by engine.py's Base.metadata.create_all()
 from backend.src.logging_db.models import Base
+
+
+# ------------------------------------------------------------------
+# Token encryption helpers (Fernet / AES-128-CBC + HMAC-SHA256)
+# ------------------------------------------------------------------
+
+def _get_fernet():
+    """Return a Fernet instance if PLAID_ENCRYPTION_KEY is set, else None."""
+    key = os.environ.get("PLAID_ENCRYPTION_KEY", "")
+    if not key:
+        return None
+    try:
+        from cryptography.fernet import Fernet
+        return Fernet(key.encode())
+    except Exception:
+        return None
+
+
+def _encrypt_token(plaintext: str) -> str:
+    """Encrypt an access token if an encryption key is configured."""
+    f = _get_fernet()
+    return f.encrypt(plaintext.encode()).decode() if f else plaintext
+
+
+def _decrypt_token(stored: str) -> str:
+    """Decrypt a stored token; falls back to plain text for sandbox/legacy tokens."""
+    f = _get_fernet()
+    if f is None:
+        return stored
+    try:
+        return f.decrypt(stored.encode()).decode()
+    except Exception:
+        return stored  # plain-text fallback for unencrypted legacy records
 
 
 class PlaidToken(Base):
@@ -64,7 +98,7 @@ class PlaidTokenRecord:
     def __init__(self, row: PlaidToken) -> None:
         self.user_id = row.user_id
         self.item_id = row.item_id
-        self.access_token = row.access_token
+        self.access_token = _decrypt_token(row.access_token)
         self.institution_name = row.institution_name
         self.products = row.products
         self.env = row.env
@@ -106,11 +140,12 @@ class PlaidTokenRepository:
         """
         user_id = custom_user_id.strip() if custom_user_id and custom_user_id.strip() else f"plaid_{item_id[:8]}"
         products_str = ",".join(products)
+        stored_token = _encrypt_token(access_token)
 
         with self._factory() as session:
             existing = session.get(PlaidToken, user_id)
             if existing:
-                existing.access_token = access_token
+                existing.access_token = stored_token
                 existing.institution_name = institution_name
                 existing.products = products_str
                 existing.env = env
@@ -126,7 +161,7 @@ class PlaidTokenRepository:
                 record = PlaidToken(
                     user_id=user_id,
                     item_id=item_id,
-                    access_token=access_token,
+                    access_token=stored_token,
                     institution_name=institution_name,
                     products=products_str,
                     env=env,
