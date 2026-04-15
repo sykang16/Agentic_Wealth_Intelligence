@@ -440,13 +440,30 @@ MAIN_CSS = """
     .stDataFrame th {
         font-size: 15px !important;
     }
+
+    /* ============================================
+       DISMISS BUTTON (welcome banner only)
+       Targets the button column that follows the
+       welcome banner markdown container.
+       ============================================ */
+    [data-testid="stMarkdownContainer"]:has(.welcome-banner-container)
+    ~ [data-testid="stHorizontalBlock"]
+    [data-testid="stButton"] > button,
+    [data-testid="stMarkdownContainer"]:has(.welcome-banner-container)
+    ~ [data-testid="stHorizontalBlock"]
+    [data-testid="stButton"] > button * {
+        padding: 0.1rem 0.5rem !important;
+        height: auto !important;
+        min-height: unset !important;
+        line-height: 1.4 !important;
+    }
 </style>
 """
 
 
 def get_header_html():
     """Get the fancy header as HTML that works in Streamlit."""
-    return '<div style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%); padding: 1.75rem 2rem; border-radius: 16px; margin-bottom: 1.5rem; position: relative; overflow: hidden; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);"><div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(ellipse at 20% 50%, rgba(59, 130, 246, 0.2) 0%, transparent 50%), radial-gradient(ellipse at 80% 50%, rgba(147, 51, 234, 0.15) 0%, transparent 50%); pointer-events: none;"></div><div style="position: relative; z-index: 1;"><div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem;"><div style="width: 52px; height: 52px; background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); border-radius: 14px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg></div><span style="font-size: 2.25rem; font-weight: 800; color: white; letter-spacing: -0.5px; font-family: Inter, sans-serif;">Wealth</span><span style="font-size: 2.25rem; font-weight: 800; background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: -0.5px; font-family: Inter, sans-serif;">Intelligence</span><span style="display: inline-flex; align-items: center; gap: 6px; background: rgba(59, 130, 246, 0.25); border: 1px solid rgba(96, 165, 250, 0.4); padding: 8px 14px; border-radius: 20px; font-size: 13px; font-weight: 600; color: #93c5fd; margin-left: 0.75rem; font-family: Inter, sans-serif;"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> AI Powered</span></div><div style="font-size: 1rem; color: rgba(255, 255, 255, 0.75); margin-left: 68px; font-weight: 400; letter-spacing: 0.2px; font-family: Inter, sans-serif;">Smart Portfolio Analysis & Investment Insights</div></div></div>'
+    return '<div style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%); padding: 1.75rem 2rem; border-radius: 16px; margin-bottom: 1.5rem; position: relative; overflow: hidden; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);"><div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(ellipse at 20% 50%, rgba(59, 130, 246, 0.2) 0%, transparent 50%), radial-gradient(ellipse at 80% 50%, rgba(147, 51, 234, 0.15) 0%, transparent 50%); pointer-events: none;"></div><div style="position: relative; z-index: 1;"><div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem;"><div style="width: 52px; height: 52px; background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); border-radius: 14px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg></div><span style="font-size: 2.25rem; font-weight: 800; color: white; letter-spacing: -0.5px; font-family: Inter, sans-serif;">Wealth</span><span style="font-size: 2.25rem; font-weight: 800; background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: -0.5px; font-family: Inter, sans-serif;">Nexus</span><span style="display: inline-flex; align-items: center; gap: 6px; background: rgba(59, 130, 246, 0.25); border: 1px solid rgba(96, 165, 250, 0.4); padding: 8px 14px; border-radius: 20px; font-size: 13px; font-weight: 600; color: #93c5fd; margin-left: 0.75rem; font-family: Inter, sans-serif;"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> AI Powered</span></div><div style="font-size: 1rem; color: rgba(255, 255, 255, 0.75); margin-left: 68px; font-weight: 400; letter-spacing: 0.2px; font-family: Inter, sans-serif;">Smart Portfolio Analysis & Investment Insights</div></div></div>'
 
 
 def render_header():
@@ -566,7 +583,7 @@ def render_welcome_banner() -> str:
         HTML string for the welcome banner.
     """
     return (
-        '<div style="background: linear-gradient(135deg, #eff6ff 0%, #f5f3ff 100%); '
+        '<div class="welcome-banner-container" style="background: linear-gradient(135deg, #eff6ff 0%, #f5f3ff 100%); '
         'border: 1px solid #c7d2fe; border-radius: 14px; padding: 24px 28px; margin-bottom: 20px;">'
         '<div style="display: flex; align-items: flex-start; gap: 16px;">'
         '<div style="width: 44px; height: 44px; background: linear-gradient(135deg, #3b82f6, #8b5cf6); '
@@ -574,7 +591,7 @@ def render_welcome_banner() -> str:
         '<span style="font-size: 22px; color: white;">&#9733;</span></div>'
         '<div style="flex: 1;">'
         '<div style="font-size: 1.2rem; font-weight: 700; color: #1e293b; margin-bottom: 6px;">'
-        'Welcome to Wealth Intelligence</div>'
+        'Welcome to WealthNexus</div>'
         '<div style="font-size: 0.95rem; color: #475569; margin-bottom: 14px;">'
         'Get started with your personalized financial insights:</div>'
         '<div style="display: flex; gap: 16px; flex-wrap: wrap;">'

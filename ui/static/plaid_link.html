@@ -28,6 +28,7 @@
     var profileIncome = params.get('income');
     var profileOcc = params.get('occ');
     var customUid = params.get('custom_uid') || '';
+    var plaidEnv = params.get('env') || 'sandbox';
 
     var msg = document.getElementById('msg');
     var detail = document.getElementById('detail');
@@ -62,7 +63,8 @@
               + '&age='   + encodeURIComponent(profileAge || '35')
               + '&income='+ encodeURIComponent(profileIncome || '0')
               + '&occ='   + encodeURIComponent(profileOcc || '')
-              + '&custom_uid=' + encodeURIComponent(customUid);
+              + '&custom_uid=' + encodeURIComponent(customUid)
+              + '&env='   + encodeURIComponent(plaidEnv);
             // Signal opener so it knows to reload on close
             if (window.opener && !window.opener.closed) {
               window.opener.postMessage({ type: 'plaid_exchange_done' }, '*');

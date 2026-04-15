@@ -63,6 +63,12 @@ try:
 except ImportError:
     _PLAID_AVAILABLE = False
 
+
+def _get_plaid_products() -> list[str]:
+    """Return Plaid products from PLAID_PRODUCTS env var (default: transactions)."""
+    raw = os.environ.get("PLAID_PRODUCTS", "transactions")
+    return [p.strip() for p in raw.split(",") if p.strip()]
+
 # Import custom styles
 from styles import (
     MAIN_CSS,
@@ -80,7 +86,7 @@ from styles import (
 
 # Page config
 st.set_page_config(
-    page_title="Wealth Intelligence",
+    page_title="WealthNexus",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -112,8 +118,10 @@ def load_data():
     aggregator = PortfolioAggregator(data_path)
     aggregator.load_data()
 
-    # Attach live Plaid source if credentials are available
-    if _PLAID_AVAILABLE and os.environ.get("PLAID_CLIENT_ID") and os.environ.get("PLAID_SECRET"):
+    # Attach live Plaid source if credentials are available (sandbox and/or production)
+    if _PLAID_AVAILABLE and os.environ.get("PLAID_CLIENT_ID") and (
+        os.environ.get("PLAID_SANDBOX_SECRET") or os.environ.get("PLAID_SECRET")
+    ):
         try:
             plaid_source = _build_plaid_source()
             aggregator.register_plaid_source(plaid_source)
@@ -124,7 +132,13 @@ def load_data():
 
 
 def _build_plaid_source():
-    """Create a PlaidPortfolioSource wired to the local SQLite DB."""
+    """Create a PlaidPortfolioSource wired to the local SQLite DB.
+
+    Builds a client for each env that has a secret configured:
+      PLAID_SANDBOX_SECRET -> sandbox client
+      PLAID_SECRET         -> production client
+    Both can be active simultaneously.
+    """
     from backend.src.logging_db import get_engine, get_session_factory
     from backend.src.plaid.client import PlaidClient
     from backend.src.plaid.adapter import PlaidPortfolioAdapter
@@ -134,17 +148,20 @@ def _build_plaid_source():
     engine = get_engine()
     factory = get_session_factory(engine)
     repo = PlaidTokenRepository(factory)
-    env = os.environ.get("PLAID_ENV", "sandbox")
-    client = PlaidClient(
-        client_id=os.environ["PLAID_CLIENT_ID"],
-        secret=os.environ["PLAID_SECRET"],
-        env=env,
-    )
+    client_id = os.environ["PLAID_CLIENT_ID"]
+
+    clients = {}
+    sandbox_secret = os.environ.get("PLAID_SANDBOX_SECRET")
+    prod_secret = os.environ.get("PLAID_SECRET")
+    if sandbox_secret:
+        clients["sandbox"] = PlaidClient(client_id=client_id, secret=sandbox_secret, env="sandbox")
+    if prod_secret:
+        clients["production"] = PlaidClient(client_id=client_id, secret=prod_secret, env="production")
+
     return PlaidPortfolioSource(
-        plaid_client=client,
+        clients=clients,
         adapter=PlaidPortfolioAdapter(),
         token_repo=repo,
-        current_env=env,
     )
 
 
@@ -1861,35 +1878,36 @@ def render_user_management_tab(aggregator: PortfolioAggregator):
 
     # ---- Plaid connection --------------------------------------------
     with col_plaid:
-        st.markdown("**Connect Real Account via Plaid**")
+        st.markdown("**Connect Account via Plaid**")
         if not _PLAID_AVAILABLE:
             st.info("plaid-python is not installed. Add `plaid-python>=28.0.0` to requirements.txt.")
-        elif not (os.environ.get("PLAID_CLIENT_ID") and os.environ.get("PLAID_SECRET")):
-            st.info("Set PLAID_CLIENT_ID and PLAID_SECRET in .env to enable Plaid connection.")
+        elif not os.environ.get("PLAID_CLIENT_ID"):
+            st.info("Set PLAID_CLIENT_ID in .env to enable Plaid connection.")
         else:
-            plaid_env = os.environ.get("PLAID_ENV", "sandbox")
-            st.caption(f"Environment: `{plaid_env}`")
-            if plaid_env == "sandbox":
-                st.caption("Sandbox credentials: user `user_good` / password `pass_good`")
-
             plaid_age = st.number_input("Age", min_value=18, max_value=99, value=35, step=1, key="mgmt_plaid_age")
             plaid_income = st.number_input("Annual Income ($)", min_value=0, max_value=10_000_000, value=80_000, step=1_000, key="mgmt_plaid_income")
             plaid_occupation = st.text_input("Occupation", placeholder="Software Engineer", key="mgmt_plaid_occupation")
 
-            if st.button("Connect Account via Plaid", key="mgmt_plaid_btn"):
+            sandbox_secret = os.environ.get("PLAID_SANDBOX_SECRET")
+            prod_secret = os.environ.get("PLAID_SECRET")
+
+            col_sb, col_prod = st.columns(2)
+
+            def _do_plaid_link(env: str, secret: str):
+                """Create a link token for the given env and store it in session state."""
                 try:
                     from backend.src.plaid.client import PlaidClient
                     client = PlaidClient(
                         client_id=os.environ["PLAID_CLIENT_ID"],
-                        secret=os.environ["PLAID_SECRET"],
-                        env=plaid_env,
+                        secret=secret,
+                        env=env,
                     )
                     link_token = client.create_link_token(
                         user_id="streamlit_admin",
-                        products=["transactions"],
+                        products=_get_plaid_products(),
                     )
                     st.session_state["mgmt_plaid_link_token"] = link_token
-                    # Store profile values so the component can pass them to /exchange
+                    st.session_state["mgmt_plaid_env"] = env
                     st.session_state["mgmt_plaid_profile"] = {
                         "age": int(plaid_age),
                         "annual_income": float(plaid_income),
@@ -1900,6 +1918,26 @@ def render_user_management_tab(aggregator: PortfolioAggregator):
                 except Exception as exc:
                     st.error(f"Failed to create link token: {exc}")
 
+            with col_sb:
+                st.caption("Sandbox (test data)")
+                if sandbox_secret:
+                    st.caption("Login: `user_good` / `pass_good`")
+                    if st.button("Connect Sandbox", key="mgmt_plaid_sandbox_btn"):
+                        _do_plaid_link("sandbox", sandbox_secret)
+                else:
+                    st.caption(":gray[Set PLAID_SANDBOX_SECRET to enable]")
+                    st.button("Connect Sandbox", key="mgmt_plaid_sandbox_btn", disabled=True)
+
+            with col_prod:
+                st.caption("Production (real accounts)")
+                if prod_secret:
+                    st.warning("Connects to **real** bank accounts.", icon="!")
+                    if st.button("Connect Production", key="mgmt_plaid_prod_btn"):
+                        _do_plaid_link("production", prod_secret)
+                else:
+                    st.caption(":gray[Set PLAID_SECRET to enable]")
+                    st.button("Connect Production", key="mgmt_plaid_prod_btn", disabled=True)
+
             if st.session_state.get("mgmt_plaid_link_token"):
                 profile = st.session_state.get("mgmt_plaid_profile", {})
                 _render_plaid_link_component(
@@ -1908,6 +1946,7 @@ def render_user_management_tab(aggregator: PortfolioAggregator):
                     annual_income=profile.get("annual_income", 0.0),
                     occupation=profile.get("occupation", "Unknown"),
                     custom_uid=profile.get("custom_uid", ""),
+                    env=st.session_state.get("mgmt_plaid_env", "sandbox"),
                 )
 
     # ------------------------------------------------------------------
@@ -2007,10 +2046,14 @@ def _start_plaid_file_server() -> int:
                     from backend.src.plaid.token_store import PlaidTokenRepository
                     from backend.src.logging_db import get_engine, get_session_factory
 
-                    env = os.environ.get("PLAID_ENV", "sandbox")
+                    env = qs.get("env", ["sandbox"])[0]
+                    if env == "sandbox":
+                        secret = os.environ.get("PLAID_SANDBOX_SECRET") or os.environ.get("PLAID_SECRET", "")
+                    else:
+                        secret = os.environ.get("PLAID_SECRET", "")
                     client = PlaidClient(
                         client_id=os.environ["PLAID_CLIENT_ID"],
-                        secret=os.environ["PLAID_SECRET"],
+                        secret=secret,
                         env=env,
                     )
                     access_token, item_id = client.exchange_public_token(public_token)
@@ -2021,7 +2064,7 @@ def _start_plaid_file_server() -> int:
                         item_id=item_id,
                         access_token=access_token,
                         institution_name=institution_name,
-                        products=["transactions"],
+                        products=[p.strip() for p in os.environ.get("PLAID_PRODUCTS", "transactions").split(",") if p.strip()],
                         env=env,
                         age=age,
                         annual_income=annual_income,
@@ -2082,6 +2125,7 @@ def _render_plaid_link_component(
     annual_income: float = 0.0,
     occupation: str = "Unknown",
     custom_uid: str = "",
+    env: str = "sandbox",
 ):
     """Render a button that opens Plaid Link in a popup window.
 
@@ -2123,6 +2167,7 @@ def _render_plaid_link_component(
             + '&income={annual_income}'
             + '&occ=' + encodeURIComponent('{occupation}')
             + '&custom_uid=' + encodeURIComponent('{custom_uid}')
+            + '&env={env}'
             + '&exchange_base=http://' + window.top.location.hostname + ':{port}';
 
         var popup = window.open(plaidPageUrl, 'PlaidLink', 'width=500,height=700,left=200,top=80');
@@ -2284,7 +2329,7 @@ def main():
     st.markdown("---")
     st.markdown(
         "<div style='text-align: center; color: #64748b; font-size: 0.95rem; padding: 0.5rem 0;'>"
-        "Wealth Intelligence System | Portfolio Analysis, Profiling & Knowledge Search"
+        "WealthNexus | Portfolio Analysis, Profiling & Knowledge Search"
         "</div>",
         unsafe_allow_html=True,
     )
