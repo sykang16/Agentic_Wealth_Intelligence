@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WealthNexus — Your AI Wealth Advisor</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@200;300;400;500;600&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #000000;
+  --surface:   rgba(255,255,255,0.04);
+  --border:    rgba(255,255,255,0.1);
+  --blue:      #0066FF;
+  --cyan:      #00D9C0;
+  --white:     rgba(255,255,255,0.9);
+  --muted:     rgba(255,255,255,0.5);
+  --faint:     rgba(255,255,255,0.08);
+  --grad:      linear-gradient(135deg, #0066FF, #00D9C0);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #000; }
+::-webkit-scrollbar-thumb { background: #0066FF44; border-radius: 2px; }
+
+/* ── Nav ── */
+nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border);
+}
+.nav-logo {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  background: var(--grad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.01em;
+}
+.nav-links { display: flex; gap: 36px; list-style: none; }
+.nav-links a {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.nav-links a:hover { color: var(--white); }
+.nav-cta {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background: var(--grad);
+  padding: 10px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: opacity 0.2s, transform 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+.nav-cta:hover { opacity: 0.9; transform: translateY(-1px); }
+
+/* ── Fade-in utility ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible { opacity: 1; transform: translateY(0); }
+.d1 { transition-delay: 0.1s; }
+.d2 { transition-delay: 0.2s; }
+.d3 { transition-delay: 0.3s; }
+.d4 { transition-delay: 0.4s; }
+.d5 { transition-delay: 0.5s; }
+.d6 { transition-delay: 0.6s; }
+
+/* ═══════════════════════════
+   HERO
+═══════════════════════════ */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 140px 60px 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Animated gradient halos */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+.halo {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  animation: haloDrift 8s ease-in-out infinite alternate;
+}
+.halo-1 {
+  width: 600px; height: 600px;
+  top: -150px; left: -100px;
+  background: rgba(0,102,255,0.18);
+  animation-delay: 0s;
+}
+.halo-2 {
+  width: 500px; height: 500px;
+  top: -100px; right: -80px;
+  background: rgba(0,217,192,0.14);
+  animation-delay: -3s;
+}
+.halo-3 {
+  width: 400px; height: 400px;
+  bottom: 0; left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,102,255,0.08);
+  animation-delay: -6s;
+}
+@keyframes haloDrift {
+  from { transform: scale(1) translateY(0); }
+  to   { transform: scale(1.15) translateY(-30px); }
+}
+.halo-3 { animation-name: haloDrift3; }
+@keyframes haloDrift3 {
+  from { transform: translateX(-50%) scale(1); }
+  to   { transform: translateX(-50%) scale(1.2) translateY(-20px); }
+}
+
+/* Decorative sparkles */
+.sparkle {
+  position: absolute;
+  font-size: 20px;
+  color: rgba(0,217,192,0.5);
+  animation: sparkleGlow 5s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+.sparkle:nth-child(1) { top: 20%; left: 8%;  animation-delay: 0s; }
+.sparkle:nth-child(2) { top: 15%; right: 10%; animation-delay: 1.5s; }
+.sparkle:nth-child(3) { bottom: 25%; left: 5%; animation-delay: 3s; font-size: 14px; }
+.sparkle:nth-child(4) { bottom: 20%; right: 8%; animation-delay: 2s; font-size: 14px; }
+@keyframes sparkleGlow {
+  0%,100% { opacity: 0.3; transform: rotate(0deg) scale(1); }
+  50%      { opacity: 1;   transform: rotate(180deg) scale(1.2); }
+}
+
+.hero-inner { position: relative; z-index: 2; max-width: 900px; }
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  border-radius: 50px;
+  border: 1px solid rgba(0,217,192,0.3);
+  background: rgba(0,217,192,0.07);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--cyan);
+  letter-spacing: 0.04em;
+  margin-bottom: 32px;
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  animation: fadeUp 0.8s 0.2s ease forwards;
+}
+.badge-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--cyan);
+  animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%,100% { box-shadow: 0 0 0 0 rgba(0,217,192,0.6); }
+  50%      { box-shadow: 0 0 0 6px rgba(0,217,192,0); }
+}
+
+.hero-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(42px, 5.5vw, 72px);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+  opacity: 0;
+  animation: fadeUp 0.9s 0.4s ease forwards;
+}
+.hero-title .grad-text {
+  background: var(--grad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-sub {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--muted);
+  max-width: 640px;
+  margin: 0 auto 48px;
+  line-height: 1.75;
+  opacity: 0;
+  animation: fadeUp 0.8s 0.6s ease forwards;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  opacity: 0;
+  animation: fadeUp 0.8s 0.8s ease forwards;
+}
+
+.btn-primary {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  background: var(--grad);
+  padding: 14px 36px;
+  border-radius: 50px;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.25s, box-shadow 0.25s;
+  box-shadow: 0 0 0 0 rgba(0,102,255,0.4);
+  animation: ctaPulse 2s 1.5s ease-in-out infinite;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0,102,255,0.4);
+  animation: none;
+}
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.3) 0%, transparent 70%);
+  transform: scale(0);
+  transition: transform 0.6s ease;
+  border-radius: inherit;
+}
+.btn-primary:active::after { transform: scale(2); opacity: 0; }
+@keyframes ctaPulse {
+  0%,100% { box-shadow: 0 0 0 0 rgba(0,102,255,0.4); }
+  50%      { box-shadow: 0 0 0 12px rgba(0,102,255,0); }
+}
+
+.btn-ghost {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--white);
+  background: transparent;
+  border: 1px solid var(--border);
+  padding: 13px 36px;
+  border-radius: 50px;
+  text-decoration: none;
+  backdrop-filter: blur(10px);
+  transition: background 0.25s, border-color 0.25s, transform 0.25s;
+}
+.btn-ghost:hover {
+  background: var(--faint);
+  border-color: rgba(255,255,255,0.25);
+  transform: translateY(-2px);
+}
+
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ═══════════════════════════
+   FEATURES
+═══════════════════════════ */
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 60px;
+}
+
+.section-label {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: var(--grad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 16px;
+}
+.section-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(32px, 4vw, 52px);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-bottom: 16px;
+  color: var(--white);
+}
+.section-desc {
+  font-size: 17px;
+  font-weight: 300;
+  color: var(--muted);
+  max-width: 560px;
+  line-height: 1.75;
+  margin-bottom: 64px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.feature-card {
+  background: linear-gradient(135deg, rgba(255,255,255,0.07), rgba(255,255,255,0.02));
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 36px 32px;
+  transition: transform 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+.feature-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--grad);
+  opacity: 0;
+  border-radius: inherit;
+  transition: opacity 0.3s;
+  z-index: 0;
+}
+.feature-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(0,102,255,0.4);
+}
+.feature-card:hover::before { opacity: 0.06; }
+.feature-card > * { position: relative; z-index: 1; }
+
+.feature-icon-wrap {
+  width: 52px; height: 52px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  transition: background 0.3s, border-color 0.3s;
+}
+.feature-card:hover .feature-icon-wrap {
+  background: linear-gradient(135deg, rgba(0,102,255,0.2), rgba(0,217,192,0.2));
+  border-color: rgba(0,102,255,0.4);
+}
+.feature-icon-wrap svg { width: 24px; height: 24px; }
+
+.feature-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 10px;
+  letter-spacing: -0.01em;
+}
+.feature-desc {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--muted);
+  line-height: 1.75;
+}
+.feature-badge {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 50px;
+  background: rgba(0,217,192,0.1);
+  border: 1px solid rgba(0,217,192,0.25);
+  color: var(--cyan);
+}
+
+/* ═══════════════════════════
+   ARCHITECTURE
+═══════════════════════════ */
+.arch-section {
+  padding: 80px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(0,102,255,0.03) 0%, transparent 50%);
+}
+.arch-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.arch-flow {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin-top: 56px;
+  position: relative;
+}
+
+.arch-node {
+  flex: 1;
+  background: linear-gradient(135deg, rgba(255,255,255,0.07), rgba(255,255,255,0.02));
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 28px 24px;
+  text-align: center;
+  transition: border-color 0.3s, transform 0.3s;
+}
+.arch-node:hover {
+  border-color: rgba(0,102,255,0.4);
+  transform: translateY(-4px);
+}
+.arch-node.center {
+  border-color: rgba(0,102,255,0.35);
+  background: linear-gradient(135deg, rgba(0,102,255,0.12), rgba(0,217,192,0.06));
+}
+.arch-node-tag {
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.arch-node-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 6px;
+}
+.arch-node-name.grad {
+  background: var(--grad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.arch-node-sub {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.arch-connector {
+  flex-shrink: 0;
+  width: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.connector-line {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(0,102,255,0.2), rgba(0,217,192,0.4), rgba(0,102,255,0.2));
+  position: relative;
+}
+.connector-arrow {
+  width: 0; height: 0;
+  border-left: 6px solid rgba(0,217,192,0.6);
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+
+.arch-agents-col {
+  flex: 1.8;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.arch-agent {
+  background: linear-gradient(135deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  transition: border-color 0.25s, background 0.25s, transform 0.25s;
+}
+.arch-agent:hover {
+  border-color: rgba(0,102,255,0.35);
+  background: linear-gradient(135deg, rgba(0,102,255,0.08), rgba(0,217,192,0.04));
+  transform: translateX(4px);
+}
+.agent-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.dot-blue  { background: #0066FF; box-shadow: 0 0 8px rgba(0,102,255,0.8); }
+.dot-cyan  { background: #00D9C0; box-shadow: 0 0 8px rgba(0,217,192,0.8); }
+.dot-violet{ background: #7C3AED; box-shadow: 0 0 8px rgba(124,58,237,0.8); }
+.agent-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--white);
+}
+.agent-desc {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 1px;
+}
+
+/* ═══════════════════════════
+   TECH STACK
+═══════════════════════════ */
+.stack-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 56px;
+}
+.stack-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  backdrop-filter: blur(10px);
+  transition: border-color 0.25s, transform 0.25s, background 0.25s;
+  cursor: default;
+}
+.stack-badge:hover {
+  border-color: rgba(0,102,255,0.4);
+  background: linear-gradient(135deg, rgba(0,102,255,0.1), rgba(0,217,192,0.05));
+  transform: translateY(-3px);
+}
+.badge-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.badge-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--white);
+}
+.badge-role {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* ═══════════════════════════
+   FOOTER
+═══════════════════════════ */
+footer {
+  background: linear-gradient(180deg, rgba(0,102,255,0.04) 0%, transparent 100%);
+  border-top: 1px solid var(--border);
+  padding: 64px 60px 40px;
+}
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 48px;
+}
+.footer-brand { max-width: 300px; }
+.footer-logo {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  background: var(--grad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 12px;
+}
+.footer-tagline {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.footer-links h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 16px;
+  letter-spacing: 0.04em;
+}
+.footer-links ul { list-style: none; }
+.footer-links li { margin-bottom: 10px; }
+.footer-links a {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-links a:hover { color: var(--white); }
+.footer-bottom {
+  max-width: 1200px;
+  margin: 40px auto 0;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-copy {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--muted);
+}
+.footer-chips {
+  display: flex;
+  gap: 8px;
+}
+.footer-chip {
+  font-size: 12px;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  padding: 3px 12px;
+}
+
+/* ═══════════════════════════
+   RESEARCH OVERVIEW
+═══════════════════════════ */
+.research-section {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(0,102,255,0.04) 0%, transparent 100%);
+  padding: 80px 0;
+}
+.research-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+.research-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: start;
+  margin-top: 56px;
+}
+.research-body {
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--muted);
+  line-height: 1.85;
+}
+.research-body p + p { margin-top: 16px; }
+.research-body strong {
+  font-weight: 500;
+  color: var(--white);
+}
+.research-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.research-card {
+  background: linear-gradient(135deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 22px 24px;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  transition: border-color 0.25s, transform 0.25s;
+}
+.research-card:hover {
+  border-color: rgba(0,102,255,0.4);
+  transform: translateX(4px);
+}
+.rc-icon {
+  width: 36px; height: 36px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(0,102,255,0.2), rgba(0,217,192,0.15));
+  border: 1px solid rgba(0,102,255,0.25);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.rc-icon svg { width: 18px; height: 18px; }
+.rc-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 4px;
+}
+.rc-desc {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+/* ═══════════════════════════
+   KEY RESULTS
+═══════════════════════════ */
+.results-section {
+  padding: 80px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(135deg, rgba(0,102,255,0.05), rgba(0,217,192,0.02));
+}
+.results-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 48px;
+}
+.result-card {
+  background: linear-gradient(135deg, rgba(255,255,255,0.07), rgba(255,255,255,0.02));
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 36px 28px;
+  text-align: center;
+  transition: transform 0.3s, border-color 0.3s;
+}
+.result-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(0,102,255,0.4);
+}
+.result-num {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 52px;
+  font-weight: 600;
+  background: var(--grad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.result-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 8px;
+}
+.result-desc {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+/* ═══════════════════════════
+   USER GUIDE
+═══════════════════════════ */
+.guide-section {
+  padding: 100px 0;
+  border-top: 1px solid var(--border);
+}
+.guide-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+.guide-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 64px;
+  align-items: start;
+  margin-top: 56px;
+}
+
+/* Getting Started steps */
+.guide-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.guide-step {
+  display: flex;
+  gap: 16px;
+  padding: 28px 24px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  align-items: flex-start;
+  transition: border-color 0.25s, transform 0.25s;
+}
+.guide-step:hover {
+  border-color: rgba(0,102,255,0.4);
+  transform: translateY(-4px);
+}
+.gs-num {
+  flex-shrink: 0;
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  background: var(--grad);
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 2px;
+}
+.gs-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 6px;
+}
+.gs-desc {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.gs-tip {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: rgba(0,102,255,0.08);
+  border-left: 3px solid rgba(0,102,255,0.5);
+  border-radius: 0 6px 6px 0;
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+.gs-tip code {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--cyan);
+  background: rgba(0,217,192,0.1);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+/* Tab grid */
+.tab-overview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.tab-card {
+  background: linear-gradient(135deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px 20px;
+  transition: border-color 0.25s, transform 0.25s;
+}
+.tab-card:hover {
+  border-color: rgba(0,102,255,0.4);
+  transform: translateY(-3px);
+}
+.tab-card.admin-card  { border-color: rgba(245,158,11,0.35); background: linear-gradient(135deg, rgba(245,158,11,0.06), rgba(255,255,255,0.02)); }
+.tab-card.optional-card { border-color: rgba(0,102,255,0.3); background: linear-gradient(135deg, rgba(0,102,255,0.06), rgba(255,255,255,0.02)); }
+.tab-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.tab-badge {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 50px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.badge-admin    { background: rgba(245,158,11,0.2); color: #f59e0b; border: 1px solid rgba(245,158,11,0.3); }
+.badge-optional { background: rgba(0,102,255,0.15); color: #60a5fa; border: 1px solid rgba(0,102,255,0.3); }
+.tab-desc {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .features-grid { grid-template-columns: repeat(2, 1fr); }
+  .arch-flow { flex-wrap: wrap; }
+  .arch-connector { display: none; }
+  .arch-agents-col { width: 100%; }
+  .research-grid { grid-template-columns: 1fr; }
+  .results-grid { grid-template-columns: 1fr; }
+  .guide-grid { grid-template-columns: 1fr; }
+  .guide-steps { grid-template-columns: 1fr; }
+}
+@media (max-width: 700px) {
+  nav { padding: 16px 24px; }
+  .nav-links { display: none; }
+  .hero, .section, .arch-inner, .research-inner, .results-inner, .guide-inner, footer { padding-left: 24px; padding-right: 24px; }
+  .features-grid { grid-template-columns: 1fr; }
+  .footer-inner { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+
+<!-- ── Nav ── -->
+<nav>
+  <a href="#" class="nav-logo">WealthNexus</a>
+  <ul class="nav-links">
+    <li><a href="#research">Research</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#architecture">Architecture</a></li>
+    <li><a href="#stack">Stack</a></li>
+    <li><a href="#guide">Get Started</a></li>
+  </ul>
+  <a href="https://huggingface.co/spaces/sykang16/agentic-wealth-intelligence" target="_blank" class="nav-cta">Launch App &rarr;</a>
+</nav>
+
+<!-- ═══════════════════════════════════
+     HERO
+══════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-bg">
+    <div class="halo halo-1"></div>
+    <div class="halo halo-2"></div>
+    <div class="halo halo-3"></div>
+  </div>
+  <div class="sparkle">✦</div>
+  <div class="sparkle">✦</div>
+  <div class="sparkle">✧</div>
+  <div class="sparkle">✧</div>
+
+  <div class="hero-inner">
+    <div class="hero-badge">
+      <div class="badge-dot"></div>
+      Introducing WealthNexus — AI-Powered Wealth Management
+    </div>
+
+    <h1 class="hero-title">
+      <span class="grad-text">WealthNexus</span><br>
+      Your AI Wealth Advisor, Always On
+    </h1>
+
+    <p class="hero-sub">
+      Multi-agent orchestration &middot; Conversational profiling &middot;
+      RAG-enhanced recommendations &middot; Real-time market data integration
+    </p>
+
+    <div class="hero-actions">
+      <a href="https://huggingface.co/spaces/sykang16/agentic-wealth-intelligence" target="_blank" class="btn-primary">Try Launch App &rarr;</a>
+      <a href="#features" class="btn-ghost">Explore System &darr;</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     RESEARCH OVERVIEW
+══════════════════════════════════════ -->
+<section class="research-section" id="research">
+  <div class="research-inner">
+    <p class="section-label reveal">Research</p>
+    <h2 class="section-title reveal d1">The Problem We Solve</h2>
+
+    <div class="research-grid">
+      <div class="research-body reveal d2">
+        <p>
+          Traditional financial chatbots face a fundamental tension — the
+          <strong>Accuracy-Diversity Trade-off</strong>. They either over-specialize
+          in user preferences, creating echo-chamber portfolios, or fail to enforce
+          strict fiduciary risk constraints required for responsible wealth management.
+        </p>
+        <p>
+          WealthNexus addresses this with a <strong>Hybrid Adaptive Routing</strong>
+          mechanism that distinguishes between routine informational queries and complex
+          advisory tasks. Simple questions take a fast keyword path; nuanced intent
+          escalates to a zero-temperature LLM classifier.
+        </p>
+        <p>
+          For portfolio recommendations, the system employs a
+          <strong>supervisor-led subgraph</strong> that integrates
+          Modern Portfolio Theory (MPT) as a re-ranking constraint — ensuring outputs
+          are not only semantically relevant but mathematically optimized for risk
+          diversification, effectively reaching the
+          <strong>efficient frontier</strong> of automated advisory.
+        </p>
+      </div>
+
+      <div class="research-cards">
+        <div class="research-card reveal d2">
+          <div class="rc-icon">
+            <svg viewBox="0 0 18 18" fill="none" stroke="url(#ri1)" stroke-width="1.6" stroke-linecap="round">
+              <defs><linearGradient id="ri1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0066FF"/><stop offset="100%" stop-color="#00D9C0"/></linearGradient></defs>
+              <path d="M9 2l2.1 4.3 4.9.7-3.5 3.4.8 4.8L9 13l-4.3 2.2.8-4.8L2 7l4.9-.7L9 2z"/>
+            </svg>
+          </div>
+          <div>
+            <div class="rc-title">Hybrid Adaptive Routing</div>
+            <div class="rc-desc">Two-tier intent classification via LangGraph — keyword fast-path for routine queries, LLM fallback for complex advisory tasks.</div>
+          </div>
+        </div>
+        <div class="research-card reveal d3">
+          <div class="rc-icon">
+            <svg viewBox="0 0 18 18" fill="none" stroke="url(#ri2)" stroke-width="1.6" stroke-linecap="round">
+              <defs><linearGradient id="ri2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0066FF"/><stop offset="100%" stop-color="#00D9C0"/></linearGradient></defs>
+              <polyline points="2,14 6,8 10,11 14,4 16,6"/><circle cx="16" cy="4" r="1.5" fill="url(#ri2)" stroke="none"/>
+            </svg>
+          </div>
+          <div>
+            <div class="rc-title">MPT Re-ranking Constraint</div>
+            <div class="rc-desc">Modern Portfolio Theory applied as a post-retrieval filter — recommendations are optimized for the efficient frontier, not just semantic similarity.</div>
+          </div>
+        </div>
+        <div class="research-card reveal d4">
+          <div class="rc-icon">
+            <svg viewBox="0 0 18 18" fill="none" stroke="url(#ri3)" stroke-width="1.6" stroke-linecap="round">
+              <defs><linearGradient id="ri3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0066FF"/><stop offset="100%" stop-color="#00D9C0"/></linearGradient></defs>
+              <circle cx="9" cy="9" r="7"/><line x1="9" y1="5" x2="9" y2="9"/><line x1="9" y1="9" x2="12" y2="11"/>
+            </svg>
+          </div>
+          <div>
+            <div class="rc-title">Transparent Reasoning Paths</div>
+            <div class="rc-desc">Real-time reasoning path visualizations surface how decisions are made, fostering user trust in automated financial advice.</div>
+          </div>
+        </div>
+        <div class="research-card reveal d5">
+          <div class="rc-icon">
+            <svg viewBox="0 0 18 18" fill="none" stroke="url(#ri4)" stroke-width="1.6" stroke-linecap="round">
+              <defs><linearGradient id="ri4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0066FF"/><stop offset="100%" stop-color="#00D9C0"/></linearGradient></defs>
+              <rect x="2" y="2" width="6" height="6" rx="1"/><rect x="10" y="2" width="6" height="6" rx="1"/>
+              <rect x="2" y="10" width="6" height="6" rx="1"/><rect x="10" y="10" width="6" height="6" rx="1" opacity="0.5"/>
+              <line x1="8" y1="5" x2="10" y2="5"/><line x1="5" y1="8" x2="5" y2="10"/>
+            </svg>
+          </div>
+          <div>
+            <div class="rc-title">Agentic Orchestration + Classical Finance</div>
+            <div class="rc-desc">Synthesizes LLM-based multi-agent coordination with established financial engineering theory for a scalable, verifiable advisory model.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     GETTING STARTED
+══════════════════════════════════════ -->
+<section class="guide-section" id="guide">
+  <div class="guide-inner">
+    <p class="section-label reveal">User Guide</p>
+    <h2 class="section-title reveal d1">Getting Started</h2>
+    <p class="section-desc reveal d2">Everything you need to start using WealthNexus — from initial setup to navigating each module.</p>
+
+    <div class="guide-steps reveal d3">
+      <div class="guide-step">
+        <div class="gs-num">1</div>
+        <div>
+          <div class="gs-title">Initial Loading</div>
+          <p class="gs-desc">When you first access the application, it may take a moment to load. Please wait while the environment initializes.</p>
+        </div>
+      </div>
+      <div class="guide-step">
+        <div class="gs-num">2</div>
+        <div>
+          <div class="gs-title">Adjust the Display</div>
+          <p class="gs-desc">Resize or zoom the interface to your comfort. You can use <code style="font-family:monospace;font-size:12px;color:var(--cyan)">Ctrl + scroll</code>, browser zoom, or drag-to-resize as needed.</p>
+        </div>
+      </div>
+      <div class="guide-step">
+        <div class="gs-num">3</div>
+        <div>
+          <div class="gs-title">Enter Your API Keys</div>
+          <p class="gs-desc">Locate the <strong style="color:var(--white);font-weight:500">API Keys</strong> panel in the bottom-left corner. Enter your API key(s) there. The application will use the LLM model associated with the key you provide.</p>
+          <div class="gs-tip">&#x26A0; In a production deployment, API keys would be stored securely in a <code>.env</code> file rather than entered through the UI.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     USER GUIDE — TAB OVERVIEW
+══════════════════════════════════════ -->
+<section class="guide-section" id="tabs">
+  <div class="guide-inner">
+    <p class="section-label reveal">Tab Overview</p>
+    <h2 class="section-title reveal d1">Application Modules</h2>
+    <p class="section-desc reveal d2">Each tab is purpose-built for a specific workflow. Navigate freely between them or use the AI Advisor for a unified experience.</p>
+
+    <div class="tab-overview-grid" style="margin-top:48px">
+
+      <div class="tab-card reveal d2">
+        <div class="tab-name">&#x1F4CA; Dashboard</div>
+        <p class="tab-desc">Displays a high-level summary of your portfolio and current asset status at a glance.</p>
+      </div>
+
+      <div class="tab-card reveal d2">
+        <div class="tab-name">&#x1F916; AI Advisor</div>
+        <p class="tab-desc">Unified interface integrating portfolio queries, investment profile, and recommendations into one experience. Observe the agent's reasoning step by step as it runs.</p>
+      </div>
+
+      <div class="tab-card reveal d3">
+        <div class="tab-name">&#x1F4AC; Ask About Portfolio</div>
+        <p class="tab-desc">Ask questions about your holdings in natural language. Responds with rich visualizations tailored to your query.</p>
+      </div>
+
+      <div class="tab-card reveal d3">
+        <div class="tab-name">&#x1F464; Investment Profile</div>
+        <p class="tab-desc">Build your investment profile through a natural-language conversation. Preferences and goals are captured progressively through dialogue.</p>
+      </div>
+
+      <div class="tab-card reveal d4">
+        <div class="tab-name">&#x2B50; Recommendations</div>
+        <p class="tab-desc">Personalized investment recommendations combining your financial profile with external data. Choose whether to include live market data in the analysis.</p>
+      </div>
+
+      <div class="tab-card reveal d4">
+        <div class="tab-name">&#x1F4C8; Holdings <span class="tab-badge badge-optional">Optional</span></div>
+        <p class="tab-desc">Provides a concise overview of your major holdings and key information associated with each position.</p>
+      </div>
+
+      <div class="tab-card admin-card reveal d5" style="grid-column: 1 / -1">
+        <div class="tab-name">&#x1F527; Knowledge Search <span class="tab-badge badge-admin">Administration</span></div>
+        <p class="tab-desc">Internal tooling not exposed to end users. Admins use this tab to update real-time information, manage data retention policies, and maintain the knowledge base.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     FEATURES
+══════════════════════════════════════ -->
+<section id="features">
+  <div class="section">
+    <p class="section-label reveal">Capabilities</p>
+    <h2 class="section-title reveal d1">Six Intelligent Modules</h2>
+    <p class="section-desc reveal d2">Each module is purpose-built and orchestrated by a LangGraph state machine that routes intent with 98% keyword accuracy and LLM fallback.</p>
+
+    <div class="features-grid">
+
+      <div class="feature-card reveal d1">
+        <div class="feature-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="url(#g1)" stroke-width="1.8" stroke-linecap="round">
+            <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0066FF"/><stop offset="100%" stop-color="#00D9C0"/></linearGradient></defs>
+            <rect x="2" y="14" width="4" height="7"/><rect x="9" y="10" width="4" height="11"/>
+            <rect x="16" y="6" width="4" height="15"/><polyline points="2,8 9,5 16,2" stroke="url(#g1)"/>
+          </svg>
+        </div>
+        <h3 class="feature-name">Portfolio Analysis</h3>
+        <p class="feature-desc">Natural language queries about holdings, net worth, allocation, and gains/losses. The asset agent understands financial context and returns structured, actionable insights.</p>
+        <span class="feature-badge">AssetAgent</span>
+      </div>
+
+      <div class="feature-card reveal d2">
+        <div class="feature-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="url(#g2)" stroke-width="1.8" stroke-linecap="round">
+            <defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0066FF"/><stop offset="100%" stop-color="#00D9C0"/></linearGradient></defs>
+            <circle cx="12" cy="8" r="5"/><path d="M3 21c0-4.4 4-8 9-8s9 3.6 9 8"/>
+            <circle cx="12" cy="8" r="2" fill="url(#g2)" stroke="none" opacity="0.5"/>
+          </svg>
+        </div>
+        <h3 class="feature-name">Investment Profiling</h3>
+        <p class="feature-desc">Conversational slot-filling builds a complete investor profile through natural dialogue. Risk tolerance, time horizon, and preferences captured with LangGraph state machine precision.</p>
+        <span class="feature-badge">ProfilingAgent</span>
+      </div>
+
+      <div class="feature-card reveal d3">
+        <div class="feature-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="url(#g3)" stroke-width="1.8" stroke-linecap="round">
+            <defs><linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0066FF"/><stop offset="100%" stop-color="#00D9C0"/></linearGradient></defs>
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+        </div>
+        <h3 class="feature-name">Smart Recommendations</h3>
+        <p class="feature-desc">RAG-augmented engine retrieves knowledge base context, filters by risk profile, and ranks by composite score: 40% relevance + 35% risk alignment + 25% diversification.</p>
+        <span class="feature-badge">RecommendationEngine</span>
+      </div>
+
+      <div class="feature-card reveal d4">
+        <div class="feature-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="url(#g4)" stroke-width="1.8" stroke-linecap="round">
+            <defs><linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0066FF"/><stop offset="100%" stop-color="#00D9C0"/></linearGradient></defs>
+            <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/>
+            <line x1="12" y1="2" x2="12" y2="8"/><line x1="12" y1="16" x2="12" y2="22"/>
+            <line x1="2" y1="12" x2="8" y2="12"/><line x1="16" y1="12" x2="22" y2="12"/>
+          </svg>
+        </div>
+        <h3 class="feature-name">Real-time Market Data</h3>
+        <p class="feature-desc">MCP (Model Context Protocol) integration streams live market quotes, financial news, and economic indicators directly into the recommendation context at inference time.</p>
+        <span class="feature-badge">MCP Protocol</span>
+      </div>
+
+      <div class="feature-card reveal d5">
+        <div class="feature-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="url(#g5)" stroke-width="1.8" stroke-linecap="round">
+            <defs><linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0066FF"/><stop offset="100%" stop-color="#00D9C0"/></linearGradient></defs>
+            <rect x="2" y="3" width="20" height="7" rx="2"/>
+            <rect x="2" y="14" width="9" height="7" rx="2" opacity="0.7"/>
+            <rect x="13" y="14" width="9" height="7" rx="2"/>
+            <line x1="7" y1="10" x2="7" y2="14"/><line x1="17" y1="10" x2="17" y2="14"/>
+          </svg>
+        </div>
+        <h3 class="feature-name">Multi-Agent Routing</h3>
+        <p class="feature-desc">LangGraph orchestration with two-tier intent classification: keyword fast-path at 98% accuracy with LLM fallback at temperature=0. Seamlessly routes to the right module.</p>
+        <span class="feature-badge">WealthOrchestrator</span>
+      </div>
+
+      <div class="feature-card reveal d6">
+        <div class="feature-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="url(#g6)" stroke-width="1.8" stroke-linecap="round">
+            <defs><linearGradient id="g6" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0066FF"/><stop offset="100%" stop-color="#00D9C0"/></linearGradient></defs>
+            <rect x="2" y="6" width="20" height="14" rx="2"/>
+            <rect x="6" y="10" width="5" height="4" rx="1" opacity="0.5"/>
+            <line x1="14" y1="11" x2="18" y2="11"/><line x1="14" y1="14" x2="16" y2="14"/>
+            <path d="M10 20l2 3 2-3" opacity="0.7"/>
+          </svg>
+        </div>
+        <h3 class="feature-name">Plaid Integration</h3>
+        <p class="feature-desc">Optional live bank account and investment data syncing via Plaid API. Seamlessly ingest real holdings, balances, and transactions for grounded, personalized analysis.</p>
+        <span class="feature-badge">Live Data Sync</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     ARCHITECTURE
+══════════════════════════════════════ -->
+<section class="arch-section" id="architecture">
+  <div class="arch-inner">
+    <p class="section-label reveal">System Design</p>
+    <h2 class="section-title reveal d1">Agent Architecture</h2>
+    <p class="section-desc reveal d2">A LangGraph StateGraph routes every user query through a two-tier classifier before dispatching to the appropriate specialized agent.</p>
+
+    <div class="arch-flow">
+
+      <div class="arch-node reveal d1">
+        <div class="arch-node-tag">Entry Point</div>
+        <div class="arch-node-name">User</div>
+        <div class="arch-node-sub">Natural language query<br>via Streamlit UI or API</div>
+      </div>
+
+      <div class="arch-connector">
+        <div class="connector-line"></div>
+        <div class="connector-arrow"></div>
+      </div>
+
+      <div class="arch-node center reveal d2">
+        <div class="arch-node-tag">Orchestrator</div>
+        <div class="arch-node-name grad">WealthOrchestrator</div>
+        <div class="arch-node-sub">LangGraph StateGraph<br>Keyword + LLM intent routing</div>
+      </div>
+
+      <div class="arch-connector">
+        <div class="connector-line"></div>
+        <div class="connector-arrow"></div>
+      </div>
+
+      <div class="arch-agents-col reveal d3">
+        <div class="arch-agent">
+          <div class="agent-dot dot-blue"></div>
+          <div class="agent-info">
+            <div class="agent-name">AssetAgent</div>
+            <div class="agent-desc">Portfolio queries, holdings, net worth, gains/losses</div>
+          </div>
+        </div>
+        <div class="arch-agent">
+          <div class="agent-dot dot-cyan"></div>
+          <div class="agent-info">
+            <div class="agent-name">ProfilingAgent</div>
+            <div class="agent-desc">Conversational slot-filling, risk profile construction</div>
+          </div>
+        </div>
+        <div class="arch-agent">
+          <div class="agent-dot dot-violet"></div>
+          <div class="agent-info">
+            <div class="agent-name">RecommendationEngine</div>
+            <div class="agent-desc">RAG + MCP + composite scoring, supervisor subgraph</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="arch-connector">
+        <div class="connector-line"></div>
+        <div class="connector-arrow"></div>
+      </div>
+
+      <div class="arch-node reveal d4">
+        <div class="arch-node-tag">Output</div>
+        <div class="arch-node-name">Response</div>
+        <div class="arch-node-sub">Structured insight<br>with source attribution</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     TECH STACK
+══════════════════════════════════════ -->
+<section id="stack">
+  <div class="section">
+    <p class="section-label reveal">Technology</p>
+    <h2 class="section-title reveal d1">Built on Modern Foundations</h2>
+    <p class="section-desc reveal d2">A carefully selected stack optimized for agentic AI workflows, financial data processing, and production-grade reliability.</p>
+
+    <div class="stack-grid">
+      <div class="stack-badge reveal d1"><div class="badge-dot" style="background:#3776ab;box-shadow:0 0 6px #3776ab44"></div><span class="badge-name">Python</span><span class="badge-role">3.12+</span></div>
+      <div class="stack-badge reveal d1"><div class="badge-dot" style="background:#00D9C0;box-shadow:0 0 6px #00D9C044"></div><span class="badge-name">LangGraph</span><span class="badge-role">Orchestration</span></div>
+      <div class="stack-badge reveal d2"><div class="badge-dot" style="background:#009688;box-shadow:0 0 6px #00968844"></div><span class="badge-name">FastAPI</span><span class="badge-role">REST Layer</span></div>
+      <div class="stack-badge reveal d2"><div class="badge-dot" style="background:#ff4b4b;box-shadow:0 0 6px #ff4b4b44"></div><span class="badge-name">Streamlit</span><span class="badge-role">UI Interface</span></div>
+      <div class="stack-badge reveal d3"><div class="badge-dot" style="background:#8b5cf6;box-shadow:0 0 6px #8b5cf644"></div><span class="badge-name">ChromaDB</span><span class="badge-role">Vector Store</span></div>
+      <div class="stack-badge reveal d3"><div class="badge-dot" style="background:#0066FF;box-shadow:0 0 6px #0066FF44"></div><span class="badge-name">Claude API</span><span class="badge-role">Anthropic LLM</span></div>
+      <div class="stack-badge reveal d4"><div class="badge-dot" style="background:#e11d48;box-shadow:0 0 6px #e11d4844"></div><span class="badge-name">Pydantic v2</span><span class="badge-role">Validation</span></div>
+      <div class="stack-badge reveal d4"><div class="badge-dot" style="background:#00D9C0;box-shadow:0 0 6px #00D9C044"></div><span class="badge-name">MCP</span><span class="badge-role">Market Protocol</span></div>
+      <div class="stack-badge reveal d5"><div class="badge-dot" style="background:#00d4ff;box-shadow:0 0 6px #00d4ff44"></div><span class="badge-name">Plaid</span><span class="badge-role">Financial Data</span></div>
+      <div class="stack-badge reveal d5"><div class="badge-dot" style="background:#f59e0b;box-shadow:0 0 6px #f59e0b44"></div><span class="badge-name">Sentence Transformers</span><span class="badge-role">Embeddings</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     FOOTER
+══════════════════════════════════════ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo">WealthNexus</div>
+      <p class="footer-tagline">An AI-powered wealth management research system demonstrating multi-agent orchestration, conversational profiling, and RAG-enhanced investment recommendations.</p>
+      <a href="https://huggingface.co/spaces/sykang16/agentic-wealth-intelligence" target="_blank" style="display:inline-block;margin-top:16px;padding:8px 20px;background:var(--grad);color:#fff;font-family:'Space Grotesk',sans-serif;font-size:13px;font-weight:500;border-radius:50px;text-decoration:none;transition:opacity 0.2s,transform 0.2s;" onmouseover="this.style.opacity='0.85';this.style.transform='translateY(-1px)'" onmouseout="this.style.opacity='1';this.style.transform='translateY(0)'">Launch App &rarr;</a>
+    </div>
+    <div class="footer-links">
+      <h4>System</h4>
+      <ul>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#architecture">Architecture</a></li>
+        <li><a href="#stack">Tech Stack</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h4>Source</h4>
+      <ul>
+        <li><a href="https://github.com/sykang16/Agentic_Wealth_Intelligence" target="_blank">GitHub Repository</a></li>
+        <li><a href="./User_Guide.html">User Guide</a></li>
+        <li><a href="https://console.anthropic.com/settings/keys" target="_blank">Claude API</a></li>
+        <li><a href="https://aistudio.google.com/apikey" target="_blank">Gemini API</a></li>
+        <li><a href="https://platform.openai.com/api-keys" target="_blank">OpenAI API</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">&copy; 2026 WealthNexus &mdash; Research Project</span>
+    <div class="footer-chips">
+      <span class="footer-chip">Python 3.12</span>
+      <span class="footer-chip">LangGraph</span>
+      <span class="footer-chip">Claude Sonnet</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* Intersection Observer — scroll reveals */
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      io.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+/* Count-up for [data-count] */
+function countUp(el, target, duration) {
+  let start = null;
+  const step = (ts) => {
+    if (!start) start = ts;
+    const p = Math.min((ts - start) / duration, 1);
+    el.textContent = Math.floor(p * target);
+    if (p < 1) requestAnimationFrame(step);
+    else el.textContent = target;
+  };
+  requestAnimationFrame(step);
+}
+const cio = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      countUp(e.target, parseInt(e.target.dataset.count), 1600);
+      cio.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.5 });
+document.querySelectorAll('[data-count]').forEach(el => cio.observe(el));
+
+/* Active nav link on scroll */
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-links a');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(s => { if (window.scrollY >= s.offsetTop - 120) current = s.id; });
+  navLinks.forEach(a => {
+    const isActive = a.getAttribute('href') === `#${current}`;
+    a.style.color = isActive ? 'rgba(255,255,255,0.9)' : '';
+  });
+}, { passive: true });
+</script>
+</body>
+</html>
