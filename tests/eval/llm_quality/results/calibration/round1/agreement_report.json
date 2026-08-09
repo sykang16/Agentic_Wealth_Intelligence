@@ -1,0 +1,133 @@
+{
+  "n_recs": 50,
+  "n_annotators": 2,
+  "annotators": [
+    "pi",
+    "student"
+  ],
+  "raw_agreement_per_pair": {
+    "pi__vs__student": {
+      "C1_personalization": {
+        "n": 50,
+        "exact_rate": 0.86,
+        "within1_rate": 0.98
+      },
+      "C2_risk_alignment": {
+        "n": 50,
+        "exact_rate": 0.9,
+        "within1_rate": 0.94
+      },
+      "C3_factual_grounding": {
+        "n": 50,
+        "exact_rate": 0.56,
+        "within1_rate": 0.88
+      },
+      "C4_actionability": {
+        "n": 50,
+        "exact_rate": 0.28,
+        "within1_rate": 0.82
+      },
+      "C5_diversification": {
+        "n": 50,
+        "exact_rate": 0.42,
+        "within1_rate": 0.9
+      },
+      "C6_safety_compliance": {
+        "n": 50,
+        "exact_rate": 0.38,
+        "within1_rate": 0.82
+      }
+    }
+  },
+  "krippendorff_alpha_interval_per_criterion": {
+    "C1_personalization": -0.05769230769230771,
+    "C2_risk_alignment": 0.8567511994516792,
+    "C3_factual_grounding": 0.0891433244735228,
+    "C4_actionability": -0.03672356907186902,
+    "C5_diversification": 0.12880000000000003,
+    "C6_safety_compliance": -0.14931945556445148
+  },
+  "cohen_kappa_linear_weighted_per_pair": {
+    "pi__vs__student": {
+      "C1_personalization": -0.030927835051546282,
+      "C2_risk_alignment": 0.8285060975609756,
+      "C3_factual_grounding": 0.18630751964085301,
+      "C4_actionability": 0.10917361637604239,
+      "C5_diversification": 0.1795366795366793,
+      "C6_safety_compliance": 0.07407407407407418
+    }
+  },
+  "inter_rater_pearson_r_per_pair": {
+    "pi__vs__student": {
+      "C1_personalization": -0.049937616943892225,
+      "C2_risk_alignment": 0.8554591310267223,
+      "C3_factual_grounding": 0.19657101382862813,
+      "C4_actionability": 0.31409249558793234,
+      "C5_diversification": 0.3826082456196355,
+      "C6_safety_compliance": 0.13511353080623162
+    }
+  },
+  "inter_rater_spearman_rho_per_pair": {
+    "pi__vs__student": {
+      "C1_personalization": -0.05269365096880839,
+      "C2_risk_alignment": 0.9161212168893947,
+      "C3_factual_grounding": 0.18079842679537175,
+      "C4_actionability": 0.3572690415806455,
+      "C5_diversification": 0.39339495371239214,
+      "C6_safety_compliance": 0.06045256237921359
+    }
+  },
+  "judge_human_correlation_per_criterion": {
+    "C1_personalization": {
+      "n": 50,
+      "spearman_rho": 0.29828784508655143,
+      "pearson_r": 0.3444431155769632,
+      "mean_diff_human_minus_judge": 0.11,
+      "loa_low": -0.5552578447489365,
+      "loa_high": 0.7752578447489364
+    },
+    "C2_risk_alignment": {
+      "n": 50,
+      "spearman_rho": 0.8595302960184762,
+      "pearson_r": 0.7099882836409671,
+      "mean_diff_human_minus_judge": 0.12,
+      "loa_low": -1.5431151493507596,
+      "loa_high": 1.7831151493507598
+    },
+    "C3_factual_grounding": {
+      "n": 50,
+      "spearman_rho": 0.3783116686047322,
+      "pearson_r": 0.33538404829769614,
+      "mean_diff_human_minus_judge": -0.21,
+      "loa_low": -1.3315738941327049,
+      "loa_high": 0.911573894132705
+    },
+    "C4_actionability": {
+      "n": 50,
+      "spearman_rho": 0.29873014772252415,
+      "pearson_r": 0.2669647789904367,
+      "mean_diff_human_minus_judge": -0.52,
+      "loa_low": -1.755812283479979,
+      "loa_high": 0.7158122834799789
+    },
+    "C5_diversification": {
+      "n": 50,
+      "spearman_rho": 0.7594651022566571,
+      "pearson_r": 0.7304085256352798,
+      "mean_diff_human_minus_judge": 0.43,
+      "loa_low": -0.7075376916832252,
+      "loa_high": 1.567537691683225
+    },
+    "C6_safety_compliance": {
+      "n": 50,
+      "spearman_rho": 0.19960646214715055,
+      "pearson_r": 0.17298685236153188,
+      "mean_diff_human_minus_judge": -0.47,
+      "loa_low": -1.6809797686171308,
+      "loa_high": 0.7409797686171309
+    }
+  },
+  "composite_pearson_r": 0.6952510676572223,
+  "composite_spearman_rho": 0.6116706304359836,
+  "test_retest": {}
+}

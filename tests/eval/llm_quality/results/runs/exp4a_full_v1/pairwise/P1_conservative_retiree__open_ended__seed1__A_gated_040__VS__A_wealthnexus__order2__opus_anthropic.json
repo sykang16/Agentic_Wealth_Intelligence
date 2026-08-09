@@ -1,0 +1,30 @@
+{
+  "session_id": "P1_conservative_retiree__open_ended__seed1",
+  "persona_id": "P1_conservative_retiree",
+  "query_type": "open_ended",
+  "seed": 1,
+  "sys_a": "A_gated_040",
+  "sys_b": "A_wealthnexus",
+  "order": 2,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more thoroughly personalized rationales citing multiple profile attributes (age, loss comfort, horizon, expenses, experience) with consistent low-risk recommendations across all four recs, whereas System B introduces a moderate-risk preferred stock recommendation that is less aligned with a loss-comfort-2/10 conservative retiree. System A's action steps are also more concrete (specific dollar amounts, ladder rungs, tax-equivalent yield math) while maintaining calibrated language comparable to B.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more thoroughly personalized rationales citing multiple profile attributes (age, loss comfort, horizon, expenses, experience) with consistent low-risk recommendations across all four recs, whereas System B introduces a moderate-risk preferred stock recommendation that is less aligned with a loss-comfort-2/10 conservative retiree. System A's action steps are also more concrete (specific dollar amounts, ladder rungs, tax-equivalent yield math) while maintaining calibrated language comparable to B."
+  },
+  "usage": {
+    "input_tokens": 12512,
+    "output_tokens": 305
+  }
+}

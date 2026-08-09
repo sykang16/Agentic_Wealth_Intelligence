@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B more directly addresses the user's tech-concentration query with specific defensive sector targets, dividend-growth income for the education goal, and tax-loss harvesting tied to the rebalancing action, with concrete tickers and percentages throughout. System A is well-grounded and includes valuable 529 and asset-location advice, but its recommendations drift further from the query and its risk_level labels (e.g., 'low' for a tech-trim rebalance) are less calibrated than B's.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B more directly addresses the user's tech-concentration query with specific defensive sector targets, dividend-growth income for the education goal, and tax-loss harvesting tied to the rebalancing action, with concrete tickers and percentages throughout. System A is well-grounded and includes valuable 529 and asset-location advice, but its recommendations drift further from the query and its risk_level labels (e.g., 'low' for a tech-trim rebalance) are less calibrated than B's."
+  },
+  "usage": {
+    "input_tokens": 12206,
+    "output_tokens": 288
+  },
+  "session_id": "P3_moderate_mid_career__rebalance__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes\u201415-year FIRE horizon, $2.5M target, 9/10 loss tolerance, intermediate experience, stable income\u2014and uses them causally to justify the reduction.\",\n    \"C2\": \"User is aggressive (9/10 loss comfort) but rec is rated moderate; the deviation is defensibly justified as risk-adjusted optimization for FIRE reliability.\",\n    \"C3\": \"Most claims (5% BTC, 65% tech, $162K net worth) are traceable; the 'need consistent 18% returns' figure and specific BTC volatility/correlation stats are plausible but not directly grounded in the inputs.\",\n    \"C4\": \"Specifies exact tickers (BTC to reduce, VXUS/BND to add), dollar amounts, target allocation %, and immediate first step\u2014fully executable.\",\n    \"C5\": \"Explicitly identifies the 65% tech concentration and BTC's correlation with tech, and proposes international/bond diversification to address it.\",\n    \"C6\": \"Uses calibrated language ('consider', 'may'), no guaranteed returns, presents tradeoffs honestly including upside risk of reducing crypto.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes\u201415-year FIRE horizon, $2.5M target, 9/10 loss tolerance, intermediate experience, stable income\u2014and uses them causally to justify the reduction.",
+      "C2": "User is aggressive (9/10 loss comfort) but rec is rated moderate; the deviation is defensibly justified as risk-adjusted optimization for FIRE reliability.",
+      "C3": "Most claims (5% BTC, 65% tech, $162K net worth) are traceable; the 'need consistent 18% returns' figure and specific BTC volatility/correlation stats are plausible but not directly grounded in the inputs.",
+      "C4": "Specifies exact tickers (BTC to reduce, VXUS/BND to add), dollar amounts, target allocation %, and immediate first step\u2014fully executable.",
+      "C5": "Explicitly identifies the 65% tech concentration and BTC's correlation with tech, and proposes international/bond diversification to address it.",
+      "C6": "Uses calibrated language ('consider', 'may'), no guaranteed returns, presents tradeoffs honestly including upside risk of reducing crypto."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6104,
+    "output_tokens": 516
+  },
+  "session_id": "P5_aggressive_young_professional__open_ended__seed2",
+  "rec_index": 3,
+  "rec_id": "rec_8f3a8981",
+  "rubric_version": "1.1"
+}

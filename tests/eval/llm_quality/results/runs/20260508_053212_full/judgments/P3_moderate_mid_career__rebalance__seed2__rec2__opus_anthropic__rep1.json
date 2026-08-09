@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale explicitly cites age 40, moderate risk tolerance, loss comfort 6/10, 10-year education horizon, $175K stable income, and intermediate experience to justify the choice.\",\n    \"C2\": \"risk_level 'moderate' matches the user's moderate risk tolerance, and the rationale explicitly ties healthcare's volatility profile to the moderate tolerance and 6/10 loss comfort.\",\n    \"C3\": \"Allocation figures (12% healthcare, 35% tech, 15% Other, 5% Energy) are traceable to the snapshot, but specific volatility/return figures (30-40% less volatility, 8-12% returns) are generic unsupported quantitative claims.\",\n    \"C4\": \"Specifies concrete tickers (VHT, XLV), exact dollar amount ($16,000), allocation % (5%), and a clear first step to execute.\",\n    \"C5\": \"Recommendation acknowledges the 35% tech concentration and proposes a low-correlation sector to improve balance, though it adds to allocation rather than directly answering the trim question (which is referenced as rec #1).\",\n    \"C6\": \"Uses calibrated language ('historically', 'may lag', 'potentially'), notes regulatory trade-offs, and avoids guarantee phrasing.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale explicitly cites age 40, moderate risk tolerance, loss comfort 6/10, 10-year education horizon, $175K stable income, and intermediate experience to justify the choice.",
+      "C2": "risk_level 'moderate' matches the user's moderate risk tolerance, and the rationale explicitly ties healthcare's volatility profile to the moderate tolerance and 6/10 loss comfort.",
+      "C3": "Allocation figures (12% healthcare, 35% tech, 15% Other, 5% Energy) are traceable to the snapshot, but specific volatility/return figures (30-40% less volatility, 8-12% returns) are generic unsupported quantitative claims.",
+      "C4": "Specifies concrete tickers (VHT, XLV), exact dollar amount ($16,000), allocation % (5%), and a clear first step to execute.",
+      "C5": "Recommendation acknowledges the 35% tech concentration and proposes a low-correlation sector to improve balance, though it adds to allocation rather than directly answering the trim question (which is referenced as rec #1).",
+      "C6": "Uses calibrated language ('historically', 'may lag', 'potentially'), notes regulatory trade-offs, and avoids guarantee phrasing."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6116,
+    "output_tokens": 548
+  },
+  "session_id": "P3_moderate_mid_career__rebalance__seed2",
+  "rec_index": 2,
+  "rec_id": "rec_7c58744f",
+  "rubric_version": "1.1"
+}

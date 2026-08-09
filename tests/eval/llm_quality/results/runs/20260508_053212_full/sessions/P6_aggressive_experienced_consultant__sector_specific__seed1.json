@@ -1,0 +1,175 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed1",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "sector_specific",
+  "query": "Should I rotate from energy into AI/semiconductor exposure at current valuations, or keep the cyclical tilt?",
+  "seed": 1,
+  "context": {
+    "portfolio_context": "## Portfolio Snapshot\n- Total Assets: $1,500,000\n- Total Liabilities: $380,000\n- Net Worth: $1,120,000\n\n### Allocation by Asset Type\n- stock: 45.0%\n- etf: 25.0%\n- bond: 15.0%\n- cash: 5.0%\n- crypto: 5.0%\n- mutual_fund: 5.0%\n\n### Allocation by Sector\n- Technology: 30.0%\n- Energy: 15.0%\n- Financials: 15.0%\n- Industrials: 15.0%\n- Healthcare: 10.0%\n- Emerging Markets: 15.0%\n\n### Holdings (tickers)\nVTI, VWO, XLE, XOM, CVX, JPM, GS, CAT, DE, NVDA, BTC, BND",
+    "investment_profile_context": "## Investment Profile\n- Age: 45\n- Occupation: Independent strategy consultant\n- Annual Income: $280,000\n- Monthly Expenses: $13,000\n- Risk Tolerance: aggressive\n- Loss Comfort (1-10): 8\n- Investment Horizon: long\n- Liquidity Needs: medium\n- Income Stability: variable\n- Has Emergency Fund: True\n- Debt Level: moderate\n- Investment Experience: advanced\n- ESG Preference: False\n- Goals:\n  - wealth (high priority, target $4,000,000): Continue compounding wealth; comfortable with cyclical drawdowns\n  - other (medium priority, target $800,000): Legacy planning for one child",
+    "rag_context": "",
+    "data_sources_used": [
+      "portfolio",
+      "investment_profile"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec_bc9e3c56",
+      "category": "rebalance",
+      "title": "Gradual Rotation: Energy to AI/Semiconductor with 60/40 Split",
+      "summary": "Reduce energy allocation from 15% to 9% and increase technology exposure from 30% to 36%, targeting AI/semiconductor leaders while maintaining cyclical diversification.",
+      "detailed_rationale": "Signal: Your portfolio shows 15% energy concentration (XLE, XOM, CVX) while technology sits at 30%. Given your aggressive risk profile (loss comfort 8/10) and advanced experience, you're well-positioned for tactical sector rotation. However, complete abandonment of energy would be premature. Here's the step-by-step reasoning: (1) Current market conditions show AI/semiconductor valuations have corrected 15-20% from 2024 peaks, creating entry opportunities in NVDA, AMD, and AVGO. Your existing NVDA position provides a foundation to build upon. (2) Your $280K variable income and 8-year wealth compounding timeline (age 45, targeting $4M) aligns perfectly with high-growth technology exposure that can weather 2-3 year volatility cycles. (3) Energy fundamentals remain supportive: global oil demand growth of 1.2M bpd in 2025, geopolitical supply risks, and your current XOM/CVX holdings offer 3-4% dividend yields providing income stability against your variable consulting income. (4) The optimal approach is a 60/40 rotation: move 60% of energy allocation ($135K) into semiconductors while retaining 40% ($90K) in energy for diversification and income generation. This maintains your aggressive growth posture while preserving cyclical hedge benefits. Evidence from portfolio analysis shows you have only one semiconductor holding (NVDA), creating concentration risk in a single AI name. Trade-off: You'll reduce your income-generating energy dividend yield but gain higher growth potential with increased volatility (semiconductors can swing 30-40% annually vs energy's 15-25%).",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "SMH",
+        "XOM",
+        "CVX"
+      ],
+      "suggested_action": "Sell 60% of XLE position (~$67,500) and trim 30% of XOM and CVX combined (~$67,500). Use proceeds to add AMD (30% of tech allocation, ~$40K), AVGO (25%, ~$34K), and SMH semiconductor ETF (45%, ~$61K) for diversified AI/chip exposure. Retain XOM and CVX core positions for 4% dividend yield and cyclical balance.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "high",
+      "expected_return_range": "18-28% annually",
+      "time_horizon": "3-5 years for full cycle capture",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:49:29.510691",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_8cae0522",
+      "category": "diversify",
+      "title": "Add International Developed Markets to Balance Emerging Markets Risk",
+      "summary": "Your 15% emerging markets exposure (VWO) lacks developed international counterbalance. Add 10% allocation to European/developed Asia equities for geographic diversification.",
+      "detailed_rationale": "Signal: Portfolio analysis reveals sector allocation but geographic concentration risk. Your VWO position (15% emerging markets) creates asymmetric exposure to higher-volatility developing economies without developed international balance. Step-by-step reasoning: (1) With aggressive risk tolerance, you can handle emerging market volatility, but your $4M wealth goal over 8 years benefits from geographic diversification beyond US-heavy VTI and speculative VWO. (2) Current market conditions show European equities trading at 35% discount to US markets (P/E of 12x vs 19x), while maintaining similar earnings growth expectations of 8-10%. This valuation gap represents opportunity. (3) Your advanced investment experience and variable income pattern suggest you understand currency risks and can withstand periods of underperformance, but you need broader developed market exposure as legacy planning foundation ($800K child goal requires stability alongside growth). (4) Developed international markets (Europe, Japan, Australia) offer: lower valuations, 3-4% dividend yields matching your energy income replacement, and correlation below 0.75 with US markets for true diversification. Evidence: Your current international exposure is binary\u2014either US (VTI, individual stocks) or emerging (VWO). Missing the middle ground of established EAFE markets limits risk-adjusted returns. Trade-off: Currency fluctuation risk (EUR, JPY volatility) and potential short-term underperformance if US exceptionalism continues, but historically, valuation gaps of this magnitude compress over 3-5 year periods.",
+      "tickers": [
+        "VEA",
+        "IEFA",
+        "EFA",
+        "VWO"
+      ],
+      "suggested_action": "Allocate $150K (10% of portfolio) to Vanguard Developed Markets ETF (VEA) or iShares Core MSCI EAFE (IEFA). Source funds from cash position (currently 5%, $75K) and reduce VWO position by 5 percentage points ($75K) to rebalance emerging vs developed international to 10% each.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "9-14% annually",
+      "time_horizon": "5-8 years for valuation convergence",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:49:29.510691",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_c48b28c8",
+      "category": "risk_reduction",
+      "title": "Reduce Cryptocurrency Allocation from 5% to 2% Given Portfolio Size",
+      "summary": "At $1.12M net worth with moderate debt and legacy planning goals, 5% crypto ($75K in BTC) represents excessive non-productive asset concentration. Trim to 2% maximum.",
+      "detailed_rationale": "Signal: Your 5% BTC allocation ($75K) conflicts with your medium-priority legacy goal of $800K for your child and moderate debt level ($380K liabilities). While your aggressive risk tolerance and loss comfort (8/10) permit speculative assets, crypto's zero yield and 60-80% drawdown potential creates asymmetric risk at this portfolio scale. Step-by-step reasoning: (1) Portfolio composition shows you have productive assets (stocks with earnings, bonds with interest, energy with dividends) alongside non-yielding crypto. At 5%, crypto represents more capital than your entire bond allocation (also 15%, but bonds total $225K across diversified holdings vs $75K in single crypto asset). (2) Your investment profile shows variable income ($280K consulting) with $13K monthly expenses and medium liquidity needs. The combination suggests you may face periods requiring asset liquidation, and crypto's volatility makes it unreliable for tactical liquidity. (3) Legacy planning for one child benefits from asset stability and compounding. Your 8-year horizon to build from $1.12M to $4M requires average 16% annual returns. Concentrating 5% in an asset that can drop 70% in one year (as BTC did 2022) jeopardizes the compound growth path. (4) Advanced investors often over-allocate to speculative positions due to familiarity bias. Your aggressive tolerance should express through high-growth equities (semiconductors, emerging markets) that have productive business models, not purely speculative stores of value. Evidence: At $1.5M total assets, 2% ($30K) crypto exposure still provides meaningful upside participation if BTC appreciates 3-5x, while 3% reduction ($45K) can redeploy to income-generating or productive growth assets. Trade-off: You'll miss outsized returns if crypto enters another bull phase, but you'll protect legacy capital and reduce volatility drag on compound returns.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Reduce BTC holdings from $75K to $30K (2% allocation), realizing $45K for redeployment. Use proceeds to increase bond allocation to 18% (+$30K in BND or similar investment-grade bonds) for legacy stability, and add $15K to VEA/developed international position recommended above.",
+      "suggested_allocation_pct": -3.0,
+      "risk_level": "low",
+      "expected_return_range": "N/A (risk reduction)",
+      "time_horizon": "Immediate rebalancing",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:49:29.510691",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_e1d02f10",
+      "category": "income_generation",
+      "title": "Add Dividend Growth Sleeve for Variable Income Stability",
+      "summary": "Independent consulting income creates cash flow volatility. Establish 8% allocation to quality dividend growth stocks yielding 2-3% with 8-12% annual dividend growth rates.",
+      "detailed_rationale": "Signal: Your occupation as independent strategy consultant with variable income pattern ($280K annually but uneven) and $13K monthly expenses ($156K annual burn rate) creates sequence-of-returns risk during lean periods. Current portfolio generates limited income: 15% bonds yielding ~4% ($9K annually), energy dividends ~3.5% ($7.9K), but growth stocks (NVDA, CAT, DE) provide minimal yield. Step-by-step reasoning: (1) Medium liquidity needs combined with variable income suggests you'd benefit from predictable cash flow to smooth consumption without forced liquidations during market drawdowns. Your aggressive profile doesn't preclude income\u2014it should target growing income, not just static yield. (2) Dividend growth investing aligns perfectly with your advanced experience and long horizon. Companies like Microsoft, Visa, UnitedHealth, and Broadcom offer 1.5-3% current yields but grow dividends 10-15% annually, creating inflation-protected income stream that compounds alongside capital appreciation. (3) Your 45-year age and 8-year wealth-building timeline means dividend income reinvested can compound significantly. An 8% allocation ($120K) yielding 2.5% generates $3K annually today, growing to $6K+ in 8 years at 10% dividend growth\u2014providing partial expense coverage during any consulting slowdown. (4) This complements rather than conflicts with aggressive growth posture. Dividend aristocrats historically deliver 10-12% total returns (price appreciation + dividend), only slightly below pure growth but with 25% less volatility. Evidence from portfolio shows income generation concentrated in mature energy sector that you're rotating away from. Replacing lost energy income with quality dividend growers maintains cash flow while accessing better business models. Trade-off: Slightly lower total return potential than pure growth stocks (12% vs 15-18% expected), but significantly improved risk-adjusted returns and peace of mind during income variability periods.",
+      "tickers": [
+        "MSFT",
+        "V",
+        "UNH",
+        "AVGO",
+        "JNJ"
+      ],
+      "suggested_action": "Establish 8% dividend growth allocation ($120K) using: $40K from cash position (reducing cash to 2.3%), $40K from XLE/energy trim (overlaps with earlier rebalancing), and $40K from reducing mutual fund position. Target portfolio: 35% MSFT, 25% V, 20% UNH, 15% AVGO (dual semiconductor/dividend play), 5% JNJ for healthcare diversification.",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "moderate",
+      "expected_return_range": "10-14% total return annually",
+      "time_horizon": "8+ years for dividend compounding",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:49:29.510691",
+      "composite_score": 0.0
+    }
+  ],
+  "rec_count": 4
+}

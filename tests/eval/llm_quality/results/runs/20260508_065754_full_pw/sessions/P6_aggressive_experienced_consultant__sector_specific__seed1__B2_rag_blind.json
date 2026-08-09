@@ -1,0 +1,166 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed1",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "sector_specific",
+  "query": "Should I rotate from energy into AI/semiconductor exposure at current valuations, or keep the cyclical tilt?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_e5fef480",
+      "category": "rebalance",
+      "title": "Partial Energy-to-Semiconductor Rotation with Maintained Cyclical Core",
+      "summary": "Reduce energy exposure from 15% to 10% and increase semiconductor/AI exposure to capitalize on long-term structural growth while maintaining cyclical diversification.",
+      "detailed_rationale": "Signal: Your current 30% technology allocation is heavily concentrated in NVDA (AI/semiconductors), while energy comprises 15% (XLE, XOM, CVX). With your aggressive risk tolerance (8/10 loss comfort), advanced experience, and long-term horizon targeting $4M wealth, a tactical rotation is warranted. Step-by-step reasoning: (1) Energy stocks have delivered strong performance 2022-2024 but face headwinds from slowing global growth and potential oil price volatility in $70-85/barrel range. Your consultant income variability suggests maintaining some cyclical exposure for diversification, not eliminating it. (2) Semiconductor sector offers 15-20% annual growth potential driven by AI infrastructure buildout, data center expansion, and edge computing adoption\u2014aligning with your 20+ year horizon for wealth compounding. (3) Current portfolio analysis shows energy at 15% vs. typical aggressive portfolio benchmark of 8-10%. Technology at 30% is appropriate but lacks diversification within semis beyond NVDA. (4) Trade-off: Semiconductors trade at elevated valuations (25-30x forward P/E vs. energy at 10-12x) and carry higher volatility (beta 1.3-1.5). However, your loss comfort of 8/10 and willingness to endure cyclical drawdowns supports this. Maintaining 10% energy preserves inflation hedge and commodity exposure for true diversification.",
+      "tickers": [
+        "SMH",
+        "AVGO",
+        "AMD",
+        "TSM"
+      ],
+      "suggested_action": "Sell 33% of XOM and CVX positions (retain XLE for diversified energy exposure). Deploy proceeds into SMH (semiconductor ETF) for 3% allocation, plus individual positions in AVGO (2%), AMD (1.5%), and TSM (1.5%). This reduces energy to 10% and increases semiconductor-specific exposure to ~8% of portfolio.",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "high",
+      "expected_return_range": "12-18% annually",
+      "time_horizon": "5-10 years for full thesis to play out; semiconductor cycle volatility expected",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:23:04.410541",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_81ebf581",
+      "category": "diversify",
+      "title": "Add International Developed Markets Technology Exposure",
+      "summary": "Your emerging markets allocation (15% via VWO) is appropriate, but you lack developed international technology exposure\u2014add European and Asian semiconductor manufacturers for geographic diversification.",
+      "detailed_rationale": "Signal: Portfolio analysis reveals 30% technology concentration but 100% US-domiciled (NVDA). Your 15% emerging markets (VWO) provides some international exposure but skews toward financials and consumer sectors, not technology. Step-by-step: (1) With $1.5M in assets and aggressive profile, geographic concentration risk in US technology is material. Trade tensions, regulatory changes, or US-specific market corrections could disproportionately impact your wealth accumulation goal. (2) European semiconductor equipment makers (ASML) and Asian foundries (TSM, Samsung) offer exposure to same AI/semiconductor thesis but with different regulatory environments, customer bases, and valuation metrics. ASML trades at premium but has monopoly on EUV lithography; TSM offers pure-play foundry exposure at more reasonable 18x P/E. (3) Your advanced investment experience and comfort with complexity supports direct international equity positions vs. broad international ETFs. (4) Currency risk is the primary trade-off: EUR and TWD exposure adds volatility. However, your long horizon (targeting wealth by age 65-70) and high income ($280K) provide buffer to ride through currency cycles. This complements rather than replaces your US technology core.",
+      "tickers": [
+        "ASML",
+        "TSM",
+        "VXUS"
+      ],
+      "suggested_action": "Allocate 4% of portfolio to ASML (2%) and increase TSM position to 2% if not already held, or add 4% position in VXUS (total international ex-US ETF) for broader developed market technology exposure. Fund from reducing cash position from 5% to 3% and taking profits from NVDA (reduce by 2% if position exceeds 5% of portfolio).",
+      "suggested_allocation_pct": 4.0,
+      "risk_level": "moderate",
+      "expected_return_range": "10-15% annually with currency fluctuations",
+      "time_horizon": "7-15 years to benefit from global semiconductor buildout and diversification benefits",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:23:04.410541",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_54142f7c",
+      "category": "risk_reduction",
+      "title": "Reduce Cryptocurrency Allocation and Redirect to Core Growth Equities",
+      "summary": "Your 5% BTC allocation introduces disproportionate volatility without clear strategic purpose\u2014reduce to 2% and deploy into diversified technology or industrial holdings.",
+      "detailed_rationale": "Signal: 5% cryptocurrency (BTC) allocation in a $1.5M portfolio represents $75K in a highly volatile, speculative asset. While your risk tolerance is aggressive, this conflicts with your wealth preservation goal for legacy planning ($800K target for your child). Step-by-step: (1) BTC carries 60-80% annual volatility vs. 18-22% for technology stocks and 15% for broad market. Your variable income as independent consultant already introduces cash flow uncertainty\u2014adding uncorrelated, extreme volatility reduces overall portfolio efficiency. (2) With 45% stocks, 25% ETFs, and aggressive growth goals, you have sufficient equity exposure for long-term compounding without needing cryptocurrency's return profile. Historical analysis shows BTC correlation with risk assets has increased during stress periods (2022, March 2020), reducing diversification benefits. (3) Your advanced experience likely means this was a speculative allocation rather than core conviction. At 45 years old with 20+ year horizon, tax-loss harvesting opportunity may exist if BTC is underwater. If profitable, reducing position locks in gains for redeployment. (4) Trade-off: You sacrifice potential asymmetric upside if BTC reaches $150K-200K. However, maintaining 2% ($30K) preserves optionality while reducing left-tail risk. A 50% BTC drawdown would only impact portfolio by 1% vs. 2.5% currently.",
+      "tickers": [
+        "VTI",
+        "QQQ",
+        "CAT",
+        "DE"
+      ],
+      "suggested_action": "Sell 60% of BTC position, reducing cryptocurrency allocation from 5% to 2% ($30K). Deploy $45K proceeds as follows: $25K into VTI for core market exposure, $10K into QQQ for concentrated technology/innovation exposure, $10K into expanding industrial positions (CAT/DE) to complement existing holdings given infrastructure spending tailwinds.",
+      "suggested_allocation_pct": -3.0,
+      "risk_level": "low",
+      "expected_return_range": "8-12% annually from redeployed assets with reduced volatility",
+      "time_horizon": "Immediate risk reduction; redeployed assets compound over 15+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:23:04.410541",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_56fff318",
+      "category": "tax_optimization",
+      "title": "Implement Tax-Loss Harvesting in Energy Holdings and Rebalance Bond Allocation",
+      "summary": "Review energy positions (XOM, CVX) for tax-loss harvesting opportunities while increasing municipal bond exposure from 15% to 17% for tax-efficient income given your $280K income bracket.",
+      "detailed_rationale": "Signal: As independent consultant earning $280K, you're in the 35% federal bracket (potentially 37% with additional income). Your 15% bond allocation (BND) likely holds taxable bonds, creating tax drag. Meanwhile, if energy rotation (Recommendation #1) triggers capital gains, tax-loss harvesting can offset. Step-by-step: (1) Your monthly expenses of $13K ($156K annually) against $280K income suggest 44% savings rate. With moderate debt ($380K liabilities) and emergency fund in place, you can afford to optimize after-tax returns vs. maximizing pre-tax yields. (2) Municipal bonds yielding 3.5-4.5% tax-free equate to 5.4-6.9% taxable equivalent at 35% bracket\u2014more efficient than corporate bonds at 5-5.5%. With aggressive risk profile, shorter-duration munis (3-7 year) provide liquidity while reducing interest rate risk. (3) Energy sector volatility may have created loss positions in XOM/CVX if purchased at 2022-2023 highs. Selling at loss, immediately replacing with XLE for substantial equivalence, then rotating 31+ days later maintains energy exposure while harvesting losses. (4) Trade-off: Municipal bonds offer lower absolute yields and state-specific risk. However, for your income level and long-term wealth goals, after-tax compounding efficiency outweighs pre-tax yield maximization. Your advanced experience suggests you can manage muni credit quality evaluation.",
+      "tickers": [
+        "MUB",
+        "VTEB",
+        "XOM",
+        "CVX"
+      ],
+      "suggested_action": "Review cost basis on XOM and CVX positions. If underwater, sell for tax losses and immediately purchase XLE to maintain energy exposure. Wait 31 days, then execute Recommendation #1 rotation. Simultaneously, shift $30K from BND to MUB (national muni bond ETF) or VTEB (Vanguard tax-exempt), increasing bond allocation from 15% to 17% but improving after-tax income by 20-25%.",
+      "suggested_allocation_pct": 2.0,
+      "risk_level": "low",
+      "expected_return_range": "3.5-4.5% tax-free (5.4-6.9% taxable equivalent)",
+      "time_horizon": "Immediate tax benefit; bonds held for 3-7 years as portfolio ballast",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:23:04.410541",
+      "composite_score": 0.0
+    }
+  ]
+}

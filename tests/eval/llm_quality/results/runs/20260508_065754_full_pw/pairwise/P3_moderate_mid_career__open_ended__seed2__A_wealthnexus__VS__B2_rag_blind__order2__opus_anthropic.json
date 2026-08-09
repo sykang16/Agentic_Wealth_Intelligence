@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"Both lists address the dual education/retirement balance with similar personalization and safety calibration, but System A provides more precise, traceable actions (specific $1,400/month 529 contribution, bond ladder rungs aligned to tuition years) and avoids questionable assumptions. System B introduces unsupported claims (assuming a spouse for backdoor Roth, asserting current accounts aren't tax-advantaged without evidence) and a less coherent bond recommendation, making A's grounding and actionability stronger overall.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "Both lists address the dual education/retirement balance with similar personalization and safety calibration, but System A provides more precise, traceable actions (specific $1,400/month 529 contribution, bond ladder rungs aligned to tuition years) and avoids questionable assumptions. System B introduces unsupported claims (assuming a spouse for backdoor Roth, asserting current accounts aren't tax-advantaged without evidence) and a less coherent bond recommendation, making A's grounding and actionability stronger overall."
+  },
+  "usage": {
+    "input_tokens": 12836,
+    "output_tokens": 302
+  },
+  "session_id": "P3_moderate_mid_career__open_ended__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

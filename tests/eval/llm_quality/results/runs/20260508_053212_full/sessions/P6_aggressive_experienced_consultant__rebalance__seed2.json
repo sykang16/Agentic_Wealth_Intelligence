@@ -1,0 +1,197 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed2",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "rebalance",
+  "query": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+  "seed": 2,
+  "context": {
+    "portfolio_context": "## Portfolio Snapshot\n- Total Assets: $1,500,000\n- Total Liabilities: $380,000\n- Net Worth: $1,120,000\n\n### Allocation by Asset Type\n- stock: 45.0%\n- etf: 25.0%\n- bond: 15.0%\n- cash: 5.0%\n- crypto: 5.0%\n- mutual_fund: 5.0%\n\n### Allocation by Sector\n- Technology: 30.0%\n- Energy: 15.0%\n- Financials: 15.0%\n- Industrials: 15.0%\n- Healthcare: 10.0%\n- Emerging Markets: 15.0%\n\n### Holdings (tickers)\nVTI, VWO, XLE, XOM, CVX, JPM, GS, CAT, DE, NVDA, BTC, BND",
+    "investment_profile_context": "## Investment Profile\n- Age: 45\n- Occupation: Independent strategy consultant\n- Annual Income: $280,000\n- Monthly Expenses: $13,000\n- Risk Tolerance: aggressive\n- Loss Comfort (1-10): 8\n- Investment Horizon: long\n- Liquidity Needs: medium\n- Income Stability: variable\n- Has Emergency Fund: True\n- Debt Level: moderate\n- Investment Experience: advanced\n- ESG Preference: False\n- Goals:\n  - wealth (high priority, target $4,000,000): Continue compounding wealth; comfortable with cyclical drawdowns\n  - other (medium priority, target $800,000): Legacy planning for one child",
+    "rag_context": "[investment_guide] Wealth Intelligence Research\n# Asset Allocation: Building a Diversified Portfolio\n\n\n## What is Asset Allocation?\nAsset allocation is the process of dividing investments among different asset categories, such as stocks, bonds, and cash. This strategy helps manage risk and optimize returns based on your investment goals, time horizon, and risk tolerance.\n\n## The Importance of Diversification\nDiversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation. When one asset class underperforms, others may compensate, helping to smooth overall returns.\n\n## Strategic vs Tactical Allocation\nStrategic allocation sets long-term targets based on your investment profile. Tactical allocation makes short-term adjustments to capitalize on market opportunities while staying within risk parameters.\n\n## Common Allocation Models\nConservative portfolios typically hold 20-40% stocks, 50-70% bonds. Moderate portfolios balance around 50-60% stocks, 30-40% bonds. Aggressive portfolios may hold 80-90% stocks with minimal bonds.\n\n## Rebalancing Your Portfolio\nRegular rebalancing ensures your portfolio stays aligned with target allocations. Consider rebalancing when allocations drift more than 5% from targets, or at least annually.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.\n\n---\n\n[investment_guide] Wealth Intelligence Research\n# Retirement Planning: Strategies for Long-Term Wealth Building\n\n\n## Starting Early\nThe power of compound interest makes starting early crucial. Even small contributions in your 20s and 30s can grow significantly over decades. Time in the market often matters more than timing the market.\n\n## Tax-Advantaged Accounts\nMaximize contributions to 401(k)s, IRAs, and Roth accounts. These vehicles provide tax benefits that accelerate wealth building. For 2024, 401(k) limits are $23,000 ($30,500 if 50+).\n\n## Employer Matching\nAlways contribute enough to capture the full employer match in your 401(k). This is essentially free money with an immediate 100% return on your contribution.\n\n## Target-Date Funds\nThese funds automatically adjust asset allocation as you approach retirement, becoming more conservative over time. They offer a simple, hands-off approach to retirement investing.\n\n## Social Security Planning\nDelaying Social Security benefits until age 70 can increase monthly payments by up to 77% compared to claiming at 62. Consider this in your overall retirement income strategy.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.\n\n---\n\n[investment_guide] Wealth Intelligence Research\n# Risk Management: Protecting Your Investment Portfolio\n\n\n## Understanding Risk Types\nMarket risk affects all investments. Specific risk relates to individual securities. Inflation risk erodes purchasing power. Interest rate risk impacts bond prices. Currency risk affects international investments.\n\n## Risk Tolerance Assessment\nYour risk tolerance depends on your time horizon, financial goals, income stability, and emotional comfort with volatility. Be honest about how you'd react to significant portfolio declines.\n\n## Hedging Strategies\nOptions and inverse ETFs can protect against downside risk. Dollar-cost averaging reduces timing risk. Holding cash provides a buffer during market downturns.\n\n## Emergency Fund Importance\nMaintain 3-6 months of expenses in liquid savings. This prevents the need to sell investments at unfavorable times during personal financial emergencies.\n\n## Portfolio Stress Testing\nEvaluate how your portfolio would perform in various scenarios: 2008-style crash, rising interest rates, high inflation. Adjust allocations if potential losses exceed your tolerance.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.",
+    "data_sources_used": [
+      "portfolio",
+      "investment_profile",
+      "rag_knowledge_base"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec_f9c5b091",
+      "category": "rebalance",
+      "title": "Trim Energy Overweight to Fund Healthcare and Consumer Sectors",
+      "summary": "Reduce energy allocation from 15% to 8-10% by selling portions of XLE, XOM, or CVX. Redeploy capital into underweight healthcare (currently 10%) and add consumer defensive exposure for better diversification.",
+      "detailed_rationale": "Step 1 - Portfolio Signal: Your energy sector represents 15% of total allocation, which is 2-3x the typical S&P 500 weighting (~5-6%) and creates concentration risk despite your aggressive profile. With three energy positions (XLE, XOM, CVX), you have overlapping exposure since XLE itself holds both XOM and CVX as top holdings. Step 2 - Risk Profile Alignment: While your aggressive tolerance (loss comfort 8/10) allows for sector concentration, your goal of reaching $4M net worth by retirement requires sustainable compounding rather than cyclical volatility. Energy sector returns are highly correlated with commodity prices, creating boom-bust cycles that may not align with consistent wealth building over your 20-year horizon. Your variable income as an independent consultant makes portfolio stability more valuable. Step 3 - Supporting Evidence: From the knowledge base, 'Diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Your 30% technology and 15% energy together represent 45% in two cyclical sectors. Healthcare currently at only 10% offers defensive characteristics with aging demographic tailwinds, and you have zero consumer staples exposure, which historically provides ballast during economic uncertainty. Current macro conditions show energy sector forward P/E ratios elevated relative to historical averages after the 2022-2023 rally, suggesting limited upside from current levels. Step 4 - Trade-offs: Trimming energy now means potentially missing further upside if oil prices spike due to geopolitical events or supply constraints. However, maintaining 8-10% energy still provides meaningful exposure to the thesis while reducing concentration risk. You may also incur capital gains taxes on appreciated positions, though your $280K income suggests you're likely in the 15-20% long-term capital gains bracket.",
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX",
+        "VHT",
+        "XLV",
+        "XLP"
+      ],
+      "suggested_action": "Sell 30-40% of your combined energy positions (recommend starting with XLE to eliminate the redundancy with direct XOM/CVX holdings). Deploy proceeds into healthcare ETFs like VHT or XLV to increase healthcare allocation to 15-17%, and establish a 5-7% position in consumer staples (XLP) for defensive balance.",
+      "suggested_allocation_pct": -5.0,
+      "risk_level": "low",
+      "expected_return_range": "5-8% annually (blended sector rebalance)",
+      "time_horizon": "Immediate rebalancing action, evaluated quarterly",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:47:27.671184",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_c8bd9761",
+      "category": "diversify",
+      "title": "Add International Developed Markets to Complement Emerging Markets",
+      "summary": "Your 15% emerging markets allocation (VWO) lacks developed international exposure. Add 10-12% position in developed international markets (VEA or VXUS) to capture global growth with lower volatility than EM alone.",
+      "detailed_rationale": "Step 1 - Portfolio Signal: You have 15% in emerging markets (VWO) but zero allocation to developed international markets (Europe, Japan, Australia). This creates geographic concentration risk and misses opportunities in mature economies trading at relative discounts to U.S. markets. Your total international exposure of 15% is below the 20-30% range recommended for aggressive long-term investors seeking global diversification. Step 2 - Risk Profile Alignment: Your aggressive tolerance and 20-year horizon make you well-suited for international exposure, which historically has low correlation with U.S. markets (0.7-0.8) and provides currency diversification benefits. As an independent consultant with variable income, having international exposure reduces your dependence on U.S. economic cycles. Your $4M wealth goal requires capturing global growth, not just domestic. Your advanced investment experience means you understand currency risk and can tolerate the additional complexity. Step 3 - Supporting Evidence: The knowledge base emphasizes 'spreading investments across various asset classes that don't move in perfect correlation.' While VWO provides emerging market exposure, developed international markets (MSCI EAFE) have delivered comparable long-term returns with approximately 30% lower volatility. Current market data shows developed international markets trading at forward P/E ratios 15-20% below U.S. market multiples, presenting relative value. European and Japanese markets offer dividend yields 1-2% higher than U.S. equivalents, supporting your wealth compounding objective. Step 4 - Trade-offs: International investing introduces currency risk\u2014when the dollar strengthens, international returns may lag in USD terms. Developed markets may also offer lower growth potential than U.S. technology sectors you're already heavily weighted toward. However, this diversification reduces single-country risk and provides exposure to global leaders in healthcare, industrials, and financials that complement your existing holdings.",
+      "tickers": [
+        "VEA",
+        "VXUS",
+        "EFA"
+      ],
+      "suggested_action": "Establish a 10-12% position in developed international equity ETF (VEA or VXUS). Fund this from your 5% cash position and 2-3% reduction in domestic equity overweight. This brings total international allocation to 25-27% (15% EM + 10-12% developed), appropriate for aggressive long-term growth.",
+      "suggested_allocation_pct": 11.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually in USD terms",
+      "time_horizon": "Long-term hold, 10+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:47:27.671184",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_e6a878bc",
+      "category": "risk_reduction",
+      "title": "Reduce Cryptocurrency Allocation from 5% to 2-3%",
+      "summary": "Your 5% BTC allocation is high for wealth preservation goals. Trim to 2-3% to reduce portfolio volatility while maintaining asymmetric upside exposure appropriate for your aggressive profile.",
+      "detailed_rationale": "Step 1 - Portfolio Signal: Your 5% cryptocurrency (BTC) allocation represents $75,000 in absolute terms\u2014significant exposure to an asset class with historical volatility exceeding 60% annually and limited correlation to traditional diversification benefits. While your loss comfort of 8/10 indicates high risk tolerance, the knowledge base emphasizes that 'aggressive portfolios may hold 80-90% stocks with minimal bonds'\u2014crypto is not mentioned as a standard allocation even for aggressive investors. Step 2 - Risk Profile Alignment: At age 45 with a 20-year horizon, you have time to recover from volatility, but your primary goal is consistent wealth compounding to $4M, not speculative moonshots. Your variable consulting income adds income volatility; adding crypto volatility creates compounding uncertainty. The knowledge base stresses 'regular review and rebalancing keeps your strategy on track'\u2014a 5% crypto allocation can easily become 10% or drop to 1% within months, requiring constant attention. Your medium liquidity needs and moderate debt ($380K) suggest you shouldn't have excessive capital in highly volatile, potentially illiquid assets during stress periods. Step 3 - Supporting Evidence: The risk management guide states 'maintain 3-6 months of expenses in liquid savings' ($39K-78K) and warns about 'portfolio stress testing' for crash scenarios. Cryptocurrency experienced 75%+ drawdowns in 2018 and 2022. While you have an emergency fund, crypto volatility can trigger emotional decision-making during broader portfolio stress. A 2-3% allocation still provides meaningful exposure if Bitcoin appreciates 10-20x over two decades, while reducing the impact of potential regulatory risks, technological obsolescence, or macro headwinds. Step 4 - Trade-offs: Bitcoin has been the best-performing asset of the past decade, and trimming now means capping upside if institutional adoption accelerates. However, at 2-3%, you retain significant exposure for a $1.5M portfolio while reducing the risk that a single volatile asset derails your wealth accumulation plan. Consider that your 30% technology allocation already provides substantial exposure to innovation and digital transformation themes.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Sell 40-50% of your Bitcoin position, reducing allocation from 5% to 2-3% ($30,000-45,000). Deploy proceeds into your bond allocation (currently 15%, target 17-18%) to add ballast, or into the international developed markets recommendation above. Set a hard rule: if crypto ever exceeds 5% due to appreciation, rebalance back to 2-3%.",
+      "suggested_allocation_pct": -2.5,
+      "risk_level": "moderate",
+      "expected_return_range": "N/A - risk reduction focused",
+      "time_horizon": "Immediate tactical adjustment",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:47:27.671184",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_46341665",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Advantaged Account Contributions for Legacy Planning",
+      "summary": "With $280K income and $800K legacy goal for your child, prioritize maxing out 401(k) ($30,500 with catch-up), backdoor Roth IRA ($7,500), and consider 529 plan for tax-advantaged legacy building.",
+      "detailed_rationale": "Step 1 - Portfolio Signal: You have $1.5M in investable assets but your profile doesn't specify retirement account utilization. At age 45 with $280K income, you're likely in the 32-35% federal tax bracket plus state taxes. The knowledge base retirement planning guide explicitly states '401(k) limits are $23,000 ($30,500 if 50+)' and emphasizes 'tax benefits that accelerate wealth building.' Your medium-priority legacy goal of $800K for your child suggests you're accumulating wealth beyond your own retirement needs. Step 2 - Risk Profile Alignment: Your aggressive tolerance and long horizon make tax-advantaged growth vehicles ideal\u2014you have 20+ years for compounding before retirement and 40+ years before your child might need legacy assets. The knowledge base emphasizes 'the power of compound interest makes starting early crucial' and 'time in the market often matters more than timing the market.' Tax-advantaged accounts maximize this compounding by eliminating annual tax drag. Your advanced investment experience means you can manage multiple account types effectively. Step 3 - Supporting Evidence: The retirement planning guide states 'these vehicles provide tax benefits that accelerate wealth building.' At your income level, each $1,000 contributed to traditional 401(k) saves $320-450 in current taxes (federal + state). Over 20 years at 8% returns, maxing out 401(k) contributions ($30,500 annually) compounds to $1.4M+ pre-tax. A backdoor Roth IRA adds another $7,500/year in tax-free growth. For legacy planning, 529 plans offer state tax deductions, tax-free growth, and flexible beneficiary rules\u2014your $800K goal could be substantially achieved through $20-25K annual 529 contributions over 20 years. The guide explicitly recommends 'maximize contributions to 401(k)s, IRAs, and Roth accounts.' Step 4 - Trade-offs: Tax-advantaged accounts have contribution limits and restrictions on withdrawals before 59.5, which conflicts with your medium liquidity needs. However, you have $75K in cash and liquid taxable accounts for emergencies. The trade-off of reduced liquidity is overwhelmingly offset by tax savings\u2014potentially $100K+ over your investment horizon. 529 plans lock funds for education purposes, but excess can be transferred or used for your own continuing education in retirement.",
+      "tickers": [
+        "VTI",
+        "VWO",
+        "BND"
+      ],
+      "suggested_action": "Immediate action: Verify you're maximizing 401(k) ($30,500 if available through consulting structure), execute backdoor Roth IRA conversion ($7,500), and establish/fund 529 plan with $15-20K initial contribution. Hold similar allocations to your taxable account within these vehicles\u2014aggressive equity mix (VTI/VWO) in Roth for maximum tax-free growth, bonds (BND) in 401(k) for tax-deferred income, and age-based 529 portfolio. This strategy shields $50K+ annually from current and future taxes.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "20-35% immediate tax savings plus long-term compounding",
+      "time_horizon": "Annual recurring action through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:47:27.671184",
+      "composite_score": 0.0
+    }
+  ],
+  "rec_count": 4
+}

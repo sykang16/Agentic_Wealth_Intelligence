@@ -1,0 +1,183 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed1",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "rebalance",
+  "query": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+  "seed": 1,
+  "system": "B1_profile_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_821fc91c",
+      "category": "rebalance",
+      "title": "Trim Energy Overweight Position to Reduce Concentration Risk",
+      "summary": "Reduce energy allocation from 15% to 8-10% by selling portions of XLE, XOM, and CVX to improve portfolio diversification and align with sector balance principles.",
+      "detailed_rationale": "(1) SIGNAL: Your portfolio shows 15% energy sector concentration, which is significantly overweight compared to the S&P 500's ~4-5% energy weighting and represents concentration risk. With three energy holdings (XLE, XOM, CVX), you have both sector ETF and individual stock overlap. (2) RISK ALIGNMENT: The knowledge base emphasizes that 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Energy is a cyclical, commodity-driven sector subject to geopolitical volatility and price swings. A 15% allocation creates vulnerability to oil price shocks and regulatory changes. (3) SUPPORTING EVIDENCE: Your current sector allocation shows Technology at 30% and Energy at 15%, creating a top-heavy concentration in just two sectors (45% combined). The knowledge base recommends 'rebalancing when allocations drift more than 5% from targets' and warns about specific risk relating to individual securities. (4) TRADE-OFFS: Trimming now means potentially missing upside if energy prices surge, but the risk-reward favors diversification. Energy stocks have delivered strong returns recently, making this an opportune time to take profits and rebalance. Current macro conditions show transitioning energy policies and renewable competition, adding long-term headwinds to traditional energy.",
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX"
+      ],
+      "suggested_action": "Sell 30-40% of your combined energy positions (approximately $67,500-$90,000). Start by reducing the redundancy between XLE (energy sector ETF) and individual holdings XOM and CVX. Consider selling XLE entirely since you already have direct energy stock exposure, or conversely, selling individual stocks to maintain only the diversified ETF exposure.",
+      "suggested_allocation_pct": -5.0,
+      "risk_level": "low",
+      "expected_return_range": "N/A (rebalancing action)",
+      "time_horizon": "Execute within 2-4 weeks to capture current prices",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:08:49.357402",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_dee92f3d",
+      "category": "diversify",
+      "title": "Add Healthcare and Consumer Staples Exposure for Defensive Balance",
+      "summary": "Allocate 7-10% to healthcare and consumer staples sectors using ETFs like VHT and VDC to reduce portfolio volatility and add defensive positioning missing from current allocation.",
+      "detailed_rationale": "(1) SIGNAL: Your portfolio shows only 10% healthcare allocation and zero consumer staples exposure, creating a gap in defensive sectors. Your current composition is heavily tilted toward cyclical sectors (Technology 30%, Energy 15%, Industrials 15%, Financials 15%) totaling 75% cyclical exposure. (2) RISK ALIGNMENT: The knowledge base states 'diversification is essential for managing risk' and emphasizes spreading investments 'across various asset classes that don't move in perfect correlation.' Healthcare and consumer staples are traditionally non-cyclical sectors that perform relatively well during economic downturns, providing portfolio stability. With $1.12M net worth and significant leverage ($380K liabilities), you need defensive positioning to weather market volatility. (3) SUPPORTING EVIDENCE: Your 45% stock + 5% crypto allocation creates 50% risk asset concentration without adequate defensive hedges. The knowledge base's risk management guidance warns about 'market risk affects all investments' and recommends 'holding cash provides a buffer during market downturns.' Adding counter-cyclical sectors serves a similar buffering function. Healthcare benefits from demographic tailwinds (aging population) and inelastic demand. (4) TRADE-OFFS: These sectors typically offer lower growth than technology but higher stability. You may underperform in strong bull markets but will preserve capital better in corrections. This is appropriate diversification, not market timing.",
+      "tickers": [
+        "VHT",
+        "VDC"
+      ],
+      "suggested_action": "Use proceeds from energy trimming to establish positions in healthcare (5%) and consumer staples (5%) via sector ETFs. Purchase $75,000 in VHT (Vanguard Health Care ETF) and $75,000 in VDC (Vanguard Consumer Staples ETF). This adds $150,000 in defensive exposure while utilizing rebalancing proceeds.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "Long-term hold, 5+ years minimum",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:08:49.357402",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_74ee66f0",
+      "category": "risk_reduction",
+      "title": "Reduce Cryptocurrency Exposure and Reallocate to Fixed Income",
+      "summary": "Decrease crypto allocation from 5% to 2% and redirect funds to bond holdings (BND or similar) to improve risk-adjusted returns and increase portfolio stability.",
+      "detailed_rationale": "(1) SIGNAL: Your 5% crypto allocation (approximately $75,000 in BTC) represents significant volatility concentration in your portfolio. Cryptocurrency exhibits extreme price swings and lacks the traditional risk-mitigation characteristics of diversification since it often correlates with risk-on equity moves. Meanwhile, your bond allocation is only 15%, lower than typical for balanced portfolios. (2) RISK ALIGNMENT: The knowledge base's risk management guidance emphasizes 'understanding risk types' and notes that 'your risk tolerance depends on your time horizon, financial goals, income stability, and emotional comfort with volatility.' With $380K in liabilities (25% debt-to-assets ratio), maintaining highly volatile speculative positions increases portfolio risk unnecessarily. The knowledge base recommends 'maintaining 3-6 months of expenses in liquid savings' and building defensive positioning. (3) SUPPORTING EVIDENCE: Crypto's non-correlated benefits have diminished as institutional adoption increased correlation with technology stocks. Your portfolio already has 30% technology exposure, creating indirect correlation with crypto moves. The knowledge base states 'moderate portfolios balance around 50-60% stocks, 30-40% bonds' - your 15% bond allocation is substantially below moderate portfolio guidelines. Increasing fixed income improves risk-adjusted returns. (4) TRADE-OFFS: You'll miss potential crypto upside if another bull run materializes, but you're not eliminating exposure entirely (keeping 2% maintains optionality). The stability gained through increased bond allocation provides better risk-adjusted positioning given your net worth level and existing leverage.",
+      "tickers": [
+        "BTC",
+        "BND"
+      ],
+      "suggested_action": "Reduce BTC holdings by 60% (approximately $45,000). Redirect these funds into BND (Vanguard Total Bond Market ETF) or similar investment-grade bond funds, increasing your fixed income allocation from 15% to 18%. This improves portfolio stability while maintaining 2% crypto exposure for asymmetric upside potential.",
+      "suggested_allocation_pct": 3.0,
+      "risk_level": "low",
+      "expected_return_range": "4-6% annually (from increased bond allocation)",
+      "time_horizon": "Execute over 1-2 months to avoid single-point entry/exit",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:08:49.357402",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_cb1002e2",
+      "category": "diversify",
+      "title": "Reduce Technology Concentration Risk Through Partial NVDA Profit-Taking",
+      "summary": "Trim NVDA position by 25-30% to reduce 30% technology sector overweight and redeploy into underrepresented sectors, improving overall portfolio balance.",
+      "detailed_rationale": "(1) SIGNAL: Technology represents 30% of your portfolio, creating significant concentration risk in a single sector. NVDA specifically has likely appreciated substantially, potentially creating an outsized position that increases volatility exposure. The S&P 500's technology weighting is approximately 28-29%, so you're slightly overweight but more importantly concentrated. (2) RISK ALIGNMENT: The knowledge base explicitly warns that diversification 'reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' It also recommends 'rebalancing when allocations drift more than 5% from targets.' Technology stocks, particularly high-growth semiconductor names like NVDA, carry elevated valuation risk and are sensitive to interest rate changes, economic cycles, and rapid competitive dynamics. (3) SUPPORTING EVIDENCE: Your portfolio shows defensive sector gaps (healthcare 10%, consumer staples 0%, utilities 0%) while technology dominates at 30%. The knowledge base's guidance on 'specific risk relates to individual securities' applies directly - NVDA's concentration in AI/datacenter markets creates single-technology dependency. The risk management guide recommends 'portfolio stress testing' and considering 'how your portfolio would perform in various scenarios.' A technology correction would disproportionately impact your portfolio. (4) TRADE-OFFS: NVDA has strong fundamental momentum with AI tailwinds, so trimming means potentially missing continued upside. However, this is profit-taking and rebalancing, not elimination. You maintain 70-75% of the position for continued participation while reducing concentration risk. Current elevated valuations in technology make this a prudent risk management decision.",
+      "tickers": [
+        "NVDA"
+      ],
+      "suggested_action": "Sell 25-30% of your NVDA holdings (approximately $33,750-$40,500 based on estimated position size). Use proceeds to fund the healthcare/consumer staples diversification or to increase your cash position from 5% to 7%, providing more dry powder for opportunistic deployment. This reduces single-stock concentration while maintaining substantial exposure to AI growth themes.",
+      "suggested_allocation_pct": -2.5,
+      "risk_level": "moderate",
+      "expected_return_range": "N/A (rebalancing action)",
+      "time_horizon": "Execute over 2-3 weeks using limit orders to capture favorable pricing",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:08:49.357402",
+      "composite_score": 0.0
+    }
+  ]
+}

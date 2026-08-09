@@ -1,0 +1,111 @@
+{
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "open_ended",
+  "query": "I'm 10 years from retirement. Should I start de-risking now and how aggressively?",
+  "seed": 2,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "rebalance",
+      "title": "Initiate Gradual Glide Path to Conservative Allocation",
+      "summary": "Begin de-risking by shifting from 55% equities to 50% over the next 12 months, targeting 40% equities by retirement.",
+      "detailed_rationale": "At 55 with a 10-year horizon to retirement, you should begin a measured glide path toward a more conservative allocation. Currently at 55% equities (40% ETF + 15% stock), you have appropriate risk exposure for now, but should implement a gradual de-risking strategy. Your moderate risk tolerance, loss comfort of 5/10, and stable income support a non-aggressive approach. Recommended glide path: reduce equities by 5% over next year to 50%, then 1% annually until reaching 40% at retirement. This preserves growth potential while reducing sequence-of-returns risk. With $755k net worth targeting $1.8M at 65, you need ~9% annualized returns - achievable with gradual de-risking plus continued contributions from your $220k income. Your diversified holdings (VTI, VXUS, BND) provide good foundation for this transition.",
+      "tickers": [
+        "BND",
+        "BNDX",
+        "VTI",
+        "VXUS"
+      ],
+      "suggested_action": "Over the next 12 months, gradually reduce equity allocation from 55% to 50% by increasing bond holdings. Sell 5% of equity positions (prioritize individual stocks over diversified ETFs) and purchase intermediate-term bond funds.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5.5-7.5%",
+      "time_horizon": "10 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:38:01.302262",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "diversify",
+      "title": "Add Treasury Inflation-Protected Securities (TIPS) for Retirement Income Protection",
+      "summary": "Allocate 10% of portfolio to TIPS to protect purchasing power and create predictable retirement income stream.",
+      "detailed_rationale": "With retirement 10 years away and a goal of $80-100k annual income, inflation protection becomes critical. Your current 35% bond allocation is entirely in BND (aggregate bonds), which offers limited inflation protection. TIPS provide real return guarantees and align perfectly with your medium-term horizon. At your income level ($220k) and advanced investment experience, you understand the value of inflation hedging. TIPS currently offer real yields of 2%+, providing both capital preservation and purchasing power protection. This recommendation complements your glide path strategy by maintaining total bond allocation while improving quality. Consider ladder approach: purchase TIPS maturing between 2029-2034 to create predictable cash flows as you approach retirement. This reduces sequence risk and provides stable income foundation alongside Social Security.",
+      "tickers": [
+        "SCHP",
+        "TIP",
+        "VTIP"
+      ],
+      "suggested_action": "Within your current 35% bond allocation, shift 10% from BND to TIPS-focused ETFs. This maintains your overall risk profile while enhancing inflation protection. Execute over 3-6 months using dollar-cost averaging.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "3.5-5.0%",
+      "time_horizon": "10 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:38:01.302262",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "hold",
+      "title": "Maintain Quality Healthcare Holdings for Defensive Growth",
+      "summary": "Keep current 22% healthcare allocation (JNJ, UNH) as defensive positioning appropriate for pre-retirement phase.",
+      "detailed_rationale": "Your 22% healthcare allocation through JNJ and UNH represents excellent defensive positioning for the pre-retirement decade. Healthcare is traditionally less cyclical, offers dividend income, and benefits from demographic tailwinds as baby boomers age. Both holdings are industry leaders with strong balance sheets, consistent cash flows, and dividend growth histories - ideal characteristics for your stage. JNJ offers 3%+ yield with 60+ years of dividend increases; UNH provides exposure to structural healthcare demand growth. This overweight (vs. ~13% S&P 500 healthcare weight) aligns with your moderate risk tolerance and provides portfolio stability during the critical pre-retirement period. As you de-risk equities over the next decade, healthcare should be among the last positions reduced due to defensive characteristics. Your advanced investment experience allows you to understand the strategic value of quality over pure index matching during this vulnerable accumulation phase.",
+      "tickers": [
+        "JNJ",
+        "UNH"
+      ],
+      "suggested_action": "Maintain current healthcare positions without changes. Do not reduce these holdings during the initial de-risking phase. Consider these core holdings through retirement transition.",
+      "suggested_allocation_pct": 22.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6.0-9.0%",
+      "time_horizon": "10+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:38:01.302262",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "income_generation",
+      "title": "Establish Dividend Growth Sleeve for Retirement Income Bridge",
+      "summary": "Convert 5% of growth equity positions into dividend aristocrats to begin building sustainable retirement income stream.",
+      "detailed_rationale": "With retirement 10 years away, transitioning from pure accumulation to income generation becomes strategic. Currently, your 5% cash allocation is appropriate for emergency liquidity, but you should begin building a dividend income engine that will supplement retirement needs. Your goal of $80-100k annual income requires approximately $2-2.5M portfolio (4% withdrawal rate), but you're targeting $1.8M. A robust dividend strategy can bridge this gap. Dividend aristocrats (25+ years of increases) offer 2-3% current yields with growth potential, providing inflation-adjusted income without principal liquidation. This complements your existing quality holdings (JNJ, PG, BRK.B) which already provide some dividend income. With stable income, low debt, and advanced investment experience, you can strategically build this sleeve now while maintaining growth exposure. Target companies with: 25+ year dividend growth, payout ratios under 60%, and diversification across defensive sectors.",
+      "tickers": [
+        "NOBL",
+        "VIG",
+        "SCHD"
+      ],
+      "suggested_action": "Allocate 5% of portfolio to dividend growth ETFs over next 6 months. Source capital from reducing individual stock concentration (while maintaining healthcare positions). Begin reinvesting dividends in accumulation phase, then switch to income distribution 2-3 years before retirement.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6.0-8.5%",
+      "time_horizon": "10+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:38:01.302262",
+      "composite_score": 0.0
+    }
+  ]
+}

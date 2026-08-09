@@ -1,0 +1,30 @@
+{
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "sector_specific",
+  "seed": 1,
+  "sys_a": "A_gated_045",
+  "sys_b": "B2_rag_blind",
+  "order": 2,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A directly addresses the user's query about which sectors to reduce and which to keep for income with concrete, sector-specific recommendations (Tech reduction, Energy trim, dividend aristocrats, TIPS) and highly actionable ticker/allocation guidance. System B offers strong diversification analysis (especially the healthcare concentration insight) but drifts toward general glide-path rebalancing rather than the sector-focused question, and Rec #4 is largely planning advice with 0% allocation and vague execution.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A directly addresses the user's query about which sectors to reduce and which to keep for income with concrete, sector-specific recommendations (Tech reduction, Energy trim, dividend aristocrats, TIPS) and highly actionable ticker/allocation guidance. System B offers strong diversification analysis (especially the healthcare concentration insight) but drifts toward general glide-path rebalancing rather than the sector-focused question, and Rec #4 is largely planning advice with 0% allocation and vague execution."
+  },
+  "usage": {
+    "input_tokens": 12556,
+    "output_tokens": 302
+  }
+}

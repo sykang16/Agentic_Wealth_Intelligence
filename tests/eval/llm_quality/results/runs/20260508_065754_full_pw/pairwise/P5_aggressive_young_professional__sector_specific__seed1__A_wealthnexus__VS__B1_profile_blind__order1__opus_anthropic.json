@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"A\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A directly addresses the user's specific query about AI infrastructure plays vs diversification with a thematic AVGO/SMCI recommendation, and its risk levels better align with the user's aggressive tolerance and 15-year horizon (B repeatedly assigns 'low' risk to equity sector ETFs for an aggressive investor, and recommends bonds which contradict the profile). System A also provides more concrete dollar amounts, execution mechanics, and ties rationale to specific profile attributes (FIRE goal, savings capacity, 9/10 loss comfort).\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "A"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A directly addresses the user's specific query about AI infrastructure plays vs diversification with a thematic AVGO/SMCI recommendation, and its risk levels better align with the user's aggressive tolerance and 15-year horizon (B repeatedly assigns 'low' risk to equity sector ETFs for an aggressive investor, and recommends bonds which contradict the profile). System A also provides more concrete dollar amounts, execution mechanics, and ties rationale to specific profile attributes (FIRE goal, savings capacity, 9/10 loss comfort)."
+  },
+  "usage": {
+    "input_tokens": 11365,
+    "output_tokens": 321
+  },
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

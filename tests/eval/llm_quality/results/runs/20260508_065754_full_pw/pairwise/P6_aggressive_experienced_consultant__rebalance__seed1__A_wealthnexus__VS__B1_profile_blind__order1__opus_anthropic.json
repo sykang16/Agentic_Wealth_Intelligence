@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A demonstrates stronger personalization by repeatedly tying recommendations to the user's specific aggressive risk tolerance, variable consultant income, $4M wealth goal, and legacy planning for one child, while System B often pushes defensive/low-risk allocations that conflict with the user's aggressive profile (e.g., adding bonds, consumer staples, and labeling rebalances as 'low risk'). System B does better on diversification awareness by explicitly addressing the tech/NVDA overweight, but A's overall risk alignment, actionability, and grounding in the user's profile are more coherent with the stated aggressive long-horizon mandate.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A demonstrates stronger personalization by repeatedly tying recommendations to the user's specific aggressive risk tolerance, variable consultant income, $4M wealth goal, and legacy planning for one child, while System B often pushes defensive/low-risk allocations that conflict with the user's aggressive profile (e.g., adding bonds, consumer staples, and labeling rebalances as 'low risk'). System B does better on diversification awareness by explicitly addressing the tech/NVDA overweight, but A's overall risk alignment, actionability, and grounding in the user's profile are more coherent with the stated aggressive long-horizon mandate."
+  },
+  "usage": {
+    "input_tokens": 13034,
+    "output_tokens": 345
+  },
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

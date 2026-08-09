@@ -1,0 +1,191 @@
+{
+  "session_id": "P3_moderate_mid_career__sector_specific__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "sector_specific",
+  "query": "Should I add international or emerging-markets exposure, and if so what proportion is reasonable?",
+  "seed": 2,
+  "system": "A_wealthnexus",
+  "rag_diagnostics": {
+    "top_score": 0.416,
+    "num_hits": 2,
+    "gated": false,
+    "threshold": null
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_9838ed0b",
+      "category": "diversify",
+      "title": "Increase International Exposure via VXUS",
+      "summary": "Your portfolio is heavily US-concentrated. Increase international allocation from current minimal level to 20-25% of equity holdings through VXUS to improve geographic diversification.",
+      "detailed_rationale": "Signal: Your portfolio shows significant home-country bias with ~70% in US-focused assets (VTI 50% + US tech stocks 20%). While you hold VXUS, it represents a small portion of your total allocation. Analysis: (1) For a moderate-risk investor with a 25-year retirement horizon and 10-year education goal, international diversification is crucial for risk-adjusted returns. (2) The knowledge base specifically notes VXUS provides exposure to 7,800+ international stocks across developed and emerging markets with a low 0.07% expense ratio, making it cost-effective. (3) Historical data shows international and US markets have low correlation during certain periods, reducing overall portfolio volatility. (4) Your stable $175K income and existing emergency fund provide the financial stability to weather short-term currency and geopolitical risks. Trade-off: International investments carry currency risk and potential underperformance during strong US market periods. However, this diversification protects against US-specific economic downturns and captures growth in developing economies. Given your intermediate experience and moderate risk tolerance (loss comfort 6/10), a 20-25% international allocation is prudent without being overly aggressive.",
+      "tickers": [
+        "VXUS"
+      ],
+      "suggested_action": "Increase VXUS position to represent 20-25% of your total equity allocation (approximately $32,000-$40,000). Fund this by reducing your technology stock concentration\u2014specifically trim NVDA and GOOGL positions by 30-40% each, as they already have substantial exposure through VTI.",
+      "suggested_allocation_pct": 12.5,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "10-25 years aligned with both education and retirement goals",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:08:00.957475",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_7fb1b891",
+      "category": "rebalance",
+      "title": "Reduce Technology Overconcentration",
+      "summary": "Technology represents 35% of your portfolio, creating excessive sector risk. Rebalance to 20-25% to align with moderate risk tolerance and improve diversification.",
+      "detailed_rationale": "Signal: Your sector allocation shows 35% in Technology, significantly overweight compared to the S&P 500's ~28% tech weighting and inappropriate for moderate risk tolerance. Analysis: (1) You hold four major tech positions (AAPL, MSFT, NVDA, GOOGL) as individual stocks plus additional tech exposure through VTI, creating correlated risk. A tech sector correction would disproportionately impact your portfolio. (2) Your goals include a critical 10-year education funding target of $200K\u2014this shorter timeframe requires more stability than a tech-heavy allocation provides. (3) The knowledge base emphasizes that 'concentration risk' can affect portfolio stability, and your moderate risk profile (loss comfort 6/10) suggests you'd be uncomfortable with tech-driven volatility. (4) As a product manager likely in tech, you may already have employment concentration risk in this sector. Supporting evidence: The 2022 tech selloff saw the Nasdaq decline 33%, which would have severely impacted a 35% tech-weighted portfolio. Trade-off: Technology has driven strong returns historically, but past performance doesn't guarantee future results. Trimming winners feels counterintuitive but is essential for risk management. You'll maintain tech exposure through VTI at market-weight levels while reducing single-stock risk.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Reduce individual tech stock positions by 40-50% collectively. Maintain AAPL and MSFT as core holdings (each 5% of portfolio) due to their stability and dividends. Trim NVDA and GOOGL more aggressively (reduce by 60%) given higher volatility. Redeploy proceeds into underweight sectors: Healthcare (target 15%), Industrials (target 12%), and Consumer Staples (add 8%).",
+      "suggested_allocation_pct": -10.0,
+      "risk_level": "low",
+      "expected_return_range": "Improved risk-adjusted returns, reduced volatility by estimated 15-20%",
+      "time_horizon": "Immediate rebalancing with 6-month implementation window",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:08:00.957475",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_4fd263eb",
+      "category": "diversify",
+      "title": "Add Targeted Emerging Markets Allocation",
+      "summary": "Complement VXUS with a dedicated 5-8% emerging markets position (VWO or IEMG) to capture higher growth potential appropriate for your long time horizons.",
+      "detailed_rationale": "Signal: Your question specifically asks about emerging markets exposure, and your current international allocation through VXUS, while broad, is market-cap weighted toward developed markets (Japan, UK, Canada represent ~50% of VXUS). Analysis: (1) Your dual long-term goals (10-year education, 25-year retirement) and moderate risk tolerance support a strategic emerging markets tilt. (2) At age 40 with stable income ($175K) and low debt, you have the financial capacity and time horizon to absorb emerging market volatility in exchange for higher growth potential. (3) Emerging markets represent ~27% of global GDP but only ~12% of market capitalization, suggesting potential for valuation catch-up over multi-decade periods. (4) Your intermediate investment experience means you understand that EM investments carry higher volatility, political risk, and currency fluctuations\u2014risks mitigated by your long horizon. The knowledge base notes that international investments involve 'currency risk' and you should evaluate how your portfolio performs under various scenarios. Trade-off: Emerging markets have higher volatility (standard deviation ~25% vs ~18% for developed markets) and periodic sharp drawdowns. However, for retirement funds not needed for 25 years, this volatility smooths out. Your moderate risk tolerance (6/10 loss comfort) suggests 5-8% is appropriate\u2014meaningful exposure without excessive risk.",
+      "tickers": [
+        "VWO",
+        "IEMG"
+      ],
+      "suggested_action": "Allocate 5-8% of portfolio ($16,000-$25,600) to emerging markets ETF (VWO or IEMG preferred for low fees). Implement over 3-4 months using dollar-cost averaging to reduce timing risk. Source funds from the technology rebalancing suggested above rather than adding new capital initially.",
+      "suggested_allocation_pct": 6.5,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually with higher volatility",
+      "time_horizon": "15-25 years, primarily for retirement goal component",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:08:00.957475",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_b247e670",
+      "category": "risk_reduction",
+      "title": "Establish 529 College Savings Segment with Lower-Risk Allocation",
+      "summary": "Segregate $80,000-$100,000 in a 529 plan with a more conservative 60/40 stock/bond mix, de-risking as your 10-year education goal approaches.",
+      "detailed_rationale": "Signal: Your $200K education goal has a critical 10-year timeframe requiring a more conservative approach than your overall moderate-risk retirement portfolio. Currently, your assets appear commingled without goal-specific risk management. Analysis: (1) The knowledge base emphasizes matching time horizons to risk levels and notes that 'your risk tolerance depends on your time horizon.' A 10-year horizon with a specific dollar target requires protection against sequence-of-return risk. (2) With $140K net worth and a $200K goal, you need disciplined saving ($10K annually) plus growth. Market volatility near year 7-8 could jeopardize this goal if invested too aggressively. (3) 529 plans offer tax-advantaged growth for education\u2014contributions grow tax-free and withdrawals for qualified education expenses are tax-free, effectively boosting returns by your marginal tax rate (~24% federal). (4) Your stable $175K income and existing emergency fund mean you can commit to regular 529 contributions without liquidity concerns. Implementation: Start with 60% stocks (VTI, VXUS mix) and 40% bonds (BND, short-term bond funds), then shift to 50/50 at year 5, and 30/70 by year 8. Trade-off: More conservative allocation means potentially lower returns than your aggressive tech holdings, but this protects against the devastating scenario of a market crash just before tuition is due. The tax advantages partially offset lower expected returns.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "BND"
+      ],
+      "suggested_action": "Open 529 plans (one per child) and transfer $40,000-$50,000 initially from current holdings. Establish automatic monthly contributions of $800-$1,000 ($9,600-$12,000 annually). Allocate 529 assets as 60% equity (split 70% VTI, 30% VXUS) and 40% bonds (BND). Set calendar reminders to de-risk allocation every 2-3 years as college approaches.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "5-7% annually with declining volatility over time",
+      "time_horizon": "10 years with glide path de-risking",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:08:00.957475",
+      "composite_score": 0.0
+    }
+  ]
+}

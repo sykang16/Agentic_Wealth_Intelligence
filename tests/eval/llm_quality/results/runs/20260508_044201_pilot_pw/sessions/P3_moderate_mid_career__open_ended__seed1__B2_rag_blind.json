@@ -1,0 +1,160 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "query": "I'm 40 with two kids heading to college in about 10 years. How should I balance saving for their education versus retirement?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_6f6c4857",
+      "category": "diversify",
+      "title": "Establish Dedicated 529 Education Savings Allocation",
+      "summary": "Create a separate 10-15% allocation specifically for education goals using age-based 529 plans or target-date funds aligned with your children's college timeline.",
+      "detailed_rationale": "Signal: Your portfolio currently lacks goal-specific segmentation\u2014all assets appear commingled without distinction between the 10-year education goal ($200K target) and 25-year retirement goal ($2.5M target). This creates timing risk since both goals have different horizons and liquidity needs. Step-by-step reasoning: (1) With $140K net worth and a $200K education target in 10 years, you need approximately $20K/year in dedicated education savings to reach this goal, assuming 5% returns. Currently, your 30% bond allocation (BND) and some portion of your equity holdings should be earmarked for this nearer-term objective. (2) Your moderate risk tolerance and loss comfort level of 6/10 supports a 60/40 or 70/30 stock/bond mix for the education bucket\u2014more conservative than your current 70/30 overall allocation since the time horizon is shorter. (3) Evidence: 529 plans offer tax-advantaged growth for education expenses. Age-based 529 portfolios automatically de-risk as the beneficiary approaches college age, shifting from 90% equity (today) to 20% equity (at age 18), which aligns perfectly with your 10-year timeline. Your current overweight in Technology (35% vs. market weight of ~28%) exposes education funds to sector concentration risk. (4) Trade-off: Dedicating funds to education reduces capital available for retirement compounding, but your 25-year retirement horizon and stable $175K income provide sufficient recovery time. The alternative\u2014drawing from retirement accounts for education\u2014incurs penalties and permanently reduces retirement corpus.",
+      "tickers": [
+        "VTTSX",
+        "VFORX",
+        "BND"
+      ],
+      "suggested_action": "Open 529 accounts for each child and transfer 15% of total portfolio ($21K from current holdings) into age-appropriate 529 plans. Sell $10K from NVDA and GOOGL (reducing Tech overweight) and $11K from BND. Contribute $1,500/month going forward split between 529s and retirement accounts at a 30/70 ratio.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "low",
+      "expected_return_range": "5-7% annually",
+      "time_horizon": "10 years for education funding",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T21:49:54.982795",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_43dd8b2f",
+      "category": "rebalance",
+      "title": "Reduce Technology Sector Concentration",
+      "summary": "Trim your 35% Technology allocation to 25% by taking partial profits in NVDA and adding exposure to underweight sectors like Utilities, Real Estate, and Materials.",
+      "detailed_rationale": "Signal: Your Technology sector allocation of 35% significantly exceeds the S&P 500 benchmark weight of approximately 28%, creating concentration risk that conflicts with your moderate risk tolerance and dual high-priority goals requiring capital preservation. Step-by-step reasoning: (1) Portfolio analysis shows you hold four individual tech stocks (AAPL, MSFT, NVDA, GOOGL) representing 20% of your portfolio, plus additional tech exposure through VTI's 28% tech weighting. This double-counting creates an estimated 35% total tech exposure. (2) Your moderate risk profile and loss comfort of 6/10 suggests you'd be uncomfortable with a sector-specific drawdown exceeding 20-25%. Technology experienced a 35% drawdown in 2022, and your current concentration would amplify such moves. With two high-priority goals requiring capital in 10 and 25 years, you cannot afford to be heavily concentrated when rebalancing opportunities arise. (3) Market evidence: NVDA has returned 239% over the past year (as of late 2024), making it an appropriate time to take profits and rebalance. Historical data shows that sector leadership rotates\u2014Tech outperformed 2010-2021, underperformed 2022, then resumed leadership in 2023-2024. Maintaining 35% in any single sector violates modern portfolio theory's diversification principles. (4) Trade-off: Trimming winners like NVDA may result in missing additional upside if AI-driven growth continues. However, this is offset by reducing downside risk and improving portfolio efficiency. Your rebalancing will incur capital gains taxes, but at your income level ($175K), long-term gains are taxed at 15%, which is manageable.",
+      "tickers": [
+        "NVDA",
+        "VNQ",
+        "XLU",
+        "XLB"
+      ],
+      "suggested_action": "Sell 40% of your NVDA position and 20% of GOOGL position (approximately $14K total). Redeploy proceeds: $5K into Vanguard Real Estate ETF (VNQ), $5K into Utilities Select Sector SPDR (XLU), and $4K into Materials Select Sector SPDR (XLB). This reduces Tech to ~25% while adding defensive sectors with 4-5% dividend yields.",
+      "suggested_allocation_pct": -10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "Immediate rebalancing with 3-5 year holding period for new positions",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T21:49:54.982795",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_ce05a0ec",
+      "category": "buy",
+      "title": "Increase International Diversification for Retirement Portfolio",
+      "summary": "Boost your international equity allocation from current levels to 25-30% of total equity exposure to capture global growth and reduce US concentration risk over your 25-year retirement horizon.",
+      "detailed_rationale": "Signal: Your holdings list shows VXUS (international ETF), but without specific allocations, your international exposure is likely 15-20% of equity\u2014below the market-cap weight of 40% and below the recommended 25-30% for long-term investors. This US home bias creates geographic concentration risk for your $2.5M retirement goal. Step-by-step reasoning: (1) As a 40-year-old with 25 years to retirement, you have sufficient time to weather international market volatility and benefit from global economic growth. International markets often exhibit low correlation with US markets (correlation coefficient ~0.75), providing diversification benefits during US-specific downturns. (2) Your moderate risk tolerance supports this allocation\u2014international developed markets (Europe, Japan, Australia) have similar volatility to US markets (15-18% standard deviation), while providing exposure to different economic cycles and currency diversification. Your intermediate investment experience means you understand that international investing involves currency risk and political risk, but these are mitigated over long horizons. (3) Market evidence: International valuations are more attractive than US markets as of 2024\u2014the MSCI EAFE trades at a forward P/E of 13x vs. S&P 500's 20x. Historical analysis shows that international markets outperform US markets in 10-year rolling periods approximately 40% of the time, and maintaining allocation through full market cycles improves risk-adjusted returns. (4) Trade-off: International markets have underperformed US markets over the past 15 years (2009-2024), and there's no guarantee of mean reversion. Emerging markets carry higher volatility (22-25% standard deviation). However, for a 25-year horizon, the diversification benefits and valuation discount justify the allocation increase.",
+      "tickers": [
+        "VXUS",
+        "VTIAX",
+        "VWILX"
+      ],
+      "suggested_action": "Increase VXUS position by purchasing an additional $18K (approximately 13% of current portfolio) over the next 3 months using dollar-cost averaging. Fund this purchase by redirecting new contributions and selling a small portion of VTI ($8K) to maintain total equity exposure while shifting geographic mix. Target allocation: 45% US equity, 25% international equity, 30% bonds.",
+      "suggested_allocation_pct": 13.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually",
+      "time_horizon": "25+ years (retirement-focused allocation)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T21:49:54.982795",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_00a0904d",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Advantaged Account Contributions for Dual Goals",
+      "summary": "Prioritize maxing out 401(k) contributions ($23,000/year) and backdoor Roth IRA ($7,000/year) to optimize tax efficiency while building retirement assets, then use taxable accounts for education savings.",
+      "detailed_rationale": "Signal: With $175K annual income and $9,500 monthly expenses ($114K/year), you have approximately $61K in annual discretionary income before taxes. Your debt level is low and you have an emergency fund, indicating capacity to maximize tax-advantaged savings. Portfolio data doesn't specify account types, suggesting potential underutilization of tax-advantaged vehicles. Step-by-step reasoning: (1) At your income level, you're in the 24% federal tax bracket. Every dollar contributed to traditional 401(k) saves $0.24 in current taxes, plus state taxes (potentially another 5-7%). Over 25 years to retirement, this tax arbitrage compounds significantly\u2014$23K annually at 8% return with 24% tax savings equals ~$465K more than taxable investing. (2) Your moderate risk tolerance and stable income support aggressive retirement savings since you have time to recover from market volatility. The two-goal challenge (education + retirement) creates a prioritization dilemma, but tax-advantaged retirement accounts should be funded first because: (a) education has more funding alternatives (loans, financial aid, work-study), (b) retirement accounts have stricter withdrawal rules that enforce discipline, and (c) you can borrow for education but not for retirement. (3) Evidence: Financial planning literature recommends the priority sequence: (1) employer 401(k) match, (2) HSA if eligible, (3) max 401(k), (4) Roth IRA, (5) 529 plans, (6) taxable brokerage. Your $2.5M retirement target requires approximately $40K/year in savings assuming 7% returns\u2014maxing 401(k) + IRA gets you to $30K, plus employer match likely adds another $5-8K. (4) Trade-off: Maxing retirement accounts reduces liquidity and flexibility for education funding. However, 401(k) plans allow loans of up to $50K for education expenses, and Roth IRA contributions (not earnings) can be withdrawn penalty-free. This provides a safety valve if education funding falls short.",
+      "tickers": [],
+      "suggested_action": "Immediately increase 401(k) contributions to $1,917/month to reach the $23K annual maximum. Open and fund backdoor Roth IRAs for yourself (and spouse if married) at $583/month each. This totals $3,083/month in tax-advantaged savings. Allocate remaining discretionary income ($2,000-2,500/month) to 529 plans ($600/month) and taxable brokerage for additional flexibility ($1,400/month). Adjust as needed based on actual take-home after increased 401(k) deferrals.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Effective 8-11% after-tax equivalent due to tax savings",
+      "time_horizon": "Ongoing annual strategy for next 10-25 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T21:49:54.982795",
+      "composite_score": 0.0
+    }
+  ]
+}

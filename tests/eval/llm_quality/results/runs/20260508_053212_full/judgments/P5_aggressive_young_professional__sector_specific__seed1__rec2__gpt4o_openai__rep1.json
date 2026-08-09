@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"The rationale uses the user's aggressive risk tolerance, long investment horizon, and current tech-heavy portfolio to justify the recommendation.\",\n    \"C2\": \"The risk level is moderate, one tier below aggressive, justified by the diversification benefits and long-term horizon.\",\n    \"C3\": \"All claims about the user's portfolio and market conditions are traceable to the provided data.\",\n    \"C4\": \"The recommendation specifies tickers, allocation percentages, and a clear action plan.\",\n    \"C5\": \"The recommendation addresses the user's tech concentration by suggesting international diversification.\",\n    \"C6\": \"The recommendation uses calibrated language and includes a disclaimer about potential underperformance.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "The rationale uses the user's aggressive risk tolerance, long investment horizon, and current tech-heavy portfolio to justify the recommendation.",
+      "C2": "The risk level is moderate, one tier below aggressive, justified by the diversification benefits and long-term horizon.",
+      "C3": "All claims about the user's portfolio and market conditions are traceable to the provided data.",
+      "C4": "The recommendation specifies tickers, allocation percentages, and a clear action plan.",
+      "C5": "The recommendation addresses the user's tech concentration by suggesting international diversification.",
+      "C6": "The recommendation uses calibrated language and includes a disclaimer about potential underperformance."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3781,
+    "output_tokens": 226
+  },
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed1",
+  "rec_index": 2,
+  "rec_id": "rec_85668233",
+  "rubric_version": "1.1"
+}

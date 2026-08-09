@@ -1,0 +1,162 @@
+{
+  "session_id": "P1_conservative_retiree__sector_specific__seed1",
+  "persona_id": "P1_conservative_retiree",
+  "query_type": "sector_specific",
+  "query": "Should I add any healthcare or utility positions, or am I already overweight there?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rag_diagnostics": {
+    "top_score": 0.0,
+    "num_hits": 0,
+    "gated": false,
+    "threshold": null
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_29c176a1",
+      "category": "rebalance",
+      "title": "Reduce Healthcare Overweight Position",
+      "summary": "Healthcare represents 30% of your portfolio versus typical conservative allocation targets of 10-15%. This concentration creates unnecessary sector-specific risk that conflicts with your capital preservation goals.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your portfolio shows significant sector concentration with Healthcare at 30% and Utilities at 25%, totaling 55% in just two sectors. For a conservative, retired investor with high liquidity needs and loss comfort of only 2/10, this concentration exposes you to sector-specific regulatory, legislative, and market risks. (2) ALIGNMENT: Your profile indicates you're 65, retired, need to preserve $1.2M in capital for steady income generation, and have a short investment horizon with high liquidity needs. A conservative allocation should limit any single sector to 10-15% maximum to reduce volatility and preserve capital. Current 30% healthcare weighting means a 10% healthcare sector decline would impact your portfolio by 3% ($36,000), which exceeds your stated loss comfort. (3) EVIDENCE: Your holdings include JNJ (Johnson & Johnson) and likely healthcare-weighted positions in VYM. With 50% in bonds (BND, AGG) already providing stability, the equity portion should be more diversified. Market data shows healthcare faces ongoing regulatory uncertainty around drug pricing and Medicare negotiations. (4) TRADE-OFFS: Reducing healthcare means potentially lower dividend yields in the short term, as healthcare stocks like JNJ offer attractive yields. However, this is outweighed by reduced concentration risk and better alignment with your conservative profile.",
+      "tickers": [
+        "JNJ"
+      ],
+      "suggested_action": "Reduce healthcare allocation from 30% to 15% by selling approximately $180,000 in healthcare positions (primarily trimming JNJ). Redeploy proceeds into diversified dividend-focused holdings or increase cash reserves for liquidity.",
+      "suggested_allocation_pct": -15.0,
+      "risk_level": "low",
+      "expected_return_range": "N/A - risk reduction move",
+      "time_horizon": "Execute over 1-2 months to avoid market timing risk",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T06:58:49.769077",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_23ff662f",
+      "category": "rebalance",
+      "title": "Reduce Utilities Overweight Position",
+      "summary": "Utilities comprise 25% of your portfolio, significantly above recommended conservative allocations of 10-12%. This creates interest rate sensitivity risk and excessive concentration in a single defensive sector.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Utilities sector represents 25% of your total portfolio through holdings like DUK (Duke Energy), SO (Southern Company), and VZ (Verizon, often categorized with utilities). Combined with 30% healthcare, you have 55% of your portfolio in just two sectors, creating significant concentration risk inappropriate for your conservative risk tolerance. (2) ALIGNMENT: As a retired investor age 65 with high liquidity needs, loss comfort of 2/10, and capital preservation as your primary goal, you need broad diversification to minimize volatility. Utilities, while defensive, are highly sensitive to interest rate changes. A conservative portfolio should limit utilities to 10-12% maximum. Your current 25% weighting means rising interest rates could disproportionately impact your portfolio value, as utilities often trade inversely with rates due to their bond-like characteristics and high debt loads. (3) EVIDENCE: Your holdings show DUK and SO, both regulated utilities with significant debt. Historical data shows utility stocks can decline 15-20% during rising rate environments. With the Federal Reserve's monetary policy still in flux, this sector concentration creates unnecessary risk. Your 50% bond allocation already provides defensive characteristics and income. (4) TRADE-OFFS: Utilities provide reliable dividends (typically 3-4% yields), so reducing exposure will slightly lower current income. However, this is offset by reduced interest rate risk and better portfolio resilience.",
+      "tickers": [
+        "DUK",
+        "SO"
+      ],
+      "suggested_action": "Reduce utilities allocation from 25% to 12% by selling approximately $156,000 in utility positions. Prioritize trimming DUK and SO while maintaining some exposure for income. Redeploy proceeds to diversified dividend ETFs or increase short-term bond allocation for liquidity.",
+      "suggested_allocation_pct": -13.0,
+      "risk_level": "low",
+      "expected_return_range": "N/A - risk reduction move",
+      "time_horizon": "Execute over 1-2 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T06:58:49.769077",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_16971e74",
+      "category": "diversify",
+      "title": "Increase Broad Market ETF Exposure for Diversification",
+      "summary": "After rebalancing overweight sectors, increase diversified ETF allocation from 5% to 15% to achieve better sector balance and reduce single-stock concentration risk.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your current allocation shows only 5% in ETFs with 25% in individual stocks, creating concentration risk across just a few holdings. After reducing healthcare and utilities overweights, you'll have approximately $336,000 in proceeds to redeploy. Your portfolio lacks exposure to other defensive sectors appropriate for conservative investors. (2) ALIGNMENT: Given your conservative risk tolerance, retired status, and intermediate investment experience, broad-market dividend-focused ETFs provide ideal diversification without requiring active stock selection. Your goal is capital preservation with steady income - ETFs like VYM (which you already hold) provide instant diversification across 400+ dividend-paying stocks. Increasing ETF allocation from 5% to 15% ($60,000 to $180,000) gives you exposure to multiple sectors including Industrials, Real Estate, and Energy - sectors currently underrepresented in your portfolio. (3) EVIDENCE: Your current holdings show VYM as your only ETF at minimal allocation. Research shows diversified dividend ETFs historically provide 2-3% annual yields with lower volatility than individual stocks (standard deviation typically 12-15% vs. 18-25% for individual equities). For a retiree needing $50,400 annually in expenses against $78,000 income, stable portfolio income supplements your pension without forcing principal liquidation. (4) TRADE-OFFS: ETF expense ratios (typically 0.06-0.25%) are higher than holding bonds, but significantly lower than active management. You sacrifice potential outperformance from individual stock selection, but gain downside protection through diversification.",
+      "tickers": [
+        "VYM",
+        "SCHD",
+        "VIG"
+      ],
+      "suggested_action": "Increase ETF allocation to 15% by investing $120,000 from rebalancing proceeds into dividend-focused ETFs. Consider adding SCHD (Schwab US Dividend Equity ETF) or VIG (Vanguard Dividend Appreciation ETF) alongside existing VYM for enhanced diversification across quality dividend-growers.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "3-6% annually (2-3% dividend yield plus modest appreciation)",
+      "time_horizon": "Long-term hold, 5+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T06:58:49.769077",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_d3aaaaf9",
+      "category": "income_generation",
+      "title": "Optimize Cash Allocation with Short-Term Treasury Ladder",
+      "summary": "Your 20% cash allocation ($240,000) can generate 4.5-5% yields through short-term Treasuries while maintaining high liquidity, adding $10,000+ in annual income without additional risk.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: You hold 20% ($240,000) in cash, which is appropriate given your high liquidity needs and short investment horizon. However, traditional savings accounts yield 0.5-1% while short-term Treasuries currently offer 4.5-5% with equivalent safety and liquidity. This represents $9,600-$10,800 in forgone annual income - meaningful when your total annual income is $78,000 and expenses are $50,400. (2) ALIGNMENT: As a conservative, retired investor with loss comfort of 2/10, you need maximum safety. US Treasury bills are backed by full faith and credit of the US government - literally the safest investment available, matching your risk tolerance perfectly. A 3-6 month Treasury ladder maintains liquidity for unexpected expenses while earning current market rates. Your stable income and existing emergency fund mean you can safely commit most cash reserves to very short-term Treasuries. (3) EVIDENCE: Current Treasury yields: 3-month T-bills ~5.2%, 6-month ~4.8%. Creating a $200,000 ladder (keeping $40,000 in immediate cash) across 3-month and 6-month maturities would generate approximately $10,000 annually versus $1,500 in typical savings accounts - an $8,500 improvement. With monthly expenses of $4,200, keeping 2 months ($8,400) in checking plus $31,600 in high-yield savings (total $40,000) provides ample liquidity while the remaining $200,000 earns Treasury rates. (4) TRADE-OFFS: Treasuries require slightly more management than cash accounts (reinvesting at maturity every 3-6 months), though this can be automated. In a rapidly falling rate environment, you'd be locked into higher rates (actually beneficial), but current Fed policy suggests rates will remain elevated near-term.",
+      "tickers": [],
+      "suggested_action": "Build a Treasury ladder with $200,000 of your current cash: allocate $100,000 to 3-month T-bills and $100,000 to 6-month T-bills. As each tranche matures, reinvest into new 3 or 6-month bills. Maintain $40,000 in high-yield savings (currently 4-4.5%) for immediate liquidity. This can be executed through TreasuryDirect.gov or your brokerage platform.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "4.5-5.2% annually",
+      "time_horizon": "Ongoing rolling 3-6 month positions",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T06:58:49.769077",
+      "composite_score": 0.0
+    }
+  ]
+}

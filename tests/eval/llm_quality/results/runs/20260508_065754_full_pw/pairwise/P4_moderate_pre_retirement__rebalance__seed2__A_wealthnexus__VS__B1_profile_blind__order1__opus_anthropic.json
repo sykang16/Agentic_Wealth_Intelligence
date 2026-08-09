@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A more directly addresses the user's specific query for a year-by-year glide path with concrete dollar amounts, catch-up contribution specifics tied to age 55, and clearer first-step actions. System B has a cleaner numeric glide path schedule and better factual grounding (avoiding A's questionable 9% return assumption), but contains a notable error suggesting the user may be under 50 despite the profile clearly stating age 55, weakening personalization.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A more directly addresses the user's specific query for a year-by-year glide path with concrete dollar amounts, catch-up contribution specifics tied to age 55, and clearer first-step actions. System B has a cleaner numeric glide path schedule and better factual grounding (avoiding A's questionable 9% return assumption), but contains a notable error suggesting the user may be under 50 despite the profile clearly stating age 55, weakening personalization."
+  },
+  "usage": {
+    "input_tokens": 13264,
+    "output_tokens": 280
+  },
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

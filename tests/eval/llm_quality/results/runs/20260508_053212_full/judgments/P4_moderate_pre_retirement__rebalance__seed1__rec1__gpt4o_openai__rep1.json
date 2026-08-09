@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"The rationale cites the user's moderate risk tolerance, advanced investment experience, and age, linking them to the recommendation.\",\n    \"C2\": \"The risk level is low, one tier below the user's moderate tolerance, justified by the need to reduce concentration risk as retirement approaches.\",\n    \"C3\": \"All claims about sector weights and holdings are traceable to the portfolio snapshot, with no fabricated details.\",\n    \"C4\": \"The recommendation specifies tickers, allocation percentages, and a clear execution timeline, making it actionable.\",\n    \"C5\": \"The recommendation addresses the healthcare sector overweight and suggests reallocating to underweight sectors, enhancing diversification.\",\n    \"C6\": \"The recommendation uses calibrated language and includes no guarantees, aligning with safety and compliance standards.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "The rationale cites the user's moderate risk tolerance, advanced investment experience, and age, linking them to the recommendation.",
+      "C2": "The risk level is low, one tier below the user's moderate tolerance, justified by the need to reduce concentration risk as retirement approaches.",
+      "C3": "All claims about sector weights and holdings are traceable to the portfolio snapshot, with no fabricated details.",
+      "C4": "The recommendation specifies tickers, allocation percentages, and a clear execution timeline, making it actionable.",
+      "C5": "The recommendation addresses the healthcare sector overweight and suggests reallocating to underweight sectors, enhancing diversification.",
+      "C6": "The recommendation uses calibrated language and includes no guarantees, aligning with safety and compliance standards."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3893,
+    "output_tokens": 247
+  },
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed1",
+  "rec_index": 1,
+  "rec_id": "rec_f1bf0716",
+  "rubric_version": "1.1"
+}

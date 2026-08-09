@@ -1,0 +1,30 @@
+{
+  "session_id": "P2_conservative_early_career__rebalance__seed1",
+  "persona_id": "P2_conservative_early_career",
+  "query_type": "rebalance",
+  "seed": 1,
+  "sys_a": "A_gated_040",
+  "sys_b": "A_wealthnexus",
+  "order": 2,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides more concrete, actionable steps (specific dollar amounts, monthly transfer figures, debt-to-asset ratio, and a valuable debt-reduction recommendation that addresses the user's negative net worth) with tighter numeric grounding. System A has slightly better risk alignment (correctly labels the blended portfolio as low risk matching the conservative profile, while B labels it moderate), but B's overall depth, personalization to the debt situation, and actionability outweigh this.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides more concrete, actionable steps (specific dollar amounts, monthly transfer figures, debt-to-asset ratio, and a valuable debt-reduction recommendation that addresses the user's negative net worth) with tighter numeric grounding. System A has slightly better risk alignment (correctly labels the blended portfolio as low risk matching the conservative profile, while B labels it moderate), but B's overall depth, personalization to the debt situation, and actionability outweigh this."
+  },
+  "usage": {
+    "input_tokens": 11419,
+    "output_tokens": 293
+  }
+}

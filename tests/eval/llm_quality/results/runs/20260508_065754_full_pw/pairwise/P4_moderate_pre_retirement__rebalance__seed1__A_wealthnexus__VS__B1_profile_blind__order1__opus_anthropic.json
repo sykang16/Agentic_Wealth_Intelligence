@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A demonstrates stronger personalization by explicitly referencing the user's age (55), specific retirement target ($1.8M, $80-100K/yr), loss comfort (5/10), and savings capacity, while providing a more concrete year-by-year schedule with specific allocations per age. System B contains a notable factual error ('without knowing your exact age') despite age being provided, and gives a less granular glide path with weaker grounding in the user's specific profile.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A demonstrates stronger personalization by explicitly referencing the user's age (55), specific retirement target ($1.8M, $80-100K/yr), loss comfort (5/10), and savings capacity, while providing a more concrete year-by-year schedule with specific allocations per age. System B contains a notable factual error ('without knowing your exact age') despite age being provided, and gives a less granular glide path with weaker grounding in the user's specific profile."
+  },
+  "usage": {
+    "input_tokens": 13557,
+    "output_tokens": 280
+  },
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

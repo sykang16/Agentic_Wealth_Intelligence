@@ -1,0 +1,111 @@
+{
+  "session_id": "P3_moderate_mid_career__rebalance__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "rebalance",
+  "query": "My tech exposure is around 35% across my ETFs and individual stocks. Is that too concentrated, and how would I trim it?",
+  "seed": 2,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "rebalance",
+      "title": "Reduce Technology Sector Concentration",
+      "summary": "Your 35% technology allocation exceeds recommended diversification limits for moderate risk tolerance. Reduce to 20-25% by trimming individual tech holdings and rotating into diversified sectors.",
+      "detailed_rationale": "With 35% technology exposure, your portfolio carries significant concentration risk that's inappropriate for a moderate risk profile with two high-priority goals requiring capital preservation. The standard recommendation is 15-25% for any single sector. Given your $320,000 portfolio, approximately $112,000 is in tech versus an optimal $64,000-$80,000 (20-25%). Your individual tech stocks (AAPL, MSFT, NVDA, GOOGL) likely overlap significantly with VTI holdings, creating hidden concentration. With a 10-year education funding horizon, excessive tech volatility could impact availability of funds when needed. Recommend selling 30-40% of individual tech positions while maintaining VTI/VXUS for diversified exposure.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Trim individual tech stock positions by $25,000-$32,000 total. Consider selling highest-gain positions first for tax efficiency or spreading sales across tax years.",
+      "suggested_allocation_pct": 22.5,
+      "risk_level": "moderate",
+      "expected_return_range": "Reduces portfolio volatility by 15-20% while maintaining 7-9% expected annual returns through better diversification",
+      "time_horizon": "Immediate rebalancing, monitor quarterly",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:13:05.709840",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "diversify",
+      "title": "Rotate Proceeds into Underweight Sectors",
+      "summary": "Reinvest tech sale proceeds into underrepresented sectors including consumer staples, utilities, real estate, and international exposure to achieve true diversification.",
+      "detailed_rationale": "Your current allocation shows gaps in defensive sectors that provide stability and income. Consumer staples, utilities, and real estate are virtually absent from your 'Other' category, yet these sectors historically provide lower correlation to technology and better downside protection during market stress. With your education goal only 10 years away, adding defensive positioning is prudent. Consider sector ETFs: VDC (Consumer Staples), VPU (Utilities), VNQ (Real Estate). These sectors typically offer 3-5% dividend yields, supporting your income generation needs. Your VXUS provides international exposure but only represents a portion of holdings. Target allocation: add 8-10% consumer staples, 5-7% utilities, 5-7% REITs.",
+      "tickers": [
+        "VDC",
+        "VPU",
+        "VNQ"
+      ],
+      "suggested_action": "Allocate $20,000-$25,000 from tech sales into defensive sector ETFs: $8,000-$10,000 consumer staples, $6,000-$8,000 utilities, $6,000-$7,000 REITs",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "low",
+      "expected_return_range": "6-8% annual returns with significantly lower volatility and 3-4% current yield",
+      "time_horizon": "Long-term hold, 10+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:13:05.709840",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "diversify",
+      "title": "Enhance Healthcare and Industrial Exposure",
+      "summary": "Increase allocation to healthcare (12% to 15%) and industrials (8% to 12%) to balance growth potential with demographic trends favoring these sectors.",
+      "detailed_rationale": "Healthcare and industrials are moderately represented but deserve increased weighting given your profile. Healthcare benefits from aging demographics and innovation, offering growth with lower correlation to pure technology. Industrials provide economic cycle exposure and inflation protection. Both sectors align with your 25-year retirement horizon while offering more stability than technology for the nearer-term education goal. Healthcare currently pays 1.5-2% dividends with 8-10% growth potential. Industrials offer infrastructure exposure increasingly important in current policy environment. Consider VHT (Healthcare ETF) and VIS (Industrials ETF) or add to existing positions through VTI rebalancing.",
+      "tickers": [
+        "VHT",
+        "VIS"
+      ],
+      "suggested_action": "Allocate remaining $7,000-$12,000 from rebalancing: $5,000-$7,000 to healthcare, $5,000 to industrials to reach target weightings",
+      "suggested_allocation_pct": 12.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annual returns with moderate volatility and defensive characteristics",
+      "time_horizon": "Long-term, 5-25 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:13:05.709840",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "hold",
+      "title": "Maintain Core Index Fund Holdings",
+      "summary": "Continue holding VTI, VXUS, and BND as portfolio foundation while ensuring rebalancing doesn't compromise total market exposure.",
+      "detailed_rationale": "Your core holdings of VTI (U.S. total market), VXUS (international), and BND (bonds) represent a solid foundation appropriate for your profile. The 50% ETF / 30% bond / 20% stock split provides reasonable diversification, though the individual stocks create the concentration issue. After trimming individual tech positions, maintain your VTI/VXUS exposure as these provide efficient, low-cost diversification (VTI includes ~28% technology naturally). Your 30% bond allocation is appropriate for 40-year-old with moderate risk tolerance and 10-year education goal. Don't reduce core index exposure when addressing tech concentration\u2014the issue is the individual stock overlay. Target maintaining 60-65% equity (core indexes + sector ETFs) and 30-35% bonds.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "BND"
+      ],
+      "suggested_action": "Hold existing positions. Review quarterly to ensure allocations remain within target ranges. Consider increasing BND slightly if equity rebalancing exceeds 70% of portfolio.",
+      "suggested_allocation_pct": 50.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% blended returns with moderate volatility appropriate for dual-goal portfolio",
+      "time_horizon": "Long-term hold, ongoing rebalancing",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:13:05.709840",
+      "composite_score": 0.0
+    }
+  ]
+}

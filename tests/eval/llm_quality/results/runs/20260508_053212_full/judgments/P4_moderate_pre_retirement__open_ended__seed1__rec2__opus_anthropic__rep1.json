@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes\u201410-year horizon, $11k monthly expenses, $1.8M retirement target, $80-100k income goal, moderate risk tolerance, stable $220k income, low debt\u2014and ties them causally to the TIPS recommendation.\",\n    \"C2\": \"risk_level 'low' is one tier below the user's moderate tolerance, but it is defensibly justified as inflation insurance within the fixed-income sleeve, consistent with the moderate overall portfolio.\",\n    \"C3\": \"Tickers and allocation figures are consistent with the snapshot, though some quantitative claims (current TIPS yields of 2.0-2.3%, '15-20% inflation risk reduction', BND TIPS content) are unsupported generic estimates.\",\n    \"C4\": \"Specifies concrete tickers (SCHP/VTIP/TIP), exact dollar amount ($30,000) and allocation % (3.5%), a 6-month timeframe, and a clear funding source (new contributions plus small BND reduction).\",\n    \"C5\": \"Recognizes the existing fixed-income composition and absence of explicit inflation protection, addressing a gap without worsening any sector concentration.\",\n    \"C6\": \"Uses calibrated language ('historically', 'if inflation', 'provides'), no guaranteed-return framing, and acknowledges trade-offs and downside scenarios.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes\u201410-year horizon, $11k monthly expenses, $1.8M retirement target, $80-100k income goal, moderate risk tolerance, stable $220k income, low debt\u2014and ties them causally to the TIPS recommendation.",
+      "C2": "risk_level 'low' is one tier below the user's moderate tolerance, but it is defensibly justified as inflation insurance within the fixed-income sleeve, consistent with the moderate overall portfolio.",
+      "C3": "Tickers and allocation figures are consistent with the snapshot, though some quantitative claims (current TIPS yields of 2.0-2.3%, '15-20% inflation risk reduction', BND TIPS content) are unsupported generic estimates.",
+      "C4": "Specifies concrete tickers (SCHP/VTIP/TIP), exact dollar amount ($30,000) and allocation % (3.5%), a 6-month timeframe, and a clear funding source (new contributions plus small BND reduction).",
+      "C5": "Recognizes the existing fixed-income composition and absence of explicit inflation protection, addressing a gap without worsening any sector concentration.",
+      "C6": "Uses calibrated language ('historically', 'if inflation', 'provides'), no guaranteed-return framing, and acknowledges trade-offs and downside scenarios."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6349,
+    "output_tokens": 582
+  },
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed1",
+  "rec_index": 2,
+  "rec_id": "rec_26c28680",
+  "rubric_version": "1.1"
+}

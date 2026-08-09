@@ -1,0 +1,30 @@
+{
+  "session_id": "P2_conservative_early_career__rebalance__seed2",
+  "persona_id": "P2_conservative_early_career",
+  "query_type": "rebalance",
+  "seed": 2,
+  "sys_a": "A_gated_040",
+  "sys_b": "A_wealthnexus",
+  "order": 1,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"B\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System A returned no recommendations and thus fails to address the user's query entirely, while System B provides four well-personalized, risk-appropriate, and actionable recommendations grounded in the user's profile (no emergency fund, negative net worth, conservative tolerance). B wins on every criterion by default and on merit.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "B"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System A returned no recommendations and thus fails to address the user's query entirely, while System B provides four well-personalized, risk-appropriate, and actionable recommendations grounded in the user's profile (no emergency fund, negative net worth, conservative tolerance). B wins on every criterion by default and on merit."
+  },
+  "usage": {
+    "input_tokens": 8310,
+    "output_tokens": 231
+  }
+}

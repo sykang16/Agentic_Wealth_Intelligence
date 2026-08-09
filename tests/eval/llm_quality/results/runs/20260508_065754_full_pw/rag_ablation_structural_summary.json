@@ -1,0 +1,127 @@
+{
+  "A_wealthnexus": {
+    "label": "A (full, RAG on)",
+    "n_sessions": 36,
+    "n_recs": 144,
+    "n_viol": 8,
+    "rate": 0.05555555555555555,
+    "viol_by_persona": {
+      "P1_conservative_retiree": 2,
+      "P2_conservative_early_career": 6
+    },
+    "examples": [
+      {
+        "session": "P1_conservative_retiree__rebalance__seed2",
+        "persona": "P1_conservative_retiree",
+        "tol": "conservative",
+        "title": "Monitor and Limit Individual Stock Concentration Risk",
+        "risk_level": "moderate"
+      },
+      {
+        "session": "P1_conservative_retiree__sector_specific__seed2",
+        "persona": "P1_conservative_retiree",
+        "tol": "conservative",
+        "title": "Add Conservative International Exposure Through Dividend ETF",
+        "risk_level": "moderate"
+      },
+      {
+        "session": "P2_conservative_early_career__open_ended__seed1",
+        "persona": "P2_conservative_early_career",
+        "tol": "conservative",
+        "title": "Future Consideration: Add REIT Exposure After Foundation is ",
+        "risk_level": "moderate"
+      },
+      {
+        "session": "P2_conservative_early_career__open_ended__seed2",
+        "persona": "P2_conservative_early_career",
+        "tol": "conservative",
+        "title": "Optimize Tax-Advantaged Retirement Contributions for Long-Te",
+        "risk_level": "moderate"
+      },
+      {
+        "session": "P2_conservative_early_career__rebalance__seed1",
+        "persona": "P2_conservative_early_career",
+        "tol": "conservative",
+        "title": "Maintain Current VTTSX Target-Date Fund Position",
+        "risk_level": "moderate"
+      },
+      {
+        "session": "P2_conservative_early_career__sector_specific__seed1",
+        "persona": "P2_conservative_early_career",
+        "tol": "conservative",
+        "title": "Maintain Current VTTSX Target-Date Fund Position",
+        "risk_level": "moderate"
+      },
+      {
+        "session": "P2_conservative_early_career__sector_specific__seed1",
+        "persona": "P2_conservative_early_career",
+        "tol": "conservative",
+        "title": "Add Broad Market Exposure After Debt Reduction",
+        "risk_level": "moderate"
+      },
+      {
+        "session": "P2_conservative_early_career__sector_specific__seed2",
+        "persona": "P2_conservative_early_career",
+        "tol": "conservative",
+        "title": "Future Consideration: Add VTI for Broad Market Exposure Post",
+        "risk_level": "moderate"
+      }
+    ]
+  },
+  "B2_rag_blind": {
+    "label": "B2 (RAG blind)",
+    "n_sessions": 36,
+    "n_recs": 140,
+    "n_viol": 6,
+    "rate": 0.04285714285714286,
+    "viol_by_persona": {
+      "P1_conservative_retiree": 2,
+      "P2_conservative_early_career": 3,
+      "P3_moderate_mid_career": 1
+    },
+    "examples": [
+      {
+        "session": "P1_conservative_retiree__rebalance__seed1",
+        "persona": "P1_conservative_retiree",
+        "tol": "conservative",
+        "title": "Broaden Equity Sector Exposure",
+        "risk_level": "moderate"
+      },
+      {
+        "session": "P1_conservative_retiree__sector_specific__seed2",
+        "persona": "P1_conservative_retiree",
+        "tol": "conservative",
+        "title": "Consider Small Preferred Stock Allocation for Enhanced Incom",
+        "risk_level": "moderate"
+      },
+      {
+        "session": "P2_conservative_early_career__open_ended__seed1",
+        "persona": "P2_conservative_early_career",
+        "tol": "conservative",
+        "title": "Maintain Current VTTSX Position During Emergency Fund Build",
+        "risk_level": "moderate"
+      },
+      {
+        "session": "P2_conservative_early_career__rebalance__seed1",
+        "persona": "P2_conservative_early_career",
+        "tol": "conservative",
+        "title": "Optimize Existing Investment Mix for Conservative Growth",
+        "risk_level": "moderate"
+      },
+      {
+        "session": "P2_conservative_early_career__sector_specific__seed1",
+        "persona": "P2_conservative_early_career",
+        "tol": "conservative",
+        "title": "Maintain Current VTTSX Core Position",
+        "risk_level": "moderate"
+      },
+      {
+        "session": "P3_moderate_mid_career__sector_specific__seed2",
+        "persona": "P3_moderate_mid_career",
+        "tol": "moderate",
+        "title": "Add Targeted Emerging Markets Exposure (5-10% of Equities)",
+        "risk_level": "high"
+      }
+    ]
+  }
+}

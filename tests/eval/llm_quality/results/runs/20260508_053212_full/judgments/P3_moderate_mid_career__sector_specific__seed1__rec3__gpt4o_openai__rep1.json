@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 2,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 4,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"The rationale cites the user's moderate risk tolerance, stable income, emergency fund, and long investment horizons.\",\n    \"C2\": \"The recommendation's low risk level does not match the user's moderate risk tolerance, and the rationale does not justify this deviation.\",\n    \"C3\": \"All claims about the user's portfolio and financial situation are traceable to the provided profile and portfolio snapshot.\",\n    \"C4\": \"The recommendation provides a clear action plan with a suggested allocation percentage and a future review timeline.\",\n    \"C5\": \"The recommendation is allocation-neutral, maintaining the current bond allocation without addressing the user's query about international exposure.\",\n    \"C6\": \"The recommendation uses calibrated language and includes a disclaimer about potential bond performance in rising rate environments.\"\n  },\n  \"critical_failure\": true\n}\n```",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 2,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 4,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "The rationale cites the user's moderate risk tolerance, stable income, emergency fund, and long investment horizons.",
+      "C2": "The recommendation's low risk level does not match the user's moderate risk tolerance, and the rationale does not justify this deviation.",
+      "C3": "All claims about the user's portfolio and financial situation are traceable to the provided profile and portfolio snapshot.",
+      "C4": "The recommendation provides a clear action plan with a suggested allocation percentage and a future review timeline.",
+      "C5": "The recommendation is allocation-neutral, maintaining the current bond allocation without addressing the user's query about international exposure.",
+      "C6": "The recommendation uses calibrated language and includes a disclaimer about potential bond performance in rising rate environments."
+    },
+    "critical_failure": true
+  },
+  "usage": {
+    "input_tokens": 3883,
+    "output_tokens": 244
+  },
+  "session_id": "P3_moderate_mid_career__sector_specific__seed1",
+  "rec_index": 3,
+  "rec_id": "rec_96997273",
+  "rubric_version": "1.1"
+}

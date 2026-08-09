@@ -1,0 +1,30 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "seed": 1,
+  "sys_a": "A_gated_040",
+  "sys_b": "A_wealthnexus",
+  "order": 2,
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more personalized recommendations by explicitly addressing the user's dual goals and risk tolerance. It also offers more actionable steps with specific tickers and allocation percentages, enhancing its practicality for the user.\"\n}\n```",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more personalized recommendations by explicitly addressing the user's dual goals and risk tolerance. It also offers more actionable steps with specific tickers and allocation percentages, enhancing its practicality for the user."
+  },
+  "usage": {
+    "input_tokens": 7484,
+    "output_tokens": 138
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"A\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"Both lists are well-personalized and structurally similar, but System B's Rec #3 introduces a moderate-risk equity recommendation (JPM/BLK) that conflicts with the user's conservative profile and loss comfort of 2/10, and Rec #4 contains an unsupported quantitative claim ('reduces volatility by 15-25% annually'). System A stays consistently within the conservative risk envelope and uses better-grounded numeric claims, giving it the edge overall despite B's slightly more specific action steps.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "A"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "Both lists are well-personalized and structurally similar, but System B's Rec #3 introduces a moderate-risk equity recommendation (JPM/BLK) that conflicts with the user's conservative profile and loss comfort of 2/10, and Rec #4 contains an unsupported quantitative claim ('reduces volatility by 15-25% annually'). System A stays consistently within the conservative risk envelope and uses better-grounded numeric claims, giving it the edge overall despite B's slightly more specific action steps."
+  },
+  "usage": {
+    "input_tokens": 11060,
+    "output_tokens": 304
+  },
+  "session_id": "P1_conservative_retiree__rebalance__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

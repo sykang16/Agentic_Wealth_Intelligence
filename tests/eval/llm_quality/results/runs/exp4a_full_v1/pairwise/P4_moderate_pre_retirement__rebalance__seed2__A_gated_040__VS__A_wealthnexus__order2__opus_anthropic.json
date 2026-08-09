@@ -1,0 +1,30 @@
+{
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "rebalance",
+  "seed": 2,
+  "sys_a": "A_gated_040",
+  "sys_b": "A_wealthnexus",
+  "order": 2,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A directly addresses the user's glide-path query with a more detailed year-by-year framework, better risk alignment (moderate rec matches moderate tolerance), and more concrete first-step actions with specific dollar amounts. System B offers useful complementary ideas (bond ladder, asset location) but drifts from the core glide-path question and has some risk_level inconsistencies (labeling a 50/45 glide-path rec as 'low' risk).\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A directly addresses the user's glide-path query with a more detailed year-by-year framework, better risk alignment (moderate rec matches moderate tolerance), and more concrete first-step actions with specific dollar amounts. System B offers useful complementary ideas (bond ladder, asset location) but drifts from the core glide-path question and has some risk_level inconsistencies (labeling a 50/45 glide-path rec as 'low' risk)."
+  },
+  "usage": {
+    "input_tokens": 13683,
+    "output_tokens": 279
+  }
+}

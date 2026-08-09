@@ -1,0 +1,163 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed2",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "sector_specific",
+  "query": "Should I rotate from energy into AI/semiconductor exposure at current valuations, or keep the cyclical tilt?",
+  "seed": 2,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_cfa0cee1",
+      "category": "rebalance",
+      "title": "Partially Rotate Energy to Semiconductors While Maintaining Cyclical Core",
+      "summary": "Reduce energy allocation from 15% to 10% and add 5% semiconductor exposure (SMH or SOXX) to capture AI infrastructure build-out while preserving diversification benefits of energy.",
+      "detailed_rationale": "Signal: Your 15% energy allocation (XLE, XOM, CVX) is appropriate for cyclical exposure, but your question reveals awareness that semiconductors are critical AI infrastructure currently undergoing a multi-year capital expenditure cycle. Analysis: (1) Portfolio trigger - You have 30% technology exposure but it's concentrated in NVDA. Semiconductors beyond NVDA (TSMC, ASML, AMD, Broadcom) offer AI exposure with less single-stock risk. (2) Risk alignment - With aggressive risk tolerance (8/10 loss comfort), advanced experience, and $280K income supporting $13K monthly expenses, you can absorb semiconductor volatility. Your 20+ year horizon allows riding through chip cycles. (3) Supporting evidence - Energy generated strong 2021-2023 returns but faces structural headwinds: EV adoption, efficiency gains, and OPEC+ production discipline uncertainty. Semiconductors benefit from AI data center build-outs (projected $1T through 2027), onshoring incentives (CHIPS Act), and margin expansion in leading-edge nodes. Your wealth goal of $4M requires 6.7% annualized growth over 20 years - semiconductors' historical 12-15% returns versus energy's 7-9% support this. (4) Trade-off - Energy provides inflation protection and geopolitical diversification that pure tech doesn't. Recommendation is partial rotation (not full exit) to maintain both themes. A 50/50 compromise preserves cyclical upside while adding secular growth exposure. Semiconductors are currently trading at 25-30x forward earnings versus 10-12x for energy, so you're paying up for growth, but equipment makers (ASML, KLAC) and foundries (TSMC) offer better valuations than pure-play AI.",
+      "tickers": [
+        "SMH",
+        "SOXX",
+        "XLE"
+      ],
+      "suggested_action": "Sell 33% of combined XLE, XOM, CVX positions (approximately $112,500) and deploy into SMH (VanEck Semiconductor ETF) or SOXX (iShares Semiconductor ETF) for diversified semiconductor exposure beyond your existing NVDA holding.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "high",
+      "expected_return_range": "10-16% annually",
+      "time_horizon": "5-10 years for full AI infrastructure cycle",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:29:59.620586",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_8d813c9b",
+      "category": "diversify",
+      "title": "Add International Developed Markets to Reduce US Concentration",
+      "summary": "Your 85%+ portfolio is US-focused. Add 10% allocation to international developed markets (VEA or IDEV) to reduce geographic concentration and capture valuation discounts.",
+      "detailed_rationale": "Signal: Portfolio analysis shows heavy US bias - VTI (US total market), individual US stocks, and only VWO (15% emerging markets) for international exposure. (1) Portfolio imbalance - With 30% technology and another 40% in US-centric sectors, you have significant geographic and regulatory concentration risk. For aggressive investors seeking $4M wealth target, diversification actually enables taking more risk efficiently. (2) Risk profile fit - Your advanced experience and consultant income (which likely has geographic flexibility) mean you can handle currency fluctuations. International developed markets (Europe, Japan, Australia) currently trade at 12-14x earnings versus 20-22x for S&P 500, offering 40% valuation discount. (3) Evidence base - European stocks offer exposure to luxury goods, industrials, and pharmaceuticals at lower valuations. Japan is experiencing corporate governance reforms and ending decades of deflation. Your existing VWO (15%) gives emerging market exposure but lacks developed international balance. Historical data shows international developed markets have multi-year cycles of outperformance - current valuation gap suggests potential mean reversion. (4) Main risk - Currency headwinds if dollar strengthens, and potentially slower growth than US. However, diversification benefits justify this for long-horizon wealth accumulation. Action timing is favorable as US market concentration in mega-cap tech creates vulnerability.",
+      "tickers": [
+        "VEA",
+        "IDEV",
+        "EFA"
+      ],
+      "suggested_action": "Allocate $150,000 (10% of portfolio) to VEA (Vanguard Developed Markets ETF) or IDEV (iShares Core MSCI International Developed Markets). Fund this by reducing VTI position proportionally and using available cash reserves.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-11% annually",
+      "time_horizon": "10-20 years to capture full valuation cycle",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:29:59.620586",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_f16e97bd",
+      "category": "risk_reduction",
+      "title": "Reduce Bitcoin Allocation and Reinforce Bond Ladder",
+      "summary": "Decrease crypto from 5% to 2% and increase bonds from 15% to 18% to improve portfolio stability during drawdowns while maintaining aggressive growth posture.",
+      "detailed_rationale": "Signal: Your 5% crypto allocation (BTC) represents $75,000 in highly volatile assets with 60-80% historical drawdown potential. (1) Portfolio risk trigger - While you have aggressive tolerance and 8/10 loss comfort, your income is variable as an independent consultant. This creates sequence-of-returns risk if you need liquidity during market stress. Your medium liquidity needs reinforce this concern. (2) Risk alignment logic - Even aggressive investors benefit from strategic de-risking when specific positions have delivered strong returns. Bitcoin has appreciated significantly; trimming captures gains and reduces tail risk. Your $380K debt (moderate level) and $156K annual expenses create real cash flow needs that 15% bonds may not fully cover in a prolonged downturn. Moving to 18% bonds (while keeping 70%+ in equities/growth assets) preserves aggressive stance while adding buffer. (3) Supporting evidence - With 45% individual stocks and semiconductor rotation proposed above, your equity risk is already substantial. Modern portfolio theory suggests even aggressive portfolios benefit from 15-20% fixed income for rebalancing opportunities. Your 20-year horizon means you'll experience 2-3 major bear markets; having 18% stable assets enables buying dips rather than forced selling. BTC correlation with tech stocks has increased to 0.6-0.7, so it's not providing the diversification initially expected. (4) Trade-off - You may miss additional crypto upside, and bond yields around 4-5% lag equity returns. However, this is risk management, not return optimization. Consider this position-sizing discipline for legacy planning goal ($800K for child). BND (your current holding) is appropriate vehicle to add to.",
+      "tickers": [
+        "BTC",
+        "BND",
+        "VGIT"
+      ],
+      "suggested_action": "Sell $45,000 of Bitcoin (reducing from 5% to 2% allocation) and add $45,000 to bond position, splitting between existing BND and adding intermediate-term treasury fund (VGIT) for diversification within fixed income.",
+      "suggested_allocation_pct": 3.0,
+      "risk_level": "low",
+      "expected_return_range": "4-5% annually on bond portion",
+      "time_horizon": "Immediate implementation for risk management",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:29:59.620586",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_7e2a834c",
+      "category": "diversify",
+      "title": "Add Healthcare Sector Exposure for Defensive Growth Balance",
+      "summary": "Increase healthcare allocation from 10% to 15% through XLV or VHT to add defensive growth characteristics and demographic tailwinds without sacrificing return potential.",
+      "detailed_rationale": "Signal: Your 10% healthcare allocation is underweight relative to sector's 13-14% S&P 500 weighting and significantly trails your 30% technology exposure. (1) Portfolio gap identification - After proposed energy-to-semiconductor rotation, you'll have increased cyclical sensitivity. Healthcare offers growth with lower beta (0.85-0.90 vs market) while maintaining strong fundamentals. Your financials, industrials, and energy positions are all economically sensitive; healthcare provides ballast. (2) Risk profile justification - Despite aggressive tolerance, your variable consultant income benefits from portfolio sectors with non-cyclical revenue. Healthcare spending is resilient in recessions. This isn't defensive positioning - it's smart diversification that enables maintaining aggressive equity allocation overall. With advanced investment experience, you understand that risk-adjusted returns matter for compounding to $4M target. Sharpe ratio improvement from adding healthcare supports wealth accumulation better than pure volatility. (3) Evidence and opportunity - Healthcare sector benefits from: aging demographics (65+ population growing 3% annually), GLP-1 drug revolution (obesity/diabetes treatment market expanding), medical device innovation, and biotech M&A activity. Valuations are reasonable at 16-18x forward earnings, between growth (25x+) and value (12x) extremes. Your existing holdings show no healthcare exposure beyond potential index fund components. (4) Known risks - Regulatory uncertainty, drug pricing pressure, and R&D binary outcomes create headline volatility. However, diversified healthcare ETFs mitigate single-stock risk while capturing sector growth. This complements rather than replaces your growth positions.",
+      "tickers": [
+        "XLV",
+        "VHT",
+        "IHI"
+      ],
+      "suggested_action": "Allocate $75,000 (5% of portfolio) to healthcare sector through XLV (Health Care Select Sector SPDR) or VHT (Vanguard Health Care ETF). Fund this by reducing overweight technology positions proportionally (trim 2-3% from the 30% tech allocation) or use proceeds from BTC reduction.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "10-20 years to capture demographic trends",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:29:59.620586",
+      "composite_score": 0.0
+    }
+  ]
+}

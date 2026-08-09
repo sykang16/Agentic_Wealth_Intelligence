@@ -1,0 +1,158 @@
+{
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "sector_specific",
+  "query": "I'm already heavy in tech. Should I rotate into AI infrastructure plays, or diversify into a different sector entirely?",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_8b66495d",
+      "category": "diversify",
+      "title": "Rotate 15% into Healthcare & Financials for Sector Balance",
+      "summary": "Your 65% technology concentration creates significant sector-specific risk. Rotate into defensive healthcare (XLV) and cyclical financials (XLF) to maintain growth potential while reducing portfolio volatility.",
+      "detailed_rationale": "SIGNAL: Your portfolio shows extreme sector concentration with 65% in Technology (via QQQ, NVDA, TSLA, GOOGL, META, AMZN), which is 3-4x higher than benchmark allocations and creates idiosyncratic risk from regulatory changes, rate sensitivity, or tech sector corrections. RISK ALIGNMENT: While your aggressive risk tolerance (9/10 loss comfort) and 15-year horizon support growth investing, concentration risk differs from market risk\u2014a single sector downturn could derail your $2.5M FIRE goal regardless of risk tolerance. Healthcare provides defensive characteristics with aging demographics tailwinds (spending expected to reach 20% of GDP by 2031) while maintaining growth potential through biotech innovation. Financials offer cyclical diversification that benefits from economic expansion and rising rates. EVIDENCE: Historical data shows technology drawdowns of 50%+ (2000-2002, 2022) while diversified portfolios recovered faster. Your current allocation would require technology to outperform by 8-10% annually vs. broader markets to hit your wealth target\u2014possible but unnecessarily risky. TRADE-OFF: You may underperform in years when tech surges (like 2023's +50% for QQQ), but you'll significantly outperform during tech corrections, creating a smoother path to your FIRE goal with lower sequence-of-returns risk.",
+      "tickers": [
+        "XLV",
+        "XLF"
+      ],
+      "suggested_action": "Sell 10% of QQQ position and trim 5% across TSLA/META. Deploy $27,000 (15% of portfolio) split 60/40 into XLV (Healthcare ETF) and XLF (Financial ETF). Execute over 2-3 weeks to average entry prices.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "15-year horizon aligns with FIRE goal; rebalance annually",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:41:41.178228",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_1d0c0008",
+      "category": "buy",
+      "title": "Add AI Infrastructure via AVGO & SMCI for Thematic Exposure",
+      "summary": "Since you're interested in AI infrastructure and already tech-heavy, capture the AI buildout theme through semiconductor equipment (AVGO) and AI server infrastructure (SMCI) rather than adding more hyperscalers.",
+      "detailed_rationale": "SIGNAL: Your query indicates interest in AI infrastructure plays, and your current tech holdings (NVDA, GOOGL, META, AMZN) are all GPU buyers but you lack exposure to the picks-and-shovels layer. Your aggressive profile, $195K income with only $5,500 monthly expenses, and intermediate experience level support thematic sector bets within your existing tech allocation. RISK ALIGNMENT: Rather than increasing total tech exposure beyond 65%, this reallocates within technology to capture different value chain segments. AVGO provides AI networking infrastructure (custom ASICs, switching) with 80%+ margins and multi-year visibility from hyperscaler spending commitments. SMCI builds AI server racks with liquid cooling infrastructure critical for next-gen AI clusters. Both benefit from $1T+ AI infrastructure buildout projections through 2027. EVIDENCE: AVGO trades at 25x forward earnings vs. 35x+ for NVDA despite 15%+ revenue growth and better margin stability. SMCI grew revenues 200%+ in recent quarters tied directly to GPU cluster deployments. Your existing NVDA position captures GPU demand; these positions capture adjacent infrastructure spend with lower correlation. TRADE-OFF: These are more concentrated, volatile individual stock positions vs. your QQQ ETF holding. SMCI especially carries execution risk and higher beta. This maintains your aggressive tech stance but diversifies the specific AI value chain exposure.",
+      "tickers": [
+        "AVGO",
+        "SMCI"
+      ],
+      "suggested_action": "Allocate 5% of portfolio ($9,000) split 70/30 between AVGO and SMCI. Source funds from trimming 3% of existing NVDA position and 2% from cash reserves. Set stop-losses at 20% below entry for risk management.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "high",
+      "expected_return_range": "15-30% annually with high volatility",
+      "time_horizon": "3-5 year hold for AI infrastructure buildout cycle",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:41:41.178228",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_4ab65ea1",
+      "category": "diversify",
+      "title": "Establish International Exposure via VXUS (15% Allocation)",
+      "summary": "You have zero international diversification. Add developed and emerging market exposure through VXUS to capture global growth, currency diversification, and valuation opportunities outside US tech.",
+      "detailed_rationale": "SIGNAL: Your portfolio shows 100% US equity exposure (all tickers are US-listed, US-focused companies), creating geographic concentration risk and missing 50%+ of global market capitalization. Your holdings in GOOGL, META, AMZN already give you international revenue exposure, but not true geographic diversification. RISK ALIGNMENT: For a 30-year-old with 15-year horizon targeting $2.5M, international diversification provides uncorrelated return streams and hedges against US-specific risks (fiscal issues, regulatory changes, dollar strength). Your aggressive tolerance and stable $195K income support taking international exposure including emerging markets within VXUS. EVIDENCE: US stocks trade at 21x forward P/E vs. 12x for international developed and 11x for emerging markets\u2014this valuation gap suggests better risk-adjusted returns ahead. International stocks have outperformed US markets in multiple decades (2000s, 1970s-80s) and provide natural dollar hedging if USD weakens. VXUS holds 8,000+ stocks across 50+ countries with 0.08% expense ratio. TRADE-OFF: International markets may continue underperforming US tech in the near term, and you'll face currency risk and potentially lower returns if US exceptionalism continues. However, this is essential portfolio hygiene for long-term wealth building\u2014reduces max drawdown risk significantly during US-specific crises.",
+      "tickers": [
+        "VXUS"
+      ],
+      "suggested_action": "Build 15% position in VXUS ($27,000) by trimming 8% from QQQ and 7% from VTI over next month. This maintains your aggressive growth stance while adding 8,000+ international companies. Dollar-cost-average weekly over 4 weeks.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-11% annually",
+      "time_horizon": "15+ years, core long-term holding",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:41:41.178228",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_6bb2ca72",
+      "category": "hold",
+      "title": "Maintain Crypto at 5% - Consider BTC/ETH Split",
+      "summary": "Your 5% BTC allocation is appropriate for your aggressive profile and age. Hold current allocation but consider 80/20 BTC/ETH split for broader crypto infrastructure exposure.",
+      "detailed_rationale": "SIGNAL: At $9,000 (5% of portfolio), your crypto allocation matches aggressive investor guidelines (3-5% for high risk tolerance). This isn't triggering a rebalance need, but optimizing within crypto could improve risk-adjusted returns. RISK ALIGNMENT: Your 9/10 loss comfort, 15-year horizon, and low liquidity needs support maintaining crypto exposure for asymmetric return potential. You can afford the volatility with $66,000+ annual savings capacity ($195K income minus $66K expenses). BTC provides digital gold/inflation hedge characteristics, while ETH adds exposure to smart contract infrastructure and DeFi ecosystem growth. EVIDENCE: Bitcoin has delivered 100%+ annualized returns over 10-year periods despite 70%+ drawdowns, fitting your long-term aggressive mandate. Recent institutional adoption (spot ETFs, corporate treasuries) reduces binary risk. ETH's deflationary mechanism post-Merge and staking yield (3-4%) provide different return drivers. Portfolio optimization studies suggest 80/20 BTC/ETH improves Sharpe ratios vs. 100% BTC. TRADE-OFF: Holding 5% in crypto means accepting periodic 30-50% drawdowns in this allocation. Adding ETH increases smart contract platform risk and regulatory uncertainty vs. BTC's simpler value proposition. However, maintaining this allocation aligns with your FIRE goal's need for some high-growth, non-correlated assets.",
+      "tickers": [
+        "BTC",
+        "ETH"
+      ],
+      "suggested_action": "Hold existing $9,000 crypto allocation. If interested in optimization, convert $1,800 of BTC to ETH for 80/20 split. Otherwise, no action required\u2014this allocation is appropriate. Rebalance annually to maintain 5% target as portfolio grows.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "high",
+      "expected_return_range": "Highly variable, potential for 20-50%+ in bull markets, -50%+ in bear markets",
+      "time_horizon": "10-15 years minimum hold period",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "low",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:41:41.178228",
+      "composite_score": 0.0
+    }
+  ]
+}

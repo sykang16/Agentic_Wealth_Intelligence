@@ -1,0 +1,187 @@
+{
+  "session_id": "P3_moderate_mid_career__rebalance__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "rebalance",
+  "query": "My tech exposure is around 35% across my ETFs and individual stocks. Is that too concentrated, and how would I trim it?",
+  "seed": 2,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_125c212a",
+      "category": "rebalance",
+      "title": "Reduce Technology Concentration to 25% Target",
+      "summary": "Your 35% technology allocation exceeds recommended diversification levels for moderate risk investors. Trim tech positions to reduce sector concentration risk while maintaining growth potential.",
+      "detailed_rationale": "Signal: Your portfolio shows 35% technology concentration across VTI, individual tech stocks (AAPL, MSFT, NVDA, GOOGL), and likely tech weighting in VXUS. This exceeds the ~28% tech weighting in the S&P 500 and poses concentration risk. Alignment with profile: (1) As a moderate risk investor with loss comfort of 6/10, sector concentration increases volatility beyond your comfort zone\u2014tech selloffs can trigger 15-20% drawdowns. (2) With two high-priority goals including education funding in ~10 years, you need stability as that horizon approaches. (3) Your intermediate experience and stable income provide capacity to rebalance strategically. Evidence: VTI factsheet confirms broad market exposure with 3,945 holdings across all sectors, providing natural diversification. Your direct tech holdings (AAPL, MSFT, NVDA, GOOGL) plus tech-heavy VTI create overlap and amplify sector risk. Trade-offs: Trimming tech means potentially missing some upside if the sector continues outperforming, but significantly reduces downside risk during sector rotations. This positions you for more consistent returns aligned with your moderate risk tolerance.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Sell 25-30% of your individual tech stock positions (prioritize your largest holdings to reduce concentration). Redeploy proceeds into underweight sectors through VTI accumulation or sector-specific ETFs in healthcare, consumer staples, or utilities to achieve 25% overall tech allocation.",
+      "suggested_allocation_pct": -10.0,
+      "risk_level": "low",
+      "expected_return_range": "Portfolio volatility reduction of 2-3% annually, with modest impact on total returns",
+      "time_horizon": "Implement over 1-2 months to avoid market timing issues",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:10:38.629971",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_1b56dd56",
+      "category": "diversify",
+      "title": "Establish 529 College Savings Plan for Education Goal",
+      "summary": "Create a dedicated, tax-advantaged 529 plan to segregate and optimize your $200,000 education funding goal with age-based asset allocation that automatically derisks as college approaches.",
+      "detailed_rationale": "Signal: You have a high-priority education goal targeting $200,000 in ~10 years, but your current portfolio doesn't show dedicated education savings with appropriate time-based derisking. Portfolio gap analysis: With $140,000 net worth and $320,000 in assets, you need to accumulate approximately $100,000 more for education while maintaining retirement funding. Alignment with profile: (1) As a product manager earning $175,000 with stable income and low debt, you can contribute $800-1,000 monthly toward this goal. (2) Your 10-year horizon for education is medium-term, requiring a glide path that starts growth-oriented but shifts conservative as kids approach college age. (3) 529 plans offer state tax deductions (in most states), tax-free growth, and tax-free withdrawals for qualified expenses\u2014significantly enhancing after-tax returns vs. taxable accounts. Evidence: Your current allocation is growth-focused (50% stocks via ETFs, 20% individual stocks) without time-based derisking. A 529 with age-based portfolio automatically shifts from 80% equity (today) to 20% equity (at college enrollment), protecting accumulated gains. Trade-offs: 529 funds must be used for education or face penalties, reducing flexibility. However, beneficiaries can be changed to other family members, and recent rules allow $35,000 lifetime rollovers to Roth IRAs, mitigating this risk.",
+      "tickers": [
+        "VTI",
+        "BND"
+      ],
+      "suggested_action": "Open a 529 college savings plan in your state (research state tax benefits). Initially fund with $20,000-30,000 from liquid savings or by selling a portion of your taxable holdings. Select an age-based portfolio option that starts equity-heavy and automatically becomes conservative. Set up automatic monthly contributions of $800-1,000 to reach your $200,000 target.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% annually over 10 years with declining risk profile",
+      "time_horizon": "10 years until first college expense; establish within 1-2 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:10:38.629971",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_f97cf8d8",
+      "category": "diversify",
+      "title": "Add International Bond Exposure for Geographic Diversification",
+      "summary": "Your 30% bond allocation is entirely domestic (BND). Add 5-8% international bonds to diversify interest rate risk, currency exposure, and enhance portfolio resilience during U.S.-specific economic stress.",
+      "detailed_rationale": "Signal: Portfolio analysis shows 30% bond allocation concentrated in BND (U.S. aggregate bonds), while your equity side has international exposure via VXUS. This creates geographic mismatch\u2014your fixed income is entirely dependent on U.S. interest rates and dollar strength. Alignment with profile: (1) Moderate risk tolerance supports incremental diversification that doesn't dramatically change portfolio behavior. (2) Your long-term investment horizon (25 years to retirement, 10 years to education funding) allows you to benefit from currency diversification and different global rate cycles. (3) With stable income and medium liquidity needs, you can tolerate the slightly higher complexity of international bonds. Evidence: International bonds provide diversification benefits because foreign central banks operate on different rate cycles than the Federal Reserve. When U.S. rates rise rapidly (hurting BND), international bonds in easing cycles may provide stability. Currency exposure adds return sources uncorrelated with domestic markets. Your VXUS holding already demonstrates comfort with international investing. Trade-offs: International bonds carry currency risk (foreign exchange fluctuations) and potentially lower yields than U.S. bonds currently. However, this adds a non-correlated return stream that reduces overall portfolio volatility. Expense ratios may be slightly higher (0.08-0.12%) than BND's 0.03%.",
+      "tickers": [
+        "BNDX",
+        "IAGG"
+      ],
+      "suggested_action": "Allocate 5-8% of total portfolio to international bond exposure using Vanguard Total International Bond ETF (BNDX) or iShares International Aggregate Bond ETF (IAGG). Fund this by reducing BND position proportionally (from 30% to 22-25% allocation) to maintain overall 30% fixed income target while adding geographic diversification.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "low",
+      "expected_return_range": "Similar to domestic bonds (3-5% annually) with lower correlation to U.S. rates",
+      "time_horizon": "Long-term hold; implement over 1 month",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:10:38.629971",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_9cd132fc",
+      "category": "tax_optimization",
+      "title": "Optimize Asset Location: Move Bonds to Tax-Advantaged Accounts",
+      "summary": "Bonds generate ordinary income taxed at your high marginal rate (~32% federal). Prioritize holding BND and any new bond ETFs in 401(k)/IRA accounts, while keeping tax-efficient equity ETFs (VTI, VXUS) in taxable accounts.",
+      "detailed_rationale": "Signal: With $175,000 income, you're likely in the 24-32% federal tax bracket. Your portfolio shows significant bond holdings (30% = ~$96,000) that generate interest income taxed as ordinary income, not qualified dividends or long-term capital gains. Tax efficiency gap: If these bonds are in taxable accounts, you're losing 24-32% of bond yields to taxes annually, significantly reducing real returns. Alignment with profile: (1) As a high earner with stable income, tax optimization directly increases your after-tax returns without additional risk. (2) Your intermediate investment experience positions you to understand asset location strategies. (3) With 25-year retirement horizon, you likely have substantial 401(k)/IRA space for tax-deferred compounding. Evidence: Bond funds like BND distribute ordinary income dividends (currently ~4% yield). In a taxable account, this generates ~$3,840 annual tax on $96,000 bond holdings at 32% rate\u2014that's $3,840/year or $96,000 over 25 years in unnecessary taxes. ETFs like VTI and VXUS are highly tax-efficient due to low turnover, qualified dividend treatment, and ability to harvest losses in taxable accounts. Trade-offs: This requires coordination across multiple account types and may involve selling positions in taxable accounts (triggering capital gains). However, the long-term tax savings (potentially $50,000-100,000 over your investment horizon) far outweigh short-term transition costs. You may also need to rebalance within each account type rather than across your entire portfolio.",
+      "tickers": [
+        "BND",
+        "BNDX",
+        "VTI",
+        "VXUS"
+      ],
+      "suggested_action": "Audit your current asset location across taxable, 401(k), and IRA accounts. Move all bond holdings (BND, and any BNDX you add) into tax-advantaged accounts (401(k), traditional IRA, or Roth IRA). Hold tax-efficient equity ETFs (VTI, VXUS) in taxable accounts where you can harvest tax losses and benefit from long-term capital gains rates. If you need to sell bonds in taxable accounts, do so strategically considering your current capital gains situation.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Increase after-tax returns by 0.5-1.0% annually through tax savings",
+      "time_horizon": "Implement during annual rebalancing or over 3-6 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:10:38.629971",
+      "composite_score": 0.0
+    }
+  ]
+}

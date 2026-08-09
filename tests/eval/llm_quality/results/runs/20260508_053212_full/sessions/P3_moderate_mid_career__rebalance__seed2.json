@@ -1,0 +1,196 @@
+{
+  "session_id": "P3_moderate_mid_career__rebalance__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "rebalance",
+  "query": "My tech exposure is around 35% across my ETFs and individual stocks. Is that too concentrated, and how would I trim it?",
+  "seed": 2,
+  "context": {
+    "portfolio_context": "## Portfolio Snapshot\n- Total Assets: $320,000\n- Total Liabilities: $180,000\n- Net Worth: $140,000\n\n### Allocation by Asset Type\n- etf: 50.0%\n- stock: 20.0%\n- bond: 30.0%\n\n### Allocation by Sector\n- Technology: 35.0%\n- Financials: 15.0%\n- Healthcare: 12.0%\n- Consumer Discretionary: 10.0%\n- Industrials: 8.0%\n- Energy: 5.0%\n- Other: 15.0%\n\n### Holdings (tickers)\nVTI, VXUS, BND, AAPL, MSFT, NVDA, GOOGL",
+    "investment_profile_context": "## Investment Profile\n- Age: 40\n- Occupation: Product manager\n- Annual Income: $175,000\n- Monthly Expenses: $9,500\n- Risk Tolerance: moderate\n- Loss Comfort (1-10): 6\n- Investment Horizon: long\n- Liquidity Needs: medium\n- Income Stability: stable\n- Has Emergency Fund: True\n- Debt Level: low\n- Investment Experience: intermediate\n- Goals:\n  - education (high priority, target $200,000): Fund college for two children, primary horizon ~10 years\n  - retirement (high priority, target $2,500,000): Long-term retirement target, ~25 years out",
+    "rag_context": "[etf_factsheet] Vanguard (VGT)\n# Vanguard Information Technology ETF (VGT)\n\n## Fund Overview\nProvides exposure to companies in the information technology sector.\n\n## Key Statistics\n- **Ticker Symbol**: VGT\n- **Expense Ratio**: 0.10%\n- **Assets Under Management**: $55 billion\n- **Number of Holdings**: 316 stocks\n- **Sector Focus**: Technology\n\n## Investment Objective\nThe fund seeks to track the performance of its benchmark index, providing investors with diversified exposure to the technology market segment.\n\n## Risk Considerations\n- Market risk: The value of the fund may decline due to general market conditions.\n- Concentration risk: The fund may be concentrated in a particular sector or industry.\n- Liquidity risk: Some securities may be difficult to sell at favorable prices.\n\n## Who Should Invest\nThis fund is suitable for investors seeking:\n- Long-term capital appreciation\n- Diversified exposure to technology securities\n- Low-cost index investing approach\n\n## Performance History\nPast performance does not guarantee future results. The fund has historically tracked its benchmark index closely, with minimal tracking error.\n\n## How to Invest\nShares can be purchased through most brokerage accounts. The fund trades on major exchanges under the ticker symbol VGT.\n\n---\n\n[etf_factsheet] Vanguard (VTI)\n# Vanguard Total Stock Market ETF (VTI)\n\n## Fund Overview\nProvides broad exposure to the entire U.S. equity market, including small, mid, and large-cap stocks.\n\n## Key Statistics\n- **Ticker Symbol**: VTI\n- **Expense Ratio**: 0.03%\n- **Assets Under Management**: $300 billion\n- **Number of Holdings**: 3,945 stocks\n- **Sector Focus**: Broad Market\n\n## Investment Objective\nThe fund seeks to track the performance of its benchmark index, providing investors with diversified exposure to the broad market market segment.\n\n## Risk Considerations\n- Market risk: The value of the fund may decline due to general market conditions.\n- Concentration risk: The fund may be concentrated in a particular sector or industry.\n- Liquidity risk: Some securities may be difficult to sell at favorable prices.\n\n## Who Should Invest\nThis fund is suitable for investors seeking:\n- Long-term capital appreciation\n- Diversified exposure to broad market securities\n- Low-cost index investing approach\n\n## Performance History\nPast performance does not guarantee future results. The fund has historically tracked its benchmark index closely, with minimal tracking error.\n\n## How to Invest\nShares can be purchased through most brokerage accounts. The fund trades on major exchanges under the ticker symbol VTI.",
+    "data_sources_used": [
+      "portfolio",
+      "investment_profile",
+      "rag_knowledge_base"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec_8127a298",
+      "category": "rebalance",
+      "title": "Reduce Technology Concentration to 25%",
+      "summary": "Your 35% technology allocation exceeds diversification best practices for moderate risk investors. Trim tech holdings by 10 percentage points to reduce sector-specific risk.",
+      "detailed_rationale": "Signal: Your portfolio shows 35% concentration in Technology sector, which is above the recommended 20-25% threshold for moderate risk investors with dual high-priority goals. Analysis: (1) For a 40-year-old with two high-priority goals requiring $2.7M total across different time horizons (10 years for education, 25 years for retirement), concentrated sector exposure creates unnecessary volatility risk. A 20-30% tech sector drawdown could significantly impact your nearer-term education funding goal. (2) Your moderate risk tolerance and loss comfort of 6/10 indicates you prefer balanced growth without extreme volatility. Technology stocks, particularly your individual holdings (AAPL, MSFT, NVDA, GOOGL), can experience 30-50% drawdowns during market corrections. (3) Your current holdings overlap significantly\u2014VTI already contains ~30% technology exposure through its broad market weighting, and you're doubling down with individual tech stocks. This creates correlation risk where multiple positions move in tandem during tech sector corrections. (4) Evidence from your knowledge base: VTI provides 'diversified exposure to the broad market' with 3,945 holdings at just 0.03% expense ratio, making it a more efficient core holding than concentrated individual stocks. Trade-off: You may experience lower returns if technology continues outperforming, but you gain stability and reduce the risk of concentrated losses that could derail your education funding timeline.",
+      "tickers": [
+        "NVDA",
+        "GOOGL",
+        "AAPL",
+        "MSFT"
+      ],
+      "suggested_action": "Sell approximately $32,000 (10% of portfolio) from your individual tech stock positions. Prioritize trimming NVDA and GOOGL first as they likely represent more concentrated positions. Keep AAPL and MSFT at reduced levels as quality core holdings.",
+      "suggested_allocation_pct": -10.0,
+      "risk_level": "low",
+      "expected_return_range": "Reduces volatility by 2-4% annually without significantly impacting long-term returns",
+      "time_horizon": "Execute over 1-2 months to avoid triggering short-term capital gains if positions held less than 1 year",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:13:46.160465",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_d0989441",
+      "category": "diversify",
+      "title": "Increase International Equity Exposure to 25%",
+      "summary": "Your international exposure through VXUS appears underweighted relative to best practices. Increase allocation to reduce U.S.-centric risk and enhance diversification.",
+      "detailed_rationale": "Signal: Your portfolio shows heavy U.S. equity bias with VXUS as the only international holding, likely representing a small portion of your 50% ETF allocation. Most of your individual stocks and VTI are purely domestic. Analysis: (1) For long-term goals spanning 10-25 years, geographic diversification is essential. U.S. markets represent only ~60% of global market capitalization, yet your portfolio appears 80-85% U.S.-focused. This creates currency risk, policy risk, and opportunity cost if international markets outperform. (2) Your moderate risk profile and $175K stable income as a product manager provide capacity to handle the slightly higher volatility of international markets in exchange for better diversification. With $9,500 monthly expenses and an emergency fund, you have the stability to weather international market cycles. (3) The proceeds from trimming technology concentration (recommendation #1) provide ideal capital to redeploy. International markets currently trade at more attractive valuations than U.S. markets (lower P/E ratios), and many developed markets offer higher dividend yields beneficial for long-term compounding. (4) Your intermediate investment experience positions you to understand that international diversification reduces single-country risk\u2014if U.S. enters recession or experiences policy changes affecting markets, international holdings provide buffer. Trade-off: International investments carry currency fluctuation risk and may underperform U.S. markets in certain periods, but historical evidence shows they reduce overall portfolio volatility through low correlation.",
+      "tickers": [
+        "VXUS"
+      ],
+      "suggested_action": "Redirect $32,000 from tech stock sales into VXUS to bring international equity allocation from approximately 15% to 25% of total portfolio. This adds exposure to developed and emerging markets outside the U.S.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually over 10+ year horizon",
+      "time_horizon": "Long-term hold, 10-25 years aligned with both education and retirement goals",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:13:46.160465",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_7c58744f",
+      "category": "buy",
+      "title": "Add 5% Allocation to Healthcare Sector for Defensive Balance",
+      "summary": "Your 12% healthcare allocation is below optimal levels for a moderate risk portfolio. Increase to 17% to add defensive characteristics and demographic-driven growth potential.",
+      "detailed_rationale": "Signal: Portfolio analysis shows underweight healthcare exposure at 12% versus typical moderate portfolio recommendations of 15-20%. With medium liquidity needs and dual high-priority goals, you need sectors that provide both growth and defensive characteristics. Analysis: (1) Healthcare offers unique attributes for your situation: defensive characteristics during economic downturns (people need medicine regardless of economy), demographic tailwinds from aging populations globally, and lower correlation to technology sector\u2014providing diversification from your current 35% tech weight. (2) At age 40 with 10-year education funding horizon, you need sectors that can weather market cycles while maintaining growth trajectory. Healthcare historically shows 30-40% less volatility than technology while still delivering solid 8-12% annual returns over long periods. This aligns with your moderate risk tolerance and loss comfort of 6/10. (3) Your stable $175K income and intermediate investment experience position you to understand healthcare's structural growth drivers: aging demographics, medical innovation, and consistent demand. Unlike cyclical sectors (Energy at 5%), healthcare provides steady cash flows and earnings growth. (4) With technology concentration being trimmed (recommendation #1), adding healthcare creates better sector balance. Your current 15% 'Other' category suggests room for targeted sector additions rather than broad market exposure. Trade-off: Healthcare faces regulatory and policy risks (drug pricing, healthcare reform), and may lag during strong bull markets dominated by growth stocks. Returns may be steadier but potentially lower than high-growth sectors during expansion phases.",
+      "tickers": [
+        "VHT",
+        "XLV"
+      ],
+      "suggested_action": "Add $16,000 (5% of portfolio) to healthcare sector through low-cost ETFs like Vanguard Health Care ETF (VHT, 0.10% expense ratio) or Health Care Select Sector SPDR (XLV). These provide diversified exposure to pharmaceuticals, biotech, healthcare providers, and medical devices.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually",
+      "time_horizon": "Medium to long-term, 5-20 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:13:46.160465",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_740dc4fe",
+      "category": "tax_optimization",
+      "title": "Establish Tax-Loss Harvesting Strategy for Individual Stock Positions",
+      "summary": "With individual tech stocks facing potential volatility, implement systematic tax-loss harvesting to offset gains and improve after-tax returns.",
+      "detailed_rationale": "Signal: Your portfolio includes four individual technology stocks (AAPL, MSFT, NVDA, GOOGL) that will experience price fluctuations. As a high-income earner at $175K annually, you're likely in the 24-32% federal tax bracket, making tax efficiency highly valuable. Analysis: (1) When rebalancing your tech concentration (recommendation #1), you'll realize capital gains. A systematic tax-loss harvesting approach allows you to offset these gains by selling positions at losses and immediately replacing with similar (but not substantially identical) securities. For example, if GOOGL shows a loss, sell and immediately buy another search/advertising company or a technology ETF like VGT (from your knowledge base: 0.10% expense ratio, 316 tech holdings). (2) Your intermediate investment experience and stable income position you to benefit from sophisticated tax strategies without liquidity pressure. With $9,500 monthly expenses covered and an emergency fund, you can optimize tax efficiency without forced selling. (3) Your dual high-priority goals requiring $2.7M total benefit enormously from tax efficiency. Over 25 years to retirement, reducing tax drag by even 0.5% annually through loss harvesting compounds to $50,000+ in additional wealth. For your 10-year education goal, tax efficiency accelerates reaching the $200K target. (4) Your moderate risk tolerance doesn't change with tax-loss harvesting\u2014you maintain the same market exposure, just with better tax outcomes. You're replacing one tech stock with another or with a tech ETF, maintaining your target allocation while banking tax benefits. Trade-off: Tax-loss harvesting requires active monitoring and generates more tax reporting complexity. You must also navigate wash-sale rules (can't repurchase same security within 30 days) and transaction costs, though these are minimal with modern brokers.",
+      "tickers": [
+        "VGT",
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Set up quarterly portfolio reviews to identify positions showing losses greater than $3,000. When found, sell the position and immediately replace with a similar but not identical security (e.g., sell GOOGL at a loss, buy VGT or another large-cap tech ETF). Bank the tax loss to offset gains from rebalancing or future sales. Use losses to offset up to $3,000 of ordinary income annually if no gains to offset.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Adds 0.3-0.8% to after-tax returns annually through tax alpha",
+      "time_horizon": "Ongoing strategy, implement over next 25 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:13:46.160465",
+      "composite_score": 0.0
+    }
+  ],
+  "rec_count": 4
+}

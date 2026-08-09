@@ -1,0 +1,203 @@
+{
+  "session_id": "P5_aggressive_young_professional__rebalance__seed2",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "rebalance",
+  "query": "Should I add any bond exposure at all, or stay close to 100% equity given my horizon?",
+  "seed": 2,
+  "context": {
+    "portfolio_context": "## Portfolio Snapshot\n- Total Assets: $180,000\n- Total Liabilities: $18,000\n- Net Worth: $162,000\n\n### Allocation by Asset Type\n- etf: 50.0%\n- stock: 35.0%\n- crypto: 5.0%\n- cash: 10.0%\n\n### Allocation by Sector\n- Technology: 65.0%\n- Consumer Discretionary: 15.0%\n- Communication Services: 10.0%\n- Other: 10.0%\n\n### Holdings (tickers)\nQQQ, VTI, TSLA, NVDA, GOOGL, META, AMZN, BTC",
+    "investment_profile_context": "## Investment Profile\n- Age: 30\n- Occupation: Senior software engineer\n- Annual Income: $195,000\n- Monthly Expenses: $5,500\n- Risk Tolerance: aggressive\n- Loss Comfort (1-10): 9\n- Investment Horizon: long\n- Liquidity Needs: low\n- Income Stability: stable\n- Has Emergency Fund: True\n- Debt Level: low\n- Investment Experience: intermediate\n- Goals:\n  - wealth (high priority, target $2,500,000): Reach financial independence in ~15 years (FIRE target)",
+    "rag_context": "[investment_guide] Wealth Intelligence Research\n# Risk Management: Protecting Your Investment Portfolio\n\n\n## Understanding Risk Types\nMarket risk affects all investments. Specific risk relates to individual securities. Inflation risk erodes purchasing power. Interest rate risk impacts bond prices. Currency risk affects international investments.\n\n## Risk Tolerance Assessment\nYour risk tolerance depends on your time horizon, financial goals, income stability, and emotional comfort with volatility. Be honest about how you'd react to significant portfolio declines.\n\n## Hedging Strategies\nOptions and inverse ETFs can protect against downside risk. Dollar-cost averaging reduces timing risk. Holding cash provides a buffer during market downturns.\n\n## Emergency Fund Importance\nMaintain 3-6 months of expenses in liquid savings. This prevents the need to sell investments at unfavorable times during personal financial emergencies.\n\n## Portfolio Stress Testing\nEvaluate how your portfolio would perform in various scenarios: 2008-style crash, rising interest rates, high inflation. Adjust allocations if potential losses exceed your tolerance.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.\n\n---\n\n[etf_factsheet] Vanguard (BND)\n# Vanguard Total Bond Market ETF (BND)\n\n## Fund Overview\nBroad exposure to U.S. investment-grade bonds including government, corporate, and mortgage-backed securities.\n\n## Key Statistics\n- **Ticker Symbol**: BND\n- **Expense Ratio**: 0.03%\n- **Assets Under Management**: $90 billion\n- **Number of Holdings**: 10,000+ bonds\n- **Sector Focus**: Fixed Income\n\n## Investment Objective\nThe fund seeks to track the performance of its benchmark index, providing investors with diversified exposure to the fixed income market segment.\n\n## Risk Considerations\n- Market risk: The value of the fund may decline due to general market conditions.\n- Concentration risk: The fund may be concentrated in a particular sector or industry.\n- Liquidity risk: Some securities may be difficult to sell at favorable prices.\n\n## Who Should Invest\nThis fund is suitable for investors seeking:\n- Long-term capital appreciation\n- Diversified exposure to fixed income securities\n- Low-cost index investing approach\n\n## Performance History\nPast performance does not guarantee future results. The fund has historically tracked its benchmark index closely, with minimal tracking error.\n\n## How to Invest\nShares can be purchased through most brokerage accounts. The fund trades on major exchanges under the ticker symbol BND.\n\n---\n\n[investment_guide] Wealth Intelligence Research\n# Asset Allocation: Building a Diversified Portfolio\n\n\n## What is Asset Allocation?\nAsset allocation is the process of dividing investments among different asset categories, such as stocks, bonds, and cash. This strategy helps manage risk and optimize returns based on your investment goals, time horizon, and risk tolerance.\n\n## The Importance of Diversification\nDiversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation. When one asset class underperforms, others may compensate, helping to smooth overall returns.\n\n## Strategic vs Tactical Allocation\nStrategic allocation sets long-term targets based on your investment profile. Tactical allocation makes short-term adjustments to capitalize on market opportunities while staying within risk parameters.\n\n## Common Allocation Models\nConservative portfolios typically hold 20-40% stocks, 50-70% bonds. Moderate portfolios balance around 50-60% stocks, 30-40% bonds. Aggressive portfolios may hold 80-90% stocks with minimal bonds.\n\n## Rebalancing Your Portfolio\nRegular rebalancing ensures your portfolio stays aligned with target allocations. Consider rebalancing when allocations drift more than 5% from targets, or at least annually.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.",
+    "data_sources_used": [
+      "portfolio",
+      "investment_profile",
+      "rag_knowledge_base"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec_c4f60fdf",
+      "category": "diversify",
+      "title": "Reduce Technology Concentration to 45-50%",
+      "summary": "Your 65% technology allocation creates significant concentration risk. Rebalance to 45-50% by trimming overlapping positions and rotating into underrepresented sectors.",
+      "detailed_rationale": "(1) SIGNAL: Your portfolio shows extreme technology concentration at 65% - QQQ (tech-heavy), NVDA, GOOGL, META, AMZN, and TSLA are all tech/tech-adjacent. This represents ~2.5x the tech weighting in broad market indices like VTI. (2) RISK PROFILE ALIGNMENT: While your aggressive risk tolerance (9/10 loss comfort) supports high equity allocation, concentration risk differs from market risk. A tech sector correction could devastate 65% of your portfolio simultaneously, potentially derailing your 15-year FIRE goal of $2.5M. With $162K net worth and stable $195K income, you have time to recover, but unnecessary concentration increases sequence-of-returns risk. (3) EVIDENCE: Your knowledge base explicitly states 'Diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Even aggressive portfolios (80-90% stocks) should diversify across sectors. Historical tech crashes (2000-2002: -78% NASDAQ, 2022: -33% NASDAQ) show sector concentration amplifies drawdowns beyond general market risk. (4) TRADE-OFF: You may miss some upside if tech continues outperforming, but you'll significantly reduce downside capture during sector rotations. Your FIRE timeline means you'll experience multiple market cycles - diversification improves risk-adjusted returns over 15 years.",
+      "tickers": [
+        "NVDA",
+        "META",
+        "TSLA",
+        "VGT",
+        "XLV",
+        "XLE",
+        "VNQ"
+      ],
+      "suggested_action": "Sell 15-20% of your technology holdings (suggest trimming NVDA and META positions as they overlap with QQQ exposure). Rotate proceeds into: Healthcare ETF (XLV) ~8%, Energy/Materials (XLE/XLB) ~7%, Real Estate (VNQ) ~5%. This brings tech to 45-50% while maintaining aggressive equity stance.",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "Immediate rebalancing, 15-year hold period",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:35:53.148897",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_68b520aa",
+      "category": "hold",
+      "title": "Maintain 100% Equity Allocation - Skip Bonds",
+      "summary": "Given your 15-year horizon, high risk tolerance, stable income, and existing emergency fund, maintaining near-100% equity allocation is optimal for your FIRE goal.",
+      "detailed_rationale": "(1) SIGNAL: Your query asks about bond exposure. Current allocation is ~95% equity (90% stocks/ETFs + 5% crypto), 10% cash. Traditional allocation models suggest even aggressive portfolios hold some bonds. (2) RISK PROFILE ALIGNMENT: Your profile is ideal for maximum equity exposure: 30 years old (15-year horizon), 9/10 loss comfort, stable $195K income, low monthly expenses ($5,500 = 34% savings rate), existing emergency fund, low debt, and low liquidity needs. Your knowledge base states 'Aggressive portfolios may hold 80-90% stocks with minimal bonds,' but your specific circumstances justify exceeding this. With 15 years until FIRE target and stable income, you can weather equity volatility. The math: at 10% real returns (historical equity), $162K grows to ~$676K; you need aggressive growth to reach $2.5M. (3) EVIDENCE: Historical data shows bonds reduce returns significantly over long horizons. 1928-2023: stocks returned 10.3% annually, bonds 5.3%. Over 15 years, this compounds dramatically. Your 10% cash allocation already provides rebalancing dry powder and short-term stability. BND yields ~4.5% currently - far below equity return potential needed for your goal. (4) TRADE-OFF: You'll experience higher portfolio volatility and larger drawdowns during bear markets. However, your stable W2 income and emergency fund mean you won't need to sell during downturns. This is the classic 'time horizon is your risk mitigator' scenario.",
+      "tickers": [
+        "VTI",
+        "QQQ"
+      ],
+      "suggested_action": "Maintain current 10% cash / 90% equity split. Do NOT add bond allocation. Use the 10% cash strategically for rebalancing during market dips. Consider this your 'bond substitute' - it provides stability without sacrificing long-term returns.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "high",
+      "expected_return_range": "9-11% annually",
+      "time_horizon": "15-year accumulation phase",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:35:53.148897",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_e793d684",
+      "category": "rebalance",
+      "title": "Reduce/Eliminate BTC to 0-2% and Increase International Exposure",
+      "summary": "Your 5% crypto allocation adds unnecessary volatility without compensation. Redirect to international equity (VEA/VWO) for better diversification within your aggressive equity framework.",
+      "detailed_rationale": "(1) SIGNAL: 5% BTC allocation ($9,000) represents speculative positioning that doesn't align with systematic wealth building for FIRE. Your portfolio lacks international equity exposure entirely - all holdings are U.S.-domiciled. (2) RISK PROFILE ALIGNMENT: While aggressive risk tolerance supports alternative assets, crypto's extreme volatility (80%+ drawdowns, near-zero correlation to fundamentals) adds risk without proportional expected return improvement. Your FIRE goal requires compounding growth, not lottery-ticket speculation. At 30 years old with stable income, you can take equity risk, but crypto represents 'uncompensated volatility.' Your knowledge base emphasizes 'diversification across various asset classes that don't move in perfect correlation' - international equities provide this better than crypto. (3) EVIDENCE: BTC historical volatility: 80% annualized vs. 18% for S&P 500. Over 15-year horizons, diversified equity has stronger risk-adjusted returns. International developed markets (VEA) and emerging markets (VWO) offer: geographic diversification, currency diversification, and exposure to faster-growing economies. With zero international exposure currently, you're missing 40%+ of global market cap. For FIRE planning, you need reliable compounding - VEA/VWO provide this with actual cash flows (dividends) unlike crypto. (4) TRADE-OFF: If crypto enters another 2020-2021 style bubble, you'll miss those gains. However, crypto's boom-bust cycles create massive sequence risk for your 15-year plan. International equities provide better downside protection while maintaining aggressive growth potential.",
+      "tickers": [
+        "BTC",
+        "VEA",
+        "VWO",
+        "VXUS"
+      ],
+      "suggested_action": "Sell 3-4% of your 5% BTC position (~$7,200). If you want to keep minimal crypto exposure for optionality, retain 1% maximum. Reallocate proceeds: 10% to Vanguard FTSE Developed Markets ETF (VEA), 5% to Vanguard FTSE Emerging Markets ETF (VWO). This adds geographic diversification while maintaining your aggressive growth stance.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually",
+      "time_horizon": "Immediate rebalancing, 15-year hold",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:35:53.148897",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_61a284a1",
+      "category": "tax_optimization",
+      "title": "Implement Tax-Loss Harvesting Strategy on Volatile Holdings",
+      "summary": "With concentrated tech positions and crypto, establish systematic tax-loss harvesting to offset gains and reduce tax drag on your high income.",
+      "detailed_rationale": "(1) SIGNAL: At $195K income (likely 24-32% federal bracket + state taxes), you face significant tax drag on investment gains. Tech stocks and crypto are highly volatile, creating frequent tax-loss harvesting opportunities. Your intermediate experience level suggests you may not be systematically harvesting losses. (2) RISK PROFILE ALIGNMENT: Tax efficiency is critical for FIRE goals. With 15 years to $2.5M target, tax drag compounds significantly. Example: 1% annual tax drag on $162K compounded over 15 years = ~$45K lost growth. Your stable W2 income means you'll have ordinary income to shelter with harvested losses. High loss comfort (9/10) means volatility is your friend for tax purposes. (3) EVIDENCE: Your holdings (TSLA, NVDA, META, BTC) experience frequent 10-30% drawdowns even in bull markets, creating harvesting opportunities. Tax-loss harvesting can add 0.5-1.5% annual after-tax returns. For FIRE planning, every percentage point matters - getting to $2.5M faster means retiring earlier. Your knowledge base notes 'Dollar-cost averaging reduces timing risk' - combining this with loss harvesting during drawdowns is optimal. You can harvest losses and immediately buy substantially identical alternatives (e.g., sell NVDA, buy SOXX semiconductor ETF) to maintain exposure while capturing tax benefits. (4) TRADE-OFF: Requires active monitoring and trade execution. Wash sale rules mean 30-day waiting periods. However, with modern tools and your tech background, this is manageable. The tax alpha significantly outweighs the operational complexity.",
+      "tickers": [
+        "NVDA",
+        "TSLA",
+        "META",
+        "BTC",
+        "SOXX",
+        "XLK"
+      ],
+      "suggested_action": "Set up tax-loss harvesting alerts for positions down 10%+ from cost basis. Establish 'partner pairs' for each holding (e.g., NVDA\u2194SOXX, QQQ\u2194VGT) to maintain exposure while harvesting. Target $3,000 annual loss harvesting minimum to offset ordinary income. Use your 10% cash allocation to buy dips after harvesting, maximizing both tax and return benefits.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "0.5-1.5% annual tax alpha",
+      "time_horizon": "Implement immediately, ongoing 15-year strategy",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:35:53.148897",
+      "composite_score": 0.0
+    }
+  ],
+  "rec_count": 4
+}

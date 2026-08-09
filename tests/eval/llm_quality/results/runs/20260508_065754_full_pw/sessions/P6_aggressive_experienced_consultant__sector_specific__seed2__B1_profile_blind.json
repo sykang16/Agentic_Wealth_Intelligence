@@ -1,0 +1,166 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed2",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "sector_specific",
+  "query": "Should I rotate from energy into AI/semiconductor exposure at current valuations, or keep the cyclical tilt?",
+  "seed": 2,
+  "system": "B1_profile_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_581ce9b5",
+      "category": "rebalance",
+      "title": "Partial Energy-to-Semiconductor Rotation with Risk Management",
+      "summary": "Reduce energy exposure from 15% to 10% and strategically add 5% to semiconductor/AI exposure through diversified ETF (SMH or SOXX), maintaining cyclical balance while capturing AI growth potential.",
+      "detailed_rationale": "(1) Signal: Your portfolio shows 15% energy concentration (XLE, XOM, CVX) at a time when energy sector PE ratios are near historical highs (18-20x vs 10-year avg of 12-15x), while semiconductor valuations have compressed 25-30% from 2021 peaks despite AI infrastructure demand acceleration. Your existing tech exposure (30%) is heavily weighted toward NVDA, creating single-stock concentration risk. (2) Alignment: With moderate risk tolerance and 10+ year horizon, a tactical rotation makes sense, but full exit from energy would eliminate valuable cyclical diversification and inflation hedge characteristics. Energy provides uncorrelated returns during commodity cycles and generates strong cash flow/dividends (XOM yields ~3.5%, CVX ~3.8%). A 5% rotation preserves this diversification while adding AI exposure through ETF rather than individual stocks, reducing company-specific risk. (3) Evidence: Semiconductor industry revenue is projected to grow 12-15% CAGR through 2030 driven by AI accelerators, data center buildouts, and edge computing. Taiwan Semi (TSM) capex guidance of $40B+ annually signals sustained infrastructure investment. However, the AI theme is now well-known and priced into leaders like NVDA (trading at 35x forward earnings). An ETF approach (SMH holds 25+ names including NVDA, AMD, INTC, TSM, ASML) provides sector exposure while mitigating single-name volatility that saw NVDA fluctuate 60%+ intra-year in 2023. (4) Trade-offs: You're selling energy after strong 2022-2023 performance but before potential geopolitical risk premium (Middle East tensions, OPEC+ production management). Semiconductors remain cyclical with China demand uncertainty and inventory cycle risks. The recommendation balances these factors by maintaining meaningful energy exposure (10%) while adding growth optionality.",
+      "tickers": [
+        "SMH",
+        "SOXX",
+        "XLE",
+        "XOM",
+        "CVX"
+      ],
+      "suggested_action": "Sell 33% of combined XLE/XOM/CVX positions (~$112,500 based on 15% of $1.5M assets) and deploy into SMH (VanEck Semiconductor ETF) or SOXX (iShares Semiconductor ETF) for broader AI/semiconductor exposure beyond your existing NVDA holding.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-14% annually",
+      "time_horizon": "3-7 years for full AI infrastructure buildout cycle",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:28:55.438807",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_dd722512",
+      "category": "diversify",
+      "title": "Reduce Technology Concentration Risk Through Healthcare Addition",
+      "summary": "Your 30% technology allocation with significant NVDA single-stock exposure creates concentration risk. Add 5% healthcare exposure (VHT or XLV) funded by reducing technology to 25%, improving sector diversification while maintaining growth orientation.",
+      "detailed_rationale": "(1) Signal: Technology represents 30% of your portfolio in a sector that comprises ~28% of S&P 500, but your concentration is concerning given NVDA's dominance in your tech holdings and its 240% gain in 2023 followed by high volatility. Healthcare comprises only 10% of your portfolio versus ~13% S&P 500 weighting, representing an underweight in a defensive growth sector with demographic tailwinds. (2) Alignment: Moderate risk tolerance suggests avoiding excessive concentration in high-beta sectors. Healthcare provides growth characteristics (aging demographics, GLP-1 drugs, obesity treatments, oncology innovation) with lower volatility than technology (healthcare beta ~0.85 vs tech ~1.15). This sector has shown resilience during market corrections while still participating in advances - medical technology, biotech innovation, and healthcare IT offer growth without pure tech concentration. (3) Evidence: Healthcare spending is projected to reach 20% of US GDP by 2031, growing 5.4% annually (CMS data). The sector is less correlated with interest rate movements than technology, providing ballast during Fed tightening cycles. Major trends include GLP-1 revenue potential ($100B+ market by 2030), aging Baby Boomer demographics (65+ population growing 3% annually), and AI-driven drug discovery reducing development timelines 30-40%. ETF approach (VHT expense ratio 0.10%, XLV 0.10%) provides exposure to established players (UNH, LLY, JNJ) and innovative biotechs without single-name FDA approval risk. (4) Trade-offs: Healthcare faces regulatory risks (drug pricing legislation, Medicare negotiation), longer innovation cycles than tech, and slower growth rates (9-11% vs 12-15% for tech). However, this trade-off provides portfolio stability - during 2022 tech correction, healthcare outperformed by 15+ percentage points.",
+      "tickers": [
+        "VHT",
+        "XLV",
+        "NVDA"
+      ],
+      "suggested_action": "Trim 5% from technology allocation (consider taking partial NVDA profits given concentration and 2023 gains) and establish 5% position in VHT (Vanguard Health Care ETF) or XLV (Health Care Select Sector SPDR), bringing tech to 25% and healthcare to 15%.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "7-11% annually",
+      "time_horizon": "5-10+ years for demographic trends",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:28:55.438807",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_a62267e2",
+      "category": "risk_reduction",
+      "title": "Increase Fixed Income Allocation for Portfolio Stability",
+      "summary": "With 70% equity exposure (stocks + equity ETFs) and only 15% bonds, increase fixed income to 20-25% to improve risk-adjusted returns and provide dry powder for equity opportunities during market volatility.",
+      "detailed_rationale": "(1) Signal: Your 85% equity/alternatives allocation (45% stocks, 25% ETFs, 5% crypto, 5% mutual funds, 5% emerging markets embedded in VWO) is aggressive relative to moderate risk tolerance and creates vulnerability to market drawdowns. The 15% bond allocation (BND) is below the typical 20-30% range for moderate investors, especially given current attractive bond yields (10-year Treasury ~4.5%, investment-grade corporates ~5.5%). With $380K liabilities against $1.5M assets, maintaining liquidity cushion is prudent. (2) Alignment: Moderate risk tolerance typically suggests 60-75% equity, 25-35% fixed income split. Your current 85/15 split aligns more with moderately aggressive profile. Given 10+ year horizon, you can maintain equity overweight, but increasing bonds to 20-25% provides several benefits: (a) volatility reduction during equity corrections, (b) rebalancing opportunities when stocks decline, (c) income generation at historically attractive yields, (d) duration exposure as potential Fed easing in 2024-2025 could drive bond appreciation. (3) Evidence: Current bond yields offer compelling real returns for the first time since 2007. BND (Total Bond Market) yields ~4.8% with 6.2-year duration, providing income plus potential capital appreciation if rates decline. Historical data shows 75/25 equity/bond portfolios reduce maximum drawdown by ~8-10 percentage points versus 85/15, while sacrificing only 0.5-0.8% annual return. Given your $1.12M net worth and liabilities, the income from additional $75-150K in bonds ($3,600-7,200 annually) provides portfolio resilience without significantly hampering long-term growth. (4) Trade-offs: Opportunity cost if equities continue strong performance - additional 5-10% in bonds versus stocks could lag by 2-4% annually in bull markets. However, bond allocation provides asymmetric protection, limiting downside more than upside, which is appropriate for wealth preservation as net worth grows.",
+      "tickers": [
+        "BND",
+        "AGG",
+        "VCIT"
+      ],
+      "suggested_action": "Increase bond allocation from 15% to 22% by adding $105,000 to fixed income. Consider splitting between BND (Total Bond Market for broad exposure) and VCIT (Intermediate-Term Corporate Bonds, 5.2% yield) for enhanced income. Fund this by trimming equity positions proportionally or deploying new capital.",
+      "suggested_allocation_pct": 7.0,
+      "risk_level": "low",
+      "expected_return_range": "4-6% annually, with capital appreciation potential if rates decline",
+      "time_horizon": "3-5 years for rate cycle, hold through duration",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:28:55.438807",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_9746f4a9",
+      "category": "risk_reduction",
+      "title": "Reduce Emerging Markets Overweight and Crypto Concentration",
+      "summary": "Trim emerging markets exposure from 15% to 10% (reduce VWO) and cryptocurrency from 5% to 2-3% (reduce BTC) to lower portfolio volatility and geopolitical risk, redeploying to developed market equities or bonds.",
+      "detailed_rationale": "(1) Signal: Your 15% emerging markets allocation (VWO) is significantly above typical 5-10% recommendations for moderate investors and above the 10-12% MSCI ACWI weighting. Combined with 5% crypto (BTC), you have 20% in high-volatility, high-risk assets. VWO has underperformed developed markets by 40+ percentage points over the past 5 years due to China regulatory crackdowns, property sector crisis, and geopolitical tensions (US-China trade, Taiwan concerns). BTC's 60-80% annual volatility and lack of cash flow generation makes 5% allocation aggressive for moderate risk profile. (2) Alignment: Emerging markets provide important diversification and growth exposure to developing economies, but 15% creates excessive geographic concentration risk, particularly China exposure (~25-30% of VWO). Recent data shows China's economic challenges (deflation risks, property market stress, demographic headwinds, regulatory uncertainty in tech sector) may persist for years. Crypto allocation above 2-3% is speculative for moderate investors - while institutional adoption continues, regulatory uncertainty (SEC enforcement, global coordination) and lack of fundamental valuation framework create tail risks. For moderate risk tolerance, 8-10% EM and 2-3% crypto provides adequate exposure while limiting downside. (3) Evidence: VWO has exhibited 1.2-1.3x volatility versus S&P 500 with lower returns (5-year: VWO +20% total vs SPY +90%). China's GDP growth deceleration from 8%+ to 4-5% trajectory reduces EM return potential. BTC correlation with Nasdaq has increased to 0.6-0.7, reducing diversification benefits while maintaining crypto-specific risks (exchange failures, regulatory bans, quantum computing threats to cryptography). (4) Trade-offs: Reducing EM/crypto exposure means missing potential rebounds - China stimulus, BTC halving cycle, EM valuation discount (12x P/E vs 20x for developed markets). However, risk-adjusted returns favor the reduction given your moderate profile. Redeploy 5% to developed international (VEA), 2% to bonds, 1% to healthcare as recommended above.",
+      "tickers": [
+        "VWO",
+        "BTC",
+        "VEA",
+        "VXUS"
+      ],
+      "suggested_action": "Reduce VWO position by 33% and BTC position by 40-50%, reallocating $112,500 to developed international equity ETF (VEA or VXUS for non-US developed markets) and fixed income as outlined above. This reduces emerging markets to 10%, crypto to 2-3%, while maintaining global diversification.",
+      "suggested_allocation_pct": -7.0,
+      "risk_level": "low",
+      "expected_return_range": "Portfolio volatility reduction of 2-3%, sacrifice of 0-1% potential upside",
+      "time_horizon": "Immediate risk reduction, ongoing monitoring",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:28:55.438807",
+      "composite_score": 0.0
+    }
+  ]
+}

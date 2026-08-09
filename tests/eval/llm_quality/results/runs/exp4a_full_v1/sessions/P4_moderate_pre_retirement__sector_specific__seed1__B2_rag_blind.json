@@ -1,0 +1,169 @@
+{
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "sector_specific",
+  "query": "Are there particular sectors I should reduce as I approach retirement, and which ones should I keep for income generation?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rag_diagnostics": {
+    "top_score": 0.0,
+    "num_hits": 0,
+    "gated": false,
+    "threshold": null
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_b33886e8",
+      "category": "rebalance",
+      "title": "Reduce Technology Concentration and Increase Dividend-Focused Utilities/Consumer Staples",
+      "summary": "Shift 8% from Technology sector into Utilities and increase Consumer Staples allocation to create a more retirement-appropriate defensive posture while generating reliable income.",
+      "detailed_rationale": "Signal: Your Technology allocation at 18% is appropriate for accumulation but elevated for someone entering retirement glide-path (10 years out). (1) Portfolio trigger: Technology stocks typically offer lower dividend yields (1-2%) and higher volatility (beta ~1.2-1.5), which conflicts with your medium-term horizon and need for income generation starting at age 65. (2) Risk profile alignment: Your moderate risk tolerance and loss comfort of 5/10 suggests you should begin de-risking cyclical growth sectors. Historical data shows Technology experiences 15-20% drawdowns more frequently than defensive sectors. With retirement just 10 years away, you have limited recovery time from major corrections. (3) Evidence: Your current Consumer Staples at 10% and zero Utilities exposure creates a gap. Utilities and Consumer Staples historically yield 3-4% dividends with lower volatility (beta 0.6-0.8), ideal for retirement income. Given your $80-100k/yr retirement income target and current $755k net worth trajectory to $1.8M, you need reliable income streams. Staples companies like PG (which you hold) provide consistent dividends through economic cycles. (4) Trade-offs: You'll sacrifice potential capital appreciation from Technology (historically 12-15% annual returns vs. 8-10% for defensive sectors), but gain downside protection and income reliability critical for retirement planning.",
+      "tickers": [
+        "VPU",
+        "XLU",
+        "VDC"
+      ],
+      "suggested_action": "Reduce Technology exposure by selling 8% of portfolio value (~$68,000). Allocate 5% to Utilities ETF (VPU or XLU) and 3% to additional Consumer Staples exposure (VDC), bringing Staples to 13% and establishing 5% Utilities position.",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "low",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "Begin now, complete rebalancing over next 6-12 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:44:12.000518",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_b2d54ce1",
+      "category": "risk_reduction",
+      "title": "Decrease Energy Sector Exposure for Volatility Reduction",
+      "summary": "Reduce Energy allocation from 8% to 3-4% and reallocate to core bond holdings to lower portfolio volatility as you approach retirement.",
+      "detailed_rationale": "Signal: Energy sector at 8% represents elevated risk for retirement planning. (1) Portfolio trigger: Energy is the most volatile S&P sector (standard deviation 25-30% vs. market 15-18%) with high commodity price correlation. Oil price swings create unpredictable returns incompatible with your 10-year retirement timeline and medium liquidity needs. (2) Risk alignment: Your moderate risk tolerance and advanced investment experience means you understand Energy's cyclical nature, but your life stage demands stability over opportunity. With stable income ($220k annually) and low debt ($95k liabilities), you don't need Energy's high-risk/high-reward profile. Your loss comfort of 5/10 indicates moderate drawdowns cause concern\u2014Energy experienced -37% in 2020 and +55% in 2021, creating emotional and sequence-of-returns risk. (3) Supporting evidence: Research shows reducing equity volatility 5 years before retirement improves sustainable withdrawal rates by 0.3-0.5%. Your current 35% bond allocation is appropriate for age 55, but quality matters. Your BND holding provides core exposure; increasing this from proceeds of Energy reduction strengthens your fixed income foundation. For context, a 60/40 stock/bond portfolio has historically supported 4% withdrawal rates, but concentrated sector bets increase failure probability. (4) Main risk: Energy may outperform during inflationary periods or supply shocks. However, your goal is retirement security, not maximum returns. A small 3-4% Energy position maintains some exposure while dramatically reducing volatility contribution.",
+      "tickers": [
+        "BND",
+        "VCIT"
+      ],
+      "suggested_action": "Sell approximately 50% of Energy sector holdings (~$34,000 or 4% of portfolio). Reallocate proceeds to intermediate-term investment-grade corporate bonds (BND or VCIT) to increase bond allocation from 35% to 39%, improving income stability.",
+      "suggested_allocation_pct": 4.0,
+      "risk_level": "moderate",
+      "expected_return_range": "3-5% annually on reallocated portion",
+      "time_horizon": "Execute within next 3-6 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:44:12.000518",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_3cba6d02",
+      "category": "income_generation",
+      "title": "Establish Dividend Aristocrats Position for Reliable Retirement Income",
+      "summary": "Allocate 7% of portfolio to dividend aristocrats or high-quality dividend growth stocks to create a reliable income stream for retirement while maintaining moderate growth potential.",
+      "detailed_rationale": "Signal: Income generation gap for retirement goal requiring $80-100k annually. (1) Portfolio analysis: Your current holdings include quality dividend payers (JNJ, PG, JPM) but only represent ~15% of portfolio through individual stocks. To generate $80-100k annual income from $1.8M target portfolio requires ~4.5-5.5% yield/distribution rate. Current portfolio likely yields 2-2.5% blended. You need to systematically increase dividend-focused positions now to build income infrastructure before retirement. (2) Goal alignment: Your retirement priority is HIGH with specific income target. Starting dividend growth strategy now leverages 10-year compounding\u2014companies raising dividends 5-7% annually can double payout in a decade. This aligns with moderate risk tolerance since Dividend Aristocrats (25+ years of consecutive increases) demonstrate business resilience and lower volatility than broader market. (3) Evidence from holdings and market: Your existing positions JNJ (2.9% yield), PG (2.4% yield), and JPM (2.3% yield) demonstrate preference for quality dividends. Expanding this systematically through dividend-focused ETF or adding individual aristocrats (like UNH which you hold, yielding 1.4% but growing dividends 15%+ annually) creates reliable income. Historical data: Dividend Aristocrats returned 10.5% annually (2000-2023) with 30% less volatility than S&P 500. (4) Trade-off: Dividend-focused stocks may underperform during growth rallies and typically have limited exposure to high-growth sectors like Technology. However, for your retirement income goal, predictability trumps maximum appreciation. Source allocation from your 5% cash position and modest equity rebalancing.",
+      "tickers": [
+        "NOBL",
+        "VIG",
+        "SDY",
+        "O"
+      ],
+      "suggested_action": "Allocate 7% (~$59,500) to dividend growth strategy: 4% to Dividend Aristocrats ETF (NOBL or SDY), 2% to Dividend Appreciation ETF (VIG), and 1% to monthly dividend payer like Realty Income (O) for cash flow practice. Source from 3% of cash reserves and 4% from Technology rebalancing.",
+      "suggested_allocation_pct": 7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually with 3-4% current yield",
+      "time_horizon": "Establish positions over next 6 months, hold through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:44:12.000518",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_6790c0e1",
+      "category": "diversify",
+      "title": "Add Treasury Inflation-Protected Securities (TIPS) for Retirement Income Protection",
+      "summary": "Allocate 5% of portfolio to TIPS to protect retirement purchasing power against inflation while maintaining conservative fixed income exposure.",
+      "detailed_rationale": "Signal: Inflation protection gap in fixed income allocation approaching retirement. (1) Portfolio trigger: Your 35% bond allocation (primarily BND) consists largely of nominal bonds that lose purchasing power during inflation. With $80-100k annual retirement income need, inflation eroding 2-3% annually over 10 years could reduce real income by 20-30%. At age 55 with potentially 30+ year retirement horizon, inflation is a material risk your current bond allocation doesn't address. (2) Risk profile fit: TIPS align perfectly with moderate risk tolerance\u2014they're government-backed (no credit risk) but provide inflation hedge that nominal bonds lack. Your advanced investment experience likely includes understanding real vs. nominal returns. With stable $220k income and low debt, you can withstand TIPS' lower current yields (real yields currently 2-2.5%) in exchange for purchasing power protection. (3) Evidence and market context: Historical inflation averages 3% but recent years showed 4-9% spikes. Your retirement spans 2034-2054+, decades where inflation could significantly erode fixed income. TIPS provide principal adjustments with CPI, directly protecting retirement income. Current TIPS real yields at 2%+ are attractive compared to recent negative real yields. Your existing BND provides broad bond exposure but only ~8-10% TIPS weighting. Dedicated allocation ensures adequate protection. (4) Trade-off: TIPS currently yield less than nominal bonds (2.5% real vs. 4.5-5% nominal), creating opportunity cost if inflation stays low. However, for retirement planning, downside protection (unexpectedly high inflation) is more critical than maximizing yield in low-inflation scenarios. This is insurance for your retirement purchasing power.",
+      "tickers": [
+        "SCHP",
+        "TIP",
+        "VTIP"
+      ],
+      "suggested_action": "Allocate 5% of portfolio (~$42,500) to intermediate-term TIPS ETF (SCHP or TIP). Source from 2% of existing cash reserves and 3% by trimming BND position slightly. This creates 5% TIPS + 32% other bonds = 37% total fixed income with inflation protection.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "2-3% real return (inflation + 2-3%)",
+      "time_horizon": "Establish over next 3-6 months, maintain through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:44:12.000518",
+      "composite_score": 0.0
+    }
+  ]
+}

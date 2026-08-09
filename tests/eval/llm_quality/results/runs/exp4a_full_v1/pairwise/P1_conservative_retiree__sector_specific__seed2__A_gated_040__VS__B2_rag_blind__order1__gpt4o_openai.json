@@ -1,0 +1,30 @@
+{
+  "session_id": "P1_conservative_retiree__sector_specific__seed2",
+  "persona_id": "P1_conservative_retiree",
+  "query_type": "sector_specific",
+  "seed": 2,
+  "sys_a": "A_gated_040",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"tie\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System A provides strong personalization by explicitly linking recommendations to the user's profile attributes, but System B offers more actionable steps and better addresses diversification concerns by suggesting international exposure. Both systems align well with the user's conservative risk tolerance and maintain safety and compliance standards.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "tie",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System A provides strong personalization by explicitly linking recommendations to the user's profile attributes, but System B offers more actionable steps and better addresses diversification concerns by suggesting international exposure. Both systems align well with the user's conservative risk tolerance and maintain safety and compliance standards."
+  },
+  "usage": {
+    "input_tokens": 7501,
+    "output_tokens": 145
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "session_id": "P5_aggressive_young_professional__open_ended__seed2",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "open_ended",
+  "query": "I'm aiming for FIRE in about 15 years. Am I on the right track with my current allocation?",
+  "seed": 2,
+  "system": "A_gated_040",
+  "rag_diagnostics": {
+    "top_score": 0.395,
+    "num_hits": 5,
+    "gated": true,
+    "threshold": 0.4
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_f024b70c",
+      "category": "diversify",
+      "title": "Reduce Technology Sector Concentration Risk",
+      "summary": "Your portfolio is 65% concentrated in technology, creating significant single-sector risk that could derail your 15-year FIRE goal if tech underperforms.",
+      "detailed_rationale": "Signal: Your portfolio shows extreme technology concentration at 65% versus the S&P 500's ~28% tech weighting. This creates unsystematic risk that isn't rewarded with higher expected returns. Step-by-step analysis: (1) With a 15-year horizon and $2.5M FIRE target, you need consistent ~18-20% annual returns to reach your goal from $162K net worth. (2) While your aggressive risk tolerance (loss comfort 9/10) supports equity concentration, sector concentration is different from equity concentration\u2014it adds unrewarded risk. (3) Historical evidence: During the 2000-2002 tech crash, the Nasdaq lost 78% while diversified portfolios fell only 40-50%. In 2022, tech-heavy QQQ fell 33% while diversified VTI fell 20%. (4) Your holdings overlap significantly: QQQ, NVDA, GOOGL, META, AMZN, and TSLA are all tech/tech-adjacent. Even VTI is 28% tech, so your true tech exposure exceeds 65%. Trade-off: Diversifying may reduce upside if tech continues its dominance, but it significantly improves your probability of reaching FIRE by reducing left-tail risk that could set you back years. With 15 years to compound, consistency matters more than capturing every tech rally.",
+      "tickers": [
+        "VTV",
+        "VNQ",
+        "VWO",
+        "DBC"
+      ],
+      "suggested_action": "Reduce tech exposure from 65% to 45% over the next 6 months. Allocate 10% to value stocks (VTV), 5% to real estate (VNQ), 5% to emerging markets (VWO), and maintain current positions in other sectors. This maintains aggressive growth while adding diversification across market factors and geographies.",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "15 years to FIRE target",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T09:00:28.870291",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_e97549a1",
+      "category": "rebalance",
+      "title": "Establish Systematic Rebalancing and Contribution Strategy",
+      "summary": "With $195K income and only $5.5K monthly expenses, you have $10K+/month to invest. Implement automatic contributions with strategic rebalancing to accelerate FIRE timeline.",
+      "detailed_rationale": "Signal: Your savings rate is exceptional at ~63% (($195K - $66K expenses - ~$30K taxes) / $195K). You have roughly $100K annually to invest, yet your portfolio is only $180K\u2014suggesting you haven't optimized contribution velocity. Step-by-step reasoning: (1) Mathematical path to FIRE: You need to grow $162K to $2.5M in 15 years. At $100K annual contributions with 10% returns, you'd reach ~$3.4M. At 8% returns, ~$2.8M. You're on track IF you maximize contributions consistently. (2) Your aggressive profile and stable tech income support maxing out tax-advantaged accounts: $23K to 401(k), $7K to Roth IRA, potential mega backdoor Roth if available. This saves ~$8K annually in taxes. (3) Evidence from your profile: Low liquidity needs, stable income, emergency fund established, and low debt mean you can safely invest 70-75% of after-tax income. (4) Current market conditions favor dollar-cost averaging into your diversified strategy rather than timing. Supporting evidence: Your intermediate experience level means you understand sequence-of-returns risk\u2014contributing consistently mitigates this. Trade-off: High contribution rates reduce short-term lifestyle flexibility, but your $5.5K monthly expenses are already sustainable, and your goal explicitly prioritizes FIRE over current consumption.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "BND"
+      ],
+      "suggested_action": "Establish automatic monthly contributions of $8,500: $1,917 to 401(k) (to reach $23K annual max), $583 to Roth IRA (to reach $7K annual max), and $6,000 to taxable brokerage. Use 60% VTI, 25% VXUS (international diversification), 15% BND (modest bond allocation for rebalancing opportunities). Rebalance quarterly when allocations drift >5% from targets.",
+      "suggested_allocation_pct": 100.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-11% annually",
+      "time_horizon": "15 years with monthly contributions",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T09:00:28.870291",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_f62fb76d",
+      "category": "risk_reduction",
+      "title": "Reduce Cryptocurrency Allocation to Match Evidence-Based Portfolio Theory",
+      "summary": "At 5% BTC allocation ($9K), you're taking on extreme volatility that's disproportionate for a goal-based FIRE strategy with a defined timeline.",
+      "detailed_rationale": "Signal: Your 5% crypto allocation represents ~5.5% of net worth in an asset with 60-80% annual volatility, limited historical data, and unclear long-term risk-adjusted returns. Step-by-step analysis: (1) FIRE planning requires reverse-engineering target returns: You need consistent high-single-digit to low-double-digit returns. Crypto's boom-bust cycles (e.g., -77% in 2022, +155% in 2023) create sequence risk. (2) While your loss comfort of 9/10 suggests you can psychologically handle volatility, the question is whether crypto volatility is compensated. Academic evidence is mixed: Bitcoin's Sharpe ratio since 2015 is ~0.8-1.0, comparable to equities but with 3x the volatility. (3) Your aggressive profile supports some speculative allocation, but modern portfolio theory suggests limiting unproven, non-diversifying assets to 2-3% maximum. Crypto's correlation with tech stocks has increased to 0.6+, meaning it's not providing the diversification benefit it once did. (4) Regulatory risk is substantial: Potential changes to crypto taxation, custody rules, or outright restrictions could impair returns. Supporting evidence from knowledge base: Diversified equity portfolios have 100+ years of evidence showing ~10% real returns; Bitcoin has ~12 years with wildly varying regimes. Trade-off: Reducing crypto means potentially missing explosive upside if Bitcoin reaches $100K+, but it improves your certainty of reaching FIRE by reducing portfolio standard deviation from ~22% to ~18%.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Reduce BTC allocation from 5% to 2% ($3,600) over the next 2 months. Redeploy the $5,400 proceeds into your diversified equity rebalancing strategy (60% VTI, 40% VXUS). If you want to maintain crypto exposure for optionality, keep the 2% but commit to never increasing it above this threshold regardless of price movements.",
+      "suggested_allocation_pct": -3.0,
+      "risk_level": "high",
+      "expected_return_range": "Reduces portfolio volatility by ~4% annually",
+      "time_horizon": "Immediate implementation, 15-year benefit",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T09:00:28.870291",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_353b65b4",
+      "category": "tax_optimization",
+      "title": "Implement Tax-Loss Harvesting and Asset Location Strategy",
+      "summary": "With significant tech holdings likely showing volatility, implement tax-loss harvesting to generate $3K+ annual tax deductions while optimizing asset location across account types.",
+      "detailed_rationale": "Signal: Your taxable portfolio likely holds TSLA, NVDA, individual tech stocks, and BTC\u2014all highly volatile assets. Your $195K income places you in the 24% federal bracket, making tax optimization worth ~$24K per $100K over 15 years. Step-by-step reasoning: (1) FIRE math: Every $1 saved in taxes is $1 that can compound for 15 years. At 9% returns, that's $3.64 at retirement. With your income and portfolio size, you could harvest $10-20K in losses during market volatility (like we saw in 2022 and periodic tech corrections) while maintaining market exposure through substitute ETFs. (2) Your intermediate experience level means you can execute tax-loss harvesting without triggering wash sales. For example: sell NVDA at a loss, immediately buy SOXX (semiconductor ETF) or SMH as a substitute for 31 days, then buy back NVDA if desired. (3) Asset location optimization: Your aggressive profile means most assets should be in tax-advantaged accounts, but you can strategically place tax-inefficient assets (like actively managed funds or high-dividend stocks) in IRAs and tax-efficient assets (like VTI, growth stocks) in taxable accounts. (4) Supporting evidence: Vanguard research shows tax-loss harvesting adds 0.4-0.8% annually for high-income investors. Over 15 years, this could add $80-160K to your final portfolio value\u2014meaningful toward your $2.5M goal. Trade-off: Tax-loss harvesting requires active management and tracking of cost basis. You'll need to maintain a spreadsheet or use portfolio management software. There's also risk of over-optimizing and making poor investment decisions chasing tax benefits.",
+      "tickers": [
+        "TSLA",
+        "NVDA",
+        "GOOGL",
+        "META"
+      ],
+      "suggested_action": "Set up quarterly tax-loss harvesting reviews (March, June, September, December). When individual holdings show >10% losses, sell and replace with similar ETFs for 31 days: TSLA\u2192SOXX, NVDA\u2192SMH, GOOGL/META\u2192VGT. Simultaneously, optimize asset location by holding VTI/VWO in taxable accounts (qualified dividends, tax-efficient) and any future bond positions in tax-advantaged accounts (ordinary income treatment). Target generating $3K in tax losses annually (the deduction limit), carrying forward additional losses.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "0.4-0.8% annual tax alpha",
+      "time_horizon": "Ongoing through 15-year FIRE journey",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T09:00:28.870291",
+      "composite_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed2",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "sector_specific",
+  "query": "I'm already heavy in tech. Should I rotate into AI infrastructure plays, or diversify into a different sector entirely?",
+  "seed": 2,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_27073314",
+      "category": "diversify",
+      "title": "Reduce Tech Concentration with Healthcare & Financials Exposure",
+      "summary": "Your 65% tech allocation creates significant concentration risk. Rotate 15-20% into healthcare (XLV) and financials (XLF) to maintain growth potential while reducing sector-specific volatility.",
+      "detailed_rationale": "Signal: Your portfolio shows 65% technology concentration (QQQ, NVDA, TSLA, GOOGL, META, AMZN), which is 3-4x the S&P 500's tech weighting (~18-22%). This creates idiosyncratic risk where a tech sector correction could severely impact your FIRE timeline. Step-by-step reasoning: (1) At age 30 with 15-year FIRE horizon, you can tolerate volatility but shouldn't have 65% correlation to a single sector's fate. (2) Your aggressive risk tolerance (9/10 loss comfort) supports growth sectors, but true risk management means decorrelating returns, not just accepting volatility. (3) Healthcare (aging demographics, recurring revenue models) and financials (rising rate beneficiaries, economic sensitivity) offer growth with low correlation to tech fundamentals. XLV has shown 0.4-0.5 correlation to QQQ historically, while maintaining 8-10% annual returns. (4) Trade-off: You'll likely underperform in continued tech bull runs, but you'll protect against sector-specific shocks (regulatory crackdowns, multiple compression, AI bubble concerns) that could derail your $2.5M target. With $90,000 in your portfolio, reducing tech by $27,000-36,000 and deploying into XLV ($18,000) and XLF ($18,000) creates meaningful diversification while keeping 45-50% tech exposure for growth.",
+      "tickers": [
+        "XLV",
+        "XLF"
+      ],
+      "suggested_action": "Sell 15% of QQQ position (~$13,500) and trim 5% combined from GOOGL/META (~$13,500). Deploy $18,000 into XLV (Healthcare Select Sector SPDR) and $9,000 into XLF (Financial Select Sector SPDR) over 2-3 months using dollar-cost averaging.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "3-5 years to see full diversification benefit",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:44:08.794942",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_0a73d05d",
+      "category": "diversify",
+      "title": "Add Energy Infrastructure for Inflation Protection and Income",
+      "summary": "Allocate 10% to energy infrastructure and utilities (VDE, XLE) to hedge inflation risk and add uncorrelated returns, supporting your long-term wealth accumulation with lower tech correlation.",
+      "detailed_rationale": "Signal: Your portfolio has zero exposure to energy, utilities, or real assets despite 15-year horizon where inflation could erode real returns. Your monthly expenses of $5,500 ($66,000/year) will likely double with 3% inflation by retirement, requiring real portfolio growth. Step-by-step reasoning: (1) Energy infrastructure (pipelines, utilities, integrated oil) provides 0.2-0.3 correlation to tech while offering 3-5% dividend yields that compound over 15 years. (2) Your aggressive profile supports this because energy volatility is driven by commodity prices (different risk factor than tech's multiple compression or growth disappointments). (3) AI infrastructure buildout you mentioned requires massive power generation\u2014data centers consume 1-2% of global electricity and growing 20% annually. Companies in XLE (Exxon, Chevron) and VDE are direct beneficiaries of this trend. (4) Trade-off: Energy has had volatile decade with ESG concerns and transition risks, but 10% allocation provides inflation hedge without overcommitting. With your stable $195,000 income and low liquidity needs, you can weather energy cycles. At $18,000 deployment (10% of $180,000 portfolio), this adds meaningful diversification while keeping 55%+ in growth assets aligned with your aggressive profile and FIRE goals.",
+      "tickers": [
+        "XLE",
+        "VDE"
+      ],
+      "suggested_action": "Deploy $18,000 (10% of portfolio) split between XLE (Energy Select Sector SPDR, $10,000) and VDE (Vanguard Energy ETF, $8,000). Source from your 10% cash position ($18,000) to immediately deploy idle capital.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "9-14% annually with dividends",
+      "time_horizon": "10-15 years for full economic cycle",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:44:08.794942",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_af74eab9",
+      "category": "rebalance",
+      "title": "Reduce Crypto Allocation and Reallocate to Core Holdings",
+      "summary": "Trim BTC from 5% to 2-3% and redeploy into VTI for broader market exposure, reducing speculative risk while maintaining asymmetric upside potential.",
+      "detailed_rationale": "Signal: Your 5% BTC allocation ($9,000) represents speculative positioning that, while aligned with aggressive tolerance, creates unnecessary volatility for limited diversification benefit (BTC shows 0.6-0.7 correlation to tech/NASDAQ recently). Step-by-step reasoning: (1) With 65% tech exposure already, BTC adds correlated risk rather than diversification\u2014both assets decline in risk-off environments and rising rate scenarios. (2) Your intermediate experience and $2.5M FIRE goal benefits more from compounding reliable equity returns (VTI's 10% historical return) than speculating on crypto's binary outcomes. 2-3% BTC (~$4,500-5,400) maintains philosophical exposure to decentralized assets without material portfolio impact. (3) Your stable income, emergency fund, and low debt mean you can hold 2% BTC through volatility without forced selling, but 5% creates unnecessary tracking error vs. your FIRE target timeline. (4) Trade-off: If BTC appreciates 10-20x over 15 years, you'll have less upside, but probabilistically you're reducing path-dependent risk. At 5%, a 50% BTC drawdown costs $4,500 in portfolio value; at 2% it's $1,800. Over 15 years compounding at 10% in VTI, that $3,600 difference becomes $15,000+. This rebalance improves your risk-adjusted expected outcome for FIRE target.",
+      "tickers": [
+        "BTC",
+        "VTI"
+      ],
+      "suggested_action": "Sell 40% of BTC position (~$3,600) and deploy into VTI (Vanguard Total Stock Market ETF) to increase broad market exposure from current level. This reduces crypto to 3% while adding diversified equity exposure.",
+      "suggested_allocation_pct": -2.0,
+      "risk_level": "low",
+      "expected_return_range": "10-11% annually (VTI historical)",
+      "time_horizon": "Immediate rebalancing, 15-year compounding benefit",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:44:08.794942",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_bd193f99",
+      "category": "hold",
+      "title": "Maintain AI Infrastructure Through Existing NVDA Position",
+      "summary": "Keep current 35% individual stock allocation including NVDA rather than adding AI infrastructure plays\u2014you already have concentrated AI exposure through NVDA, META, GOOGL, AMZN.",
+      "detailed_rationale": "Signal: Your question about rotating into AI infrastructure plays reveals potential for over-concentration. Analysis shows you already have significant AI exposure: NVDA (GPU infrastructure), META (AI advertising/LLaMA), GOOGL (AI search/cloud/Gemini), AMZN (AWS AI services). Step-by-step reasoning: (1) NVDA represents the 'picks and shovels' AI infrastructure play\u201485%+ data center revenue from AI training/inference. Adding more AI infrastructure (AVGO, AMD, or hyperscalers) increases correlation without improving risk-adjusted returns. (2) Your aggressive profile supports concentrated positions, but your 15-year FIRE horizon requires avoiding blowup risk. Tech history shows infrastructure winners change (Cisco 2000, Intel's decline)\u2014maintaining 35% individual stocks with your current names provides adequate AI exposure. (3) Your intermediate experience suggests understanding tech fundamentals, but 'rotating deeper into AI infrastructure' risks recency bias\u2014you're buying what's worked rather than what's undervalued or uncorrelated. (4) Trade-off: You'll miss returns if AI infrastructure sees another 50-100% run, but at current valuations (NVDA 30-40x forward earnings), you're better diversifying into sectors trading at 12-18x (healthcare, financials, energy) per recommendations above. Your 35% stock allocation is appropriate for aggressive profile\u2014don't increase concentration, improve diversification instead. Your FIRE goal requires sustainable compounding, not maximum upside from one thesis.",
+      "tickers": [
+        "NVDA",
+        "META",
+        "GOOGL",
+        "AMZN"
+      ],
+      "suggested_action": "Hold current individual stock positions at 35% allocation. Do not add AI infrastructure names. Instead, follow diversification recommendations above to reduce overall tech/AI concentration from 65% to 45-50% target.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "high",
+      "expected_return_range": "12-18% annually (high volatility)",
+      "time_horizon": "5-10 years for AI infrastructure thesis to mature",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:44:08.794942",
+      "composite_score": 0.0
+    }
+  ]
+}

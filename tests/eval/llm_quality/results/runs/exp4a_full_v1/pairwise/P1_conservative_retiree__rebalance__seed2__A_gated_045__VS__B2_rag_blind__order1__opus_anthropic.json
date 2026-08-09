@@ -1,0 +1,30 @@
+{
+  "session_id": "P1_conservative_retiree__rebalance__seed2",
+  "persona_id": "P1_conservative_retiree",
+  "query_type": "rebalance",
+  "seed": 2,
+  "sys_a": "A_gated_045",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"Both systems deliver well-personalized, risk-appropriate advice, but System A more directly addresses the sector concentration risk (30% Healthcare) that is visible in the portfolio snapshot, which System B ignores. System A also provides more concrete, executable actions with specific dollar amounts and tickers for tax optimization, while System B includes a somewhat optimistic bond yield figure and a less directly actionable withdrawal-strategy recommendation.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "Both systems deliver well-personalized, risk-appropriate advice, but System A more directly addresses the sector concentration risk (30% Healthcare) that is visible in the portfolio snapshot, which System B ignores. System A also provides more concrete, executable actions with specific dollar amounts and tickers for tax optimization, while System B includes a somewhat optimistic bond yield figure and a less directly actionable withdrawal-strategy recommendation."
+  },
+  "usage": {
+    "input_tokens": 12679,
+    "output_tokens": 283
+  }
+}

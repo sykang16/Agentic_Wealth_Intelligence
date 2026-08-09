@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"A\"\n  },\n  \"overall_winner\": \"tie\",\n  \"rationale_overall\": \"System B provides more detailed personalization, concrete dollar amounts, and better addresses concentration issues (BND/AGG overlap, two-stock utility concentration), but recommends reducing bonds and increasing equity exposure for a 65-year-old with 2/10 loss comfort and short horizon, which is questionable risk alignment. System A better preserves the conservative profile with grounded suggestions (TIPS, T-bills) though its JEPI/JEPQ suggestion is moderate-risk; overall the strengths and weaknesses roughly offset.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "A"
+    },
+    "overall_winner": "tie",
+    "rationale_overall": "System B provides more detailed personalization, concrete dollar amounts, and better addresses concentration issues (BND/AGG overlap, two-stock utility concentration), but recommends reducing bonds and increasing equity exposure for a 65-year-old with 2/10 loss comfort and short horizon, which is questionable risk alignment. System A better preserves the conservative profile with grounded suggestions (TIPS, T-bills) though its JEPI/JEPQ suggestion is moderate-risk; overall the strengths and weaknesses roughly offset."
+  },
+  "usage": {
+    "input_tokens": 10861,
+    "output_tokens": 315
+  },
+  "session_id": "P1_conservative_retiree__open_ended__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

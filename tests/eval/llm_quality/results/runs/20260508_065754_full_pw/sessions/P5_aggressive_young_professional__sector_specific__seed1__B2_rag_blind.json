@@ -1,0 +1,162 @@
+{
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "sector_specific",
+  "query": "I'm already heavy in tech. Should I rotate into AI infrastructure plays, or diversify into a different sector entirely?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_6b4c14a7",
+      "category": "diversify",
+      "title": "Reduce Tech Concentration: Rotate 15% into Energy & Financials",
+      "summary": "Your 65% tech allocation creates significant concentration risk. Rotate 15% ($27,000) into energy (XLE) and financials (XLF) to improve diversification while maintaining growth potential.",
+      "detailed_rationale": "(1) Signal: Your portfolio shows 65% technology concentration with overlapping exposures (QQQ, NVDA, TSLA, GOOGL, META, AMZN all have tech/AI correlation). This creates unsystematic risk that isn't compensated by higher expected returns. (2) Alignment: While your aggressive risk tolerance (9/10 loss comfort) supports high equity allocation, even aggressive investors benefit from sector diversification to avoid catastrophic drawdowns. Your 15-year FIRE goal ($2.5M from $162K net worth = 18.5% CAGR needed) requires sustained compounding without major setbacks. A 2022-style tech correction (QQQ down 33%) would severely impact timeline. (3) Evidence: Energy (XLE) and Financials (XLF) have low correlation to tech (0.3-0.4 historically) and provide cyclical diversification. Energy benefits from AI power demand trends you're interested in, while financials benefit from higher-for-longer rates. Both sectors currently trade at attractive valuations vs tech (XLE P/E ~10 vs QQQ ~30). Your stable $195K income and low liquidity needs mean you can tolerate sectoral rotation without cash flow concerns. (4) Trade-offs: Energy and financials typically have lower long-term growth rates than tech (8-12% vs 15%+ for tech). However, reducing concentration risk improves risk-adjusted returns and downside protection, which is crucial for achieving your FIRE goal reliably.",
+      "tickers": [
+        "XLE",
+        "XLF"
+      ],
+      "suggested_action": "Sell $13,500 from QQQ and $13,500 from your stock positions (proportionally from TSLA/NVDA to reduce mega-cap tech overlap). Use proceeds to purchase $18,000 XLE (10% allocation) and $9,000 XLF (5% allocation).",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "9-13% annually",
+      "time_horizon": "3-5 years for full position, rebalance annually",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:43:30.746654",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_51777afe",
+      "category": "buy",
+      "title": "Add AI Infrastructure Exposure via SMCI and Data Center REITs",
+      "summary": "Maintain tech exposure but pivot from software/consumer AI to infrastructure picks. Allocate 5% ($9,000) to AI infrastructure beneficiaries like Super Micro Computer (SMCI) and data center REITs (DLR).",
+      "detailed_rationale": "(1) Signal: Your question specifically asks about AI infrastructure plays. Your current holdings (NVDA, GOOGL, META, AMZN) are AI software/platform layer. Missing exposure to physical infrastructure (servers, cooling, power, data centers) needed to support AI compute demands. Your intermediate experience and tech background mean you can evaluate infrastructure plays effectively. (2) Alignment: This recommendation keeps you in the tech/AI theme you understand (senior software engineer) while diversifying within that ecosystem. Your aggressive profile supports concentrated sector bets when backed by strong fundamental trends. The 15-year horizon allows recovery from volatility in emerging infrastructure plays. Infrastructure investments provide partial inflation hedge (real estate component) while capturing AI growth. (3) Evidence: AI training and inference require massive compute infrastructure. SMCI provides high-performance server/rack solutions for AI workloads with 40%+ revenue growth. Data center REITs like Digital Realty (DLR) own facilities housing AI compute\u2014demand is surging (DLR signed record leases in 2024). These plays have lower correlation to your existing holdings than adding more NVDA/hyperscalers. Your 5% crypto (BTC) allocation shows comfort with higher-volatility asymmetric bets. (4) Trade-offs: SMCI trades at high volatility and faces execution risk scaling production. Data center REITs have interest rate sensitivity. This 5% allocation is appropriately sized for a higher-risk infrastructure bet within your overall aggressive strategy.",
+      "tickers": [
+        "SMCI",
+        "DLR"
+      ],
+      "suggested_action": "Allocate $6,000 (3.3%) to SMCI and $3,000 (1.7%) to DLR. Fund this by reducing QQQ position (already captures Nasdaq tech exposure). Monitor quarterly earnings for infrastructure demand signals.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "high",
+      "expected_return_range": "15-25% annually (high volatility)",
+      "time_horizon": "5-7 years, review annually",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:43:30.746654",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_3a79650b",
+      "category": "diversify",
+      "title": "Establish International Exposure: Add 10% Emerging Markets (VWO) and Developed Ex-US (VEA)",
+      "summary": "Your portfolio has 0% international exposure. Add 10% allocation ($18,000) split between emerging markets (VWO) and developed international (VEA) to capture global growth and reduce US concentration risk.",
+      "detailed_rationale": "(1) Signal: Portfolio shows 100% US equity exposure across all holdings. This creates geographic concentration risk despite your diversified asset types. US markets represent only 60% of global market cap\u2014you're missing 40% of investment opportunities. (2) Alignment: Your aggressive risk tolerance and 15-year horizon support emerging market exposure (higher volatility but stronger demographic/growth trends). International diversification reduces single-country risk without requiring you to abandon growth orientation. As a high-income professional ($195K) with stable employment, you can weather international market volatility. Your FIRE goal benefits from accessing faster-growing international economies (India 6-7% GDP growth, Vietnam 5-6%) vs US 2-3%. (3) Evidence: Emerging markets (VWO) currently trade at significant discounts to US markets (P/E ~12 vs S&P 500 ~20), offering value opportunity. Historical data shows international and US markets cycle\u2014decades-long leadership rotates (2000s favored international, 2010s favored US). Currency diversification provides hedge against dollar weakness. Developed international (VEA) includes quality companies (ASML, Samsung, Toyota) with lower valuations. Your lack of international exposure means missing diversification benefits correlation provides. (4) Trade-offs: Emerging markets face political risk, currency volatility, and potentially lower corporate governance standards. International returns have lagged US for past decade (2010-2020). However, valuations suggest mean reversion opportunity, and your time horizon allows patience for this cycle to play out.",
+      "tickers": [
+        "VWO",
+        "VEA"
+      ],
+      "suggested_action": "Reduce VTI position by $18,000 (maintains domestic exposure via QQQ and individual stocks). Allocate $10,800 (6%) to VWO for emerging market growth and $7,200 (4%) to VEA for developed market stability. Rebalance when allocation drifts beyond \u00b12%.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "10-16% annually (currency-adjusted)",
+      "time_horizon": "10+ years for full performance cycle",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:43:30.746654",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_e1d0843d",
+      "category": "hold",
+      "title": "Maintain Core Tech Holdings But Implement Trailing Stops",
+      "summary": "Keep your NVDA, GOOGL, META positions as core growth drivers, but implement 20% trailing stop-losses to protect gains while allowing upside participation during this AI infrastructure build-out phase.",
+      "detailed_rationale": "(1) Signal: Your individual stock holdings (NVDA, GOOGL, META, AMZN, TSLA) represent strong fundamental companies with AI positioning, but collectively they represent 35% of portfolio in concentrated positions. Your intermediate experience and question about 'rotating into AI infrastructure' suggests you're actively managing positions, not passive buy-and-hold. (2) Alignment: Your aggressive profile (9/10 loss comfort) supports maintaining concentrated growth positions in companies you understand professionally. However, your FIRE goal requires capital preservation during major drawdowns\u2014the 2022 tech crash would have derailed progress. Trailing stops provide disciplined downside protection while maintaining upside exposure, fitting an 'aggressive with guardrails' approach. Your stable income and low debt mean you won't be forced to sell at bottoms. (3) Evidence: NVDA has appreciated significantly (up 200%+ over 2023-2024)\u2014protecting gains becomes priority. Historical volatility in mega-cap tech shows 30-40% drawdowns occur regularly (2022, 2018, 2015-16). Trailing stops at 20% keep you invested through normal volatility (tech stocks commonly pull back 10-15%) while protecting against bear markets. Your emergency fund and low liquidity needs mean stopped-out positions can be held in cash for reentry opportunities. (4) Trade-offs: Stops may trigger during healthy corrections, causing you to miss subsequent rebounds. However, this risk management approach protects your 15-year FIRE timeline from catastrophic drawdowns that would require years to recover from. Stop levels should be evaluated quarterly based on volatility conditions.",
+      "tickers": [
+        "NVDA",
+        "GOOGL",
+        "META",
+        "AMZN",
+        "TSLA"
+      ],
+      "suggested_action": "Implement 20% trailing stop-loss orders on all individual stock positions. For example, if NVDA trades at $800, set stop at $640. As price rises, stop automatically adjusts upward. Review and adjust stop levels quarterly or after major (+30%) moves.",
+      "suggested_allocation_pct": 35.0,
+      "risk_level": "moderate",
+      "expected_return_range": "12-20% annually (with downside protection)",
+      "time_horizon": "Hold core positions 5-10+ years with active risk management",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:43:30.746654",
+      "composite_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "session_id": "P3_moderate_mid_career__sector_specific__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "sector_specific",
+  "seed": 2,
+  "sys_a": "A_gated_040",
+  "sys_b": "A_wealthnexus",
+  "order": 1,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides more specific personalization (occupation-linked tech concentration, VXUS developed-market composition, EM volatility statistics) and more concrete actionable steps including a 529 plan tailored to the education goal. System A is slightly more factually conservative and avoids some of B's unverified statistics, but B's stronger diversification framing and actionability outweigh this.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides more specific personalization (occupation-linked tech concentration, VXUS developed-market composition, EM volatility statistics) and more concrete actionable steps including a 529 plan tailored to the education goal. System A is slightly more factually conservative and avoids some of B's unverified statistics, but B's stronger diversification framing and actionability outweigh this."
+  },
+  "usage": {
+    "input_tokens": 11751,
+    "output_tokens": 252
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "session_id": "P1_conservative_retiree__open_ended__seed2",
+  "persona_id": "P1_conservative_retiree",
+  "query_type": "open_ended",
+  "seed": 2,
+  "sys_a": "A_gated_040",
+  "sys_b": "A_wealthnexus",
+  "order": 2,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"B\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B offers a more sophisticated set of recommendations including a bucket withdrawal strategy and tax-efficient municipal bonds, which are particularly relevant for a retiree, and uses more calibrated language with fewer questionable ticker suggestions (System A recommends T and MO for a conservative retiree, which are riskier high-yield names). System A has a stronger diversification recommendation addressing healthcare concentration, but B's overall grounding, actionability with specific dollar amounts tied to expenses, and safety framing edge it ahead.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "B",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "B"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B offers a more sophisticated set of recommendations including a bucket withdrawal strategy and tax-efficient municipal bonds, which are particularly relevant for a retiree, and uses more calibrated language with fewer questionable ticker suggestions (System A recommends T and MO for a conservative retiree, which are riskier high-yield names). System A has a stronger diversification recommendation addressing healthcare concentration, but B's overall grounding, actionability with specific dollar amounts tied to expenses, and safety framing edge it ahead."
+  },
+  "usage": {
+    "input_tokens": 12129,
+    "output_tokens": 311
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B more directly addresses the user's specific query (AI infrastructure vs. diversification), explicitly references profile attributes like the FIRE goal, 15-year horizon, $195K income, and 9/10 loss comfort, and aligns risk levels better with the aggressive tolerance. System A is more conservatively framed (often labeling recs 'low risk' for an aggressive investor) and ignores the AI infrastructure half of the question, though it has slightly stronger factual grounding and diversification logic.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B more directly addresses the user's specific query (AI infrastructure vs. diversification), explicitly references profile attributes like the FIRE goal, 15-year horizon, $195K income, and 9/10 loss comfort, and aligns risk levels better with the aggressive tolerance. System A is more conservatively framed (often labeling recs 'low risk' for an aggressive investor) and ignores the AI infrastructure half of the question, though it has slightly stronger factual grounding and diversification logic."
+  },
+  "usage": {
+    "input_tokens": 11365,
+    "output_tokens": 297
+  },
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

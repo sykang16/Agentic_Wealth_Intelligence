@@ -1,0 +1,185 @@
+{
+  "session_id": "P3_moderate_mid_career__rebalance__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "rebalance",
+  "query": "My tech exposure is around 35% across my ETFs and individual stocks. Is that too concentrated, and how would I trim it?",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_fe67146d",
+      "category": "rebalance",
+      "title": "Reduce Technology Concentration to 25% of Portfolio",
+      "summary": "Your 35% technology allocation exceeds prudent diversification limits for a moderate risk profile. Trimming to 25% reduces sector-specific risk while maintaining meaningful tech exposure.",
+      "detailed_rationale": "Step-by-step analysis: (1) Signal identified: Your portfolio shows 35% technology concentration across VTI, individual stocks (AAPL, MSFT, NVDA, GOOGL), which creates significant sector-specific risk. For moderate risk tolerance investors, best practices suggest limiting any single sector to 20-25% maximum. (2) Risk profile alignment: As a 40-year-old with moderate risk tolerance (loss comfort 6/10) and two high-priority goals including education funding in ~10 years, you need balance between growth and stability. Technology volatility can be substantial - the sector experienced 30%+ drawdowns in 2022. Your intermediate experience level suggests you understand this risk but shouldn't be overexposed. (3) Supporting evidence: VTI itself contains approximately 28% technology weighting as a total market fund, meaning your individual tech stocks (AAPL, MSFT, NVDA, GOOGL) layer additional concentration on top of baseline market exposure. The knowledge base shows VGT (pure tech ETF) carries explicit concentration risk warnings. Your stable income ($175k annually) and emergency fund provide cushion, but your medium liquidity needs and 10-year education timeline require more defensiveness than 35% tech allows. (4) Trade-offs: Trimming winners like NVDA or MSFT means potentially missing some upside if tech outperforms, and may trigger capital gains taxes. However, the risk reduction and improved diversification outweigh this cost, especially given your need to preserve capital for near-term education expenses.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Sell approximately $14,000-$16,000 (10% of portfolio value) from your individual tech stock positions. Prioritize trimming your largest position or the stock with lowest cost basis impact. Keep VTI as-is since it provides diversified market exposure.",
+      "suggested_allocation_pct": -10.0,
+      "risk_level": "low",
+      "expected_return_range": "Risk reduction move - preserves 6-8% expected portfolio return",
+      "time_horizon": "Immediate rebalancing action",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:24:04.003109",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_50a1d7e7",
+      "category": "diversify",
+      "title": "Reallocate Proceeds to International Equity and Sector Diversification",
+      "summary": "Deploy technology rebalancing proceeds into VXUS (international) and underrepresented sectors to improve geographic and sector diversification supporting both goals.",
+      "detailed_rationale": "Step-by-step analysis: (1) Signal identified: After reducing tech exposure, you'll have ~$14-16k to reallocate. Your sector allocation shows underweight positions in Utilities (0%), Real Estate (0%), Consumer Staples (included in 15% 'Other'), and your international exposure through VXUS could be strengthened. Geographic diversification is critical for long-term portfolios. (2) Risk profile alignment: Moderate risk tolerance with long-term horizon (25 years to retirement, 10 years to education) supports international diversification which reduces US-specific risk. Your stable Product Manager income and low debt level mean you can handle international currency fluctuations. The intermediate experience level indicates you understand international investing nuances. (3) Supporting evidence: VXUS factsheet shows it provides broad international exposure, which historically has low correlation with US markets, providing diversification benefits. Your current allocation appears US-heavy given VTI dominance. For a 40-year-old with moderate risk profile, typical target allocations suggest 25-40% international equity exposure. Standard diversified portfolios also include defensive sectors (utilities, consumer staples, real estate) which provide stability during tech downturns - particularly important for your 10-year education goal. (4) Trade-offs: International stocks may underperform US markets in certain periods and carry currency risk. Defensive sectors typically offer lower growth than technology. However, this trade-off is precisely what moderate risk profiles require - sacrificing some upside potential for downside protection and smoother returns aligned with your goals.",
+      "tickers": [
+        "VXUS",
+        "VPU",
+        "VNQ"
+      ],
+      "suggested_action": "Allocate rebalancing proceeds: $8,000 to VXUS (boosting international exposure), $4,000 to VPU (Vanguard Utilities ETF) for defensive positioning, and $3,000 to VNQ (Vanguard Real Estate ETF) for income and diversification. This adds exposure to underrepresented sectors while maintaining growth orientation.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually with reduced volatility",
+      "time_horizon": "Long-term hold supporting both 10-year and 25-year goals",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:24:04.003109",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_88e1c0e4",
+      "category": "risk_reduction",
+      "title": "Establish 529 College Savings Plan with Conservative Allocation",
+      "summary": "Create dedicated 529 accounts for children's education goal, funding with $20,000 initial deposit and monthly contributions, using age-based conservative allocation given 10-year timeline.",
+      "detailed_rationale": "Step-by-step analysis: (1) Signal identified: You have a high-priority education goal of $200,000 with ~10 year horizon, but no indication of dedicated tax-advantaged education savings. Your current portfolio doesn't show goal-specific segregation, meaning market volatility could impact education funding availability at exactly the wrong time. With children's college approaching in a decade, you need goal-based investing with risk controls. (2) Risk profile alignment: While your overall risk tolerance is moderate, education funding is a time-bound liability that demands more conservative treatment than retirement assets. Your stable $175k income allows for consistent contributions ($800-900 monthly would reach $200k target with modest growth). Loss comfort of 6/10 is appropriate for general portfolio but education expenses are non-negotiable and time-sensitive, requiring higher certainty. (3) Supporting evidence: 529 plans offer tax-free growth for education expenses, meaningful advantage over taxable accounts. Your current 30% bond allocation (BND) provides some stability, but it's not ringfenced for education. Age-based 529 portfolios automatically de-risk as the beneficiary approaches college age, shifting from 70% equity today to 20% equity by enrollment - this glide path perfectly matches your 10-year horizon and moderate risk needs. With $320k total assets and $140k net worth, allocating $20k plus monthly contributions is feasible alongside your $9,500 monthly expenses and $175k income. (4) Trade-offs: 529 plans have limited investment options compared to brokerage accounts, and non-qualified withdrawals incur penalties. However, the tax advantages (potentially $30-40k in tax-free growth over 10 years), goal alignment, and forced discipline outweigh these limitations. This protects education funding from behavioral mistakes during market volatility.",
+      "tickers": [
+        "529_AGE_BASED"
+      ],
+      "suggested_action": "Open 529 plans for each child. Fund with $20,000 initial deposit ($10k per child) from existing savings. Establish automatic monthly contributions of $850 per child ($1,700 total). Select age-based conservative portfolio option that will currently hold approximately 60% equity / 40% bonds and automatically become more conservative approaching college enrollment.",
+      "suggested_allocation_pct": 6.25,
+      "risk_level": "low",
+      "expected_return_range": "5-7% annually with decreasing risk over time",
+      "time_horizon": "10 years to first withdrawal, 14+ years for second child",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:24:04.005157",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_b5bf396d",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Advantaged Retirement Contributions",
+      "summary": "Increase 401(k) contributions to maximum allowable limit and consider backdoor Roth IRA to optimize tax efficiency for your $2.5M retirement goal.",
+      "detailed_rationale": "Step-by-step analysis: (1) Signal identified: With $175k annual income and $2.5M retirement target 25 years away, tax-advantaged space is your most powerful wealth-building tool. Your profile doesn't specify current 401(k) contribution rate, but maximizing tax deferral should be priority one. At your income level, you're likely in 24-32% federal tax bracket, making pre-tax contributions highly valuable. The 25-year horizon means tax-deferred compounding has maximum impact. (2) Risk profile alignment: Retirement accounts force long-term discipline aligned with your moderate risk tolerance and long horizon. Your stable Product Manager income, low debt, and existing emergency fund mean you can afford to maximize contributions without liquidity stress. The $9,500 monthly expenses against $14,583 monthly gross income leaves room for increased retirement saving. (3) Supporting evidence: 2024 401(k) limit is $23,000 ($30,500 if 50+, though you're 40). Assuming 6% real return, maximizing 401(k) for 25 years with employer match generates $1.5-1.8M alone - 60-72% of your retirement target. Your income exceeds Roth IRA direct contribution limits ($161k MAGI phase-out), but backdoor Roth IRA remains available, providing tax-free growth for portion of retirement assets. The combination of pre-tax 401(k) (reducing current taxes) and Roth IRA (eliminating future taxes) creates optimal tax diversification. Your intermediate investment experience suggests you can manage this strategy. (4) Trade-offs: Higher 401(k) contributions reduce take-home pay, potentially limiting near-term flexibility. Backdoor Roth requires careful execution to avoid pro-rata rule complications if you have existing traditional IRA balances. However, the tax savings ($5,520-7,360 annually at 24-32% bracket) plus decades of tax-advantaged compounding dramatically outweigh the modest complexity and reduced liquidity.",
+      "tickers": [
+        "401K",
+        "ROTH_IRA"
+      ],
+      "suggested_action": "Immediately increase 401(k) contribution to $23,000 annually ($1,917/month). If not already doing so, ensure you're capturing full employer match. Execute backdoor Roth IRA: contribute $7,000 to traditional IRA (non-deductible), immediately convert to Roth IRA. Invest Roth funds in VTI or target-date fund appropriate for 2050 retirement. Adjust monthly budget to accommodate $2,500/month total retirement saving.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "low",
+      "expected_return_range": "Tax arbitrage plus 7-9% market returns",
+      "time_horizon": "25 years to retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:24:04.005157",
+      "composite_score": 0.0
+    }
+  ]
+}

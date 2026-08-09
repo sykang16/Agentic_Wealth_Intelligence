@@ -1,0 +1,30 @@
+{
+  "session_id": "P3_moderate_mid_career__sector_specific__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "sector_specific",
+  "seed": 1,
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more comprehensive personalization by directly addressing the education goal with a dedicated 529 recommendation and citing multiple specific profile attributes across recommendations, plus more concrete actionable steps with specific dollar amounts and sourcing instructions. System B has slightly better factual grounding (avoids some questionable claims like specific volatility reduction percentages) but is narrower in scope and less directly tied to the user's dual-goal structure.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more comprehensive personalization by directly addressing the education goal with a dedicated 529 recommendation and citing multiple specific profile attributes across recommendations, plus more concrete actionable steps with specific dollar amounts and sourcing instructions. System B has slightly better factual grounding (avoids some questionable claims like specific volatility reduction percentages) but is narrower in scope and less directly tied to the user's dual-goal structure."
+  },
+  "usage": {
+    "input_tokens": 12671,
+    "output_tokens": 281
+  }
+}

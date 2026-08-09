@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides substantially more personalized rationales citing specific profile values (income, expenses, savings capacity, CAGR math to $2.5M target) and gives concrete, executable actions with dollar amounts, timelines, and rebalancing thresholds. System B's recommendations are more generic and directional, and Rec #4 adds a new high-risk factor tilt that is less clearly justified for the user's FIRE reliability goal.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides substantially more personalized rationales citing specific profile values (income, expenses, savings capacity, CAGR math to $2.5M target) and gives concrete, executable actions with dollar amounts, timelines, and rebalancing thresholds. System B's recommendations are more generic and directional, and Rec #4 adds a new high-risk factor tilt that is less clearly justified for the user's FIRE reliability goal."
+  },
+  "usage": {
+    "input_tokens": 11016,
+    "output_tokens": 273
+  },
+  "session_id": "P5_aggressive_young_professional__open_ended__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 1,
+  "rubric_version": "1.1"
+}

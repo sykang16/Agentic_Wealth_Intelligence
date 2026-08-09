@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"B\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B demonstrates stronger personalization by repeatedly tying advice to specific profile attributes (variable consulting income, $13K monthly expenses, $380K liabilities, $4M target, legacy goal) and grounds claims in the actual portfolio (e.g., noting triple energy exposure via XLE/XOM/CVX, 70% US equity concentration). System A is slightly more actionable with concrete dollar ranges and ticker baskets, but B's tighter factual grounding, diversification reasoning (filling healthcare/consumer gaps, addressing FX risk explicitly), and more calibrated language give it the overall edge.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "B"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B demonstrates stronger personalization by repeatedly tying advice to specific profile attributes (variable consulting income, $13K monthly expenses, $380K liabilities, $4M target, legacy goal) and grounds claims in the actual portfolio (e.g., noting triple energy exposure via XLE/XOM/CVX, 70% US equity concentration). System A is slightly more actionable with concrete dollar ranges and ticker baskets, but B's tighter factual grounding, diversification reasoning (filling healthcare/consumer gaps, addressing FX risk explicitly), and more calibrated language give it the overall edge."
+  },
+  "usage": {
+    "input_tokens": 13283,
+    "output_tokens": 342
+  },
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,171 @@
+{
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "open_ended",
+  "query": "I'm 10 years from retirement. Should I start de-risking now and how aggressively?",
+  "seed": 2,
+  "system": "B2_rag_blind",
+  "rag_diagnostics": {
+    "top_score": 0.0,
+    "num_hits": 0,
+    "gated": false,
+    "threshold": null
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_ab7703d2",
+      "category": "rebalance",
+      "title": "Implement Gradual Bond Glide Path to 50% Fixed Income",
+      "summary": "Begin transitioning from 35% to 50% bonds over the next 3-4 years to align with your 10-year retirement timeline while maintaining growth potential.",
+      "detailed_rationale": "Signal: At 55 with a 10-year horizon to retirement, your current 35% bond allocation is below the typical age-based guideline (age in bonds = 55%) and insufficient for a glide path strategy. Step-by-step reasoning: (1) Your moderate risk tolerance and medium investment horizon support a balanced approach\u2014not aggressive de-risking, but gradual repositioning. (2) With $755K net worth targeting $1.8M by 65, you need ~9% annualized growth, which requires maintaining equity exposure while reducing sequence-of-return risk in the final decade. (3) Your current 55% equity allocation (40% ETF + 15% stock) is appropriate now, but should decline 1-2% annually to reach 40-45% equity by retirement. (4) Evidence from your portfolio shows strong bond foundation with BND (core bonds), but increasing to 50% bonds over 3-4 years creates a smoother glide path. This means adding ~$113K to bonds gradually ($28K-$38K annually). (5) Trade-off: Earlier de-risking reduces volatility but may limit growth; your stable $220K income and low debt provide flexibility to maintain higher equity exposure longer than conservative investors. Recommend reaching 45% bonds by age 58-60, then 50% by age 62, preserving growth runway while protecting accumulated wealth.",
+      "tickers": [
+        "BND",
+        "BNDX",
+        "TIP"
+      ],
+      "suggested_action": "Over the next 12-18 months, increase bond allocation from 35% to 40% by directing new contributions and rebalancing proceeds into BND (core U.S. bonds). Consider adding BNDX (international bonds, 5-7% allocation) for geographic diversification and TIP (inflation-protected securities, 3-5%) as inflation hedge given 10-year horizon.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5% annually",
+      "time_horizon": "Implement over 18 months, with subsequent increases every 2-3 years until retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:23:49.904045",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_03176d79",
+      "category": "diversify",
+      "title": "Reduce Healthcare Overconcentration from 22% to 15%",
+      "summary": "Your 22% healthcare allocation (likely JNJ and UNH concentrated positions) exceeds prudent sector limits. Trim to 15% and reallocate to underweight sectors.",
+      "detailed_rationale": "Signal: Healthcare represents 22% of your portfolio\u2014significantly above the sector's ~13% S&P 500 weight and creating single-sector concentration risk. Step-by-step reasoning: (1) Holdings analysis shows JNJ and UNH as individual stocks, which combined with healthcare ETF exposure within VTI creates overweight position. For a moderate risk investor approaching retirement, sector concentration above 20% introduces unnecessary volatility. (2) While healthcare offers defensive characteristics (stable demand, aging demographics), excessive concentration means sector-specific risks (regulatory changes, drug pricing pressure, Medicare reimbursement) disproportionately impact your retirement savings. (3) Your advanced investment experience suggests you understand this risk, but the 10-year retirement timeline now prioritizes capital preservation over sector betting. (4) Evidence: Recent healthcare volatility around GLP-1 drugs, Medicare negotiations, and political uncertainty demonstrates sector-specific risk. Your portfolio shows underweight positions in Consumer Discretionary, Real Estate, and Utilities\u2014sectors that provide different economic cycle exposures. (5) Recommended action: Reduce healthcare to 15% (trim ~$53K) by selling portions of individual holdings JNJ and/or UNH. This realizes gains at potentially favorable long-term capital gains rates before retirement when you may be in lower brackets. Redeploy proceeds to underweight sectors through VTI rebalancing or targeted sector ETFs (XLY for consumer discretionary, VNQ for real estate exposure as inflation hedge). Trade-off: Healthcare's defensive nature means trimming reduces downside protection, but diversification improves risk-adjusted returns and aligns with moderate risk tolerance.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "VNQ",
+        "XLY"
+      ],
+      "suggested_action": "Sell 30-40% of your combined JNJ and UNH positions over next 6 months (consider tax-loss harvesting opportunities or spreading sales across tax years). Redeploy proceeds: 3-4% to VNQ (real estate/REIT exposure), 2-3% to consumer discretionary through XLY or increase VTI, remainder to bond glide path.",
+      "suggested_allocation_pct": -7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Improves risk-adjusted returns, reduces sector volatility by 15-20%",
+      "time_horizon": "Execute over 6-12 months to avoid market timing risk",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:23:49.904045",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_a42feb17",
+      "category": "income_generation",
+      "title": "Add 5-7% Dividend Growth Position for Retirement Income Bridge",
+      "summary": "Establish dedicated dividend growth allocation to create income stream that bridges the gap between retirement at 65 and Social Security/pension activation.",
+      "detailed_rationale": "Signal: Your high-priority retirement goal targets $80-100K annual income, but portfolio lacks strategic income generation beyond existing dividend payers. Step-by-step reasoning: (1) Current holdings (JNJ, PG, JPM, BRK.B) provide some dividends, but no dedicated income strategy exists for the critical 65-70 age window when you may need portfolio income before optimal Social Security claiming at 70. (2) With $220K income and $132K annual expenses, you have strong savings capacity now ($88K+/year) to build an income-producing sleeve. (3) Moderate risk tolerance supports dividend growth strategy rather than high-yield (risky) or pure bonds (inflation-eroding). Dividend aristocrats historically provide 2-4% yields with 5-7% annual dividend growth, creating inflation-protected income stream. (4) Evidence from your profile: You need $1.8M by retirement to generate $80-100K (4.4-5.5% withdrawal rate, slightly aggressive). A dedicated 5-7% allocation ($37K-$53K) to dividend growth creates ~$1,500-$2,000 immediate annual income growing to $3,000-$4,000 by retirement, reducing pressure on principal withdrawals early in retirement (sequence risk mitigation). (5) Specific implementation: VIG (Vanguard Dividend Appreciation ETF, 2% yield, low 0.06% fee) provides diversified dividend growth exposure, or SCHD (Schwab U.S. Dividend Equity ETF, 3.5% yield, value tilt). Both screen for dividend growth history and financial health. Trade-off: Dividend-focused strategies may underperform total market during bull runs, but provide behavioral benefits (tangible income reduces panic selling) and strategic benefits (income without selling shares in down markets) crucial for retirement transition. This complements rather than replaces your existing core holdings.",
+      "tickers": [
+        "VIG",
+        "SCHD",
+        "DGRO"
+      ],
+      "suggested_action": "Allocate 5-7% ($37K-$53K) to dividend growth ETF. Recommend VIG as primary holding (4-5%) for quality and diversification, with SCHD (2-3%) for higher current yield. Fund this by directing next 6-12 months of new contributions and potentially trimming 2-3% from VTI to avoid adding new cash requirements. Set dividends to reinvest (DRIP) for next 8-9 years, then switch to cash distribution 1-2 years before retirement.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% total return (2-3.5% yield + 4-5% growth)",
+      "time_horizon": "10-year accumulation phase, then transition to income generation at retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:23:49.904045",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_118b141a",
+      "category": "tax_optimization",
+      "title": "Execute Strategic Tax-Loss Harvesting and Roth Conversion Planning",
+      "summary": "Leverage current market volatility for tax-loss harvesting while initiating partial Roth conversions to optimize retirement tax efficiency.",
+      "detailed_rationale": "Signal: At $220K income with 10 years to retirement, you're likely in 24% federal bracket, presenting strategic tax planning window before retirement drops you to lower brackets. Step-by-step reasoning: (1) Your advanced investment experience and operations director role suggest sophisticated financial planning, but explicit tax optimization isn't reflected in portfolio strategy. (2) With $755K net worth and $95K liabilities, you have capacity for strategic tax moves. Current market conditions may present tax-loss harvesting opportunities in sector positions (particularly if healthcare or financials have unrealized losses from recent volatility). (3) Harvesting losses now creates tax assets to offset gains from: (a) upcoming healthcare rebalancing (JNJ/UNH sales), (b) future required minimum distributions, (c) Roth conversion income. (4) Roth conversion rationale: Your stable $220K income and low debt support converting traditional IRA/401(k) dollars now while employed and able to pay taxes from salary rather than portfolio. Converting $20K-$40K annually for next 5-7 years (staying within 24% bracket) creates $100K-$280K in tax-free Roth assets by retirement. This reduces RMDs at 73+, provides tax diversification, and supports wealth transfer goal (Roth IRAs pass tax-free to heirs, addressing low-priority legacy goal). (5) Evidence: For moderate-risk investor 10 years from retirement, tax efficiency becomes increasingly important as compound growth runway shortens\u2014maximizing after-tax returns matters more than gross returns. (6) Specific action framework: Review portfolio for positions with unrealized losses (particularly individual stocks or sector tilts), harvest losses while maintaining market exposure through substantially identical replacement funds (e.g., sell VTI, buy ITOT temporarily), use losses to offset conversion income. Trade-off: Roth conversions require paying taxes now versus later, creating cash flow impact ($5K-$10K annually in taxes on $20K-$40K conversions). However, your $88K+ annual savings capacity easily supports this, and tax-free growth for 10+ years plus tax-free retirement withdrawals typically outweigh upfront cost for high-income earners.",
+      "tickers": [
+        "VTI",
+        "ITOT",
+        "BND",
+        "VBTLX"
+      ],
+      "suggested_action": "Immediate: Review portfolio with tax advisor to identify loss harvesting opportunities. If positions show losses, harvest and replace (e.g., VTI\u2192ITOT, BND\u2192VBTLX) to maintain exposure while capturing tax benefits. Planning: Model Roth conversion strategy with financial planner to determine optimal annual conversion amount (likely $25K-$35K to stay in 24% bracket). Execute first conversion in Q4 2024 or Q1 2025, use harvested losses to offset conversion income. Repeat annually until retirement, adjusting for income changes and tax law.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5% effective return enhancement through tax savings over 10 years",
+      "time_horizon": "Ongoing annual strategy through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:23:49.904045",
+      "composite_score": 0.0
+    }
+  ]
+}

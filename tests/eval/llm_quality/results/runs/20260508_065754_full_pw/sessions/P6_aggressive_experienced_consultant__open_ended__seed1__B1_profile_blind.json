@@ -1,0 +1,187 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed1",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "open_ended",
+  "query": "Given my variable income from consulting, how should I think about cash buffers versus staying fully deployed?",
+  "seed": 1,
+  "system": "B1_profile_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_c8332612",
+      "category": "risk_reduction",
+      "title": "Increase Emergency Cash Buffer for Income Volatility",
+      "summary": "Increase cash allocation from 5% to 12% ($105,000) to create a robust 6-9 month expense buffer given your variable consulting income, preventing forced liquidation during income gaps.",
+      "detailed_rationale": "(1) SIGNAL: Your current cash position of 5% ($75,000) is insufficient for variable income patterns. With net worth of $1.12M and assuming expenses proportional to your wealth level, this likely represents only 2-3 months of coverage, below the 3-6 month minimum recommended in the knowledge base for emergency funds. (2) ALIGNMENT: Variable consulting income creates unpredictable cash flow gaps that could force you to liquidate investments at unfavorable times. The knowledge base explicitly states 'This prevents the need to sell investments at unfavorable times during personal financial emergencies.' With 70% of your portfolio in equities (stocks + ETFs) and 5% in volatile crypto, you're exposed to significant market timing risk if you need to raise cash during a downturn. (3) EVIDENCE: Your current allocation shows Technology at 30% including NVDA exposure, which can experience 20-30% drawdowns. During the 2022 tech correction, NVDA fell 50%. Having to sell during such periods would lock in losses. The knowledge base's risk management section emphasizes 'Holding cash provides a buffer during market downturns.' (4) TRADE-OFF: The main risk is opportunity cost\u2014cash earning 4-5% in money market funds versus potential 8-10% equity returns. However, this is insurance against forced selling at losses. Consider this allocation temporary and deployable when income stabilizes or market opportunities arise.",
+      "tickers": [
+        "VMFXX",
+        "SPAXX",
+        "FDRXX"
+      ],
+      "suggested_action": "Gradually move $30,000 from your BND bond holdings and rebalance equity gains into high-yield money market funds (VMFXX, SPAXX) over the next 2 months to build cash to 12% allocation ($180,000 total). This provides 6-9 months expense coverage while maintaining bond exposure for portfolio stability.",
+      "suggested_allocation_pct": 12.0,
+      "risk_level": "low",
+      "expected_return_range": "4.5-5.5% annually",
+      "time_horizon": "Maintain until income stabilizes or consulting pipeline reaches 12+ months visibility",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:55:19.464826",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_f3962455",
+      "category": "diversify",
+      "title": "Reduce Technology Overconcentration Risk",
+      "summary": "Trim Technology allocation from 30% to 20% by reducing NVDA position and redirecting $150,000 into Healthcare and Consumer Staples for defensive balance and reduced volatility.",
+      "detailed_rationale": "(1) SIGNAL: Your Technology sector represents 30% of portfolio versus typical market weight of 20-25%. This creates significant concentration risk, especially concerning given your variable income which requires portfolio stability. The knowledge base states 'Diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' (2) ALIGNMENT: With consulting income variability, you need portfolio stability to avoid selling during downturns. Technology stocks, particularly NVDA, exhibit high beta (1.7+) and can experience 30-50% drawdowns. This concentration amplifies portfolio volatility precisely when you need predictability. Your allocation suggests moderate-to-aggressive risk tolerance, but income variability shifts optimal positioning toward moderate with defensive sectors. (3) EVIDENCE: Your current holdings show NVDA as a concentrated position within the 30% tech allocation. In 2022, NVDA declined 50% while Healthcare (XLV) declined only 4% and Consumer Staples (XLP) gained 1%. The knowledge base's portfolio stress testing section advises 'Evaluate how your portfolio would perform in various scenarios: 2008-style crash, rising interest rates, high inflation.' Healthcare and Consumer Staples historically outperform defensively in all three scenarios. (4) TRADE-OFF: You may underperform during strong tech rallies, potentially missing 5-10% additional gains in bull markets. However, the reduced volatility and downside protection aligns better with your income unpredictability. Consider keeping core tech exposure through VTI's tech holdings rather than concentrated positions.",
+      "tickers": [
+        "XLV",
+        "VHT",
+        "XLP",
+        "VDC"
+      ],
+      "suggested_action": "Sell 40% of NVDA position and reduce overall Technology allocation to 20% ($300,000). Invest proceeds in Healthcare ETF (XLV or VHT) for 7% allocation ($105,000) and Consumer Staples ETF (XLP or VDC) for 3% allocation ($45,000). Maintain remaining tech exposure through VTI's diversified holdings.",
+      "suggested_allocation_pct": -10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually from Healthcare/Staples vs 8-15% from concentrated tech",
+      "time_horizon": "Permanent reallocation with quarterly review based on income stability trends",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:55:19.464826",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_e8b651c8",
+      "category": "rebalance",
+      "title": "Reduce Emerging Markets Overweight During Uncertainty",
+      "summary": "Decrease Emerging Markets exposure from 15% to 8% by trimming VWO, reducing currency and geopolitical risk while your income situation requires portfolio defensiveness.",
+      "detailed_rationale": "(1) SIGNAL: Your 15% Emerging Markets allocation (primarily VWO) is approximately double the typical 6-8% institutional allocation and creates elevated volatility. The knowledge base identifies 'Currency risk affects international investments' as a key risk type. With variable consulting income, you're exposed to compounded uncertainty\u2014both income volatility AND currency/geopolitical volatility. (2) ALIGNMENT: Emerging markets exhibit 1.3-1.5x volatility versus developed markets, with additional risks from currency fluctuations, political instability, and lower liquidity. Your situation requires stability prioritization. The knowledge base's risk assessment guidance states 'Be honest about how you'd react to significant portfolio declines'\u2014with income variability, a 25-30% EM drawdown (which occurred in 2022) forces difficult decisions. A moderate allocation approach suggests 6-10% maximum EM exposure. (3) EVIDENCE: VWO experienced a 20% decline in 2022 while VTI declined 13%. The dollar strengthened 8% against EM currencies, creating an additional headwind. Current geopolitical tensions (China-Taiwan, Middle East, Russia-Ukraine) add unpredictability. The knowledge base's stress testing section recommends evaluating performance 'in various scenarios'\u2014EM underperforms in rising rate, strong dollar, and geopolitical stress scenarios, all currently relevant. (4) TRADE-OFF: Emerging markets offer higher long-term growth potential (8-10% vs 7-8% developed). You may underperform if EM rebounds strongly or the dollar weakens. However, reduced volatility and drawdown risk better match your need for portfolio stability during income gaps.",
+      "tickers": [
+        "VWO"
+      ],
+      "suggested_action": "Reduce VWO position by approximately 45%, decreasing Emerging Markets allocation from 15% to 8% ($120,000). Redeploy $105,000 into VTI to increase developed market exposure and improve liquidity. This maintains international diversification while reducing volatility and currency risk.",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-8% annually with reduced volatility versus 7-11% with higher volatility",
+      "time_horizon": "12-18 months, reassess when consulting income stabilizes or EM valuations become compelling",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:55:19.464826",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_059c8d4c",
+      "category": "diversify",
+      "title": "Add Short-Term Bond Ladder for Liquidity Flexibility",
+      "summary": "Create a 5% short-term bond ladder ($75,000) using 1-3 year Treasury ETFs to provide intermediate liquidity between cash and long-duration bonds, supporting income variability.",
+      "detailed_rationale": "(1) SIGNAL: Your current bond allocation (15%, primarily BND) is entirely in aggregate bonds with 6-7 year duration, creating a gap in your liquidity spectrum. You have 5% in cash (immediate) and 15% in intermediate bonds (should hold 3+ years), but nothing in the 6-24 month timeframe. With variable income, you need layered liquidity to avoid tapping emergency cash for every gap or selling equities prematurely. (2) ALIGNMENT: The knowledge base emphasizes 'Regular rebalancing ensures your portfolio stays aligned with target allocations' and discusses tactical allocation for 'short-term adjustments.' A bond ladder provides predictable maturity dates matching potential income gaps while earning more than cash (currently 4.8-5.2% vs 5% for money market, but with tax advantages and rate lock-in). This creates a three-tier liquidity structure: emergency cash (0-6 months), bond ladder (6-24 months), and core bonds/equities (3+ years). (3) EVIDENCE: BND has average duration of 6.2 years, making it sensitive to rate changes (lost 13% in 2022). Short-term Treasury ETFs (SHY, VGSH, SPTS) with 1-3 year duration lost only 3-4% and now yield 4.8-5.2%. Your consulting income likely has natural 3-6 month payment cycles; a bond ladder provides certainty about available funds at specific future dates without market timing risk. The knowledge base states 'Dollar-cost averaging reduces timing risk'\u2014a bond ladder is essentially time-diversification for your liquidity needs. (4) TRADE-OFF: Short-term bonds yield 0.3-0.7% less than current money market funds and 1-2% less than long-term bonds. However, they offer rate lock-in (protecting against potential Fed cuts), tax efficiency versus money market funds, and eliminate equity market timing risk for medium-term needs.",
+      "tickers": [
+        "SHY",
+        "VGSH",
+        "SPTS",
+        "VGIT"
+      ],
+      "suggested_action": "Allocate 5% ($75,000) to short-term Treasury bond ETFs by redirecting half from increased cash buffer and half from BND rebalancing. Consider VGSH (1.5-3 year) or create a custom ladder with SPTS (1 year) and VGIT (3-5 year) tranches. Structure maturities to match your typical consulting payment cycles and known expense timing.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "4.8-5.2% annually with minimal volatility",
+      "time_horizon": "Rolling 1-3 year ladder, maintaining perpetual allocation as rungs mature and reinvest",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:55:19.464826",
+      "composite_score": 0.0
+    }
+  ]
+}

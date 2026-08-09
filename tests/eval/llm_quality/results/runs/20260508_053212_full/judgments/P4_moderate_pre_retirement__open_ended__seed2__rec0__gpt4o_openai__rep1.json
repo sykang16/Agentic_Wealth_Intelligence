@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"The rationale cites the user's moderate risk tolerance, medium investment horizon, and retirement goal, explaining the recommendation based on these attributes.\",\n    \"C2\": \"The risk level is low, one tier adjacent to the user's moderate risk tolerance, justified by the need to protect accumulated wealth as retirement nears.\",\n    \"C3\": \"All claims, including the user's net worth, bond allocation, and holdings, are traceable to the provided profile and portfolio snapshot.\",\n    \"C4\": \"The recommendation specifies tickers, allocation percentage, and a clear step-by-step action plan over the next 12 months.\",\n    \"C5\": \"The recommendation acknowledges the current allocation and suggests a shift that aligns with diversification principles without worsening concentration.\",\n    \"C6\": \"The recommendation uses calibrated language, includes a disclaimer about opportunity costs, and avoids any guarantee-style phrases.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "The rationale cites the user's moderate risk tolerance, medium investment horizon, and retirement goal, explaining the recommendation based on these attributes.",
+      "C2": "The risk level is low, one tier adjacent to the user's moderate risk tolerance, justified by the need to protect accumulated wealth as retirement nears.",
+      "C3": "All claims, including the user's net worth, bond allocation, and holdings, are traceable to the provided profile and portfolio snapshot.",
+      "C4": "The recommendation specifies tickers, allocation percentage, and a clear step-by-step action plan over the next 12 months.",
+      "C5": "The recommendation acknowledges the current allocation and suggests a shift that aligns with diversification principles without worsening concentration.",
+      "C6": "The recommendation uses calibrated language, includes a disclaimer about opportunity costs, and avoids any guarantee-style phrases."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3886,
+    "output_tokens": 267
+  },
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed2",
+  "rec_index": 0,
+  "rec_id": "rec_e4560ea0",
+  "rubric_version": "1.1"
+}

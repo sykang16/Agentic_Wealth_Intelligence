@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B more directly addresses the user's specific query about variable consulting income and cash buffers, citing concrete profile attributes (monthly expenses, debt level, $4M target, legacy goal) and providing precise month-of-expense calculations and execution steps. System A has slightly better factual grounding (B contains a math error claiming $75K = 5.8 months of $13K expenses), but B's stronger personalization, more concrete actionability, and tax-aware sophistication aligned with the user's advanced experience tip the overall judgment.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B more directly addresses the user's specific query about variable consulting income and cash buffers, citing concrete profile attributes (monthly expenses, debt level, $4M target, legacy goal) and providing precise month-of-expense calculations and execution steps. System A has slightly better factual grounding (B contains a math error claiming $75K = 5.8 months of $13K expenses), but B's stronger personalization, more concrete actionability, and tax-aware sophistication aligned with the user's advanced experience tip the overall judgment."
+  },
+  "usage": {
+    "input_tokens": 13411,
+    "output_tokens": 306
+  },
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"tie\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides deeper personalization by explicitly tying recommendations to the user's variable consulting income, liabilities, wealth target CAGR, and legacy goal, and offers more concrete dollar-based actions plus stronger diversification analysis (identifying defensive sector gaps and US concentration). System A better aligns risk levels with the user's aggressive tolerance (particularly its high-risk semiconductor rotation), but B's more thorough profile integration and actionable specifics outweigh this on balance.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "tie",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides deeper personalization by explicitly tying recommendations to the user's variable consulting income, liabilities, wealth target CAGR, and legacy goal, and offers more concrete dollar-based actions plus stronger diversification analysis (identifying defensive sector gaps and US concentration). System A better aligns risk levels with the user's aggressive tolerance (particularly its high-risk semiconductor rotation), but B's more thorough profile integration and actionable specifics outweigh this on balance."
+  },
+  "usage": {
+    "input_tokens": 11151,
+    "output_tokens": 298
+  },
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

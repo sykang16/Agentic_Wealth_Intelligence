@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 3,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Cites aggressive risk tolerance, advanced experience, long horizon, and $4M wealth goal, but ignores the user's actual question about cash buffers and variable income.\",\n    \"C2\": \"risk_level 'high' matches the user's aggressive risk tolerance and the rationale explicitly justifies the EM/India fit to that tolerance.\",\n    \"C3\": \"Holdings (VWO) and allocation figures are traceable to the snapshot; some external claims (China weighting, GDP projections, P/E ratios, correlation) are plausible but unsupported within the inputs.\",\n    \"C4\": \"Provides specific tickers (INDA/INDY), dollar amounts, allocation %, and a clear first step tied to quarterly review.\",\n    \"C5\": \"Identifies concentration risk within EM (China weighting) and proposes a split that reduces single-country risk while keeping total EM allocation steady.\",\n    \"C6\": \"Uses calibrated language ('consider', 'projected', 'historically') with no guarantees, though no explicit disclaimer is included at the rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 3,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Cites aggressive risk tolerance, advanced experience, long horizon, and $4M wealth goal, but ignores the user's actual question about cash buffers and variable income.",
+      "C2": "risk_level 'high' matches the user's aggressive risk tolerance and the rationale explicitly justifies the EM/India fit to that tolerance.",
+      "C3": "Holdings (VWO) and allocation figures are traceable to the snapshot; some external claims (China weighting, GDP projections, P/E ratios, correlation) are plausible but unsupported within the inputs.",
+      "C4": "Provides specific tickers (INDA/INDY), dollar amounts, allocation %, and a clear first step tied to quarterly review.",
+      "C5": "Identifies concentration risk within EM (China weighting) and proposes a split that reduces single-country risk while keeping total EM allocation steady.",
+      "C6": "Uses calibrated language ('consider', 'projected', 'historically') with no guarantees, though no explicit disclaimer is included at the rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6335,
+    "output_tokens": 473
+  },
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed1",
+  "rec_index": 2,
+  "rec_id": "rec_94c472bb",
+  "rubric_version": "1.1"
+}

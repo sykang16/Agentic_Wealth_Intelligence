@@ -1,0 +1,109 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed1",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "rebalance",
+  "query": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+  "seed": 1,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "rebalance",
+      "title": "Trim Energy Overweight Position",
+      "summary": "Reduce energy allocation from 15% to 8-10% by taking profits in XOM and CVX, given current market conditions and concentration risk.",
+      "detailed_rationale": "Your 15% energy allocation is significantly overweight relative to typical diversified portfolios (energy is ~4-5% of S&P 500). While energy stocks have performed well, several factors suggest trimming: (1) Oil prices remain volatile with demand uncertainty from China slowdown and potential recession risks, (2) Long-term structural headwinds from energy transition continue, (3) You already have sector exposure through XLE ETF making individual positions redundant, (4) At age 45 with aggressive risk tolerance, your capital is better deployed in higher-growth secular trends (technology, AI, healthcare innovation). Taking profits now locks in gains and reduces concentration risk. You can maintain core energy exposure through XLE while redeploying proceeds to underweight sectors or growth opportunities more aligned with your 20+ year horizon.",
+      "tickers": [
+        "XOM",
+        "CVX"
+      ],
+      "suggested_action": "Sell 40-50% of XOM and CVX positions; maintain XLE for diversified energy exposure",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Profit-taking action; redeploy to 10-15% annual growth opportunities",
+      "time_horizon": "immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T15:10:29.201395",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "buy",
+      "title": "Increase Healthcare Innovation Exposure",
+      "summary": "Deploy proceeds from energy trim to increase healthcare allocation from 10% to 15%, focusing on biotech and medical technology.",
+      "detailed_rationale": "Healthcare at 10% is underweight given your profile and represents compelling long-term growth opportunity. Key drivers: (1) Aging demographics globally create sustained demand, (2) GLP-1 drugs, AI-driven drug discovery, and gene therapy represent multi-decade innovation waves, (3) Sector is less economically sensitive than energy, providing better diversification, (4) Your advanced experience and aggressive risk tolerance suit higher-volatility healthcare innovation plays, (5) 20+ year horizon allows riding through biotech cycles. Healthcare offers similar upside to technology but with lower correlation, improving overall portfolio efficiency. Specific opportunities include genomics, weight-loss therapeutics, and AI-powered diagnostics. This rebalancing reduces sector concentration risk while maintaining aggressive growth orientation aligned with your $4M wealth accumulation goal.",
+      "tickers": [
+        "XBI",
+        "IBB",
+        "ARKG"
+      ],
+      "suggested_action": "Allocate 5% of portfolio to healthcare innovation ETFs or select biotech positions",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "high",
+      "expected_return_range": "12-18% annually over 10+ years",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T15:10:29.201395",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "diversify",
+      "title": "Add International Developed Markets Exposure",
+      "summary": "Introduce 8-10% allocation to developed international markets (Europe/Japan) to reduce home country bias and capitalize on valuation discrepancies.",
+      "detailed_rationale": "Your portfolio shows strong US focus with only 15% emerging markets (VWO). Adding developed international markets provides: (1) Valuation advantage - European and Japanese equities trade at significant discounts to US markets (P/E ratios 30-40% lower), (2) Currency diversification against dollar, important given your variable income, (3) Exposure to different economic cycles and policy responses, (4) Japan's corporate governance reforms and monetary policy shift create opportunity, (5) European defense, infrastructure, and industrial names benefit from reshoring trends. With $1.5M portfolio and aggressive risk tolerance, geographic diversification improves risk-adjusted returns without sacrificing growth. Your advanced experience positions you well to understand international market dynamics. This complements your emerging markets exposure and reduces correlation to US-specific risks while maintaining equity-heavy allocation.",
+      "tickers": [
+        "VEA",
+        "EFA",
+        "DXJ"
+      ],
+      "suggested_action": "Allocate 8-10% to developed international equity ETFs, split between Europe and Japan",
+      "suggested_allocation_pct": 9.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-14% annually with currency effects",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T15:10:29.201395",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "hold",
+      "title": "Maintain Core Technology and NVDA Position",
+      "summary": "Hold current 30% technology allocation including NVDA position, as AI infrastructure buildout remains multi-year secular trend aligned with aggressive growth objectives.",
+      "detailed_rationale": "Your 30% technology weight is appropriate given: (1) Age 45 with long horizon supports growth equity concentration, (2) Aggressive risk tolerance and 8/10 loss comfort suit tech volatility, (3) AI infrastructure spending is early-stage with 5-10 year runway - data centers, chips, software adoption all accelerating, (4) NVDA specifically dominates AI chip market with 80%+ share and strong competitive moats, (5) Technology sector aligns with wealth compounding goal and $4M target. While concentrated, this positioning matches your sophisticated understanding of markets and comfort with cyclical drawdowns. Your variable income as consultant suggests keeping high-growth assets rather than rotating to defensive positions. Energy trim should flow to other opportunities rather than reducing tech, which remains best positioned for long-term wealth creation. Monitor position sizing if NVDA exceeds 15% of portfolio through appreciation.",
+      "tickers": [
+        "NVDA",
+        "VTI"
+      ],
+      "suggested_action": "Hold current positions; no action needed",
+      "suggested_allocation_pct": 30.0,
+      "risk_level": "high",
+      "expected_return_range": "15-25% annually over market cycle",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T15:10:29.201395",
+      "composite_score": 0.0
+    }
+  ]
+}

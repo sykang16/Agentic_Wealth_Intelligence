@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B better aligns with the user's aggressive risk tolerance, long horizon, variable income, and legacy goal, citing multiple specific profile attributes (age, consultant income, $4M target, child legacy) and proposing growth-oriented redeployment rather than defensive trims that contradict the aggressive mandate. System A is more factually conservative and cleanly grounded but mislabels recommendations as 'low risk' for an aggressive investor and pushes defensive sectors/bonds inconsistent with the stated profile, making B the stronger overall response despite minor speculative claims.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B better aligns with the user's aggressive risk tolerance, long horizon, variable income, and legacy goal, citing multiple specific profile attributes (age, consultant income, $4M target, child legacy) and proposing growth-oriented redeployment rather than defensive trims that contradict the aggressive mandate. System A is more factually conservative and cleanly grounded but mislabels recommendations as 'low risk' for an aggressive investor and pushes defensive sectors/bonds inconsistent with the stated profile, making B the stronger overall response despite minor speculative claims."
+  },
+  "usage": {
+    "input_tokens": 13034,
+    "output_tokens": 323
+  },
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

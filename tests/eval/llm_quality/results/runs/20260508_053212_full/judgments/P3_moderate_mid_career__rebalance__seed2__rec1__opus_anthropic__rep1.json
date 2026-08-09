@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 3,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes\u2014moderate risk, $175K stable income, $9,500 monthly expenses, emergency fund, intermediate experience, and 10-25 year horizons for education and retirement\u2014and ties them causally to the recommendation.\",\n    \"C2\": \"risk_level 'moderate' matches the user's moderate risk tolerance exactly, and the rationale explicitly justifies that the user's risk capacity supports international volatility.\",\n    \"C3\": \"The recommendation fabricates a specific current international allocation (~15%) and a $32,000 figure tied to an unspecified 'recommendation #1' tech sale, neither of which is grounded in the provided snapshot.\",\n    \"C4\": \"Specifies ticker (VXUS), dollar amount ($32,000), target allocation (25%), time horizon, and a clear first action (redirect proceeds from tech sales).\",\n    \"C5\": \"Acknowledges the U.S.-concentration in the existing allocation and proposes a diversifying move, though it pivots away from the user's specific tech-concentration question rather than directly addressing the 35% tech weighting.\",\n    \"C6\": \"Uses calibrated language ('appears', 'likely', 'may underperform'), acknowledges trade-offs including currency risk, and avoids guarantee-style claims.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 3,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes\u2014moderate risk, $175K stable income, $9,500 monthly expenses, emergency fund, intermediate experience, and 10-25 year horizons for education and retirement\u2014and ties them causally to the recommendation.",
+      "C2": "risk_level 'moderate' matches the user's moderate risk tolerance exactly, and the rationale explicitly justifies that the user's risk capacity supports international volatility.",
+      "C3": "The recommendation fabricates a specific current international allocation (~15%) and a $32,000 figure tied to an unspecified 'recommendation #1' tech sale, neither of which is grounded in the provided snapshot.",
+      "C4": "Specifies ticker (VXUS), dollar amount ($32,000), target allocation (25%), time horizon, and a clear first action (redirect proceeds from tech sales).",
+      "C5": "Acknowledges the U.S.-concentration in the existing allocation and proposes a diversifying move, though it pivots away from the user's specific tech-concentration question rather than directly addressing the 35% tech weighting.",
+      "C6": "Uses calibrated language ('appears', 'likely', 'may underperform'), acknowledges trade-offs including currency risk, and avoids guarantee-style claims."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6011,
+    "output_tokens": 555
+  },
+  "session_id": "P3_moderate_mid_career__rebalance__seed2",
+  "rec_index": 1,
+  "rec_id": "rec_d0989441",
+  "rubric_version": "1.1"
+}

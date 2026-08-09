@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides deeper personalization by citing specific profile attributes (loss comfort 2/10, expense ratios, knowledge base guidelines) and adds a valuable concentration-risk recommendation that addresses individual stock holdings, demonstrating stronger diversification awareness. While System A is slightly more grounded (B's claim of $30-42K portfolio income is somewhat speculative), B's more concrete actionable steps and broader coverage of the user's situation give it the overall edge.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides deeper personalization by citing specific profile attributes (loss comfort 2/10, expense ratios, knowledge base guidelines) and adds a valuable concentration-risk recommendation that addresses individual stock holdings, demonstrating stronger diversification awareness. While System A is slightly more grounded (B's claim of $30-42K portfolio income is somewhat speculative), B's more concrete actionable steps and broader coverage of the user's situation give it the overall edge."
+  },
+  "usage": {
+    "input_tokens": 10528,
+    "output_tokens": 293
+  },
+  "session_id": "P1_conservative_retiree__rebalance__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

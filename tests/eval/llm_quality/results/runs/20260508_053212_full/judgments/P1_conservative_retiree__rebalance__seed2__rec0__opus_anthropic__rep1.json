@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 4,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Cites multiple specific profile attributes (age 65, conservative tolerance, loss comfort 2/10, short horizon, high liquidity, retirement income goal) and ties them causally to the hold decision.\",\n    \"C2\": \"Risk_level 'low' matches conservative tolerance exactly and the rationale explicitly justifies the fit by referencing the 50-70% bond conservative model.\",\n    \"C3\": \"Tickers and allocations are accurate to the snapshot; minor unsupported claims include the BND expense ratio (0.03%) and '10,000+ bond holdings' which are reasonable but not in the inputs.\",\n    \"C4\": \"Provides concrete tickers (BND, AGG), specific allocation % (50%), and a clear first-step instruction (maintain and reinvest dividends), though no time-bound review step.\",\n    \"C5\": \"Acknowledges current allocation across asset types and sectors and confirms the recommendation is consistent with diversification, though it doesn't flag the heavy Healthcare/Utilities sector tilts within equities.\",\n    \"C6\": \"Uses calibrated language ('may temporarily decline', 'acceptable') with no guarantees; lacks an explicit informational disclaimer at the rec level but tone is appropriate.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 4,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Cites multiple specific profile attributes (age 65, conservative tolerance, loss comfort 2/10, short horizon, high liquidity, retirement income goal) and ties them causally to the hold decision.",
+      "C2": "Risk_level 'low' matches conservative tolerance exactly and the rationale explicitly justifies the fit by referencing the 50-70% bond conservative model.",
+      "C3": "Tickers and allocations are accurate to the snapshot; minor unsupported claims include the BND expense ratio (0.03%) and '10,000+ bond holdings' which are reasonable but not in the inputs.",
+      "C4": "Provides concrete tickers (BND, AGG), specific allocation % (50%), and a clear first-step instruction (maintain and reinvest dividends), though no time-bound review step.",
+      "C5": "Acknowledges current allocation across asset types and sectors and confirms the recommendation is consistent with diversification, though it doesn't flag the heavy Healthcare/Utilities sector tilts within equities.",
+      "C6": "Uses calibrated language ('may temporarily decline', 'acceptable') with no guarantees; lacks an explicit informational disclaimer at the rec level but tone is appropriate."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 5997,
+    "output_tokens": 537
+  },
+  "session_id": "P1_conservative_retiree__rebalance__seed2",
+  "rec_index": 0,
+  "rec_id": "rec_aebbc23d",
+  "rubric_version": "1.1"
+}

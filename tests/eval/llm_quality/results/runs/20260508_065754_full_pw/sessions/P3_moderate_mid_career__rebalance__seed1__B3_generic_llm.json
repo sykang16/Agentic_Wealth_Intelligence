@@ -1,0 +1,111 @@
+{
+  "session_id": "P3_moderate_mid_career__rebalance__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "rebalance",
+  "query": "My tech exposure is around 35% across my ETFs and individual stocks. Is that too concentrated, and how would I trim it?",
+  "seed": 1,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "rebalance",
+      "title": "Reduce Technology Sector Concentration",
+      "summary": "Your 35% technology allocation exceeds recommended diversification guidelines for moderate risk tolerance. Trim tech holdings to 20-25% to reduce sector-specific risk.",
+      "detailed_rationale": "With 35% tech exposure, your portfolio is significantly overweight in a single sector, creating concentration risk. For a moderate risk investor with a 10-year education goal, this creates vulnerability to tech sector downturns. The recommended sector allocation for diversified portfolios typically caps individual sectors at 20-25%. Your tech exposure comes from both individual stocks (AAPL, MSFT, NVDA, GOOGL) and likely VTI overlap. Trimming 10-15% of tech exposure would improve diversification while maintaining growth potential. Consider selling portions of your individual tech stocks first, as VTI provides broader tech exposure with less volatility.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Sell 40-50% of individual tech stock positions (AAPL, MSFT, NVDA, GOOGL) to reduce overall tech exposure from 35% to 22-25%",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "N/A - risk reduction focus",
+      "time_horizon": "immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:06:55.434048",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "diversify",
+      "title": "Reallocate Proceeds to Underweight Sectors",
+      "summary": "Deploy proceeds from tech trimming into underrepresented sectors including Real Estate, Utilities, Materials, and increase International exposure.",
+      "detailed_rationale": "After reducing tech concentration, reinvest proceeds to strengthen portfolio diversification. Your current allocation shows gaps in defensive sectors (Utilities, Real Estate) and cyclical sectors (Materials). With two high-priority goals and moderate risk tolerance, adding exposure to Real Estate (REITs provide income and inflation protection), Utilities (defensive characteristics), and Materials (commodity exposure) will create better balance. Consider increasing VXUS allocation for additional international diversification, which currently represents unknown but likely insufficient global exposure given your long time horizons.",
+      "tickers": [
+        "VNQ",
+        "VPU",
+        "VAW",
+        "VXUS"
+      ],
+      "suggested_action": "Allocate tech sale proceeds: 4% to Real Estate ETF (VNQ), 3% to Utilities (VPU), 3% to Materials (VAW), and increase VXUS by 5%",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:06:55.434048",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "buy",
+      "title": "Establish 529 College Savings Plan for Education Goal",
+      "summary": "Open 529 plan(s) for your children's education goal, contributing aggressively given the 10-year timeline to reach $200,000 target.",
+      "detailed_rationale": "With a $200,000 education goal in ~10 years and current net worth of $140,000, you need dedicated tax-advantaged savings. A 529 plan offers tax-free growth and withdrawals for qualified education expenses. Given your $175,000 income, $9,500 monthly expenses, and stable employment, you have approximately $5,000+ monthly surplus capacity. To reach $200,000 in 10 years assuming 7% returns, you'd need to contribute approximately $1,150/month. Age-based 529 portfolios automatically reduce equity exposure as college approaches, aligning with your moderate risk tolerance. This separation also protects education funding from portfolio rebalancing decisions and provides state tax deductions in many states.",
+      "tickers": [
+        "529"
+      ],
+      "suggested_action": "Open 529 plan(s) and establish automatic monthly contributions of $1,200-1,500 to stay on track for $200,000 education goal",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% annually",
+      "time_horizon": "medium",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:06:55.434048",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "hold",
+      "title": "Maintain Core Bond and International Equity Holdings",
+      "summary": "Continue holding BND for fixed income allocation and maintain VXUS positions. Your 30% bond allocation is appropriate for moderate risk tolerance with medium-term goals.",
+      "detailed_rationale": "Your 30% bond allocation via BND provides appropriate downside protection and stability for a 40-year-old moderate risk investor with a 10-year education funding goal. This allocation balances growth potential with risk management. BND offers broad exposure to investment-grade bonds with low expense ratios. Similarly, VXUS provides essential international diversification beyond US markets. With these core holdings performing their intended roles (bonds for stability, international for diversification), maintain these positions while implementing the tech rebalancing and sector diversification recommendations above. As you approach the education funding timeline in 7-8 years, gradually increase bond allocation toward 40%.",
+      "tickers": [
+        "BND",
+        "VXUS",
+        "VTI"
+      ],
+      "suggested_action": "Hold current positions in BND, VXUS, and VTI as portfolio foundation; no immediate changes needed",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-8% annually blended",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:06:55.434048",
+      "composite_score": 0.0
+    }
+  ]
+}

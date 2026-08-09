@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"tie\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B demonstrates stronger personalization by referencing specific profile details (leverage ratio, variable income, net worth) and provides more grounded quantitative claims with valuation context, while also directly addressing the user's query with a 'hold' counter-argument. System A wins on risk alignment for the rotation rec (high risk_level matches aggressive tolerance) but B's broader portfolio-aware reasoning and diversification framing (energy as hedge, quality factor balance) edges out overall.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "tie",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B demonstrates stronger personalization by referencing specific profile details (leverage ratio, variable income, net worth) and provides more grounded quantitative claims with valuation context, while also directly addressing the user's query with a 'hold' counter-argument. System A wins on risk alignment for the rotation rec (high risk_level matches aggressive tolerance) but B's broader portfolio-aware reasoning and diversification framing (energy as hedge, quality factor balance) edges out overall."
+  },
+  "usage": {
+    "input_tokens": 12675,
+    "output_tokens": 293
+  },
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

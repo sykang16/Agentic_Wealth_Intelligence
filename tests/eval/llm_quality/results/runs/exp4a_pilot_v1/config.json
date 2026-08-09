@@ -1,0 +1,43 @@
+{
+  "experiment": "4a_rag_similarity_gating",
+  "started_at_utc": "2026-07-05T13:22:12.905410+00:00",
+  "mode": "exp4a_pilot",
+  "system_model": "claude-sonnet-4-5",
+  "judge_anthropic": "claude-opus-4-7",
+  "judge_openai": "gpt-4o",
+  "seeds": 2,
+  "max_recs": 4,
+  "thresholds": {
+    "A_gated_040": 0.4,
+    "A_gated_045": 0.45
+  },
+  "systems": [
+    "A_wealthnexus",
+    "A_gated_040",
+    "A_gated_045",
+    "B2_rag_blind"
+  ],
+  "pairs": [
+    [
+      "A_gated_040",
+      "A_wealthnexus"
+    ],
+    [
+      "A_gated_045",
+      "A_wealthnexus"
+    ],
+    [
+      "A_gated_040",
+      "B2_rag_blind"
+    ],
+    [
+      "A_gated_045",
+      "B2_rag_blind"
+    ]
+  ],
+  "gen_temperature": 0.4,
+  "judge_temperature": 0.0,
+  "dry_run": false,
+  "personas_sha": "f0386ff9b4acc720",
+  "rubric_sha": "b752d63159351ad0"
+}

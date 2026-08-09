@@ -1,0 +1,374 @@
+{
+  "keyword": {
+    "metrics": {
+      "overall_acc": 0.98,
+      "hard_acc": 0.9090909090909091,
+      "n_total": 100,
+      "n_correct": 98,
+      "n_hard": 22,
+      "n_hard_correct": 20,
+      "per_class": {
+        "portfolio_query": {
+          "precision": 1.0,
+          "recall": 0.92,
+          "f1": 0.9583333333333334,
+          "tp": 23,
+          "fp": 0,
+          "fn": 2
+        },
+        "profiling": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 25,
+          "fp": 0,
+          "fn": 0
+        },
+        "recommendation": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 25,
+          "fp": 0,
+          "fn": 0
+        },
+        "general": {
+          "precision": 0.9259259259259259,
+          "recall": 1.0,
+          "f1": 0.9615384615384615,
+          "tp": 25,
+          "fp": 2,
+          "fn": 0
+        }
+      },
+      "confusion": {
+        "portfolio_query": {
+          "portfolio_query": 23,
+          "profiling": 0,
+          "recommendation": 0,
+          "general": 2
+        },
+        "profiling": {
+          "portfolio_query": 0,
+          "profiling": 25,
+          "recommendation": 0,
+          "general": 0
+        },
+        "recommendation": {
+          "portfolio_query": 0,
+          "profiling": 0,
+          "recommendation": 25,
+          "general": 0
+        },
+        "general": {
+          "portfolio_query": 0,
+          "profiling": 0,
+          "recommendation": 0,
+          "general": 25
+        }
+      }
+    },
+    "avg_latency_ms": 0.0035009882412850857,
+    "p95_latency_ms": 0.0055998098105192184,
+    "cost_per_query": 0.0
+  },
+  "zero_shot": {
+    "metrics": {
+      "overall_acc": 0.97,
+      "hard_acc": 0.9090909090909091,
+      "n_total": 100,
+      "n_correct": 97,
+      "n_hard": 22,
+      "n_hard_correct": 20,
+      "per_class": {
+        "portfolio_query": {
+          "precision": 1.0,
+          "recall": 0.96,
+          "f1": 0.9795918367346939,
+          "tp": 24,
+          "fp": 0,
+          "fn": 1
+        },
+        "profiling": {
+          "precision": 0.9230769230769231,
+          "recall": 0.96,
+          "f1": 0.9411764705882353,
+          "tp": 24,
+          "fp": 2,
+          "fn": 1
+        },
+        "recommendation": {
+          "precision": 1.0,
+          "recall": 0.96,
+          "f1": 0.9795918367346939,
+          "tp": 24,
+          "fp": 0,
+          "fn": 1
+        },
+        "general": {
+          "precision": 0.9615384615384616,
+          "recall": 1.0,
+          "f1": 0.9803921568627451,
+          "tp": 25,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "confusion": {
+        "portfolio_query": {
+          "portfolio_query": 24,
+          "profiling": 1,
+          "recommendation": 0,
+          "general": 0
+        },
+        "profiling": {
+          "portfolio_query": 0,
+          "profiling": 24,
+          "recommendation": 0,
+          "general": 1
+        },
+        "recommendation": {
+          "portfolio_query": 0,
+          "profiling": 1,
+          "recommendation": 24,
+          "general": 0
+        },
+        "general": {
+          "portfolio_query": 0,
+          "profiling": 0,
+          "recommendation": 0,
+          "general": 25
+        }
+      }
+    },
+    "avg_latency_ms": 783.7569829938002,
+    "p95_latency_ms": 1333.5250997915864,
+    "cost_per_query": 0.00026
+  },
+  "few_shot": {
+    "metrics": {
+      "overall_acc": 0.97,
+      "hard_acc": 0.9090909090909091,
+      "n_total": 100,
+      "n_correct": 97,
+      "n_hard": 22,
+      "n_hard_correct": 20,
+      "per_class": {
+        "portfolio_query": {
+          "precision": 1.0,
+          "recall": 0.96,
+          "f1": 0.9795918367346939,
+          "tp": 24,
+          "fp": 0,
+          "fn": 1
+        },
+        "profiling": {
+          "precision": 1.0,
+          "recall": 0.92,
+          "f1": 0.9583333333333334,
+          "tp": 23,
+          "fp": 0,
+          "fn": 2
+        },
+        "recommendation": {
+          "precision": 0.9259259259259259,
+          "recall": 1.0,
+          "f1": 0.9615384615384615,
+          "tp": 25,
+          "fp": 2,
+          "fn": 0
+        },
+        "general": {
+          "precision": 0.9615384615384616,
+          "recall": 1.0,
+          "f1": 0.9803921568627451,
+          "tp": 25,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "confusion": {
+        "portfolio_query": {
+          "portfolio_query": 24,
+          "profiling": 0,
+          "recommendation": 1,
+          "general": 0
+        },
+        "profiling": {
+          "portfolio_query": 0,
+          "profiling": 23,
+          "recommendation": 1,
+          "general": 1
+        },
+        "recommendation": {
+          "portfolio_query": 0,
+          "profiling": 0,
+          "recommendation": 25,
+          "general": 0
+        },
+        "general": {
+          "portfolio_query": 0,
+          "profiling": 0,
+          "recommendation": 0,
+          "general": 25
+        }
+      }
+    },
+    "avg_latency_ms": 1027.727060006,
+    "p95_latency_ms": 2150.033700047061,
+    "cost_per_query": 0.0005
+  },
+  "sbert_lr": {
+    "metrics": {
+      "overall_acc": 0.9,
+      "hard_acc": 0.8181818181818182,
+      "n_total": 100,
+      "n_correct": 90,
+      "n_hard": 22,
+      "n_hard_correct": 18,
+      "per_class": {
+        "portfolio_query": {
+          "precision": 0.88,
+          "recall": 0.88,
+          "f1": 0.88,
+          "tp": 22,
+          "fp": 3,
+          "fn": 3
+        },
+        "profiling": {
+          "precision": 0.9130434782608695,
+          "recall": 0.84,
+          "f1": 0.8749999999999999,
+          "tp": 21,
+          "fp": 2,
+          "fn": 4
+        },
+        "recommendation": {
+          "precision": 0.8620689655172413,
+          "recall": 1.0,
+          "f1": 0.9259259259259259,
+          "tp": 25,
+          "fp": 4,
+          "fn": 0
+        },
+        "general": {
+          "precision": 0.9565217391304348,
+          "recall": 0.88,
+          "f1": 0.9166666666666666,
+          "tp": 22,
+          "fp": 1,
+          "fn": 3
+        }
+      },
+      "confusion": {
+        "portfolio_query": {
+          "portfolio_query": 22,
+          "profiling": 1,
+          "recommendation": 2,
+          "general": 0
+        },
+        "profiling": {
+          "portfolio_query": 2,
+          "profiling": 21,
+          "recommendation": 1,
+          "general": 1
+        },
+        "recommendation": {
+          "portfolio_query": 0,
+          "profiling": 0,
+          "recommendation": 25,
+          "general": 0
+        },
+        "general": {
+          "portfolio_query": 1,
+          "profiling": 1,
+          "recommendation": 1,
+          "general": 22
+        }
+      }
+    },
+    "avg_latency_ms": 7.619465012103319,
+    "p95_latency_ms": 7.738895928487182,
+    "cost_per_query": 0.0
+  },
+  "finbert_ft": {
+    "metrics": {
+      "overall_acc": 0.83,
+      "hard_acc": 0.7727272727272727,
+      "n_total": 100,
+      "n_correct": 83,
+      "n_hard": 22,
+      "n_hard_correct": 17,
+      "per_class": {
+        "portfolio_query": {
+          "precision": 0.7916666666666666,
+          "recall": 0.76,
+          "f1": 0.7755102040816326,
+          "tp": 19,
+          "fp": 5,
+          "fn": 6
+        },
+        "profiling": {
+          "precision": 0.8076923076923077,
+          "recall": 0.84,
+          "f1": 0.8235294117647058,
+          "tp": 21,
+          "fp": 5,
+          "fn": 4
+        },
+        "recommendation": {
+          "precision": 0.8214285714285714,
+          "recall": 0.92,
+          "f1": 0.8679245283018867,
+          "tp": 23,
+          "fp": 5,
+          "fn": 2
+        },
+        "general": {
+          "precision": 0.9090909090909091,
+          "recall": 0.8,
+          "f1": 0.8510638297872342,
+          "tp": 20,
+          "fp": 2,
+          "fn": 5
+        }
+      },
+      "confusion": {
+        "portfolio_query": {
+          "portfolio_query": 19,
+          "profiling": 3,
+          "recommendation": 2,
+          "general": 1
+        },
+        "profiling": {
+          "portfolio_query": 2,
+          "profiling": 21,
+          "recommendation": 1,
+          "general": 1
+        },
+        "recommendation": {
+          "portfolio_query": 1,
+          "profiling": 1,
+          "recommendation": 23,
+          "general": 0
+        },
+        "general": {
+          "portfolio_query": 2,
+          "profiling": 1,
+          "recommendation": 2,
+          "general": 20
+        }
+      }
+    },
+    "avg_latency_ms": 116.14196800626814,
+    "p95_latency_ms": 155.3773998748511,
+    "cost_per_query": 0.0,
+    "fold_accs": [
+      0.85,
+      0.85,
+      0.9,
+      0.8,
+      0.75
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 4,\n  \"C2_risk_alignment\": 3,\n  \"C3_factual_grounding\": 2,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 2,\n  \"rationale\": {\n    \"C1\": \"Rationale references multiple specific profile attributes (high $280K income, variable consulting income, advanced experience, legacy goal) and ties them to the strategy.\",\n    \"C2\": \"risk_level 'low' is reasonable for a tax strategy but doesn't match the user's aggressive tolerance, and the rationale doesn't justify the risk-tier choice explicitly.\",\n    \"C3\": \"Contains a materially incorrect claim that swapping XOM/CVX for XLE avoids the wash-sale rule (these are generally considered substantially identical for wash-sale purposes by many practitioners, and the IRS has not blessed this), plus unverified specific tax-savings numbers.\",\n    \"C4\": \"Provides concrete tickers, allocation %, specific trigger thresholds (>10% drop), step-by-step instructions, and a clear first action.\",\n    \"C5\": \"Acknowledges the 15% energy allocation and overlap between XLE and individual holdings, suggesting consolidation, but doesn't address the larger 30% tech concentration or the actual query about cash buffers.\",\n    \"C6\": \"Makes an aggressive and contestable tax claim about wash-sale rule avoidance presented as fact, which could mislead the user into a non-compliant strategy; lacks a 'consult a tax professional' caveat for a tax-specific recommendation.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 4,
+    "C2_risk_alignment": 3,
+    "C3_factual_grounding": 2,
+    "C4_actionability": 5,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 2,
+    "rationale": {
+      "C1": "Rationale references multiple specific profile attributes (high $280K income, variable consulting income, advanced experience, legacy goal) and ties them to the strategy.",
+      "C2": "risk_level 'low' is reasonable for a tax strategy but doesn't match the user's aggressive tolerance, and the rationale doesn't justify the risk-tier choice explicitly.",
+      "C3": "Contains a materially incorrect claim that swapping XOM/CVX for XLE avoids the wash-sale rule (these are generally considered substantially identical for wash-sale purposes by many practitioners, and the IRS has not blessed this), plus unverified specific tax-savings numbers.",
+      "C4": "Provides concrete tickers, allocation %, specific trigger thresholds (>10% drop), step-by-step instructions, and a clear first action.",
+      "C5": "Acknowledges the 15% energy allocation and overlap between XLE and individual holdings, suggesting consolidation, but doesn't address the larger 30% tech concentration or the actual query about cash buffers.",
+      "C6": "Makes an aggressive and contestable tax claim about wash-sale rule avoidance presented as fact, which could mislead the user into a non-compliant strategy; lacks a 'consult a tax professional' caveat for a tax-specific recommendation."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6532,
+    "output_tokens": 565
+  },
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed1",
+  "rec_index": 3,
+  "rec_id": "rec_b06f263d",
+  "rubric_version": "1.1"
+}

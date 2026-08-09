@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides more specific quantitative analysis tied to the user's profile (net worth math, glide path schedules, asset location dollar impacts, sector benchmark comparisons) and more concrete actionable steps with specific dollar amounts and tickers like VNQ and VGSH. System A is better grounded factually (B makes some questionable claims about $50-60k upfront 529 funding from a $140k net worth and assumes a spouse), but B's stronger personalization, actionability, and diversification specificity outweigh A's grounding edge.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides more specific quantitative analysis tied to the user's profile (net worth math, glide path schedules, asset location dollar impacts, sector benchmark comparisons) and more concrete actionable steps with specific dollar amounts and tickers like VNQ and VGSH. System A is better grounded factually (B makes some questionable claims about $50-60k upfront 529 funding from a $140k net worth and assumes a spouse), but B's stronger personalization, actionability, and diversification specificity outweigh A's grounding edge."
+  },
+  "usage": {
+    "input_tokens": 13827,
+    "output_tokens": 308
+  },
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

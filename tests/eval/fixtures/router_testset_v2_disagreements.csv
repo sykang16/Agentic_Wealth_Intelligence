@@ -1,0 +1,15 @@
+message,generator,generator_label,verifier_labels,resolution
+I'm trying to understand whether my current financial position reflects the goals I set earlier,claude_sonnet,portfolio_query,"{""gpt_4o"": ""profiling"", ""gemini_flash"": ""profiling""}",relabel_to_profiling
+What's my current investment strategy looking like?,claude_sonnet,profiling,"{""gpt_4o"": ""portfolio_query"", ""gemini_flash"": ""profiling""}",kept_as_hard
+Tell me more about different investor personality types,claude_sonnet,profiling,"{""gpt_4o"": ""general"", ""gemini_flash"": ""general""}",relabel_to_general
+Are my investments diversified appropriately?,gpt_4o,portfolio_query,"{""claude_opus"": ""recommendation"", ""gemini_flash"": ""recommendation""}",relabel_to_recommendation
+Is my asset allocation aligned with market trends?,gpt_4o,portfolio_query,"{""claude_opus"": ""portfolio_query"", ""gemini_flash"": ""recommendation""}",kept_as_hard
+What should be my investment plan?,gpt_4o,profiling,"{""claude_opus"": ""recommendation"", ""gemini_flash"": ""profiling""}",kept_as_hard
+How should I adjust my investments based on my income?,gpt_4o,profiling,"{""claude_opus"": ""recommendation"", ""gemini_flash"": ""recommendation""}",relabel_to_recommendation
+Can you explain how to set up an investment profile?,gpt_4o,profiling,"{""claude_opus"": ""general"", ""gemini_flash"": ""profiling""}",kept_as_hard
+"Achieving financial stability is important, how should I go about it?",gpt_4o,profiling,"{""claude_opus"": ""general"", ""gemini_flash"": ""general""}",relabel_to_general
+What’s your take on investing in emerging markets?,gpt_4o,recommendation,"{""claude_opus"": ""general"", ""gemini_flash"": ""general""}",relabel_to_general
+Do you recommend index funds or mutual funds for a beginner investor?,gemini_flash,recommendation,"{""claude_opus"": ""general"", ""gpt_4o"": ""recommendation""}",kept_as_hard
+"If you had to choose between gold and silver to hedge against inflation today, which path would you take?",gemini_flash,recommendation,"{""claude_opus"": ""general"", ""gpt_4o"": ""general""}",relabel_to_general
+"I want to be aggressive but not stupidly risky, what kind of mix are we looking at for that?",gemini_flash,recommendation,"{""claude_opus"": ""recommendation"", ""gpt_4o"": ""profiling""}",kept_as_hard
+Reset everything please.,gemini_flash,general,"{""claude_opus"": ""general"", ""gpt_4o"": ""profiling""}",kept_as_hard

@@ -1,0 +1,30 @@
+{
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "sector_specific",
+  "seed": 2,
+  "sys_a": "A_gated_045",
+  "sys_b": "B2_rag_blind",
+  "order": 2,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"A\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A directly answers the user's query about which sectors to reduce and keep for income, with well-grounded, sector-specific rationales aligned to the moderate risk profile and glide-path goal. System B introduces questionable moves (reducing defensive Healthcare, which contradicts the user's income-generation need) and drifts off-topic with a tax-optimization recommendation, weakening its risk alignment and diversification reasoning despite strong personalization detail.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "A"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A directly answers the user's query about which sectors to reduce and keep for income, with well-grounded, sector-specific rationales aligned to the moderate risk profile and glide-path goal. System B introduces questionable moves (reducing defensive Healthcare, which contradicts the user's income-generation need) and drifts off-topic with a tax-optimization recommendation, weakening its risk alignment and diversification reasoning despite strong personalization detail."
+  },
+  "usage": {
+    "input_tokens": 12499,
+    "output_tokens": 278
+  }
+}

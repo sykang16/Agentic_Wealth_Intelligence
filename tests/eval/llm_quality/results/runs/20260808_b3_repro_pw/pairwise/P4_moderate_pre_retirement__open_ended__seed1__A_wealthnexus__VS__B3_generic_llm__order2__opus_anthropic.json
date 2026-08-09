@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides more granular personalization citing specific dollar amounts, contribution limits, and sector overweights, with clearer actionable steps including specific dollar allocations and tax implications. System A has some internal inconsistencies (Rec #1 confuses 60/40 direction and cites a 60% equity split that doesn't match the stated 55% allocation) while B's rationales are more precisely grounded in the portfolio snapshot data.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides more granular personalization citing specific dollar amounts, contribution limits, and sector overweights, with clearer actionable steps including specific dollar allocations and tax implications. System A has some internal inconsistencies (Rec #1 confuses 60/40 direction and cites a 60% equity split that doesn't match the stated 55% allocation) while B's rationales are more precisely grounded in the portfolio snapshot data."
+  },
+  "usage": {
+    "input_tokens": 11135,
+    "output_tokens": 274
+  },
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

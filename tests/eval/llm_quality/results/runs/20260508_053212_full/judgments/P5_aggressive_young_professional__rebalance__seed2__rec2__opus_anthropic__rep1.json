@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 2,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"The rationale explicitly cites age 30, aggressive risk tolerance, stable income, 15-year FIRE horizon, and the $2.5M wealth goal, causally linking them to the recommendation.\",\n    \"C2\": \"User is aggressive but risk_level is labeled 'moderate' without a clear justification for the downgrade, and the rec actually maintains aggressive equity exposure \u2014 the label mismatches the content and tolerance.\",\n    \"C3\": \"Most claims (BTC allocation $9,000, U.S.-only holdings, no international exposure) are traceable; volatility figures and '40%+ global market cap' are generic but plausible unsupported quantitative claims.\",\n    \"C4\": \"Provides specific tickers (VEA, VWO), dollar amount (~$7,200), exact target percentages (10% VEA, 5% VWO, \u22641% BTC), and a clear first step (sell 3-4% BTC).\",\n    \"C5\": \"Directly identifies the zero international exposure gap and the speculative crypto sliver, and the recommendation actively addresses both diversification issues.\",\n    \"C6\": \"Uses calibrated language ('may', 'historically', 'provides'), no guaranteed returns, and frames trade-offs explicitly including downside scenarios.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 2,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "The rationale explicitly cites age 30, aggressive risk tolerance, stable income, 15-year FIRE horizon, and the $2.5M wealth goal, causally linking them to the recommendation.",
+      "C2": "User is aggressive but risk_level is labeled 'moderate' without a clear justification for the downgrade, and the rec actually maintains aggressive equity exposure \u2014 the label mismatches the content and tolerance.",
+      "C3": "Most claims (BTC allocation $9,000, U.S.-only holdings, no international exposure) are traceable; volatility figures and '40%+ global market cap' are generic but plausible unsupported quantitative claims.",
+      "C4": "Provides specific tickers (VEA, VWO), dollar amount (~$7,200), exact target percentages (10% VEA, 5% VWO, \u22641% BTC), and a clear first step (sell 3-4% BTC).",
+      "C5": "Directly identifies the zero international exposure gap and the speculative crypto sliver, and the recommendation actively addresses both diversification issues.",
+      "C6": "Uses calibrated language ('may', 'historically', 'provides'), no guaranteed returns, and frames trade-offs explicitly including downside scenarios."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6126,
+    "output_tokens": 539
+  },
+  "session_id": "P5_aggressive_young_professional__rebalance__seed2",
+  "rec_index": 2,
+  "rec_id": "rec_e793d684",
+  "rubric_version": "1.1"
+}

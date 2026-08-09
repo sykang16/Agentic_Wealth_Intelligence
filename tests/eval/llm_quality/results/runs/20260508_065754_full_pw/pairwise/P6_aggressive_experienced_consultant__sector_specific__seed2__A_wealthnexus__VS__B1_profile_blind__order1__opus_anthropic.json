@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A correctly identifies the user as having aggressive risk tolerance and tailors recommendations accordingly (citing variable consulting income, $4M wealth target, advanced experience), while System B repeatedly mischaracterizes the user as 'moderate' risk tolerance, leading to risk-misaligned advice (e.g., increasing bonds to 22%, labeling NVDA exposure as concentration risk for a moderate investor). System A's actions are also more concrete with specific ticker-level allocations, whereas System B's factual framing is undermined by the recurring profile error.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A correctly identifies the user as having aggressive risk tolerance and tailors recommendations accordingly (citing variable consulting income, $4M wealth target, advanced experience), while System B repeatedly mischaracterizes the user as 'moderate' risk tolerance, leading to risk-misaligned advice (e.g., increasing bonds to 22%, labeling NVDA exposure as concentration risk for a moderate investor). System A's actions are also more concrete with specific ticker-level allocations, whereas System B's factual framing is undermined by the recurring profile error."
+  },
+  "usage": {
+    "input_tokens": 13327,
+    "output_tokens": 322
+  },
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

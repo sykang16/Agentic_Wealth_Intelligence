@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more deeply personalized rationales citing multiple specific profile attributes (variable consultant income, legacy goal, loss comfort, horizon) with concrete tickers, allocations, and first-step instructions across all four recs. System B is competent and adds useful tax-optimization angle, but its rationales are less specific, one rec has 'N/A' tickers, and its Rec #3 mischaracterizes sector weights (industrials/financials at 15% each) as if uncontested while the actionability is weaker.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more deeply personalized rationales citing multiple specific profile attributes (variable consultant income, legacy goal, loss comfort, horizon) with concrete tickers, allocations, and first-step instructions across all four recs. System B is competent and adds useful tax-optimization angle, but its rationales are less specific, one rec has 'N/A' tickers, and its Rec #3 mischaracterizes sector weights (industrials/financials at 15% each) as if uncontested while the actionability is weaker."
+  },
+  "usage": {
+    "input_tokens": 11493,
+    "output_tokens": 301
+  },
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 1,
+  "rubric_version": "1.1"
+}

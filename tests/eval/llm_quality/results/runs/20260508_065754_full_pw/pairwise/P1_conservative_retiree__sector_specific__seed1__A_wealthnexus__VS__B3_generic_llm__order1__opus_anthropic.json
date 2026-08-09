@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more detailed, profile-grounded rationales with specific numeric calculations (emergency fund sizing, tax-equivalent yields, dividend yields) and concrete laddering instructions, directly answering the query while extending to adjacent optimizations. System B is coherent and addresses the question but is less specific in actionability and grounding, and Rec #4 references a 25% allocation that overlaps confusingly with existing cash.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more detailed, profile-grounded rationales with specific numeric calculations (emergency fund sizing, tax-equivalent yields, dividend yields) and concrete laddering instructions, directly answering the query while extending to adjacent optimizations. System B is coherent and addresses the question but is less specific in actionability and grounding, and Rec #4 references a 25% allocation that overlaps confusingly with existing cash."
+  },
+  "usage": {
+    "input_tokens": 10796,
+    "output_tokens": 274
+  },
+  "session_id": "P1_conservative_retiree__sector_specific__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 1,
+  "rubric_version": "1.1"
+}

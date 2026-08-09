@@ -1,0 +1,182 @@
+{
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "open_ended",
+  "query": "I'm 10 years from retirement. Should I start de-risking now and how aggressively?",
+  "seed": 1,
+  "system": "B1_profile_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_dfb010a1",
+      "category": "rebalance",
+      "title": "Gradual Shift to Conservative Allocation Over 10-Year Glide Path",
+      "summary": "Begin a systematic de-risking strategy by gradually reducing equity exposure from 55% to approximately 40-45% over the next decade, while increasing bond allocation to provide capital preservation as retirement approaches.",
+      "detailed_rationale": "Signal: Your current allocation shows 55% in equities (40% ETF + 15% individual stocks) with a 10-year retirement horizon, which requires a thoughtful de-risking approach. Step-by-step reasoning: (1) The knowledge base explicitly recommends that asset allocation should automatically adjust to become more conservative as you approach retirement, similar to target-date funds. With 10 years remaining, you're in the critical transition phase. (2) Your current 35% bond allocation is reasonable for someone 10 years from retirement, but the 55% equity weighting is moderately aggressive for this stage. A gradual glide path approach aligns with your moderate-to-conservative risk profile needed for capital preservation. (3) The investment guide emphasizes that 'time in the market matters more than timing' but also stresses the importance of 'regular review and rebalancing.' Your Healthcare sector concentration at 22% (JNJ, UNH) and moderate equity exposure suggest you should begin systematic rebalancing now rather than making sudden changes. (4) Evidence from retirement planning best practices suggests reducing equity exposure by approximately 1-1.5% annually as you approach retirement. This gradual approach avoids the risk of missing potential growth in the final decade while providing downside protection. Main trade-off: Moving too conservatively too quickly could leave significant growth potential unrealized, as the final 10 years can meaningfully impact retirement corpus due to compound returns. However, waiting too long increases sequence-of-returns risk if markets decline just before retirement.",
+      "tickers": [
+        "VTI",
+        "BND",
+        "VXUS"
+      ],
+      "suggested_action": "Over the next 12 months, rebalance by reducing VTI and VXUS positions by 3-4% of total portfolio value ($25,500-$34,000) and redirect into BND. Establish an annual review calendar to continue this glide path, reducing equity by 1.5% annually.",
+      "suggested_allocation_pct": 3.5,
+      "risk_level": "low",
+      "expected_return_range": "4-6% annually with reduced volatility",
+      "time_horizon": "10-year glide path with annual rebalancing checkpoints",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:30:12.997222",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_1ec8dc05",
+      "category": "diversify",
+      "title": "Reduce Healthcare Sector Concentration Risk",
+      "summary": "Your 22% Healthcare allocation (JNJ, UNH) creates sector concentration risk. Trim healthcare holdings by 7-8 percentage points and redirect to underrepresented defensive sectors to improve portfolio resilience.",
+      "detailed_rationale": "Signal: Portfolio analysis reveals 22% concentration in Healthcare sector through JNJ and UNH positions, representing 1.8x-2x overweight versus typical broad market benchmarks (S&P 500 healthcare ~13%). Step-by-step reasoning: (1) The knowledge base explicitly warns about concentration risk: 'The fund may be concentrated in a particular sector or industry' as a key risk consideration. With retirement 10 years away, sector-specific regulatory changes, patent cliffs, or healthcare policy shifts could significantly impact your wealth at a critical juncture. (2) Your risk management needs align with the knowledge base guidance that 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Healthcare, while defensive, still carries specific risk that becomes magnified at 22% weighting. (3) Current holdings show underrepresentation in Utilities (0%), Real Estate (0%), and Consumer Staples at only 10% despite having PG. These sectors typically provide dividend income and stability valued in pre-retirement phases. (4) Your existing VTI position already provides healthcare exposure at market weights, making the individual JNJ and UNH holdings create redundant concentration. Trade-off: Healthcare has historically been a defensive, stable sector, and JNJ/UNH are quality companies. Reducing this exposure means potentially lower dividend income in the near term and missing sector-specific outperformance. However, the concentration risk outweighs these benefits given your retirement timeline.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "VTI"
+      ],
+      "suggested_action": "Reduce combined JNJ and UNH positions from approximately 15% of portfolio to 7-8% ($127,500 to $59,500-$68,000), realizing approximately $60,000. Redirect 60% to BND for stability, 25% to a utilities sector ETF for defensive income exposure, and 15% to increase VTI for diversified equity exposure.",
+      "suggested_allocation_pct": 7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Reduced concentration risk with stable 5-7% returns",
+      "time_horizon": "Execute over 6-9 months to avoid single-point-in-time risk",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:30:12.997222",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_cc3dae91",
+      "category": "risk_reduction",
+      "title": "Increase Emergency Cash Buffer for Retirement Transition",
+      "summary": "Increase cash allocation from 5% to 8-10% to create a larger emergency buffer and reduce sequence-of-returns risk as retirement approaches, providing 12-18 months of living expenses in liquid form.",
+      "detailed_rationale": "Signal: Current 5% cash position ($42,500) may be insufficient given your 10-year retirement timeline and the need to manage sequence-of-returns risk. Step-by-step reasoning: (1) The risk management guide explicitly states 'Maintain 3-6 months of expenses in liquid savings. This prevents the need to sell investments at unfavorable times during personal financial emergencies.' For pre-retirees, best practice suggests 12-24 months of expenses to weather market downturns without forced selling. (2) Your net worth of $755,000 suggests annual retirement spending needs of approximately $30,000-$45,000 (using 4-6% withdrawal rate estimates). Current cash of $42,500 provides only 11-14 months of coverage at the lower end. (3) The knowledge base warns about 'Portfolio Stress Testing' and evaluating performance in crash scenarios. The 2008 financial crisis showed retirees who had to sell equities during downturns suffered permanent wealth impairment. A larger cash buffer (8-10% or $68,000-$85,000) provides 18-28 months of expenses, allowing you to avoid selling during potential market stress in your final pre-retirement years. (4) With 10 years to retirement, you're entering the zone where sequence-of-returns risk becomes critical\u2014poor market returns in years -5 to +5 of retirement can permanently impact sustainable withdrawal rates. Evidence: This aligns with the 'Emergency Fund Importance' section and 'Hedging Strategies' guidance that 'holding cash provides a buffer during market downturns.' Trade-off: The opportunity cost is clear\u2014cash yields currently 4-5% while your equity portfolio could generate 8-10% annually. Over 10 years, keeping an extra $35,000 in cash versus equities could cost $20,000-$30,000 in foregone returns. However, this is insurance against sequence risk, not a return-optimization strategy.",
+      "tickers": [],
+      "suggested_action": "Gradually increase cash allocation to 8-10% of portfolio ($68,000-$85,000) over the next 18 months. Source this from reduced equity positions during your rebalancing activities. Place funds in high-yield savings accounts or money market funds earning 4-5%. As you reach 5 years from retirement, consider increasing further to 15-20%.",
+      "suggested_allocation_pct": 4.0,
+      "risk_level": "low",
+      "expected_return_range": "4-5% with maximum liquidity and capital preservation",
+      "time_horizon": "Build over 18 months, maintain through retirement transition",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:30:12.997222",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_aa86b885",
+      "category": "income_generation",
+      "title": "Establish Dividend-Focused Income Stream Strategy",
+      "summary": "Supplement existing dividend stocks (JNJ, PG, BRK.B) by adding a dedicated dividend growth ETF position to create a more robust income stream for retirement transition, targeting 3-4% portfolio yield.",
+      "detailed_rationale": "Signal: Your portfolio includes quality dividend payers (JNJ, PG, BRK.B through financials) but lacks a systematic income generation strategy crucial for retirement preparation. Current estimated dividend yield is approximately 2-2.5% of portfolio. Step-by-step reasoning: (1) The retirement planning guide emphasizes the importance of creating sustainable income streams. With 10 years to retirement, establishing and growing dividend income now allows for compound dividend growth and reduces future reliance on principal sales. (2) Your current holdings provide some dividend income: JNJ yields ~3%, PG yields ~2.5%, and JPM yields ~2.5%. However, this income is concentrated in overweighted sectors (Healthcare 22%, Financials 18%). A diversified dividend approach provides both income reliability and sector diversification. (3) The knowledge base notes 'Conservative: Focus on capital preservation, bonds, money market, dividend stocks, low-volatility ETFs' as appropriate for your transitioning risk profile. Adding a dividend growth ETF (such as VIG, SCHD, or similar) to comprise 10-12% of portfolio ($85,000-$102,000) would provide exposure to 50-100 quality dividend-growing companies, offering both income and capital appreciation potential. (4) This strategy aligns with 'Hedging Strategies' guidance by providing income that reduces dependence on selling during downturns. Dividend-paying stocks also historically show lower volatility than growth stocks, appropriate for your stage. Supporting evidence: Dividend growth strategies have historically provided 6-8% total returns with lower volatility, fitting your de-risking timeline while generating increasing income. Trade-off: Dividend stocks may underperform growth stocks in strong bull markets, and the income focus means accepting potentially lower total returns. Additionally, dividends are taxable in non-qualified accounts, creating tax drag. However, the reliability and psychological benefit of growing income approaching retirement outweighs pure total return optimization at this stage.",
+      "tickers": [
+        "VIG",
+        "SCHD"
+      ],
+      "suggested_action": "Allocate 10% of portfolio ($85,000) to a dividend growth ETF like Vanguard Dividend Appreciation (VIG) or Schwab U.S. Dividend Equity (SCHD). Source funds from reduced individual stock positions during rebalancing. Set up automatic dividend reinvestment for the next 8 years, then switch to cash distribution 2 years before retirement to practice living on income.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% total return with 2.5-3.5% dividend yield growing 6-8% annually",
+      "time_horizon": "10-year build phase with transition to income distribution at retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:30:12.997222",
+      "composite_score": 0.0
+    }
+  ]
+}

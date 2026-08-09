@@ -1,0 +1,202 @@
+{
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "rebalance",
+  "query": "Walk me through a year-by-year glide path that gradually shifts my allocation over the next decade.",
+  "seed": 2,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_e3932406",
+      "category": "rebalance",
+      "title": "Implement Year 1-2 Glide Path: Initiate Conservative Shift",
+      "summary": "Begin transitioning from 55% equity/35% bonds to 52% equity/38% bonds over the next 2 years, reducing stock allocation by 3% and increasing bond exposure proportionally.",
+      "detailed_rationale": "Signal: At age 55 with 10 years to retirement, you need a structured glide path to reduce portfolio volatility as you approach your target retirement age of 65. Currently, your portfolio holds 55% equities (40% ETF + 15% stock) and 35% bonds, which is appropriate for moderate risk but needs gradual de-risking. Step-by-step reasoning: (1) Your retirement goal requires $1.8M in assets within 10 years; with current net worth of $755K, you need approximately 9% annual growth while managing downside risk - this makes an immediate aggressive shift inappropriate. (2) Your moderate risk tolerance (loss comfort: 5/10) and advanced investment experience support a measured glide path rather than abrupt changes. The knowledge base emphasizes that target-date funds 'automatically adjust asset allocation as you approach retirement, becoming more conservative over time' - we're applying this principle manually. (3) For years 1-2 (ages 55-57), reducing equity by just 3 percentage points maintains growth potential while beginning risk reduction. This translates to decreasing your individual stock holdings (JNJ, UNH, JPM, BRK.B, PG) by approximately $25,500 and increasing BND or adding intermediate-term bond funds. (4) Trade-off: This conservative shift may slightly reduce expected returns (from ~7-8% to ~6.5-7.5% for this portion) but significantly reduces sequence-of-returns risk - critical as you enter the 'fragile decade' before retirement when market downturns have outsized impact on final portfolio values.",
+      "tickers": [
+        "BND",
+        "BIV",
+        "JNJ",
+        "PG"
+      ],
+      "suggested_action": "Sell $25,500 of individual stocks (prioritize positions with lowest conviction or tax efficiency), and add to BND or introduce BIV (Vanguard Intermediate-Term Bond ETF) to increase bond allocation from 35% to 38%",
+      "suggested_allocation_pct": 3.0,
+      "risk_level": "low",
+      "expected_return_range": "6.5-7.5% annually",
+      "time_horizon": "Years 1-2 (ages 55-57)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:42:14.054879",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_5fd336d1",
+      "category": "rebalance",
+      "title": "Year 3-5 Glide Path: Accelerate Bond Transition",
+      "summary": "During ages 58-60, shift allocation to 47% equity/43% bonds, moving an additional 5% from stocks to fixed income to reduce volatility as retirement approaches.",
+      "detailed_rationale": "Signal: The middle phase of your glide path (years 3-5) represents the acceleration period where de-risking becomes more pronounced while maintaining sufficient growth. Portfolio analysis shows Healthcare (22%) and Financials (18%) are your largest sector exposures - this concentration needs addressing during rebalancing. Step-by-step reasoning: (1) At ages 58-60, you'll be 5-7 years from retirement with approximately $900K-$1.1M in projected assets (assuming 6-8% growth). This is when sequence-of-returns risk intensifies, making a larger equity reduction (5%) appropriate compared to the initial 3%. (2) Your moderate risk profile and medium liquidity needs align with increasing bond allocation to 43%, which provides both capital preservation and income generation approaching retirement. The knowledge base confirms that 'moderate portfolios balance around 50-60% stocks, 30-40% bonds' - by year 5, you'll be at the lower end of equity exposure within the moderate range. (3) This phase should involve reducing equity exposure across both individual stocks and equity ETFs proportionally. Specifically: sell $42,500 in equities (approximately $25,000 from VTI/VXUS and $17,500 from individual stocks), and deploy into diversified bond holdings - consider adding VTIP (inflation-protected) alongside BND for inflation hedging. (4) Risk/Trade-off: This accelerated de-risking may underperform in strong bull markets, potentially leaving $50K-$80K in gains unrealized compared to maintaining current allocation. However, it protects against the statistically higher probability of a market correction during this 3-year window, which could delay retirement if assets drop 20-30% without this protection.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "BND",
+        "VTIP",
+        "UNH",
+        "JPM"
+      ],
+      "suggested_action": "Reduce VTI by $15K, VXUS by $10K, and individual stocks by $17.5K; add $30K to BND and introduce $12.5K position in VTIP for inflation protection",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "5.5-7.0% annually",
+      "time_horizon": "Years 3-5 (ages 58-60)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:42:14.054879",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_353bbbf5",
+      "category": "rebalance",
+      "title": "Year 6-8 Glide Path: Establish Pre-Retirement Stability",
+      "summary": "For ages 61-63, transition to 40% equity/48% bonds/12% cash, emphasizing capital preservation and establishing your retirement income buffer.",
+      "detailed_rationale": "Signal: Years 6-8 represent the critical pre-retirement window where portfolio stability trumps growth. Currently, you hold only 5% cash - insufficient for retirement income needs. Your goal specifies '$80-100K/yr income' in retirement, requiring 2-3 years of expenses in liquid reserves. Step-by-step reasoning: (1) At ages 61-63, you're entering the zone where a market downturn could force suboptimal retirement timing. Portfolio projections suggest $1.2M-$1.5M in assets by year 6, putting you on track for your $1.8M target but requiring protection of gains. (2) Your stable income ($220K annually) and low debt level allow you to continue contributions during this phase while restructuring existing assets. The knowledge base emphasizes 'regular rebalancing ensures your portfolio stays aligned with target allocations' - this phase represents the most significant structural shift. (3) Reduce equity from 47% to 40% (7% reduction = ~$84K-$105K based on projected values), shifting 5% to bonds (reaching 48%) and crucially, building cash from 5% to 12%. This 7% cash increase creates a $84K-$105K emergency reserve plus initial retirement income buffer. Sell portions of all equity holdings proportionally: reduce VTI by $30K, VXUS by $15K, individual stocks by $40K. Deploy $35K to bonds (split between BND and VTIP) and $50K to high-yield savings or money market funds. (4) Risk/Trade-off: Opportunity cost is significant here - reducing equity to 40% means limited participation in market gains during your final working years. However, this protects against the devastating scenario of retiring into a bear market, which historically has required 3-7 years for recovery and could deplete your portfolio through forced withdrawals.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "BND",
+        "VTIP",
+        "JNJ",
+        "UNH",
+        "JPM",
+        "BRK.B",
+        "PG",
+        "VMFXX"
+      ],
+      "suggested_action": "Systematically reduce all equity positions by approximately 15%, adding $35K to bond positions (BND/VTIP split) and $50K to money market fund (VMFXX) or high-yield savings to build pre-retirement cash buffer",
+      "suggested_allocation_pct": 7.0,
+      "risk_level": "low",
+      "expected_return_range": "4.5-6.0% annually",
+      "time_horizon": "Years 6-8 (ages 61-63)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:42:14.054879",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_3a891503",
+      "category": "rebalance",
+      "title": "Year 9-10 Glide Path: Final Pre-Retirement Positioning",
+      "summary": "For ages 64-65, establish retirement allocation of 35% equity/50% bonds/15% cash, optimizing for income generation and maintaining purchasing power through retirement.",
+      "detailed_rationale": "Signal: The final phase (years 9-10) transitions from accumulation to distribution mode. Your retirement goal requires sustainable $80-100K annual withdrawals from projected $1.8M portfolio (4.4-5.6% withdrawal rate) - this demands income-focused positioning. Currently, your portfolio shows no specific focus on dividend-paying or income-generating securities beyond the existing holdings. Step-by-step reasoning: (1) At ages 64-65, you're at or entering retirement. With projected assets of $1.6M-$1.8M, you need an allocation that can sustain 4-5% withdrawals with minimal principal erosion. The 35/50/15 (equity/bond/cash) split provides this: bonds generate income, cash covers 18 months of expenses ($165K), and equities provide inflation protection for a potentially 25-30 year retirement. (2) Your moderate risk tolerance and medium-term horizon (now shifting to long-term for the retirement phase itself) supports maintaining some equity exposure - the knowledge base notes that conservative portfolios hold '20-40% stocks' and you're positioning at the middle of this range. This prevents the risk of outliving your assets due to inflation. (3) Final rebalancing involves: reducing equity from 40% to 35% ($90K-$126K based on projections), increasing bonds to 50% (adding $36K-$54K), and building cash reserves to 15% (adding $54K-$81K total cash position). Prioritize dividend aristocrats within your equity allocation (JNJ, PG are appropriate) while trimming growth-oriented positions. The knowledge base references Social Security planning - delaying to age 70 could increase benefits by 77%, so your portfolio must bridge 5 years of full expenses if you delay claiming. (4) Risk/Trade-off: This conservative allocation may generate only 4-5% total returns, barely keeping pace with inflation plus withdrawals. In extended bull markets, you'll significantly underperform. However, this trade-off buys peace of mind and sustainability - your portfolio can weather a 20-25% market correction without forcing you back to work or drastically cutting lifestyle, and the income focus (dividend stocks + bonds) provides cash flow regardless of market fluctuations.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "BND",
+        "VTIP",
+        "JNJ",
+        "PG",
+        "VDIGX"
+      ],
+      "suggested_action": "Make final equity reduction of 5%, trim growth stocks while maintaining quality dividend payers (JNJ, PG); increase bond allocation to 50% emphasizing investment-grade and intermediate duration; build cash reserves to 15% covering 18 months of retirement expenses",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "4.0-5.5% annually",
+      "time_horizon": "Years 9-10 (ages 64-65) and into retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:42:14.054879",
+      "composite_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"The rationale cites the user's moderate risk tolerance, medium liquidity needs, and dual high-priority goals, explaining the recommendation based on these attributes.\",\n    \"C2\": \"The risk level is moderate, matching the user's risk tolerance, and the rationale justifies this alignment by discussing the defensive nature of healthcare.\",\n    \"C3\": \"Most claims are traceable, but the expected return range of 7-10% annually is not directly supported by the user's portfolio or profile.\",\n    \"C4\": \"The recommendation specifies tickers, a target allocation percentage, and a clear action to add $16,000 to healthcare ETFs.\",\n    \"C5\": \"The recommendation addresses the user's tech concentration by suggesting an increase in healthcare allocation for better diversification.\",\n    \"C6\": \"The recommendation uses calibrated language and acknowledges risks, but lacks an explicit disclaimer at the recommendation level.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "The rationale cites the user's moderate risk tolerance, medium liquidity needs, and dual high-priority goals, explaining the recommendation based on these attributes.",
+      "C2": "The risk level is moderate, matching the user's risk tolerance, and the rationale justifies this alignment by discussing the defensive nature of healthcare.",
+      "C3": "Most claims are traceable, but the expected return range of 7-10% annually is not directly supported by the user's portfolio or profile.",
+      "C4": "The recommendation specifies tickers, a target allocation percentage, and a clear action to add $16,000 to healthcare ETFs.",
+      "C5": "The recommendation addresses the user's tech concentration by suggesting an increase in healthcare allocation for better diversification.",
+      "C6": "The recommendation uses calibrated language and acknowledges risks, but lacks an explicit disclaimer at the recommendation level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3817,
+    "output_tokens": 270
+  },
+  "session_id": "P3_moderate_mid_career__rebalance__seed2",
+  "rec_index": 2,
+  "rec_id": "rec_7c58744f",
+  "rubric_version": "1.1"
+}

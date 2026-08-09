@@ -1,0 +1,30 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "seed": 1,
+  "sys_a": "A_gated_040",
+  "sys_b": "B2_rag_blind",
+  "order": 2,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more precise factual grounding (accurate contribution math, tax bracket references, bond ladder specifics, and correctly-calibrated risk levels for low-risk education/bond recommendations), while System B mislabels some recommendations' risk levels (e.g., 529 age-based as moderate, bond reduction as moderate when it increases risk exposure). Both are comparably personalized and actionable, but A's tighter numerical reasoning and risk-tier accuracy give it the edge.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more precise factual grounding (accurate contribution math, tax bracket references, bond ladder specifics, and correctly-calibrated risk levels for low-risk education/bond recommendations), while System B mislabels some recommendations' risk levels (e.g., 529 age-based as moderate, bond reduction as moderate when it increases risk exposure). Both are comparably personalized and actionable, but A's tighter numerical reasoning and risk-tier accuracy give it the edge."
+  },
+  "usage": {
+    "input_tokens": 12512,
+    "output_tokens": 295
+  }
+}

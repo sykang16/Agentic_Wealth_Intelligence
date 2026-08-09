@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes (moderate risk tolerance, 6/10 loss comfort, 10/25-year goal horizons, product manager occupation) and ties them causally to the recommendation.\",\n    \"C2\": \"risk_level is 'low' for a moderate-tolerance user, one tier adjacent, but the rationale defensibly justifies it as a concentration-reduction/defensive move.\",\n    \"C3\": \"Holdings, sector weights, and concentration figures are accurately drawn from the snapshot; the '5-8% annually' return range and '30%+ tech drawdown in 2022' are minor unsupported quantitative claims.\",\n    \"C4\": \"Specifies concrete tickers (VDC, VPU, VNQ), exact trim percentages, target tech allocation (22-25%), and a clear first step of trimming individual tech positions.\",\n    \"C5\": \"Directly identifies the 35% tech overweight and prescribes a rebalance to underweighted defensive sectors, fully addressing diversification.\",\n    \"C6\": \"Uses calibrated language ('may', 'suggests') and avoids guarantees, though no explicit disclaimer is included at the recommendation level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes (moderate risk tolerance, 6/10 loss comfort, 10/25-year goal horizons, product manager occupation) and ties them causally to the recommendation.",
+      "C2": "risk_level is 'low' for a moderate-tolerance user, one tier adjacent, but the rationale defensibly justifies it as a concentration-reduction/defensive move.",
+      "C3": "Holdings, sector weights, and concentration figures are accurately drawn from the snapshot; the '5-8% annually' return range and '30%+ tech drawdown in 2022' are minor unsupported quantitative claims.",
+      "C4": "Specifies concrete tickers (VDC, VPU, VNQ), exact trim percentages, target tech allocation (22-25%), and a clear first step of trimming individual tech positions.",
+      "C5": "Directly identifies the 35% tech overweight and prescribes a rebalance to underweighted defensive sectors, fully addressing diversification.",
+      "C6": "Uses calibrated language ('may', 'suggests') and avoids guarantees, though no explicit disclaimer is included at the recommendation level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6072,
+    "output_tokens": 515
+  },
+  "session_id": "P3_moderate_mid_career__open_ended__seed2",
+  "rec_index": 0,
+  "rec_id": "rec_ce0bb70e",
+  "rubric_version": "1.1"
+}

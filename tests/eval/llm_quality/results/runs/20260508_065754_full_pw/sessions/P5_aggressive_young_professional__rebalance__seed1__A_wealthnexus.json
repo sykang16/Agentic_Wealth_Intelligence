@@ -1,0 +1,187 @@
+{
+  "session_id": "P5_aggressive_young_professional__rebalance__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "rebalance",
+  "query": "Should I add any bond exposure at all, or stay close to 100% equity given my horizon?",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_eeb3dbf9",
+      "category": "diversify",
+      "title": "Reduce Technology Concentration from 65% to 45%",
+      "summary": "Your portfolio is dangerously overweight in technology at 65% vs. typical aggressive portfolios at 30-40%. This concentrates risk despite your aggressive profile and long horizon.",
+      "detailed_rationale": "Signal: Your sector analysis shows 65% technology concentration, with overlapping exposure through QQQ (tech-heavy), individual tech stocks (NVDA, TSLA, GOOGL, META, AMZN), and VTI's tech weighting. Reasoning: (1) Even with aggressive risk tolerance and 15-year horizon, concentration risk differs from market risk\u2014a sector-specific downturn (regulatory changes, AI bubble concerns, antitrust actions) could devastate 65% of your portfolio simultaneously. (2) Your loss comfort of 9/10 indicates willingness to accept market volatility, but sector concentration creates idiosyncratic risk that doesn't compensate with proportionally higher returns. (3) The knowledge base emphasizes 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation'\u2014your tech holdings are highly correlated. (4) With $195K income and stable employment, you can afford equity risk but should diversify across sectors. Trade-off: You may miss outsized gains if tech continues outperforming, but you protect against catastrophic sector-specific crashes while maintaining aggressive equity exposure suitable for your 30-year-old profile seeking $2.5M in 15 years.",
+      "tickers": [
+        "VTI",
+        "VTV",
+        "VBR",
+        "VNQ"
+      ],
+      "suggested_action": "Sell 20% of your technology positions (proportionally across NVDA, META, GOOGL) and redeploy into: VTV (value stocks, 8%), VBR (small-cap value, 7%), and VNQ (real estate, 5%) to achieve 45% tech, 20% value/dividend, 10% small-cap, 5% real estate, maintaining 20% in discretionary/communication.",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "Immediate rebalancing, maintain through 15-year horizon",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:28:51.736829",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_56039519",
+      "category": "hold",
+      "title": "Maintain 100% Equity Allocation\u2014Skip Bonds for Now",
+      "summary": "Given your 15-year horizon, age 30, aggressive profile, and stable income, maintaining near-100% equity (95% stocks/ETFs, 5% crypto) is appropriate. Bonds would reduce expected returns without meaningful benefit at this stage.",
+      "detailed_rationale": "Signal: Your query about bond exposure reflects uncertainty, but your profile data strongly supports equity focus. Reasoning: (1) At age 30 with 15-year FIRE goal, you have time to recover from market downturns\u2014the 2008 crash recovered within 5 years for equity investors who stayed invested. (2) Your risk tolerance is 'aggressive' with 9/10 loss comfort, $195K stable income, low monthly expenses ($5,500), existing emergency fund, and low debt\u2014you have all safety nets needed to weather volatility. (3) The knowledge base states 'Aggressive portfolios may hold 80-90% stocks with minimal bonds,' and your profile exceeds even aggressive thresholds in every dimension. (4) Mathematical reality: bonds currently yield 4-5% (per BND data) vs. equity's historical 10-11%; over 15 years, this difference compounds dramatically toward your $2.5M target. (5) Your 10% cash position already provides some stability buffer. Trade-off: You'll experience higher volatility and deeper drawdowns during bear markets, but the knowledge base confirms 'Emergency Fund Importance: maintain 3-6 months expenses in liquid savings'\u2014which you have\u2014'prevents need to sell investments at unfavorable times.' You're optimally positioned to capture equity risk premium.",
+      "tickers": [
+        "VTI",
+        "QQQ"
+      ],
+      "suggested_action": "Maintain current 90% equity / 5% crypto / 5% cash allocation (reduce cash from 10% to 5% by deploying $9,000 into diversified equity positions from recommendation #1). Revisit bond allocation when you reach age 40 or within 5 years of FIRE target.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "high",
+      "expected_return_range": "9-13% annually",
+      "time_horizon": "Maintain for next 10 years, reassess at age 40",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:28:51.736829",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_67498542",
+      "category": "risk_reduction",
+      "title": "Reduce or Eliminate BTC Position to 2-3% Maximum",
+      "summary": "Your 5% crypto allocation ($9,000) represents unnecessary volatility that doesn't align with your FIRE goal's certainty requirements, despite aggressive risk tolerance.",
+      "detailed_rationale": "Signal: 5% BTC allocation in a portfolio targeting specific $2.5M FIRE goal introduces uncorrelated, extreme volatility. Reasoning: (1) Crypto's 50-80% drawdowns differ fundamentally from equity bear markets\u2014BTC has experienced 80%+ crashes multiple times, and recovery timelines are unpredictable unlike equity markets' historical patterns. (2) Your aggressive profile justifies equity risk because stocks have productive assets, earnings, and 100+ years of recovery data. Crypto lacks these fundamentals\u2014it's speculative, not aggressive investing. (3) The knowledge base emphasizes 'Portfolio Stress Testing: evaluate how your portfolio would perform in various scenarios' and 'adjust allocations if potential losses exceed tolerance.' A BTC crash to 20% of current value ($7,200 loss) wouldn't derail your plan, but it represents inefficient risk\u2014high volatility without proportional expected return premium over diversified equities. (4) Your intermediate experience level and stable W-2 income suggest you don't need lottery-ticket asymmetry; you need compounding certainty. (5) At 5%, BTC could swing your portfolio \u00b115-20% annually independent of economic fundamentals affecting your job or equity holdings. Trade-off: You might miss outsized crypto gains if BTC reaches $200K+, but you eliminate tail risk that could psychologically derail your disciplined investing during a crypto winter, and you maintain aggressive growth through proven equity vehicles.",
+      "tickers": [
+        "BTC",
+        "VTI",
+        "AVUV"
+      ],
+      "suggested_action": "Reduce BTC from 5% to 2% ($3,600), selling $5,400. Redeploy proceeds into small-cap value (AVUV or VBR) for factor-based equity exposure with higher expected returns than large-cap, maintaining your aggressive growth orientation with better fundamentals.",
+      "suggested_allocation_pct": -3.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Eliminates -80% to +300% volatility, adds 10-14% equity factor exposure",
+      "time_horizon": "Execute within 30 days, maintain 2% crypto as speculation only",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:28:51.736829",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_03d00af7",
+      "category": "rebalance",
+      "title": "Increase Cash Efficiency: Deploy Half of Cash Reserves Systematically",
+      "summary": "Your 10% cash position ($18,000) exceeds needs given your emergency fund exists separately. Deploy 5% ($9,000) into equities using dollar-cost averaging over 3 months.",
+      "detailed_rationale": "Signal: 10% cash allocation while having a separate emergency fund represents opportunity cost\u2014cash earning ~5% vs. equity's 10%+ over your horizon. Reasoning: (1) The knowledge base states 'Emergency Fund Importance: maintain 3-6 months expenses in liquid savings' which you already have confirmed as separate from this portfolio. (2) Your monthly expenses of $5,500 \u00d7 6 months = $33,000 emergency fund should exist outside this $180,000 investment portfolio. (3) With stable $195K income and low liquidity needs, keeping $18,000 (10%) cash inside your investment portfolio is inefficient\u2014you're sacrificing ~$450-900 annually in opportunity cost. (4) However, maintaining 5% ($9,000) cash provides tactical flexibility for rebalancing and psychological comfort during volatility, aligning with 'holding cash provides buffer during market downturns' from the knowledge base. (5) Your aggressive profile and intermediate experience mean you understand sequence-of-returns risk but can tolerate being nearly fully invested. Trade-off: You reduce your immediate liquidity cushion within the portfolio, but your separate emergency fund and stable income provide adequate safety. You gain ~$450/year in expected returns by moving 5% from cash to equity, compounding to $8,000+ over 15 years toward your FIRE goal.",
+      "tickers": [
+        "VTI",
+        "AVUV",
+        "VXUS"
+      ],
+      "suggested_action": "Over the next 3 months, deploy $3,000/month from cash into: 50% VTI (broad market), 30% AVUV (small-cap value factor), 20% VXUS (international diversification). This dollar-cost averages market timing risk while putting dormant capital to work. Maintain 5% ($9,000) cash permanently for opportunistic rebalancing.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Adds 5-7% annually on deployed capital",
+      "time_horizon": "Execute over 3 months, maintain 5% cash long-term",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:28:51.736829",
+      "composite_score": 0.0
+    }
+  ]
+}

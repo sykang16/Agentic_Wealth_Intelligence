@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 2,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale explicitly cites multiple profile attributes \u2014 advanced experience, aggressive risk tolerance, variable income, $380K liabilities, $4M wealth goal, 20-year horizon, and legacy planning \u2014 and ties them causally to the recommendation.\",\n    \"C2\": \"Risk_level is 'moderate' for an aggressive-tolerance user (one tier off); the rationale offers a justification (tail-risk reduction given variable income), but it somewhat contradicts the user's stated comfort with cyclical drawdowns and aggressive tilt.\",\n    \"C3\": \"Holdings referenced (VWO at 15%) match the snapshot and most figures are reasonable, though some specifics (VWO's 30% China / 25% India+Taiwan weightings, '15-20% annualized' EM underperformance) are unsupported and one quantitative claim is overstated.\",\n    \"C4\": \"Provides concrete tickers (VWO, VEA, VXUS), a specific dollar range ($75K-$105K), target allocation (8-10%), execution timeline (3-4 weeks), and tax-loss harvesting note \u2014 fully actionable.\",\n    \"C5\": \"Directly identifies the 15% EM overweight relative to benchmarks and proposes a rebalancing trade that reduces concentration \u2014 textbook diversification awareness.\",\n    \"C6\": \"Uses calibrated language ('historically', 'may', 'consider'), no guaranteed returns, and confidence is appropriately marked medium.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 2,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale explicitly cites multiple profile attributes \u2014 advanced experience, aggressive risk tolerance, variable income, $380K liabilities, $4M wealth goal, 20-year horizon, and legacy planning \u2014 and ties them causally to the recommendation.",
+      "C2": "Risk_level is 'moderate' for an aggressive-tolerance user (one tier off); the rationale offers a justification (tail-risk reduction given variable income), but it somewhat contradicts the user's stated comfort with cyclical drawdowns and aggressive tilt.",
+      "C3": "Holdings referenced (VWO at 15%) match the snapshot and most figures are reasonable, though some specifics (VWO's 30% China / 25% India+Taiwan weightings, '15-20% annualized' EM underperformance) are unsupported and one quantitative claim is overstated.",
+      "C4": "Provides concrete tickers (VWO, VEA, VXUS), a specific dollar range ($75K-$105K), target allocation (8-10%), execution timeline (3-4 weeks), and tax-loss harvesting note \u2014 fully actionable.",
+      "C5": "Directly identifies the 15% EM overweight relative to benchmarks and proposes a rebalancing trade that reduces concentration \u2014 textbook diversification awareness.",
+      "C6": "Uses calibrated language ('historically', 'may', 'consider'), no guaranteed returns, and confidence is appropriately marked medium."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6375,
+    "output_tokens": 612
+  },
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed2",
+  "rec_index": 2,
+  "rec_id": "rec_c44372b2",
+  "rubric_version": "1.1"
+}

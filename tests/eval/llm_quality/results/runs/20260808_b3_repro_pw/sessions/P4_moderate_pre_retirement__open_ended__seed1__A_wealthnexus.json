@@ -1,0 +1,182 @@
+{
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "open_ended",
+  "query": "I'm 10 years from retirement. Should I start de-risking now and how aggressively?",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_75e5392a",
+      "category": "rebalance",
+      "title": "Initiate Retirement Glide Path: Gradual Shift to 60/40 Allocation",
+      "summary": "Begin transitioning from current 55/40/5 (equity/bond/cash) to a more conservative 60/40 target allocation over the next 2-3 years to align with your 10-year retirement timeline.",
+      "detailed_rationale": "(1) Signal: Your portfolio currently holds 55% equities (40% ETF + 15% stock) and only 40% bonds (35% bond + 5% cash). With retirement at age 65 (10 years away) and a moderate risk tolerance, you should begin de-risking now but gradually. The knowledge base emphasizes that target-date funds 'automatically adjust asset allocation as you approach retirement, becoming more conservative over time'\u2014you need to replicate this manually. (2) Alignment: Your moderate risk tolerance (loss comfort 5/10) and medium investment horizon suggest you can still benefit from equity growth while reducing downside exposure. A gradual glide path rather than aggressive de-risking preserves growth potential needed to reach your $1.8M retirement target (you're currently at $755K net worth, requiring ~6.5% annual growth). Your advanced investment experience means you can manage this transition strategically. (3) Evidence: Your current 22% Healthcare and 18% Technology allocations provide good growth exposure, but your age-55 profile warrants incrementally increasing BND (currently at 35%) to 45% over 24-36 months. The BND factsheet confirms it provides 'broad exposure to U.S. investment-grade bonds' with minimal expense ratio (0.03%), making it ideal for this transition. (4) Trade-off: Moving too conservatively too quickly could limit growth needed to reach your $1.8M goal; moving too slowly increases sequence-of-returns risk if a market downturn occurs in years 56-60. The gradual approach balances these risks.",
+      "tickers": [
+        "BND",
+        "VTI"
+      ],
+      "suggested_action": "Over the next 12 months, redirect new contributions and rebalancing proceeds to increase BND allocation from 35% to 38-40%. Simultaneously, trim VTI position by 2-3% through strategic selling during market strength. Continue this 2-3% annual shift toward bonds each year until reaching 45% fixed income by age 58.",
+      "suggested_allocation_pct": 40.0,
+      "risk_level": "low",
+      "expected_return_range": "5-7% annually",
+      "time_horizon": "Execute over 24-36 months, complete by age 58",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:34:01.813329",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_3a1bf994",
+      "category": "diversify",
+      "title": "Add International Bond Exposure for Geographic Diversification",
+      "summary": "Introduce 5-7% allocation to international bonds (BNDX or similar) to diversify fixed income holdings beyond U.S.-only exposure as you increase bond allocation.",
+      "detailed_rationale": "(1) Signal: Your entire 35% bond allocation is in BND (U.S. Total Bond Market), creating geographic concentration risk. As you increase fixed income to support retirement, diversifying bond holdings reduces single-country risk. The knowledge base warns about 'concentration risk' where funds 'may be concentrated in a particular sector or industry'\u2014this applies geographically too. (2) Alignment: With medium liquidity needs and stable income ($220K annually), you can afford modest international exposure. Your advanced experience and moderate risk tolerance support tactical diversification. Currency risk exists but is manageable at 5-7% allocation levels. This supports your high-priority retirement goal by reducing portfolio correlation during U.S.-specific economic stress. (3) Evidence: Your current portfolio shows VXUS for international equity diversification, but no international fixed income counterpart. The risk management guide emphasizes 'currency risk affects international investments'\u2014at 5-7%, this is acceptable diversification rather than speculation. International bonds often provide ballast when U.S. rates rise sharply, offering protection your all-domestic bond portfolio currently lacks. (4) Trade-off: International bonds introduce currency fluctuation risk and typically lower yields than U.S. bonds currently. However, the diversification benefit outweighs these concerns for a 10-year retirement horizon, especially as you increase overall bond allocation. If U.S. dollar strengthens significantly, this position may underperform domestic bonds short-term.",
+      "tickers": [
+        "BNDX"
+      ],
+      "suggested_action": "Allocate 5-7% of portfolio to Vanguard Total International Bond ETF (BNDX) over next 6-12 months. Fund this by directing a portion of new contributions to BNDX and taking 2% from existing BND position during your next rebalancing. This maintains overall bond allocation increase while adding geographic diversification.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "moderate",
+      "expected_return_range": "3-5% annually",
+      "time_horizon": "Build position over 6-12 months, hold through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:34:01.813329",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_7311596d",
+      "category": "tax_optimization",
+      "title": "Maximize Catch-Up Contributions to Tax-Advantaged Accounts",
+      "summary": "Ensure you're contributing the full $30,500 annual limit to 401(k) with catch-up provisions, prioritizing this over taxable account investments for optimal tax efficiency.",
+      "detailed_rationale": "(1) Signal: At age 55 with $220K annual income and $11K monthly expenses ($132K/year), you have $88K gross annual surplus. The retirement planning guide states '401(k) limits are $23,000 ($30,500 if 50+)'\u2014you qualify for $7,500 catch-up contributions. With 10 years to retirement, maximizing tax-advantaged space is critical. (2) Alignment: Your high-priority retirement goal targeting $1.8M requires aggressive saving. Contributing $30,500 annually plus employer match over 10 years, with conservative 6% growth, adds approximately $425K to retirement assets\u2014a significant portion of your $1.045M gap ($1.8M goal minus $755K current net worth). Your stable income and low debt level ($95K liabilities) make maximum contributions feasible without straining cash flow. The guide emphasizes 'tax benefits that accelerate wealth building,' directly supporting your retirement timeline. (3) Evidence: Contributing pre-tax dollars reduces current taxable income from $220K, potentially saving $9,000+ annually in taxes at your bracket (assuming ~30% marginal rate on the $30,500 contribution). Over 10 years, tax savings alone could exceed $90K, which can be redirected to investments. The knowledge base specifically highlights 'employer matching' as 'free money with immediate 100% return'\u2014verify you're capturing full match first. (4) Trade-off: Maximum contributions reduce current liquidity and take-home pay. However, with medium liquidity needs, existing emergency fund, and $88K annual surplus, this trade-off is minimal. You'll have less flexibility for taxable investments but gain superior tax-deferred compounding critical for your 10-year timeline.",
+      "tickers": [],
+      "suggested_action": "Review your current 401(k) contribution rate and immediately increase to capture the full $30,500 annual limit ($2,542/month). If employer offers Roth 401(k) option, consider splitting contributions 70/30 traditional/Roth for tax diversification in retirement. Verify employer match formula and ensure contributions capture 100% of available match. Document this in annual financial review.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Immediate 30% tax savings plus investment returns",
+      "time_horizon": "Implement immediately, continue through age 65",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:34:01.813329",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_46ffa940",
+      "category": "risk_reduction",
+      "title": "Reduce Individual Stock Concentration Below 10% of Portfolio",
+      "summary": "Trim individual stock holdings (JNJ, UNH, JPM, BRK.B, PG) from 15% to 8-10% of portfolio to reduce single-security risk as you approach retirement.",
+      "detailed_rationale": "(1) Signal: Your portfolio holds 15% in individual stocks across five positions (JNJ, UNH, JPM, BRK.B, PG). While these are quality companies, individual stock risk increases as retirement approaches. The risk management guide emphasizes 'specific risk relates to individual securities' and warns against concentration. With 10 years to retirement, you have less time to recover from company-specific shocks (accounting scandals, regulatory issues, competitive disruption). (2) Alignment: Your moderate risk tolerance and medium investment horizon support maintaining some individual stock exposure for growth, but 15% is elevated for someone approaching retirement. Reducing to 8-10% (approximately $68K-$85K of your $850K portfolio) maintains upside participation while reducing idiosyncratic risk. Your Healthcare overweight (22% of portfolio) is partially driven by JNJ and UNH\u2014trimming here also improves sector balance. Your advanced experience means you likely selected these stocks deliberately, but risk management discipline becomes paramount in your 50s. (3) Evidence: Your current holdings are concentrated in defensive sectors (Healthcare 22%, Financials 18%, Consumer Staples 10%), which is appropriate, but individual positions within these amplify volatility. The knowledge base stresses 'portfolio stress testing' and asks you to 'evaluate how your portfolio would perform in various scenarios.' A single stock declining 30-50% at 3% portfolio weight costs you $22K-$38K; at 2% weight, only $15K-$25K. Over 10 years, this risk reduction is prudent. BRK.B and JPM are already diversified businesses, but regulatory risk (banking sector) and succession risk (Berkshire post-Buffett) merit consideration. (4) Trade-off: These are high-quality companies that may outperform broad market indexes, so trimming could mean forfeiting some excess returns. However, VTI already provides exposure to most of these names, so you're reducing position size, not eliminating exposure entirely. Tax implications depend on cost basis\u2014prioritize selling positions with long-term gains in tax-advantaged accounts or those with losses for tax-loss harvesting.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "JPM",
+        "BRK.B",
+        "PG"
+      ],
+      "suggested_action": "Over next 12-18 months, systematically trim individual stock positions to reduce total allocation from 15% to 8-10%. Prioritize reducing Healthcare names (JNJ, UNH) to address 22% sector overweight. Sell approximately $42K-$60K of individual stocks and reallocate proceeds: 60% to BND (supporting glide path), 30% to VTI (maintaining equity exposure with diversification), 10% to cash (emergency fund buffer). Execute sales during strong market periods and tax-loss harvest any positions with losses to offset gains.",
+      "suggested_allocation_pct": 9.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Risk reduction measure; maintains 6-8% equity return potential",
+      "time_horizon": "Execute over 12-18 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:34:01.813329",
+      "composite_score": 0.0
+    }
+  ]
+}

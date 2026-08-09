@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 4,\n  \"C2_risk_alignment\": 2,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 3,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"The rationale cites the user's moderate risk tolerance and dual high-priority goals to justify the bond allocation.\",\n    \"C2\": \"The recommendation's low risk level does not match the user's moderate risk tolerance, and the rationale does not justify this deviation.\",\n    \"C3\": \"All claims about the bond allocation and user profile are traceable to the provided inputs.\",\n    \"C4\": \"The recommendation suggests maintaining the current bond allocation and provides a future action plan, but lacks immediate actionable steps.\",\n    \"C5\": \"The recommendation is allocation-neutral regarding diversification, as it does not address the user's concern about tech concentration.\",\n    \"C6\": \"The recommendation uses calibrated language and does not promise returns, but lacks a specific disclaimer.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 4,
+    "C2_risk_alignment": 2,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 3,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "The rationale cites the user's moderate risk tolerance and dual high-priority goals to justify the bond allocation.",
+      "C2": "The recommendation's low risk level does not match the user's moderate risk tolerance, and the rationale does not justify this deviation.",
+      "C3": "All claims about the bond allocation and user profile are traceable to the provided inputs.",
+      "C4": "The recommendation suggests maintaining the current bond allocation and provides a future action plan, but lacks immediate actionable steps.",
+      "C5": "The recommendation is allocation-neutral regarding diversification, as it does not address the user's concern about tech concentration.",
+      "C6": "The recommendation uses calibrated language and does not promise returns, but lacks a specific disclaimer."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3770,
+    "output_tokens": 243
+  },
+  "session_id": "P3_moderate_mid_career__rebalance__seed1",
+  "rec_index": 2,
+  "rec_id": "rec_c850bc90",
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,169 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "query": "I'm 40 with two kids heading to college in about 10 years. How should I balance saving for their education versus retirement?",
+  "seed": 1,
+  "system": "A_gated_045",
+  "rag_diagnostics": {
+    "top_score": 0.42,
+    "num_hits": 4,
+    "gated": true,
+    "threshold": 0.45
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_66724511",
+      "category": "diversify",
+      "title": "Establish Dedicated 529 College Savings Allocation",
+      "summary": "Create a separate 529 plan allocation representing 15-20% of investable assets ($48-64K) using age-based conservative funds to derisk education savings over the next 10 years.",
+      "detailed_rationale": "Signal: Your portfolio shows no dedicated college savings vehicle despite a high-priority $200K education goal with a 10-year horizon. Current holdings are 100% in taxable accounts with growth-oriented investments (70% stocks/ETFs, 35% tech-heavy). Step-by-step fit: (1) With children entering college in ~10 years, you're approaching the critical 'de-risking zone' where market volatility could significantly impact available funds. (2) Your moderate risk tolerance (loss comfort: 6/10) and medium liquidity needs suggest you need more certainty for near-term goals while maintaining growth for retirement. (3) A 529 plan offers tax-free growth for education expenses, effectively increasing returns by your marginal tax rate (~24-32% at $175K income). (4) Evidence from your profile: $200K target \u00f7 10 years = $20K/year needed, but your current $9,500 monthly expenses leave ~$5,200/month in free cash flow, making this achievable. (5) Age-based 529 funds automatically shift from 80% equities now to 20% equities by college entry, protecting gains as the deadline approaches. Trade-off: Money in 529s faces 10% penalty + taxes if not used for education, reducing flexibility compared to taxable accounts, though funds can be transferred to other beneficiaries or used for K-12 expenses up to $10K/year.",
+      "tickers": [
+        "VFFFX",
+        "VFORX",
+        "FFNOX"
+      ],
+      "suggested_action": "Open 529 college savings plans for both children. Transfer $50,000 (15.6% of total assets) immediately into age-based portfolios. Set up automatic monthly contributions of $1,500 to reach your $200K target by year 10. Consider Utah's my529 or Nevada's Vanguard 529 for low-cost age-based options.",
+      "suggested_allocation_pct": 15.6,
+      "risk_level": "low",
+      "expected_return_range": "5-7% annually, declining to 3-4% as college approaches",
+      "time_horizon": "10 years for first child, 12-14 years for second child",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T06:25:01.245040",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_fa8a047c",
+      "category": "rebalance",
+      "title": "Reduce Technology Overconcentration and Rebalance to Target Allocation",
+      "summary": "Trim technology exposure from 35% to 25% by reducing individual tech stock positions (AAPL, MSFT, NVDA, GOOGL) and reinvesting proceeds into bonds and international diversification.",
+      "detailed_rationale": "Signal: Your portfolio shows severe sector concentration with 35% in Technology\u2014nearly 3x the S&P 500's ~13% tech weighting and well above the 15-20% threshold for moderate risk investors. This creates correlated risk, as all four individual stocks (AAPL, MSFT, NVDA, GOOGL) plus VTI holdings overlap. Step-by-step alignment: (1) For a moderate risk tolerance with dual high-priority goals requiring funds at different times, concentration risk is inappropriate\u2014a tech downturn could simultaneously impact both education and retirement savings. (2) Your 30% bond allocation is reasonable for age 40, but the 70% equity allocation should be more diversified. Evidence: Recent tech sector volatility (2022 saw NASDAQ down 33%) demonstrates downside risk. (3) Your intermediate investment experience suggests you understand diversification principles but may have accumulated positions over time. (4) With stable income ($175K) and low debt, you can afford a more optimized allocation without needing home-run returns from individual stocks. (5) VTI already provides tech exposure at market weight, making individual tech stocks redundant. Trade-off: Selling appreciated positions triggers capital gains taxes (likely 15% long-term rate), which creates a one-time tax drag, but reduces ongoing concentration risk and volatility in your portfolio going forward.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL",
+        "BND",
+        "VXUS"
+      ],
+      "suggested_action": "Sell 50% of individual tech stock holdings (AAPL, MSFT, NVDA, GOOGL), approximately $32,000. Reinvest $20,000 into BND (increasing bonds to 36%) and $12,000 into VXUS (strengthening international exposure). This reduces tech to ~25% while maintaining your target 64% equity / 36% bond split appropriate for your 25-year retirement horizon.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% annually with reduced volatility",
+      "time_horizon": "Immediate rebalancing, reassess quarterly",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T06:25:01.245343",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_89f49a03",
+      "category": "buy",
+      "title": "Add Small-Cap Value Exposure for Long-Term Retirement Growth",
+      "summary": "Allocate 5-8% of portfolio to small-cap value ETF (VBR or AVUV) to capture historical premium returns and improve diversification for your 25-year retirement timeline.",
+      "detailed_rationale": "Signal: Your current equity allocation consists entirely of large-cap blend (VTI at market cap weight, VXUS international, plus mega-cap tech stocks). There's zero exposure to small-cap value, which historically outperforms over long periods\u2014academic research shows a 3-5% annual premium over large-cap growth since 1926. Step-by-step justification: (1) At age 40 with 25 years to retirement, you have sufficient time horizon to weather small-cap volatility and capture the size and value premiums. (2) Your moderate risk tolerance (6/10 loss comfort) and stable $175K income with low debt provide the financial cushion to hold through market cycles. (3) Small-cap value has low correlation (0.65-0.75) with large-cap tech, improving portfolio diversification when your tech holdings decline. (4) Your retirement goal of $2.5M is ambitious\u2014requiring roughly 8% annual returns from current $140K net worth plus contributions. Small-cap value's historical 12-13% returns (vs 10% for S&P 500) can help bridge this gap. (5) Evidence from your profile: retirement is high priority but 25 years out, making this the appropriate timeline for higher-return, higher-volatility asset classes. Your education goal is separate and should be handled through 529s (see recommendation #1). Trade-off: Small-cap value experiences 20-25% higher volatility than large-cap blend funds and may underperform during momentum-driven bull markets (like 2017-2021), testing your patience during growth stock rallies.",
+      "tickers": [
+        "VBR",
+        "AVUV"
+      ],
+      "suggested_action": "Purchase $16,000-25,000 (5-8% of total assets) of Vanguard Small-Cap Value ETF (VBR) or Avantis US Small Cap Value ETF (AVUV). AVUV offers stronger value and profitability tilt. Fund this from new contributions over next 3-4 months rather than selling existing positions to avoid tax impact. Rebalance annually to maintain 5-8% target allocation.",
+      "suggested_allocation_pct": 6.5,
+      "risk_level": "moderate",
+      "expected_return_range": "9-12% annually over 20+ year period",
+      "time_horizon": "25 years (retirement-focused, not for education goal)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T06:25:01.245343",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_b8892225",
+      "category": "tax_optimization",
+      "title": "Maximize Retirement Account Contributions for Tax-Advantaged Growth",
+      "summary": "Prioritize maxing out 401(k) contributions ($23,000/year) and backdoor Roth IRA ($7,000/year) to create $30K annual tax-advantaged retirement savings, improving both tax efficiency and goal separation.",
+      "detailed_rationale": "Signal: Your income ($175K) and expenses ($9,500/month = $114K/year) leave $61K in annual free cash flow, but there's no indication you're maximizing tax-advantaged retirement accounts. At your income level, you're in the 24% federal tax bracket, making traditional 401(k) contributions worth $5,520/year in immediate tax savings on the $23K max contribution. Step-by-step reasoning: (1) Your dual goals (education + retirement) require goal segregation. Retirement accounts enforce this by penalizing early withdrawal, ensuring retirement funds aren't raided for college. (2) With a $2.5M retirement target and $140K current net worth, you need aggressive saving. Contributing $30K/year to retirement accounts at 7% returns yields ~$2.4M in 25 years, getting you 96% to goal before considering your existing portfolio growth. (3) Your moderate risk tolerance and intermediate experience make tax efficiency critical\u2014paying 24% less in taxes effectively boosts returns by that amount. (4) Backdoor Roth IRA is available since your income exceeds traditional Roth limits ($161K MAGI for 2024). This creates tax-free retirement income, particularly valuable given likely higher future tax rates. (5) Evidence: Your stable employment as a product manager likely includes 401(k) access, possibly with employer match (free money). Trade-off: Money in retirement accounts is illiquid until age 59.5 (with exceptions), reducing flexibility for emergencies beyond your existing emergency fund, though your medium liquidity needs and stable income suggest this is manageable.",
+      "tickers": [
+        "N/A"
+      ],
+      "suggested_action": "Immediately increase 401(k) contributions to max ($23,000/year or $1,917/month). Execute backdoor Roth IRA conversion for both you and spouse if married ($7,000-14,000/year): contribute to traditional IRA, then convert to Roth. Within these accounts, maintain similar allocation: 70% stocks (VTI, VXUS) and 30% bonds (BND) for retirement funds. This creates clear separation: taxable account + 529 for education (10 years), retirement accounts for retirement (25 years).",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Effective 7-9% after-tax returns vs 5-6.5% in taxable accounts",
+      "time_horizon": "Annual contributions through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T06:25:01.245343",
+      "composite_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed1",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "rebalance",
+  "query": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+  "seed": 1,
+  "context": {
+    "portfolio_context": "## Portfolio Snapshot\n- Total Assets: $1,500,000\n- Total Liabilities: $380,000\n- Net Worth: $1,120,000\n\n### Allocation by Asset Type\n- stock: 45.0%\n- etf: 25.0%\n- bond: 15.0%\n- cash: 5.0%\n- crypto: 5.0%\n- mutual_fund: 5.0%\n\n### Allocation by Sector\n- Technology: 30.0%\n- Energy: 15.0%\n- Financials: 15.0%\n- Industrials: 15.0%\n- Healthcare: 10.0%\n- Emerging Markets: 15.0%\n\n### Holdings (tickers)\nVTI, VWO, XLE, XOM, CVX, JPM, GS, CAT, DE, NVDA, BTC, BND",
+    "investment_profile_context": "## Investment Profile\n- Age: 45\n- Occupation: Independent strategy consultant\n- Annual Income: $280,000\n- Monthly Expenses: $13,000\n- Risk Tolerance: aggressive\n- Loss Comfort (1-10): 8\n- Investment Horizon: long\n- Liquidity Needs: medium\n- Income Stability: variable\n- Has Emergency Fund: True\n- Debt Level: moderate\n- Investment Experience: advanced\n- ESG Preference: False\n- Goals:\n  - wealth (high priority, target $4,000,000): Continue compounding wealth; comfortable with cyclical drawdowns\n  - other (medium priority, target $800,000): Legacy planning for one child",
+    "rag_context": "[investment_guide] Wealth Intelligence Research\n# Asset Allocation: Building a Diversified Portfolio\n\n\n## What is Asset Allocation?\nAsset allocation is the process of dividing investments among different asset categories, such as stocks, bonds, and cash. This strategy helps manage risk and optimize returns based on your investment goals, time horizon, and risk tolerance.\n\n## The Importance of Diversification\nDiversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation. When one asset class underperforms, others may compensate, helping to smooth overall returns.\n\n## Strategic vs Tactical Allocation\nStrategic allocation sets long-term targets based on your investment profile. Tactical allocation makes short-term adjustments to capitalize on market opportunities while staying within risk parameters.\n\n## Common Allocation Models\nConservative portfolios typically hold 20-40% stocks, 50-70% bonds. Moderate portfolios balance around 50-60% stocks, 30-40% bonds. Aggressive portfolios may hold 80-90% stocks with minimal bonds.\n\n## Rebalancing Your Portfolio\nRegular rebalancing ensures your portfolio stays aligned with target allocations. Consider rebalancing when allocations drift more than 5% from targets, or at least annually.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.\n\n---\n\n[investment_guide] Wealth Intelligence Research\n# Retirement Planning: Strategies for Long-Term Wealth Building\n\n\n## Starting Early\nThe power of compound interest makes starting early crucial. Even small contributions in your 20s and 30s can grow significantly over decades. Time in the market often matters more than timing the market.\n\n## Tax-Advantaged Accounts\nMaximize contributions to 401(k)s, IRAs, and Roth accounts. These vehicles provide tax benefits that accelerate wealth building. For 2024, 401(k) limits are $23,000 ($30,500 if 50+).\n\n## Employer Matching\nAlways contribute enough to capture the full employer match in your 401(k). This is essentially free money with an immediate 100% return on your contribution.\n\n## Target-Date Funds\nThese funds automatically adjust asset allocation as you approach retirement, becoming more conservative over time. They offer a simple, hands-off approach to retirement investing.\n\n## Social Security Planning\nDelaying Social Security benefits until age 70 can increase monthly payments by up to 77% compared to claiming at 62. Consider this in your overall retirement income strategy.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.\n\n---\n\n[investment_guide] Wealth Intelligence Research\n# Risk Management: Protecting Your Investment Portfolio\n\n\n## Understanding Risk Types\nMarket risk affects all investments. Specific risk relates to individual securities. Inflation risk erodes purchasing power. Interest rate risk impacts bond prices. Currency risk affects international investments.\n\n## Risk Tolerance Assessment\nYour risk tolerance depends on your time horizon, financial goals, income stability, and emotional comfort with volatility. Be honest about how you'd react to significant portfolio declines.\n\n## Hedging Strategies\nOptions and inverse ETFs can protect against downside risk. Dollar-cost averaging reduces timing risk. Holding cash provides a buffer during market downturns.\n\n## Emergency Fund Importance\nMaintain 3-6 months of expenses in liquid savings. This prevents the need to sell investments at unfavorable times during personal financial emergencies.\n\n## Portfolio Stress Testing\nEvaluate how your portfolio would perform in various scenarios: 2008-style crash, rising interest rates, high inflation. Adjust allocations if potential losses exceed your tolerance.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.",
+    "data_sources_used": [
+      "portfolio",
+      "investment_profile",
+      "rag_knowledge_base"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec_d70b7fee",
+      "category": "rebalance",
+      "title": "Trim Energy Overweight to Fund Technology and Healthcare Expansion",
+      "summary": "Reduce energy allocation from 15% to 8-10% by trimming XLE, XOM, or CVX positions. Redeploy proceeds to increase technology and healthcare exposure, which are underweight relative to market cap and growth potential.",
+      "detailed_rationale": "(1) SIGNAL: Your energy sector allocation at 15% is significantly overweight compared to the S&P 500 energy weighting of approximately 3-4%. With three energy holdings (XLE, XOM, CVX), you have concentration risk in a cyclical, commodity-driven sector. (2) PROFILE ALIGNMENT: As an aggressive investor with advanced experience, 8+ loss comfort, and a long time horizon targeting $4M wealth accumulation, you should prioritize secular growth sectors over cyclical commodities. Your $280K income and variable cash flow suggest you don't need defensive income positions. Energy's recent strength (2022-2023) has likely appreciated these positions beyond strategic targets. (3) EVIDENCE: The knowledge base emphasizes diversification to manage specific risk and recommends rebalancing when allocations drift more than 5% from targets. Your technology allocation at 30% (dominated by NVDA) could be expanded with broader exposure, while healthcare at only 10% is underweight for a long-term aggressive portfolio. Your age of 45 provides 20+ years for compound growth in innovation-driven sectors. (4) TRADE-OFFS: Trimming energy now means potentially missing further commodity rallies if geopolitical tensions escalate or OPEC+ production cuts tighten supply. However, energy stocks face structural headwinds from renewable transition and demand uncertainty. The tax impact of selling appreciated positions should be evaluated, though your high income ($280K) and moderate debt suggest capacity to absorb capital gains.",
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX"
+      ],
+      "suggested_action": "Sell 40-50% of your combined XLE, XOM, CVX positions (approximately 6-7% of portfolio). Prioritize trimming the position with the largest unrealized gain to minimize tax impact per dollar raised. Target final energy allocation of 8-10%.",
+      "suggested_allocation_pct": -6.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Frees capital for 12-18% annually in growth sectors vs 6-9% in energy",
+      "time_horizon": "Rebalance within 30-60 days; reassess energy allocation quarterly",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:45:22.300520",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_673dd7b6",
+      "category": "diversify",
+      "title": "Add Healthcare Growth Exposure Through Sector ETF or Biotech",
+      "summary": "Deploy proceeds from energy trim to increase healthcare allocation from 10% to 15-18% through XLV (healthcare ETF) or IBB (biotech ETF), capitalizing on aging demographics and medical innovation.",
+      "detailed_rationale": "(1) SIGNAL: Healthcare at only 10% of your portfolio is materially underweight for an aggressive, long-horizon investor. This sector offers both defensive characteristics during downturns (stable demand) and growth potential from innovation (GLP-1 drugs, gene therapy, AI diagnostics). Your portfolio lacks exposure to one of the most durable secular growth themes. (2) PROFILE ALIGNMENT: At 45 with a 20+ year horizon and wealth accumulation goals, healthcare provides ideal characteristics: non-cyclical revenue streams, demographic tailwinds from aging populations globally, and innovation-driven growth that aligns with your aggressive risk tolerance. As an advanced investor, you can handle sector-specific volatility in biotech. Your legacy planning goal for your child also benefits from sectors with long-term structural demand. (3) EVIDENCE: The knowledge base emphasizes diversification across asset classes that don't move in perfect correlation. Healthcare has historically shown low correlation with energy (0.2-0.3) and moderate correlation with technology (0.5-0.6), improving your portfolio's risk-adjusted returns. Your current sector allocation is heavily tilted toward cyclicals (Energy, Industrials, Financials = 45%), creating unnecessary volatility. Healthcare provides balance without sacrificing growth. (4) TRADE-OFFS: Healthcare, especially biotech, can experience significant drawdowns during FDA approval failures, regulatory pricing pressures, or interest rate spikes (growth valuations compress). However, given your 8/10 loss comfort and aggressive profile, these drawdowns represent buying opportunities rather than portfolio-threatening risks.",
+      "tickers": [
+        "XLV",
+        "IBB",
+        "VHT"
+      ],
+      "suggested_action": "Allocate 5-8% of portfolio to healthcare sector ETF. Consider XLV for broad diversified exposure (includes pharma, devices, services) or IBB for higher-growth biotech focus. Alternatively, split between both for layered exposure. Execute purchase in 2-3 tranches over 4-6 weeks to average entry prices.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "moderate",
+      "expected_return_range": "10-15% annually for XLV; 12-20% for IBB with higher volatility",
+      "time_horizon": "5-10+ years to capture innovation cycles and demographic trends",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:45:22.300520",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_81ff84b3",
+      "category": "diversify",
+      "title": "Reduce Single-Stock Technology Concentration Risk Beyond NVDA",
+      "summary": "Your 30% technology allocation appears concentrated in NVDA. Add complementary technology exposure through QQQ, VGT, or SOXX to diversify across software, cloud, semiconductors, and reduce single-name risk.",
+      "detailed_rationale": "(1) SIGNAL: With technology at 30% of your portfolio and NVDA as your apparent primary tech holding, you have significant concentration risk in a single stock, regardless of its quality. NVDA's 2023 rally (up 200%+) likely inflated this position beyond initial allocation. Single stocks carry specific risk (management changes, product cycles, competitive threats) that diversified funds mitigate. (2) PROFILE ALIGNMENT: Your aggressive profile and advanced experience justify high technology exposure, but concentration in one name contradicts sound risk management principles outlined in your knowledge base. As an independent consultant with variable income ($280K), your human capital already carries specific risk\u2014your investment portfolio should provide diversification, not amplify concentration. Your $4M wealth target and legacy goal both benefit from reducing idiosyncratic risk while maintaining growth exposure. (3) EVIDENCE: The knowledge base explicitly states 'specific risk relates to individual securities' and emphasizes diversification to 'smooth overall returns.' Even excellent companies like NVDA face risks: GPU competition from AMD/Intel, customer concentration in cloud providers, geopolitical exposure through Taiwan manufacturing, and valuation compression if AI spending disappoints. Your portfolio should capture the AI revolution through multiple vehicles, not a single stock. Your 25% ETF allocation (VTI, VWO) shows you understand index investing\u2014apply this same principle to technology specifically. (4) TRADE-OFFS: Diversifying away from a winning position like NVDA feels counterintuitive and will reduce upside if NVDA continues outperforming. You'll also realize taxable gains on appreciated shares. However, the knowledge base notes that 'time in the market often matters more than timing the market'\u2014staying invested in technology broadly is more important than betting on one company's continued dominance.",
+      "tickers": [
+        "QQQ",
+        "VGT",
+        "SOXX",
+        "NVDA"
+      ],
+      "suggested_action": "If NVDA exceeds 12-15% of total portfolio, trim to 8-10% and deploy proceeds to technology ETFs. Consider QQQ (Nasdaq 100, includes NVDA but diluted), VGT (broad tech/telecom), or SOXX (semiconductor index for thematic exposure). This maintains your 30% tech allocation while reducing single-stock risk by 40-50%.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "moderate",
+      "expected_return_range": "11-16% annually for diversified tech ETFs vs higher volatility in single stocks",
+      "time_horizon": "Execute rebalancing within 60-90 days; maintain diversified tech exposure long-term",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:45:22.300520",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_745b9870",
+      "category": "risk_reduction",
+      "title": "Evaluate and Potentially Reduce Cryptocurrency Allocation",
+      "summary": "At 5% of portfolio ($75K in BTC), your cryptocurrency allocation is high for wealth preservation and legacy goals. Consider trimming to 2-3% to reduce volatility and redeploy to core holdings given your moderate debt and approaching mid-career phase.",
+      "detailed_rationale": "(1) SIGNAL: A 5% BTC allocation in a $1.5M portfolio represents $75K in a highly volatile, speculative asset. While appropriate for aggressive investors, this sizing becomes questionable when considering your moderate debt ($380K), legacy planning for one child, and approaching age 50 within 5 years. BTC has experienced 70-80% drawdowns historically, meaning this position could swing $50K+ in value. Your medium liquidity needs also suggest maintaining more stable allocations. (2) PROFILE ALIGNMENT: Your aggressive risk tolerance and 8/10 loss comfort technically support crypto exposure, but your life stage creates nuance. At 45 with $280K income, you're in peak earning years but also facing potential healthcare costs, college expenses for your child, and needing to compound wealth more reliably toward your $4M target. The knowledge base emphasizes understanding 'how you'd react to significant portfolio declines'\u2014would a 60% crypto crash derail your financial plan or legacy goals? Your variable income as an independent consultant already introduces cash flow uncertainty; your portfolio should provide stability, not amplify volatility. (3) EVIDENCE: The knowledge base states 'aggressive portfolios may hold 80-90% stocks with minimal bonds'\u2014crypto isn't mentioned in standard aggressive allocation models because it serves speculation rather than wealth building through productive assets. Your existing equity exposure (45% stocks + 25% ETFs = 70%) already provides ample growth potential. The knowledge base also recommends '3-6 months expenses in liquid savings' and notes that emergency funds 'prevent the need to sell investments at unfavorable times'\u2014crypto's volatility makes it unsuitable for this purpose. (4) TRADE-OFFS: Reducing BTC exposure means missing potential upside if institutional adoption accelerates or BTC reaches $100K+. Given BTC's 2024 ETF approvals and halving cycle, near-term momentum could be strong. However, protecting accumulated wealth and ensuring legacy funding for your child outweighs speculative upside. You can maintain asymmetric crypto exposure at 2-3% while reducing tail risk.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Trim BTC position from 5% to 2-3% of portfolio ($30-45K). Given crypto's tax treatment as property, consult with your tax advisor on optimal timing\u2014consider spreading sales across tax years if position has large gains. Redeploy proceeds to either increase bond allocation (currently low at 15% for diversification) or add to VTI for core equity exposure. Maintain remaining crypto position as 'speculative sleeve' but prevent further allocation drift.",
+      "suggested_allocation_pct": -2.5,
+      "risk_level": "high",
+      "expected_return_range": "Reduces portfolio volatility by 0.5-0.8% annually; freed capital earns 7-10% in core holdings",
+      "time_horizon": "Execute within 90-120 days, monitoring tax implications; reassess crypto allocation if it exceeds 3% again",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:45:22.300520",
+      "composite_score": 0.0
+    }
+  ],
+  "rec_count": 4
+}

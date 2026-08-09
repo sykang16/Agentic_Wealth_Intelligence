@@ -1,0 +1,191 @@
+{
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "rebalance",
+  "query": "Walk me through a year-by-year glide path that gradually shifts my allocation over the next decade.",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_839d1df1",
+      "category": "rebalance",
+      "title": "Initiate Year 1 Glide Path: Reduce Equity Exposure to 70%",
+      "summary": "Begin your 10-year retirement glide path by reducing equity allocation from 55% to 70%, shifting 15% into bonds and income-focused assets to align with your age-55 starting point and medium-term horizon.",
+      "detailed_rationale": "Signal: You are 55 years old with a 10-year retirement horizon, currently holding 55% equities (40% ETF + 15% stock). The knowledge base recommends moderate portfolios balance around 50-60% stocks and 30-40% bonds, but you're approaching retirement and need to begin de-risking. Step-by-step reasoning: (1) Your current 55% equity / 35% bond / 10% other allocation is appropriate for year 1 of a glide path, but needs structured adjustment planning. A standard glide path for someone retiring at 65 typically starts at 70-75% equities at age 55 and moves to 40-50% by retirement. However, given your moderate risk tolerance (loss comfort 5/10) and advanced investment experience, starting at 70% equity and reducing by 3% annually provides a balanced approach. (2) This aligns with your high-priority retirement goal of $1.8M generating $80-100K annually (4.4-5.6% withdrawal rate). Your current $755K net worth needs 9.1% annualized growth to reach $1.8M in 10 years. A 70% equity allocation historically provides 7-9% returns with moderate volatility suitable for your risk profile. (3) The knowledge base explicitly states 'Target-Date Funds automatically adjust asset allocation as you approach retirement, becoming more conservative over time' - you're implementing this principle manually. Your stable income ($220K annually), low debt, and emergency fund provide the safety net to maintain equity exposure early in the glide path. (4) Main risk: A market downturn in years 1-3 could significantly impact your timeline since you're maintaining higher equity exposure. However, your 10-year horizon provides recovery time, and your $132K annual savings capacity ($220K income - $132K expenses) allows you to dollar-cost average through volatility.",
+      "tickers": [
+        "BND",
+        "VCIT",
+        "VGIT"
+      ],
+      "suggested_action": "Year 1 (Age 55): Maintain current 55% equity / 35% bond / 10% other. Add new contributions 70% to bonds (BND, VCIT intermediate-term corporate bonds) and 30% to equities to gradually reach 70% equity target over 12 months through dollar-cost averaging.",
+      "suggested_allocation_pct": 70.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% annually",
+      "time_horizon": "10 years to retirement, adjusting annually",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:48:45.606418",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_5ca0580b",
+      "category": "rebalance",
+      "title": "Implement Structured 10-Year De-Risking Schedule",
+      "summary": "Execute a systematic year-by-year reduction of equity exposure from 70% to 45% over the next decade, with accelerated de-risking in the final 3 years as you approach retirement at age 65.",
+      "detailed_rationale": "Signal: Your user query specifically requests a 'year-by-year glide path' and you need a concrete roadmap to transition from accumulation to preservation mode. Currently lacking a documented rebalancing strategy despite advanced investment experience. Step-by-step reasoning: (1) Your retirement goal requires $1.8M at age 65 to generate $80-100K annually. Starting from $755K net worth ($850K assets - $95K liabilities), you need disciplined execution. A glide path provides the framework to balance growth needs with increasing capital preservation. (2) The knowledge base states 'Regular rebalancing ensures your portfolio stays aligned with target allocations' and recommends 'rebalancing when allocations drift more than 5% from targets, or at least annually.' Your moderate risk tolerance and medium liquidity needs support a gradual de-risking approach rather than aggressive shifts. (3) Proposed schedule: Ages 55-56: 70% equity/25% bonds/5% cash; Ages 57-58: 65% equity/30% bonds/5% cash; Ages 59-60: 60% equity/35% bonds/5% cash; Ages 61-62: 55% equity/37% bonds/8% cash; Ages 63-64: 50% equity/40% bonds/10% cash; Age 65: 45% equity/43% bonds/12% cash. This reduces equity by approximately 2.5% annually early on, then 2% annually, with accelerated cash building in final years for retirement liquidity. (4) This schedule aligns with research showing 45-50% equity allocation at retirement provides optimal balance for 30-year retirement horizon with 4-5% withdrawal rates. Your stable $220K income allows consistent contributions: with $9K monthly surplus, you can add $108K annually to portfolio, significantly accelerating growth beyond market returns alone. (5) Main risk: This conservative glide path may underperform if markets surge in your final working years, potentially leaving wealth transfer goal ($500K) underfunded. However, your low-priority rating for wealth transfer and high-priority retirement goal justifies conservative approach. Your advanced experience allows tactical adjustments if circumstances change.",
+      "tickers": [
+        "VTI",
+        "BND",
+        "VXUS",
+        "VMBS",
+        "BIL"
+      ],
+      "suggested_action": "Implement annual rebalancing calendar: each January, review allocation and adjust to target for your age. Execute rebalancing by selling overweight positions and buying underweight. Use new contributions monthly to drift toward targets. In years 61-65, shift from BND (intermediate bonds) toward shorter-duration bonds (BIL, VGSH) and VMBS (mortgage-backed securities) for principal protection and income generation.",
+      "suggested_allocation_pct": 45.0,
+      "risk_level": "low",
+      "expected_return_range": "4-6% annually by age 65",
+      "time_horizon": "10-year structured schedule with annual checkpoints",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:48:45.606418",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_2120a5ef",
+      "category": "diversify",
+      "title": "Reduce Healthcare Overconcentration from 22% to 15%",
+      "summary": "Your 22% healthcare allocation (via JNJ, UNH) significantly exceeds diversification best practices for a single sector. Gradually reduce to 15% over 2 years while increasing exposure to underweighted defensive sectors.",
+      "detailed_rationale": "Signal: Portfolio analysis shows 22% healthcare concentration, nearly double the sector's ~12% S&P 500 weighting. Combined with 18% Technology and 18% Financials, your top 3 sectors represent 58% of portfolio - creating concentration risk inappropriate for moderate risk tolerance. Step-by-step reasoning: (1) The knowledge base emphasizes 'Diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation. When one asset class underperforms, others may compensate, helping to smooth overall returns.' Healthcare, while defensive, faces regulatory risks (drug pricing reform, Medicare negotiations) that could impact both JNJ and UNH simultaneously. (2) Your 55-year-old profile entering a glide path requires sector diversification to reduce single-industry shocks. While healthcare is traditionally defensive and suitable for pre-retirees, 22% concentration exposes you to sector-specific risk that conflicts with your stated goal of 'beginning glide-path now' toward capital preservation. (3) Your current holdings JNJ and UNH are quality companies, but both face headwinds: JNJ is splitting into two companies (consumer health spinoff completed as KVUE), creating uncertainty; UNH faces margin pressure from Medicare Advantage rate pressure and regulatory scrutiny. Your advanced investment experience suggests you understand single-stock risk, yet concentration persists. (4) Reducing healthcare to 15% frees 7% ($59,500) to rebalance into underweighted defensive sectors appropriate for your age and glide path: Consumer Staples (currently 10%, increase to 13%), Utilities (currently in 'Other' 12%, increase to 8%), and Real Estate/REITs (add 4% for income generation). These sectors provide defensive characteristics, lower volatility, and dividend income suitable for pre-retirement positioning. (5) Main risk: Healthcare has outperformed recently due to aging demographics tailwind. Reducing now might create opportunity cost if sector continues outperforming. However, prudent diversification and risk management outweigh potential outperformance - your retirement goal prioritizes capital preservation over aggressive growth. Your moderate risk tolerance (5/10 loss comfort) and medium-term horizon support defensive positioning over sector bets.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "VDC",
+        "VPU",
+        "VNQ"
+      ],
+      "suggested_action": "Over next 8 quarters, reduce JNJ and UNH positions by selling 1/8 of healthcare overweight each quarter ($7,440 per quarter). Reinvest proceeds: 40% into VDC (Vanguard Consumer Staples ETF) for defensive exposure, 35% into VPU (Vanguard Utilities ETF) for income and stability, 25% into VNQ (Vanguard Real Estate ETF) for diversification and inflation protection. This gradual approach avoids triggering large capital gains in single tax year and dollar-cost averages into new positions.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "low",
+      "expected_return_range": "5-7% annually from rebalanced sectors",
+      "time_horizon": "2 years to complete rebalancing",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:48:45.606418",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_e1192c48",
+      "category": "income_generation",
+      "title": "Build Income-Generating Bond Ladder for Ages 62-65",
+      "summary": "Starting in Year 7 (age 61), construct a 3-year bond ladder using individual Treasury and corporate bonds maturing at ages 63, 64, and 65 to provide predictable income and principal preservation as you approach retirement.",
+      "detailed_rationale": "Signal: Your retirement goal specifies needing '$80-100K/yr income' starting at age 65, but current portfolio lacks structured income generation strategy. Your 35% bond allocation (primarily BND - broad bond fund) provides diversification but not targeted maturity matching. Step-by-step reasoning: (1) The knowledge base recommends 'Social Security Planning: Delaying Social Security benefits until age 70 can increase monthly payments by up to 77% compared to claiming at 62.' If you delay Social Security to maximize benefits, you'll need portfolio income to bridge ages 65-70. A bond ladder provides predictable cash flow during this critical period. (2) Your medium liquidity needs and approaching retirement (10 years) require transition from total return focus to income + preservation focus. Currently, your bonds are in BND (aggregate bond fund) which provides diversification but exposes you to interest rate risk across entire duration spectrum. A bond ladder with specific maturity dates provides certainty: you know exactly what principal you'll receive and when, regardless of interest rate fluctuations. (3) Implementation timeline: Ages 55-60 (Years 1-5): Continue building bond allocation per glide path using BND and intermediate funds. Age 61 (Year 6): Begin constructing ladder by purchasing individual bonds maturing in 2028 (age 63), 2029 (age 64), and 2030 (age 65). Allocate 15% of portfolio ($127,500 at current value, more with growth) to this ladder - approximately $42,500 per rung. Age 62-63: As bonds mature, reinvest into new 3-year rungs to maintain rolling ladder. (4) Bond selection strategy: Use mix of Treasury bonds (safety, no credit risk) and investment-grade corporate bonds (higher yield). Given current rate environment, 3-5 year Treasuries yield 4.0-4.5%, investment-grade corporates yield 5.0-5.5%. This generates approximately $5,500-6,000 annually from ladder portion alone, with principal preservation guaranteed at maturity. As portfolio grows to $1.8M target, scale ladder proportionally. (5) This strategy aligns with knowledge base guidance: 'Target-Date Funds automatically adjust asset allocation as you approach retirement, becoming more conservative over time' - your bond ladder is the ultimate conservative positioning, providing certainty when you need it most. Your advanced investment experience and stable income allow you to execute this strategy without liquidity concerns. (6) Main risk: If interest rates rise significantly before age 61, you'll lock in lower yields. However, your glide path already contemplates increasing bond allocation, so you're dollar-cost averaging into bonds regardless. The ladder provides certainty and simplicity valuable as you transition to retirement, even if not optimal return. Your low-priority wealth transfer goal and high-priority retirement income goal clearly indicate income certainty is more valuable than reaching for yield.",
+      "tickers": [
+        "Treasury bonds (2028-2030 maturities)",
+        "Investment-grade corporate bonds",
+        "BND"
+      ],
+      "suggested_action": "Starting January of year you turn 61, allocate 15% of portfolio to individual bond purchases: select 3-5 year Treasury bonds and A-rated or higher corporate bonds with staggered maturities at ages 63, 64, 65. Work with broker to build ladder with approximately equal principal amounts maturing each year. As bonds mature, reinvest into new 3-year maturity to maintain rolling ladder. Keep remaining bond allocation in BND for liquidity and diversification.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "low",
+      "expected_return_range": "4-5% yield to maturity with principal guarantee",
+      "time_horizon": "Implement starting year 7 (age 61), maintain through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:48:45.606418",
+      "composite_score": 0.0
+    }
+  ]
+}

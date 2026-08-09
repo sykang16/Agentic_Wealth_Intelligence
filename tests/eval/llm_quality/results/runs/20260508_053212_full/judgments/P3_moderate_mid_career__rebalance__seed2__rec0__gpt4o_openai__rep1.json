@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"The rationale cites the user's moderate risk tolerance, dual high-priority goals, and specific tech exposure to justify the recommendation.\",\n    \"C2\": \"The risk level is low, one tier below moderate, justified by the need to reduce concentration risk.\",\n    \"C3\": \"All claims about the user's portfolio and holdings are accurate and traceable to the provided snapshot.\",\n    \"C4\": \"The recommendation specifies tickers, a target allocation percentage, and a time-bound execution plan.\",\n    \"C5\": \"The recommendation directly addresses the existing tech concentration and suggests reducing it.\",\n    \"C6\": \"The recommendation uses calibrated language and includes a disclaimer about potential trade-offs.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "The rationale cites the user's moderate risk tolerance, dual high-priority goals, and specific tech exposure to justify the recommendation.",
+      "C2": "The risk level is low, one tier below moderate, justified by the need to reduce concentration risk.",
+      "C3": "All claims about the user's portfolio and holdings are accurate and traceable to the provided snapshot.",
+      "C4": "The recommendation specifies tickers, a target allocation percentage, and a time-bound execution plan.",
+      "C5": "The recommendation directly addresses the existing tech concentration and suggests reducing it.",
+      "C6": "The recommendation uses calibrated language and includes a disclaimer about potential trade-offs."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3815,
+    "output_tokens": 231
+  },
+  "session_id": "P3_moderate_mid_career__rebalance__seed2",
+  "rec_index": 0,
+  "rec_id": "rec_8127a298",
+  "rubric_version": "1.1"
+}

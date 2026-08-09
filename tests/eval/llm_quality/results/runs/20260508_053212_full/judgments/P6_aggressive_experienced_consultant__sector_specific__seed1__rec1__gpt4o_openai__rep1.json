@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"The rationale cites the user's aggressive risk tolerance, advanced investment experience, and specific goals for wealth and legacy planning.\",\n    \"C2\": \"The recommendation's moderate risk level is one tier below the user's aggressive tolerance, justified by the need for geographic diversification.\",\n    \"C3\": \"Most claims are grounded, but the expected return range lacks specific support from the user's portfolio or market data.\",\n    \"C4\": \"The recommendation provides specific tickers, allocation percentages, and clear instructions on reallocating funds.\",\n    \"C5\": \"The recommendation addresses geographic concentration by suggesting developed markets exposure to balance emerging markets risk.\",\n    \"C6\": \"The recommendation uses calibrated language and acknowledges risks, but lacks an explicit disclaimer.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "The rationale cites the user's aggressive risk tolerance, advanced investment experience, and specific goals for wealth and legacy planning.",
+      "C2": "The recommendation's moderate risk level is one tier below the user's aggressive tolerance, justified by the need for geographic diversification.",
+      "C3": "Most claims are grounded, but the expected return range lacks specific support from the user's portfolio or market data.",
+      "C4": "The recommendation provides specific tickers, allocation percentages, and clear instructions on reallocating funds.",
+      "C5": "The recommendation addresses geographic concentration by suggesting developed markets exposure to balance emerging markets risk.",
+      "C6": "The recommendation uses calibrated language and acknowledges risks, but lacks an explicit disclaimer."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3851,
+    "output_tokens": 239
+  },
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed1",
+  "rec_index": 1,
+  "rec_id": "rec_8cae0522",
+  "rubric_version": "1.1"
+}

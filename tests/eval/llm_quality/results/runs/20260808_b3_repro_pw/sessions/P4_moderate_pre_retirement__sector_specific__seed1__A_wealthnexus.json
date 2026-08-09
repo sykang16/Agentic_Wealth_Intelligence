@@ -1,0 +1,180 @@
+{
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "sector_specific",
+  "query": "Are there particular sectors I should reduce as I approach retirement, and which ones should I keep for income generation?",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_784a3b0a",
+      "category": "rebalance",
+      "title": "Initiate Retirement Glide Path: Reduce Technology & Healthcare Concentration",
+      "summary": "Your Technology (18%) and Healthcare (22%) sectors represent 40% of your portfolio. As you enter the final 10 years before retirement, begin reducing high-volatility sector concentration to protect accumulated wealth while maintaining growth.",
+      "detailed_rationale": "Signal: You're 55 with a 10-year retirement horizon and moderate risk tolerance (loss comfort: 5/10), yet your portfolio shows significant sector concentration that exposes you to elevated volatility risk. Your retirement goal requires $1.8M to generate $80-100k/yr income in 10 years. \n\nStep-by-step reasoning: (1) Healthcare at 22% (driven by JNJ and UNH) and Technology at 18% create concentration risk - if either sector experiences a downturn similar to 2022 tech decline, it could significantly impact your retirement timeline. (2) The knowledge base specifically recommends that portfolios become 'more conservative over time' as retirement approaches, and your moderate risk profile aligns with a 50-60% stock, 30-40% bond allocation. Currently you're at 60% equities (stocks + equity ETFs + equity mutual funds), which is appropriate, but the internal equity composition needs rebalancing. (3) With 10 years to retirement, you should begin a glide-path strategy that gradually reduces sector-specific risk while maintaining total equity exposure through broad-market funds like VTI. (4) Main trade-off: Healthcare and Technology have been strong performers, so reducing now means potentially missing some upside. However, capital preservation becomes increasingly important as you can't easily recover from a major drawdown this close to retirement. Recommendation: Trim Healthcare to 15% and Technology to 12% over the next 12 months by selling portions of JNJ and UNH (approximately $59,500 in Healthcare reduction and $51,000 in Technology reduction), and redirect proceeds into VTI to maintain equity exposure while improving diversification.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "VTI"
+      ],
+      "suggested_action": "Reduce Healthcare holdings by selling 25-30% of JNJ and UNH positions over next 6-12 months; simultaneously reduce any tech-heavy positions. Reinvest proceeds into VTI to maintain equity exposure with broader diversification.",
+      "suggested_allocation_pct": -13.0,
+      "risk_level": "low",
+      "expected_return_range": "Portfolio volatility reduction of 8-12% with minimal return impact",
+      "time_horizon": "Execute over 6-12 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:45:02.299990",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_c4a50417",
+      "category": "diversify",
+      "title": "Add Real Estate (REITs) for Income Diversification and Inflation Protection",
+      "summary": "Your portfolio lacks real estate exposure, which is critical for retirement income generation and inflation protection. Add 5-8% allocation to REITs to create a fourth income stream alongside bonds and dividend stocks.",
+      "detailed_rationale": "Signal: Your portfolio shows zero real estate exposure despite having stable income ($220k annually), low debt, and a high-priority retirement goal requiring $80-100k/yr income generation. You need multiple income streams for retirement sustainability. \n\nStep-by-step reasoning: (1) Your current income sources in retirement will be bonds (35%) and dividend stocks (JNJ, PG, BRK.B), but you lack exposure to real estate - a traditional retirement income vehicle. (2) The knowledge base reference to VNQ (Vanguard Real Estate ETF) indicates REITs as a viable asset class that 'invests in real estate investment trusts that purchase office buildings' and other income-generating properties. REITs typically provide 3-5% dividend yields, higher than many bonds in current markets. (3) Your moderate risk tolerance and medium-term horizon align well with REITs, which have moderate volatility but provide inflation protection - critical as you'll be living on fixed income for potentially 30+ years. (4) Your advanced investment experience means you understand REIT-specific risks including interest rate sensitivity and sector cycles. (5) Main trade-off: REITs can be volatile and are interest-rate sensitive. In rising rate environments, they may underperform. However, they provide portfolio diversification (low correlation with stocks/bonds) and inflation hedging through rent increases. With $850k in assets, a 5-7% allocation ($42,500-$59,500) creates meaningful income without excessive concentration risk. Recommendation: Allocate 6% ($51,000) to VNQ, funded from your 5% cash position and partial profit-taking from overweight sectors.",
+      "tickers": [
+        "VNQ"
+      ],
+      "suggested_action": "Purchase $51,000 of VNQ (Vanguard Real Estate ETF) to establish 6% portfolio allocation. Fund this by utilizing $42,500 from cash reserves and $8,500 from Healthcare sector reduction, maintaining emergency fund adequacy.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "moderate",
+      "expected_return_range": "4-7% annually with 3-4% dividend yield",
+      "time_horizon": "10+ years through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:45:02.299990",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_b5c6030e",
+      "category": "income_generation",
+      "title": "Increase Fixed Income Allocation with Intermediate-Term Treasury Focus",
+      "summary": "While your 35% bond allocation is reasonable, enhance it by adding 5% in intermediate-term Treasuries to create a retirement income ladder and reduce credit risk as you approach your income-generation phase.",
+      "detailed_rationale": "Signal: You're entering the critical 10-year pre-retirement window where bond allocation should gradually increase and be structured for income generation, not just portfolio ballast. Your retirement goal explicitly states '$80-100k/yr income' need. \n\nStep-by-step reasoning: (1) Current 35% bond allocation (primarily BND) is appropriate for moderate risk tolerance, but the knowledge base notes bonds should increase as retirement approaches. At 55, you should be trending toward the higher end of the 30-40% range for moderate investors. (2) BND provides broad exposure to investment-grade bonds with 0.03% expense ratio, but it includes corporate bonds with credit risk. As you near retirement, reducing credit risk and increasing government bond allocation provides more stability for income generation. (3) Your stable income ($220k), low debt, and emergency fund mean you can lock in current Treasury yields (currently 4-5% in intermediate range) without liquidity concerns. (4) Building a bond ladder now - where bonds mature at intervals during retirement - creates predictable income streams. (5) With monthly expenses of $11,000 ($132k/yr) and target retirement income of $80-100k/yr, you'll need Social Security plus portfolio income. The knowledge base notes 'delaying Social Security until age 70 can increase monthly payments by up to 77%', so having bond income to bridge ages 65-70 is strategically valuable. (6) Main trade-off: Government bonds yield slightly less than corporate bonds (typically 0.5-1% less), so moving from BND to Treasury-focused allocation reduces yield. However, this is appropriate risk reduction for your life stage. Recommendation: Increase total fixed income to 40% by adding 5% in intermediate-term Treasury ETF or individual Treasuries maturing in 5-10 years.",
+      "tickers": [
+        "VGIT",
+        "BND"
+      ],
+      "suggested_action": "Add $42,500 (5% of portfolio) to intermediate-term Treasury exposure via VGIT (Vanguard Intermediate-Term Treasury ETF). Fund this from the Healthcare/Technology rebalancing proceeds to reach 40% total fixed income allocation.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "4-5% annually with high income stability",
+      "time_horizon": "Build over next 12 months; hold through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:45:02.299990",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_e227eec1",
+      "category": "tax_optimization",
+      "title": "Maximize Age 50+ Catch-Up Contributions to Tax-Advantaged Accounts",
+      "summary": "At 55 with $220k income and stable employment, you're in peak earning years. Maximize 401(k) catch-up contributions ($30,500 limit) to reduce current tax burden while accelerating retirement savings in the final decade before retirement.",
+      "detailed_rationale": "Signal: Your annual income is $220k with monthly expenses of $11,000 ($132k/yr), leaving $88k+ in annual discretionary income. Your net worth of $755k needs to grow to $1.8M in 10 years for your high-priority retirement goal - requiring approximately 9% annual growth or significant additional contributions. \n\nStep-by-step reasoning: (1) The knowledge base explicitly states 'For 2024, 401(k) limits are $23,000 ($30,500 if 50+)' and emphasizes 'Always contribute enough to capture the full employer match' while noting these are 'tax-advantaged accounts that provide tax benefits that accelerate wealth building.' (2) At your income level, you're likely in the 24-32% federal tax bracket. Contributing $30,500 to traditional 401(k) could save $7,320-$9,760 in current taxes while building retirement assets. (3) Your income stability as an operations director and low debt level ($95k total liabilities) mean you can afford maximum contributions without cash flow stress. (4) With 10 years to retirement, you have exactly 10 contribution years remaining. Maximizing all 10 years at $30,500/yr with employer match could add $350k-400k to retirement savings (assuming 7% growth and 4% employer match). (5) This directly addresses the gap between current $755k net worth and $1.8M target. (6) Main trade-off: This reduces current take-home pay and liquidity. However, you have an emergency fund, medium liquidity needs, and $88k+ annual surplus. The tax savings and retirement acceleration far outweigh the liquidity reduction. (7) Consider Roth 401(k) contributions for a portion to create tax-free retirement income, providing tax diversification. Recommendation: Immediately increase 401(k) contributions to the $30,500 maximum, allocating within the 401(k) according to your target asset allocation (favoring broad index funds like total market and bond indexes).",
+      "tickers": [],
+      "suggested_action": "Increase 401(k) contributions to maximum $30,500 annually ($2,542/month). If not already maximizing, adjust payroll deductions immediately. Consider 70% traditional/30% Roth split for tax diversification. Ensure contributions capture full employer match and invest in low-cost index options within plan.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Immediate 24-32% 'return' via tax savings plus 6-8% market growth",
+      "time_horizon": "10 years of contributions through age 65",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:45:02.299990",
+      "composite_score": 0.0
+    }
+  ]
+}

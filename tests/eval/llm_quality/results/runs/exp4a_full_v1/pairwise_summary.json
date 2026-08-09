@@ -1,0 +1,192 @@
+{
+  "n_pairwise_files": 720,
+  "confirmed_wins_per_pair": {
+    "A_gated_040__VS__A_wealthnexus": {
+      "A_gated_040": 9,
+      "A_wealthnexus": 16,
+      "tie": 47
+    },
+    "A_gated_040__VS__B2_rag_blind": {
+      "A_gated_040": 8,
+      "B2_rag_blind": 22,
+      "tie": 42
+    },
+    "A_gated_045__VS__A_wealthnexus": {
+      "A_gated_045": 13,
+      "A_wealthnexus": 14,
+      "tie": 45
+    },
+    "A_gated_045__VS__B2_rag_blind": {
+      "A_gated_045": 5,
+      "B2_rag_blind": 14,
+      "tie": 53
+    },
+    "A_wealthnexus__VS__B2_rag_blind": {
+      "A_wealthnexus": 7,
+      "B2_rag_blind": 16,
+      "tie": 49
+    }
+  },
+  "criterion_winners_per_pair": {
+    "A_gated_040__VS__A_wealthnexus": {
+      "C1_personalization": {
+        "A_gated_040": 36,
+        "A_wealthnexus": 47,
+        "tie": 61
+      },
+      "C2_risk_alignment": {
+        "A_gated_040": 5,
+        "A_wealthnexus": 28,
+        "tie": 111
+      },
+      "C3_factual_grounding": {
+        "A_gated_040": 41,
+        "A_wealthnexus": 38,
+        "tie": 65
+      },
+      "C4_actionability": {
+        "A_gated_040": 53,
+        "A_wealthnexus": 50,
+        "tie": 41
+      },
+      "C5_diversification": {
+        "A_gated_040": 24,
+        "A_wealthnexus": 39,
+        "tie": 81
+      },
+      "C6_safety_compliance": {
+        "A_gated_040": 2,
+        "A_wealthnexus": 15,
+        "tie": 127
+      }
+    },
+    "A_gated_040__VS__B2_rag_blind": {
+      "C1_personalization": {
+        "A_gated_040": 32,
+        "B2_rag_blind": 46,
+        "tie": 66
+      },
+      "C2_risk_alignment": {
+        "A_gated_040": 17,
+        "B2_rag_blind": 26,
+        "tie": 101
+      },
+      "C3_factual_grounding": {
+        "A_gated_040": 29,
+        "B2_rag_blind": 53,
+        "tie": 62
+      },
+      "C4_actionability": {
+        "A_gated_040": 32,
+        "B2_rag_blind": 71,
+        "tie": 41
+      },
+      "C5_diversification": {
+        "A_gated_040": 25,
+        "B2_rag_blind": 46,
+        "tie": 73
+      },
+      "C6_safety_compliance": {
+        "A_gated_040": 5,
+        "B2_rag_blind": 8,
+        "tie": 131
+      }
+    },
+    "A_gated_045__VS__A_wealthnexus": {
+      "C1_personalization": {
+        "A_gated_045": 35,
+        "A_wealthnexus": 42,
+        "tie": 67
+      },
+      "C2_risk_alignment": {
+        "A_gated_045": 7,
+        "A_wealthnexus": 16,
+        "tie": 121
+      },
+      "C3_factual_grounding": {
+        "A_gated_045": 43,
+        "A_wealthnexus": 39,
+        "tie": 62
+      },
+      "C4_actionability": {
+        "A_gated_045": 52,
+        "A_wealthnexus": 55,
+        "tie": 37
+      },
+      "C5_diversification": {
+        "A_gated_045": 38,
+        "A_wealthnexus": 26,
+        "tie": 80
+      },
+      "C6_safety_compliance": {
+        "A_gated_045": 3,
+        "A_wealthnexus": 10,
+        "tie": 131
+      }
+    },
+    "A_gated_045__VS__B2_rag_blind": {
+      "C1_personalization": {
+        "A_gated_045": 36,
+        "B2_rag_blind": 34,
+        "tie": 74
+      },
+      "C2_risk_alignment": {
+        "A_gated_045": 12,
+        "B2_rag_blind": 11,
+        "tie": 121
+      },
+      "C3_factual_grounding": {
+        "A_gated_045": 35,
+        "B2_rag_blind": 35,
+        "tie": 74
+      },
+      "C4_actionability": {
+        "A_gated_045": 36,
+        "B2_rag_blind": 64,
+        "tie": 44
+      },
+      "C5_diversification": {
+        "A_gated_045": 30,
+        "B2_rag_blind": 33,
+        "tie": 81
+      },
+      "C6_safety_compliance": {
+        "A_gated_045": 7,
+        "B2_rag_blind": 2,
+        "tie": 135
+      }
+    },
+    "A_wealthnexus__VS__B2_rag_blind": {
+      "C1_personalization": {
+        "A_wealthnexus": 43,
+        "B2_rag_blind": 45,
+        "tie": 56
+      },
+      "C2_risk_alignment": {
+        "A_wealthnexus": 25,
+        "B2_rag_blind": 8,
+        "tie": 111
+      },
+      "C3_factual_grounding": {
+        "A_wealthnexus": 34,
+        "B2_rag_blind": 47,
+        "tie": 63
+      },
+      "C4_actionability": {
+        "A_wealthnexus": 45,
+        "B2_rag_blind": 62,
+        "tie": 37
+      },
+      "C5_diversification": {
+        "A_wealthnexus": 31,
+        "B2_rag_blind": 39,
+        "tie": 74
+      },
+      "C6_safety_compliance": {
+        "A_wealthnexus": 11,
+        "B2_rag_blind": 3,
+        "tie": 130
+      }
+    }
+  }
+}

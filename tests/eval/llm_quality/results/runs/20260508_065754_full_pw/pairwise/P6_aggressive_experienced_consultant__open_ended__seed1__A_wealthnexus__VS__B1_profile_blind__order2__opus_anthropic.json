@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B more directly addresses the user's query by tying specific profile attributes (monthly $13k expenses, $4M wealth target, $800k legacy goal, variable consulting income) to concrete numerical buffer calculations and operational rules (draw/replenish triggers), making it more personalized and actionable. System A is slightly more grounded factually and adds a useful bond-ladder layer, but B's stronger personalization and clearer execution rules outweigh A's edge in factual precision.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B more directly addresses the user's query by tying specific profile attributes (monthly $13k expenses, $4M wealth target, $800k legacy goal, variable consulting income) to concrete numerical buffer calculations and operational rules (draw/replenish triggers), making it more personalized and actionable. System A is slightly more grounded factually and adds a useful bond-ladder layer, but B's stronger personalization and clearer execution rules outweigh A's edge in factual precision."
+  },
+  "usage": {
+    "input_tokens": 13224,
+    "output_tokens": 291
+  },
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

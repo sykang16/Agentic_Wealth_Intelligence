@@ -1,0 +1,11 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed1",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "rebalance",
+  "query": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rag_diagnostics": {},
+  "rec_count": 0,
+  "recommendations": []
+}

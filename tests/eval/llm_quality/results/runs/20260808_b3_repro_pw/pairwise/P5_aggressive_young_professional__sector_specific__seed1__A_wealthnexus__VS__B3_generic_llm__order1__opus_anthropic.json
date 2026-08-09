@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more personalized, concretely actionable recommendations with specific dollar amounts, ticker splits, and rationale tied to the user's FIRE goal, software background, and specific holdings. System B raises a valid overlap point and stronger international diversification argument, but its actions are more directional and it contains some questionable specific claims (e.g., precise QQQ weightings), while A's greater specificity and directly addressing the AI-infrastructure question give it the overall edge.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more personalized, concretely actionable recommendations with specific dollar amounts, ticker splits, and rationale tied to the user's FIRE goal, software background, and specific holdings. System B raises a valid overlap point and stronger international diversification argument, but its actions are more directional and it contains some questionable specific claims (e.g., precise QQQ weightings), while A's greater specificity and directly addressing the AI-infrastructure question give it the overall edge."
+  },
+  "usage": {
+    "input_tokens": 10486,
+    "output_tokens": 286
+  },
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 1,
+  "rubric_version": "1.1"
+}

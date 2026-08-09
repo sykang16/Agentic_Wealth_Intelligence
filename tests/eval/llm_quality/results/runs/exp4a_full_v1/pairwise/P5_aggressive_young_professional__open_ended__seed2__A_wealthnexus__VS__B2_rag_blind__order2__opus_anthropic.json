@@ -1,0 +1,30 @@
+{
+  "session_id": "P5_aggressive_young_professional__open_ended__seed2",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "open_ended",
+  "seed": 2,
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 2,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more specific personalization (referencing exact income, expenses, investable surplus, and mapping to FIRE math) and more concrete, executable actions including specific dollar amounts, HSA/backdoor Roth details, and tax-loss harvesting mechanics. System B is solid and well-structured but relies more on generic knowledge-base quotes and slightly less precise numerical grounding, giving A the edge overall.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more specific personalization (referencing exact income, expenses, investable surplus, and mapping to FIRE math) and more concrete, executable actions including specific dollar amounts, HSA/backdoor Roth details, and tax-loss harvesting mechanics. System B is solid and well-structured but relies more on generic knowledge-base quotes and slightly less precise numerical grounding, giving A the edge overall."
+  },
+  "usage": {
+    "input_tokens": 13228,
+    "output_tokens": 272
+  }
+}

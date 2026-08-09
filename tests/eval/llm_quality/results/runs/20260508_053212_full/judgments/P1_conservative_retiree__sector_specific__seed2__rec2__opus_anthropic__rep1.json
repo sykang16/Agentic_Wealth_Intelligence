@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes (monthly expenses $4,200, conservative risk tolerance, loss comfort 2/10, retirement income goal, stable pension income, no debt) and uses them causally to justify the recommendation.\",\n    \"C2\": \"risk_level 'low' matches the user's conservative risk tolerance exactly, and the rationale explicitly justifies the fit by noting principal preservation and avoidance of equities.\",\n    \"C3\": \"All numeric claims (cash %, expenses, yields) are traceable to the snapshot or to verifiable current market conditions, and tickers referenced (VMFXX, SPAXX, SHV, SGOV) are real money market/Treasury vehicles.\",\n    \"C4\": \"Provides specific tickers, precise dollar/percent allocations, an immediate implementation timeline, and a clear first step of maintaining $75-100k cash and reallocating the excess.\",\n    \"C5\": \"The recommendation does not directly address the user's actual question about healthcare/utility concentration (55% combined) and is allocation-neutral on the sector overweights, though it doesn't worsen them.\",\n    \"C6\": \"Uses calibrated language ('consider', 'currently', 'present no principal risk' is reasonable for T-bills), avoids guarantee framing, and confidence is appropriately scoped.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes (monthly expenses $4,200, conservative risk tolerance, loss comfort 2/10, retirement income goal, stable pension income, no debt) and uses them causally to justify the recommendation.",
+      "C2": "risk_level 'low' matches the user's conservative risk tolerance exactly, and the rationale explicitly justifies the fit by noting principal preservation and avoidance of equities.",
+      "C3": "All numeric claims (cash %, expenses, yields) are traceable to the snapshot or to verifiable current market conditions, and tickers referenced (VMFXX, SPAXX, SHV, SGOV) are real money market/Treasury vehicles.",
+      "C4": "Provides specific tickers, precise dollar/percent allocations, an immediate implementation timeline, and a clear first step of maintaining $75-100k cash and reallocating the excess.",
+      "C5": "The recommendation does not directly address the user's actual question about healthcare/utility concentration (55% combined) and is allocation-neutral on the sector overweights, though it doesn't worsen them.",
+      "C6": "Uses calibrated language ('consider', 'currently', 'present no principal risk' is reasonable for T-bills), avoids guarantee framing, and confidence is appropriately scoped."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6122,
+    "output_tokens": 564
+  },
+  "session_id": "P1_conservative_retiree__sector_specific__seed2",
+  "rec_index": 2,
+  "rec_id": "rec_6191d2c0",
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,169 @@
+{
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed2",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "sector_specific",
+  "query": "I'm already heavy in tech. Should I rotate into AI infrastructure plays, or diversify into a different sector entirely?",
+  "seed": 2,
+  "context": {
+    "portfolio_context": "## Portfolio Snapshot\n- Total Assets: $180,000\n- Total Liabilities: $18,000\n- Net Worth: $162,000\n\n### Allocation by Asset Type\n- etf: 50.0%\n- stock: 35.0%\n- crypto: 5.0%\n- cash: 10.0%\n\n### Allocation by Sector\n- Technology: 65.0%\n- Consumer Discretionary: 15.0%\n- Communication Services: 10.0%\n- Other: 10.0%\n\n### Holdings (tickers)\nQQQ, VTI, TSLA, NVDA, GOOGL, META, AMZN, BTC",
+    "investment_profile_context": "## Investment Profile\n- Age: 30\n- Occupation: Senior software engineer\n- Annual Income: $195,000\n- Monthly Expenses: $5,500\n- Risk Tolerance: aggressive\n- Loss Comfort (1-10): 9\n- Investment Horizon: long\n- Liquidity Needs: low\n- Income Stability: stable\n- Has Emergency Fund: True\n- Debt Level: low\n- Investment Experience: intermediate\n- Goals:\n  - wealth (high priority, target $2,500,000): Reach financial independence in ~15 years (FIRE target)",
+    "rag_context": "",
+    "data_sources_used": [
+      "portfolio",
+      "investment_profile"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec_64cb016a",
+      "category": "diversify",
+      "title": "Reduce Tech Concentration - Rotate 15% into Healthcare and Financials",
+      "summary": "Your 65% tech allocation creates significant concentration risk. Rotate 15% ($27,000) into defensive sectors to maintain growth potential while reducing correlation risk.",
+      "detailed_rationale": "Signal: Your portfolio shows 65% sector concentration in Technology, which is 2-3x higher than the S&P 500's tech weighting (~25-30%). While your aggressive risk tolerance (9/10 loss comfort) supports growth investing, concentration risk differs from market risk\u2014a tech-specific downturn (regulatory action, rate sensitivity, valuation compression) could significantly impair your $2.5M FIRE goal timeline. Step-by-step fit: (1) At 30 years old with 15-year horizon, you can absorb volatility but shouldn't sacrifice diversification benefits that reduce path dependency risk. (2) Your stable $195k income and low liquidity needs mean you don't need to sell during downturns, but sector diversification improves risk-adjusted returns historically. (3) Evidence: Healthcare (XLV) and Financials (XLF) have shown 0.3-0.5 correlation with tech vs. 0.9+ correlation among your current holdings, providing genuine diversification while maintaining equity exposure for growth. (4) Trade-off: You may underperform in continued tech rallies, but you reduce single-sector dependency risk which is critical for a 15-year compounding goal where surviving drawdowns matters more than maximizing every upswing.",
+      "tickers": [
+        "XLV",
+        "XLF"
+      ],
+      "suggested_action": "Sell $13,500 from QQQ and $13,500 from VTI. Invest $18,000 in XLV (Healthcare Select Sector SPDR) and $9,000 in XLF (Financial Select Sector SPDR). This reduces tech exposure to ~50% while adding defensive healthcare and cyclical financial exposure.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "15-year hold, rebalance annually",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:39:32.525223",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_07374a0c",
+      "category": "buy",
+      "title": "Strategic AI Infrastructure Position - Add 5% Semiconductor Equipment",
+      "summary": "If staying in tech, gain AI infrastructure exposure through semiconductor equipment makers (ASML, LRCX) rather than adding to chip designers where you're already concentrated.",
+      "detailed_rationale": "Signal: Your question about AI infrastructure shows interest in thematic exposure, but adding more NVDA-adjacent positions would worsen concentration. You already own NVDA directly plus QQQ (NVDA is 10%+ of holdings). Step-by-step reasoning: (1) Semiconductor equipment companies like ASML and Lam Research are 'picks and shovels' plays\u2014they sell to all chip makers regardless of who wins AI chip wars, providing diversified AI exposure. (2) This aligns with aggressive risk tolerance while being more intelligent than chasing same chips/cloud names. (3) Evidence: ASML has monopoly on EUV lithography (100% market share for advanced nodes required for AI chips), creating structural moat. Equipment spending is projected to grow 15-20% annually through 2026 per SEMI industry data as all manufacturers race to AI capacity. (4) Your intermediate experience level suits understanding this supply chain positioning. (5) Trade-off: These are still cyclical tech stocks correlated with semiconductor demand cycles, and you're adding to tech overall sector weight, which conflicts with diversification needs. This is why allocation is limited to 5% and priority is lower than diversification recommendation.",
+      "tickers": [
+        "ASML",
+        "LRCX"
+      ],
+      "suggested_action": "Allocate $9,000 (5% of portfolio): $5,000 to ASML and $4,000 to LRCX. Fund this from your 10% cash position, reducing cash to 5%. Only execute this AFTER completing the sector diversification in recommendation #1.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "high",
+      "expected_return_range": "12-20% annually",
+      "time_horizon": "5-10 years, monitor quarterly",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:39:32.525223",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_7b6c55a7",
+      "category": "rebalance",
+      "title": "Reduce Crypto to 2% - Reallocate to International Developed Markets",
+      "summary": "Trim Bitcoin position from 5% to 2% and rotate $5,400 into international developed market exposure (VEA or VXUS) to reduce home country bias.",
+      "detailed_rationale": "Signal: Your portfolio has 0% international equity exposure and 5% crypto\u2014an unusual allocation that maximizes US/speculative risk while missing global diversification. Step-by-step fit: (1) Portfolio analysis shows 100% US equity exposure in stocks/ETFs. Despite US market dominance, international developed markets (Europe, Japan, Australia) trade at 40% valuation discount to US (P/E ~12 vs ~20) and provide currency diversification. (2) At 5%, BTC is oversized relative to its role as a speculative/alternative asset. Even aggressive portfolios typically cap crypto at 2-3% due to volatility (80%+ drawdowns historically). (3) Your $2.5M FIRE goal over 15 years benefits from global equity exposure\u2014during 2000-2010, international outperformed US significantly; concentration in single market adds unnecessary risk. (4) Evidence: Your stable income supports maintaining 2% BTC for asymmetric upside exposure while your long horizon suits international equity risk. (5) Trade-off: You may miss Bitcoin upside if crypto enters new bull cycle, but 2% still provides meaningful exposure. International markets may continue underperforming US in near-term, but valuation mean reversion is a multi-year tailwind.",
+      "tickers": [
+        "VEA",
+        "VXUS",
+        "BTC"
+      ],
+      "suggested_action": "Sell 60% of BTC position (~$5,400). Invest proceeds in VEA (Vanguard Developed Markets ETF) or VXUS (Vanguard Total International Stock). This reduces crypto to 2% and adds 3% international exposure, improving global diversification.",
+      "suggested_allocation_pct": 3.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-11% annually",
+      "time_horizon": "10-15 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:39:32.525223",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_c5b241d2",
+      "category": "hold",
+      "title": "Maintain Core Mega-Cap Tech Positions with Quarterly Review",
+      "summary": "Keep GOOGL, META, AMZN positions unchanged for now. These provide quality growth exposure aligned with your profile, but institute quarterly review process to monitor concentration.",
+      "detailed_rationale": "Signal: Despite concentration concerns, your individual mega-cap tech holdings (GOOGL, META, AMZN) represent high-quality franchises appropriate for aggressive, long-term growth investing. Step-by-step reasoning: (1) These companies have fortress balance sheets, dominant market positions, and are direct AI beneficiaries (Google AI/Cloud, Meta AI infrastructure, Amazon AWS/AI services). (2) Your 15-year horizon and high loss tolerance support holding through volatility. (3) Your $195k stable income means you're not dependent on portfolio distributions and can ride out drawdowns. (4) Evidence from knowledge base: These names have 10-20% revenue growth trajectories, strong free cash flow generation, and are buying back stock. At 30 years old, you can compound these positions. (5) However, regulatory risks exist (antitrust for GOOGL/AMZN, content moderation for META) and valuations are full. Trade-off: Holding concentrates tech exposure further, which is why this is paired with diversification recommendations. The quarterly review process ensures you monitor position sizes\u2014if any single stock exceeds 15% of portfolio, consider trimming. This 'hold' is conditional on executing the sector diversification (recommendation #1) to balance overall portfolio risk.",
+      "tickers": [
+        "GOOGL",
+        "META",
+        "AMZN"
+      ],
+      "suggested_action": "No immediate action. Set calendar reminder for quarterly portfolio review (next review in 3 months). At each review, check: (1) Does any single stock exceed 15% of total portfolio? (2) Has sector allocation drifted back above 60% tech? (3) Are fundamentals intact? Rebalance if needed.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "high",
+      "expected_return_range": "10-15% annually",
+      "time_horizon": "10-15 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "low",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:39:32.525223",
+      "composite_score": 0.0
+    }
+  ],
+  "rec_count": 4
+}

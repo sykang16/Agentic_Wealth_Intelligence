@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes (age 30, 15-year FIRE horizon, $2.5M goal, 9/10 loss comfort, aggressive tolerance) and ties them causally to the recommendation.\",\n    \"C2\": \"Risk_level is 'moderate' for an aggressive user (one tier adjacent), but the rationale defensibly justifies the deviation as concentration-risk mitigation while preserving aggressive growth posture.\",\n    \"C3\": \"All ticker references, sector concentration figures, and allocation math are traceable to the portfolio snapshot; the 28% S&P tech weight and return range are reasonable generic claims.\",\n    \"C4\": \"Provides concrete tickers (VXUS, BND), specific dollar amount (~$13,500), allocation percentages, a clear first step (sell 15% of QQQ), and a rebalancing cadence.\",\n    \"C5\": \"Directly identifies the 65% Technology overconcentration and zero international/bond exposure, and the recommendation explicitly addresses both gaps.\",\n    \"C6\": \"Uses calibrated language ('likely', 'may') and avoids guarantees, though confidence is marked 'high' and no explicit disclaimer appears at rec level (acceptable if system-level disclaimer exists).\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes (age 30, 15-year FIRE horizon, $2.5M goal, 9/10 loss comfort, aggressive tolerance) and ties them causally to the recommendation.",
+      "C2": "Risk_level is 'moderate' for an aggressive user (one tier adjacent), but the rationale defensibly justifies the deviation as concentration-risk mitigation while preserving aggressive growth posture.",
+      "C3": "All ticker references, sector concentration figures, and allocation math are traceable to the portfolio snapshot; the 28% S&P tech weight and return range are reasonable generic claims.",
+      "C4": "Provides concrete tickers (VXUS, BND), specific dollar amount (~$13,500), allocation percentages, a clear first step (sell 15% of QQQ), and a rebalancing cadence.",
+      "C5": "Directly identifies the 65% Technology overconcentration and zero international/bond exposure, and the recommendation explicitly addresses both gaps.",
+      "C6": "Uses calibrated language ('likely', 'may') and avoids guarantees, though confidence is marked 'high' and no explicit disclaimer appears at rec level (acceptable if system-level disclaimer exists)."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6053,
+    "output_tokens": 547
+  },
+  "session_id": "P5_aggressive_young_professional__open_ended__seed1",
+  "rec_index": 0,
+  "rec_id": "rec_fffd8bbc",
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,112 @@
+{
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "sector_specific",
+  "query": "I'm already heavy in tech. Should I rotate into AI infrastructure plays, or diversify into a different sector entirely?",
+  "seed": 1,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "diversify",
+      "title": "Diversify into Growth Sectors Beyond Tech",
+      "summary": "Reduce tech concentration from 65% to 45% by adding healthcare, industrials, and financials exposure through sector ETFs",
+      "detailed_rationale": "Your 65% tech allocation creates significant concentration risk, especially given your tech-focused career. While your aggressive risk profile and long horizon support growth investing, sector diversification protects against tech-specific downturns without sacrificing growth potential. Healthcare (aging demographics, innovation), industrials (infrastructure spending, reshoring), and financials (rising rate beneficiaries) offer complementary growth drivers. This maintains your aggressive posture while reducing single-sector vulnerability. Your stable income and emergency fund support this strategic rebalancing.",
+      "tickers": [
+        "XLV",
+        "VHT",
+        "XLI",
+        "VIS",
+        "XLF"
+      ],
+      "suggested_action": "Allocate 20% of portfolio to diversification: 10% healthcare ETFs (XLV/VHT), 7% industrials (XLI/VIS), 3% financials (XLF). Fund through reducing QQQ position and redirecting new contributions over 3-6 months",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "long_term",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T14:44:02.899620",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "buy",
+      "title": "Strategic AI Infrastructure Position",
+      "summary": "Add 5-8% targeted allocation to AI infrastructure and semiconductor equipment plays complementing existing tech holdings",
+      "detailed_rationale": "Given your tech expertise and aggressive profile, selective AI infrastructure exposure makes sense, but as a complement to diversification, not a replacement. Focus on picks/shovels plays (AVGO, ASML, TSM) rather than crowded mega-cap AI stocks you already own through QQQ. These provide AI exposure with different risk profiles than your current NVDA holding. Limit to 5-8% to avoid exacerbating concentration. Your intermediate experience and stable income support adding individual semiconductor positions, but this should be secondary to broader diversification given your career-portfolio overlap.",
+      "tickers": [
+        "AVGO",
+        "ASML",
+        "TSM",
+        "AMAT"
+      ],
+      "suggested_action": "Allocate 5-8% to 2-3 AI infrastructure stocks (AVGO, ASML, TSM). Initiate positions gradually over 2-3 months. Consider this only after establishing broader sector diversification",
+      "suggested_allocation_pct": 7.0,
+      "risk_level": "high",
+      "expected_return_range": "12-20% annually",
+      "time_horizon": "long_term",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T14:44:02.899620",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "rebalance",
+      "title": "Reduce Individual Tech Stock Concentration",
+      "summary": "Trim individual tech stocks (TSLA, META, AMZN) from ~35% to 20%, maintaining exposure through QQQ/VTI instead",
+      "detailed_rationale": "Your 35% individual tech stock allocation amplifies already-high tech exposure, creating excessive idiosyncratic risk. TSLA particularly adds volatility without diversification benefit. While your risk tolerance is high, concentration in 5-6 individual tech names plus tech-heavy ETFs creates unnecessary single-stock risk when QQQ already provides quality tech exposure. Reducing to 20% individual stocks (keeping highest conviction picks like NVDA, GOOGL) while maintaining tech exposure through ETFs offers better risk-adjusted returns. This frees capital for diversification while preserving growth orientation. Your 15-year FIRE timeline benefits from reducing unnecessary volatility.",
+      "tickers": [
+        "TSLA",
+        "META",
+        "AMZN"
+      ],
+      "suggested_action": "Sell 40-50% of TSLA, META, and AMZN positions over 2-4 months. Retain smaller positions if desired for conviction exposure. Redeploy proceeds to sector diversification and potentially AI infrastructure picks",
+      "suggested_allocation_pct": -15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "N/A (risk reduction)",
+      "time_horizon": "immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T14:44:02.899620",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "risk_reduction",
+      "title": "Reduce Crypto Allocation",
+      "summary": "Trim crypto from 5% to 2-3% given already-aggressive equity portfolio and volatility concentration",
+      "detailed_rationale": "While 5% crypto is manageable, it adds significant volatility to an already aggressive, tech-concentrated portfolio. Your loss comfort is high, but crypto's -50%+ drawdown potential combined with potential tech sector corrections creates compounding risk. Your $2.5M FIRE goal is achievable through equity growth alone given your age, income, and savings capacity ($195K income - $66K expenses = $129K annual savings potential). Reducing crypto to 2-3% maintains exposure to the asset class while reducing tail risk. This is especially prudent given your tech career correlation. The freed capital strengthens diversification efforts, improving risk-adjusted path to your FIRE target.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Reduce BTC position by 40-60%, bringing crypto allocation to 2-3% of portfolio. Execute over 1-2 months to avoid timing risk. Redeploy to diversification positions",
+      "suggested_allocation_pct": -2.5,
+      "risk_level": "low",
+      "expected_return_range": "N/A (volatility reduction)",
+      "time_horizon": "immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T14:44:02.899620",
+      "composite_score": 0.0
+    }
+  ]
+}

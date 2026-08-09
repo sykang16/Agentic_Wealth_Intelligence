@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"The rationale cites the user's moderate risk tolerance, investment experience, and education goal, explaining the recommendation based on these attributes.\",\n    \"C2\": \"The risk level is low, which is one tier adjacent to the user's moderate risk tolerance, and the rationale justifies this by addressing concentration risk.\",\n    \"C3\": \"All claims about the portfolio's tech concentration and the suggested rebalancing are traceable to the provided portfolio snapshot.\",\n    \"C4\": \"The recommendation provides specific tickers, allocation percentages, and clear instructions for rebalancing.\",\n    \"C5\": \"The recommendation directly addresses the overconcentration in the technology sector and suggests reallocating to improve diversification.\",\n    \"C6\": \"The recommendation uses calibrated language, includes no guarantees, and aligns with safety and compliance standards.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "The rationale cites the user's moderate risk tolerance, investment experience, and education goal, explaining the recommendation based on these attributes.",
+      "C2": "The risk level is low, which is one tier adjacent to the user's moderate risk tolerance, and the rationale justifies this by addressing concentration risk.",
+      "C3": "All claims about the portfolio's tech concentration and the suggested rebalancing are traceable to the provided portfolio snapshot.",
+      "C4": "The recommendation provides specific tickers, allocation percentages, and clear instructions for rebalancing.",
+      "C5": "The recommendation directly addresses the overconcentration in the technology sector and suggests reallocating to improve diversification.",
+      "C6": "The recommendation uses calibrated language, includes no guarantees, and aligns with safety and compliance standards."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3796,
+    "output_tokens": 256
+  },
+  "session_id": "P3_moderate_mid_career__sector_specific__seed1",
+  "rec_index": 1,
+  "rec_id": "rec_8c7fe471",
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"tie\",\n  \"rationale_overall\": \"Both systems deliver nearly identical, well-personalized conservative recommendations addressing emergency fund priority, holding existing investments, and debt reduction. System A has slightly better factual grounding (B's surplus calculation of $1,800/month conflicts with the actual ~$2,200 gap between income and expenses), while System B offers a more actionable HYSA optimization with specific institutions and rates; these strengths roughly offset.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "tie",
+    "rationale_overall": "Both systems deliver nearly identical, well-personalized conservative recommendations addressing emergency fund priority, holding existing investments, and debt reduction. System A has slightly better factual grounding (B's surplus calculation of $1,800/month conflicts with the actual ~$2,200 gap between income and expenses), while System B offers a more actionable HYSA optimization with specific institutions and rates; these strengths roughly offset."
+  },
+  "usage": {
+    "input_tokens": 11793,
+    "output_tokens": 277
+  },
+  "session_id": "P2_conservative_early_career__rebalance__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

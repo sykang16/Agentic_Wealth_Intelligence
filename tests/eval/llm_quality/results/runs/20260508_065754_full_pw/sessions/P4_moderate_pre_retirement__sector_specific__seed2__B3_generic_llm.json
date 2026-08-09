@@ -1,0 +1,112 @@
+{
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "sector_specific",
+  "query": "Are there particular sectors I should reduce as I approach retirement, and which ones should I keep for income generation?",
+  "seed": 2,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "rebalance",
+      "title": "Reduce Technology and Energy Sector Exposure",
+      "summary": "Decrease Technology (18%) and Energy (8%) allocations to lower volatility as you enter the retirement glide-path phase, reallocating to more stable, income-generating sectors.",
+      "detailed_rationale": "At 55 with a 10-year horizon to retirement, you should begin reducing exposure to cyclical and volatile sectors. Technology, while potentially high-performing, experiences significant drawdowns during market corrections. Energy is highly volatile and commodity-dependent with inconsistent dividend policies. Your moderate risk tolerance and loss comfort of 5/10 suggest these sectors present excessive volatility risk for your stage. Recommend reducing Technology from 18% to 10% and Energy from 8% to 3% over the next 12-18 months, reallocating proceeds to dividend aristocrats in Consumer Staples and Healthcare.",
+      "tickers": [
+        "VTI",
+        "VXUS"
+      ],
+      "suggested_action": "Gradually reduce technology and energy positions within broad market ETFs or rebalance sector tilts",
+      "suggested_allocation_pct": -13.0,
+      "risk_level": "moderate",
+      "expected_return_range": "N/A - risk reduction focus",
+      "time_horizon": "12-18 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T14:12:11.886590",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "buy",
+      "title": "Increase Healthcare and Consumer Staples for Defensive Income",
+      "summary": "Boost Healthcare to 28% and Consumer Staples to 15% to create a defensive, dividend-generating core suitable for retirement income needs.",
+      "detailed_rationale": "Healthcare (currently 22%) and Consumer Staples (10%) are ideal retirement sectors due to consistent demand, recession-resistance, and reliable dividend growth. You already hold strong Healthcare positions (JNJ, UNH) and Consumer Staples (PG). These sectors historically maintain earnings through economic cycles and provide growing income streams. Healthcare demographic tailwinds from aging populations support long-term stability. Consumer Staples companies are dividend aristocrats with 25+ years of consecutive increases. Increasing these allocations provides the defensive positioning and income generation required for your retirement goal of $80-100k annually. Target 28% Healthcare (+6%) and 15% Consumer Staples (+5%).",
+      "tickers": [
+        "JNJ",
+        "PG",
+        "KO",
+        "ABBV",
+        "MDT"
+      ],
+      "suggested_action": "Add to existing JNJ and PG positions; consider adding KO (Coca-Cola), ABBV (AbbVie), or MDT (Medtronic) for diversified income",
+      "suggested_allocation_pct": 11.0,
+      "risk_level": "low",
+      "expected_return_range": "6-9% annually with 3-4% dividend yield",
+      "time_horizon": "10+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T14:12:11.886590",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "income_generation",
+      "title": "Increase Utilities and REITs for Stable Retirement Income",
+      "summary": "Add Utilities (5%) and REITs (5%) sectors to your portfolio for predictable, high-yield income streams essential for retirement cash flow.",
+      "detailed_rationale": "Your current portfolio lacks Utilities and REITs (Real Estate Investment Trusts), both critical income-generation sectors for retirees. Utilities provide essential services with regulated revenue streams and typically yield 3-4% with modest growth. REITs are legally required to distribute 90% of taxable income as dividends, offering yields of 3-5%. These sectors complement your existing holdings by adding non-correlated income sources. With $1.8M retirement goal and $80-100k income need (4.4-5.6% withdrawal rate), you need reliable dividend generators. Consider VYM (Vanguard High Dividend Yield), VNQ (Vanguard Real Estate ETF), or NEE (NextEra Energy) for utilities. This adds 10% total allocation split evenly between sectors.",
+      "tickers": [
+        "VYM",
+        "VNQ",
+        "NEE",
+        "O"
+      ],
+      "suggested_action": "Allocate 5% to utility-focused holdings (VYM or NEE) and 5% to REIT exposure (VNQ or O - Realty Income)",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "5-8% annually with 3.5-4.5% dividend yield",
+      "time_horizon": "10+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T14:12:11.886590",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "hold",
+      "title": "Maintain Core Financials and Industrials Positions",
+      "summary": "Keep Financials (18%) and Industrials (12%) allocations stable as they provide balanced exposure to economic growth with reasonable dividend yields.",
+      "detailed_rationale": "Your Financials (JPM, BRK.B) and Industrials positions strike an appropriate balance for pre-retirement portfolios. Financials benefit from rising interest rates (favorable current environment) and provide 2-3% yields with growth potential. JPM is a dividend aristocrat with fortress balance sheet. BRK.B offers diversified business exposure with capital appreciation focus. Industrials (12%) provide economic participation without excessive volatility. These sectors shouldn't be increased significantly given retirement timeline, but merit holding given quality positions and moderate income contribution. They offer more growth potential than pure defensive sectors while maintaining reasonable stability. At your advanced experience level, you understand these provide portfolio ballast between aggressive growth and pure income plays.",
+      "tickers": [
+        "JPM",
+        "BRK.B"
+      ],
+      "suggested_action": "Maintain current positions; reinvest dividends",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually with 2-3% dividend yield",
+      "time_horizon": "10+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T14:12:11.886590",
+      "composite_score": 0.0
+    }
+  ]
+}

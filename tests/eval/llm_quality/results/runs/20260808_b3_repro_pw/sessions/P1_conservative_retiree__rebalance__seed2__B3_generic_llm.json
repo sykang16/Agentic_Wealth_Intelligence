@@ -1,0 +1,83 @@
+{
+  "session_id": "P1_conservative_retiree__rebalance__seed2",
+  "persona_id": "P1_conservative_retiree",
+  "query_type": "rebalance",
+  "query": "I have about 50% of my portfolio in bonds. Is that the right level for someone my age, or should I rebalance?",
+  "seed": 2,
+  "system": "B3_generic_llm",
+  "rec_count": 3,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "hold",
+      "title": "Maintain Current 50% Bond Allocation - Well Positioned for Retirement",
+      "summary": "Your 50% bond allocation is appropriate and conservative for a 65-year-old retiree with high liquidity needs and low risk tolerance. This positioning provides capital preservation and steady income.",
+      "detailed_rationale": "Given your profile - age 65, retired, conservative risk tolerance (loss comfort of only 2/10), short investment horizon, and high liquidity needs - a 50% bond allocation is entirely appropriate and arguably optimal. Traditional age-based rules suggest bonds equal to your age (65%) or age minus 10 (55%), but your additional 20% cash position brings your total safe assets to 70%, which aligns well with conservative retirement guidelines. Your bond holdings (BND, AGG) provide diversification, liquidity, and income generation. With stable income from pension and Social Security covering your $4,200 monthly expenses ($50,400 annually) against $78,000 total income, you have adequate buffer without needing to take additional portfolio risk. The 25% stock allocation provides some growth potential and inflation protection while remaining conservative.",
+      "tickers": [
+        "BND",
+        "AGG"
+      ],
+      "suggested_action": "Maintain current bond allocation at approximately 50% of total portfolio",
+      "suggested_allocation_pct": 50.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5% annually from bond portion",
+      "time_horizon": "ongoing throughout retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T08:58:54.199962",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "income_generation",
+      "title": "Optimize Bond Ladder Strategy for Predictable Income",
+      "summary": "Consider implementing a bond ladder within your existing 50% bond allocation to create more predictable income streams and manage interest rate risk effectively.",
+      "detailed_rationale": "While your current bond allocation percentage is appropriate, you could enhance income predictability by structuring your $600,000 bond allocation as a ladder with individual bonds or target-date bond funds maturing at 1, 2, 3, 4, and 5-year intervals. This strategy would provide: (1) predictable income as bonds mature, (2) reduced interest rate risk through staggered maturities, (3) opportunity to reinvest at potentially higher rates as bonds mature, and (4) improved liquidity planning to meet your high liquidity needs. Given your intermediate investment experience and stable income situation, you could allocate perhaps 30-40% of your bond holdings to a ladder structure while keeping the remainder in BND/AGG for flexibility and daily liquidity.",
+      "tickers": [
+        "BND",
+        "AGG",
+        "IUSB",
+        "BSV",
+        "BIV"
+      ],
+      "suggested_action": "Restructure 30-40% of bond holdings into a 1-5 year bond ladder using individual bonds or short/intermediate-term bond funds",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "low",
+      "expected_return_range": "3.5-5.5% annually with reduced volatility",
+      "time_horizon": "1-5 years rolling",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T08:58:54.199962",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "risk_reduction",
+      "title": "Establish Formal Cash Reserve Withdrawal Strategy",
+      "summary": "Formalize your 20% cash allocation as a 4-5 year expense reserve to avoid selling stocks or bonds during market downturns, protecting your principal.",
+      "detailed_rationale": "Your $240,000 cash position (20% of portfolio) represents approximately 4.75 years of your $50,400 annual expenses, which is excellent for a conservative retiree. However, formalizing this as a structured withdrawal reserve can provide additional peace of mind and portfolio protection. Strategy: Designate this cash for living expenses over the next 4-5 years, using it as your primary withdrawal source. This approach means you won't need to sell stocks during market downturns or bonds when interest rates rise, both of which could lock in losses. Given your loss comfort of only 2/10, this psychological buffer is valuable. Keep 1 year ($50,400) in high-yield savings for immediate access, and ladder the remaining $189,600 in 6-12 month CDs or Treasury bills currently yielding 4-5%, generating approximately $9,000 annually in additional income while maintaining safety and liquidity.",
+      "tickers": [],
+      "suggested_action": "Structure cash holdings: $50,400 in high-yield savings, remainder in 6-12 month CDs/T-bills ladder",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "low",
+      "expected_return_range": "4-5% on cash equivalents",
+      "time_horizon": "4-5 years rolling reserve",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T08:58:54.199962",
+      "composite_score": 0.0
+    }
+  ]
+}

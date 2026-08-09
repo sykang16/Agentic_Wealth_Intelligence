@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B references more specific profile attributes (loss comfort 3/10, $3,800 monthly expenses tied to $22,800 emergency target, 5-7 year house goal, beginner experience) and provides more concrete, sequenced actions like opening a HYSA at 4.5-5% APY and using the avalanche method. System A is slightly better grounded factually (avoids speculative HYSA rates and mislabels VTTSX risk as 'moderate' for a conservative user), but B's stronger personalization and actionability outweigh this overall.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B references more specific profile attributes (loss comfort 3/10, $3,800 monthly expenses tied to $22,800 emergency target, 5-7 year house goal, beginner experience) and provides more concrete, sequenced actions like opening a HYSA at 4.5-5% APY and using the avalanche method. System A is slightly better grounded factually (avoids speculative HYSA rates and mislabels VTTSX risk as 'moderate' for a conservative user), but B's stronger personalization and actionability outweigh this overall."
+  },
+  "usage": {
+    "input_tokens": 11395,
+    "output_tokens": 310
+  },
+  "session_id": "P2_conservative_early_career__open_ended__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

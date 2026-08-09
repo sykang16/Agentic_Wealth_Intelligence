@@ -1,0 +1,172 @@
+{
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "sector_specific",
+  "query": "I'm already heavy in tech. Should I rotate into AI infrastructure plays, or diversify into a different sector entirely?",
+  "seed": 1,
+  "context": {
+    "portfolio_context": "## Portfolio Snapshot\n- Total Assets: $180,000\n- Total Liabilities: $18,000\n- Net Worth: $162,000\n\n### Allocation by Asset Type\n- etf: 50.0%\n- stock: 35.0%\n- crypto: 5.0%\n- cash: 10.0%\n\n### Allocation by Sector\n- Technology: 65.0%\n- Consumer Discretionary: 15.0%\n- Communication Services: 10.0%\n- Other: 10.0%\n\n### Holdings (tickers)\nQQQ, VTI, TSLA, NVDA, GOOGL, META, AMZN, BTC",
+    "investment_profile_context": "## Investment Profile\n- Age: 30\n- Occupation: Senior software engineer\n- Annual Income: $195,000\n- Monthly Expenses: $5,500\n- Risk Tolerance: aggressive\n- Loss Comfort (1-10): 9\n- Investment Horizon: long\n- Liquidity Needs: low\n- Income Stability: stable\n- Has Emergency Fund: True\n- Debt Level: low\n- Investment Experience: intermediate\n- Goals:\n  - wealth (high priority, target $2,500,000): Reach financial independence in ~15 years (FIRE target)",
+    "rag_context": "",
+    "data_sources_used": [
+      "portfolio",
+      "investment_profile"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec_bf33794c",
+      "category": "diversify",
+      "title": "Diversify 15-20% into Financials and Energy Infrastructure",
+      "summary": "Your 65% technology concentration creates significant sector-specific risk. Rotating 15-20% into financials (banks, payment processors) and energy infrastructure provides downside protection while maintaining growth potential aligned with your aggressive profile.",
+      "detailed_rationale": "(1) Signal: Your portfolio shows extreme technology concentration at 65%, with holdings in QQQ, NVDA, GOOGL, META, AMZN, and TSLA all in the tech/growth ecosystem. This creates correlated downside risk\u2014a tech sector correction could impact 80%+ of your portfolio simultaneously. (2) Risk Alignment: While your aggressive tolerance (loss comfort 9/10) and long 15-year horizon support growth-oriented positions, concentration risk differs from market risk. Even aggressive investors benefit from sector diversification to reduce idiosyncratic shocks. Your stable $195K income and low liquidity needs mean you can weather volatility, but unnecessary concentration doesn't improve risk-adjusted returns. (3) Evidence: Financial sector ETFs (XLF) and energy infrastructure (XLE, VDE) have low correlation with technology (historically 0.3-0.5) and provide exposure to different economic drivers: interest rate environments, commodity cycles, and value rotations. With your intermediate experience, sector ETFs offer diversification without requiring deep individual security analysis. Energy infrastructure also benefits from AI power demands\u2014data centers require massive electricity, creating a fundamental link to your tech thesis. (4) Trade-offs: This reduces your upside if tech continues its dominance. However, historical sector leadership rotates over 3-5 year cycles, and your 15-year horizon will likely span multiple rotations. This allocation preserves ~80% tech exposure while reducing single-sector dependency.",
+      "tickers": [
+        "XLF",
+        "XLE",
+        "VDE"
+      ],
+      "suggested_action": "Sell 10% of QQQ position and 5-8% of TSLA position. Invest proceeds into 10% XLF (financials), 5% XLE (energy), and 3-5% VDE (energy infrastructure MLPs). Maintain core tech positions in NVDA, GOOGL, META, AMZN.",
+      "suggested_allocation_pct": 18.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-14% annually",
+      "time_horizon": "3-5 years for sector rotation benefits, aligns with 15-year wealth goal",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:37:47.205232",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_5cefc56b",
+      "category": "rebalance",
+      "title": "Strategic AI Infrastructure Play Within Tech Allocation",
+      "summary": "Rather than adding to tech concentration, rotate existing tech holdings into differentiated AI infrastructure (semiconductors, data centers, utilities) that benefit from AI buildout without increasing overall tech exposure.",
+      "detailed_rationale": "(1) Signal: Your question indicates interest in AI infrastructure, and your current holdings (NVDA, GOOGL, META, AMZN) already have AI exposure but primarily as application/platform layers. The infrastructure layer (chip manufacturing equipment, data center REITs, power utilities) offers uncorrelated returns within technology. (2) Risk Alignment: This maintains your aggressive growth posture while adding diversification *within* your tech allocation. Your 15-year FIRE goal ($2.5M target from $162K net worth = ~18% CAGR needed) requires sustained growth, and AI infrastructure represents multi-decade secular trends with less execution risk than individual tech companies. (3) Evidence: Companies like ASML (semiconductor equipment), EQIX (data center REITs), and NEE (renewable utilities) provide AI exposure but with different revenue models: ASML sells equipment (not just chips), EQIX earns rent (recurring revenue), NEE provides power (regulated returns). These have shown lower volatility than pure-play AI stocks while participating in the same buildout cycle. Data center capacity is projected to grow 15%+ annually through 2030 driven by AI training demands. (4) Trade-offs: Infrastructure plays typically have lower beta than your current tech holdings\u2014you're trading some upside volatility for business model diversity. However, this is a rotation, not dilution, keeping you fully invested in the AI theme you're interested in while reducing single-company risk.",
+      "tickers": [
+        "ASML",
+        "EQIX",
+        "NEE",
+        "AMT"
+      ],
+      "suggested_action": "Within your 65% tech allocation, reduce TSLA by 5% and rotate into: 3% ASML (semiconductor equipment), 4% combined EQIX/AMT (data center infrastructure REITs), 3% NEE (utility providing data center power). This maintains 65% tech-related exposure but diversifies the value chain.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "12-18% annually",
+      "time_horizon": "5-10 years, aligns with AI infrastructure buildout cycle",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:37:47.205232",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_85668233",
+      "category": "diversify",
+      "title": "Add International Developed Markets Exposure",
+      "summary": "Your portfolio has 0% international diversification despite 40%+ of global market cap existing outside the US. Allocating 10-12% to developed international markets (Europe, Japan) reduces US-specific policy risk and captures valuation opportunities.",
+      "detailed_rationale": "(1) Signal: Your portfolio shows complete US home bias with 100% domestic exposure through QQQ, VTI, and US individual stocks. This creates geographic concentration risk\u2014US policy changes, dollar strength, or relative economic underperformance would impact your entire portfolio. (2) Risk Alignment: International developed markets (not emerging) align with aggressive but not speculative risk tolerance. Markets like Europe and Japan offer exposure to different sectors (luxury goods, industrials, robotics) and currency diversification. Your long 15-year horizon allows time to capture mean reversion\u2014international markets have underperformed US for 15 years but trade at significant valuation discounts (P/E ratios 30-40% lower). (3) Evidence: VEA (developed markets ETF) or IDEV (international developed ex-US) provide broad exposure without individual country risk. Japan is experiencing corporate governance reforms driving shareholder returns, and European tech companies (ASML, SAP, Spotify) participate in the same digital economy with lower valuations. Currency exposure can be hedged (HEDJ) or unhedged depending on dollar outlook\u2014with US government debt levels, some dollar depreciation risk exists over 15 years. (4) Trade-offs: International markets have underperformed recently, so this could drag near-term returns if US exceptionalism continues. However, your portfolio is already fully expressing a US-outperformance bet. This allocation provides optionality if that reverses, which is likely over a 15-year period given valuation gaps and economic cycles.",
+      "tickers": [
+        "VEA",
+        "IDEV",
+        "EWJ"
+      ],
+      "suggested_action": "Allocate 10-12% to international developed markets by reducing VTI position by 8% and QQQ by 4%. Invest in: 8% VEA (broad developed markets), 3% EWJ (Japan-specific for corporate reforms and robotics exposure). Rebalance annually.",
+      "suggested_allocation_pct": 11.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-13% annually",
+      "time_horizon": "10-15 years for valuation mean reversion",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:37:47.205232",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_a00c40a8",
+      "category": "risk_reduction",
+      "title": "Reduce Cryptocurrency Allocation and Increase Emergency Cash Buffer",
+      "summary": "Your 5% crypto (BTC) allocation is appropriate for aggressive risk tolerance, but your 10% cash position is tight given your $18K liabilities and potential market opportunities. Reduce BTC to 3% and increase cash to 12% for tactical flexibility.",
+      "detailed_rationale": "(1) Signal: You have $18K in liabilities against $180K assets (10% debt-to-asset ratio, which is healthy), but only $18K in cash (10% of portfolio). Given your $5,500 monthly expenses, this represents only 3.3 months of expenses. While you have an emergency fund (likely separate), maintaining 12-15% portfolio cash provides dry powder for market corrections and tactical opportunities\u2014especially important with your aggressive positioning. (2) Risk Alignment: Your aggressive profile supports some crypto exposure, but 5% is at the higher end given BTC's 60-80% historical drawdowns and zero intrinsic yield. Reducing to 3% (still ~$5,400) maintains meaningful exposure while freeing capital for opportunistic deployment. Your stable income and low liquidity needs mean you don't need cash for living expenses, but rather for rebalancing during volatility. (3) Evidence: With your 15-year FIRE goal requiring ~18% annual returns, having 12% in cash/short-term treasuries (currently yielding 4-5%) provides optionality to buy during corrections while generating some return. Historical analysis shows investors with dry powder during corrections (2020, 2022) achieved better long-term returns by buying dips rather than being fully invested. Your intermediate experience suggests you may identify opportunities but lack capital to act. (4) Trade-offs: Higher cash drag reduces returns in bull markets, and you're giving up potential BTC upside if cryptocurrency continues adoption. However, this is portfolio optimization\u2014you maintain crypto exposure while improving risk-adjusted returns through tactical flexibility. With 75%+ in growth assets, you have plenty of upside participation.",
+      "tickers": [
+        "BTC",
+        "SGOV",
+        "BIL"
+      ],
+      "suggested_action": "Sell 40% of BTC position (reducing crypto from 5% to 3% allocation). Move proceeds into high-yield savings or ultra-short treasury ETFs (SGOV, BIL) to increase cash/cash-equivalents to 12%. Set price alerts to deploy this cash if QQQ drops 15%+ or sector rotation opportunities emerge.",
+      "suggested_allocation_pct": 12.0,
+      "risk_level": "low",
+      "expected_return_range": "4-5% on cash portion (current treasury yields)",
+      "time_horizon": "Immediate implementation, 6-24 months holding period for tactical opportunities",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:37:47.205232",
+      "composite_score": 0.0
+    }
+  ],
+  "rec_count": 4
+}

@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"tie\",\n  \"rationale_overall\": \"System A directly addresses the user's query about international/EM exposure with a coherent, well-grounded multi-rec plan (developed + EM + funding source + target structure), while System B provides more concrete dollar amounts and personalization to specific goals but drifts off-topic with small-cap value and education-sleeve recs that don't directly answer the international question. The strengths roughly offset: A is more on-query and diversification-focused, B is more personalized and actionable.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "tie",
+    "rationale_overall": "System A directly addresses the user's query about international/EM exposure with a coherent, well-grounded multi-rec plan (developed + EM + funding source + target structure), while System B provides more concrete dollar amounts and personalization to specific goals but drifts off-topic with small-cap value and education-sleeve recs that don't directly answer the international question. The strengths roughly offset: A is more on-query and diversification-focused, B is more personalized and actionable."
+  },
+  "usage": {
+    "input_tokens": 10368,
+    "output_tokens": 281
+  },
+  "session_id": "P3_moderate_mid_career__sector_specific__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

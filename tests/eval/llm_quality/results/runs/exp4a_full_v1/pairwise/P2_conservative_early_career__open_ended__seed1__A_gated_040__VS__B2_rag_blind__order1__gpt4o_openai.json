@@ -1,0 +1,30 @@
+{
+  "session_id": "P2_conservative_early_career__open_ended__seed1",
+  "persona_id": "P2_conservative_early_career",
+  "query_type": "open_ended",
+  "seed": 1,
+  "sys_a": "A_gated_040",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides more actionable steps, particularly in the recommendation to maximize the employer 401(k) match, which is a concrete and immediate action. Both systems demonstrate strong personalization and risk alignment, but System A has a minor factual discrepancy in the emergency fund calculation.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides more actionable steps, particularly in the recommendation to maximize the employer 401(k) match, which is a concrete and immediate action. Both systems demonstrate strong personalization and risk alignment, but System A has a minor factual discrepancy in the emergency fund calculation."
+  },
+  "usage": {
+    "input_tokens": 7094,
+    "output_tokens": 148
+  }
+}

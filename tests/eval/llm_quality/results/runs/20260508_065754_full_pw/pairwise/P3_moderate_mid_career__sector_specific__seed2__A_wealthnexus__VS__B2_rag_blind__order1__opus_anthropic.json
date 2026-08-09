@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B more directly addresses the user's question about both international AND emerging-markets exposure with a dedicated EM recommendation, references more specific profile details (income, expenses, occupation, experience), and provides more concrete laddering guidance for the education goal. System A has slightly cleaner risk-level tagging and avoids B's questionable choices (labeling a tech-trim as 'low' risk and EM as 'high' for a moderate investor without stronger justification), but B's more comprehensive coverage of the actual query and richer personalization wins overall.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B more directly addresses the user's question about both international AND emerging-markets exposure with a dedicated EM recommendation, references more specific profile details (income, expenses, occupation, experience), and provides more concrete laddering guidance for the education goal. System A has slightly cleaner risk-level tagging and avoids B's questionable choices (labeling a tech-trim as 'low' risk and EM as 'high' for a moderate investor without stronger justification), but B's more comprehensive coverage of the actual query and richer personalization wins overall."
+  },
+  "usage": {
+    "input_tokens": 11862,
+    "output_tokens": 308
+  },
+  "session_id": "P3_moderate_mid_career__sector_specific__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

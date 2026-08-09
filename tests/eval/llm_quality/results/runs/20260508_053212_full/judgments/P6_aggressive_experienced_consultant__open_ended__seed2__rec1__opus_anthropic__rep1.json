@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Cites variable consulting income, medium liquidity needs, $13K monthly expenses, aggressive positioning, and advanced experience to causally justify the recommendation.\",\n    \"C2\": \"Risk_level is 'low' for an aggressive investor, but the deviation is explicitly justified as a defensive cash buffer against income variability, which is a defensible reason.\",\n    \"C3\": \"All numbers (5% cash = $75K, $13K expenses, 5.8 months coverage, $280K income) are accurately derived from the provided snapshot with no fabrications.\",\n    \"C4\": \"Provides specific tickers (VMFXX, SGOV), target allocation (10%/$150K), a 3-month timeline, and a clear first step (direct new consulting income to money market).\",\n    \"C5\": \"Acknowledges the current allocation profile and addresses the underweight cash position; doesn't worsen concentration but doesn't tackle the 30% tech overweight either.\",\n    \"C6\": \"Uses calibrated language ('approximately', 'prevents'), no guaranteed-return framing, and presents trade-offs honestly with realistic return ranges.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Cites variable consulting income, medium liquidity needs, $13K monthly expenses, aggressive positioning, and advanced experience to causally justify the recommendation.",
+      "C2": "Risk_level is 'low' for an aggressive investor, but the deviation is explicitly justified as a defensive cash buffer against income variability, which is a defensible reason.",
+      "C3": "All numbers (5% cash = $75K, $13K expenses, 5.8 months coverage, $280K income) are accurately derived from the provided snapshot with no fabrications.",
+      "C4": "Provides specific tickers (VMFXX, SGOV), target allocation (10%/$150K), a 3-month timeline, and a clear first step (direct new consulting income to money market).",
+      "C5": "Acknowledges the current allocation profile and addresses the underweight cash position; doesn't worsen concentration but doesn't tackle the 30% tech overweight either.",
+      "C6": "Uses calibrated language ('approximately', 'prevents'), no guaranteed-return framing, and presents trade-offs honestly with realistic return ranges."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6106,
+    "output_tokens": 493
+  },
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed2",
+  "rec_index": 1,
+  "rec_id": "rec_63571e47",
+  "rubric_version": "1.1"
+}

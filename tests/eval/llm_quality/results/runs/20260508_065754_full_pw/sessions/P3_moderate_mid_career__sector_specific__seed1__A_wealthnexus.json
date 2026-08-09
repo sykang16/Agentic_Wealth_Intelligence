@@ -1,0 +1,183 @@
+{
+  "session_id": "P3_moderate_mid_career__sector_specific__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "sector_specific",
+  "query": "Should I add international or emerging-markets exposure, and if so what proportion is reasonable?",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_78f419e3",
+      "category": "diversify",
+      "title": "Increase International Exposure via VXUS",
+      "summary": "Add 10-15% allocation to VXUS to achieve proper geographic diversification and reduce U.S. market concentration risk.",
+      "detailed_rationale": "Signal: Your portfolio shows significant home-country bias with minimal international exposure. Currently holding VXUS but at an insufficient allocation level given your moderate risk tolerance and long-term horizon. Step-by-step reasoning: (1) Portfolio Analysis - You have 35% technology sector concentration, predominantly U.S. tech giants (AAPL, MSFT, NVDA, GOOGL), creating geographic and sector concentration risk. The knowledge base confirms VXUS provides exposure to 7,800+ international stocks across developed and emerging markets with a low 0.07% expense ratio. (2) Risk Profile Alignment - Your moderate risk tolerance (loss comfort 6/10), stable income ($175k annually), emergency fund in place, and long investment horizon (25 years to retirement, 10 years to education goals) position you well to handle international market volatility. The intermediate experience level indicates you understand diversification benefits. (3) Supporting Evidence - The investment guide emphasizes that 'diversification is essential for managing risk' and warns against concentration risk. International markets often move independently of U.S. markets, providing valuable diversification during U.S. market downturns. With $140k net worth and two high-priority goals totaling $2.7M, you need growth beyond domestic-only exposure. (4) Trade-offs - International investments carry currency risk and may underperform U.S. markets during periods of dollar strength. Emerging markets within VXUS add volatility but also growth potential. However, your 25-year retirement horizon provides ample time to weather short-term international market fluctuations.",
+      "tickers": [
+        "VXUS"
+      ],
+      "suggested_action": "Gradually increase VXUS allocation to 15% of total portfolio ($21,000) over the next 3-6 months through dollar-cost averaging. Source funds from rebalancing overweight technology positions and new contributions.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "10+ years, aligns with both education and retirement goals",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:16:50.968724",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_f33a638a",
+      "category": "rebalance",
+      "title": "Reduce Technology Sector Overconcentration",
+      "summary": "Trim individual technology stock holdings to reduce sector concentration from 35% to 25%, reinvesting proceeds into underweight sectors.",
+      "detailed_rationale": "Signal: Technology sector represents 35% of portfolio, nearly double the typical market weight and creating significant concentration risk in a single sector. You hold four overlapping mega-cap tech stocks (AAPL, MSFT, NVDA, GOOGL) plus additional tech exposure through VTI. Step-by-step reasoning: (1) Portfolio Imbalance - With 20% in individual stocks heavily weighted toward technology, combined with tech exposure in VTI (where these same companies are top holdings), you face correlated downside risk if the technology sector corrects. The risk management guide explicitly warns that 'specific risk relates to individual securities' and 'concentration risk' requires mitigation. (2) Risk Tolerance Fit - While your moderate risk profile allows for equity exposure, concentration in a single sector exceeds prudent risk management, especially with two high-priority goals requiring capital preservation as timeframes shorten. Your loss comfort of 6/10 suggests you'd be uncomfortable with a sharp tech sector correction that could drop 30-40%. (3) Evidence-Based Action - The investment guide recommends 'portfolio stress testing' and asks you to 'evaluate how your portfolio would perform in various scenarios.' A tech sector crash similar to 2000-2002 or even the 2022 correction would disproportionately impact your wealth. Your stable income and intermediate experience position you to make this strategic rebalancing move. (4) Known Trade-offs - Technology has been a strong performer and may continue leading markets. Trimming winners feels counterintuitive but maintains discipline. You'll reduce potential upside if tech continues outperforming but significantly lower portfolio volatility and correlation risk.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Reduce combined individual tech stock allocation from 20% to 12-15% of portfolio by selling partial positions proportionally across all four holdings. Prioritize trimming the most appreciated positions for tax efficiency. Reinvest proceeds into underweight sectors through sector ETFs (healthcare, consumer staples, utilities) or increase BND for stability.",
+      "suggested_allocation_pct": -7.0,
+      "risk_level": "low",
+      "expected_return_range": "Improved risk-adjusted returns through diversification",
+      "time_horizon": "Immediate rebalancing, reassess quarterly",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:16:50.968724",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_72324475",
+      "category": "diversify",
+      "title": "Add Targeted Emerging Markets Allocation",
+      "summary": "Allocate 5-7% to dedicated emerging markets exposure (VWO or IEMG) for enhanced growth potential aligned with long-term goals.",
+      "detailed_rationale": "Signal: User specifically asked about emerging markets exposure, indicating interest in this asset class. Current VXUS holding includes emerging markets but at a blended weight (~25% of VXUS = ~3-4% of total portfolio if VXUS increased to 15%). This provides insufficient targeted exposure to high-growth emerging economies. Step-by-step reasoning: (1) Portfolio Gap - Your long time horizons (25 years to retirement, 10 years to education funding) and ambitious targets ($2.5M retirement, $200k education from $140k current net worth) require growth beyond developed market returns. You need approximately 9-10% annualized returns to reach goals, which emerging markets' higher growth potential can support. (2) Risk Profile Alignment - Moderate risk tolerance with loss comfort 6/10 allows for emerging market volatility when properly sized. Your stable $175k income, low debt, existing emergency fund, and intermediate investment experience indicate capacity to handle the higher volatility. At age 40 with 25-year horizon, you have time to recover from emerging market cycles. The knowledge base notes VXUS includes emerging markets, validating this as an appropriate asset class for international diversification. (3) Supporting Evidence - Emerging markets represent 85% of global population and faster GDP growth than developed markets, though with higher political and currency risk. The investment guide emphasizes 'dollar-cost averaging reduces timing risk,' which is especially valuable for volatile asset classes. Your monthly positive cash flow ($175k income - $114k expenses = $61k annually) supports systematic investing. (4) Trade-offs - Emerging markets experience higher volatility, political risk, currency fluctuations, and occasional sharp drawdowns. However, overweighting slightly (5-7% vs. market weight of ~10-12% in global portfolios) provides growth exposure while limiting risk. This complements rather than replaces VXUS's diversified international approach.",
+      "tickers": [
+        "VWO",
+        "IEMG"
+      ],
+      "suggested_action": "Establish a 5% allocation to emerging markets ETF (VWO or IEMG, both low-cost options) representing approximately $7,000. Implement through monthly purchases of $580 over 12 months to dollar-cost average entry point and reduce timing risk. Fund through new contributions rather than selling existing holdings.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-12% annually with higher volatility",
+      "time_horizon": "15+ years, primarily supporting retirement goal",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:16:50.968724",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_242e3c35",
+      "category": "hold",
+      "title": "Maintain Core Bond Allocation with Gradual Quality Review",
+      "summary": "Retain 30% bond allocation (BND) as appropriate for moderate risk profile, but monitor duration risk as education goal approaches.",
+      "detailed_rationale": "Signal: Current 30% bond allocation via BND provides appropriate stability for moderate risk tolerance and medium liquidity needs. No immediate action required, but forward-looking adjustment needed. Step-by-step reasoning: (1) Current Appropriateness - Your 30% bond allocation aligns well with moderate risk tolerance and age 40 positioning. The 70/30 equity/bond split is a classic moderate portfolio construction. BND is a low-cost, high-quality core bond fund providing diversification and downside protection. The risk management guide emphasizes maintaining appropriate asset allocation based on risk tolerance, which your current structure achieves. (2) Risk Profile Fit - With loss comfort 6/10 and two high-priority goals, bonds provide the stability component necessary during equity market volatility. Your stable income and emergency fund mean you won't need to tap investments during downturns, but psychological comfort with volatility matters. The 30% bond cushion should limit maximum portfolio drawdowns to 20-25% in severe bear markets, within your tolerance range. (3) Future Considerations - As your education goal approaches (~10 years), you'll want to gradually shift that portion toward shorter-duration bonds or stable value funds to reduce interest rate risk. The investment guide warns that 'interest rate risk impacts bond prices.' For the portion allocated to retirement (25-year horizon), current duration is appropriate. (4) Trade-offs - Bonds currently yield less than historical averages and may underperform if interest rates decline or inflation remains elevated. However, they provide essential portfolio ballast and reduce overall volatility. At your moderate risk level, eliminating bonds would create excess volatility inconsistent with your profile.",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "Maintain current BND allocation at 30% for now. In 5 years (when education goal is 5 years away), begin gradually shifting 40% of bond allocation designated for education into short-term bond funds (BSV) or high-yield savings to reduce duration risk. Review bond allocation annually during rebalancing.",
+      "suggested_allocation_pct": 30.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5% annually with low volatility",
+      "time_horizon": "Ongoing, with tactical adjustments as goals approach",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:16:50.968724",
+      "composite_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed2",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "sector_specific",
+  "query": "I'm already heavy in tech. Should I rotate into AI infrastructure plays, or diversify into a different sector entirely?",
+  "seed": 2,
+  "system": "B1_profile_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_246cf117",
+      "category": "diversify",
+      "title": "Reduce Tech Concentration: Add Healthcare & Financials Exposure",
+      "summary": "Your 65% tech allocation creates significant concentration risk. Diversify into defensive sectors like healthcare (XLV) and financials (XLF) to reduce portfolio volatility and correlation.",
+      "detailed_rationale": "Signal: Your portfolio shows extreme sector concentration with 65% in Technology plus additional exposure through QQQ (heavily tech-weighted) and VTI. This creates dangerous correlation risk where a tech sector downturn could devastate your portfolio. Step-by-step reasoning: (1) Modern portfolio theory suggests optimal diversification across low-correlation sectors to reduce unsystematic risk without sacrificing returns. (2) Healthcare and Financials historically show low correlation to technology (correlation coefficients of 0.3-0.5 vs tech) and provide defensive characteristics during tech selloffs. (3) Your current holdings (NVDA, TSLA, META, GOOGL, AMZN) overlap significantly in their risk factors - all are growth stocks sensitive to interest rates and momentum reversals. (4) Evidence from portfolio data: Zero exposure to healthcare, financials, industrials, or consumer staples creates a single point of failure. (5) Trade-off: Healthcare and financials may underperform during strong tech rallies, but they provide crucial downside protection. Recent market volatility in tech (NVDA 20%+ swings) demonstrates this concentration risk. Without knowing your specific risk tolerance, a moderate investor should limit single-sector exposure to 25-30% maximum.",
+      "tickers": [
+        "XLV",
+        "XLF",
+        "VNQ"
+      ],
+      "suggested_action": "Sell 15% of your QQQ position (approximately $13,500) and reallocate: 8% to Healthcare ETF (XLV), 5% to Financial ETF (XLF), and 2% to Real Estate ETF (VNQ) for additional diversification and dividend income.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "low",
+      "expected_return_range": "7-10% annually",
+      "time_horizon": "3-5 years for sector rotation to demonstrate risk-adjusted benefits",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:48:46.449531",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_04991b2e",
+      "category": "rebalance",
+      "title": "Trim Individual Tech Stock Positions to Reduce Idiosyncratic Risk",
+      "summary": "Your 35% individual stock allocation concentrated in 5-6 tech names creates excessive company-specific risk. Reduce individual positions to 20% and shift proceeds to broad market exposure.",
+      "detailed_rationale": "Signal: You hold 35% in individual stocks (TSLA, NVDA, GOOGL, META, AMZN) which all operate in highly correlated sectors and face similar regulatory, competitive, and macroeconomic risks. Step-by-step reasoning: (1) Academic research shows individual stock portfolios require 20-30 holdings for adequate diversification; your 5-6 tech stocks provide virtually no diversification benefit over QQQ. (2) Company-specific risks are enormous: TSLA faces execution risk on multiple product lines and valuation concerns; NVDA faces cyclical semiconductor demand; META faces regulatory scrutiny; all face AI competition uncertainty. (3) Your QQQ and VTI holdings already provide optimized exposure to these same companies with professional rebalancing - you're essentially making a leveraged bet on tech megacaps. (4) Evidence: QQQ's top 10 holdings include NVDA (8%+), META (5%+), GOOGL (5%+), AMZN (5%+), so you have 35% direct exposure PLUS another ~23% indirect exposure through QQQ = 58% exposure to just 5 companies. (5) Trade-off: You may miss outsized gains if one of these stocks performs exceptionally, but you'll avoid catastrophic losses from company-specific failures (remember Meta's 70% drawdown in 2022). This rebalancing maintains tech exposure while reducing concentration.",
+      "tickers": [
+        "VTI",
+        "SCHD"
+      ],
+      "suggested_action": "Reduce individual tech stock positions from 35% to 20% of portfolio (sell approximately $27,000 worth, prioritizing highest concentration positions). Reallocate 10% to VTI for broad market exposure and 5% to SCHD (dividend aristocrats ETF) for quality factor diversification and income generation.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "Immediate rebalancing, hold for long-term (5+ years)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:48:46.449531",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_c79628ac",
+      "category": "risk_reduction",
+      "title": "Address Crypto Volatility: Reduce or Hedge BTC Position",
+      "summary": "Your 5% Bitcoin allocation ($9,000) introduces extreme volatility inappropriate for a diversified portfolio. Consider reducing to 2-3% or eliminating entirely based on your risk tolerance.",
+      "detailed_rationale": "Signal: BTC represents your highest volatility asset with 60-80% annualized volatility versus 15-20% for tech stocks and 12-15% for broad markets. Step-by-step reasoning: (1) Your portfolio already carries significant risk through 65% tech concentration; adding 5% crypto creates compounding volatility rather than diversification. (2) Crypto correlation to risk assets has increased significantly - during 2022 market stress, BTC fell 65% alongside tech stocks, providing no diversification benefit. (3) For investors with moderate risk tolerance, financial advisors typically recommend 1-3% maximum crypto allocation due to its speculative nature and lack of cash flows or fundamental valuation anchors. (4) Evidence from your portfolio: $9,000 in BTC could experience $4,000-6,000 drawdowns in normal market corrections, representing 2.5-3.5% of your total portfolio value in a single asset. Combined with potential 30-40% drawdowns in your tech stocks during bear markets, you could face 40-50% total portfolio declines. (5) Trade-off: Crypto offers asymmetric upside potential, but the risk-reward is unfavorable when your portfolio already carries substantial growth-oriented risk. If you have aggressive risk tolerance and long time horizon (10+ years), current allocation may be acceptable, but for moderate investors this represents excessive speculation.",
+      "tickers": [
+        "BTC",
+        "SGOV",
+        "BIL"
+      ],
+      "suggested_action": "Reduce BTC position from 5% to 2% ($3,600 remaining). Reallocate the $5,400 proceeds: 2% to short-term Treasury ETF (SGOV or BIL) to increase your cash/stable allocation from 10% to 12%, improving portfolio liquidity and reducing overall volatility.",
+      "suggested_allocation_pct": 3.0,
+      "risk_level": "low",
+      "expected_return_range": "4-5% annually (on Treasury component)",
+      "time_horizon": "Immediate for risk reduction, maintain Treasury allocation ongoing",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:48:46.449531",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_2ee768e4",
+      "category": "diversify",
+      "title": "Add International Developed Markets Exposure for Geographic Diversification",
+      "summary": "Your portfolio has 100% U.S. equity exposure. Add 10-15% international developed markets (IEFA, VEA) to reduce home country bias and capture global growth opportunities.",
+      "detailed_rationale": "Signal: Complete absence of international exposure creates geographic concentration risk and home country bias. Step-by-step reasoning: (1) The U.S. represents only 60% of global market capitalization; you're ignoring 40% of global investment opportunities. (2) International developed markets (Europe, Japan, Australia) offer exposure to different economic cycles, currency diversification, and often trade at valuation discounts to U.S. markets (current P/E ratios: U.S. ~20x vs International ~13x). (3) Your tech-heavy portfolio particularly needs geographic diversification since U.S. tech faces unique regulatory risks (antitrust), valuation concerns (trading at premiums), and competitive threats. (4) Evidence: During periods of dollar weakness or U.S.-specific economic stress, international equities can outperform - for example, 2002-2007 when EAFE returned 130% vs S&P 500's 35%. Currency diversification also provides inflation hedge benefits. (5) However, this recommendation requires caution without knowing your specific situation: International markets carry currency risk, potentially lower growth rates, and different regulatory environments. For investors with 5+ year horizons and moderate-to-aggressive risk tolerance, 10-15% international allocation provides optimal diversification benefits. Trade-off: International stocks have underperformed U.S. markets over the past 15 years, though valuation gaps suggest potential mean reversion. This is a long-term strategic allocation, not a tactical trade.",
+      "tickers": [
+        "IEFA",
+        "VEA"
+      ],
+      "suggested_action": "Allocate 10% of portfolio ($18,000) to international developed markets. Fund this by selling $18,000 from your VTI position. Choose IEFA (iShares Core MSCI EAFE) or VEA (Vanguard FTSE Developed Markets) for low-cost, broad international exposure excluding U.S. This reduces your U.S. concentration while maintaining developed market quality standards.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "5-10 years for geographic diversification benefits to materialize",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:48:46.449531",
+      "composite_score": 0.0
+    }
+  ]
+}

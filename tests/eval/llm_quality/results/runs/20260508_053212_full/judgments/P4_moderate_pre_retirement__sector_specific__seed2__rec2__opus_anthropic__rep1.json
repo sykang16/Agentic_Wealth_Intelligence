@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 4,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Cites multiple profile attributes (35% bond allocation, advanced experience, stable income, retirement at 65, 10-year horizon) to justify the bond restructuring.\",\n    \"C2\": \"Risk_level 'low' is one tier below the user's moderate tolerance, but the deviation is defensibly justified for the bond sleeve specifically as retirement nears.\",\n    \"C3\": \"Most claims (BND duration, LQD/IEF characteristics, allocation math at $297,500) are grounded, though specific yield figures and the $1,000\u20131,500 income boost are generic estimates.\",\n    \"C4\": \"Provides concrete tickers, dollar amounts, allocation percentages, a 6-month timeline, and clear first step \u2014 fully actionable.\",\n    \"C5\": \"Addresses bond-sleeve diversification but does not engage with the user's actual question about sector concentration (Healthcare 22%, Tech 18%, Financials 18%) in equities.\",\n    \"C6\": \"Uses calibrated language ('potentially', 'could add', 'historically'), avoids guarantees, and frames trade-offs explicitly.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 4,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Cites multiple profile attributes (35% bond allocation, advanced experience, stable income, retirement at 65, 10-year horizon) to justify the bond restructuring.",
+      "C2": "Risk_level 'low' is one tier below the user's moderate tolerance, but the deviation is defensibly justified for the bond sleeve specifically as retirement nears.",
+      "C3": "Most claims (BND duration, LQD/IEF characteristics, allocation math at $297,500) are grounded, though specific yield figures and the $1,000\u20131,500 income boost are generic estimates.",
+      "C4": "Provides concrete tickers, dollar amounts, allocation percentages, a 6-month timeline, and clear first step \u2014 fully actionable.",
+      "C5": "Addresses bond-sleeve diversification but does not engage with the user's actual question about sector concentration (Healthcare 22%, Tech 18%, Financials 18%) in equities.",
+      "C6": "Uses calibrated language ('potentially', 'could add', 'historically'), avoids guarantees, and frames trade-offs explicitly."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6224,
+    "output_tokens": 489
+  },
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed2",
+  "rec_index": 2,
+  "rec_id": "rec_f8039aa6",
+  "rubric_version": "1.1"
+}

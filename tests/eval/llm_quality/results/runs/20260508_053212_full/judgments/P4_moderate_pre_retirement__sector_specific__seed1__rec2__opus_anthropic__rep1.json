@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 3,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes (age 55, $220k income, $11k expenses, stable income, low debt, medium liquidity, emergency fund, $1.8M goal) and ties them causally to the recommendation.\",\n    \"C2\": \"Risk_level 'low' is one tier off from the user's moderate tolerance; this is defensible for a tax-advantaged contribution action but the rationale doesn't explicitly justify the risk-level label itself.\",\n    \"C3\": \"Most figures (income, expenses, $755k net worth, contribution limits) are grounded, though the projected return ranges and tax savings calculations are reasonable but somewhat unsupported quantitative claims.\",\n    \"C4\": \"Provides concrete dollar amounts ($30,500, $69,000, $8,000), specific vehicles (401k, mega backdoor Roth, backdoor Roth IRA), a clear first step, and a time-bound annual cadence.\",\n    \"C5\": \"Recommendation is allocation-neutral (tax-optimization category with 0% allocation) and does not address the user's actual question about sector reduction/income generation.\",\n    \"C6\": \"Uses mostly calibrated language ('likely', 'approximately', 'consider') with no guaranteed-return claims, though no explicit disclaimer at the rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 3,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes (age 55, $220k income, $11k expenses, stable income, low debt, medium liquidity, emergency fund, $1.8M goal) and ties them causally to the recommendation.",
+      "C2": "Risk_level 'low' is one tier off from the user's moderate tolerance; this is defensible for a tax-advantaged contribution action but the rationale doesn't explicitly justify the risk-level label itself.",
+      "C3": "Most figures (income, expenses, $755k net worth, contribution limits) are grounded, though the projected return ranges and tax savings calculations are reasonable but somewhat unsupported quantitative claims.",
+      "C4": "Provides concrete dollar amounts ($30,500, $69,000, $8,000), specific vehicles (401k, mega backdoor Roth, backdoor Roth IRA), a clear first step, and a time-bound annual cadence.",
+      "C5": "Recommendation is allocation-neutral (tax-optimization category with 0% allocation) and does not address the user's actual question about sector reduction/income generation.",
+      "C6": "Uses mostly calibrated language ('likely', 'approximately', 'consider') with no guaranteed-return claims, though no explicit disclaimer at the rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6146,
+    "output_tokens": 553
+  },
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed1",
+  "rec_index": 2,
+  "rec_id": "rec_bc69ce8a",
+  "rubric_version": "1.1"
+}

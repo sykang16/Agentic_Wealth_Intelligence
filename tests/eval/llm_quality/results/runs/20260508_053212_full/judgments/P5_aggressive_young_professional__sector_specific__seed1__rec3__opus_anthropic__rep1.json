@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 4,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 2,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Rationale references multiple specific profile attributes (aggressive risk tolerance, $5,500 monthly expenses, 15-year FIRE goal, stable income, intermediate experience, $18K liabilities) and ties them to the recommendation.\",\n    \"C2\": \"risk_level is 'low' for an aggressive user, but the rationale defensibly justifies the deviation as tactical risk reduction/dry powder, qualifying as one-tier adjacent with reasoning.\",\n    \"C3\": \"Most claims are grounded in the snapshot, though the '18% annual return' needed for FIRE and specific historical drawdown figures are unsupported quantitative claims.\",\n    \"C4\": \"Specifies concrete tickers (SGOV, BIL), exact allocation %, a clear first step (sell 40% of BTC), and time-bound triggers for deployment.\",\n    \"C5\": \"User explicitly asked about 65% tech concentration and the recommendation entirely ignores this overweight, instead pivoting to crypto/cash \u2014 failing to address the central diversification question.\",\n    \"C6\": \"Uses calibrated language ('may', 'historical analysis shows') without guarantee phrasing, though no explicit disclaimer at the rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 4,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 2,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Rationale references multiple specific profile attributes (aggressive risk tolerance, $5,500 monthly expenses, 15-year FIRE goal, stable income, intermediate experience, $18K liabilities) and ties them to the recommendation.",
+      "C2": "risk_level is 'low' for an aggressive user, but the rationale defensibly justifies the deviation as tactical risk reduction/dry powder, qualifying as one-tier adjacent with reasoning.",
+      "C3": "Most claims are grounded in the snapshot, though the '18% annual return' needed for FIRE and specific historical drawdown figures are unsupported quantitative claims.",
+      "C4": "Specifies concrete tickers (SGOV, BIL), exact allocation %, a clear first step (sell 40% of BTC), and time-bound triggers for deployment.",
+      "C5": "User explicitly asked about 65% tech concentration and the recommendation entirely ignores this overweight, instead pivoting to crypto/cash \u2014 failing to address the central diversification question.",
+      "C6": "Uses calibrated language ('may', 'historical analysis shows') without guarantee phrasing, though no explicit disclaimer at the rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6173,
+    "output_tokens": 525
+  },
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed1",
+  "rec_index": 3,
+  "rec_id": "rec_a00c40a8",
+  "rubric_version": "1.1"
+}

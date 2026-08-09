@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"A\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A consistently cites multiple specific profile attributes (age 65, loss comfort 2/10, $4,200 monthly expenses, conservative tolerance, short horizon) and provides concrete dollar amounts, tickers, and execution steps aligned with the user's conservative income-focused goals. System B contains a notable risk misalignment (Rec #1 recommends moderate-risk VTI with a 10+ year horizon to a conservative short-horizon retiree) and a factual error (assumes $10,000/month expenses when the profile states $4,200), weakening grounding and risk alignment.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "A"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A consistently cites multiple specific profile attributes (age 65, loss comfort 2/10, $4,200 monthly expenses, conservative tolerance, short horizon) and provides concrete dollar amounts, tickers, and execution steps aligned with the user's conservative income-focused goals. System B contains a notable risk misalignment (Rec #1 recommends moderate-risk VTI with a 10+ year horizon to a conservative short-horizon retiree) and a factual error (assumes $10,000/month expenses when the profile states $4,200), weakening grounding and risk alignment."
+  },
+  "usage": {
+    "input_tokens": 12799,
+    "output_tokens": 326
+  },
+  "session_id": "P1_conservative_retiree__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

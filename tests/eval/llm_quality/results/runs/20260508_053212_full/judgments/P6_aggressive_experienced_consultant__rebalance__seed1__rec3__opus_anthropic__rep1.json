@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 4,\n  \"C2_risk_alignment\": 2,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Rationale references multiple specific profile attributes (age 45, $280K income, variable income, moderate debt, legacy goal for child, $4M target) and ties them to the recommendation.\",\n    \"C2\": \"User is aggressive with 8/10 loss comfort and explicitly comfortable with cyclical drawdowns, yet the rec pushes to reduce a position the profile supports, framing the user as needing more stability\u2014this contradicts the stated tolerance without strong justification.\",\n    \"C3\": \"Claims about BTC being 5% ($75K) and portfolio composition are accurate; minor unsupported quantitative claims like '0.5-0.8% volatility reduction' and '7-10% core return' are generic but not fabricated.\",\n    \"C4\": \"Specifies ticker (BTC), target allocation (2-3%), dollar range ($30-45K), redeployment targets (VTI/bonds), time-bound execution (90-120 days), and a clear first step (consult tax advisor).\",\n    \"C5\": \"Rec is allocation-neutral on the actual concentration issue (Tech 30%, Energy 15%) raised in the user query; it pivots to crypto rather than addressing diversification of the overweight sectors.\",\n    \"C6\": \"Uses calibrated language ('consider', 'potentially', 'may'), no return guarantees, and recommends consulting a tax advisor.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 4,
+    "C2_risk_alignment": 2,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Rationale references multiple specific profile attributes (age 45, $280K income, variable income, moderate debt, legacy goal for child, $4M target) and ties them to the recommendation.",
+      "C2": "User is aggressive with 8/10 loss comfort and explicitly comfortable with cyclical drawdowns, yet the rec pushes to reduce a position the profile supports, framing the user as needing more stability\u2014this contradicts the stated tolerance without strong justification.",
+      "C3": "Claims about BTC being 5% ($75K) and portfolio composition are accurate; minor unsupported quantitative claims like '0.5-0.8% volatility reduction' and '7-10% core return' are generic but not fabricated.",
+      "C4": "Specifies ticker (BTC), target allocation (2-3%), dollar range ($30-45K), redeployment targets (VTI/bonds), time-bound execution (90-120 days), and a clear first step (consult tax advisor).",
+      "C5": "Rec is allocation-neutral on the actual concentration issue (Tech 30%, Energy 15%) raised in the user query; it pivots to crypto rather than addressing diversification of the overweight sectors.",
+      "C6": "Uses calibrated language ('consider', 'potentially', 'may'), no return guarantees, and recommends consulting a tax advisor."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6492,
+    "output_tokens": 572
+  },
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed1",
+  "rec_index": 3,
+  "rec_id": "rec_745b9870",
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,169 @@
+{
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "rebalance",
+  "query": "Walk me through a year-by-year glide path that gradually shifts my allocation over the next decade.",
+  "seed": 2,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_45367c32",
+      "category": "rebalance",
+      "title": "Implement 10-Year Retirement Glide Path Starting 2025",
+      "summary": "Begin systematic transition from 40% equity/35% bonds to 30% equity/55% bonds by age 65, reducing equity exposure 1% annually while increasing bond/cash allocation to match retirement income needs.",
+      "detailed_rationale": "(1) Signal: You're 55 with a 10-year retirement horizon and $755K net worth targeting $1.8M. Current 55% equity allocation (40% ETF + 15% stock) is appropriate today but needs systematic de-risking as you approach retirement at 65. Your moderate risk tolerance and loss comfort of 5/10 indicates you can tolerate some volatility now but should reduce exposure as retirement nears. (2) Alignment: The glide path matches your medium-term horizon and stable income ($220K annually) by maintaining growth potential early while progressively prioritizing capital preservation. Years 1-3 (ages 55-57): Maintain 55% equity, harvest gains; Years 4-6 (ages 58-60): Reduce to 45% equity, 45% bonds; Years 7-9 (ages 61-63): Reduce to 35% equity, 50% bonds, 10% cash; Year 10 (age 64-65): Target 30% equity, 55% bonds, 15% cash for income generation. (3) Evidence: Your current 35% bond allocation via BND provides stability but needs expansion. With $755K and $88K annual savings capacity ($220K income - $132K expenses), you're projected to reach $1.6-1.9M by 65 with 6-7% blended returns. Industry-standard target-date fund glide paths typically reduce equity 2-3% annually in the final decade before retirement. (4) Risk/Trade-off: Earlier de-risking may limit upside if equity markets surge 2025-2030, potentially leaving you $100-200K below maximum growth scenario. However, this protects against sequence-of-returns risk that could devastate retirement if a major correction occurs at ages 62-65.",
+      "tickers": [
+        "BND",
+        "VGIT",
+        "VCSH",
+        "VTI",
+        "VXUS"
+      ],
+      "suggested_action": "Execute annual rebalancing each January: (2025) Maintain current allocation, document baseline; (2026-2027) Sell 1% equity yearly, buy intermediate-term bonds (VGIT); (2028-2030) Accelerate to 2% equity reduction yearly, add short-term corporate bonds (VCSH); (2031-2033) Shift another 2% yearly to bonds/cash; (2034) Final adjustment to 30/55/15 split. Set calendar reminders and review quarterly.",
+      "suggested_allocation_pct": null,
+      "risk_level": "moderate",
+      "expected_return_range": "6.5-7.5% annually (declining to 4-5% by 2034)",
+      "time_horizon": "10 years (2025-2034), with annual adjustments",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:58:21.299406",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_5ee1f56d",
+      "category": "rebalance",
+      "title": "Reduce Healthcare Overconcentration from 22% to 15%",
+      "summary": "Healthcare sector is 4-7 percentage points above typical moderate portfolio targets. Trim JNJ and UNH positions by $45-60K over next 6 months and reallocate to underweight sectors (utilities, real estate) for better diversification.",
+      "detailed_rationale": "(1) Signal: Your 22% Healthcare allocation (via JNJ, UNH, and likely healthcare exposure in VTI) significantly exceeds the S&P 500's ~13% healthcare weighting and creates single-sector concentration risk. Combined with 18% Technology and 18% Financials, your top 3 sectors represent 58% of portfolio\u2014insufficient diversification for moderate risk tolerance. (2) Alignment: At 55 approaching retirement, sector diversification becomes critical to avoid industry-specific downturns. Healthcare faces regulatory uncertainty (drug pricing legislation, Medicare negotiations) and demographic headwinds despite aging population tailwinds. Moderate risk investors should limit any single sector to 15-18% maximum. Your advanced investment experience means you understand concentration risk but may have legacy positions from earlier accumulation phase. (3) Evidence: Healthcare valuations are stretched with UNH trading at 24x forward P/E versus 19x 5-year average. Your portfolio shows no direct exposure to defensive sectors like Utilities (3-4% typical allocation) or Real Estate (3-4% typical), which provide income and downside protection in corrections. Rebalancing $50K from Healthcare to these sectors maintains growth potential while improving risk-adjusted returns. (4) Risk/Trade-off: Healthcare has been a strong performer 2020-2024 and may continue outperforming if medical innovation accelerates. You'll miss additional gains from JNJ's dividend growth (2.9% yield) and UNH's managed care dominance. However, concentration risk could result in 15-20% drawdowns if sector-specific legislation or earnings disappointments occur.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "VNQ",
+        "VPU",
+        "XLRE"
+      ],
+      "suggested_action": "Sell 30-40% of JNJ and UNH positions (approximately $45-60K total) over 2-3 transactions in next 6 months to avoid market timing risk. Use proceeds to purchase: (1) Vanguard Real Estate ETF (VNQ) - $25K for 3% allocation providing income and inflation hedge; (2) Vanguard Utilities ETF (VPU) - $25K for 3% allocation providing defensive stability and 3%+ dividend yield. This reduces Healthcare to 15% while improving sector balance and maintaining dividend income for eventual retirement cash flow needs.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "low",
+      "expected_return_range": "5-7% annually from rebalanced allocation",
+      "time_horizon": "6 months for implementation, 10+ years holding period",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:58:21.299406",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_b5dfd9fb",
+      "category": "income_generation",
+      "title": "Build Bond Ladder for Retirement Income Starting Age 62",
+      "summary": "Allocate $85K (10% of portfolio) to create 3-year bond ladder maturing 2030-2032 to provide predictable income bridge from age 62-65 before Social Security optimization at 67-70.",
+      "detailed_rationale": "(1) Signal: Your retirement goal requires $80-100K annual income starting at 65, but you lack specific income-generation infrastructure. Current 35% bond allocation in BND provides diversification but no predictable maturity dates or income schedule. With 10 years to retirement and medium liquidity needs, now is optimal time to begin building income ladder before rates potentially decline. (2) Alignment: Bond ladder addresses both retirement and wealth transfer goals by: (a) Creating predictable cash flow for early retirement years 62-65 when you may reduce work or face pension delays; (b) Reducing sequence-of-returns risk by ensuring 3 years of expenses ($240-300K) are secured regardless of equity market conditions; (c) Allowing you to delay Social Security to age 70 for 24% higher permanent benefit (+8% per year 67-70); (d) Preserving remaining portfolio for growth and legacy goals. Your stable income and advanced experience make you capable of executing this strategy. (3) Evidence: Current Treasury yields offer 4.2-4.8% for 5-7 year maturities, providing attractive risk-free returns that may not persist if Fed cuts rates 2025-2026. A $85K investment in 5-7 year Treasuries maturing 2030-2032 would generate $27-30K annually in your early retirement years. This represents 30-40% of your $80-100K income target, with remaining portion from portfolio withdrawals (4% rule on remaining $670K = $27K) and part-time work if desired. (4) Risk/Trade-off: Locking in bonds today means missing potential higher yields if rates rise further, and $85K removed from equity allocation may underperform if markets rally 2025-2030. However, this sacrifice ensures income security\u2014the primary goal for moderate-risk pre-retirees\u2014and you maintain $382K in equities for growth.",
+      "tickers": [
+        "VGIT",
+        "VCIT",
+        "BND"
+      ],
+      "suggested_action": "Over next 12 months, implement bond ladder strategy: (1) Allocate $85K total from new contributions and partial BND sale; (2) Purchase individual Treasury bonds or use VGIT (Vanguard Intermediate-Term Treasury ETF) with staggered maturity focus: $28K maturing 2030 (age 62), $28K maturing 2031 (age 63), $29K maturing 2032 (age 64); (3) Set up automatic reinvestment of interest into money market until retirement; (4) At each maturity date, transfer funds to high-yield savings for that year's income needs. Coordinate with financial advisor or use Treasury Direct for individual bonds to ensure proper maturity sequencing and avoid interest rate risk within 3-year window.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "4.2-4.8% yield to maturity",
+      "time_horizon": "5-7 years until first maturities (2030-2032)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:58:21.299406",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_824ff0be",
+      "category": "tax_optimization",
+      "title": "Harvest Tax Losses and Reposition for Roth Conversion Opportunity",
+      "summary": "Review portfolio for tax-loss harvesting opportunities in current holdings, particularly any underwater positions in VXUS or individual stocks, to offset gains and create $15-25K tax loss to enable partial Roth conversion before retirement.",
+      "detailed_rationale": "(1) Signal: At $220K income with 10 years to retirement, you're likely in 24-32% marginal tax bracket now but will drop to 12-22% bracket in retirement with $80-100K income. This creates a strategic window for Roth conversions 2025-2034, but conversions add taxable income. Tax-loss harvesting (TLH) can offset conversion income or capital gains from rebalancing (healthcare sector reduction, glide path adjustments). Your advanced experience and low debt level mean you have tax optimization sophistication and flexibility. (2) Alignment: TLH accomplishes multiple goals: (a) Reduces 2025 tax liability from recommended rebalancing sales (JNJ/UNH positions); (b) Creates loss carryforward to offset future gains during glide path transitions; (c) Enables Roth conversions without increasing total tax bill\u2014converting $20K traditional IRA while harvesting $20K losses maintains current tax burden but creates tax-free growth; (d) Supports wealth transfer goal since Roth IRAs pass tax-free to heirs. Your medium-term horizon means harvested losses can be utilized before retirement, and stable income means you don't need immediate tax refunds. (3) Evidence: VXUS (international equity) has experienced volatility 2022-2024 with emerging markets and currency headwinds\u2014likely contains unrealized losses if purchased at peaks. Your 15% individual stock allocation (JNJ, UNH, JPM, BRK.B, PG) may have mixed performance with harvestable losses. Industry studies show consistent TLH adds 0.5-1.0% annual alpha for high-income investors. With $850K portfolio, harvesting $20K losses saves $5-6K in taxes annually at your bracket. (4) Risk/Trade-off: TLH requires maintaining similar market exposure to avoid wash sale rules, meaning you must swap to similar (but not identical) funds for 31+ days\u2014creating tracking error risk and transaction costs. If you don't have losses in current positions, this recommendation becomes inapplicable for 2025 (confidence would drop to low). You should verify actual cost basis before proceeding.",
+      "tickers": [
+        "VXUS",
+        "IXUS",
+        "VEA",
+        "JNJ",
+        "UNH"
+      ],
+      "suggested_action": "Q1 2025: (1) Review cost basis for all holdings with your broker/advisor, identifying any positions with 5%+ unrealized losses; (2) If losses exist in VXUS, sell position and immediately purchase similar international fund (IXUS or VEA) to maintain exposure while harvesting loss; (3) If losses exist in individual stocks from rebalancing sales, execute sales in December 2025 to maximize current-year deduction; (4) Use harvested losses to offset: (a) Capital gains from healthcare rebalancing, (b) Up to $3K ordinary income annually, (c) Partial Roth conversion of $15-25K from traditional IRA/401(k); (5) Document all transactions for tax filing and maintain 31-day calendar to avoid wash sales. Consider working with CPA to optimize conversion timing across 10-year retirement window\u2014earlier conversions benefit from longer tax-free growth but increase current taxes.",
+      "suggested_allocation_pct": null,
+      "risk_level": "low",
+      "expected_return_range": "0.5-1.0% annual alpha from tax savings",
+      "time_horizon": "Annual ongoing strategy through 2034",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:58:21.299406",
+      "composite_score": 0.0
+    }
+  ]
+}

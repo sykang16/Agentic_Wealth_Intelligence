@@ -1,0 +1,170 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "query": "I'm 40 with two kids heading to college in about 10 years. How should I balance saving for their education versus retirement?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rag_diagnostics": {
+    "top_score": 0.0,
+    "num_hits": 0,
+    "gated": false,
+    "threshold": null
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_3ec64959",
+      "category": "diversify",
+      "title": "Establish Dedicated 529 College Savings Plan",
+      "summary": "Open 529 plan(s) and redirect $1,500-2,000/month from taxable investments to capture tax-advantaged growth for your 10-year education goal.",
+      "detailed_rationale": "Signal: Your portfolio shows no tax-advantaged education savings vehicle despite a high-priority $200,000 college funding goal in 10 years. With $175K annual income and $9,500 monthly expenses, you have ~$4,500/month surplus capacity. Step-by-step reasoning: (1) At 10 years to college, you're in the critical accumulation window where tax-advantaged compounding matters significantly - a 529 plan offers tax-free growth and withdrawals for qualified education expenses. (2) Your moderate risk tolerance and intermediate experience align well with age-based 529 portfolios that automatically shift from 70-80% equity (appropriate now at 10 years out) to more conservative allocations as college approaches. (3) Current math: $200K goal \u00f7 10 years = $20K/year or ~$1,667/month needed, assuming 6% average returns. Your current allocation is 100% mixed with retirement assets, creating goal-mismatch risk. (4) Supporting evidence: With two children and stable income, dedicating $1,500-2,000/month to 529s (roughly 10-14% of gross income) aligns with standard guidance of 10-15% for education savings. (5) Main trade-off: This reduces capital available for taxable investing and retirement contributions, but the tax benefits (no federal tax on gains, possible state deduction) and goal-matching justify the reallocation. Risk: 529 penalties if funds aren't used for education, though recent rules allow $35K lifetime rollovers to Roth IRAs.",
+      "tickers": [
+        "VTSAX",
+        "VTIAX",
+        "VBTLX"
+      ],
+      "suggested_action": "Open 529 plans for both children (consider your state's plan first for tax deductions). Fund with $1,500-2,000/month using age-based portfolios. Consider reducing taxable stock purchases (AAPL, MSFT, NVDA, GOOGL) by this amount monthly.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "low",
+      "expected_return_range": "5-7% annually",
+      "time_horizon": "10 years (college start)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T06:26:05.228622",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_159e21ae",
+      "category": "rebalance",
+      "title": "Reduce Technology Overconcentration",
+      "summary": "Trim individual tech holdings (AAPL, MSFT, NVDA, GOOGL) by 30-40% and redistribute to underweight sectors to improve diversification.",
+      "detailed_rationale": "Signal: Portfolio analysis shows 35% technology concentration, which is 2.4x the S&P 500's ~14.5% tech weighting and creates significant concentration risk. Your individual stock holdings (20% of portfolio) appear entirely in mega-cap tech. Step-by-step reasoning: (1) While VTI provides broad market exposure, your 20% individual stock allocation plus tech-heavy positions within VTI/VXUS create portfolio-level concentration that exceeds moderate risk tolerance guidelines. (2) At age 40 with dual goals requiring capital in 10 and 25 years, sector concentration risk (especially post-2023 tech rally) threatens both goals if the sector corrects. (3) Evidence from portfolio: You're underweight in defensive sectors like Healthcare (12% vs 13-14% market weight) and completely missing Utilities, Real Estate, and Consumer Staples exposure outside of ETF holdings. (4) Your moderate risk tolerance and loss comfort of 6/10 suggests you'd be uncomfortable with a 30-40% drawdown, which concentrated tech positions experienced in 2022. (5) Action rationale: Selling 30-40% of individual tech positions (~$12,800-17,000 based on 20% stock allocation of $140K net worth) reduces single-sector risk while maintaining tech exposure through VTI/VXUS. (6) Main trade-off: You may have unrealized capital gains triggering taxes, and you'll miss upside if tech continues outperforming. However, diversification is the appropriate risk management for dual high-priority goals.",
+      "tickers": [
+        "VHT",
+        "VNQ",
+        "VPU",
+        "XLP"
+      ],
+      "suggested_action": "Sell 30-40% of combined positions in AAPL, MSFT, NVDA, GOOGL. Reallocate proceeds to: Healthcare ETF (VHT) 30%, Real Estate (VNQ) 30%, Utilities (VPU) 20%, Consumer Staples (XLP) 20% to achieve better sector balance.",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "Long-term (both goals)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T06:26:05.228622",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_d243cf8b",
+      "category": "rebalance",
+      "title": "Implement Bond Ladder for College Timeline",
+      "summary": "Shift $20,000-25,000 from long-duration bonds (BND) into a 5-10 year Treasury/municipal bond ladder to match college funding timeline.",
+      "detailed_rationale": "Signal: Your 30% bond allocation ($42,000 based on $140K net worth) appears entirely in BND (total bond market) with average duration of 6-7 years, which doesn't align with your specific 10-year college goal timeline. Step-by-step reasoning: (1) Goal-liability matching: With college expenses starting in 10 years and continuing 4-8 years (depending on overlap), you need predictable income streams in years 10-17. (2) Your moderate risk profile and medium liquidity needs suggest maintaining bonds for stability, but current allocation treats all capital as single-timeline retirement money. (3) Evidence: BND holds 40% government, 25% corporate, 25% mortgage-backed securities with varying maturities. This provides diversification but not timeline certainty for education goal. (4) A bond ladder with maturities in years 7-10 provides: (a) known maturity values for college payments, (b) current Treasury yields of 4.2-4.5% for 7-10 year maturities, superior to BND's ~4.8% SEC yield with more interest rate risk, (c) possible municipal bond tax advantages given your $175K income (24% federal bracket). (5) Calculation: $200K goal with $1,500-2,000/month in 529 contributions at 6% compounds to ~$245K-280K in 10 years, providing buffer. Bond ladder of $20-25K adds certainty layer. (6) Main trade-off: Individual bonds require more management than BND, have less liquidity before maturity, and lock in current rates (missing potential gains if rates rise further, but protecting against rate drops). Lower expected returns than stocks but higher certainty for goal.",
+      "tickers": [
+        "VGIT",
+        "MUB",
+        "BND"
+      ],
+      "suggested_action": "Sell $20,000-25,000 of BND. Purchase intermediate Treasury ETF (VGIT) or build individual Treasury/municipal bond ladder with maturities in 2032-2035. Consider 60% VGIT, 40% MUB (municipal bonds) for tax efficiency at your income level.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "low",
+      "expected_return_range": "4-5% annually",
+      "time_horizon": "7-10 years (college preparation)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T06:26:05.228622",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_2153eef0",
+      "category": "tax_optimization",
+      "title": "Maximize Retirement Contributions Before Taxable Investing",
+      "summary": "Verify you're maximizing 401(k) ($23,000), IRA ($7,000), and HSA ($4,150) contributions before adding to taxable brokerage for retirement goal.",
+      "detailed_rationale": "Signal: Your investment profile shows intermediate experience and stable $175K income, but no visibility into whether you're maximizing tax-advantaged retirement accounts before taxable investing. Your retirement goal of $2.5M in 25 years is substantial and tax efficiency is critical. Step-by-step reasoning: (1) At 40 with 25-year horizon to retirement, you're in peak earning years (likely 24% federal bracket) where tax-deferred/tax-free growth provides maximum advantage - every $1,000 in 401(k) saves $240+ in current taxes while growing tax-deferred. (2) Math check: $2.5M goal in 25 years requires approximately $4,000/month at 7% returns. Your surplus is ~$4,500/month after expenses. (3) Optimal sequencing for moderate risk profile: (a) 401(k) to employer match (free money), (b) HSA if eligible ($4,150 single/$8,300 family - triple tax advantaged), (c) remaining 401(k) to $23,000 max, (d) Backdoor Roth IRA $7,000 if income phase-out applies, (e) taxable brokerage. (4) Evidence: If you're maximizing all accounts ($30K+ annually) plus $18-24K for 529s, you're investing $48K+/year or ~27% of gross income - excellent for dual goals. If not maximizing, you're paying unnecessary taxes. (5) Your current holdings (VTI, VXUS, BND, individual stocks) don't indicate account type - these could be in taxable accounts where dividends/rebalancing create annual tax drag of 0.5-1.5%. (6) Main trade-off: Retirement accounts have age 59.5 restrictions (though 72(t), Roth ladders provide workarounds), reducing flexibility. However, tax savings over 25 years likely exceeds $100K+ making this overwhelmingly favorable for retirement goal. Risk: Over-funding retirement at education goal's expense, but your income supports both.",
+      "tickers": [
+        "401K",
+        "IRA",
+        "HSA"
+      ],
+      "suggested_action": "Audit current contributions: Are you contributing $23,000 to 401(k), $7,000 to IRA (Backdoor Roth if needed), and $4,150+ to HSA? If not, redirect taxable investments to max these first. Consider 401(k) Roth contributions if available for tax diversification.",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "low",
+      "expected_return_range": "6-8% annually with 20-30% tax savings boost",
+      "time_horizon": "25 years (retirement)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T06:26:05.228622",
+      "composite_score": 0.0
+    }
+  ]
+}

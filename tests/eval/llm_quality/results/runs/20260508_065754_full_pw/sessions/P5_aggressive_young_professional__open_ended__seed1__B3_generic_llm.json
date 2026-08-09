@@ -1,0 +1,110 @@
+{
+  "session_id": "P5_aggressive_young_professional__open_ended__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "open_ended",
+  "query": "I'm aiming for FIRE in about 15 years. Am I on the right track with my current allocation?",
+  "seed": 1,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "diversify",
+      "title": "Reduce Concentration Risk in Technology Sector",
+      "summary": "Your portfolio is 65% concentrated in technology, creating significant sector risk that could derail your FIRE timeline if tech experiences a prolonged downturn.",
+      "detailed_rationale": "While your aggressive risk tolerance and tech background justify some sector concentration, 65% in technology exposes you to systemic sector risk. Historical tech corrections (2000-2002, 2022) saw 50-80% drawdowns. With a 15-year FIRE timeline, you need growth but also resilience. Consider adding exposure to healthcare (XLV), financials (XLF), industrials (VGT alternatives), and international markets (VXUS). Your high income ($195k) and stable employment provide excellent recovery capacity, but diversification will smooth the path to your $2.5M target while maintaining growth potential.",
+      "tickers": [
+        "XLV",
+        "XLF",
+        "VNQ",
+        "VXUS"
+      ],
+      "suggested_action": "Gradually reallocate 15-20% of portfolio from tech-heavy positions to diversified sectors and international exposure over next 3-6 months",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12%",
+      "time_horizon": "15+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T14:18:37.631745",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "rebalance",
+      "title": "Optimize Cash Allocation for Accelerated Growth",
+      "summary": "Your 10% cash allocation ($18k) exceeds emergency fund needs and represents drag on portfolio growth given your aggressive timeline and risk profile.",
+      "detailed_rationale": "With stable income, existing emergency fund, low liquidity needs, and 15-year horizon, maintaining 10% in cash is suboptimal. At 0-5% yields, this cash allocation costs you approximately $1,440-$1,800 annually in opportunity cost versus equity returns. Given your $5,500 monthly expenses, you only need 3-6 months ($16.5k-$33k) in emergency reserves, which you already have. Reduce cash to 3-5% ($5.4k-$9k) and deploy remainder into diversified equity positions. This reallocation could add $50k-$100k to your portfolio value over 15 years through compounding.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "SCHD"
+      ],
+      "suggested_action": "Reduce cash holdings to 3-5% and deploy excess into broad market ETFs or dividend growth funds",
+      "suggested_allocation_pct": 7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "9-13%",
+      "time_horizon": "15+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T14:18:37.631745",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "risk_reduction",
+      "title": "Manage Cryptocurrency Volatility Risk",
+      "summary": "5% crypto allocation (primarily BTC) is appropriate for aggressive profile, but consider implementing volatility management strategy as portfolio grows.",
+      "detailed_rationale": "Your $9,000 crypto allocation (5%) aligns with aggressive risk tolerance and provides asymmetric upside potential. However, as your portfolio approaches $500k+ in 5-7 years, maintaining rigid 5% could mean $25k+ in volatile assets. Consider implementing a dynamic allocation strategy: maintain 3-5% during accumulation phase, but use stop-loss or take-profit mechanisms when crypto appreciates beyond target allocation. Given crypto's 70%+ drawdown history, preserve gains when they occur. Your high risk tolerance (9/10) supports keeping crypto exposure, but disciplined profit-taking will protect FIRE timeline from extreme volatility.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Maintain current 5% allocation but establish rebalancing triggers (sell when >7%, buy when <3%) to manage volatility",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "high",
+      "expected_return_range": "0-50%",
+      "time_horizon": "15+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T14:18:37.631745",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "buy",
+      "title": "Add Small-Cap Value Exposure for Enhanced Returns",
+      "summary": "Introduce small-cap value allocation to capture factor premiums that historically outperform during long accumulation periods.",
+      "detailed_rationale": "Your portfolio is heavily weighted toward large-cap growth (QQQ, TSLA, NVDA, GOOGL, META, AMZN). Academic research shows small-cap value stocks have historically provided 3-5% annual premium over large-cap growth over 15+ year periods. With your 15-year timeline to FIRE, adding 10-15% allocation to small-cap value (AVUV, VBR, SLYV) can significantly boost terminal wealth. This complements rather than replaces your growth holdings. Your high income allows you to dollar-cost average through higher volatility. Monte Carlo simulations suggest this addition could increase probability of reaching $2.5M target from 65% to 75-80% given your contribution capacity.",
+      "tickers": [
+        "AVUV",
+        "VBR",
+        "SLYV"
+      ],
+      "suggested_action": "Allocate 10-15% to small-cap value ETFs through systematic monthly purchases over next 6 months",
+      "suggested_allocation_pct": 12.0,
+      "risk_level": "moderate",
+      "expected_return_range": "10-14%",
+      "time_horizon": "15+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T14:18:37.631745",
+      "composite_score": 0.0
+    }
+  ]
+}

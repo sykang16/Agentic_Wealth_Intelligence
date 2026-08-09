@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes \u2014 aggressive risk tolerance, 9/10 loss comfort, 15-year FIRE horizon, $2.5M goal, $162K net worth, $195K income \u2014 and ties them causally to the recommendation.\",\n    \"C2\": \"Risk_level is 'moderate' for an aggressive user (one tier off), but the rationale defensibly justifies it by distinguishing concentration risk from market risk while preserving overall equity stance.\",\n    \"C3\": \"Holdings, sector weights, and net worth figures are accurate to the snapshot; the '8-12% annually' return range and historical NASDAQ drawdown numbers are reasonable but unsourced quantitative claims.\",\n    \"C4\": \"Provides specific tickers to trim (NVDA, META) and add (XLV, XLE, VNQ), exact percentages, target tech allocation (45-50%), and a clear immediate first step.\",\n    \"C5\": \"Directly identifies the 65% technology overweight and prescribes a concrete rebalance into underrepresented sectors (healthcare, energy, real estate).\",\n    \"C6\": \"Uses mostly calibrated language ('may miss', 'historical') with no guaranteed-return claims, though no explicit disclaimer is included at the rec level and confidence is marked 'high'.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes \u2014 aggressive risk tolerance, 9/10 loss comfort, 15-year FIRE horizon, $2.5M goal, $162K net worth, $195K income \u2014 and ties them causally to the recommendation.",
+      "C2": "Risk_level is 'moderate' for an aggressive user (one tier off), but the rationale defensibly justifies it by distinguishing concentration risk from market risk while preserving overall equity stance.",
+      "C3": "Holdings, sector weights, and net worth figures are accurate to the snapshot; the '8-12% annually' return range and historical NASDAQ drawdown numbers are reasonable but unsourced quantitative claims.",
+      "C4": "Provides specific tickers to trim (NVDA, META) and add (XLV, XLE, VNQ), exact percentages, target tech allocation (45-50%), and a clear immediate first step.",
+      "C5": "Directly identifies the 65% technology overweight and prescribes a concrete rebalance into underrepresented sectors (healthcare, energy, real estate).",
+      "C6": "Uses mostly calibrated language ('may miss', 'historical') with no guaranteed-return claims, though no explicit disclaimer is included at the rec level and confidence is marked 'high'."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6057,
+    "output_tokens": 557
+  },
+  "session_id": "P5_aggressive_young_professional__rebalance__seed2",
+  "rec_index": 0,
+  "rec_id": "rec_c4f60fdf",
+  "rubric_version": "1.1"
+}

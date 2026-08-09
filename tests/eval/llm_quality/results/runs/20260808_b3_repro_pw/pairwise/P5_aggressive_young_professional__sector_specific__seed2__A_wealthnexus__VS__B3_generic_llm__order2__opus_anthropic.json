@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B directly addresses the user's specific question about AI infrastructure plays (Rec #4) and provides more concrete dollar-level action steps with sourcing details, while also weaving in personalized numbers like inflation-adjusted expenses. System A has slightly better factual grounding (B misstates S&P tech weight as 18-22% and portfolio size as $90k in one place), but B's superior query-responsiveness, actionability, and personalization outweigh these minor issues.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B directly addresses the user's specific question about AI infrastructure plays (Rec #4) and provides more concrete dollar-level action steps with sourcing details, while also weaving in personalized numbers like inflation-adjusted expenses. System A has slightly better factual grounding (B misstates S&P tech weight as 18-22% and portfolio size as $90k in one place), but B's superior query-responsiveness, actionability, and personalization outweigh these minor issues."
+  },
+  "usage": {
+    "input_tokens": 10836,
+    "output_tokens": 288
+  },
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

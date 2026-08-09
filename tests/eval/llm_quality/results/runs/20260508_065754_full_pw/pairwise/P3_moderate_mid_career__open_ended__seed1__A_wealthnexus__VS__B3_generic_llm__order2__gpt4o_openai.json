@@ -1,0 +1,28 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"tie\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides more actionable steps, particularly in the diversification and tax optimization recommendations, which are clearly aligned with the user's goals and risk profile. Both systems demonstrate strong personalization and risk alignment, but System B's recommendations are more comprehensive in addressing diversification needs.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "tie",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides more actionable steps, particularly in the diversification and tax optimization recommendations, which are clearly aligned with the user's goals and risk profile. Both systems demonstrate strong personalization and risk alignment, but System B's recommendations are more comprehensive in addressing diversification needs."
+  },
+  "usage": {
+    "input_tokens": 6840,
+    "output_tokens": 146
+  },
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

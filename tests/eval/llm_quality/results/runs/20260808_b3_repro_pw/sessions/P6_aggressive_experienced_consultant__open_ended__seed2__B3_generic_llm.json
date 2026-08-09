@@ -1,0 +1,113 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed2",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "open_ended",
+  "query": "Given my variable income from consulting, how should I think about cash buffers versus staying fully deployed?",
+  "seed": 2,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "rebalance",
+      "title": "Establish Dynamic Cash Buffer Strategy for Variable Income",
+      "summary": "Increase cash allocation from 5% to 12-15% ($180,000-$225,000) to create a 14-17 month expense buffer, while maintaining aggressive growth positioning in remaining portfolio.",
+      "detailed_rationale": "As an independent consultant with variable income, your current 5% cash allocation ($75,000) provides only 5.8 months of expenses - insufficient for consulting income volatility. A 12-15 month buffer allows you to weather income gaps without forced liquidations during market downturns. This strategic reserve enables you to keep 85-88% of assets deployed in growth investments, maintaining your aggressive stance while reducing liquidity stress. Fund this by reducing bond allocation from 15% to 8% and trimming emerging markets from 15% to 12%, as bonds provide lower returns unsuitable for your 20+ year horizon and risk tolerance.",
+      "tickers": [
+        "BND",
+        "VWO"
+      ],
+      "suggested_action": "Sell $100,000-$150,000 from BND and VWO proportionally to build cash reserves in high-yield savings (currently 4.5-5% APY)",
+      "suggested_allocation_pct": 12.0,
+      "risk_level": "low",
+      "expected_return_range": "4-5% on cash buffer",
+      "time_horizon": "immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:50:10.816189",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "diversify",
+      "title": "Add Small-Cap Value and International Developed Markets Exposure",
+      "summary": "Allocate 10% to small-cap value (AVUV/VBR) and 8% to international developed markets (VEA/VXUS) to reduce concentration risk and enhance diversification.",
+      "detailed_rationale": "Your portfolio is heavily concentrated in large-cap US equities (VTI 25%, individual tech 30%) creating single-market risk. Small-cap value historically outperforms over long periods with low correlation to large-cap growth, while international developed markets provide geographic diversification beyond emerging markets. This reduces portfolio volatility while maintaining aggressive growth orientation. Your advanced experience and high risk tolerance support this tactical complexity. Implementation: redirect 5% from technology individual stocks and 5% from current ETF positions, maintaining overall 70% equity allocation.",
+      "tickers": [
+        "AVUV",
+        "VBR",
+        "VEA",
+        "VXUS"
+      ],
+      "suggested_action": "Initiate positions totaling $270,000: $150,000 in small-cap value ETFs and $120,000 in developed international markets",
+      "suggested_allocation_pct": 18.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:50:10.816189",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "risk_reduction",
+      "title": "Reduce Cryptocurrency Allocation and Energy Sector Concentration",
+      "summary": "Decrease crypto from 5% to 2% and energy sector from 15% to 10%, reallocating to diversified equity positions to reduce concentration and volatility risk.",
+      "detailed_rationale": "While your aggressive risk tolerance supports alternative assets, 5% in crypto (primarily BTC) represents excessive volatility for someone with variable income and moderate debt. Crypto's 60-80% drawdown potential could coincide with consulting income gaps, creating compound liquidity stress. Similarly, 15% energy concentration (XLE, XOM, CVX) creates sector risk, especially given energy's cyclicality. Reduce crypto to 2% ($30,000) and energy to 10%, maintaining exposure while improving risk-adjusted returns. Redeploy $120,000 to the diversification strategies above. This preserves your aggressive growth stance while reducing tail risk that could disrupt your wealth accumulation and legacy planning goals.",
+      "tickers": [
+        "BTC",
+        "XLE",
+        "XOM",
+        "CVX"
+      ],
+      "suggested_action": "Sell approximately $45,000 of BTC and $75,000 of energy holdings (proportionally across XLE, XOM, CVX)",
+      "suggested_allocation_pct": 12.0,
+      "risk_level": "high",
+      "expected_return_range": "N/A - risk reduction focused",
+      "time_horizon": "immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:50:10.816189",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "hold",
+      "title": "Maintain Core Technology and Financial Services Positions",
+      "summary": "Continue holding NVDA, JPM, GS, and technology allocation given strong secular trends, quality fundamentals, and alignment with aggressive growth objectives.",
+      "detailed_rationale": "Your technology (30%) and financials (15%) allocations are well-positioned for long-term wealth creation. NVDA benefits from AI infrastructure spending with sustainable competitive advantages. JPM and GS provide quality financial exposure with strong capital returns and economic sensitivity aligned with growth environments. These holdings complement your consultant income (likely tied to corporate spending cycles) rather than correlate directly. Your advanced investment experience allows proper position sizing and drawdown tolerance. Maintain these positions through market cycles, using volatility to tax-loss harvest or add on significant dips. The 20+ year horizon to your $4M wealth goal and $800K legacy target supports riding through cyclical volatility in these quality holdings.",
+      "tickers": [
+        "NVDA",
+        "JPM",
+        "GS",
+        "VTI"
+      ],
+      "suggested_action": "Hold existing positions; consider adding on 15%+ pullbacks in individual names",
+      "suggested_allocation_pct": 45.0,
+      "risk_level": "moderate",
+      "expected_return_range": "10-15% annually",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:50:10.816189",
+      "composite_score": 0.0
+    }
+  ]
+}

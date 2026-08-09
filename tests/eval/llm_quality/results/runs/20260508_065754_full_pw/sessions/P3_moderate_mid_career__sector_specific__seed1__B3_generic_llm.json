@@ -1,0 +1,111 @@
+{
+  "session_id": "P3_moderate_mid_career__sector_specific__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "sector_specific",
+  "query": "Should I add international or emerging-markets exposure, and if so what proportion is reasonable?",
+  "seed": 1,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "diversify",
+      "title": "Increase International Developed Markets Exposure",
+      "summary": "Boost VXUS allocation from current levels to achieve 25-30% total international developed markets exposure for better global diversification.",
+      "detailed_rationale": "Your portfolio shows strong US equity concentration (VTI + individual US tech stocks), creating geographic risk. With a 25-year retirement horizon and 10-year education timeline, you have sufficient time to benefit from international diversification. Research shows international exposure reduces portfolio volatility through lower correlation with US markets while maintaining long-term growth potential. Your moderate risk tolerance and intermediate experience make developed international markets (VXUS) appropriate. Target 25-30% of equity allocation to capture non-US growth opportunities in Europe, Japan, and other developed economies. This aligns with global market capitalization weights (roughly 40% non-US) while maintaining your US focus.",
+      "tickers": [
+        "VXUS",
+        "VEA",
+        "IEFA"
+      ],
+      "suggested_action": "Increase position in VXUS or similar developed international index fund through systematic monthly purchases over 6-12 months",
+      "suggested_allocation_pct": 25.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:19:08.076949",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "diversify",
+      "title": "Add Selective Emerging Markets Exposure",
+      "summary": "Allocate 8-12% to emerging markets (VWO or similar) to capture higher growth potential and further diversification benefits.",
+      "detailed_rationale": "Emerging markets offer higher growth potential given younger demographics, rising middle classes, and economic development trajectories in countries like India, Taiwan, and Brazil. However, they carry elevated volatility and political risks. Given your moderate risk tolerance (6/10 loss comfort), intermediate experience, and long time horizons, a 8-12% allocation provides meaningful exposure without excessive risk. This complements your developed markets holdings. Emerging markets have shown low correlation with US equities during certain periods, enhancing diversification. Your stable income and existing emergency fund provide cushion to weather short-term volatility. Start with 8% and potentially scale to 12% as you become more comfortable. This represents roughly 10-15% of your total equity allocation.",
+      "tickers": [
+        "VWO",
+        "IEMG",
+        "SCHE"
+      ],
+      "suggested_action": "Initiate position with 8% allocation, dollar-cost average over 6 months to smooth entry timing and volatility",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-11% annually",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:19:08.076949",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "rebalance",
+      "title": "Reduce US Technology Concentration While Adding International",
+      "summary": "Trim individual tech holdings (AAPL, MSFT, NVDA, GOOGL) from 20% to 10-12% of portfolio to fund international expansion and reduce sector risk.",
+      "detailed_rationale": "Your portfolio shows 35% technology sector concentration when combining your 20% individual tech stocks with tech exposure in VTI. This creates significant sector-specific risk, especially concerning with your 10-year education funding goal. While these are quality companies, excessive concentration contradicts diversification principles. Your VTI holding already provides 25-30% tech exposure, making additional individual holdings redundant. By reducing individual tech positions to 10-12% total, you maintain conviction in the sector while freeing capital for international diversification. This rebalancing supports both recommendations above without requiring new cash contributions. Consider tax implications: if holdings have gains, spread sales over multiple years or prioritize highest-cost-basis shares. The proceeds should fund your VXUS and emerging markets positions.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Systematically reduce individual tech stock positions by 40-50%, redirecting proceeds to international equity funds",
+      "suggested_allocation_pct": 12.0,
+      "risk_level": "moderate",
+      "expected_return_range": "N/A - portfolio optimization",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:19:08.076949",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "hold",
+      "title": "Maintain Core US and Bond Allocations",
+      "summary": "Keep VTI as core US equity holding (35-40%) and BND for stability (30%), providing foundation while adding international exposure.",
+      "detailed_rationale": "Your VTI and BND positions form a solid foundation and should be maintained. VTI provides broad US market exposure with low costs, appropriate for long-term wealth building. Your 30% bond allocation (BND) is reasonable for a 40-year-old with moderate risk tolerance, providing stability for your nearer-term education goal while allowing equity growth for retirement. As you add international exposure, your target allocation should approximate: 35-40% US equity (VTI), 25-30% International developed (VXUS), 8-12% Emerging markets, 10-12% Individual stocks (reduced tech positions), and 30% Bonds (BND). This maintains your moderate risk profile while achieving better global diversification. Review and rebalance annually, gradually reducing bonds as education expenses approach. The bond allocation provides liquidity for medium-term needs given your medium liquidity requirement.",
+      "tickers": [
+        "VTI",
+        "BND"
+      ],
+      "suggested_action": "Maintain current positions, continue regular contributions to VTI while building international exposure",
+      "suggested_allocation_pct": 40.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-8% annually (blended)",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:19:08.076949",
+      "composite_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Cites age 55, 10-year horizon to retirement at 65, moderate risk tolerance, loss comfort 5/10, $755k net worth vs $1.8M target, and current allocation specifics\u2014well above three profile attributes driving the choice.\",\n    \"C2\": \"User is moderate but risk_level is set to 'low'; the rationale defensibly justifies the conservative tilt as part of an age-appropriate glide path, qualifying as a one-tier deviation with reasoning.\",\n    \"C3\": \"Tickers (VTI, BND) and allocation figures match the snapshot; the '5-7% annually' return range is a generic unsupported quantitative claim but no fabricated holdings.\",\n    \"C4\": \"Specifies exact tickers, dollar amount ($42,500), 5% allocation shift, 3-month execution window, and a clear first step plus multi-year glide path.\",\n    \"C5\": \"Identifies Healthcare/Tech/Financials concentration and proposes reducing equity overweight, though the actual trade only touches VTI/BND rather than directly addressing sector concentration.\",\n    \"C6\": \"Uses calibrated language ('gradual', 'approximately') with no return guarantees, though confidence='high' is mildly assertive; no explicit disclaimer at rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Cites age 55, 10-year horizon to retirement at 65, moderate risk tolerance, loss comfort 5/10, $755k net worth vs $1.8M target, and current allocation specifics\u2014well above three profile attributes driving the choice.",
+      "C2": "User is moderate but risk_level is set to 'low'; the rationale defensibly justifies the conservative tilt as part of an age-appropriate glide path, qualifying as a one-tier deviation with reasoning.",
+      "C3": "Tickers (VTI, BND) and allocation figures match the snapshot; the '5-7% annually' return range is a generic unsupported quantitative claim but no fabricated holdings.",
+      "C4": "Specifies exact tickers, dollar amount ($42,500), 5% allocation shift, 3-month execution window, and a clear first step plus multi-year glide path.",
+      "C5": "Identifies Healthcare/Tech/Financials concentration and proposes reducing equity overweight, though the actual trade only touches VTI/BND rather than directly addressing sector concentration.",
+      "C6": "Uses calibrated language ('gradual', 'approximately') with no return guarantees, though confidence='high' is mildly assertive; no explicit disclaimer at rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6093,
+    "output_tokens": 544
+  },
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed2",
+  "rec_index": 0,
+  "rec_id": "rec_d2bf19ff",
+  "rubric_version": "1.1"
+}

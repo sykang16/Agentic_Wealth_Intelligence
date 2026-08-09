@@ -1,0 +1,11 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed1",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "sector_specific",
+  "query": "Should I rotate from energy into AI/semiconductor exposure at current valuations, or keep the cyclical tilt?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rag_diagnostics": {},
+  "rec_count": 0,
+  "recommendations": []
+}

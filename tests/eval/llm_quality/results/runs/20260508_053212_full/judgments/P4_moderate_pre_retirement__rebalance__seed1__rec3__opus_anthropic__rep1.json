@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Cites retirement goal ($80-100K/yr at 65), moderate risk tolerance, medium liquidity needs, stable income, and current holdings to causally justify the glide path.\",\n    \"C2\": \"risk_level 'moderate' matches the user's moderate tolerance, and the rationale explicitly addresses sequence-of-returns risk and the conservative-to-moderate trajectory appropriate at age 65.\",\n    \"C3\": \"Tickers and current holdings are accurate; minor unsupported quantitative claims include the projected $1.5-1.8M portfolio value and the assumed <2% current yield.\",\n    \"C4\": \"Provides specific tickers (NOBL, SCHD, VYM, BND, VCIT), target allocations (35-40% equity, 50% bonds, 10% dividend, 10% cash), a 36-month timeline, and a clear first step.\",\n    \"C5\": \"Acknowledges current 55% equity allocation and recommends rebalancing toward bonds/dividends, though it doesn't directly address sector concentrations (Healthcare 22%, Financials/Tech 18%).\",\n    \"C6\": \"Uses calibrated language ('likely', 'targeting', 'review annually with financial advisor'), no guaranteed-return claims, and recommends professional consultation.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Cites retirement goal ($80-100K/yr at 65), moderate risk tolerance, medium liquidity needs, stable income, and current holdings to causally justify the glide path.",
+      "C2": "risk_level 'moderate' matches the user's moderate tolerance, and the rationale explicitly addresses sequence-of-returns risk and the conservative-to-moderate trajectory appropriate at age 65.",
+      "C3": "Tickers and current holdings are accurate; minor unsupported quantitative claims include the projected $1.5-1.8M portfolio value and the assumed <2% current yield.",
+      "C4": "Provides specific tickers (NOBL, SCHD, VYM, BND, VCIT), target allocations (35-40% equity, 50% bonds, 10% dividend, 10% cash), a 36-month timeline, and a clear first step.",
+      "C5": "Acknowledges current 55% equity allocation and recommends rebalancing toward bonds/dividends, though it doesn't directly address sector concentrations (Healthcare 22%, Financials/Tech 18%).",
+      "C6": "Uses calibrated language ('likely', 'targeting', 'review annually with financial advisor'), no guaranteed-return claims, and recommends professional consultation."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6384,
+    "output_tokens": 548
+  },
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed1",
+  "rec_index": 3,
+  "rec_id": "rec_9af4fd87",
+  "rubric_version": "1.1"
+}

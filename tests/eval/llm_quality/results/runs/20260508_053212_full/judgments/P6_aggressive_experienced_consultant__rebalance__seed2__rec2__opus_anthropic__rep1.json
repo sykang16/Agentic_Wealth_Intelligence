@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes (age 45, 20-year horizon, $4M wealth goal, variable consulting income, loss comfort 8/10, moderate debt, medium liquidity) and ties them causally to the recommendation.\",\n    \"C2\": \"User is aggressive (loss comfort 8/10) but risk_level is 'moderate' \u2014 one tier adjacent, with a defensible justification that the action itself is risk-reducing rather than risk-taking.\",\n    \"C3\": \"Most claims (BTC holding, 5% allocation, $75K absolute, 30% tech, $380K debt) are traceable to the snapshot; the 60% annual volatility and 75%+ drawdown figures are reasonable but not directly supplied in inputs.\",\n    \"C4\": \"Specifies concrete ticker (BTC), exact allocation change (5%\u21922-3%), dollar amounts ($30-45K), first step (sell 40-50%), redeployment targets, and a rebalancing rule \u2014 all four actionability elements present.\",\n    \"C5\": \"The recommendation does not address the user's actual query about the 15% energy overweight (or 30% tech concentration), instead pivoting to a different asset; it is allocation-neutral on the queried concern.\",\n    \"C6\": \"Uses calibrated language ('may', 'consider', 'potential'), no guaranteed-return claims, and acknowledges trade-offs including upside foregone.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes (age 45, 20-year horizon, $4M wealth goal, variable consulting income, loss comfort 8/10, moderate debt, medium liquidity) and ties them causally to the recommendation.",
+      "C2": "User is aggressive (loss comfort 8/10) but risk_level is 'moderate' \u2014 one tier adjacent, with a defensible justification that the action itself is risk-reducing rather than risk-taking.",
+      "C3": "Most claims (BTC holding, 5% allocation, $75K absolute, 30% tech, $380K debt) are traceable to the snapshot; the 60% annual volatility and 75%+ drawdown figures are reasonable but not directly supplied in inputs.",
+      "C4": "Specifies concrete ticker (BTC), exact allocation change (5%\u21922-3%), dollar amounts ($30-45K), first step (sell 40-50%), redeployment targets, and a rebalancing rule \u2014 all four actionability elements present.",
+      "C5": "The recommendation does not address the user's actual query about the 15% energy overweight (or 30% tech concentration), instead pivoting to a different asset; it is allocation-neutral on the queried concern.",
+      "C6": "Uses calibrated language ('may', 'consider', 'potential'), no guaranteed-return claims, and acknowledges trade-offs including upside foregone."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6420,
+    "output_tokens": 590
+  },
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed2",
+  "rec_index": 2,
+  "rec_id": "rec_e6a878bc",
+  "rubric_version": "1.1"
+}

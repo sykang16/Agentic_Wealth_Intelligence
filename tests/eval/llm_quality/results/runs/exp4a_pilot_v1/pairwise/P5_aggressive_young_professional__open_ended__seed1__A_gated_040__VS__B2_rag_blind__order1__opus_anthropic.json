@@ -1,0 +1,30 @@
+{
+  "session_id": "P5_aggressive_young_professional__open_ended__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "open_ended",
+  "seed": 1,
+  "sys_a": "A_gated_040",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B demonstrates stronger personalization by explicitly working through the FIRE math (savings capacity, CAGR required, tax bracket implications) and ties recommendations to the user's tech-career human capital concentration. B's actionability is also more concrete with specific dollar amounts, biweekly DCA schedules, and clear execution triggers, while A's rationales are slightly more generic and include one questionable claim (VUG/SCHG as 'low risk').\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B demonstrates stronger personalization by explicitly working through the FIRE math (savings capacity, CAGR required, tax bracket implications) and ties recommendations to the user's tech-career human capital concentration. B's actionability is also more concrete with specific dollar amounts, biweekly DCA schedules, and clear execution triggers, while A's rationales are slightly more generic and include one questionable claim (VUG/SCHG as 'low risk')."
+  },
+  "usage": {
+    "input_tokens": 11876,
+    "output_tokens": 284
+  }
+}

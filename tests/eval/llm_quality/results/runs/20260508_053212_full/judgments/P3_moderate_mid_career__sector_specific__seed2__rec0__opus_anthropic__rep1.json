@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes\u2014moderate risk tolerance, long horizon, 25-year retirement and 10-year education goals, $175k stable income, emergency fund, and intermediate experience\u2014causally tied to the recommendation.\",\n    \"C2\": \"risk_level 'moderate' matches the user's moderate risk tolerance exactly, and the rationale explicitly justifies the fit via broad diversification and horizon alignment.\",\n    \"C3\": \"Most claims are traceable to the snapshot (VXUS holding, US tech concentration, asset totals), though the 6-9% return range and '7,800+ stocks' are minor unsupported quantitative claims.\",\n    \"C4\": \"Specifies ticker (VXUS), target allocation (15-20% of equities, ~$33.6-44.8k), a first step (DCA over 3-4 months), and a clear time horizon.\",\n    \"C5\": \"Explicitly identifies US/tech concentration in the existing portfolio and the recommendation directly addresses it via international diversification.\",\n    \"C6\": \"Uses calibrated language ('consider', 'often', 'may'), acknowledges trade-offs (currency risk, recent underperformance), and avoids guarantee-style claims.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes\u2014moderate risk tolerance, long horizon, 25-year retirement and 10-year education goals, $175k stable income, emergency fund, and intermediate experience\u2014causally tied to the recommendation.",
+      "C2": "risk_level 'moderate' matches the user's moderate risk tolerance exactly, and the rationale explicitly justifies the fit via broad diversification and horizon alignment.",
+      "C3": "Most claims are traceable to the snapshot (VXUS holding, US tech concentration, asset totals), though the 6-9% return range and '7,800+ stocks' are minor unsupported quantitative claims.",
+      "C4": "Specifies ticker (VXUS), target allocation (15-20% of equities, ~$33.6-44.8k), a first step (DCA over 3-4 months), and a clear time horizon.",
+      "C5": "Explicitly identifies US/tech concentration in the existing portfolio and the recommendation directly addresses it via international diversification.",
+      "C6": "Uses calibrated language ('consider', 'often', 'may'), acknowledges trade-offs (currency risk, recent underperformance), and avoids guarantee-style claims."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6031,
+    "output_tokens": 528
+  },
+  "session_id": "P3_moderate_mid_career__sector_specific__seed2",
+  "rec_index": 0,
+  "rec_id": "rec_006eb847",
+  "rubric_version": "1.1"
+}

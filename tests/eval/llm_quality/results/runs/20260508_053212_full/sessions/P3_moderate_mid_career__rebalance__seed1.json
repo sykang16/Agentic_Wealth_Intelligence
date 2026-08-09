@@ -1,0 +1,192 @@
+{
+  "session_id": "P3_moderate_mid_career__rebalance__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "rebalance",
+  "query": "My tech exposure is around 35% across my ETFs and individual stocks. Is that too concentrated, and how would I trim it?",
+  "seed": 1,
+  "context": {
+    "portfolio_context": "## Portfolio Snapshot\n- Total Assets: $320,000\n- Total Liabilities: $180,000\n- Net Worth: $140,000\n\n### Allocation by Asset Type\n- etf: 50.0%\n- stock: 20.0%\n- bond: 30.0%\n\n### Allocation by Sector\n- Technology: 35.0%\n- Financials: 15.0%\n- Healthcare: 12.0%\n- Consumer Discretionary: 10.0%\n- Industrials: 8.0%\n- Energy: 5.0%\n- Other: 15.0%\n\n### Holdings (tickers)\nVTI, VXUS, BND, AAPL, MSFT, NVDA, GOOGL",
+    "investment_profile_context": "## Investment Profile\n- Age: 40\n- Occupation: Product manager\n- Annual Income: $175,000\n- Monthly Expenses: $9,500\n- Risk Tolerance: moderate\n- Loss Comfort (1-10): 6\n- Investment Horizon: long\n- Liquidity Needs: medium\n- Income Stability: stable\n- Has Emergency Fund: True\n- Debt Level: low\n- Investment Experience: intermediate\n- Goals:\n  - education (high priority, target $200,000): Fund college for two children, primary horizon ~10 years\n  - retirement (high priority, target $2,500,000): Long-term retirement target, ~25 years out",
+    "rag_context": "[etf_factsheet] Vanguard (VGT)\n# Vanguard Information Technology ETF (VGT)\n\n## Fund Overview\nProvides exposure to companies in the information technology sector.\n\n## Key Statistics\n- **Ticker Symbol**: VGT\n- **Expense Ratio**: 0.10%\n- **Assets Under Management**: $55 billion\n- **Number of Holdings**: 316 stocks\n- **Sector Focus**: Technology\n\n## Investment Objective\nThe fund seeks to track the performance of its benchmark index, providing investors with diversified exposure to the technology market segment.\n\n## Risk Considerations\n- Market risk: The value of the fund may decline due to general market conditions.\n- Concentration risk: The fund may be concentrated in a particular sector or industry.\n- Liquidity risk: Some securities may be difficult to sell at favorable prices.\n\n## Who Should Invest\nThis fund is suitable for investors seeking:\n- Long-term capital appreciation\n- Diversified exposure to technology securities\n- Low-cost index investing approach\n\n## Performance History\nPast performance does not guarantee future results. The fund has historically tracked its benchmark index closely, with minimal tracking error.\n\n## How to Invest\nShares can be purchased through most brokerage accounts. The fund trades on major exchanges under the ticker symbol VGT.\n\n---\n\n[etf_factsheet] Vanguard (VTI)\n# Vanguard Total Stock Market ETF (VTI)\n\n## Fund Overview\nProvides broad exposure to the entire U.S. equity market, including small, mid, and large-cap stocks.\n\n## Key Statistics\n- **Ticker Symbol**: VTI\n- **Expense Ratio**: 0.03%\n- **Assets Under Management**: $300 billion\n- **Number of Holdings**: 3,945 stocks\n- **Sector Focus**: Broad Market\n\n## Investment Objective\nThe fund seeks to track the performance of its benchmark index, providing investors with diversified exposure to the broad market market segment.\n\n## Risk Considerations\n- Market risk: The value of the fund may decline due to general market conditions.\n- Concentration risk: The fund may be concentrated in a particular sector or industry.\n- Liquidity risk: Some securities may be difficult to sell at favorable prices.\n\n## Who Should Invest\nThis fund is suitable for investors seeking:\n- Long-term capital appreciation\n- Diversified exposure to broad market securities\n- Low-cost index investing approach\n\n## Performance History\nPast performance does not guarantee future results. The fund has historically tracked its benchmark index closely, with minimal tracking error.\n\n## How to Invest\nShares can be purchased through most brokerage accounts. The fund trades on major exchanges under the ticker symbol VTI.",
+    "data_sources_used": [
+      "portfolio",
+      "investment_profile",
+      "rag_knowledge_base"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec_6b9f022d",
+      "category": "rebalance",
+      "title": "Reduce Technology Overconcentration to 25%",
+      "summary": "Your 35% technology allocation exceeds typical diversification guidelines for moderate-risk investors. Trim tech exposure by 10 percentage points to reduce sector-specific risk.",
+      "detailed_rationale": "Signal: Your portfolio shows 35% concentration in technology across holdings (AAPL, MSFT, NVDA, GOOGL individually plus VTI's tech exposure). Standard best practices suggest 20-25% as maximum sector allocation for moderate risk tolerance investors. Alignment with profile: (1) As a 40-year-old product manager with stable income and two high-priority goals (education in 10 years, retirement in 25 years), you need balanced growth without excessive volatility in any single sector. (2) Your loss comfort of 6/10 indicates moderate tolerance, not aggressive. Technology historically exhibits 25-30% higher volatility than broad market indices. (3) The 2022 tech drawdown saw sector losses of 30-40% while diversified portfolios fell only 15-20%. Supporting evidence: Your VTI holding (3,945 stocks, 0.03% expense ratio per knowledge base) already provides 25-30% natural tech exposure through market-cap weighting. Your individual tech stocks (AAPL, MSFT, NVDA, GOOGL) plus any tech weighting in VTI creates redundant concentration. Trade-off: Trimming high-performing tech stocks means potentially lower returns in bull markets, but significantly reduces portfolio volatility and drawdown risk. Recommended approach: Sell 30-40% of individual tech positions (approximately $22,000-30,000 from your $64,000 tech allocation) and redeploy to underweight sectors.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Sell approximately $25,000 from individual tech stock positions (prioritize trimming largest position first to maintain some exposure to all four companies). Reduce overall tech allocation from 35% to 25% of portfolio.",
+      "suggested_allocation_pct": -10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Reduces volatility by 15-20% while maintaining 7-9% annual growth potential",
+      "time_horizon": "Implement over 1-2 months to avoid concentrated tax impact",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:11:56.742882",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_660a5550",
+      "category": "diversify",
+      "title": "Add Healthcare and Consumer Staples Exposure",
+      "summary": "Redeploy technology proceeds into defensive sectors (healthcare, consumer staples) that are currently underweight and provide stability for your near-term education goal.",
+      "detailed_rationale": "Signal: Your sector allocation shows healthcare at only 12% and consumer staples absent, while technology dominates at 35%. Portfolio analysis reveals significant defensive sector gap. Alignment with profile: (1) Your primary education goal has a 10-year horizon requiring $200,000 - this shorter timeframe demands more capital preservation than pure growth. (2) Defensive sectors like healthcare and consumer staples exhibit 20-30% lower beta than technology, providing ballast during market downturns. (3) Your moderate risk tolerance and stable income position you well for a 60/40 growth-to-defensive allocation rather than current 70/30 skew. Supporting evidence: Healthcare sector maintains consistent demand regardless of economic cycles (aging demographics support long-term growth). Consumer staples historically decline only 10-15% in recessions versus 30-40% for technology. Your knowledge base shows VTI provides broad exposure, but supplementing with targeted healthcare ETF (like VHT) or consumer staples would balance volatility. With $140,000 net worth and $180,000 liabilities, reducing portfolio volatility protects against forced liquidations during market stress. Trade-off: Defensive sectors typically grow 5-7% annually versus technology's 10-12%, potentially reducing absolute returns. However, lower volatility improves risk-adjusted returns and sleep-at-night factor for investors with near-term goals.",
+      "tickers": [
+        "VHT",
+        "VDC"
+      ],
+      "suggested_action": "Invest $15,000-20,000 from tech rebalancing proceeds into healthcare ETF (VHT) and $8,000-10,000 into consumer staples ETF (VDC). Target 18% healthcare and 8% consumer staples allocation.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "low",
+      "expected_return_range": "6-8% annually with 25% lower volatility than tech-heavy allocation",
+      "time_horizon": "10+ years, particularly supports education funding goal",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:11:56.742882",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_c850bc90",
+      "category": "hold",
+      "title": "Maintain Core Bond Position at 30%",
+      "summary": "Your 30% bond allocation (BND) appropriately balances growth needs with stability given your dual high-priority goals and moderate risk profile.",
+      "detailed_rationale": "Signal: Portfolio analysis shows 30% bond allocation via BND, which sits at the optimal level for your profile - no rebalancing trigger identified. Alignment with profile: (1) Traditional 60/40 stock/bond allocation guidance for 40-year-old suggests 30-40% bonds, placing you within optimal range. (2) Your education goal in 10 years benefits from bond stability - as this goal approaches year 7-8, you can systematically shift another 10-15% to bonds. (3) Monthly expenses of $9,500 ($114,000 annually) represent 65% of income, leaving $61,000 annual savings capacity. Emergency fund exists, debt is low - this stable foundation supports maintaining current bond floor without increasing. Supporting evidence: Your BND holding provides diversified U.S. investment-grade bond exposure with minimal expense ratio. With current 30% allocation ($42,000), you have sufficient stability cushion for moderate risk tolerance. Knowledge base confirms bond funds provide liquidity and risk mitigation without excessive drag on long-term returns. At age 40 with 25-year retirement horizon, you can sustain higher equity exposure while 30% bonds provide adequate downside protection. Trade-off: Increasing bonds beyond 30% would reduce long-term growth potential needed for $2.5M retirement target. Decreasing below 30% would expose you to excessive volatility given 10-year education goal timeline. Current allocation represents optimal risk/return balance.",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "Maintain current 30% bond allocation. Review annually and increase bond allocation by 2-3 percentage points when education goal reaches 5-year horizon. No immediate action required.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "3-4% annually with capital preservation characteristics",
+      "time_horizon": "Hold indefinitely, increase allocation as education goal approaches",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:11:56.742882",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_ccb9029a",
+      "category": "buy",
+      "title": "Add International Developed Markets Exposure",
+      "summary": "Increase VXUS allocation by 5-8% to enhance geographic diversification and reduce U.S. market dependency, supporting long-term retirement goals.",
+      "detailed_rationale": "Signal: Your holdings show VXUS (international exposure) but allocation details suggest potential underweight relative to global market cap (typically 40-45% of global equity). Geographic concentration risk identified alongside sector concentration. Alignment with profile: (1) With 25-year retirement horizon and $2.5M target requiring 8-10% compound growth, international diversification reduces single-country risk. (2) Your intermediate investment experience and moderate risk tolerance support geographic diversification as risk mitigation strategy. (3) U.S. markets trade at elevated valuations (P/E ~20-22) versus international developed markets (P/E ~14-16), creating opportunity for value-oriented allocation. Supporting evidence: Historical analysis shows international markets provide low correlation (0.7-0.8) with U.S. equities, improving portfolio risk-adjusted returns. Your knowledge base indicates VXUS provides broad international exposure with low costs. Currency diversification benefits investors with long horizons - dollar weakness could boost international returns. With stable $175,000 income and low debt, you can weather short-term international underperformance for long-term diversification benefits. Trade-off: International markets have underperformed U.S. over past 10-15 years, and political/currency risks exist. However, mean reversion suggests potential outperformance ahead, and diversification reduces tail risk regardless of relative performance.",
+      "tickers": [
+        "VXUS"
+      ],
+      "suggested_action": "Invest $8,000-10,000 (approximately 6-7% of portfolio) into VXUS from technology rebalancing proceeds. Target 20-25% total international equity exposure over time.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-9% annually with improved portfolio diversification and reduced U.S.-specific risk",
+      "time_horizon": "20+ years for retirement goal",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:11:56.742882",
+      "composite_score": 0.0
+    }
+  ],
+  "rec_count": 4
+}

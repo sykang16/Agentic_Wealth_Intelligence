@@ -1,0 +1,143 @@
+{
+  "run_dir": "tests\\eval\\llm_quality\\results\\runs\\20260508_053212_full",
+  "c2_content_threshold": 2.0,
+  "n_recs_pre_filter": 144,
+  "n_recs_post_filter": 136,
+  "structural_violation_rate_pre": 0.05555555555555555,
+  "structural_violation_rate_post": 0.0,
+  "content_overriding_rate_pre": 0.04861111111111111,
+  "content_overriding_rate_post": 0.051470588235294115,
+  "raw_counts": {
+    "pre_structural": 8,
+    "post_structural": 0,
+    "pre_content_overriding": 7,
+    "post_content_overriding": 7,
+    "n_recs_pre": 144,
+    "n_recs_post": 136
+  },
+  "per_persona": {
+    "P1_conservative_retiree": {
+      "pre_struct": 3,
+      "post_struct": 0,
+      "pre_content": 0,
+      "post_content": 0,
+      "n_pre": 24,
+      "n_post": 21
+    },
+    "P2_conservative_early_career": {
+      "pre_struct": 4,
+      "post_struct": 0,
+      "pre_content": 0,
+      "post_content": 0,
+      "n_pre": 24,
+      "n_post": 20
+    },
+    "P3_moderate_mid_career": {
+      "pre_struct": 1,
+      "post_struct": 0,
+      "pre_content": 1,
+      "post_content": 1,
+      "n_pre": 24,
+      "n_post": 23
+    },
+    "P4_moderate_pre_retirement": {
+      "pre_struct": 0,
+      "post_struct": 0,
+      "pre_content": 0,
+      "post_content": 0,
+      "n_pre": 24,
+      "n_post": 24
+    },
+    "P5_aggressive_young_professional": {
+      "pre_struct": 0,
+      "post_struct": 0,
+      "pre_content": 4,
+      "post_content": 4,
+      "n_pre": 24,
+      "n_post": 24
+    },
+    "P6_aggressive_experienced_consultant": {
+      "pre_struct": 0,
+      "post_struct": 0,
+      "pre_content": 2,
+      "post_content": 2,
+      "n_pre": 24,
+      "n_post": 24
+    }
+  },
+  "n_recs_dropped_by_filter": 8,
+  "dropped_examples_sample": [
+    {
+      "session_id": "P1_conservative_retiree__open_ended__seed2",
+      "rec_id": "rec_66df89ac",
+      "title": "Add Preferred Stock Exposure for Higher Income with Bond-Like Characteristics",
+      "rec_risk_level": "moderate",
+      "user_risk_tolerance": "conservative",
+      "structural_violation": true,
+      "content_overriding": false
+    },
+    {
+      "session_id": "P1_conservative_retiree__rebalance__seed1",
+      "rec_id": "rec_39fe3f09",
+      "title": "Increase Dividend Stock Allocation for Enhanced Income",
+      "rec_risk_level": "moderate",
+      "user_risk_tolerance": "conservative",
+      "structural_violation": true,
+      "content_overriding": false
+    },
+    {
+      "session_id": "P1_conservative_retiree__sector_specific__seed1",
+      "rec_id": "rec_0aa2579f",
+      "title": "Consider Adding Preferred Stock ETF for Enhanced Income",
+      "rec_risk_level": "moderate",
+      "user_risk_tolerance": "conservative",
+      "structural_violation": true,
+      "content_overriding": false
+    },
+    {
+      "session_id": "P2_conservative_early_career__rebalance__seed1",
+      "rec_id": "rec_8c4eb9c8",
+      "title": "Maintain Conservative Investment Mix in VTTSX and BND",
+      "rec_risk_level": "moderate",
+      "user_risk_tolerance": "conservative",
+      "structural_violation": true,
+      "content_overriding": false
+    },
+    {
+      "session_id": "P2_conservative_early_career__rebalance__seed2",
+      "rec_id": "rec_9596dafc",
+      "title": "Maintain Conservative Target-Date Fund Foundation",
+      "rec_risk_level": "moderate",
+      "user_risk_tolerance": "conservative",
+      "structural_violation": true,
+      "content_overriding": false
+    },
+    {
+      "session_id": "P2_conservative_early_career__sector_specific__seed1",
+      "rec_id": "rec_b6e79ffb",
+      "title": "Add VTI After Emergency Fund Milestone for Broader Market Exposure",
+      "rec_risk_level": "moderate",
+      "user_risk_tolerance": "conservative",
+      "structural_violation": true,
+      "content_overriding": false
+    },
+    {
+      "session_id": "P2_conservative_early_career__sector_specific__seed2",
+      "rec_id": "rec_e9f1da98",
+      "title": "Future Portfolio Evolution: Plan Transition to VTI After Emergency Fund",
+      "rec_risk_level": "moderate",
+      "user_risk_tolerance": "conservative",
+      "structural_violation": true,
+      "content_overriding": false
+    },
+    {
+      "session_id": "P3_moderate_mid_career__sector_specific__seed1",
+      "rec_id": "rec_bcf95056",
+      "title": "Add Targeted Emerging Markets Exposure",
+      "rec_risk_level": "high",
+      "user_risk_tolerance": "moderate",
+      "structural_violation": true,
+      "content_overriding": false
+    }
+  ]
+}

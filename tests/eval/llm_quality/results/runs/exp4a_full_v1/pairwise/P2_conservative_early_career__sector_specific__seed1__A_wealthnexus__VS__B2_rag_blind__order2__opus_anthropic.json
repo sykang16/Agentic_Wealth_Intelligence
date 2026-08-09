@@ -1,0 +1,30 @@
+{
+  "session_id": "P2_conservative_early_career__sector_specific__seed1",
+  "persona_id": "P2_conservative_early_career",
+  "query_type": "sector_specific",
+  "seed": 1,
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 2,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides stronger personalization by tying recommendations to the user's specific goals (house timeline, 401(k) match, negative net worth) and better risk alignment by keeping recommendation-level risk_level consistently low for a conservative beginner, whereas System A labels VTTSX as 'moderate' risk without justifying the tier deviation. System A has slightly better factual grounding (e.g., more accurate VTTSX composition and BND drawdown figures), but B's broader actionability (401(k) match, VTI for house goal) and tighter risk fidelity give it the overall edge.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides stronger personalization by tying recommendations to the user's specific goals (house timeline, 401(k) match, negative net worth) and better risk alignment by keeping recommendation-level risk_level consistently low for a conservative beginner, whereas System A labels VTTSX as 'moderate' risk without justifying the tier deviation. System A has slightly better factual grounding (e.g., more accurate VTTSX composition and BND drawdown figures), but B's broader actionability (401(k) match, VTI for house goal) and tighter risk fidelity give it the overall edge."
+  },
+  "usage": {
+    "input_tokens": 11504,
+    "output_tokens": 324
+  }
+}

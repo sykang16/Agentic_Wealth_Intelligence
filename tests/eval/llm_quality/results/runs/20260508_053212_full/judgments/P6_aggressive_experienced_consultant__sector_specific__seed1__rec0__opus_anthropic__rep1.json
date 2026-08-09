@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 3,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 2,\n  \"rationale\": {\n    \"C1\": \"Rationale explicitly cites aggressive risk tolerance, loss comfort 8/10, advanced experience, variable consulting income, age 45, and $4M wealth target, causally linking them to the rotation.\",\n    \"C2\": \"risk_level 'high' matches the user's aggressive tolerance and the rationale justifies the fit by referencing loss comfort and long horizon.\",\n    \"C3\": \"Multiple unsupported quantitative claims appear (15-20% AI correction, 1.2M bpd demand growth, 3-4% dividend yields, 18-28% expected returns) that aren't traceable to provided inputs, though tickers and allocations are grounded.\",\n    \"C4\": \"Provides specific tickers (AMD, AVGO, SMH), exact dollar amounts, allocation percentages, and a clear first step (sell 60% of XLE).\",\n    \"C5\": \"Directly identifies the energy concentration and single-name NVDA semiconductor concentration risk, and the recommendation addresses both via diversified chip exposure.\",\n    \"C6\": \"Uses overconfident framing with 'aligns perfectly,' 'optimal approach,' confidence='high,' and a specific 18-28% expected return range that reads as a guarantee rather than calibrated language.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 3,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 2,
+    "rationale": {
+      "C1": "Rationale explicitly cites aggressive risk tolerance, loss comfort 8/10, advanced experience, variable consulting income, age 45, and $4M wealth target, causally linking them to the rotation.",
+      "C2": "risk_level 'high' matches the user's aggressive tolerance and the rationale justifies the fit by referencing loss comfort and long horizon.",
+      "C3": "Multiple unsupported quantitative claims appear (15-20% AI correction, 1.2M bpd demand growth, 3-4% dividend yields, 18-28% expected returns) that aren't traceable to provided inputs, though tickers and allocations are grounded.",
+      "C4": "Provides specific tickers (AMD, AVGO, SMH), exact dollar amounts, allocation percentages, and a clear first step (sell 60% of XLE).",
+      "C5": "Directly identifies the energy concentration and single-name NVDA semiconductor concentration risk, and the recommendation addresses both via diversified chip exposure.",
+      "C6": "Uses overconfident framing with 'aligns perfectly,' 'optimal approach,' confidence='high,' and a specific 18-28% expected return range that reads as a guarantee rather than calibrated language."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6246,
+    "output_tokens": 538
+  },
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed1",
+  "rec_index": 0,
+  "rec_id": "rec_bc9e3c56",
+  "rubric_version": "1.1"
+}

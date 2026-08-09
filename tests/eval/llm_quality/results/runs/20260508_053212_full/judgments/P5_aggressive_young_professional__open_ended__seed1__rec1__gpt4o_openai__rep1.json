@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 2,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"The rationale uses specific profile attributes such as income, expenses, and FIRE goal to justify the recommendation.\",\n    \"C2\": \"The recommendation's low risk level does not align with the user's aggressive risk tolerance, and the rationale does not justify this deviation.\",\n    \"C3\": \"Most claims are grounded in the user's profile and general tax rules, though the exact tax savings range is not fully supported.\",\n    \"C4\": \"The recommendation provides clear actions with specific contributions and strategies for tax-advantaged accounts.\",\n    \"C5\": \"The recommendation is allocation-neutral, focusing on tax optimization rather than diversification.\",\n    \"C6\": \"The recommendation uses calibrated language and mentions tax savings without guaranteeing returns, but lacks a disclaimer.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 2,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "The rationale uses specific profile attributes such as income, expenses, and FIRE goal to justify the recommendation.",
+      "C2": "The recommendation's low risk level does not align with the user's aggressive risk tolerance, and the rationale does not justify this deviation.",
+      "C3": "Most claims are grounded in the user's profile and general tax rules, though the exact tax savings range is not fully supported.",
+      "C4": "The recommendation provides clear actions with specific contributions and strategies for tax-advantaged accounts.",
+      "C5": "The recommendation is allocation-neutral, focusing on tax optimization rather than diversification.",
+      "C6": "The recommendation uses calibrated language and mentions tax savings without guaranteeing returns, but lacks a disclaimer."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3821,
+    "output_tokens": 242
+  },
+  "session_id": "P5_aggressive_young_professional__open_ended__seed1",
+  "rec_index": 1,
+  "rec_id": "rec_95ff3972",
+  "rubric_version": "1.1"
+}

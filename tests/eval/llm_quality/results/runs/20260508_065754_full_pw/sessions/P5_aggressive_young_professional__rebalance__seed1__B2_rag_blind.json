@@ -1,0 +1,159 @@
+{
+  "session_id": "P5_aggressive_young_professional__rebalance__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "rebalance",
+  "query": "Should I add any bond exposure at all, or stay close to 100% equity given my horizon?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_589652b0",
+      "category": "diversify",
+      "title": "Add 5-10% Strategic Bond Allocation Despite Aggressive Profile",
+      "summary": "Introduce a small bond position (5-10%) using intermediate-term Treasury or aggregate bond ETFs to provide portfolio stability during equity drawdowns without significantly impacting long-term returns.",
+      "detailed_rationale": "Signal: Your portfolio is 85% equity (50% ETF + 35% stock) with 65% concentrated in Technology sector, creating significant volatility exposure. Analysis: (1) While your aggressive risk tolerance and 15-year horizon traditionally support 100% equity, behavioral finance research shows that even risk-tolerant investors often panic-sell during 30-40% drawdowns, which tech-heavy portfolios experienced in 2022. (2) Your profile shows loss comfort of 9/10, but this is theoretical - adding 5-10% bonds (AGG, BND, or VGIT) acts as portfolio insurance, reducing maximum drawdown from ~45% to ~38% historically, while only reducing long-term returns by ~0.3-0.5% annually. (3) With $180K assets and $195K income, you're in a wealth accumulation phase where staying invested matters more than maximizing theoretical returns - bonds help you avoid emotional selling during crashes. (4) Trade-off: You sacrifice some upside potential (bonds currently yield 4-5% vs equity's 10%+ expected return), but gain rebalancing opportunities - when stocks crash, you can sell bonds to buy equities at lower prices, potentially enhancing long-term returns. This is especially valuable given your Tech concentration vulnerability. The 5-10% allocation is a compromise that maintains your aggressive stance while adding a tactical cushion.",
+      "tickers": [
+        "AGG",
+        "BND",
+        "VGIT"
+      ],
+      "suggested_action": "Allocate 5-7% of portfolio ($9,000-$12,600) to AGG or BND by taking proportional profits from QQQ and VTI positions. Set quarterly rebalancing rule to buy more bonds when equities rise >10% and vice versa.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "low",
+      "expected_return_range": "4-5% annually from bond component; minimal drag on total portfolio",
+      "time_horizon": "15 years with annual rebalancing",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:30:47.387852",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_c4c0771c",
+      "category": "rebalance",
+      "title": "Reduce Technology Overconcentration from 65% to 45-50%",
+      "summary": "Your 65% Technology allocation creates excessive single-sector risk. Trim positions in NVDA, TSLA, and QQQ to reduce concentration, reallocating to underweight sectors like Healthcare, Financials, and Industrials.",
+      "detailed_rationale": "Signal: Portfolio analysis shows 65% Technology sector concentration - more than double the S&P 500's ~28% tech weighting - creating correlated risk where a tech sector correction could impair 15-year wealth accumulation goals. Analysis: (1) Current holdings show overlap: QQQ (43% Technology), individual tech stocks (NVDA, TSLA, GOOGL, META, AMZN), creating 3-4x exposure to same companies and sector-specific risks (AI bubble concerns, regulatory scrutiny, valuation compression). (2) Your aggressive profile supports growth investing, but true aggression means maximizing risk-adjusted returns through diversification, not concentration. Historical data shows concentrated portfolios have higher failure rates in reaching long-term goals due to sequence-of-returns risk. (3) Despite strong tech performance 2023-2024, cyclical rotation risks are elevated - Healthcare (XLV), Financials (XLF), and Industrials (XLI) are undervalued relative to Tech and provide different economic cycle exposures. (4) Specific action: Trim TSLA by 30% (highest valuation risk, 50+ P/E), NVDA by 20% (already strong performer, take profits), and reduce QQQ by $8,000. Redeploy ~$25,000 total into: XLV (Healthcare, 40%), XLF (Financials, 35%), XLI (Industrials, 25%). Trade-off: You may underperform if Tech continues outperforming, but you significantly reduce catastrophic loss risk and improve probability of reaching $2.5M target by avoiding single-sector dependency.",
+      "tickers": [
+        "XLV",
+        "XLF",
+        "XLI"
+      ],
+      "suggested_action": "Sell 30% of TSLA position, 20% of NVDA position, and $8,000 of QQQ. Use proceeds (~$25,000) to purchase XLV ($10,000), XLF ($8,750), and XLI ($6,250) to establish sector diversification while maintaining growth orientation.",
+      "suggested_allocation_pct": 14.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-11% annually with reduced volatility",
+      "time_horizon": "15 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:30:47.387852",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_bc99af77",
+      "category": "risk_reduction",
+      "title": "Reduce Crypto Allocation from 5% to 2-3% Maximum",
+      "summary": "Scale back BTC position to 2-3% of portfolio to limit extreme volatility exposure while maintaining asymmetric upside participation in digital assets.",
+      "detailed_rationale": "Signal: 5% cryptocurrency allocation ($9,000 in BTC) represents outsized volatility risk that could derail disciplined investing during severe drawdowns. Analysis: (1) BTC historical volatility exceeds 70% annually - roughly 4x equity volatility - meaning this 5% position contributes disproportionately to portfolio stress during crashes (BTC has experienced multiple 70-80% drawdowns). (2) While your aggressive profile and 9/10 loss comfort suggest crypto tolerance, the mathematical reality is that 5% in an asset that can drop 80% creates behavioral risks during correlated equity-crypto crashes (as seen in 2022 when both fell simultaneously). (3) Your wealth accumulation goal ($2.5M in 15 years) requires disciplined compounding - a 2-3% crypto allocation still provides meaningful upside exposure (if BTC 10x's, that's still 20-30% portfolio gain) while limiting damage scenarios (80% crash only costs 1.6-2.4% vs 4%). (4) Evidence from portfolio construction: crypto allocation above 3% historically increases portfolio Sharpe ratio volatility without proportional return benefits. Trade-off: You reduce potential maximum gains if crypto enters another bull market, but you improve probability of staying invested during dual equity-crypto crashes. Recommendation is to gradually scale from 5% to 2.5% by not adding new capital to BTC and letting it drift lower as you contribute to diversified positions monthly.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Sell $4,500 of BTC position (half of current holding) to reduce allocation from 5% to 2.5%. Reinvest proceeds into VTI ($3,000) and emergency cash buffer ($1,500). Implement rule: do not add to BTC unless it falls below 2% allocation naturally.",
+      "suggested_allocation_pct": 2.5,
+      "risk_level": "high",
+      "expected_return_range": "Highly variable; -50% to +200% potential annually",
+      "time_horizon": "15+ years or complete loss tolerance",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:30:47.387852",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_87b8dfdc",
+      "category": "hold",
+      "title": "Maintain 10% Cash Position as Dry Powder for Opportunities",
+      "summary": "Your current 10% cash allocation ($18,000) is appropriate for your profile - maintain this as tactical buying power during market corrections rather than rushing to deploy immediately.",
+      "detailed_rationale": "Signal: User query focuses on bonds vs 100% equity, but overlooks the strategic value of current 10% cash position. Analysis: (1) With aggressive risk tolerance and stable income ($195K annually, $5,500 monthly expenses = 71% savings rate after expenses), you have exceptional cash flow to deploy new capital monthly - the existing $18K cash serves a different purpose than emergency funds. (2) Market context: Equity valuations remain elevated (S&P 500 P/E ratio above historical averages), and your portfolio is already 85% equity - the 10% cash provides optionality to deploy during 10-15% corrections, which typically occur 1-2 times per 2-year period. (3) Behavioral advantage: Having cash prevents the need to sell appreciated positions (triggering taxes) when opportunities arise. With your Tech concentration, if sector rotates downward, you can add to Healthcare/Financials recommended above using cash rather than selling existing winners. (4) Mathematical framework: 10% cash earning 4.5-5% in high-yield savings (Ally, Marcus, Wealthfront Cash) costs you ~5-6% in opportunity cost vs equities, but provides $18K buying power worth potentially 15-20% more shares if deployed during a correction. Trade-off: You accept modest return drag in exchange for tactical flexibility, which is rational given your 15-year horizon allows multiple buying opportunities. Recommendation: Keep cash in high-yield savings, set alert to deploy 50% if S&P 500 drops 10%, remaining 50% if drops 15%+.",
+      "tickers": [
+        "Cash/HYSA"
+      ],
+      "suggested_action": "Move cash to high-yield savings account earning 4.5-5% (Ally Bank, Marcus by Goldman Sachs). Set price alerts for S&P 500 at -10% and -15% from current levels. Prepare shopping list: deploy first $9K into XLV and XLF at -10%, second $9K into VTI at -15% drop.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "4.5-5% in savings; opportunistic deployment potential",
+      "time_horizon": "0-2 years until deployment opportunity",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:30:47.387852",
+      "composite_score": 0.0
+    }
+  ]
+}

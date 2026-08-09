@@ -1,0 +1,28 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"tie\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"A\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more personalized recommendations by explicitly addressing the user's aggressive risk tolerance and specific FIRE goal. It also offers clearer actionability with detailed steps and allocations, while maintaining safety and compliance with calibrated language. System B, however, offers better diversification awareness by suggesting a broader range of sectors.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "tie",
+      "C4_actionability": "A",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "A"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more personalized recommendations by explicitly addressing the user's aggressive risk tolerance and specific FIRE goal. It also offers clearer actionability with detailed steps and allocations, while maintaining safety and compliance with calibrated language. System B, however, offers better diversification awareness by suggesting a broader range of sectors."
+  },
+  "usage": {
+    "input_tokens": 6270,
+    "output_tokens": 153
+  },
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 1,
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,110 @@
+{
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "open_ended",
+  "query": "I'm 10 years from retirement. Should I start de-risking now and how aggressively?",
+  "seed": 1,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "rebalance",
+      "title": "Initiate Gradual Glide Path De-Risking Strategy",
+      "summary": "Begin systematic shift from 60/40 equity/bond allocation toward 50/50 over next 2 years, then 40/60 by retirement at 65.",
+      "detailed_rationale": "With 10 years to retirement and moderate risk tolerance, you're at the optimal inflection point to begin de-risking. Your current 55% equity/35% bond/10% other allocation is appropriate for age 55, but should gradually shift. Research shows aggressive de-risking too early sacrifices growth needed to reach your $1.8M target (current $755K net worth requires 9% annualized growth). Recommend reducing equity exposure by 1% annually for years 1-5, then 2% annually for years 6-10. This maintains growth potential while reducing sequence-of-returns risk as you approach retirement. Your stable income, low debt, and advanced experience support this measured approach rather than dramatic repositioning.",
+      "tickers": [
+        "VTI",
+        "BND",
+        "VXUS"
+      ],
+      "suggested_action": "Over next 12 months, rebalance to reduce equity allocation from 55% to 53%, increasing bonds from 35% to 37%. Sell $17,000 from VTI/VXUS proportionally and purchase BND.",
+      "suggested_allocation_pct": 2.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-7% annually during transition",
+      "time_horizon": "10 years (phased implementation)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:31:45.947725",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "diversify",
+      "title": "Add Target-Date or Balanced Fund for Automatic Glide Path",
+      "summary": "Allocate 15-20% of portfolio to a 2035 target-date fund to automate de-risking and reduce rebalancing burden.",
+      "detailed_rationale": "Your current allocation requires active monitoring and annual rebalancing decisions. A target-date fund (TDF) aligned with your 2034-2035 retirement provides professional, automatic de-risking that becomes more conservative as retirement approaches. This complements your existing holdings (VTI, BND, VXUS) while reducing decision fatigue and behavioral risk. TDFs typically shift from 55% equity at age 55 to 30% equity at retirement\u2014matching your moderate risk profile. Consider Vanguard Target Retirement 2035 (VTTHX) or Fidelity Freedom 2035 (FFTHX), both with expense ratios under 0.15%. This creates a 'core-satellite' approach: TDF provides disciplined glide path while you maintain control over individual holdings for tax-loss harvesting and sector preferences.",
+      "tickers": [
+        "VTTHX",
+        "FFTHX"
+      ],
+      "suggested_action": "Allocate $127,500 (15% of $850K assets) to VTTHX by selling proportional amounts from existing ETF positions. Maintain remaining 85% in current holdings.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-6% annually",
+      "time_horizon": "10 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:31:45.947725",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "risk_reduction",
+      "title": "Establish Bond Ladder for Retirement Income Certainty",
+      "summary": "Convert 10% of bond allocation ($29,750) into a 5-year Treasury/Municipal bond ladder to create predictable early retirement income.",
+      "detailed_rationale": "Your $80-100K annual retirement income goal requires reliable cash flow beyond portfolio withdrawals. While BND provides bond exposure, it offers variable returns. A bond ladder\u2014buying individual bonds maturing annually from 2034-2038\u2014creates guaranteed income streams for your first 5 retirement years, reducing sequence-of-returns risk during the critical initial withdrawal phase. With your $220K income and likely high tax bracket, consider municipal bonds for tax efficiency, or Treasury bonds for absolute safety. A $30K ladder provides $6K annually in maturity proceeds plus coupon payments, covering 7-8% of target retirement income. This complements rather than replaces BND, which maintains liquidity and flexibility. Your advanced experience and stable finances support this more sophisticated fixed-income strategy.",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "Over next 6 months, sell $29,750 from BND and construct ladder using individual Treasury bonds (2034-2038 maturities) or AA-rated municipal bonds if in high tax bracket. Stagger purchases across 3-6 months.",
+      "suggested_allocation_pct": 3.5,
+      "risk_level": "low",
+      "expected_return_range": "4-5% yield to maturity",
+      "time_horizon": "5-10 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:31:45.947725",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "hold",
+      "title": "Maintain Core Quality Holdings Through Transition",
+      "summary": "Retain individual stock positions (JNJ, UNH, JPM, BRK.B, PG) as they provide quality, dividends, and downside protection during de-risking phase.",
+      "detailed_rationale": "Your 15% allocation to individual stocks (JNJ, UNH, JPM, BRK.B, PG) represents high-quality, dividend-paying companies with defensive characteristics ideal for pre-retirement portfolios. These companies average 2-3% dividend yields, providing income that supplements bonds while maintaining equity upside. Healthcare (JNJ, UNH) offers recession-resistance; financials (JPM, BRK.B) benefit from rising rates; consumer staples (PG) provide stability. All have 20+ year dividend growth records, supporting your income generation goal. While conventional wisdom suggests eliminating individual stocks during de-risking, these specific holdings reduce rather than increase portfolio risk compared to pure index exposure. Their combined volatility is lower than VTI alone. Maintain these positions; avoid the urge to 'clean up' the portfolio prematurely. Only rebalance if any single position exceeds 5% of total portfolio.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "JPM",
+        "BRK.B",
+        "PG"
+      ],
+      "suggested_action": "Hold all current positions. Monitor quarterly but avoid selling unless fundamental deterioration or individual position exceeds 5% of portfolio. Reinvest dividends into BND to support gradual bond allocation increase.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% annually including dividends",
+      "time_horizon": "10 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:31:45.947725",
+      "composite_score": 0.0
+    }
+  ]
+}

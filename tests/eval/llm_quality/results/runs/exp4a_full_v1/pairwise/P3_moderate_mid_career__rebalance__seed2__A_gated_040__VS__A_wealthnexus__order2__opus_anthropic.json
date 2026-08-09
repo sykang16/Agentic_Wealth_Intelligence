@@ -1,0 +1,30 @@
+{
+  "session_id": "P3_moderate_mid_career__rebalance__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "rebalance",
+  "seed": 2,
+  "sys_a": "A_gated_040",
+  "sys_b": "A_wealthnexus",
+  "order": 2,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more concrete, actionable steps (specific dollar amounts, 529 plan setup with monthly contribution math, phased execution) and cites more profile attributes causally, directly addressing the education goal that the user's query implicitly threatens. System B is slightly more factually careful (correctly noting VTI's ~18-20% tech weight vs A's overstated 25-30%), but A's stronger personalization and actionability outweigh this on balance.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more concrete, actionable steps (specific dollar amounts, 529 plan setup with monthly contribution math, phased execution) and cites more profile attributes causally, directly addressing the education goal that the user's query implicitly threatens. System B is slightly more factually careful (correctly noting VTI's ~18-20% tech weight vs A's overstated 25-30%), but A's stronger personalization and actionability outweigh this on balance."
+  },
+  "usage": {
+    "input_tokens": 12368,
+    "output_tokens": 281
+  }
+}

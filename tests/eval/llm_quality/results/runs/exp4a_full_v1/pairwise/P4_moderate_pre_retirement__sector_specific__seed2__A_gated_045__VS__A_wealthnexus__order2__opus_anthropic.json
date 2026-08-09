@@ -1,0 +1,30 @@
+{
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "sector_specific",
+  "seed": 2,
+  "sys_a": "A_gated_045",
+  "sys_b": "A_wealthnexus",
+  "order": 2,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"tie\",\n  \"rationale_overall\": \"System B provides more specific dollar-figure actions and deeper personalization tying recommendations to the $80-100k income goal and specific gap analysis, but System A better addresses the query's diversification concerns (correctly identifying Healthcare overconcentration while preserving it as defensive, and addressing Energy) and avoids B's questionable move of reducing Healthcare (a defensive sector appropriate for glide path) rather than Energy. The strengths roughly offset, yielding a tie.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "tie",
+    "rationale_overall": "System B provides more specific dollar-figure actions and deeper personalization tying recommendations to the $80-100k income goal and specific gap analysis, but System A better addresses the query's diversification concerns (correctly identifying Healthcare overconcentration while preserving it as defensive, and addressing Energy) and avoids B's questionable move of reducing Healthcare (a defensive sector appropriate for glide path) rather than Energy. The strengths roughly offset, yielding a tie."
+  },
+  "usage": {
+    "input_tokens": 12226,
+    "output_tokens": 293
+  }
+}

@@ -1,0 +1,311 @@
+[
+  {
+    "persona_id": "P1_conservative_retiree",
+    "query_type": "open_ended",
+    "query_text": "What should I do with my retirement savings to maintain steady income while keeping risk low?",
+    "num_hits": 5,
+    "top_score": 0.494,
+    "all_scores": [
+      0.494,
+      0.363,
+      0.341,
+      0.241,
+      0.15
+    ],
+    "top_source": "Wealth Intelligence Research",
+    "top_sources": [
+      "Wealth Intelligence Research",
+      "Vanguard",
+      "Wealth Intelligence Research"
+    ]
+  },
+  {
+    "persona_id": "P1_conservative_retiree",
+    "query_type": "rebalance",
+    "query_text": "I have about 50% of my portfolio in bonds. Is that the right level for someone my age, or should I rebalance?",
+    "num_hits": 4,
+    "top_score": 0.435,
+    "all_scores": [
+      0.435,
+      0.367,
+      0.298,
+      0.173
+    ],
+    "top_source": "Wealth Intelligence Research",
+    "top_sources": [
+      "Wealth Intelligence Research",
+      "Vanguard",
+      "Wealth Intelligence Research"
+    ]
+  },
+  {
+    "persona_id": "P1_conservative_retiree",
+    "query_type": "sector_specific",
+    "query_text": "Should I add any healthcare or utility positions, or am I already overweight there?",
+    "num_hits": 1,
+    "top_score": 0.304,
+    "all_scores": [
+      0.304
+    ],
+    "top_source": "Wealth Intelligence Research",
+    "top_sources": [
+      "Wealth Intelligence Research"
+    ]
+  },
+  {
+    "persona_id": "P2_conservative_early_career",
+    "query_type": "open_ended",
+    "query_text": "I'm new to investing and have student loans. What should I prioritize first with my savings?",
+    "num_hits": 5,
+    "top_score": 0.418,
+    "all_scores": [
+      0.418,
+      0.359,
+      0.308,
+      0.258,
+      0.163
+    ],
+    "top_source": "Wealth Intelligence Research",
+    "top_sources": [
+      "Wealth Intelligence Research",
+      "Vanguard",
+      "Wealth Intelligence Research"
+    ]
+  },
+  {
+    "persona_id": "P2_conservative_early_career",
+    "query_type": "rebalance",
+    "query_text": "Most of my money is in cash right now. Is that okay or should I shift it into investments?",
+    "num_hits": 2,
+    "top_score": 0.389,
+    "all_scores": [
+      0.389,
+      0.269
+    ],
+    "top_source": "Wealth Intelligence Research",
+    "top_sources": [
+      "Wealth Intelligence Research",
+      "Wealth Intelligence Research"
+    ]
+  },
+  {
+    "persona_id": "P2_conservative_early_career",
+    "query_type": "sector_specific",
+    "query_text": "As a beginner, are there particular industries or fund types that are considered safer to start with?",
+    "num_hits": 5,
+    "top_score": 0.387,
+    "all_scores": [
+      0.387,
+      0.365,
+      0.265,
+      0.26,
+      0.157
+    ],
+    "top_source": "Wealth Intelligence Research",
+    "top_sources": [
+      "Wealth Intelligence Research",
+      "Vanguard",
+      "Wealth Intelligence Research"
+    ]
+  },
+  {
+    "persona_id": "P3_moderate_mid_career",
+    "query_type": "open_ended",
+    "query_text": "I'm 40 with two kids heading to college in about 10 years. How should I balance saving for their education versus retirement?",
+    "num_hits": 4,
+    "top_score": 0.42,
+    "all_scores": [
+      0.42,
+      0.292,
+      0.245,
+      0.146
+    ],
+    "top_source": "Wealth Intelligence Research",
+    "top_sources": [
+      "Wealth Intelligence Research",
+      "Vanguard",
+      "Wealth Intelligence Research"
+    ]
+  },
+  {
+    "persona_id": "P3_moderate_mid_career",
+    "query_type": "rebalance",
+    "query_text": "My tech exposure is around 35% across my ETFs and individual stocks. Is that too concentrated, and how would I trim it?",
+    "num_hits": 2,
+    "top_score": 0.429,
+    "all_scores": [
+      0.429,
+      0.277
+    ],
+    "top_source": "Vanguard",
+    "top_sources": [
+      "Vanguard",
+      "Vanguard"
+    ]
+  },
+  {
+    "persona_id": "P3_moderate_mid_career",
+    "query_type": "sector_specific",
+    "query_text": "Should I add international or emerging-markets exposure, and if so what proportion is reasonable?",
+    "num_hits": 2,
+    "top_score": 0.416,
+    "all_scores": [
+      0.416,
+      0.369
+    ],
+    "top_source": "Vanguard",
+    "top_sources": [
+      "Vanguard",
+      "Wealth Intelligence Research"
+    ]
+  },
+  {
+    "persona_id": "P4_moderate_pre_retirement",
+    "query_type": "open_ended",
+    "query_text": "I'm 10 years from retirement. Should I start de-risking now and how aggressively?",
+    "num_hits": 4,
+    "top_score": 0.425,
+    "all_scores": [
+      0.425,
+      0.315,
+      0.272,
+      0.121
+    ],
+    "top_source": "Wealth Intelligence Research",
+    "top_sources": [
+      "Wealth Intelligence Research",
+      "Vanguard",
+      "Wealth Intelligence Research"
+    ]
+  },
+  {
+    "persona_id": "P4_moderate_pre_retirement",
+    "query_type": "rebalance",
+    "query_text": "Walk me through a year-by-year glide path that gradually shifts my allocation over the next decade.",
+    "num_hits": 2,
+    "top_score": 0.363,
+    "all_scores": [
+      0.363,
+      0.247
+    ],
+    "top_source": "Wealth Intelligence Research",
+    "top_sources": [
+      "Wealth Intelligence Research",
+      "Wealth Intelligence Research"
+    ]
+  },
+  {
+    "persona_id": "P4_moderate_pre_retirement",
+    "query_type": "sector_specific",
+    "query_text": "Are there particular sectors I should reduce as I approach retirement, and which ones should I keep for income generation?",
+    "num_hits": 5,
+    "top_score": 0.477,
+    "all_scores": [
+      0.477,
+      0.346,
+      0.254,
+      0.237,
+      0.164
+    ],
+    "top_source": "Wealth Intelligence Research",
+    "top_sources": [
+      "Wealth Intelligence Research",
+      "Vanguard",
+      "Wealth Intelligence Research"
+    ]
+  },
+  {
+    "persona_id": "P5_aggressive_young_professional",
+    "query_type": "open_ended",
+    "query_text": "I'm aiming for FIRE in about 15 years. Am I on the right track with my current allocation?",
+    "num_hits": 5,
+    "top_score": 0.395,
+    "all_scores": [
+      0.395,
+      0.337,
+      0.264,
+      0.234,
+      0.165
+    ],
+    "top_source": "Wealth Intelligence Research",
+    "top_sources": [
+      "Wealth Intelligence Research",
+      "Vanguard",
+      "Wealth Intelligence Research"
+    ]
+  },
+  {
+    "persona_id": "P5_aggressive_young_professional",
+    "query_type": "rebalance",
+    "query_text": "Should I add any bond exposure at all, or stay close to 100% equity given my horizon?",
+    "num_hits": 3,
+    "top_score": 0.394,
+    "all_scores": [
+      0.394,
+      0.379,
+      0.274
+    ],
+    "top_source": "Wealth Intelligence Research",
+    "top_sources": [
+      "Wealth Intelligence Research",
+      "Vanguard",
+      "Wealth Intelligence Research"
+    ]
+  },
+  {
+    "persona_id": "P5_aggressive_young_professional",
+    "query_type": "sector_specific",
+    "query_text": "I'm already heavy in tech. Should I rotate into AI infrastructure plays, or diversify into a different sector entirely?",
+    "num_hits": 0,
+    "top_score": 0.0,
+    "all_scores": [],
+    "top_source": null,
+    "top_sources": []
+  },
+  {
+    "persona_id": "P6_aggressive_experienced_consultant",
+    "query_type": "open_ended",
+    "query_text": "Given my variable income from consulting, how should I think about cash buffers versus staying fully deployed?",
+    "num_hits": 3,
+    "top_score": 0.385,
+    "all_scores": [
+      0.385,
+      0.263,
+      0.147
+    ],
+    "top_source": "Wealth Intelligence Research",
+    "top_sources": [
+      "Wealth Intelligence Research",
+      "Wealth Intelligence Research",
+      "Wealth Intelligence Research"
+    ]
+  },
+  {
+    "persona_id": "P6_aggressive_experienced_consultant",
+    "query_type": "rebalance",
+    "query_text": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+    "num_hits": 3,
+    "top_score": 0.346,
+    "all_scores": [
+      0.346,
+      0.237,
+      0.137
+    ],
+    "top_source": "Wealth Intelligence Research",
+    "top_sources": [
+      "Wealth Intelligence Research",
+      "Wealth Intelligence Research",
+      "Wealth Intelligence Research"
+    ]
+  },
+  {
+    "persona_id": "P6_aggressive_experienced_consultant",
+    "query_type": "sector_specific",
+    "query_text": "Should I rotate from energy into AI/semiconductor exposure at current valuations, or keep the cyclical tilt?",
+    "num_hits": 0,
+    "top_score": 0.0,
+    "all_scores": [],
+    "top_source": null,
+    "top_sources": []
+  }
+]

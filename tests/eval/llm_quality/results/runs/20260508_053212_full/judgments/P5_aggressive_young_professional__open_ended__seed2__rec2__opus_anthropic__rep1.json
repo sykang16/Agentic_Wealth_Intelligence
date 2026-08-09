@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale explicitly cites aggressive risk tolerance, 15-year horizon, intermediate experience, and FIRE goal, causally linking them to the international diversification recommendation.\",\n    \"C2\": \"Risk_level is 'moderate' for an aggressive user (one tier off), but the deviation is defensible since international developed/EM equities are themselves equity risk and serve a diversification purpose.\",\n    \"C3\": \"Holdings (VTI, QQQ, TSLA, NVDA, etc.) and 0% international claim are accurate to the snapshot; historical return figures (~3% outperformance 2000-2010, ~0.85 correlation) are plausible but not strictly traceable to provided inputs.\",\n    \"C4\": \"Specifies concrete tickers (VXUS/VEA/VWO), exact target allocations (12% or 10/5 split), funding source (sell 5% each of TSLA, AMZN, QQQ), and clear first step.\",\n    \"C5\": \"Directly identifies home-country bias and tech concentration in the existing allocation and proposes funding the trade by trimming overweight tech positions.\",\n    \"C6\": \"Uses calibrated language ('typically', 'historically', 'may'), acknowledges currency/political risks, and avoids guarantee-style claims.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale explicitly cites aggressive risk tolerance, 15-year horizon, intermediate experience, and FIRE goal, causally linking them to the international diversification recommendation.",
+      "C2": "Risk_level is 'moderate' for an aggressive user (one tier off), but the deviation is defensible since international developed/EM equities are themselves equity risk and serve a diversification purpose.",
+      "C3": "Holdings (VTI, QQQ, TSLA, NVDA, etc.) and 0% international claim are accurate to the snapshot; historical return figures (~3% outperformance 2000-2010, ~0.85 correlation) are plausible but not strictly traceable to provided inputs.",
+      "C4": "Specifies concrete tickers (VXUS/VEA/VWO), exact target allocations (12% or 10/5 split), funding source (sell 5% each of TSLA, AMZN, QQQ), and clear first step.",
+      "C5": "Directly identifies home-country bias and tech concentration in the existing allocation and proposes funding the trade by trimming overweight tech positions.",
+      "C6": "Uses calibrated language ('typically', 'historically', 'may'), acknowledges currency/political risks, and avoids guarantee-style claims."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 5987,
+    "output_tokens": 545
+  },
+  "session_id": "P5_aggressive_young_professional__open_ended__seed2",
+  "rec_index": 2,
+  "rec_id": "rec_5d980a90",
+  "rubric_version": "1.1"
+}

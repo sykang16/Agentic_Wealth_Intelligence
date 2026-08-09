@@ -1,0 +1,111 @@
+{
+  "session_id": "P3_moderate_mid_career__rebalance__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "rebalance",
+  "query": "My tech exposure is around 35% across my ETFs and individual stocks. Is that too concentrated, and how would I trim it?",
+  "seed": 2,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "rebalance",
+      "title": "Reduce Technology Sector Concentration",
+      "summary": "Your 35% technology allocation significantly exceeds typical target ranges (15-20%) for moderate risk investors, creating unnecessary concentration risk. Recommend trimming to 20-25%.",
+      "detailed_rationale": "At 35% technology exposure, your portfolio is highly vulnerable to tech sector downturns. For a 40-year-old with moderate risk tolerance and dual high-priority goals (education in 10 years, retirement in 25 years), this concentration is excessive. The recommended allocation for technology in a diversified portfolio typically ranges from 15-20% to match market-cap weighting. Your individual tech holdings (AAPL, MSFT, NVDA, GOOGL) likely overlap significantly with VTI's tech exposure, creating double concentration. Given your $200K education goal with a 10-year horizon, you need more stability. Trimming to 20-25% tech would still provide growth exposure while reducing volatility risk.",
+      "tickers": [
+        "NVDA",
+        "GOOGL",
+        "AAPL",
+        "MSFT"
+      ],
+      "suggested_action": "Sell 30-40% of individual tech stock positions (NVDA and GOOGL first as highest risk) to reduce overall tech exposure from 35% to 22-25%",
+      "suggested_allocation_pct": -10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "N/A - risk reduction focused",
+      "time_horizon": "immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:27:11.597722",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "diversify",
+      "title": "Reallocate Proceeds to Underweight Sectors",
+      "summary": "Redeploy proceeds from tech reduction into underrepresented defensive and value sectors including utilities, consumer staples, real estate, and international diversification.",
+      "detailed_rationale": "Your current allocation shows significant gaps in defensive sectors that provide ballast during market volatility. With medium liquidity needs and an education goal just 10 years away, you need more stability. Consumer Staples, Utilities, and Real Estate (REITs) are completely absent from your portfolio, while these sectors historically provide lower volatility and steady dividends. Your 'Other' category at 15% suggests limited exposure to defensive sectors. Additionally, while you hold VXUS (international), strengthening international exposure can reduce US-concentration risk. Allocating the proceeds from tech reduction to sectors with lower correlation to technology will smooth portfolio returns and provide better risk-adjusted performance for your dual goals.",
+      "tickers": [
+        "VNQ",
+        "VPU",
+        "VDC",
+        "VXUS"
+      ],
+      "suggested_action": "Invest proceeds in: Real Estate ETF (VNQ) 3-4%, Utilities ETF (VPU) 2-3%, Consumer Staples ETF (VDC) 2-3%, increase VXUS by 2-3%",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:27:11.597722",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "hold",
+      "title": "Maintain Core ETF Holdings with Quality Tech Exposure",
+      "summary": "Preserve VTI and VXUS as core holdings while reducing individual tech stocks. These provide diversified, low-cost exposure including appropriate technology weighting.",
+      "detailed_rationale": "Your foundation of VTI (total US market) and VXUS (international) represents sound investing for your moderate risk profile and long-term goals. VTI already includes ~28% technology at market-cap weight, which is appropriate. The issue is the additional concentrated exposure through individual stocks (AAPL, MSFT, NVDA, GOOGL) which pushes your total tech allocation to 35%. By maintaining your ETF core and trimming individual tech positions, you'll retain adequate technology exposure through diversified vehicles while eliminating single-stock risk. VTI and VXUS together provide exposure to thousands of companies globally, which aligns perfectly with your intermediate experience level and 25-year retirement horizon. Your BND allocation at 30% bonds is appropriate for your age and provides stability for the education goal.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "BND"
+      ],
+      "suggested_action": "Maintain current positions in VTI, VXUS, and BND; continue regular contributions to these core holdings",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:27:11.597722",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "diversify",
+      "title": "Establish 529 Education Savings Plan",
+      "summary": "Open dedicated 529 plans for children's education with age-based asset allocation, separating this 10-year goal from your general investment portfolio.",
+      "detailed_rationale": "With a $200K education funding goal just 10 years away (high priority), you need a dedicated strategy separate from your retirement investments. Currently, all assets appear commingled, creating goal-funding risk. A 529 plan offers tax-free growth for education expenses and many states provide tax deductions. Given your $175K income, $9,500 monthly expenses, and stable employment, you can afford approximately $1,200-1,500/month toward education savings. Age-based 529 portfolios automatically shift from growth (60-70% stocks) to conservative (30-40% stocks) as college approaches, which is ideal for your 10-year timeline. This separation allows your general portfolio to maintain growth-oriented allocation for retirement (25 years) while the 529 provides appropriate de-risking for education. At $320K total assets with $200K education need, dedicating funds now prevents retirement asset liquidation at inopportune times.",
+      "tickers": [
+        "529"
+      ],
+      "suggested_action": "Open 529 plans (one per child), contribute $15,000-18,000 annually ($1,250-1,500/month), select age-based portfolio option",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-8% annually (decreasing as college approaches)",
+      "time_horizon": "medium",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:27:11.597722",
+      "composite_score": 0.0
+    }
+  ]
+}

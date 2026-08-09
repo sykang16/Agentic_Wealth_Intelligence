@@ -1,0 +1,163 @@
+{
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "sector_specific",
+  "query": "Are there particular sectors I should reduce as I approach retirement, and which ones should I keep for income generation?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_212a019a",
+      "category": "rebalance",
+      "title": "Reduce Technology Sector Exposure and Shift Toward Dividend-Focused Sectors",
+      "summary": "Given your 10-year retirement timeline, reduce Technology from 18% to 10-12% and reallocate to dividend-generating sectors like Utilities and Consumer Staples to create a more income-oriented portfolio.",
+      "detailed_rationale": "(1) Signal: Your portfolio shows 18% Technology allocation, which typically offers high growth but lower dividend yields and higher volatility - characteristics misaligned with retirement income needs. At age 55 with a 10-year horizon, you're entering the 'glide path' phase where capital preservation and income generation should increase in priority. (2) Alignment: Your moderate risk tolerance (loss comfort 5/10) and retirement goal requiring $80-100k annual income necessitate a shift toward predictable cash flow. Technology stocks average 1-2% dividend yields versus Utilities (3-4%) and Consumer Staples (2.5-3.5%). Your advanced investment experience means you understand sector rotation strategy. (3) Evidence: Your current holdings include broad market ETFs (VTI) which contain ~28% Technology at market weight, plus your 18% sector allocation creates overexposure. Historical data shows Technology sectors experience 20-30% drawdowns more frequently than defensive sectors. With $850k assets and needing $1.8M by age 65, you need ~7% annual growth plus income - achievable with a more balanced approach. (4) Trade-offs: You'll sacrifice some potential upside from Technology's growth trajectory, but reduce sequence-of-returns risk in the critical decade before retirement. The shift provides downside protection while maintaining growth through your remaining equity exposure.",
+      "tickers": [
+        "VPU",
+        "XLU",
+        "VDC"
+      ],
+      "suggested_action": "Trim Technology exposure by 6-8 percentage points over the next 12 months through tactical rebalancing. Consider adding utility-focused ETFs (VPU or XLU) at 8-10% allocation and increasing Consumer Staples beyond your current 10% holding. Your existing PG position is a good foundation for this sector.",
+      "suggested_allocation_pct": -6.0,
+      "risk_level": "low",
+      "expected_return_range": "5-8% annually with 2.5-3.5% dividend yield",
+      "time_horizon": "Execute over 12 months; hold through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:05:21.051795",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_6725e610",
+      "category": "risk_reduction",
+      "title": "Gradually Increase Bond Allocation via Target-Date or Intermediate Bond Strategy",
+      "summary": "Increase your bond allocation from 35% to 45% over the next 3 years to reduce portfolio volatility and align with retirement glide path best practices for your age cohort.",
+      "detailed_rationale": "(1) Signal: At age 55, traditional retirement planning suggests a bond allocation of approximately 45-50% (using age-based rules or target-date fund models). Your current 35% bond position via BND is underweight for someone 10 years from retirement, especially given your medium-term horizon and moderate risk tolerance. Your $95k in liabilities is manageable but indicates you need stability. (2) Alignment: The '110 minus age' rule suggests 55% in stocks, meaning 45% in bonds/cash - you're currently at 40% (35% bonds + 5% cash). Increasing bonds reduces portfolio standard deviation from approximately 12-14% to 9-11%, which directly addresses your loss comfort level of 5/10. Your stable income of $220k annually means you can gradually shift without needing aggressive growth to reach your $1.8M goal. Mathematical projection: $755k net worth growing at 6% (more conservative than current 60/40 growth rate) still reaches $1.35M in 10 years, plus continued savings of ~$90k/year ($220k income minus $132k expenses/taxes) adds $900k+, easily exceeding your target. (3) Evidence: Your current BND holding is appropriate but needs increased weighting. Academic research shows that reducing equity exposure from 65% to 55% in the 10 years before retirement reduces probability of shortfall by 15-20% while only reducing median outcome by 3-5%. (4) Trade-offs: Lower expected returns (bonds currently yield 4-5% vs equity's 8-10% historical) but substantially reduced volatility. This is the appropriate trade-off for retirement risk management.",
+      "tickers": [
+        "BND",
+        "VGIT",
+        "VCIT"
+      ],
+      "suggested_action": "Increase bond allocation by 1% per quarter over the next 10 quarters, reaching 45% by age 58. Add to your existing BND position, or diversify with intermediate-term government bonds (VGIT) and investment-grade corporate bonds (VCIT) for enhanced yield. Rebalance by directing new contributions to bonds and selectively trimming equity positions during market strength.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "4-5% annually",
+      "time_horizon": "Implement gradually over 30 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:05:21.051795",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_6468927f",
+      "category": "income_generation",
+      "title": "Establish Dividend Aristocrat Position for Reliable Retirement Income Stream",
+      "summary": "Allocate 8-10% to dividend aristocrat stocks or ETFs to create a predictable, growing income stream that historically outpaces inflation and provides stability during market downturns.",
+      "detailed_rationale": "(1) Signal: Your retirement goal explicitly requires $80-100k annual income, which at your projected $1.8M portfolio represents a 4.4-5.5% withdrawal rate - at the upper end of safe withdrawal recommendations. Your current portfolio includes quality dividend payers (JNJ, UNH, JPM, BRK.B, PG) but lacks specific focus on dividend growth. With medium liquidity needs, you need to generate cash flow without excessive selling. (2) Alignment: Dividend aristocrats (companies with 25+ years of consecutive dividend increases) provide 2-3% current yields with 5-7% annual dividend growth, creating inflation-protected income. Your advanced experience means you understand quality factors: low payout ratios, strong balance sheets, recession resilience. These stocks align perfectly with moderate risk tolerance - they're established large-caps with lower volatility (beta 0.8-0.9) but provide better income than broad market indices. Your Healthcare (22%) and Financials (18%) allocations already include dividend payers, but consolidating a specific income-focused position enhances portfolio clarity and income predictability. (3) Evidence: During the 2022 bear market, dividend aristocrat indices fell 5-8% versus S&P 500's 18% decline, demonstrating defensive characteristics crucial for pre-retirees. Your current holdings JNJ (2.9% yield), JPM (2.4% yield), and PG (2.4% yield) are solid, but a dedicated allocation to a dividend aristocrat ETF like NOBL or SDY would provide broader diversification across 50-60 quality dividend growers. Historical data: dividend aristocrats returned 10.3% annually 1990-2023 versus S&P 500's 9.8%, with significantly lower drawdowns. (4) Trade-offs: Dividend-focused strategies may underperform in strong bull markets driven by growth stocks, and concentration in mature companies means lower capital appreciation potential. However, for retirement income generation, the stability and predictability are worth this trade-off.",
+      "tickers": [
+        "NOBL",
+        "SDY",
+        "VIG"
+      ],
+      "suggested_action": "Allocate 8-10% of your portfolio to dividend aristocrat or dividend growth ETFs. NOBL provides equal-weight exposure to S&P 500 dividend aristocrats, SDY offers higher yield focus, and VIG targets dividend growth. This position complements your existing individual dividend stocks and creates a reliable income layer. Consider this a 'retirement income sleeve' that you'll maintain and potentially increase to 15% by retirement.",
+      "suggested_allocation_pct": 9.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-9% annually with 2.5-3% dividend yield growing at 5-7%/year",
+      "time_horizon": "Establish over next 6 months; hold through retirement for income",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:05:21.051795",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_980df238",
+      "category": "diversify",
+      "title": "Reduce Energy Sector as Volatility Risk and Rebalance to REITs for Income Diversification",
+      "summary": "Trim Energy from 8% to 3-4% and reallocate to REITs (4-5% allocation) to reduce commodity-driven volatility while adding another income-generating asset class with inflation protection characteristics.",
+      "detailed_rationale": "(1) Signal: Your 8% Energy allocation is above typical strategic weights for moderate risk investors approaching retirement (usually 3-5%). Energy sector exhibits high volatility (standard deviation 25-30%) driven by geopolitical events and commodity price swings, creating uncertainty misaligned with your need for stable returns in your retirement glide path. Your portfolio lacks Real Estate exposure despite REITs' strong historical role in retirement income portfolios. (2) Alignment: Your moderate risk tolerance and 10-year horizon suggest reducing exposure to cyclical, volatile sectors. Energy's boom-bust cycles create sequence risk - if you retire during an energy downturn (as in 2014-2016 or 2020), portfolio values suffer exactly when you need stability. Your $220k income and low debt mean you don't need Energy's occasional outsized returns to meet goals. REITs provide 3-5% dividend yields with monthly/quarterly distributions, creating more frequent income than traditional stocks - valuable for retirement cash flow management. Your medium liquidity needs are well-served by publicly traded REITs. (3) Evidence: Energy sector historical returns show extreme variance: +54% (2021), -33% (2020), +11% (2019), -18% (2018). This volatility is inappropriate for pre-retirement portfolios. REITs historically correlate 0.5-0.6 with stocks (versus Energy's 0.7-0.8), providing genuine diversification. With inflation concerns for retirees, REITs offer inflation hedging through rent escalations and property value appreciation. A diversified REIT ETF like VNQ or SCHH provides exposure to residential, commercial, healthcare, and industrial properties - sectors with different economic drivers than your current holdings. Your lack of real estate exposure means you're missing an entire asset class historically recommended at 5-10% for retirement portfolios. (4) Trade-offs: REITs have interest rate sensitivity (rising rates can pressure valuations) and you're adding another income-focused position (though diversification across dividend stocks, bonds, and REITs reduces single-source risk). Energy trimming means potentially missing future commodity supercycles, but this sacrifice is appropriate for stability-focused retirement planning.",
+      "tickers": [
+        "VNQ",
+        "SCHH",
+        "XLRE"
+      ],
+      "suggested_action": "Reduce Energy sector holdings from 8% to 3-4% over the next 6-9 months, timing sales during strength if possible. Reallocate proceeds to diversified REIT ETFs, targeting 4-5% allocation. VNQ provides broad market exposure, SCHH offers lower expense ratios, and XLRE focuses on equity REITs within the S&P 500. This maintains your total equity exposure while improving income diversity and reducing sector-specific risk.",
+      "suggested_allocation_pct": 4.5,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% annually with 3.5-4.5% dividend yield",
+      "time_horizon": "Implement over 6-9 months; maintain through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:05:21.051795",
+      "composite_score": 0.0
+    }
+  ]
+}

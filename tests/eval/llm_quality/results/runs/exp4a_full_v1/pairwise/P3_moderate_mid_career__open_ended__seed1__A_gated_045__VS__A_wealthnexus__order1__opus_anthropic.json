@@ -1,0 +1,30 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "seed": 1,
+  "sys_a": "A_gated_045",
+  "sys_b": "A_wealthnexus",
+  "order": 1,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A more directly addresses the user's core question of balancing education vs retirement with tightly personalized rationales referencing specific profile values (income, expenses, loss comfort, dual timelines) and explicitly tackles the 35% tech concentration with concrete rebalancing math. System B has stronger factual grounding on tax rules (SECURE 2.0, 401k limits) and slightly more actionable dollar amounts, but includes a questionable claim about VXUS being underweight without evidence and is less cohesive around the actual query.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "B",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A more directly addresses the user's core question of balancing education vs retirement with tightly personalized rationales referencing specific profile values (income, expenses, loss comfort, dual timelines) and explicitly tackles the 35% tech concentration with concrete rebalancing math. System B has stronger factual grounding on tax rules (SECURE 2.0, 401k limits) and slightly more actionable dollar amounts, but includes a questionable claim about VXUS being underweight without evidence and is less cohesive around the actual query."
+  },
+  "usage": {
+    "input_tokens": 12211,
+    "output_tokens": 305
+  }
+}

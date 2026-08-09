@@ -1,0 +1,30 @@
+{
+  "session_id": "P3_moderate_mid_career__sector_specific__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "sector_specific",
+  "seed": 1,
+  "sys_a": "A_gated_040",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B directly addresses the user's query about both international AND emerging markets exposure with separate, well-scoped recommendations, while System A only covers international broadly and drifts into small-cap value and glide-path topics not requested. System B also shows better risk-level calibration (moderate for equity additions) and more precise factual grounding (global market cap weights, BND duration/yield specifics), though System A has slightly more concrete step-by-step actions.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B directly addresses the user's query about both international AND emerging markets exposure with separate, well-scoped recommendations, while System A only covers international broadly and drifts into small-cap value and glide-path topics not requested. System B also shows better risk-level calibration (moderate for equity additions) and more precise factual grounding (global market cap weights, BND duration/yield specifics), though System A has slightly more concrete step-by-step actions."
+  },
+  "usage": {
+    "input_tokens": 12322,
+    "output_tokens": 274
+  }
+}

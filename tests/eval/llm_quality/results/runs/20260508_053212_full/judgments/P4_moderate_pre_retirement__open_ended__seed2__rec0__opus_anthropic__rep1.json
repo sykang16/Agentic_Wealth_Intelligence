@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"The rationale cites multiple specific profile attributes (10-year horizon, $1.8M target, moderate risk tolerance, 5/10 loss comfort, $220K income, low debt) and ties them causally to the glide-path choice.\",\n    \"C2\": \"The user is moderate but risk_level is set to 'low'; the rationale defensibly justifies this one-tier deviation as capital-preservation glide-path appropriate for someone 10 years from retirement.\",\n    \"C3\": \"Holdings (BND, VTI, VXUS) and allocation figures match the snapshot, though the BND expense ratio (0.03%) and the '8-12% volatility reduction' estimate are unsupported quantitative claims.\",\n    \"C4\": \"Specifies tickers, target 45% allocation, 12-month timeline with quarterly tranches, and a clear first action (sell proportionally from VTI/VXUS into BND).\",\n    \"C5\": \"Acknowledges current allocation and rebalances toward fixed income, but does not address notable sector concentrations (Healthcare 22%, Tech 18%, Financials 18%) within the equity sleeve.\",\n    \"C6\": \"Uses calibrated language ('approximately', 'reasonable') and no guaranteed-return framing, though 'high confidence' on a forward 4-6% return is mildly assertive and no explicit disclaimer is included.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "The rationale cites multiple specific profile attributes (10-year horizon, $1.8M target, moderate risk tolerance, 5/10 loss comfort, $220K income, low debt) and ties them causally to the glide-path choice.",
+      "C2": "The user is moderate but risk_level is set to 'low'; the rationale defensibly justifies this one-tier deviation as capital-preservation glide-path appropriate for someone 10 years from retirement.",
+      "C3": "Holdings (BND, VTI, VXUS) and allocation figures match the snapshot, though the BND expense ratio (0.03%) and the '8-12% volatility reduction' estimate are unsupported quantitative claims.",
+      "C4": "Specifies tickers, target 45% allocation, 12-month timeline with quarterly tranches, and a clear first action (sell proportionally from VTI/VXUS into BND).",
+      "C5": "Acknowledges current allocation and rebalances toward fixed income, but does not address notable sector concentrations (Healthcare 22%, Tech 18%, Financials 18%) within the equity sleeve.",
+      "C6": "Uses calibrated language ('approximately', 'reasonable') and no guaranteed-return framing, though 'high confidence' on a forward 4-6% return is mildly assertive and no explicit disclaimer is included."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6153,
+    "output_tokens": 573
+  },
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed2",
+  "rec_index": 0,
+  "rec_id": "rec_e4560ea0",
+  "rubric_version": "1.1"
+}

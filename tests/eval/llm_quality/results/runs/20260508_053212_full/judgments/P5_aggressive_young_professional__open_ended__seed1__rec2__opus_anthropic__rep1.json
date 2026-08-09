@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale explicitly cites aggressive risk tolerance, 9/10 loss comfort, 15-year FIRE horizon, $2.5M target, intermediate experience, and $195K income, causally linking them to the recommendation.\",\n    \"C2\": \"Risk_level is 'high' which matches aggressive tolerance, but the recommendation itself is risk-reducing; the rationale defensibly justifies trimming via risk-capacity vs risk-tolerance distinction.\",\n    \"C3\": \"BTC holding and 5% crypto allocation are traceable to the snapshot, but specific figures like Monte Carlo '6-8 percentage points' and '15-20% volatility reduction' are unsupported quantitative claims.\",\n    \"C4\": \"Provides specific ticker (BTC), dollar range ($3,600-$4,500), target allocation (2-3%), reallocation destination (VTI), and clear first step to sell 40-50%.\",\n    \"C5\": \"Identifies crypto-tech correlation increase and addresses concentration risk, though it doesn't tackle the more striking 65% Technology sector overweight.\",\n    \"C6\": \"Uses calibrated language ('would show', 'could derail', 'medium confidence'), no guarantees, and frames trade-offs honestly.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale explicitly cites aggressive risk tolerance, 9/10 loss comfort, 15-year FIRE horizon, $2.5M target, intermediate experience, and $195K income, causally linking them to the recommendation.",
+      "C2": "Risk_level is 'high' which matches aggressive tolerance, but the recommendation itself is risk-reducing; the rationale defensibly justifies trimming via risk-capacity vs risk-tolerance distinction.",
+      "C3": "BTC holding and 5% crypto allocation are traceable to the snapshot, but specific figures like Monte Carlo '6-8 percentage points' and '15-20% volatility reduction' are unsupported quantitative claims.",
+      "C4": "Provides specific ticker (BTC), dollar range ($3,600-$4,500), target allocation (2-3%), reallocation destination (VTI), and clear first step to sell 40-50%.",
+      "C5": "Identifies crypto-tech correlation increase and addresses concentration risk, though it doesn't tackle the more striking 65% Technology sector overweight.",
+      "C6": "Uses calibrated language ('would show', 'could derail', 'medium confidence'), no guarantees, and frames trade-offs honestly."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6149,
+    "output_tokens": 543
+  },
+  "session_id": "P5_aggressive_young_professional__open_ended__seed1",
+  "rec_index": 2,
+  "rec_id": "rec_b393b022",
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,183 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed1",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "rebalance",
+  "query": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_95f5fbb1",
+      "category": "rebalance",
+      "title": "Trim Energy Overweight to Neutral Position",
+      "summary": "Reduce energy allocation from 15% to 8-10% by partially selling XLE, XOM, or CVX to lock in gains and reduce sector concentration risk.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your energy allocation at 15% represents meaningful overweight versus typical aggressive portfolio guidelines (5-8% energy) and creates concentration risk with 3 energy holdings (XLE, XOM, CVX). (2) PROFILE ALIGNMENT: While your aggressive risk tolerance (8/10 loss comfort) supports tactical overweights, your variable income as an independent consultant and medium liquidity needs argue for not maintaining outsized positions in cyclical sectors. Energy is highly volatile and correlated with commodity price swings - a 20-30% sector drawdown could represent $33,750-$50,625 of losses from energy alone. (3) EVIDENCE: Your knowledge base emphasizes 'regular rebalancing when allocations drift more than 5% from targets' - you're 7-10% overweight energy. Additionally, with Technology at 30% and Energy at 15%, these two sectors represent 45% of your portfolio, creating dangerous concentration. The diversification principle in your materials states portfolios should spread risk across asset classes that don't move in perfect correlation - tech and energy can both suffer during recession scenarios. (4) TRADE-OFFS: Trimming now means potentially missing additional upside if energy continues rallying on supply constraints or geopolitical tensions. However, at 45 years old with 20+ year horizon and $4M wealth target, protecting gains and maintaining diversification aligns better with compounding strategy than chasing momentum. Recommend selling 40-50% of energy position (~$100,000-$112,500) to bring allocation to 8-10%.",
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX"
+      ],
+      "suggested_action": "Sell approximately $100,000 of combined XLE, XOM, CVX positions (proportionally across holdings) to reduce energy sector from 15% to 8-10% of portfolio",
+      "suggested_allocation_pct": -5.0,
+      "risk_level": "low",
+      "expected_return_range": "Risk reduction move - preserves 10%+ energy gains if recent run-up occurred",
+      "time_horizon": "Immediate rebalancing action",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:51:59.595329",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_2894e3f1",
+      "category": "diversify",
+      "title": "Add Healthcare and Consumer Staples Exposure",
+      "summary": "Deploy energy sale proceeds into defensive sectors (Healthcare 10%\u219215%, add Consumer Staples 5%) to reduce portfolio cyclicality and improve sector balance.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your sector allocation reveals gaps in defensive positioning - Healthcare is only 10% and you have zero Consumer Staples exposure. Combined with 30% Technology and 15% Energy, your portfolio is 55% concentrated in high-beta, economically sensitive sectors. As an independent consultant with variable income, your human capital is already exposed to economic cycles. (2) PROFILE ALIGNMENT: Your aggressive risk tolerance supports growth orientation, but your knowledge base specifically warns about portfolio stress testing for 'rising interest rates' and '2008-style crash' scenarios. Defensive sectors provide crucial portfolio ballast during drawdowns while still participating in long-term growth. At 45 with medium liquidity needs and $156K annual expenses, having 15-20% in defensive sectors provides stability without sacrificing long-term returns. Your 'advanced experience' means you understand that aggressive doesn't mean reckless concentration. (3) EVIDENCE: Research on sector correlations shows Healthcare and Consumer Staples have lower beta (0.8-0.9) versus market and provide downside protection. Your materials emphasize 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Healthcare has structural tailwinds from aging demographics, while Consumer Staples provide non-cyclical revenue streams. Consider VHT (Vanguard Healthcare ETF) and VDC (Vanguard Consumer Staples ETF) for broad exposure. (4) TRADE-OFFS: Defensive sectors typically lag during strong bull markets and economic expansions. This allocation will likely underperform if we enter a sustained risk-on environment. However, with your $4M wealth target requiring 8-9% CAGR over 20 years, you need consistency more than home runs. Adding defensive sectors reduces portfolio volatility while maintaining long-term compounding trajectory.",
+      "tickers": [
+        "VHT",
+        "VDC"
+      ],
+      "suggested_action": "Invest $75,000 in VHT (Healthcare ETF) and $37,500 in VDC (Consumer Staples ETF) using proceeds from energy rebalancing",
+      "suggested_allocation_pct": 7.5,
+      "risk_level": "low",
+      "expected_return_range": "7-10% annually with lower volatility than growth sectors",
+      "time_horizon": "Long-term strategic holding (5+ years)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:51:59.595329",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_c4f6ac45",
+      "category": "risk_reduction",
+      "title": "Reduce Cryptocurrency Exposure to 2-3%",
+      "summary": "Trim BTC position from 5% to 2-3% of portfolio to align with appropriate speculative allocation limits and reduce extreme volatility exposure.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: At $75,000 (5% of $1.5M portfolio), your Bitcoin allocation is elevated even for aggressive investors. Crypto can experience 50-80% drawdowns within months, meaning potential $37,500-$60,000 loss from this single position. Your portfolio already carries significant volatility through 30% Technology and 15% Emerging Markets allocations. (2) PROFILE ALIGNMENT: While your aggressive risk tolerance and 8/10 loss comfort support speculative positions, your investment materials emphasize 'be honest about how you'd react to significant portfolio declines.' With variable consulting income and $380K in liabilities, having $75K in an asset class known for extreme volatility creates unnecessary stress. Your 'advanced experience' likely means you understand crypto's role as a small, high-conviction satellite position rather than core holding. The knowledge base guidance on 'aggressive portfolios' focuses on stocks and growth equity, not mentioning cryptocurrency as a recommended allocation. (3) EVIDENCE: Historical data shows Bitcoin experiences maximum drawdowns of 70-85% during bear markets. Even with high risk tolerance, concentration in uncorrelated, highly volatile assets can disrupt your wealth compounding goal. Financial planning best practices suggest limiting speculative/alternative investments to 2-5% of portfolio maximum. Your materials note 'emergency fund importance' and avoiding 'the need to sell investments at unfavorable times' - crypto's volatility makes it unsuitable for liquidity needs. (4) TRADE-OFFS: Reducing crypto now means missing potential upside if Bitcoin enters another bull cycle. However, maintaining a 2-3% position keeps you exposed to asymmetric return potential while dramatically reducing volatility impact. Selling $30,000-$45,000 of BTC reduces emotional decision-making risk and provides capital for more strategic allocations. At your wealth level, a smaller crypto position provides adequate exposure without jeopardizing wealth accumulation goals.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Sell $30,000-$45,000 of Bitcoin holdings to reduce allocation from 5% to 2-3%, redeploying proceeds to core equity positions or increasing bond allocation slightly",
+      "suggested_allocation_pct": -2.5,
+      "risk_level": "moderate",
+      "expected_return_range": "Risk reduction - protects against 50%+ crypto drawdown scenarios",
+      "time_horizon": "Immediate risk management action",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:51:59.595329",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_53cfc9be",
+      "category": "buy",
+      "title": "Increase International Developed Markets Exposure",
+      "summary": "Add 5-8% allocation to developed international markets (Europe, Japan) to complement existing emerging markets position and enhance geographic diversification.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your international exposure is currently concentrated in VWO (Emerging Markets) at 15%, with no dedicated developed international allocation visible. Your portfolio appears heavily US-centric beyond emerging markets, creating geographic concentration risk. With 30% Technology (likely US-heavy through NVDA) and US-focused energy (XOM, CVX) and financials (JPM, GS), you may have 60-70% US exposure. (2) PROFILE ALIGNMENT: Your aggressive profile and long-term horizon support international diversification. The knowledge base emphasizes 'spreading investments across various asset classes that don't move in perfect correlation' - international developed markets provide equity exposure with different economic cycles, interest rate environments, and currency dynamics. Your advanced investment experience means you understand that home country bias limits diversification benefits. With $4M wealth target over 20 years, you need global growth participation. Legacy planning goal for your child ($800K target) also benefits from geographic diversification to reduce single-country risk. (3) EVIDENCE: Academic research shows optimal equity portfolios include 20-40% international allocation. Developed markets (Europe, Japan, Australia) offer mature economies with strong corporate governance, lower volatility than emerging markets, and attractive valuations relative to US markets currently. Consider VEA (Vanguard Developed Markets ETF) or IEFA (iShares Core MSCI EAFE) for broad exposure. Your materials note 'tactical allocation makes short-term adjustments to capitalize on market opportunities' - developed international markets trade at valuation discounts to US equities while offering similar quality. (4) TRADE-OFFS: International investments carry currency risk and may underperform during periods of US dollar strength. Developed markets have grown slower than US markets over the past decade, and this trend could continue. However, valuations and mean reversion suggest improved relative performance potential. Adding 5-8% developed international alongside your 15% emerging markets creates balanced 20-23% total international exposure, appropriate for long-term wealth building.",
+      "tickers": [
+        "VEA",
+        "IEFA"
+      ],
+      "suggested_action": "Invest $75,000-$120,000 in VEA or IEFA to establish 5-8% developed international markets allocation, sourced from energy sale proceeds and crypto reduction",
+      "suggested_allocation_pct": 6.5,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually with geographic diversification benefits",
+      "time_horizon": "Long-term strategic holding (10+ years)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:51:59.595329",
+      "composite_score": 0.0
+    }
+  ]
+}

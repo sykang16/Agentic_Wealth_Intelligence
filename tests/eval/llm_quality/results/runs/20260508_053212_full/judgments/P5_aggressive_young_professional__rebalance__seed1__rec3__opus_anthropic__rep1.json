@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 4,\n  \"C2_risk_alignment\": 2,\n  \"C3_factual_grounding\": 3,\n  \"C4_actionability\": 4,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 3,\n  \"rationale\": {\n    \"C1\": \"Rationale references income ($195K), tax bracket, intermediate experience, and 15-year horizon to justify the strategy, showing solid personalization across multiple profile attributes.\",\n    \"C2\": \"Risk_level is labeled 'low' for an aggressive-tolerance user without justification for the deviation, and the recommendation doesn't actually answer the user's bond-exposure question.\",\n    \"C3\": \"Tax-bracket estimate and $3,000 deduction figure are reasonable, but the suggested target ranges (e.g., Healthcare 10-15%) reference a sector the user doesn't hold, and the 0.5-1% after-tax benefit claim is unsupported.\",\n    \"C4\": \"Provides concrete steps (quarterly calendar, 5% drift threshold, TLH procedure, wash-sale tracking) but lacks specific tickers since it's a process recommendation.\",\n    \"C5\": \"Mentions concentrated holdings and drift-based rebalancing but does not address the user's 65% Technology overweight specifically, and introduces a Healthcare target range without explanation.\",\n    \"C6\": \"Uses mostly calibrated language but states 'high' confidence and quantifies after-tax benefit (0.5-1%) somewhat assertively; no explicit disclaimer at rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 4,
+    "C2_risk_alignment": 2,
+    "C3_factual_grounding": 3,
+    "C4_actionability": 4,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 3,
+    "rationale": {
+      "C1": "Rationale references income ($195K), tax bracket, intermediate experience, and 15-year horizon to justify the strategy, showing solid personalization across multiple profile attributes.",
+      "C2": "Risk_level is labeled 'low' for an aggressive-tolerance user without justification for the deviation, and the recommendation doesn't actually answer the user's bond-exposure question.",
+      "C3": "Tax-bracket estimate and $3,000 deduction figure are reasonable, but the suggested target ranges (e.g., Healthcare 10-15%) reference a sector the user doesn't hold, and the 0.5-1% after-tax benefit claim is unsupported.",
+      "C4": "Provides concrete steps (quarterly calendar, 5% drift threshold, TLH procedure, wash-sale tracking) but lacks specific tickers since it's a process recommendation.",
+      "C5": "Mentions concentrated holdings and drift-based rebalancing but does not address the user's 65% Technology overweight specifically, and introduces a Healthcare target range without explanation.",
+      "C6": "Uses mostly calibrated language but states 'high' confidence and quantifies after-tax benefit (0.5-1%) somewhat assertively; no explicit disclaimer at rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 5998,
+    "output_tokens": 549
+  },
+  "session_id": "P5_aggressive_young_professional__rebalance__seed1",
+  "rec_index": 3,
+  "rec_id": "rec_5f0f517b",
+  "rubric_version": "1.1"
+}

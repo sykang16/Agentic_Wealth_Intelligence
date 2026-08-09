@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"A\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A consistently references the user's specific profile (FIRE goal, $2.5M target, 15-year horizon, 9/10 loss comfort, $195K stable income) and tailors risk levels to the aggressive tolerance, while System B repeatedly hedges with generic 'moderate investor' language that contradicts the user's stated aggressive profile. System A also addresses the user's actual question (AI infrastructure vs diversification) directly in Rec #2 and provides more concrete, ticker-specific actions, whereas System B is more generic and includes mismatched risk-level assignments.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "A"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A consistently references the user's specific profile (FIRE goal, $2.5M target, 15-year horizon, 9/10 loss comfort, $195K stable income) and tailors risk levels to the aggressive tolerance, while System B repeatedly hedges with generic 'moderate investor' language that contradicts the user's stated aggressive profile. System A also addresses the user's actual question (AI infrastructure vs diversification) directly in Rec #2 and provides more concrete, ticker-specific actions, whereas System B is more generic and includes mismatched risk-level assignments."
+  },
+  "usage": {
+    "input_tokens": 11990,
+    "output_tokens": 323
+  },
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

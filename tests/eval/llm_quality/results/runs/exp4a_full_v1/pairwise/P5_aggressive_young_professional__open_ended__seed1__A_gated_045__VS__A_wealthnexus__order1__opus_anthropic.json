@@ -1,0 +1,30 @@
+{
+  "session_id": "P5_aggressive_young_professional__open_ended__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "open_ended",
+  "seed": 1,
+  "sys_a": "A_gated_045",
+  "sys_b": "A_wealthnexus",
+  "order": 1,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides deeper personalization by tying recommendations to specific savings capacity, income figures, and FIRE math, and includes a highly actionable tax-optimization recommendation uniquely valuable for a high-income FIRE aspirant. System B contains a questionable claim (20% CAGR required, which conflicts with the ~$75K/year savings context) and lacks the tax-advantaged account guidance, though its REIT diversification suggestion is a reasonable addition.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides deeper personalization by tying recommendations to specific savings capacity, income figures, and FIRE math, and includes a highly actionable tax-optimization recommendation uniquely valuable for a high-income FIRE aspirant. System B contains a questionable claim (20% CAGR required, which conflicts with the ~$75K/year savings context) and lacks the tax-advantaged account guidance, though its REIT diversification suggestion is a reasonable addition."
+  },
+  "usage": {
+    "input_tokens": 11525,
+    "output_tokens": 288
+  }
+}

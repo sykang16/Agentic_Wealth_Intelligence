@@ -1,0 +1,165 @@
+{
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed2",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "sector_specific",
+  "query": "I'm already heavy in tech. Should I rotate into AI infrastructure plays, or diversify into a different sector entirely?",
+  "seed": 2,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_bd93a255",
+      "category": "diversify",
+      "title": "Reduce Tech Concentration Risk by Adding Financial and Healthcare Sectors",
+      "summary": "Your 65% tech allocation creates significant concentration risk. Rotate 15-20% into financials (XLF, JPM) and healthcare (XLV, UNH) to maintain growth potential while reducing sector-specific volatility.",
+      "detailed_rationale": "Signal: Your portfolio shows 65% concentration in Technology sector, which is extremely overweight compared to S&P 500's ~28% tech weighting. This creates idiosyncratic risk where a tech sector downturn could severely impact your $162K net worth. Step-by-step alignment: (1) Your aggressive risk tolerance (9/10 loss comfort) allows for growth-oriented sectors, but concentration risk differs from volatility risk\u2014even aggressive investors benefit from diversification's risk-adjusted return improvement. (2) Your 15-year FIRE timeline to $2.5M requires 19.4% annualized returns if starting from $162K, which is unrealistic without taking excessive concentration risk. Diversification into counter-cyclical sectors improves probability of achieving 10-12% returns more consistently. (3) Evidence: Financials historically perform well in rising rate environments and economic expansion phases, offering a hedge against tech multiple compression. Healthcare provides defensive characteristics with aging demographics tailwinds\u2014both sectors have lower correlation to tech (0.6-0.7 vs 1.0). (4) Your stable $195K income and low liquidity needs mean you can withstand short-term volatility, but unnecessary concentration doesn't align with optimal portfolio construction. Trade-off: You may experience lower returns in years where tech significantly outperforms (like 2023's +55% for QQQ), but you reduce catastrophic loss risk similar to 2022's -33% tech drawdown.",
+      "tickers": [
+        "XLF",
+        "JPM",
+        "XLV",
+        "UNH"
+      ],
+      "suggested_action": "Sell 15% of QQQ position (~$13,500) and allocate: $7,000 to XLF (Financial Select Sector SPDR) or individual position in JPM, and $6,500 to XLV (Healthcare Select Sector SPDR) or UNH for direct exposure to managed care growth.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "9-13% annually",
+      "time_horizon": "5-15 years, aligns with your FIRE timeline",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:49:47.377577",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_737dc04f",
+      "category": "rebalance",
+      "title": "Strategic Rebalancing: Reduce Individual Tech Stock Overlap",
+      "summary": "Your individual tech stocks (TSLA, NVDA, GOOGL, META, AMZN) at 35% allocation create redundancy with QQQ's top holdings. Consolidate to 2-3 highest conviction names and redeploy into AI infrastructure or complementary sectors.",
+      "detailed_rationale": "Signal: Analysis shows your 35% individual stock allocation heavily overlaps with QQQ (NVDA is 8.7% of QQQ, META 5.1%, AMZN 4.8%, GOOGL 3.2%). You're effectively double-betting on the same companies, creating phantom concentration beyond the apparent 65% tech allocation. Step-by-step reasoning: (1) Your intermediate investment experience and aggressive profile suggest you understand individual stock risk, but overlapping positions reduce diversification benefits without adding alpha. (2) For FIRE goal of $2.5M in 15 years, portfolio efficiency matters\u2014reducing redundancy allows capital reallocation to uncorrelated opportunities. (3) Supporting evidence: TSLA has 68% correlation to QQQ, NVDA 82%, META 79%\u2014you're not getting true diversification value from these positions alongside your ETF holdings. (4) Your stable income and low debt allow concentration in winners, but strategic concentration differs from accidental overlap. Trade-off: You keep highest-conviction positions (e.g., NVDA for AI exposure, AMZN for cloud/commerce dominance) while eliminating redundancy. Consider selling GOOGL, META, and TSLA (lower conviction or higher overlap) and redirecting ~$20K into either: (a) AI infrastructure plays like SMCI, ARM, or AVGO for supply chain exposure rather than end-user tech, or (b) international developed markets (VEA) currently trading at 0.6x correlation to US tech with cheaper valuations (14x P/E vs 25x for S&P 500).",
+      "tickers": [
+        "NVDA",
+        "AMZN",
+        "SMCI",
+        "ARM",
+        "AVGO",
+        "VEA"
+      ],
+      "suggested_action": "Sell GOOGL, META, TSLA positions (~$20,000). Retain NVDA and AMZN as core conviction holds (reduce individual stocks to 15-20% allocation). Deploy proceeds: $12,000 to AI infrastructure basket (SMCI 40%, ARM 30%, AVGO 30%) or $20,000 to VEA for international diversification.",
+      "suggested_allocation_pct": 11.0,
+      "risk_level": "moderate",
+      "expected_return_range": "10-16% annually",
+      "time_horizon": "10-15 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:49:47.377577",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_65f941f6",
+      "category": "diversify",
+      "title": "Add Energy Sector Exposure as Tech Hedge and Inflation Protection",
+      "summary": "Allocate 8-10% to energy sector (XLE, CVX, XOM) to hedge against tech underperformance and provide inflation protection with minimal correlation to your current holdings.",
+      "detailed_rationale": "Signal: Your portfolio shows 0% energy allocation while energy represents ~4% of S&P 500. This creates a gap in portfolio completeness and removes a natural hedge against scenarios that hurt tech (inflation spikes, risk-off environments). Step-by-step fit: (1) Your aggressive risk tolerance and long 15-year horizon allow for cyclical sector exposure. Energy offers negative correlation to tech in certain market regimes (2022: energy +65% while tech -33%). (2) Alignment with $2.5M FIRE goal: Energy sector provides both capital appreciation potential and growing dividend yield (XLE yields 3.4%), adding an income component as you approach FIRE date. (3) Evidence from portfolio gaps: Your current allocation lacks commodities exposure or real asset inflation hedges. With your $195K stable income, you have carrying capacity for volatility but should protect against purchasing power erosion. Energy benefits from: structural underinvestment (constrains supply), energy transition capital needs (oil majors investing in renewables), and geopolitical supply dynamics. (4) Market condition context: Energy valuations remain reasonable (XLE at 11x P/E vs 10-year average of 13x) despite strong recent performance, and global energy demand continues growing 1-2% annually. Trade-off: Energy is highly cyclical and can underperform significantly in recession scenarios or if renewable transition accelerates faster than expected. However, with 85% of portfolio in growth assets, adding 8-10% tactical cyclical exposure improves risk-adjusted returns without compromising growth objectives.",
+      "tickers": [
+        "XLE",
+        "CVX",
+        "XOM"
+      ],
+      "suggested_action": "Allocate $14,400 (8% of portfolio) to energy sector: $10,000 to XLE (Energy Select Sector SPDR) for broad sector exposure, or split between CVX ($7,000) and XOM ($7,000) for direct positions in integrated majors with 3.5%+ dividend yields and energy transition strategies.",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-14% annually",
+      "time_horizon": "7-15 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:49:47.377577",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_54b80b35",
+      "category": "risk_reduction",
+      "title": "Reduce Cryptocurrency Allocation from 5% to 2-3%",
+      "summary": "Scale back your $9,000 BTC position to $3,600-5,400 (2-3%) to reduce portfolio volatility while maintaining asymmetric upside exposure. Redeploy proceeds to core diversification initiatives.",
+      "detailed_rationale": "Signal: Your 5% crypto allocation is above recommended limits even for aggressive investors (typically 1-3% for speculative assets with 70%+ annual volatility). At $9,000 in BTC, you're exposing meaningful capital to an asset with 90-day volatility over 50%. Step-by-step reasoning: (1) While your loss comfort is 9/10 and risk tolerance is aggressive, your specific goal is wealth accumulation to $2.5M for FIRE\u2014crypto's extreme volatility creates path dependency risk where severe drawdowns require outsized recoveries (a 50% loss needs 100% gain to recover). (2) Your 15-year horizon theoretically accommodates crypto volatility, but with $195K income and $5,500 monthly expenses, you're saving ~$3,900/month ($47K annually). This savings rate means portfolio losses directly impact timeline\u2014reducing unnecessary volatility improves probability of reaching FIRE target on schedule. (3) Evidence: BTC correlation to tech stocks has increased to 0.65+ during risk-off periods, reducing diversification benefits. It's functioning more as 'tech plus' than true alternative asset. (4) Your intermediate experience level and portfolio composition suggest crypto should be 'satellite' position for asymmetric bets, not core holding. Trade-off: You may miss explosive upside if BTC appreciates 5-10x (though maintaining 2-3% still provides meaningful exposure to that scenario), but you reduce probability of 60-80% drawdowns that could psychologically derail your investment discipline or force unfortunate timing decisions. Recommendation aligns with evidence-based portfolio construction: speculative assets should be sized so complete loss is tolerable without compromising goals.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Reduce BTC position from $9,000 to $4,500 (2.5% allocation). This maintains asymmetric upside exposure while cutting volatility drag. Redeploy $4,500 proceeds to highest priority recommendation: either financial/healthcare diversification or international equity exposure (split $2,250 to XLF and $2,250 to VEA).",
+      "suggested_allocation_pct": -2.5,
+      "risk_level": "low",
+      "expected_return_range": "N/A - risk reduction action",
+      "time_horizon": "Immediate rebalancing",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:49:47.377577",
+      "composite_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "session_id": "P5_aggressive_young_professional__open_ended__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "open_ended",
+  "query": "I'm aiming for FIRE in about 15 years. Am I on the right track with my current allocation?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rag_diagnostics": {
+    "top_score": 0.0,
+    "num_hits": 0,
+    "gated": false,
+    "threshold": null
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_6a26c374",
+      "category": "diversify",
+      "title": "Reduce Technology Concentration to Mitigate Sector Risk",
+      "summary": "Your portfolio is heavily concentrated in technology (65%), which creates significant sector-specific risk that could derail your FIRE timeline if tech faces a prolonged downturn.",
+      "detailed_rationale": "Signal: Your portfolio shows 65% technology exposure, which is roughly 2.5x the S&P 500's tech weighting (~26%). This concentration risk is the primary concern for your 15-year FIRE goal. Step-by-step reasoning: (1) While your aggressive risk tolerance and 9/10 loss comfort support growth investing, concentration risk differs from volatility risk\u2014a tech-specific event (regulatory changes, AI bubble burst, interest rate impacts on growth stocks) could cause 40-50% drawdowns that take years to recover, potentially extending your FIRE timeline significantly. (2) Your holdings overlap substantially: QQQ is 50%+ tech, plus individual positions in NVDA, TSLA, GOOGL, META, AMZN all amplify the same sector bet. (3) Historical evidence: During the 2000-2002 dot-com crash, the Nasdaq fell 78% and took 15 years to recover to previous highs. Even the 2022 tech correction saw QQQ down 33%. (4) At 30 years old with 15 years to FIRE, you can absorb volatility but need protection against lost decades in a single sector. Your $162K net worth needs to grow to $2.5M (15.4x), requiring ~19.5% annualized returns if fully linear\u2014any multi-year stagnation significantly impacts this math. Trade-off: Reducing tech exposure may lower upside in continued tech bull markets, but substantially improves risk-adjusted returns and timeline reliability.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "VGT"
+      ],
+      "suggested_action": "Reduce technology allocation from 65% to 40-45% by: (1) Trim individual tech stock positions (NVDA, META, GOOGL) by 30-40%, (2) Reduce QQQ position by 25% in favor of VTI for broader market exposure, (3) Add international diversification with VXUS (Vanguard Total International Stock ETF) at 15-20% of portfolio to capture global growth and reduce US-only risk.",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "15 years to FIRE target",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:56:14.300831",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_a46bb686",
+      "category": "diversify",
+      "title": "Add Bond Allocation for Rebalancing Opportunities",
+      "summary": "Introduce a 10-15% bond position (BND or TLT) to enable tax-loss harvesting, rebalancing alpha, and provide dry powder during market corrections to accelerate FIRE progress.",
+      "detailed_rationale": "Signal: You currently have 0% bonds with 10% cash, missing strategic rebalancing opportunities. Step-by-step reasoning: (1) While aggressive investors often avoid bonds, a small allocation (10-15%) serves multiple strategic purposes for FIRE seekers beyond risk reduction. (2) Rebalancing alpha: Research shows disciplined rebalancing between non-correlated assets can add 0.3-0.8% annually. With bonds negatively correlated to stocks during crashes, you can systematically sell bonds high and buy stocks low during corrections\u2014exactly what FIRE-focused investors need. (3) Your profile supports this: stable income ($195K), low expenses ($5.5K/month = 34% of income), existing emergency fund, and low liquidity needs mean you don't need the 10% cash position earning ~5% in money markets. (4) Specific implementation: Convert 10% cash to intermediate-term bonds (BND) or long-term treasuries (TLT if you want more volatility for rebalancing). During the next 20%+ market correction (historically happens every 3-4 years), rebalance 5% from bonds to stocks at lower prices. (5) Tax optimization: In taxable accounts, bonds generate ordinary income vs qualified dividends, but you can use tax-loss harvesting on bond positions during rate hikes. Evidence: Vanguard research shows 60/40 portfolios rebalanced annually have outperformed never-rebalanced portfolios by 0.4% annually over 20-year periods. Trade-off: Lower expected returns during bull markets, but improved risk-adjusted returns and behavioral discipline during corrections.",
+      "tickers": [
+        "BND",
+        "TLT"
+      ],
+      "suggested_action": "Allocate 10-12% to intermediate-term bonds (BND) by converting your current 10% cash position. Set calendar reminders to rebalance quarterly or when allocations drift 5%+ from targets. During market corrections of 15%+, rebalance from bonds to stocks to capture lower entry points.",
+      "suggested_allocation_pct": 12.0,
+      "risk_level": "low",
+      "expected_return_range": "4-6% annually on bond portion, 0.3-0.5% portfolio boost from rebalancing alpha",
+      "time_horizon": "15 years with quarterly rebalancing discipline",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:56:14.300831",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_8bf9cfb1",
+      "category": "risk_reduction",
+      "title": "Reduce Cryptocurrency Exposure to 2-3% Maximum",
+      "summary": "Cut your 5% crypto allocation (BTC) to 2-3% to reduce extreme volatility risk that could psychologically or financially derail your FIRE plan during crypto winters.",
+      "detailed_rationale": "Signal: 5% BTC allocation creates asymmetric risk for FIRE planning despite aggressive profile. Step-by-step reasoning: (1) While Bitcoin has generated exceptional returns historically, its 60-80% drawdowns and multi-year recovery periods create FIRE-specific risks beyond general volatility. Your 9/10 loss comfort applies to diversified equity portfolios, but crypto's unique characteristics (regulatory uncertainty, no cash flows, sentiment-driven) require separate consideration. (2) FIRE timeline math: You need systematic, compounding growth. BTC's correlation to risk assets has increased to 0.6+ with Nasdaq during stress periods, reducing diversification benefits while adding unique collapse risk (exchange failures, regulatory bans, technological obsolescence). (3) Position sizing for asymmetric bets: At $162K net worth with a $9,000 BTC position (5%), you're risking meaningful capital. A 2-3% allocation ($3,240-$4,860) still provides 10-20x upside exposure if crypto thesis plays out, while limiting downside to manageable levels. (4) Evidence from FIRE community: Most successful FIRE achievers (Mr. Money Mustache, Financial Samurai) maintain <2% alternative asset allocations, focusing on reliable compounding in diversified equities and real estate. (5) Your stable $195K income and intermediate experience suggest you can take equity risk, but crypto requires expert-level understanding of technology, game theory, and monetary economics. Trade-off: You'll miss full upside if BTC reaches $500K+, but you'll protect your core FIRE timeline from crypto-specific catastrophic scenarios.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Reduce BTC position from 5% to 2-3% of portfolio ($3,240-$4,860). Sell approximately $4,140-$5,760 of BTC and reallocate proceeds to: (1) 60% to international equity exposure (VXUS), (2) 40% to sector diversification (healthcare via VHT or consumer staples via VDC) to reduce tech concentration.",
+      "suggested_allocation_pct": 2.5,
+      "risk_level": "high",
+      "expected_return_range": "Highly uncertain; -50% to +100%+ annually",
+      "time_horizon": "Ongoing position sizing discipline",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:56:14.300831",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_47a89d28",
+      "category": "diversify",
+      "title": "Add Small-Cap Value Exposure for Enhanced Factor Diversification",
+      "summary": "Allocate 8-10% to small-cap value stocks (VBR or AVUV) to capture the size and value premiums, which have historically outperformed large-cap growth over 15+ year periods.",
+      "detailed_rationale": "Signal: Your portfolio is entirely large-cap growth focused (QQQ, FAANG stocks), missing historically proven factor premiums. Step-by-step reasoning: (1) Your 15-year horizon aligns perfectly with small-cap value's outperformance timeframe. Fama-French research shows small-cap value has delivered ~2-3% annual premium over large-cap growth across 90+ year datasets, though with higher volatility. (2) Current market setup: As of late 2024, small-cap value trades at historically wide valuation discounts to large-cap growth (P/E ratios 40%+ lower), suggesting mean reversion potential. Your aggressive profile and long horizon can absorb the higher volatility for superior long-term returns. (3) Portfolio construction benefit: Small-cap value has 0.3-0.5 correlation with large-cap tech, providing true diversification. During tech corrections, value stocks often hold up better or rotate into favor. (4) FIRE-specific advantage: The rebalancing between your large-cap growth core and small-cap value position will force you to 'buy low, sell high' systematically\u2014selling growth when expensive, buying value when cheap. (5) Your $195K income and stable employment provide the emotional and financial cushion to handle small-cap value's higher short-term volatility (20-25% standard deviation vs 15-18% for large-cap blend). Evidence: From 1928-2023, small-cap value has returned 13.8% annually vs 10.3% for large-cap growth, turning $10,000 into $340M vs $23M. Trade-off: Higher volatility and potential underperformance during growth-dominated markets (like 2010-2021), but superior long-term compounding for patient FIRE investors.",
+      "tickers": [
+        "VBR",
+        "AVUV",
+        "VIOV"
+      ],
+      "suggested_action": "Allocate 8-10% to small-cap value by opening a position in VBR (Vanguard Small-Cap Value ETF) or AVUV (Avantis U.S. Small Cap Value ETF) for enhanced factor targeting. Source funds by trimming 3-4% from QQQ and 5-6% from individual tech stocks. Rebalance annually to maintain allocation as these positions will fluctuate significantly.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "10-14% annually",
+      "time_horizon": "15 years to FIRE, with best performance in decade 2+",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:56:14.300831",
+      "composite_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 2,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 4,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes (age 28, loss comfort 3/10, beginner experience, $38k debt, conservative tolerance, medium horizon) and uses them causally to justify the hold.\",\n    \"C2\": \"User is conservative with loss comfort 3/10, but risk_level is set to 'moderate' (one tier off) and the rationale acknowledges the ~73/27 stock/bond mix without adequately justifying why a moderate-risk recommendation fits a conservative investor \u2014 the framing partially contradicts the stated tolerance.\",\n    \"C3\": \"Ticker identities, expense ratios, and target-date fund mechanics are accurate and traceable; the 5-7% return range is a minor unsupported quantitative projection.\",\n    \"C4\": \"Provides specific tickers, a clear first step (continue holding, don't change until emergency fund complete), and ties to the house goal, though the 40% allocation figure is somewhat ambiguous given cash is 60%.\",\n    \"C5\": \"Portfolio shows 60% cash concentration which is directly relevant to the user's question, but the recommendation focuses on the invested 40% and doesn't explicitly address whether the cash weight should change to fund the emergency goal.\",\n    \"C6\": \"Uses calibrated language ('consider', 'roughly', 'appropriate'), no guarantees, though no explicit disclaimer at the rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 2,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 4,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes (age 28, loss comfort 3/10, beginner experience, $38k debt, conservative tolerance, medium horizon) and uses them causally to justify the hold.",
+      "C2": "User is conservative with loss comfort 3/10, but risk_level is set to 'moderate' (one tier off) and the rationale acknowledges the ~73/27 stock/bond mix without adequately justifying why a moderate-risk recommendation fits a conservative investor \u2014 the framing partially contradicts the stated tolerance.",
+      "C3": "Ticker identities, expense ratios, and target-date fund mechanics are accurate and traceable; the 5-7% return range is a minor unsupported quantitative projection.",
+      "C4": "Provides specific tickers, a clear first step (continue holding, don't change until emergency fund complete), and ties to the house goal, though the 40% allocation figure is somewhat ambiguous given cash is 60%.",
+      "C5": "Portfolio shows 60% cash concentration which is directly relevant to the user's question, but the recommendation focuses on the invested 40% and doesn't explicitly address whether the cash weight should change to fund the emergency goal.",
+      "C6": "Uses calibrated language ('consider', 'roughly', 'appropriate'), no guarantees, though no explicit disclaimer at the rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 5907,
+    "output_tokens": 583
+  },
+  "session_id": "P2_conservative_early_career__rebalance__seed1",
+  "rec_index": 1,
+  "rec_id": "rec_8c4eb9c8",
+  "rubric_version": "1.1"
+}

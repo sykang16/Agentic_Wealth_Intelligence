@@ -1,0 +1,172 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed2",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "sector_specific",
+  "query": "Should I rotate from energy into AI/semiconductor exposure at current valuations, or keep the cyclical tilt?",
+  "seed": 2,
+  "context": {
+    "portfolio_context": "## Portfolio Snapshot\n- Total Assets: $1,500,000\n- Total Liabilities: $380,000\n- Net Worth: $1,120,000\n\n### Allocation by Asset Type\n- stock: 45.0%\n- etf: 25.0%\n- bond: 15.0%\n- cash: 5.0%\n- crypto: 5.0%\n- mutual_fund: 5.0%\n\n### Allocation by Sector\n- Technology: 30.0%\n- Energy: 15.0%\n- Financials: 15.0%\n- Industrials: 15.0%\n- Healthcare: 10.0%\n- Emerging Markets: 15.0%\n\n### Holdings (tickers)\nVTI, VWO, XLE, XOM, CVX, JPM, GS, CAT, DE, NVDA, BTC, BND",
+    "investment_profile_context": "## Investment Profile\n- Age: 45\n- Occupation: Independent strategy consultant\n- Annual Income: $280,000\n- Monthly Expenses: $13,000\n- Risk Tolerance: aggressive\n- Loss Comfort (1-10): 8\n- Investment Horizon: long\n- Liquidity Needs: medium\n- Income Stability: variable\n- Has Emergency Fund: True\n- Debt Level: moderate\n- Investment Experience: advanced\n- ESG Preference: False\n- Goals:\n  - wealth (high priority, target $4,000,000): Continue compounding wealth; comfortable with cyclical drawdowns\n  - other (medium priority, target $800,000): Legacy planning for one child",
+    "rag_context": "",
+    "data_sources_used": [
+      "portfolio",
+      "investment_profile"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec_7e3ee34b",
+      "category": "rebalance",
+      "title": "Partial Energy-to-Semiconductors Rotation with Diversified AI Exposure",
+      "summary": "Reduce energy allocation from 15% to 10% by trimming XLE, XOM, and CVX positions. Redeploy 5% into diversified semiconductor and AI infrastructure through SMH (semiconductor ETF) and MSFT, maintaining cyclical exposure while capturing secular AI growth.",
+      "detailed_rationale": "Signal: Your energy sector represents 15% of portfolio (XLE, XOM, CVX) versus a typical aggressive portfolio target of 8-10%. Current portfolio shows technology at 30% but concentrated in NVDA without broader semiconductor/AI infrastructure diversification. Analysis: (1) With your aggressive risk tolerance (8/10 loss comfort) and 20+ year horizon at age 45, you can absorb the higher volatility of semiconductor cyclicality while benefiting from multi-year AI infrastructure buildout. (2) Energy has delivered strong returns 2021-2023 but faces headwinds: demand growth deceleration in developed markets, OPEC+ production discipline uncertainty, and renewable transition pressures. Meanwhile, AI/semiconductor sector shows 3-5 year visibility driven by datacenter buildout, edge AI deployment, and sovereign AI initiatives globally. (3) Your current 30% tech allocation via NVDA alone creates single-stock concentration risk (likely 25%+ of tech allocation). A partial rotation preserves cyclical exposure (energy drops to 10%, still above market weight) while diversifying into the semiconductor supply chain through SMH (holds NVDA, AMD, INTC, ASML, TSM) and adding MSFT for hyperscaler cloud/AI infrastructure exposure with lower volatility than pure semiconductor plays. (4) Trade-offs: Semiconductors are highly cyclical with 30-40% drawdown potential in downturns. Energy provides inflation hedge and income (XOM/CVX ~3.5% yields) that semiconductors don't. Recommendation balances both by maintaining meaningful energy position rather than full exit. This aligns with your wealth compounding goal ($4M target) by positioning for secular growth while managing through variable income as independent consultant.",
+      "tickers": [
+        "SMH",
+        "MSFT",
+        "XLE",
+        "XOM",
+        "CVX"
+      ],
+      "suggested_action": "Sell 33% of combined XLE/XOM/CVX positions (~$112,500 based on 15% energy allocation of $1.5M portfolio). Deploy proceeds: $67,500 into SMH (VanEck Semiconductor ETF) and $45,000 into MSFT. Execute over 2-3 weeks to average entry prices.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "high",
+      "expected_return_range": "12-18% annually",
+      "time_horizon": "5-7 years for full AI infrastructure cycle; semiconductors highly cyclical near-term",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:52:03.227378",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_dab59a29",
+      "category": "diversify",
+      "title": "Add Defensive Quality Growth to Balance Cyclical Concentration",
+      "summary": "Introduce 3-4% allocation to quality healthcare (XLV) and consumer staples (VDC) to reduce portfolio cyclicality. Your current 70% exposure to cyclical sectors (Tech 30%, Energy 15%, Financials 15%, Industrials 15%) creates vulnerability during economic slowdowns.",
+      "detailed_rationale": "Signal: Portfolio composition shows 70% in economically sensitive sectors with minimal defensive positioning. With variable income as independent consultant, portfolio drawdowns during recessions could coincide with reduced consulting revenue, creating liquidity stress despite medium liquidity needs. Analysis: (1) Your aggressive profile supports high equity allocation, but doesn't require maximum cyclicality. Adding 3-4% defensive sectors improves risk-adjusted returns over full market cycles without sacrificing long-term growth potential - quality healthcare/staples have historically delivered 8-10% annual returns with 30% lower volatility than pure cyclical portfolios. (2) Current holdings (CAT, DE industrials; JPM, GS financials; XOM, CVX energy) all contract earnings significantly in recessions. Healthcare spending remains resilient (aging demographics, non-discretionary nature) and quality staples provide pricing power during inflation. (3) At 45 with $13K monthly expenses ($156K annually) representing 56% of $280K income, 4-5 months of reduced consulting work could strain cash flow. Defensive sectors typically outperform in market drawdowns by 10-15%, providing portfolio stability when income may decline. (4) Trade-off: Defensive sectors will lag in strong growth periods (likely underperform by 3-5% annually in bull markets). However, this improves overall portfolio Sharpe ratio and supports your legacy planning goal ($800K target for child) by reducing probability of forced liquidations during drawdowns. Given 15% BND allocation already provides some stability, limiting defensive equity to 3-4% maintains growth orientation while addressing income variability risk.",
+      "tickers": [
+        "XLV",
+        "VDC"
+      ],
+      "suggested_action": "Allocate $45,000-60,000 (3-4% of portfolio) split between XLV (Health Care Select Sector SPDR) and VDC (Vanguard Consumer Staples ETF). Fund by reducing crypto (BTC) allocation from 5% to 3% ($30K) and taking partial profits from industrials CAT/DE ($15-30K). Implement immediately.",
+      "suggested_allocation_pct": 3.5,
+      "risk_level": "low",
+      "expected_return_range": "7-10% annually",
+      "time_horizon": "Ongoing portfolio stabilizer; 10+ year hold period",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:52:03.227378",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_c44372b2",
+      "category": "risk_reduction",
+      "title": "Reduce Emerging Markets Overweight and Geographic Concentration Risk",
+      "summary": "Trim VWO (Emerging Markets ETF) from 15% to 8-10% allocation, redeploying capital into developed international exposure (VEA or VXUS ex-US developed). Your 15% EM allocation is 2-3x typical aggressive portfolio benchmarks and concentrates geopolitical/currency risk.",
+      "detailed_rationale": "Signal: 15% emerging markets allocation (VWO) represents significant overweight relative to MSCI ACWI benchmark (~10% EM weight) and typical aggressive portfolios (5-8% EM). Combined with sector analysis, this creates substantial exposure to China/Asia economic cycles, geopolitical tensions, and currency volatility. Analysis: (1) Your advanced investment experience and aggressive risk tolerance support above-benchmark EM exposure, but 15% concentration introduces uncompensated risk. VWO has 30% China exposure (regulatory crackdown risks, property sector stress, Taiwan tensions) and 25% India/Taiwan exposure (geopolitical flashpoints). Recent 3-year performance shows EM underperformance vs developed markets by 15-20% annualized due to dollar strength and supply chain reshoring. (2) With wealth compounding goal to $4M over 20 years requiring ~6.5% annualized real returns, excessive EM allocation introduces tracking error and potential multi-year underperformance that could derail timeline. Historically, EM has exhibited 10-year periods of 0% real returns (2010-2020 example). (3) Reducing to 8-10% EM and adding developed international (Europe, Japan, Canada through VEA) improves diversification while maintaining international exposure. Developed markets offer comparable valuations currently (P/E ~13-14 vs US ~20) with lower political risk, stronger corporate governance, and hard currency denomination. (4) Trade-off: EM markets offer higher long-term growth potential (6-7% GDP growth vs 2-3% developed) and VWO yields ~3% vs VEA ~2.5%. However, this growth often doesn't translate to shareholder returns due to governance and dilution issues. Your moderate debt level ($380K liabilities) and legacy planning goal benefit from reducing tail risk exposure. Given your variable income, portfolio stability takes priority over maximum return asymmetry.",
+      "tickers": [
+        "VWO",
+        "VEA",
+        "VXUS"
+      ],
+      "suggested_action": "Sell $75,000-105,000 of VWO (reducing from 15% to 8-10% allocation). Redeploy into VEA (Vanguard Developed Markets ETF) or VXUS (Vanguard Total International ex-US) for broader developed+EM exposure at market weights. Execute sale over 3-4 weeks, consider tax-loss harvesting if position is underwater.",
+      "suggested_allocation_pct": -5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-11% annually for developed international",
+      "time_horizon": "10+ years; reduces near-term volatility from geopolitical shocks",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:52:03.227378",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_0fa99fa0",
+      "category": "tax_optimization",
+      "title": "Strategic Bond Rebalancing with Municipal Bond Tax Efficiency",
+      "summary": "Evaluate moving 30-40% of BND (taxable bond) allocation into municipal bonds (MUB or VTEB) to enhance after-tax income. At $280K income, likely in 35% federal bracket where muni yields become attractive on after-tax basis.",
+      "detailed_rationale": "Signal: 15% bond allocation ($225K) held entirely in BND (total bond market) generates taxable interest income. At $280K annual income as independent consultant, you're likely in 32-35% federal tax bracket plus state taxes (assuming 5-8% state rate), creating total tax drag of 37-43% on bond income. Analysis: (1) BND currently yields ~4.5%, but after-tax yield is only 2.6-2.8% at your tax bracket. Investment-grade municipal bonds (MUB) yield ~3.5% tax-free, equivalent to 5.4-5.6% taxable yield at 35% bracket - providing 2.5-3% higher after-tax income annually ($5,000-7,000 additional annual income on $225K bond allocation). (2) Your aggressive risk profile and 15% bond allocation suggests bonds serve primarily as portfolio ballast and liquidity reserve rather than return driver. Optimizing after-tax income from this allocation enhances total portfolio efficiency without changing risk profile. Municipal bonds show similar duration and credit quality to BND (both ~6-year duration, A/AA average rating). (3) As independent consultant with variable income, tax efficiency becomes more important - $280K income can fluctuate \u00b1$50K year-to-year, sometimes pushing into higher brackets. Muni bonds provide tax arbitrage that compounds over 20-year horizon ($100K-140K cumulative benefit). (4) Trade-offs: Municipal bonds carry state/local government credit risk (though defaults historically <0.1% for investment grade), less liquidity than Treasury-heavy BND, and potential tax law changes reducing muni advantages. Some states don't exempt out-of-state munis, reducing benefit. However, given moderate debt level and medium liquidity needs, maintaining 60-70% in BND preserves liquidity while capturing muni tax benefits on remainder. This optimization supports both wealth accumulation and legacy planning goals by enhancing portfolio efficiency without additional risk.",
+      "tickers": [
+        "MUB",
+        "VTEB",
+        "BND"
+      ],
+      "suggested_action": "Sell $70,000-90,000 of BND (30-40% of bond allocation). Invest proceeds in MUB (iShares National Muni Bond ETF) or VTEB (Vanguard Tax-Exempt Bond ETF) for broad, diversified municipal exposure. Consult CPA to confirm state tax treatment and optimal allocation. Implement after Q1 to assess current year income trajectory.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "3.5-4.5% tax-free (equivalent to 5.4-6.5% taxable)",
+      "time_horizon": "3-7 years; hold through rate normalization cycle",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:52:03.227378",
+      "composite_score": 0.0
+    }
+  ],
+  "rec_count": 4
+}

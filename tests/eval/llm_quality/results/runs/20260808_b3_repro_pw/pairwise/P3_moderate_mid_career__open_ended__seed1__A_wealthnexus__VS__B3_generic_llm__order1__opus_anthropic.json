@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more specific, actionable steps with concrete dollar amounts, ticker choices, and detailed rationale tying recommendations to multiple profile attributes (income, loss comfort, timeline, existing holdings). System B is solid and slightly more grounded in realistic contribution math but is less specific in execution details and includes some placeholder tickers (e.g., '401K', 'VANGUARD 529') rather than actionable instruments.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more specific, actionable steps with concrete dollar amounts, ticker choices, and detailed rationale tying recommendations to multiple profile attributes (income, loss comfort, timeline, existing holdings). System B is solid and slightly more grounded in realistic contribution math but is less specific in execution details and includes some placeholder tickers (e.g., '401K', 'VANGUARD 529') rather than actionable instruments."
+  },
+  "usage": {
+    "input_tokens": 10905,
+    "output_tokens": 277
+  },
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 1,
+  "rubric_version": "1.1"
+}

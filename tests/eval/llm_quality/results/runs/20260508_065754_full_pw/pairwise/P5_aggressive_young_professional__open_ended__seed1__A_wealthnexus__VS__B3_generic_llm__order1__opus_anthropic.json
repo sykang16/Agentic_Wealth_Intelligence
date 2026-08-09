@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"A\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more detailed, profile-specific rationales citing concrete numbers (income surplus, expense math, FIRE timeline impact) and gives more actionable steps with specific dollar amounts and tickers. System B's recommendations are reasonable but more generic, with some questionable claims (e.g., labeling cash rebalancing as 'moderate' risk) and less rigorous grounding in the user's specific profile attributes.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "A"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more detailed, profile-specific rationales citing concrete numbers (income surplus, expense math, FIRE timeline impact) and gives more actionable steps with specific dollar amounts and tickers. System B's recommendations are reasonable but more generic, with some questionable claims (e.g., labeling cash rebalancing as 'moderate' risk) and less rigorous grounding in the user's specific profile attributes."
+  },
+  "usage": {
+    "input_tokens": 11043,
+    "output_tokens": 273
+  },
+  "session_id": "P5_aggressive_young_professional__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 1,
+  "rubric_version": "1.1"
+}

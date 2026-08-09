@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B's recommendations are more concretely tied to specific profile attributes (35% tax bracket, 44% savings rate, variable consulting income, legacy goal) and provide more precise, executable allocation targets with specific tickers and percentages. System A makes assumption-based claims (e.g., assuming NVDA is oversized without verification) and offers vaguer allocations, while B's tax-optimization and BTC-reduction recommendations demonstrate stronger factual grounding in the actual portfolio snapshot.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B's recommendations are more concretely tied to specific profile attributes (35% tax bracket, 44% savings rate, variable consulting income, legacy goal) and provide more precise, executable allocation targets with specific tickers and percentages. System A makes assumption-based claims (e.g., assuming NVDA is oversized without verification) and offers vaguer allocations, while B's tax-optimization and BTC-reduction recommendations demonstrate stronger factual grounding in the actual portfolio snapshot."
+  },
+  "usage": {
+    "input_tokens": 12298,
+    "output_tokens": 302
+  },
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

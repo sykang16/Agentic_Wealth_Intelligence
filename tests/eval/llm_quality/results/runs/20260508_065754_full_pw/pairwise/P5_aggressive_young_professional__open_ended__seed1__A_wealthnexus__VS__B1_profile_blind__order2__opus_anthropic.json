@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"B\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B better respects the user's aggressive risk tolerance and 9/10 loss comfort by proposing proportionate adjustments (trimming crypto to 2-3%, modest 15% bond/REIT shift, adding international diversification) rather than System A's overly conservative pivot to 40% tech and full crypto liquidation that contradicts the user's stated profile. B also leverages more specific profile data (income, expenses, surplus, FIRE target math) and adds geographic diversification, while A's risk_level assignments (e.g., 'low' for tax-advantaged equity holdings) and aggressive de-risking show weaker risk alignment.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "B"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B better respects the user's aggressive risk tolerance and 9/10 loss comfort by proposing proportionate adjustments (trimming crypto to 2-3%, modest 15% bond/REIT shift, adding international diversification) rather than System A's overly conservative pivot to 40% tech and full crypto liquidation that contradicts the user's stated profile. B also leverages more specific profile data (income, expenses, surplus, FIRE target math) and adds geographic diversification, while A's risk_level assignments (e.g., 'low' for tax-advantaged equity holdings) and aggressive de-risking show weaker risk alignment."
+  },
+  "usage": {
+    "input_tokens": 12512,
+    "output_tokens": 342
+  },
+  "session_id": "P5_aggressive_young_professional__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

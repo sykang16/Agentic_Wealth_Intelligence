@@ -1,0 +1,181 @@
+{
+  "session_id": "P3_moderate_mid_career__sector_specific__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "sector_specific",
+  "query": "Should I add international or emerging-markets exposure, and if so what proportion is reasonable?",
+  "seed": 2,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_379829f2",
+      "category": "diversify",
+      "title": "Increase International Exposure via VXUS",
+      "summary": "Add 10-15% allocation to VXUS to achieve better geographic diversification and reduce home country bias in your portfolio.",
+      "detailed_rationale": "Signal: Your current portfolio shows significant home country bias with only minimal international exposure through VXUS. Geographic concentration creates unnecessary risk, as US market performance alone drives your returns. Step-by-step reasoning: (1) For a moderate risk investor with a 25-year retirement horizon and 10-year education goal, international diversification is crucial for reducing concentration risk. Standard portfolio theory suggests 20-40% international allocation for long-term investors. (2) Your current holdings are heavily US-focused (VTI, AAPL, MSFT, NVDA, GOOGL), creating geographic and currency concentration. (3) The knowledge base confirms VXUS provides exposure to 7,800+ international stocks across developed and emerging markets with a low 0.07% expense ratio, making it cost-effective for diversification. (4) Your moderate risk tolerance (loss comfort 6/10) and stable income support taking measured international exposure. International markets have historically shown low correlation with US markets, reducing overall portfolio volatility. Trade-off: International stocks introduce currency risk and may underperform US markets during periods of dollar strength, but this is offset by diversification benefits and access to growth in non-US economies.",
+      "tickers": [
+        "VXUS"
+      ],
+      "suggested_action": "Gradually increase VXUS allocation from current level to 15-20% of total portfolio over the next 3-6 months using dollar-cost averaging. Given your $320,000 in assets, this represents approximately $48,000-$64,000 in VXUS.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% annually",
+      "time_horizon": "10-25 years (aligns with both education and retirement goals)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:22:46.609008",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_611b1195",
+      "category": "rebalance",
+      "title": "Reduce Technology Overweight Position",
+      "summary": "Trim technology exposure from 35% to 25% by reducing individual tech stock positions, improving sector diversification.",
+      "detailed_rationale": "Signal: Your portfolio shows significant sector concentration with 35% in technology, substantially above the S&P 500's tech weighting of ~28% and creating concentration risk inappropriate for moderate risk tolerance. Step-by-step reasoning: (1) You hold both broad tech exposure through VTI and concentrated positions in AAPL, MSFT, NVDA, and GOOGL, creating overlapping exposure and amplified sector risk. (2) For a moderate risk investor with critical 10-year education funding needs, a 35% allocation to a single volatile sector is misaligned with your risk profile. The knowledge base emphasizes that concentration risk can lead to outsized losses during sector-specific downturns. (3) Your loss comfort of 6/10 suggests moderate volatility tolerance, but tech stocks can experience 30-40% drawdowns. With $112,000 (35% of $320k) in tech, a sector correction could significantly impact your education goal timeline. (4) Your stable income and emergency fund provide capacity to weather volatility, but prudent risk management suggests 25% as a more appropriate tech allocation for your profile. Trade-off: Technology has been a strong performer, and reducing exposure may mean lower returns if the sector continues outperforming, but improved diversification reduces the risk of concentrated losses that could derail your education savings goal.",
+      "tickers": [
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Sell 30-40% of your NVDA and GOOGL positions (approximately $15,000-20,000 combined) to reduce tech concentration. Redeploy proceeds into underweight sectors like Healthcare, Consumer Staples, or additional bond allocation to support your medium-term education goal.",
+      "suggested_allocation_pct": 25.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Reduced volatility, maintain 7-9% portfolio return potential",
+      "time_horizon": "Immediate rebalancing, impacts both 10-year and 25-year goals",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:22:46.609008",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_bcb656fc",
+      "category": "risk_reduction",
+      "title": "Establish Target-Date Buffer for Education Goal",
+      "summary": "Create a dedicated sleeve of 40% bonds/stable assets for your 10-year education goal to reduce sequence-of-returns risk.",
+      "detailed_rationale": "Signal: You have a high-priority education goal requiring $200,000 in approximately 10 years, but your current 30% bond allocation and portfolio structure don't protect against the sequence-of-returns risk that could impact this critical, time-bound goal. Step-by-step reasoning: (1) Your current $140,000 net worth needs to grow to meet a $200,000 education target in 10 years, requiring roughly 4% annual growth plus additional contributions. A market downturn in years 7-10 could significantly derail this goal. (2) The knowledge base on risk management emphasizes portfolio stress testing and matching asset allocation to specific goal timelines. With a 10-year horizon, you're transitioning from accumulation to preservation phase for this goal. (3) Your moderate risk tolerance and stable $175,000 income suggest capacity for a two-sleeve approach: growth-oriented assets for 25-year retirement, and increasingly conservative positioning for the education goal. (4) Standard target-date fund methodology suggests moving toward 40-50% fixed income/stable assets for goals within 10 years. Your current 30% bond allocation (approximately $96,000) isn't specifically earmarked for the education goal. Trade-off: Increased bond allocation means lower expected returns on that portion, potentially requiring higher contributions to reach the $200,000 target, but significantly reduces the risk of falling short due to market timing.",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "Mentally or administratively separate your portfolio into two sleeves: (1) Education goal sleeve (~$100,000 current value): target 40% BND, 40% VTI, 20% dividend-paying stocks (AAPL, MSFT). (2) Retirement sleeve (remaining assets): maintain growth orientation with higher equity allocation. Increase BND from 30% to 35% portfolio-wide immediately, adding approximately $16,000 to bond position.",
+      "suggested_allocation_pct": 35.0,
+      "risk_level": "low",
+      "expected_return_range": "4-6% for education sleeve, preserves capital approaching target date",
+      "time_horizon": "10 years for education goal, adjust further as goal approaches",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:22:46.609008",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_662ebf05",
+      "category": "diversify",
+      "title": "Add Small-Cap Value Exposure for Enhanced Returns",
+      "summary": "Allocate 5-8% to small-cap value ETF to capture the historical small-cap and value premiums, improving long-term return potential.",
+      "detailed_rationale": "Signal: Your portfolio is concentrated in large-cap growth stocks (VTI is market-cap weighted, plus individual holdings in mega-cap tech). Missing exposure to small-cap and value factors that historically provide enhanced returns over long time horizons. Step-by-step reasoning: (1) Academic research shows small-cap and value stocks have historically outperformed large-cap growth over 20+ year periods, aligning perfectly with your 25-year retirement horizon. (2) Your age (40), stable income, and intermediate investment experience indicate sophistication to understand factor investing. Your moderate risk tolerance and 6/10 loss comfort can accommodate the higher volatility of small-caps within a diversified portfolio. (3) With VTI providing broad market exposure, you already have some small-cap exposure, but it's market-cap weighted (meaning small-caps represent only ~15% of VTI). A dedicated small-cap value position would tilt toward historically rewarded risk factors. (4) Your $320,000 portfolio and 25-year retirement timeline provide sufficient scale and duration to benefit from factor premiums, which require patience and long holding periods. Trade-off: Small-cap value stocks are more volatile than large-caps and can underperform for extended periods (potentially 3-5 years), requiring discipline to maintain allocation. However, your long time horizon and stable financial situation position you well to capture these premiums.",
+      "tickers": [
+        "VBR",
+        "AVUV"
+      ],
+      "suggested_action": "Allocate 5-7% of portfolio (approximately $16,000-22,000) to a small-cap value ETF such as VBR (Vanguard Small-Cap Value) or AVUV (Avantis US Small Cap Value). Source funds from trimming individual tech stock positions or through new contributions over next 6 months.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "moderate",
+      "expected_return_range": "9-11% annually over long term, higher volatility short-term",
+      "time_horizon": "25 years (retirement focus), requires patience through cycles",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:22:46.609008",
+      "composite_score": 0.0
+    }
+  ]
+}

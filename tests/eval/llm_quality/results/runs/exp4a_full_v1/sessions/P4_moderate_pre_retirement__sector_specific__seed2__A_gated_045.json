@@ -1,0 +1,185 @@
+{
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "sector_specific",
+  "query": "Are there particular sectors I should reduce as I approach retirement, and which ones should I keep for income generation?",
+  "seed": 2,
+  "system": "A_gated_045",
+  "rag_diagnostics": {
+    "top_score": 0.477,
+    "num_hits": 5,
+    "gated": false,
+    "threshold": 0.45
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_0ca51952",
+      "category": "rebalance",
+      "title": "Initiate Retirement Glide Path: Reduce Technology & Healthcare Concentration",
+      "summary": "Begin transitioning from growth-oriented sectors to income-generating and defensive positions by reducing Technology (18%) and Healthcare (22%) exposure to fund increased dividend-focused positions.",
+      "detailed_rationale": "SIGNAL: With 10 years until retirement (age 55\u219265), your portfolio remains heavily weighted toward growth sectors. Technology (18%) and Healthcare (22%) combined represent 40% of your portfolio, which creates concentration risk as you approach the income distribution phase. ALIGNMENT: Your moderate risk tolerance, medium investment horizon, and high-priority retirement goal ($1.8M target, currently at $755k net worth) necessitate a glide-path strategy now. The knowledge base explicitly states target-date funds 'automatically adjust asset allocation as you approach retirement, becoming more conservative over time'\u2014this principle applies to your DIY portfolio. EVIDENCE: You hold JNJ and UNH in Healthcare (growth-oriented but volatile), representing outsized sector exposure. While Healthcare has defensive qualities, your 22% allocation exceeds typical moderate portfolio targets (12-15%). Technology at 18% adds growth but increases volatility. TRADE-OFF: Reducing these positions means potentially lower capital appreciation if these sectors outperform, but this is offset by reduced drawdown risk and improved income stability as you near retirement. Your loss comfort level of 5/10 indicates you're right at the threshold where volatility reduction becomes important.",
+      "tickers": [
+        "JNJ",
+        "UNH"
+      ],
+      "suggested_action": "Reduce combined Healthcare allocation from 22% to 16% by selling 30% of your JNJ and UNH positions over the next 6 months. This generates approximately $112,200 (30% of 22% of $850k) to reallocate toward income-generating assets.",
+      "suggested_allocation_pct": -6.0,
+      "risk_level": "low",
+      "expected_return_range": "Reduces volatility by 8-12% without significantly impacting returns",
+      "time_horizon": "Implement over 6 months, complete transition by age 56",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:49:15.166244",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_15d02dac",
+      "category": "income_generation",
+      "title": "Add Dividend Aristocrats ETF for Reliable Retirement Income",
+      "summary": "Deploy proceeds from sector reduction into a dividend-focused ETF (NOBL or SCHD) to establish a growing income stream that will support your $80-100k/yr retirement income target.",
+      "detailed_rationale": "SIGNAL: Your retirement goal explicitly requires '$80-100k/yr income' beginning at age 65. Currently, with 35% bonds (BND at 0.03% expense ratio providing ~4-5% yield) and limited dividend-focused equity holdings, your income generation capacity is approximately $30k/year (assuming 4% average yield on fixed income and 2% on equities). This creates a $50-70k annual income gap. ALIGNMENT: As an advanced investor with moderate risk tolerance, you understand that dividend growth strategies provide inflation protection that pure bonds cannot. The knowledge base emphasizes 'diversification is essential for managing risk'\u2014dividend aristocrat funds offer equity exposure with lower volatility (60-70% of broad market) while providing 2.5-3.5% current yield with historical 10%+ annual dividend growth. EVIDENCE: Your current holdings include PG (Consumer Staples dividend payer), showing you already value income generation. However, at only 10% Consumer Staples allocation, this is insufficient. Dividend aristocrat ETFs hold companies with 25+ years of consecutive dividend increases\u2014precisely the stability needed for retirement income. With $112,200 from Healthcare reductions plus potential reallocation from your 5% cash position, you can establish a meaningful income position. TRADE-OFF: Dividend-focused funds typically underperform in bull markets driven by growth stocks, but they significantly outperform during downturns and provide the cash flow you'll need in retirement. This aligns perfectly with your medium-term horizon and goal of beginning distributions in 10 years.",
+      "tickers": [
+        "NOBL",
+        "SCHD"
+      ],
+      "suggested_action": "Allocate $127,500 (15% of portfolio) to NOBL or SCHD using proceeds from Healthcare reduction ($112,200) plus $15,300 from cash reserves. This establishes a 15% position generating approximately $4,250 annually in dividends with growth potential.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-9% total return (3% yield + 5-6% appreciation), with dividend growth of 8-12% annually",
+      "time_horizon": "10-year hold through retirement, begin drawing dividends at age 65",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:49:15.166244",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_090d56c0",
+      "category": "diversify",
+      "title": "Add Real Estate Exposure for Income Diversification and Inflation Protection",
+      "summary": "Introduce 5-7% allocation to VNQ (Real Estate ETF) to diversify income sources, provide inflation hedge, and reduce correlation with your existing stock/bond portfolio.",
+      "detailed_rationale": "SIGNAL: Your portfolio shows zero explicit real estate exposure beyond what may be embedded in VTI. With $95k in liabilities (likely mortgage) and real estate representing a significant asset class for retirees, this is a notable gap. Your sector allocation shows 12% 'Other'\u2014real estate should be explicitly carved out as a separate allocation. ALIGNMENT: Real estate investment trusts (REITs) are particularly suitable for moderate-risk retirement planning because: (1) they're required to distribute 90% of taxable income as dividends, providing 3-4% yields, (2) they offer inflation protection as rents typically rise with inflation, and (3) they have low correlation (0.4-0.6) with bonds, providing true diversification. The knowledge base factsheet for VNQ explicitly describes it as investing in REITs that 'purchase office buildings' and other commercial property. Your $220k income and stable employment as operations director suggests you can handle the moderate volatility of REITs. EVIDENCE: With 10 years until retirement, you need inflation-protected income sources. Real estate has historically provided 3-4% current yield plus 4-6% appreciation, for total returns of 7-10% annually. Your current 35% bond allocation (BND) provides stability but limited inflation protection\u2014real assets like REITs complement this. The knowledge base emphasizes 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' TRADE-OFF: REITs are interest-rate sensitive and can decline when rates rise sharply. However, with rates potentially stabilizing or declining over your 10-year horizon, timing is reasonable. REITs also add tax complexity (dividends taxed as ordinary income), but with medium liquidity needs and stable income, you can manage this in taxable accounts or prioritize for IRA holdings.",
+      "tickers": [
+        "VNQ"
+      ],
+      "suggested_action": "Establish a 6% position in VNQ ($51,000) by reducing cash from 5% to 3.5% ($12,750) and reducing your Technology allocation by selling a portion of your technology exposure within VTI or any individual tech holdings by another 4.5% ($38,250).",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-10% annually (3-4% yield + 3-6% appreciation)",
+      "time_horizon": "10+ years, suitable for long-term retirement portfolio",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:49:15.166244",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_267d0394",
+      "category": "tax_optimization",
+      "title": "Maximize Catch-Up Contributions to Tax-Advantaged Retirement Accounts",
+      "summary": "At age 55, you're eligible for catch-up contributions. Maximize 401(k) contributions to $30,500 annually to reduce current tax burden and accelerate retirement goal achievement.",
+      "detailed_rationale": "SIGNAL: Your retirement goal has a specific $1.8M target with current net worth of $755k, creating a $1.045M gap to close in 10 years. Your $220k annual income with $11k monthly expenses ($132k annually) leaves $88k in pre-tax surplus capacity. The knowledge base explicitly states: 'For 2024, 401(k) limits are $23,000 ($30,500 if 50+)'\u2014you qualify for the additional $7,500 catch-up contribution. ALIGNMENT: As an advanced investor with stable income and low debt, you have the cash flow capacity to maximize tax-advantaged contributions. This strategy provides: (1) immediate tax savings of approximately $8,540 annually (28% marginal rate on $30,500), (2) tax-deferred compounding, and (3) disciplined retirement savings. Your moderate risk tolerance and medium investment horizon make this a no-brainer foundational strategy. EVIDENCE: Contributing $30,500 annually for 10 years at a conservative 7% return yields approximately $432,000\u2014nearly half your retirement gap. Combined with your current $755k net worth growing at 7%, you'd reach approximately $1.54M, getting you much closer to your $1.8M target. The knowledge base emphasizes 'always contribute enough to capture the full employer match'\u2014ensure you're getting any available match first, then maximize to the limit. This is especially critical given your high-priority retirement goal and stable employment situation. TRADE-OFF: Maximizing 401(k) contributions reduces current liquidity and ties up funds until age 59.5 (with some exceptions). However, you have medium liquidity needs, a healthy emergency fund, and low debt ($95k liabilities on $850k assets = 11% debt ratio). Your monthly expense coverage is strong ($88k annual surplus covers $132k expenses with room for retirement contributions). The tax savings and compound growth far outweigh the liquidity constraint given your financial stability.",
+      "tickers": [],
+      "suggested_action": "Immediately increase 401(k) contributions to $30,500 annually ($2,542/month). If not already doing so, ensure contributions are being made to Roth 401(k) for portion of contributions to create tax diversification in retirement. Review with HR/benefits to implement by next pay period.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "7-8% annually within tax-advantaged growth, plus immediate 28% 'return' via tax savings",
+      "time_horizon": "10 years until retirement, with continued contributions throughout",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:49:15.166244",
+      "composite_score": 0.0
+    }
+  ]
+}

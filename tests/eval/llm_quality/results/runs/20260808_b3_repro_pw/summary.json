@@ -1,0 +1,44 @@
+{
+  "n_pairwise_files": 144,
+  "confirmed_wins_per_pair": {
+    "A_wealthnexus__VS__B3_generic_llm": {
+      "A_wealthnexus": 40,
+      "B3_generic_llm": 4,
+      "tie": 28
+    }
+  },
+  "criterion_winners_per_pair": {
+    "A_wealthnexus__VS__B3_generic_llm": {
+      "C1_personalization": {
+        "A_wealthnexus": 115,
+        "B3_generic_llm": 18,
+        "tie": 11
+      },
+      "C2_risk_alignment": {
+        "A_wealthnexus": 25,
+        "B3_generic_llm": 41,
+        "tie": 78
+      },
+      "C3_factual_grounding": {
+        "A_wealthnexus": 56,
+        "B3_generic_llm": 47,
+        "tie": 41
+      },
+      "C4_actionability": {
+        "A_wealthnexus": 113,
+        "B3_generic_llm": 31,
+        "tie": 0
+      },
+      "C5_diversification": {
+        "A_wealthnexus": 76,
+        "B3_generic_llm": 28,
+        "tie": 40
+      },
+      "C6_safety_compliance": {
+        "A_wealthnexus": 13,
+        "B3_generic_llm": 13,
+        "tie": 118
+      }
+    }
+  }
+}

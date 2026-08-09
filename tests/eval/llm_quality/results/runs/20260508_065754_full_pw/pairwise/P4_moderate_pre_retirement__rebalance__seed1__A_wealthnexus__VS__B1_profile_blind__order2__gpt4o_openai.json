@@ -1,0 +1,28 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides a more personalized and actionable glide path recommendation, aligning well with the user's moderate risk tolerance and retirement goals. While System B offers strong factual grounding, System A's recommendations are more tailored to the user's specific profile and provide clearer steps for implementation.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides a more personalized and actionable glide path recommendation, aligning well with the user's moderate risk tolerance and retirement goals. While System B offers strong factual grounding, System A's recommendations are more tailored to the user's specific profile and provide clearer steps for implementation."
+  },
+  "usage": {
+    "input_tokens": 8380,
+    "output_tokens": 147
+  },
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

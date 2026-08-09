@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Cites multiple specific profile attributes (10-year horizon, moderate risk tolerance, loss comfort 6/10, $175K income, $9,500 expenses, low debt, education goal $200K) and uses them to causally justify the recommendation.\",\n    \"C2\": \"risk_level 'moderate' exactly matches the user's moderate risk tolerance, and the rationale explicitly justifies the fit via age-based glide path appropriate for the 10-year horizon.\",\n    \"C3\": \"All numeric claims (net worth, income, expenses, allocation, goal amount) are traceable to inputs, and the contribution math (~$1,000-1,200/month at 6% over 10 years) is reasonable and grounded.\",\n    \"C4\": \"Provides concrete vehicle (529), specific monthly contribution amount per child, glide-path allocation, and a clear first step (open two 529 plans).\",\n    \"C5\": \"Recommendation is allocation-neutral with respect to the existing portfolio's sector concentration (e.g., 35% Technology) and does not address or worsen it.\",\n    \"C6\": \"Uses calibrated language ('assuming 6% returns', 'needed to reach') and no guarantees, though no explicit disclaimer is included at the rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Cites multiple specific profile attributes (10-year horizon, moderate risk tolerance, loss comfort 6/10, $175K income, $9,500 expenses, low debt, education goal $200K) and uses them to causally justify the recommendation.",
+      "C2": "risk_level 'moderate' exactly matches the user's moderate risk tolerance, and the rationale explicitly justifies the fit via age-based glide path appropriate for the 10-year horizon.",
+      "C3": "All numeric claims (net worth, income, expenses, allocation, goal amount) are traceable to inputs, and the contribution math (~$1,000-1,200/month at 6% over 10 years) is reasonable and grounded.",
+      "C4": "Provides concrete vehicle (529), specific monthly contribution amount per child, glide-path allocation, and a clear first step (open two 529 plans).",
+      "C5": "Recommendation is allocation-neutral with respect to the existing portfolio's sector concentration (e.g., 35% Technology) and does not address or worsen it.",
+      "C6": "Uses calibrated language ('assuming 6% returns', 'needed to reach') and no guarantees, though no explicit disclaimer is included at the rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 5917,
+    "output_tokens": 533
+  },
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "rec_index": 0,
+  "rec_id": "rec_29537269",
+  "rubric_version": "1.1"
+}

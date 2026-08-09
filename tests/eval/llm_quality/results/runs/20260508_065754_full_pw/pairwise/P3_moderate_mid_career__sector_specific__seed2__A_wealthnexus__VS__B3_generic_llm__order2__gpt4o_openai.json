@@ -1,0 +1,28 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more personalized recommendations by explicitly referencing the user's risk tolerance, investment horizon, and goals. It also offers more actionable steps and addresses diversification more effectively by suggesting specific reallocations to reduce concentration risk.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more personalized recommendations by explicitly referencing the user's risk tolerance, investment horizon, and goals. It also offers more actionable steps and addresses diversification more effectively by suggesting specific reallocations to reduce concentration risk."
+  },
+  "usage": {
+    "input_tokens": 6417,
+    "output_tokens": 137
+  },
+  "session_id": "P3_moderate_mid_career__sector_specific__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

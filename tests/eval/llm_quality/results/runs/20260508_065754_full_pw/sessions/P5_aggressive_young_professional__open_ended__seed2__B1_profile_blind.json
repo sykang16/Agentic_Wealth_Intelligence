@@ -1,0 +1,179 @@
+{
+  "session_id": "P5_aggressive_young_professional__open_ended__seed2",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "open_ended",
+  "query": "I'm aiming for FIRE in about 15 years. Am I on the right track with my current allocation?",
+  "seed": 2,
+  "system": "B1_profile_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_97a00a2c",
+      "category": "diversify",
+      "title": "Reduce Technology Concentration and Add Bonds for FIRE Timeline",
+      "summary": "Your portfolio is 65% concentrated in Technology sector, creating excessive risk for a 15-year FIRE goal. Reduce tech exposure to 35-40% and allocate 20-25% to bonds.",
+      "detailed_rationale": "SIGNAL: Your portfolio shows severe sector concentration with 65% in Technology (QQQ, NVDA, TSLA, GOOGL, META, AMZN), which is 2-3x higher than diversified benchmarks and creates correlated downside risk. ALIGNMENT WITH PROFILE: For a 15-year FIRE horizon, you need capital preservation as you approach your target date. The knowledge base emphasizes that 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' A moderate-aggressive allocation for your timeline should include 20-30% bonds. EVIDENCE: (1) Your current allocation has zero bond exposure despite having $162k net worth at risk. (2) The asset allocation guide recommends 'moderate portfolios balance around 50-60% stocks, 30-40% bonds' - you're at 85% equities (50% ETF + 35% stock). (3) Target-date funds automatically become 'more conservative over time' which you're not doing. (4) Tech sector historically experiences 30-50% drawdowns during corrections, and with 15 years until FIRE, you could face 2-3 market cycles. TRADE-OFFS: Bonds will reduce expected returns in bull markets (potentially 2-3% annually), but they provide crucial downside protection. A 40% tech correction would cost you ~$47k in current allocation vs ~$27k with proper diversification. You're sacrificing risk-adjusted returns for raw return chasing.",
+      "tickers": [
+        "BND",
+        "AGG",
+        "VGIT"
+      ],
+      "suggested_action": "Sell 25% of QQQ position (~$22,500) and 30% of individual tech stocks (~$19,000). Invest $41,500 total into intermediate-term bond ETFs (BND or AGG) to establish 20-25% fixed income allocation. This maintains growth potential while adding ballast.",
+      "suggested_allocation_pct": 22.5,
+      "risk_level": "low",
+      "expected_return_range": "4-5% annually for bond component",
+      "time_horizon": "15 years to FIRE, rebalance quarterly",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:23:31.319394",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_00331a42",
+      "category": "diversify",
+      "title": "Add Real Estate Exposure for Income and Inflation Protection",
+      "summary": "Your portfolio lacks real estate entirely. Add 10-15% allocation to REITs (VNQ) for diversification, passive income generation, and inflation hedging aligned with FIRE income needs.",
+      "detailed_rationale": "SIGNAL: You have zero exposure to real estate despite it being a distinct asset class that behaves differently from tech stocks and provides income - crucial for FIRE. Your 10% cash position is likely earning minimal returns and experiencing inflation erosion. ALIGNMENT WITH PROFILE: (1) FIRE requires income generation, and the VNQ factsheet shows it 'invests in REITs that purchase office buildings, hotels, and other properties' which generate dividend income typically 3-4% annually. (2) The knowledge base states 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation' - REITs have ~0.5-0.6 correlation with tech stocks. (3) For a 15-year horizon, real estate provides inflation protection as property values and rents typically rise with inflation. EVIDENCE: (1) VNQ has $35B AUM, 0.12% expense ratio, and 160 holdings providing broad real estate diversification. (2) Your current 'Other' sector allocation is only 10%, leaving room for alternative asset classes. (3) Historical data shows REITs provide 8-10% long-term returns with lower volatility than individual stocks. (4) For FIRE, passive income from dividends reduces sequence-of-returns risk. TRADE-OFFS: REITs are sensitive to interest rate changes and can underperform in rising rate environments. They also have tax implications as dividends are taxed as ordinary income, not qualified dividends. However, the diversification and income benefits outweigh these concerns for a 15-year timeline.",
+      "tickers": [
+        "VNQ"
+      ],
+      "suggested_action": "Reallocate $16,200 (9% of portfolio) from cash reserves into VNQ. Keep 3-6 months emergency fund in cash (~$18,000 remains), using excess cash for this real estate allocation. This adds income generation and sector diversification.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually including dividends",
+      "time_horizon": "15 years, hold long-term for income",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:23:31.319394",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_14232766",
+      "category": "risk_reduction",
+      "title": "Eliminate or Drastically Reduce Cryptocurrency Allocation",
+      "summary": "5% in crypto (BTC) represents excessive volatility risk for FIRE planning. Reduce to 2% maximum or eliminate entirely to improve risk-adjusted returns and portfolio stability.",
+      "detailed_rationale": "SIGNAL: You hold $9,000 (5%) in cryptocurrency, which has 60-80% volatility and no fundamental income generation - incompatible with systematic FIRE withdrawal planning. ALIGNMENT WITH PROFILE: (1) FIRE in 15 years requires predictable accumulation and manageable drawdowns. Bitcoin can drop 50-70% in single years, which would devastate your timeline if it occurs near your retirement date. (2) The knowledge base emphasizes 'diversification is essential for managing risk' but crypto correlation with tech stocks has increased to 0.6-0.7, meaning it doesn't provide true diversification benefits. (3) Traditional conservative-to-moderate portfolios don't include speculative assets, and with your already aggressive 65% tech exposure, crypto amplifies rather than balances risk. EVIDENCE: (1) Your crypto allocation provides no dividends or cash flow, while FIRE requires income generation. (2) Regulatory risk remains high with potential for severe value impairment. (3) The retirement planning guide states 'time in the market often matters more than timing the market' but crypto lacks the 100+ year track record of equities and bonds. (4) A 5% allocation experiencing a 70% drawdown loses $6,300 of capital - money that could compound safely over 15 years to $18,000+ in diversified assets. TRADE-OFFS: You'll miss potential upside if crypto appreciates significantly, but your FIRE goal prioritizes certainty over speculation. The expected value calculation favors reducing this risk. Consider that even 2% gives you exposure to potential upside while limiting downside to manageable levels.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Sell 60% of BTC holdings (~$5,400) and reallocate to VTI to increase broad market exposure. Retain maximum 2% ($3,600) as speculative allocation only if you can tolerate complete loss without impacting FIRE timeline.",
+      "suggested_allocation_pct": 2.0,
+      "risk_level": "high",
+      "expected_return_range": "Highly unpredictable, -50% to +100% annually",
+      "time_horizon": "Immediate reallocation recommended",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:23:31.319394",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_27fd899e",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Advantaged Retirement Account Contributions",
+      "summary": "With $180k in assets but unclear tax-advantaged usage, ensure you're maxing 401(k) ($23,000) and IRA ($7,000) contributions annually to accelerate FIRE through tax savings and compound growth.",
+      "detailed_rationale": "SIGNAL: Your portfolio snapshot doesn't indicate what percentage is held in tax-advantaged vs taxable accounts, suggesting potential missed opportunities. With FIRE in 15 years, tax optimization is critical for accumulation velocity. ALIGNMENT WITH PROFILE: (1) The retirement planning guide explicitly states 'maximize contributions to 401(k)s, IRAs, and Roth accounts. These vehicles provide tax benefits that accelerate wealth building. For 2024, 401(k) limits are $23,000.' (2) 'Always contribute enough to capture the full employer match in your 401(k). This is essentially free money with an immediate 100% return.' (3) For a 15-year FIRE horizon, you need approximately $1.2-1.5M assuming 4% safe withdrawal rate ($48-60k annual income). At current $162k net worth, you need 13-15% annual returns OR aggressive savings in tax-advantaged accounts to reach this goal. EVIDENCE: (1) Tax-deferred growth means every $23,000 401(k) contribution saves ~$5,000-7,000 in current taxes (assuming 22-30% bracket), which can be reinvested. (2) Over 15 years at 8% returns, maxing 401(k) and IRA ($30,000 annually) generates $870,000 vs $650,000 in taxable accounts after taxes - a $220,000 difference. (3) Your current holdings in tech stocks (TSLA, NVDA, GOOGL, META, AMZN) likely generate taxable events if held in taxable accounts. (4) Roth conversions during lower-income years could provide tax-free income in FIRE. TRADE-OFFS: Money in traditional 401(k)/IRA is locked until 59.5 (though Roth conversion ladders and 72(t) distributions provide FIRE access). You'll need taxable savings for the bridge period, but the tax savings and compound growth far outweigh liquidity constraints.",
+      "tickers": [],
+      "suggested_action": "Verify you're contributing $23,000 to 401(k) and $7,000 to IRA annually ($30,000 total). If not maxing, increase contributions immediately. Consider Roth 401(k) or Roth IRA for tax-free growth. Move existing individual stocks from taxable to IRA accounts if possible to defer capital gains. Calculate your required savings rate: with 15 years to reach $1.5M from $162k, you need to save ~$35,000 annually at 8% returns.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Guaranteed tax savings of 22-30% plus compound growth benefit",
+      "time_horizon": "Immediate action, sustain for 15 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:23:31.319394",
+      "composite_score": 0.0
+    }
+  ]
+}

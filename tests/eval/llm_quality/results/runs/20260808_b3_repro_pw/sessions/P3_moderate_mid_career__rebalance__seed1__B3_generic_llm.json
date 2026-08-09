@@ -1,0 +1,110 @@
+{
+  "session_id": "P3_moderate_mid_career__rebalance__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "rebalance",
+  "query": "My tech exposure is around 35% across my ETFs and individual stocks. Is that too concentrated, and how would I trim it?",
+  "seed": 1,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "rebalance",
+      "title": "Reduce Technology Sector Concentration from 35% to 20-25%",
+      "summary": "Your 35% technology allocation is significantly above the S&P 500's ~30% tech weighting and creates concentration risk. Trim individual tech holdings and rebalance toward broader diversification.",
+      "detailed_rationale": "With $160,000 in ETFs and $64,000 in individual stocks (totaling $224,000 invested), approximately $78,400 is in technology. This 35% concentration exceeds prudent diversification guidelines for a moderate risk investor with dual high-priority goals requiring stability. The overlap between your tech-heavy ETFs (VTI includes 30%+ tech) and concentrated individual tech holdings (AAPL, MSFT, NVDA, GOOGL) creates redundant exposure. A 10-15 percentage point reduction would better align with your moderate risk tolerance and 10-year education funding timeline, where a tech downturn could significantly impact goal achievement. Recommended target: 20-25% technology allocation.",
+      "tickers": [
+        "NVDA",
+        "GOOGL",
+        "AAPL"
+      ],
+      "suggested_action": "Sell 50-75% of NVDA and GOOGL positions; reduce AAPL by 25-30%. Retain MSFT as core holding given quality and diversified revenue streams.",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Improved risk-adjusted returns through diversification; reduced portfolio volatility by 15-20%",
+      "time_horizon": "immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:24:39.540717",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "diversify",
+      "title": "Redeploy Proceeds into Underweighted Defensive and International Sectors",
+      "summary": "Use proceeds from tech trimming (~$15,000-20,000) to build positions in consumer staples, utilities, and increase international exposure via VXUS.",
+      "detailed_rationale": "Your portfolio lacks defensive positioning with no allocation to consumer staples, utilities, or real estate - sectors that provide stability during market downturns. With a 10-year education funding goal, you need downside protection as that timeline approaches. Your VXUS international exposure appears limited given it represents only a portion of your 50% ETF allocation. Increasing VXUS and adding sector-specific ETFs (VDC for consumer staples, VPU for utilities) would reduce correlation to tech volatility. This diversification is particularly important given your stable income and intermediate experience level - you have the capacity to hold through volatility but need structural portfolio resilience.",
+      "tickers": [
+        "VXUS",
+        "VDC",
+        "VPU"
+      ],
+      "suggested_action": "Increase VXUS by $8,000-10,000; add $5,000-7,000 to consumer staples ETF (VDC); consider $3,000-5,000 in utilities (VPU).",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "low",
+      "expected_return_range": "6-9% annualized with lower volatility; improved Sharpe ratio",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:24:39.540717",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "hold",
+      "title": "Maintain Core ETF Holdings and 30% Bond Allocation",
+      "summary": "Your foundation of VTI, VXUS, and BND provides excellent diversified exposure. Keep 30% bonds given your dual goals and moderate risk profile.",
+      "detailed_rationale": "Your 30% bond allocation via BND is appropriate for a 40-year-old with moderate risk tolerance and a critical 10-year education funding goal. This provides stability and reduces portfolio beta during equity downturns. VTI offers comprehensive US equity exposure (though tech-heavy), and VXUS provides international diversification. The 50% ETF / 20% individual stock / 30% bond split is reasonable, though after rebalancing the individual stock portion should decrease to 12-15%. As you approach the education funding deadline in 6-7 years, consider gradually increasing bond allocation to 40% to protect accumulated gains. Your $175,000 income and stable employment support continuing equity exposure for the retirement goal.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "BND"
+      ],
+      "suggested_action": "Hold current ETF positions. Review bond allocation annually and increase by 2% per year starting in year 7 as education goal approaches.",
+      "suggested_allocation_pct": 65.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annualized for equity portion; 3-5% for bonds",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:24:39.540717",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "tax_optimization",
+      "title": "Implement Tax-Loss Harvesting on Tech Positions If Applicable",
+      "summary": "When trimming tech holdings, check for positions with unrealized losses to harvest tax benefits and offset gains from other sales.",
+      "detailed_rationale": "Given recent tech sector volatility, some of your individual holdings (particularly NVDA or GOOGL if purchased at higher levels) may have unrealized losses. When executing the recommended tech reduction, prioritize selling positions with losses first to generate capital losses that can offset gains from other sales. You can harvest up to $3,000 annually against ordinary income. With your $175,000 income, you're likely in the 24% federal tax bracket, making tax-loss harvesting valuable. If selling winners, ensure you've held positions over 12 months for preferential long-term capital gains rates (15-20% vs ordinary income rates). Consider wash-sale rules - don't repurchase identical securities within 30 days. Your intermediate experience and stable finances support implementing this optimization strategy.",
+      "tickers": [
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Review cost basis before selling. Harvest losses where available; hold winners beyond 1-year mark if close to long-term treatment.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Potential tax savings of $1,000-3,000 depending on positions",
+      "time_horizon": "immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:24:39.540717",
+      "composite_score": 0.0
+    }
+  ]
+}

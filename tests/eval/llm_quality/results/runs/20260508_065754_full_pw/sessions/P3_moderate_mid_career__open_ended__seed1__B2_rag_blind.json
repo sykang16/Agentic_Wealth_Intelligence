@@ -1,0 +1,158 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "query": "I'm 40 with two kids heading to college in about 10 years. How should I balance saving for their education versus retirement?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_8bdd2343",
+      "category": "diversify",
+      "title": "Establish Dedicated 529 College Savings Allocation",
+      "summary": "Create a separate 529 plan allocation with a conservative glide path to protect education funds as college approaches in 10 years.",
+      "detailed_rationale": "Signal: Your portfolio shows no dedicated education savings vehicle despite a high-priority $200,000 college funding goal just 10 years away. Currently, 100% of your assets appear commingled without goal-specific allocation. Step-by-step reasoning: (1) With children entering college in ~10 years, you need a time-bounded, tax-advantaged vehicle that shifts toward capital preservation as the goal approaches. (2) Your moderate risk tolerance and 6/10 loss comfort suggest you can accept some volatility now, but the 10-year horizon requires a glide path strategy - starting at 70% equity/30% fixed income now, shifting to 40% equity/60% fixed income by year 8. (3) Analysis: At your current net worth of $140,000, allocating $50,000-60,000 (approximately 36-43% of net worth) to education now, with $1,500/month contributions, projects to $185,000-210,000 in 10 years at 6% returns, meeting your $200,000 target. (4) Evidence from your profile: You have stable income ($175,000), low debt, and emergency fund already established, providing capacity for dedicated education savings. Your remaining assets ($80,000-90,000 net worth) plus continued retirement contributions can still compound for 25 years. Trade-off: Front-loading education savings reduces current retirement accumulation during your peak earning years (ages 40-50), but the math favors this approach - retirement has 25 years to compound versus 10 for education. The alternative of borrowing for education would cost 6-8% in loan interest versus earning potential in retirement accounts.",
+      "tickers": [
+        "VXUS",
+        "BND"
+      ],
+      "suggested_action": "Open a 529 plan and transfer $55,000 from your current holdings (sell proportionally: $27,500 from VTI, $11,000 from tech stocks, $16,500 from BND). Invest in an age-based 529 portfolio for a child entering college in 2034. Commit to $1,500/month contributions going forward, split between 529 and retirement accounts at a 60/40 ratio initially, shifting to 40/60 by year 5.",
+      "suggested_allocation_pct": 39.3,
+      "risk_level": "moderate",
+      "expected_return_range": "5-7% annually, declining to 3-4% as glide path shifts to bonds",
+      "time_horizon": "10 years with automatic rebalancing toward capital preservation",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T11:53:28.737008",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_64e47413",
+      "category": "rebalance",
+      "title": "Reduce Technology Overconcentration to Manage Portfolio Risk",
+      "summary": "Technology represents 35% of your portfolio - significantly overweight relative to market benchmarks. Trim individual tech holdings and rebalance into underweighted sectors.",
+      "detailed_rationale": "Signal: Your sector allocation shows extreme concentration in Technology at 35%, while you hold both broad market ETFs (VTI, VXUS) and individual tech stocks (AAPL, MSFT, NVDA, GOOGL). This creates problematic double exposure. Step-by-step reasoning: (1) The S&P 500 technology weighting is approximately 28-30%, meaning you're ~5-7 percentage points overweight. More importantly, VTI already provides ~28% tech exposure, and you're layering individual tech stocks on top, creating concentration risk inconsistent with moderate risk tolerance. (2) Your profile indicates intermediate investment experience and moderate risk tolerance with 6/10 loss comfort. Technology sector volatility is approximately 1.3-1.5x broader market volatility. During market corrections, tech can decline 35-50% (as seen in 2022 when NASDAQ fell 33% versus S&P's 18%). With dual high-priority goals requiring capital in 10 and 25 years, you cannot afford sector-specific drawdowns. (3) Supporting evidence: Your individual tech holdings (AAPL, MSFT, NVDA, GOOGL) represent approximately 7% of portfolio value (20% stock allocation likely split between these four). These four stocks alone have correlation coefficients of 0.65-0.85 with each other - they move together in both directions, providing minimal diversification benefit. (4) Current underweights based on your allocation: Real Estate (0% vs 3% market weight), Utilities (within 'Other' but likely minimal vs 2.5% market weight), Materials (within 'Other' but underrepresented vs 2.5% market weight). Trade-off: Technology has delivered superior returns over the past decade (15%+ annualized) and trimming exposure means potentially lower returns if tech outperformance continues. However, risk-adjusted returns and downside protection are more appropriate for your moderate profile and approaching education goal timeline.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "VNQ"
+      ],
+      "suggested_action": "Sell 50% of individual tech stock positions (NVDA and GOOGL entirely, reduce AAPL and MSFT by 50%). This reduces tech from 35% to approximately 28% of portfolio. Redeploy proceeds as follows: $8,000 into VNQ (Vanguard Real Estate ETF) for real estate exposure, $8,000 into VXUS to increase international diversification (currently underweighted), and $8,000 into additional BND or short-term treasury ETF (VGSH) to strengthen fixed income allocation for education goal stability.",
+      "suggested_allocation_pct": -7.0,
+      "risk_level": "low",
+      "expected_return_range": "Reduces portfolio volatility by 8-12%, modest return impact of -0.5 to -1.0% annually if tech continues outperforming",
+      "time_horizon": "Immediate rebalancing, review quarterly",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T11:53:28.737008",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_9d9e12f5",
+      "category": "tax_optimization",
+      "title": "Implement Tax-Loss Harvesting and Asset Location Strategy",
+      "summary": "Optimize which investments are held in taxable versus tax-advantaged accounts to minimize tax drag and maximize after-tax returns over your dual time horizons.",
+      "detailed_rationale": "Signal: Your profile shows intermediate investment experience and stable high income ($175,000), placing you likely in the 24% federal tax bracket, plus state taxes. Without information about which accounts hold which assets, there's likely suboptimal asset location costing 0.5-1.5% annually in tax drag. Step-by-step reasoning: (1) Asset location matters significantly at your income level. Bonds generate ordinary income taxed at your marginal rate (potentially 24-32% combined federal/state), while qualified dividends and long-term capital gains receive preferential 15% rates. ETFs like VTI distribute 1.5-2% dividends annually, VXUS distributes 2-3%, and BND distributes 2.5-3.5% as ordinary income. On $96,000 in bonds (30% of $320,000), suboptimal location costs approximately $700-1,000 annually in excess taxes. (2) Your dual goals create specific tax optimization opportunities: Education savings in 529 plans grow tax-free and distribute tax-free for qualified expenses - highest-growth assets should go here. Retirement accounts defer taxes - tax-inefficient assets (bonds, REITs, international stocks with foreign tax complications) belong here. Taxable accounts should hold tax-efficient assets (VTI, individual stocks for loss harvesting and long-term capital gains treatment). (3) Specific strategy alignment with your profile: You have 25 years until retirement, maximizing the compounding benefit of tax deferral. With moderate risk tolerance and stable income, you can withstand the tax management complexity. Your intermediate experience means you can execute tax-loss harvesting during market volatility - selling positions at losses to offset gains and reduce taxable income, then purchasing similar (but not substantially identical) securities to maintain market exposure. (4) Evidence from market conditions: Current interest rates of 4.5-5.5% make bond income particularly tax-inefficient. A $96,000 bond position generating 3.5% yield produces $3,360 annual income. In taxable accounts at 28% combined rate, you lose $940 to taxes. In tax-deferred accounts, this compounds fully. Trade-off: Tax-loss harvesting requires active monitoring and creates tracking complexity. You may accumulate wash-sale restrictions requiring 30-day waiting periods. Asset location optimization requires coordination across multiple account types and rebalancing becomes more complex.",
+      "tickers": [
+        "BND",
+        "VXUS",
+        "VTI"
+      ],
+      "suggested_action": "Priority 1: Ensure all bond holdings (BND - $96,000) are held exclusively in tax-deferred retirement accounts (401k, traditional IRA). Priority 2: Hold VXUS in retirement accounts to recapture foreign tax credits more effectively. Priority 3: Hold VTI and individual stocks in taxable accounts for tax-loss harvesting opportunities and long-term capital gains treatment. Priority 4: Place highest-growth allocation (target date 2034 fund or equity-heavy 529 portfolio) in 529 accounts to maximize tax-free compounding. Immediate action: Review current account allocation and transfer/exchange as needed during year-end tax planning window. Set calendar reminder for December 2025 to review positions for tax-loss harvesting opportunities.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "No return impact, but saves 0.5-1.5% annually in tax drag ($700-2,100/year on current portfolio), compounding to $25,000-75,000 over 25 years",
+      "time_horizon": "Immediate implementation, ongoing annual management",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T11:53:28.737008",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_85d64541",
+      "category": "income_generation",
+      "title": "Increase Retirement Contribution Rate to Maximize Employer Match and Tax Benefits",
+      "summary": "Leverage your stable $175,000 income to maximize 401(k) contributions, capturing full employer match and reducing current tax burden while building retirement assets.",
+      "detailed_rationale": "Signal: Your portfolio shows $320,000 total assets with $140,000 net worth at age 40, targeting $2.5M for retirement in 25 years. Current trajectory analysis: To reach $2.5M from $140,000 in 25 years requires approximately 12.5% compound annual returns (unrealistic) OR significant additional contributions. At 7% real returns, you need approximately $2,800-3,200/month in total retirement savings to reach your goal. Step-by-step reasoning: (1) Your income of $175,000 with monthly expenses of $9,500 ($114,000 annually) leaves approximately $61,000 before-tax annual surplus. Federal tax at 24% bracket reduces this by ~$14,640, leaving roughly $46,400 after-tax discretionary income. You have capacity to save significantly more than current trajectory suggests. (2) Alignment with moderate risk profile: Consistent dollar-cost averaging through payroll contributions reduces timing risk and smooths volatility - perfect for moderate risk tolerance. Automated contributions ensure discipline regardless of market conditions, preventing emotional decision-making during downturns (important given your 6/10 loss comfort). (3) Specific calculation for your situation: 401(k) contribution limit for 2024 is $23,000. If your employer offers typical 50% match up to 6% of salary, that's $5,250 in free money annually (6% of $175,000 = $10,500 \u00d7 50% = $5,250). Many product managers receive this benefit. Total potential: $28,250 annually in retirement accounts. Add backdoor Roth IRA contribution of $7,000 for both you and spouse (if married) = $14,000 more. Total retirement savings potential: $42,250 annually. (4) Evidence from your profile: You have stable income, low debt, and established emergency fund - all prerequisites for maximizing retirement contributions. Your intermediate experience means you understand tax-advantaged account benefits. Math check: $42,250 annually growing at 7% real returns, starting from $90,000 retirement portion (estimated from your $140,000 net worth minus education allocation) = $2.48M in 25 years, nearly meeting your $2.5M goal. Trade-off: Maximizing pre-tax 401(k) contributions reduces current take-home pay and lifestyle flexibility. However, tax savings of $5,520-7,360 annually (24-32% of $23,000) partially offset this. You'll have less accessible cash for non-retirement goals, but proper education funding through 529 mitigates this concern.",
+      "tickers": [],
+      "suggested_action": "Immediate: Increase 401(k) contribution to maximum $23,000 annually (approximately 13.1% of gross income, or $1,917/month pre-tax). Verify employer match policy and ensure you're capturing full match (typically requires 6% employee contribution minimum). Secondary: Open and fund backdoor Roth IRA contributions ($7,000 annually for you, $7,000 for spouse if married filing jointly). This adds tax-free growth for retirement distributions. Implementation: Contact HR/payroll to increase 401(k) withholding percentage. Most employers allow immediate changes. Aim for completion by your next pay period. Set up automatic annual increases of 1-2% each January to scale with expected raises.",
+      "suggested_allocation_pct": 13.1,
+      "risk_level": "low",
+      "expected_return_range": "7-9% annually in diversified retirement portfolio (VTI-equivalent allocation), plus immediate 50-100% return on employer match portion",
+      "time_horizon": "25 years until retirement, with immediate implementation",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T11:53:28.737008",
+      "composite_score": 0.0
+    }
+  ]
+}

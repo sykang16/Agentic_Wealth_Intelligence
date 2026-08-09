@@ -1,0 +1,11 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed2",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "open_ended",
+  "query": "Given my variable income from consulting, how should I think about cash buffers versus staying fully deployed?",
+  "seed": 2,
+  "system": "A_gated_040",
+  "rag_diagnostics": {},
+  "rec_count": 0,
+  "recommendations": []
+}

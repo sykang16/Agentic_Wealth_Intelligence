@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A directly answers the user's question about healthcare/utilities overweight with a clear hold recommendation that respects the conservative, short-horizon, high-liquidity profile, and uses accurate expense figures ($4,200/mo). System B recommends shifting into broad equity ETFs with a 5+ year horizon and moderate risk level, which contradicts the user's short horizon and conservative tolerance, and miscalculates expenses ($10,000/month) \u2014 weakening risk alignment and factual grounding.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A directly answers the user's question about healthcare/utilities overweight with a clear hold recommendation that respects the conservative, short-horizon, high-liquidity profile, and uses accurate expense figures ($4,200/mo). System B recommends shifting into broad equity ETFs with a 5+ year horizon and moderate risk level, which contradicts the user's short horizon and conservative tolerance, and miscalculates expenses ($10,000/month) \u2014 weakening risk alignment and factual grounding."
+  },
+  "usage": {
+    "input_tokens": 12640,
+    "output_tokens": 297
+  },
+  "session_id": "P1_conservative_retiree__sector_specific__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

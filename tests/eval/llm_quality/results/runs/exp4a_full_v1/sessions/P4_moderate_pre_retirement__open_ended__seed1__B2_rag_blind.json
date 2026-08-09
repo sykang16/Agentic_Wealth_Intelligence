@@ -1,0 +1,168 @@
+{
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "open_ended",
+  "query": "I'm 10 years from retirement. Should I start de-risking now and how aggressively?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rag_diagnostics": {
+    "top_score": 0.0,
+    "num_hits": 0,
+    "gated": false,
+    "threshold": null
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_208ddc69",
+      "category": "rebalance",
+      "title": "Initiate Gradual Glide Path: Shift 10% from Equities to Bonds Over Next 12 Months",
+      "summary": "Begin systematic de-risking by moving from 55% equities to 45% equities, increasing bond allocation to support your 10-year retirement timeline while maintaining growth potential.",
+      "detailed_rationale": "Signal: You are exactly 10 years from retirement with a moderate risk profile and $1.8M retirement target. Your current equity allocation (55% = 40% ETF + 15% stock) is appropriate for growth but should begin transitioning toward capital preservation. Step-by-step reasoning: (1) At 55 with a 10-year horizon, standard glide path models suggest reducing equity exposure by approximately 1% per year, targeting 45-50% equities by age 60, then 30-40% by retirement at 65. (2) Your moderate risk tolerance (loss comfort: 5/10) and stable income ($220k annually) provide capacity to absorb near-term volatility while protecting accumulated wealth. (3) Your current net worth of $755k needs to grow to $1.8M\u2014requiring roughly 9% annual returns. A 45% equity / 55% fixed income allocation historically yields 6-8% returns with lower volatility than your current mix. (4) Evidence from portfolio: You hold quality core positions (VTI, VXUS, BND) that are appropriate building blocks. Your Healthcare sector overweight (22%) and individual stock positions (JNJ, UNH, JPM, BRK.B) representing 15% create concentration risk as you near retirement. Trade-off: Reducing equity exposure now means potentially lower returns if markets rally strongly over the next 2-3 years, but this is offset by significantly reduced sequence-of-returns risk\u2014the primary threat to portfolios in the decade before retirement. The gradual approach (10% over 12 months) allows you to dollar-cost-average the transition and avoid poorly-timed lump-sum moves.",
+      "tickers": [
+        "VTI",
+        "BND",
+        "VXUS"
+      ],
+      "suggested_action": "Sell $85,000 worth of equity positions (reduce VTI by $50,000 and VXUS by $35,000) over the next 12 months in quarterly $21,250 increments. Simultaneously purchase BND or add intermediate-term Treasury bonds to increase fixed income allocation from 35% to 45%.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "6-8% annually",
+      "time_horizon": "Execute over 12 months; reassess annually until retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:17:14.638965",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_fd4934e6",
+      "category": "diversify",
+      "title": "Reduce Healthcare Concentration and Individual Stock Exposure",
+      "summary": "Healthcare represents 22% of portfolio (target should be 12-15% for diversification). Trim JNJ and UNH positions by 40% and reallocate to diversified bond ladder or dividend-focused funds.",
+      "detailed_rationale": "Signal: Sector analysis reveals Healthcare at 22% is significantly overweight relative to S&P 500 (~13%) and creates single-sector concentration risk inappropriate for someone entering the retirement red zone. Step-by-step reasoning: (1) Your individual stock holdings (JNJ, UNH, JPM, BRK.B) comprise 15% of portfolio, and JNJ+UNH likely represent 8-10% given Healthcare overweight. Single-stock risk increases dramatically as retirement approaches\u2014one adverse event (regulatory changes, patent expirations, Medicare reimbursement cuts) could materially impact your retirement readiness. (2) With moderate risk tolerance and 10-year horizon, you need predictable, lower-volatility income sources. Healthcare stocks, while historically stable, face significant policy uncertainty and demographic shifts. (3) Your advanced investment experience means you understand that diversification isn't just about asset classes but also about reducing idiosyncratic risk. Evidence: Even quality Healthcare names like JNJ have faced litigation risks (talc, opioid settlements) that created 15-20% drawdowns. (4) Your retirement goal requires $80-100k annual income in 10 years. Building a bond ladder or dividend portfolio now with the proceeds creates predictable income streams and reduces reinvestment risk. Trade-off: Healthcare has strong long-term fundamentals with aging demographics, and JNJ/UNH are quality dividend payers. Trimming now means foregoing potential appreciation and reliable dividend growth. However, the concentration risk and volatility reduction outweigh this, especially given your timeline. You can maintain Healthcare exposure through your VTI and sector diversification.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "BND",
+        "VGIT"
+      ],
+      "suggested_action": "Reduce JNJ and UNH positions by 40% (approximately $30,000-35,000 total). Reallocate proceeds to: (1) $20,000 into BND for immediate diversification, (2) $15,000 into VGIT (Vanguard Intermediate-Term Treasury ETF) to begin building a bond ladder with defined maturity dates aligned to retirement income needs.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5% annually from bond positions",
+      "time_horizon": "Execute over 3-6 months; complete before age 56",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:17:14.638965",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_338bfdaa",
+      "category": "income_generation",
+      "title": "Establish Retirement Income Foundation with Dividend Aristocrats ETF",
+      "summary": "Add 5% allocation to dividend growth ETF (NOBL or VIG) to build sustainable income stream that can grow with inflation and support retirement cash flow needs.",
+      "detailed_rationale": "Signal: Your retirement goal explicitly requires $80-100k annual income in 10 years (approximately $6,700-8,300 monthly), but your current portfolio lacks a dedicated income-generation strategy beyond bond interest. Step-by-step reasoning: (1) At $1.8M target portfolio size, you'll need 4.4-5.6% withdrawal rate to generate target income\u2014this is at the upper end of safe withdrawal rates (4% rule) and creates sequence risk. Building dividend income now creates a buffer and reduces forced selling in down markets. (2) Your moderate risk profile and medium liquidity needs indicate you can tolerate some equity exposure specifically earmarked for income rather than pure growth. Dividend growth stocks historically provide 2-3% yields that grow 5-7% annually, outpacing inflation while providing lower volatility than growth stocks. (3) You currently hold dividend payers (JNJ, PG, JPM, BRK.B) but these are concentrated positions. A dividend ETF provides diversification across 40-60 companies with proven 25+ year dividend growth records. Evidence: NOBL (ProShares S&P 500 Dividend Aristocrats) yields ~2.2% with 10-year dividend growth of 8.4% annually, matching your inflation-adjusted income needs. (4) This complements your glide path strategy\u2014dividend stocks typically exhibit 20-30% lower volatility than market during downturns while maintaining equity upside. Your stable $220k income and advanced experience mean you won't panic-sell during dividend cuts or market stress. Trade-off: Adding equity-based income now (rather than pure bonds) maintains some market risk. However, dividend aristocrats have significantly outperformed in pre-retirement periods due to their quality bias and defensive characteristics. The 5% allocation is sized appropriately for moderate risk tolerance and provides optionality\u2014you can harvest dividends for income or reinvest for growth depending on market conditions over the next decade.",
+      "tickers": [
+        "NOBL",
+        "VIG"
+      ],
+      "suggested_action": "Allocate $42,500 (5% of portfolio) to NOBL (ProShares S&P 500 Dividend Aristocrats ETF) or VIG (Vanguard Dividend Appreciation ETF). Fund this by reducing VTI position by $42,500, which maintains overall equity allocation while shifting toward lower-volatility, income-focused equities. Set dividends to reinvest automatically for the next 5 years, then switch to cash distribution at age 60 to begin building retirement income habit.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-9% total return (2-2.5% yield + 5-7% growth)",
+      "time_horizon": "10-year hold through retirement; income production begins in 5 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:17:14.638965",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_f6c3ab02",
+      "category": "risk_reduction",
+      "title": "Increase Cash/Money Market Allocation from 5% to 8% for Sequence-of-Returns Protection",
+      "summary": "Boost cash reserves to 8% ($68,000) to create 6-month expense buffer and provide liquidity during the critical retirement transition period without forced equity sales.",
+      "detailed_rationale": "Signal: Your current 5% cash allocation ($42,500) covers approximately 3.8 months of expenses ($11,000 monthly). While you have an emergency fund, the decade before retirement requires enhanced liquidity to prevent sequence-of-returns risk\u2014the danger of selling equities during a downturn to meet living expenses. Step-by-step reasoning: (1) Research shows the 5-year period before and after retirement is the most critical for portfolio longevity. Market downturns during this window can permanently impair retirement outcomes. Having 6+ months expenses in cash means you can avoid selling depreciated assets during corrections. (2) Your medium liquidity needs and stable income ($220k annually) suggest current income can cover expenses, but increasing cash now builds flexibility for potential job transitions, early retirement opportunities, or healthcare costs as you approach 65. (3) With interest rates on money market funds currently in the 4.5-5.0% range, cash is no longer a drag on returns\u2014it's generating real return while providing optionality. Evidence: A $68,000 money market position at 4.8% yields $3,264 annually with zero volatility, comparable to short-term bond returns without duration risk. (4) Your moderate risk tolerance (loss comfort: 5/10) indicates you value stability and would benefit psychologically from knowing you have substantial liquid reserves as retirement approaches. This allocation allows you to stay invested in your long-term strategy without panic-selling during inevitable market volatility. Trade-off: Increasing cash to 8% means $25,500 that isn't fully invested in growth assets, creating opportunity cost if markets rally strongly. However, the insurance value is substantial\u2014sequence risk can destroy 20-30% of retirement wealth in adverse scenarios. The 3% increase (from 5% to 8%) is conservative and appropriate given your timeline. You can reassess at age 60 and potentially reduce if circumstances warrant.",
+      "tickers": [
+        "VUSXX",
+        "VMFXX"
+      ],
+      "suggested_action": "Increase cash/money market allocation by $25,500 to reach 8% total ($68,000). Fund this by selling $25,500 from your mutual fund holdings (currently 5%, $42,500) and redirecting to VUSXX (Vanguard Treasury Money Market) or VMFXX (Vanguard Federal Money Market). This provides 6+ months expense coverage while earning 4.5-5.0% yield in current environment. Maintain this elevated cash level through age 65, then reassess based on actual retirement spending patterns.",
+      "suggested_allocation_pct": 3.0,
+      "risk_level": "low",
+      "expected_return_range": "4.5-5.0% currently (variable with Fed rates)",
+      "time_horizon": "Immediate implementation; maintain through retirement transition",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:17:14.638965",
+      "composite_score": 0.0
+    }
+  ]
+}

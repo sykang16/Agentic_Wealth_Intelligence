@@ -1,0 +1,30 @@
+{
+  "session_id": "P5_aggressive_young_professional__open_ended__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "open_ended",
+  "seed": 1,
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 2,
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more personalized recommendations by explicitly referencing the user's aggressive risk tolerance, loss comfort, and FIRE goal. It also offers more actionable steps with specific allocation percentages and tickers. However, System B better addresses diversification by suggesting a broader range of sectors and international exposure.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more personalized recommendations by explicitly referencing the user's aggressive risk tolerance, loss comfort, and FIRE goal. It also offers more actionable steps with specific allocation percentages and tickers. However, System B better addresses diversification by suggesting a broader range of sectors and international exposure."
+  },
+  "usage": {
+    "input_tokens": 7237,
+    "output_tokens": 150
+  }
+}

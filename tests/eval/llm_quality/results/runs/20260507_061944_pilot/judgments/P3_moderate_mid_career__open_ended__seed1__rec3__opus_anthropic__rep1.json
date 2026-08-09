@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 3,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes (income $175k, expenses, 25-year horizon, $2.5M retirement goal, intermediate experience, stable income, medium liquidity, emergency fund) and causally links them to the recommendation.\",\n    \"C2\": \"risk_level 'low' is reasonable for a tax-optimization action and aligns with moderate tolerance broadly, but the rationale does not explicitly justify the risk fit relative to the user's moderate tolerance.\",\n    \"C3\": \"Most claims (income, expenses, goals) are traceable; the 24% bracket and $5,520 tax-savings figure are reasonable estimates, and the $23,000 401(k) limit is a minor dated/generic figure but not central fabrication.\",\n    \"C4\": \"Provides concrete dollar targets ($23,000 401(k), $7,000 backdoor Roth, ~$18-20k to 529), a clear first step (verify current contribution rate), percentages, and time-bound annual cadence.\",\n    \"C5\": \"Recommendation is allocation-neutral with respect to portfolio sector/asset diversification and does not address the existing 35% Technology overweight, but it does not worsen it either.\",\n    \"C6\": \"Uses calibrated language ('consider', 'if eligible', 'potentially'), no guaranteed-return framing, and presents trade-offs explicitly.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 3,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes (income $175k, expenses, 25-year horizon, $2.5M retirement goal, intermediate experience, stable income, medium liquidity, emergency fund) and causally links them to the recommendation.",
+      "C2": "risk_level 'low' is reasonable for a tax-optimization action and aligns with moderate tolerance broadly, but the rationale does not explicitly justify the risk fit relative to the user's moderate tolerance.",
+      "C3": "Most claims (income, expenses, goals) are traceable; the 24% bracket and $5,520 tax-savings figure are reasonable estimates, and the $23,000 401(k) limit is a minor dated/generic figure but not central fabrication.",
+      "C4": "Provides concrete dollar targets ($23,000 401(k), $7,000 backdoor Roth, ~$18-20k to 529), a clear first step (verify current contribution rate), percentages, and time-bound annual cadence.",
+      "C5": "Recommendation is allocation-neutral with respect to portfolio sector/asset diversification and does not address the existing 35% Technology overweight, but it does not worsen it either.",
+      "C6": "Uses calibrated language ('consider', 'if eligible', 'potentially'), no guaranteed-return framing, and presents trade-offs explicitly."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6203,
+    "output_tokens": 575
+  },
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "rec_index": 3,
+  "rec_id": "rec_c1b0d4ed",
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,176 @@
+{
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "rebalance",
+  "query": "Walk me through a year-by-year glide path that gradually shifts my allocation over the next decade.",
+  "seed": 2,
+  "system": "A_gated_045",
+  "rag_diagnostics": {
+    "top_score": 0.363,
+    "num_hits": 2,
+    "gated": true,
+    "threshold": 0.45
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_111c22ef",
+      "category": "rebalance",
+      "title": "Implement 10-Year Retirement Glide Path Starting Now",
+      "summary": "Shift from 60% equity/35% bonds to a progressive allocation that reaches 40% equity/55% bonds by age 65, with annual rebalancing checkpoints to reduce portfolio volatility as retirement approaches.",
+      "detailed_rationale": "Signal: You are 55 with a 10-year retirement horizon and $755K net worth targeting $1.8M, requiring ~9% annualized growth while managing downside risk. Your current 60% equity (40% ETF + 15% stock + 5% mutual fund) / 35% bond allocation is appropriate for today but needs systematic de-risking. Step-by-step reasoning: (1) At age 55, moderate risk tolerance with loss comfort of 5/10 indicates you can accept temporary volatility but cannot afford a major drawdown close to retirement - a 2008-style 40% equity decline would derail your timeline. (2) Your stable $220K income and low debt provide capacity to maintain equity exposure now, but this advantage disappears at retirement when you'll need portfolio income. (3) Academic research (target-date fund methodologies) supports reducing equity by 2-2.5% annually in the decade before retirement, moving from 60% to 40% equity. (4) Your current portfolio shows VTI, VXUS, and individual stocks - the glide path maintains diversification while shifting weight to BND and adding intermediate-term bond funds. Year-by-year targets: Age 55 (now): 60/35/5, Age 56: 58/37/5, Age 57: 56/39/5, Age 58: 54/41/5, Age 59: 52/43/5, Age 60: 50/45/5, Age 61: 47/48/5, Age 62: 45/50/5, Age 63: 42/53/5, Age 64: 40/55/5, Age 65: 40/55/5. Execute rebalancing annually each January using new contributions first, then selling equity gains to minimize tax impact. Main trade-off: Reducing equity exposure sacrifices potential upside returns (historical equity premium of 4-6% over bonds) but essential for capital preservation and sequence-of-returns risk management in your retirement red zone.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "BND",
+        "VBTLX",
+        "BNDX"
+      ],
+      "suggested_action": "Execute first rebalancing within 60 days: reduce equity allocation from 60% to 58% ($15,100 shift) by directing new contributions to BND and adding international bond exposure (BNDX) at 3% allocation. Set calendar reminder for January 2026 to review and rebalance to 56/39/5 target. Document target allocations for each year through age 65.",
+      "suggested_allocation_pct": 2.0,
+      "risk_level": "low",
+      "expected_return_range": "4.5-6.5% annually over 10 years (declining as bonds increase)",
+      "time_horizon": "10-year systematic glide path through age 65",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:36:35.460784",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_17b3c0b3",
+      "category": "diversify",
+      "title": "Reduce Healthcare Concentration to 15% and Rebalance Sector Exposure",
+      "summary": "Healthcare represents 22% of your portfolio (nearly double the S&P 500 weight of ~13%), creating unnecessary sector concentration risk. Trim JNJ and UNH positions while increasing technology and consumer discretionary exposure to align with market weights.",
+      "detailed_rationale": "Signal: Sector analysis reveals 22% healthcare allocation versus market benchmark of ~13%, representing a 9-percentage-point overweight that increases idiosyncratic risk without commensurate return benefit. Step-by-step reasoning: (1) Your holdings JNJ and UNH are quality companies, but combined with healthcare exposure in VTI creates redundant concentration - if healthcare underperforms due to regulatory changes (Medicare negotiations, drug pricing reforms) or sector rotation, you face amplified losses. (2) With moderate risk tolerance and advanced investment experience, you understand diversification principles - this overweight contradicts efficient portfolio construction. (3) Current market data shows technology sector has outperformed healthcare by 180 basis points annually over 3 years, and your 18% tech weight is below market benchmark of ~28%. (4) For a 55-year-old approaching retirement, sector bets should decrease, not increase - you need market-like exposure with VTI doing the heavy lifting. Recommendation: Reduce healthcare to 15% by selling 30% of your JNJ and UNH positions (~$53,000 combined), reallocating to QQQ or VGT (technology ETF) at $30,000 and VCR (consumer discretionary ETF) at $23,000. This brings tech to 21%, consumer discretionary to 3%, and healthcare to 15%. Main trade-off: JNJ and UNH provide reliable dividend income (2.9% and 1.3% yields respectively), which you'll partially sacrifice. However, reduced concentration risk and better sector diversification outweigh income reduction of approximately $1,200 annually, and technology exposure offers superior growth potential needed to reach your $1.8M target.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "QQQ",
+        "VGT",
+        "VCR"
+      ],
+      "suggested_action": "Sell 30% of JNJ and UNH holdings (approximately $53,000 total). Invest $30,000 in VGT (Vanguard Information Technology ETF) and $23,000 in VCR (Vanguard Consumer Discretionary ETF). Execute over 2-3 transactions to dollar-cost-average entry points and minimize market impact.",
+      "suggested_allocation_pct": 7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually on rebalanced allocation",
+      "time_horizon": "3-10 years to retirement and beyond",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:36:35.460784",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_0dd69a9a",
+      "category": "income_generation",
+      "title": "Establish Retirement Income Bridge with Multi-Year Bond Ladder",
+      "summary": "Create a 5-year bond ladder using $170,000 (20% of portfolio) in individual investment-grade bonds or CDs maturing sequentially 2030-2034, providing predictable income as you transition into retirement and reducing sequence-of-returns risk.",
+      "detailed_rationale": "Signal: Your retirement goal requires $80-100K annual income starting at age 65 (10 years out), but current portfolio lacks a dedicated income-generating structure. With 35% bonds entirely in BND (aggregate bond fund), you face interest rate risk and lack income predictability. Step-by-step reasoning: (1) Sequence-of-returns risk is highest in the 5 years before and after retirement - if markets decline when you begin withdrawals, your portfolio may never recover. A bond ladder immunizes a portion of assets against this risk. (2) With $755K net worth and $1.8M target, you need $1.045M growth over 10 years (38% total or 3.3% annually above current value). Dedicating $170K to a ladder still leaves $585K in growth assets compounding at target rates. (3) Current 10-year Treasury yields are approximately 4.5%, and investment-grade corporate bonds yield 5.0-5.5% - a 5-year ladder starting at age 60 provides $8,500-9,350 annually in interest with principal returning sequentially. (4) Your advanced investment experience and stable income allow you to execute this strategy now while rates remain elevated, locking in yields before potential Fed cuts. Structure: Purchase individual bonds or CDs totaling $170K with maturity dates in 2030, 2031, 2032, 2033, and 2034 ($34K each year). As you approach age 60, these provide supplemental income; at age 65+, maturing principal covers 35-40% of annual living expenses while remaining portfolio provides balance. Main trade-off: Bond ladder capital is locked until maturity with opportunity cost if equities surge, and you sacrifice some liquidity. However, predictable income stream and volatility reduction align perfectly with your medium-term retirement goal and moderate risk tolerance.",
+      "tickers": [
+        "Individual IG corporate bonds",
+        "CDs",
+        "IBND",
+        "VCIT"
+      ],
+      "suggested_action": "Allocate $170,000 to build a 5-year bond ladder: research investment-grade corporate bonds (A-rated or higher) or FDIC-insured CDs maturing in 2030, 2031, 2032, 2033, and 2034. Purchase $34,000 for each maturity year through your brokerage platform. Alternatively, use VCIT (Vanguard Intermediate-Term Corporate Bond ETF) as a liquid substitute, though this provides less income certainty. Review ladder annually and extend maturity dates as you approach retirement.",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "low",
+      "expected_return_range": "4.5-5.5% annually (current yield environment)",
+      "time_horizon": "5-15 years (ladder matures 2030-2034, then rebuild or shift to withdrawal phase)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:36:35.460784",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_29811d45",
+      "category": "tax_optimization",
+      "title": "Optimize Asset Location for Tax Efficiency in Retirement Transition",
+      "summary": "Review account types (taxable, tax-deferred, Roth) and relocate tax-inefficient holdings like BND and dividend stocks to IRA/401k accounts, while positioning tax-efficient equity ETFs (VTI, VXUS) in taxable accounts to minimize lifetime tax burden.",
+      "detailed_rationale": "Signal: As an operations director earning $220K annually, you're likely in the 24-32% federal tax bracket, making tax optimization critical for wealth accumulation. No information provided on account structure, but most investors sub-optimally mix asset types across accounts. Step-by-step reasoning: (1) Bond funds like BND distribute interest taxed as ordinary income at your marginal rate (24-32%), while equity ETFs like VTI and VXUS benefit from lower long-term capital gains rates (15%) and minimal distributions. Placing bonds in tax-deferred accounts and equities in taxable accounts can save 1-2% annually in tax drag. (2) Your retirement glide path will increase bond allocation from 35% to 55%, amplifying tax inefficiency if bonds remain in taxable accounts - over 10 years, improper location could cost $40,000+ in unnecessary taxes. (3) At age 55 with advanced investment experience, you can still make strategic IRA contributions ($8,000 annually including catch-up) and potentially execute Roth conversions in lower-income years pre-retirement to create tax-free income streams post-65. (4) Individual stocks JNJ and UNH generate qualified dividends taxed at 15%, making them acceptable in taxable accounts, but consolidating into dividend-focused ETFs in IRAs might be more efficient. Optimization strategy: (a) Move BND and any future bond purchases to traditional IRA/401k, (b) Keep VTI and VXUS in taxable brokerage for tax-loss harvesting opportunities and favorable capital gains treatment, (c) Consider Roth conversions of $50-80K annually in years 60-64 when income drops below current levels but before RMDs begin at 73, creating tax-free retirement income. Main trade-off: Requires coordination across multiple accounts and potential account rebalancing costs, but annual tax savings of $3,000-6,000 compounds significantly over your investment horizon, potentially adding $50,000+ to retirement assets.",
+      "tickers": [
+        "BND",
+        "VTI",
+        "VXUS",
+        "JNJ",
+        "UNH"
+      ],
+      "suggested_action": "Conduct full account inventory across taxable, traditional IRA, Roth IRA, and 401k accounts. Work with your tax advisor to: (1) Move BND holdings and future bond purchases to tax-deferred accounts, (2) Ensure VTI and VXUS remain in taxable accounts, (3) Model Roth conversion scenarios for ages 60-64, targeting $50-80K annual conversions to fill lower tax brackets. Execute first account transfers within 90 days and document tax-location strategy for annual rebalancing.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "1-2% annual tax alpha (savings compared to sub-optimal location)",
+      "time_horizon": "10+ years through retirement and legacy planning",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:36:35.460784",
+      "composite_score": 0.0
+    }
+  ]
+}

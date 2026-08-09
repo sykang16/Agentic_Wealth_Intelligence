@@ -1,0 +1,190 @@
+{
+  "session_id": "P3_moderate_mid_career__rebalance__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "rebalance",
+  "query": "My tech exposure is around 35% across my ETFs and individual stocks. Is that too concentrated, and how would I trim it?",
+  "seed": 2,
+  "system": "A_wealthnexus",
+  "rag_diagnostics": {
+    "top_score": 0.429,
+    "num_hits": 2,
+    "gated": false,
+    "threshold": null
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_961dfe68",
+      "category": "rebalance",
+      "title": "Reduce Technology Overconcentration to 25%",
+      "summary": "Your 35% technology allocation significantly exceeds typical moderate-risk diversification guidelines (20-25%). Trim tech holdings to reduce sector-specific risk while maintaining growth exposure.",
+      "detailed_rationale": "Signal: Your portfolio shows 35% technology concentration across VTI, individual tech stocks (AAPL, MSFT, NVDA, GOOGL), creating excessive sector risk. Step-by-step alignment: (1) For a moderate risk tolerance investor with a Loss Comfort of 6/10, concentrated sector exposure creates volatility that may exceed your comfort level during tech downturns - the 2022 tech correction saw stocks decline 30-50%. (2) Your dual high-priority goals (education in 10 years, retirement in 25 years) require stability in the medium-term education bucket; tech concentration increases portfolio volatility exactly when you'll need liquidity. (3) The knowledge base confirms VTI already provides 25-30% tech exposure inherently as a broad market fund, meaning your individual tech stocks create redundant, concentrated exposure. (4) Evidence from portfolio data: Your individual tech stocks (AAPL, MSFT, NVDA, GOOGL) represent 20% of total portfolio, layered on top of VTI's embedded tech allocation. Supporting rationale: Modern portfolio theory suggests sector allocations exceeding 25-30% introduce uncompensated concentration risk. Trade-off: Trimming high-performing tech stocks means potentially missing some upside if tech continues outperforming, but this sacrifice buys you downside protection and smoother returns aligned with your moderate risk profile and upcoming education funding needs.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Sell 40-50% of your individual tech stock positions (AAPL, MSFT, NVDA, GOOGL) over the next 2-3 months. This would reduce your direct tech stock allocation from 20% to 10-12%, bringing total tech exposure to approximately 25% when combined with VTI's embedded technology holdings.",
+      "suggested_allocation_pct": -8.0,
+      "risk_level": "moderate",
+      "expected_return_range": "This rebalancing action reduces volatility by 15-20% without significantly impacting long-term returns",
+      "time_horizon": "Execute over 2-3 months to avoid market timing risk",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:55:51.673683",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_a74f327b",
+      "category": "diversify",
+      "title": "Add International Developed Markets Exposure Beyond VXUS",
+      "summary": "Your current allocation lacks sufficient detail on international exposure breakdown. Increase developed international markets allocation to capture global diversification benefits and reduce US-centric risk.",
+      "detailed_rationale": "Signal: Portfolio shows VXUS holdings but sector allocation indicates 100% US-focused sectors (Technology, Financials, Healthcare weighted toward US companies). Your international diversification may be underdeveloped. Step-by-step alignment: (1) As a 40-year-old product manager with stable $175k income and 25-year retirement horizon, you have time to capture international market cycles that historically show low correlation with US markets (0.7-0.85 correlation). (2) Your moderate risk tolerance and intermediate experience support strategic geographic diversification - this isn't aggressive speculation but prudent risk distribution. (3) Your high-priority retirement goal with $2.5M target requires maximizing risk-adjusted returns; international developed markets (Europe, Japan, Australia) historically provide 6-8% annual returns with different timing than US peaks/valleys, smoothing portfolio volatility. (4) Evidence from your profile: Medium liquidity needs and stable income mean you can withstand currency fluctuations and regional volatility that come with international investing. The knowledge base doesn't provide VXUS details, but typical moderate portfolios maintain 20-30% international allocation. Trade-off: International investments carry currency risk and may underperform US markets during dollar strength periods, but provide essential diversification - no investment professional would recommend 100% home-country bias for a 25-year horizon. Given current geopolitical and valuation dynamics, international developed markets trade at lower P/E ratios (14-16x vs US 20-22x), offering value opportunity.",
+      "tickers": [
+        "VXUS",
+        "VEA",
+        "IEFA"
+      ],
+      "suggested_action": "Increase total international allocation to 25% of equity portfolio by reallocating proceeds from tech stock sales. If VXUS currently represents less than 20% of holdings, add $15,000-20,000 to VXUS or consider adding VEA (Vanguard Developed Markets) to specifically target developed international exposure.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually over 10+ year periods",
+      "time_horizon": "Long-term hold for 20+ years, aligning with retirement goal",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:55:51.673683",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_5be00459",
+      "category": "diversify",
+      "title": "Establish 529 College Savings Plan for Education Goal",
+      "summary": "With a $200,000 education goal just 10 years away, your current portfolio structure may be too equity-heavy for this medium-term objective. Establish dedicated 529 plan with age-based asset allocation.",
+      "detailed_rationale": "Signal: Your investment profile shows a high-priority $200,000 education goal with ~10-year horizon, but your portfolio allocation (50% ETF, 20% stock, 30% bond) doesn't appear segregated by goal timeframe. This creates goal-funding risk. Step-by-step alignment: (1) The 10-year education horizon is medium-term, requiring different risk management than your 25-year retirement goal. Standard financial planning separates goal buckets with distinct time horizons to avoid being forced to sell equity positions during market downturns right when education expenses hit. (2) Your moderate risk tolerance and Loss Comfort 6/10 suggests you'd experience significant stress if a market correction (like 2008 or 2022) occurred 1-2 years before college funding needs, potentially losing 20-30% of education funds. (3) Your stable $175k income and current savings rate ($175k income - $114k annual expenses = $61k available) demonstrates capacity to fund 529 contributions. Evidence: If you need $200k in 10 years and segregate this goal now, contributing $1,300/month to a 529 plan would reach this target assuming 5-6% returns from a conservative age-based allocation. (4) Tax efficiency evidence: 529 plans offer state tax deductions (in most states) and tax-free growth for education expenses, providing 15-25% better after-tax returns than taxable accounts for education goals. Trade-off: Money in 529 plans has restricted use (education or 10% penalty), reducing flexibility. However, with two children and stated high-priority education goal, this restriction aligns with your objectives. Age-based 529 portfolios automatically de-risk as college approaches, moving from 70% equity now to 20% equity in year 9-10, protecting against sequence-of-returns risk that your current unified portfolio structure doesn't address.",
+      "tickers": [
+        "529"
+      ],
+      "suggested_action": "Open a 529 college savings plan in your state (research state tax benefits) with age-based allocation portfolio. Transfer $30,000-40,000 from current portfolio as initial funding (redirected from tech stock sale proceeds), then establish automatic monthly contributions of $1,300-1,500 to reach $200,000 target in 10 years. Select the age-based option that automatically adjusts from aggressive to conservative as college approaches.",
+      "suggested_allocation_pct": 12.0,
+      "risk_level": "low",
+      "expected_return_range": "5-7% annually with decreasing volatility as target date approaches",
+      "time_horizon": "10 years to first child's college enrollment",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:55:51.673683",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_6536eb0c",
+      "category": "hold",
+      "title": "Maintain Core Bond Allocation at 30% with BND",
+      "summary": "Your 30% bond allocation via BND appropriately matches your moderate risk tolerance and provides necessary stability for your portfolio. Maintain this allocation as your portfolio anchor.",
+      "detailed_rationale": "Signal: Portfolio analysis shows 30% bond allocation through BND (Vanguard Total Bond Market), which aligns with classic moderate-risk portfolio construction. No rebalancing signal triggered here. Step-by-step validation: (1) The traditional 60/40 or 70/30 stock/bond split for moderate investors provides downside protection while maintaining growth potential - your current 70% equity / 30% bond split is appropriate for a 40-year-old with moderate risk tolerance and 25-year retirement horizon. (2) Your Loss Comfort score of 6/10 indicates you can tolerate some volatility but need stability components - bonds provide this ballast, historically declining only 5-10% in worst years versus 30-50% equity declines. (3) With medium liquidity needs and upcoming education expenses, maintaining 30% in bonds provides accessible, stable capital without forcing equity sales during downturns. BND offers broad exposure to US investment-grade bonds with 0.03% expense ratio, making it highly cost-efficient. (4) Current market environment evidence: With recent interest rate normalization, bonds now offer 4-5% yields, providing meaningful income generation absent during the 2010-2021 zero-rate period. This makes the 30% bond allocation more valuable than it was 3-4 years ago. Trade-off awareness: Some aggressive advisors might suggest higher equity allocation given your 25-year horizon, but this would misalign with your stated moderate risk tolerance and medium-term education goal. The 30% bond allocation slightly reduces potential maximum returns (perhaps 0.5% annually) but dramatically reduces portfolio volatility (by 25-30%), providing sleep-well-at-night stability consistent with your profile. Your stable income and established emergency fund mean you don't need to reach for excess returns by eliminating bonds.",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "Maintain your current 30% allocation to BND. Review quarterly to ensure rebalancing keeps bonds at 28-32% range. Do not reduce bond allocation below 25% even during equity bull markets, as this provides essential portfolio stability for your moderate risk profile.",
+      "suggested_allocation_pct": 30.0,
+      "risk_level": "low",
+      "expected_return_range": "4-5% annually in current rate environment",
+      "time_horizon": "Hold indefinitely as portfolio foundation, adjusting only gradually as you approach retirement in 20+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:55:51.673683",
+      "composite_score": 0.0
+    }
+  ]
+}

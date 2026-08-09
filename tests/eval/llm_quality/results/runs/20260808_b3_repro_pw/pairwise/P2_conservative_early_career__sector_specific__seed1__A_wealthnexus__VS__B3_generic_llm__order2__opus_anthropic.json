@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"B\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B more thoroughly personalizes each recommendation using specific profile attributes (negative net worth, debt-to-income ratio, loss comfort, beginner status) and provides more concrete, sequenced action steps with dollar figures derived from the user's actual cash flow. System B also better aligns risk levels to the conservative profile (labeling target-date fund as low-risk in context and deferring equity expansion), while System A's Rec #2 labels VTTSX as moderate risk without addressing the tension and Rec #4 recommends adding equity ETFs that don't clearly serve a conservative beginner's stated priorities.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "B"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B more thoroughly personalizes each recommendation using specific profile attributes (negative net worth, debt-to-income ratio, loss comfort, beginner status) and provides more concrete, sequenced action steps with dollar figures derived from the user's actual cash flow. System B also better aligns risk levels to the conservative profile (labeling target-date fund as low-risk in context and deferring equity expansion), while System A's Rec #2 labels VTTSX as moderate risk without addressing the tension and Rec #4 recommends adding equity ETFs that don't clearly serve a conservative beginner's stated priorities."
+  },
+  "usage": {
+    "input_tokens": 10468,
+    "output_tokens": 335
+  },
+  "session_id": "P2_conservative_early_career__sector_specific__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

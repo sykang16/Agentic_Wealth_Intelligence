@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Cites age, occupation, stable income, both goals with horizons, loss comfort score, and risk tolerance to justify the rebalance.\",\n    \"C2\": \"risk_level moderate matches the user's moderate tolerance and the rationale explicitly ties volatility reduction to the 6/10 loss comfort.\",\n    \"C3\": \"Tickers and 35% tech figure are grounded in the snapshot, but several quantitative claims (2022 drawdown figures, 25-30% VTI tech weight, 15-20% volatility reduction) are unsupported by the provided inputs.\",\n    \"C4\": \"Provides specific tickers, dollar amount (~$25,000), allocation target (35%\u219225%), implementation timeline (1-2 months), and a clear first step (trim largest position first).\",\n    \"C5\": \"Directly identifies the tech overconcentration flagged by the user and proposes redeployment to underweight sectors, the textbook diversification response.\",\n    \"C6\": \"Uses mostly calibrated language ('historically', 'potentially') but states confidence 'high' and gives a fairly specific 7-9% return projection without an explicit disclaimer at the rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Cites age, occupation, stable income, both goals with horizons, loss comfort score, and risk tolerance to justify the rebalance.",
+      "C2": "risk_level moderate matches the user's moderate tolerance and the rationale explicitly ties volatility reduction to the 6/10 loss comfort.",
+      "C3": "Tickers and 35% tech figure are grounded in the snapshot, but several quantitative claims (2022 drawdown figures, 25-30% VTI tech weight, 15-20% volatility reduction) are unsupported by the provided inputs.",
+      "C4": "Provides specific tickers, dollar amount (~$25,000), allocation target (35%\u219225%), implementation timeline (1-2 months), and a clear first step (trim largest position first).",
+      "C5": "Directly identifies the tech overconcentration flagged by the user and proposes redeployment to underweight sectors, the textbook diversification response.",
+      "C6": "Uses mostly calibrated language ('historically', 'potentially') but states confidence 'high' and gives a fairly specific 7-9% return projection without an explicit disclaimer at the rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6063,
+    "output_tokens": 503
+  },
+  "session_id": "P3_moderate_mid_career__rebalance__seed1",
+  "rec_index": 0,
+  "rec_id": "rec_6b9f022d",
+  "rubric_version": "1.1"
+}

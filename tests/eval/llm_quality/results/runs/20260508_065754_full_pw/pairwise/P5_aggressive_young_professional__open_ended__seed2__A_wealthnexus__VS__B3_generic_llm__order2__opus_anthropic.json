@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides more deeply personalized rationales that explicitly tie recommendations to multiple profile attributes (income, expenses, loss comfort, liquidity needs) with concrete dollar figures and actionable specifics like exact sell amounts. While System A offers broader diversification coverage (international, bonds, value tilts) and slightly tighter factual grounding, System B's structured Signal/Alignment/Evidence/Trade-off format and concrete execution steps give it the edge overall.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides more deeply personalized rationales that explicitly tie recommendations to multiple profile attributes (income, expenses, loss comfort, liquidity needs) with concrete dollar figures and actionable specifics like exact sell amounts. While System A offers broader diversification coverage (international, bonds, value tilts) and slightly tighter factual grounding, System B's structured Signal/Alignment/Evidence/Trade-off format and concrete execution steps give it the edge overall."
+  },
+  "usage": {
+    "input_tokens": 11109,
+    "output_tokens": 293
+  },
+  "session_id": "P5_aggressive_young_professional__open_ended__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

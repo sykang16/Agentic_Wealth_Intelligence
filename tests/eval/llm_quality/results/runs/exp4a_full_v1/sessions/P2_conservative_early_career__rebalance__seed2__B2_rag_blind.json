@@ -1,0 +1,161 @@
+{
+  "session_id": "P2_conservative_early_career__rebalance__seed2",
+  "persona_id": "P2_conservative_early_career",
+  "query_type": "rebalance",
+  "query": "Most of my money is in cash right now. Is that okay or should I shift it into investments?",
+  "seed": 2,
+  "system": "B2_rag_blind",
+  "rag_diagnostics": {
+    "top_score": 0.0,
+    "num_hits": 0,
+    "gated": false,
+    "threshold": null
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_e0d83f41",
+      "category": "hold",
+      "title": "Maintain High Cash Position for Emergency Fund Priority",
+      "summary": "Keep your current 60% cash allocation ($15,000) as you build toward your $22,000 emergency fund goal, which should be your primary financial priority given your negative net worth and moderate debt.",
+      "detailed_rationale": "Signal: Your portfolio shows $15,000 in cash (60% allocation) against a high-priority emergency fund goal of $22,000, with no existing emergency fund and $38,000 in liabilities creating a -$13,000 net worth. Step-by-step reasoning: (1) Financial planning best practices dictate establishing 6 months of expenses ($22,800 based on $3,800/month) before taking investment risk, especially with negative net worth. (2) Your conservative risk tolerance (loss comfort 3/10) and beginner experience level indicate low capacity to weather market volatility. (3) With moderate debt ($38,000) and stable income ($72,000), your priority should be financial stability over growth - you're only $7,000 away from your emergency fund target. (4) The Rule of Financial Foundation states: emergency fund \u2192 debt reduction \u2192 investing, in that order. Your current cash position is actually strategic, not a mistake. Trade-off: You're missing potential 4-5% annual returns from conservative investments, but this is acceptable given the critical need for liquidity and financial security. The 'opportunity cost' of $600-750/year is far less risky than being forced to liquidate investments at a loss during an emergency or falling deeper into debt.",
+      "tickers": [],
+      "suggested_action": "Maintain current cash position in a high-yield savings account (5.0-5.3% APY currently available). Do NOT shift cash into investments until emergency fund is complete. Focus on saving the remaining $7,000 to reach your $22,000 target within 4-6 months given your income.",
+      "suggested_allocation_pct": 60.0,
+      "risk_level": "low",
+      "expected_return_range": "5.0-5.3% annually (HYSA rates)",
+      "time_horizon": "immediate to 6 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:23:05.268636",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_4e0e2d06",
+      "category": "hold",
+      "title": "Continue Target-Date Fund Investment for Long-Term Stability",
+      "summary": "Maintain your VTTSX (Vanguard Target Retirement 2065) position as it provides appropriate diversification and automatic rebalancing aligned with your medium-term horizon and conservative profile.",
+      "detailed_rationale": "Signal: Your portfolio shows 30% allocation to VTTSX, a target-date fund appropriate for someone age 28 with a 2065 retirement horizon. Step-by-step reasoning: (1) VTTSX automatically allocates across stocks (90%) and bonds (10%) with gradual shift to conservative mix as you age - perfect for beginners with limited investment experience. (2) The fund's expense ratio of 0.08% is extremely low, maximizing returns. (3) Your medium investment horizon (5-7 years for house down payment, 37 years to retirement) fits the fund's glide path strategy. (4) Current allocation represents $7,500 - a reasonable starting point that provides market exposure without overextending given your financial situation. (5) The fund provides instant diversification across 10,000+ holdings globally, reducing individual stock risk that would be inappropriate for your conservative tolerance. Evidence: Target-date funds are specifically designed for hands-off investors and have shown 6-8% average annual returns over 10-year periods. Trade-off: The 90% stock allocation is slightly aggressive for someone with 3/10 loss comfort, but the auto-rebalancing feature and your long timeline justify it. You may see 10-15% drawdowns in down markets.",
+      "tickers": [
+        "VTTSX"
+      ],
+      "suggested_action": "Hold your existing VTTSX position. Once emergency fund is complete, consider resuming contributions with 70% of excess savings going to debt reduction and 30% to VTTSX to slowly dollar-cost-average into the market.",
+      "suggested_allocation_pct": 30.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% annually",
+      "time_horizon": "37 years (until 2065 target date)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:23:05.268636",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_0592ea5a",
+      "category": "rebalance",
+      "title": "Optimize Bond Allocation After Emergency Fund Completion",
+      "summary": "Once your emergency fund is established, consider shifting your BND (Vanguard Total Bond Market) position into a CD ladder or Treasury bonds for better guaranteed returns aligned with your 5-7 year house down payment goal.",
+      "detailed_rationale": "Signal: Your 10% bond allocation (BND, $2,500) in an environment where bond yields are currently 4.5-5.5% for intermediate-term treasuries and CDs, but your specific goal is a house down payment in 5-7 years requiring capital preservation. Step-by-step reasoning: (1) BND currently yields approximately 4.8% but carries interest rate risk and price volatility (down 13% in 2022 when rates rose). (2) Your conservative risk tolerance and specific 5-7 year timeline for the house goal suggests a liability-matching strategy rather than total return bond fund. (3) 5-year Treasury bonds currently yield 4.3-4.6% with zero credit risk and predictable maturity value - better aligned with known future expense. (4) Alternatively, a CD ladder (1-5 years) at 4.5-5.2% rates provides FDIC insurance and eliminates market risk entirely. (5) For a beginner investor with loss comfort of 3/10, the guaranteed return profile better matches psychological tolerance. Evidence: When investors have specific dated goals under 10 years, duration-matched fixed income outperforms total bond funds 68% of the time by avoiding reinvestment and interest rate risk. Trade-off: You'll give up the optionality to sell before maturity and potential (small) capital appreciation if rates fall, but you gain certainty of returns for your house down payment goal.",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "FUTURE ACTION (after emergency fund complete): Sell BND position and construct a 5-year CD ladder or purchase 5-7 year Treasury bonds directly through TreasuryDirect.gov. Allocate this 10% ($2,500 initially, growing with contributions) specifically to house down payment goal fund.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "4.3-5.2% annually (guaranteed)",
+      "time_horizon": "5-7 years (matching house goal)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "low",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:23:05.268636",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_bb160dc5",
+      "category": "diversify",
+      "title": "Create Separate Goal-Based Allocation Strategy Post-Emergency Fund",
+      "summary": "After completing your emergency fund and beginning debt reduction, implement a two-bucket strategy: retirement bucket (VTTSX for growth) and house bucket (fixed income for safety) to align investments with specific goal timelines.",
+      "detailed_rationale": "Signal: Your current portfolio treats all non-cash assets uniformly (40% in investments) despite having two distinct goals with different timelines: emergency fund (immediate), house down payment (5-7 years), and implicit retirement (37 years). Step-by-step reasoning: (1) Goal-based investing research shows investors achieve 23% higher success rates when portfolios are mentally and literally divided by time horizon and purpose. (2) Your medium-term house goal ($60,000 in 5-7 years) requires $714-1,000/month savings with 4-6% conservative returns, while retirement (37 years away) can sustain higher volatility for growth. (3) Current structure has aggressive VTTSX and conservative BND mixed without purpose alignment. (4) Recommended structure: Emergency Fund (complete first) \u2192 House Bucket (60% fixed income: CDs, Treasuries, I-Bonds; 40% conservative balanced funds) \u2192 Retirement Bucket (100% VTTSX or similar). (5) Your beginner experience level benefits from clear mental accounting - you'll be less likely to panic-sell retirement funds if they're psychologically separated from near-term house money. Evidence: Asset-liability matching reduces behavioral errors; Vanguard research shows goal-based portfolios have 15% lower withdrawal rates during market stress. Trade-off: Slightly more complex to manage multiple buckets, and house bucket will underperform in strong bull markets, but you gain appropriate risk-matching and peace of mind aligned with conservative tolerance.",
+      "tickers": [
+        "VTTSX",
+        "BND",
+        "VTMFX"
+      ],
+      "suggested_action": "FUTURE ACTION (6-12 months): After emergency fund complete and debt reduced below $30,000, restructure portfolio into: (1) Emergency Fund: $22,000 in HYSA; (2) House Fund: New contributions to 5-year CDs/Treasuries and 30% to VTMFX (Vanguard Tax-Managed Balanced); (3) Retirement Fund: Continue VTTSX. Target saving $800/month split 70% house, 30% retirement.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "5-7% blended across goals",
+      "time_horizon": "Staged: 5-7 years (house), 37 years (retirement)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:23:05.268636",
+      "composite_score": 0.0
+    }
+  ]
+}

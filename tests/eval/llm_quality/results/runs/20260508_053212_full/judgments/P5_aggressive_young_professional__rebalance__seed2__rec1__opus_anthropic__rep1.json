@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 4,\n  \"C5_diversification\": 2,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes (age 30, 15-year horizon, 9/10 loss comfort, $195K stable income, $5,500 expenses, emergency fund, low debt) and causally links them to the recommendation.\",\n    \"C2\": \"risk_level 'high' matches the user's aggressive risk tolerance exactly, and the rationale explicitly justifies the risk fit via horizon, income stability, and loss comfort.\",\n    \"C3\": \"Most claims are grounded in the snapshot; historical 10.3%/5.3% return figures and BND ~4.5% yield are reasonable but not directly traceable to provided inputs (one minor unsupported quantitative claim category).\",\n    \"C4\": \"Provides concrete tickers (VTI, QQQ), a clear first step (maintain 90/10 split, do not add bonds), and uses cash as rebalancing dry powder, though the 'time-bound' element is implicit rather than explicit.\",\n    \"C5\": \"Recommendation ignores the portfolio's 65% Technology sector concentration and endorses staying in QQQ/VTI/tech-heavy holdings without addressing the existing overweight, effectively perpetuating concentration in an already-overweight sector.\",\n    \"C6\": \"Uses mostly calibrated language ('historically', 'may'), but 'confidence: high' combined with assertive framing ('Do NOT add bond allocation') is somewhat over-confident; no explicit disclaimer at rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 4,
+    "C5_diversification": 2,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes (age 30, 15-year horizon, 9/10 loss comfort, $195K stable income, $5,500 expenses, emergency fund, low debt) and causally links them to the recommendation.",
+      "C2": "risk_level 'high' matches the user's aggressive risk tolerance exactly, and the rationale explicitly justifies the risk fit via horizon, income stability, and loss comfort.",
+      "C3": "Most claims are grounded in the snapshot; historical 10.3%/5.3% return figures and BND ~4.5% yield are reasonable but not directly traceable to provided inputs (one minor unsupported quantitative claim category).",
+      "C4": "Provides concrete tickers (VTI, QQQ), a clear first step (maintain 90/10 split, do not add bonds), and uses cash as rebalancing dry powder, though the 'time-bound' element is implicit rather than explicit.",
+      "C5": "Recommendation ignores the portfolio's 65% Technology sector concentration and endorses staying in QQQ/VTI/tech-heavy holdings without addressing the existing overweight, effectively perpetuating concentration in an already-overweight sector.",
+      "C6": "Uses mostly calibrated language ('historically', 'may'), but 'confidence: high' combined with assertive framing ('Do NOT add bond allocation') is somewhat over-confident; no explicit disclaimer at rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6016,
+    "output_tokens": 612
+  },
+  "session_id": "P5_aggressive_young_professional__rebalance__seed2",
+  "rec_index": 1,
+  "rec_id": "rec_68b520aa",
+  "rubric_version": "1.1"
+}

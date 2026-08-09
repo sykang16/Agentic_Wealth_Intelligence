@@ -1,0 +1,113 @@
+{
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "rebalance",
+  "query": "Walk me through a year-by-year glide path that gradually shifts my allocation over the next decade.",
+  "seed": 1,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "rebalance",
+      "title": "Implement 10-Year Retirement Glide Path Strategy",
+      "summary": "Transition from current 55% equity/40% fixed income to age-appropriate 40% equity/55% fixed income by age 65, reducing equity exposure by ~1.5% annually while increasing bond allocation and maintaining strategic diversification.",
+      "detailed_rationale": "As an operations director age 55 with a 10-year horizon to retirement at 65, you need a systematic de-risking strategy. Your current allocation (55% equity/40% bonds/5% cash) is appropriate for today but too aggressive for retirement. The recommended glide path: Age 55-57 (60% equity/35% bonds/5% cash) - minimal changes, maintain growth; Age 58-60 (55% equity/40% bonds/5% cash) - gradual reduction; Age 61-63 (47% equity/48% bonds/5% cash) - accelerated de-risking; Age 64-65 (40% equity/55% bonds/5% cash) - target retirement allocation. This approach balances continued growth needed to reach your $1.8M target while reducing volatility as retirement approaches. With $755K net worth and $132K annual savings capacity ($220K income - $132K expenses), you're on track but need disciplined rebalancing. The glide path preserves your moderate risk tolerance while positioning for stable retirement income of $80-100K annually (4-5% withdrawal rate on projected $1.8M portfolio).",
+      "tickers": [
+        "BND",
+        "BNDX",
+        "VTI",
+        "VXUS"
+      ],
+      "suggested_action": "Execute annual rebalancing each January: Years 1-2 maintain current allocation; Year 3 shift 2% from equity to bonds; Years 4-7 shift 1.5% annually from equity to bonds; Years 8-10 shift 2% annually completing transition to 40/55/5 allocation. Increase BND and add international bonds (BNDX) while trimming VTI proportionally.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5.5-7.5% blended annual return declining to 4.5-6.5% by year 10",
+      "time_horizon": "10 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:40:14.533456",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "diversify",
+      "title": "Add Treasury Inflation-Protected Securities (TIPS) for Income Stability",
+      "summary": "Allocate 10-15% of portfolio to TIPS over next 3 years to hedge inflation risk and provide guaranteed real income stream starting at retirement, complementing your glide path strategy.",
+      "detailed_rationale": "With retirement 10 years away and income generation as a key goal, inflation protection becomes critical. Your current bond allocation is entirely in BND (total bond market), which provides no explicit inflation hedge. TIPS offer guaranteed real returns and become increasingly valuable as you approach retirement when income predictability matters most. At age 55, you have time to ladder TIPS maturing at ages 65-75, creating a predictable income floor. This diversifies your fixed income beyond traditional bonds and provides protection if inflation remains elevated. Given your $80-100K annual income need in retirement, allocating $120-180K to TIPS (10-15% of current portfolio) creates a $6-9K annual real income base. Implement gradually: Years 1-3 shift 3-5% of bond allocation into TIPS (ticker: SCHP or TIP); Years 4-7 maintain 10-15% TIPS allocation while continuing overall glide path. This complements rather than conflicts with your equity reduction strategy.",
+      "tickers": [
+        "SCHP",
+        "TIP"
+      ],
+      "suggested_action": "Begin purchasing TIPS ETFs (SCHP preferred for lower fees) immediately, allocating 3% of portfolio in Year 1, additional 3-4% in Year 2, reaching 10-12% by Year 3. Source funds by reducing BND proportionally while maintaining total fixed income target per glide path.",
+      "suggested_allocation_pct": 12.0,
+      "risk_level": "low",
+      "expected_return_range": "3.5-5.0% real return (inflation + real yield)",
+      "time_horizon": "10+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:40:14.533456",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "hold",
+      "title": "Maintain Core Quality Equity Holdings Through Glide Path",
+      "summary": "Retain high-quality individual stock positions (JNJ, UNH, JPM, BRK.B, PG) representing stable, dividend-paying companies that provide income and moderate growth aligned with your risk tolerance during transition years.",
+      "detailed_rationale": "Your 15% individual stock allocation concentrated in blue-chip healthcare (JNJ, UNH), financial (JPM, BRK.B), and consumer staples (PG) represents high-quality holdings appropriate for pre-retirement positioning. These companies offer: dividend yields of 2-3%, long histories of dividend growth, lower volatility than market indices, and business model durability. As you execute your glide path reducing overall equity exposure from 55% to 40%, maintain this 12-15% allocation to individual stocks while reducing broad index exposure (VTI, VXUS). These holdings provide income generation supporting your retirement goal while offering some growth potential. Your advanced investment experience enables active monitoring of these positions. The sector concentration (40% healthcare, 20% financials, 20% consumer staples via these stocks) complements your ETF holdings and provides defensive characteristics important during market volatility in your 60s. Only rebalance if individual positions exceed 4-5% of total portfolio or if fundamental deterioration occurs.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "JPM",
+        "BRK.B",
+        "PG"
+      ],
+      "suggested_action": "Hold all current positions. Reinvest dividends into fixed income allocation to support glide path transition. Monitor quarterly but avoid selling based on short-term performance. If any position appreciates beyond 5% of portfolio, trim to fund bond purchases per glide path schedule.",
+      "suggested_allocation_pct": 13.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6.0-8.5% annual total return including dividends",
+      "time_horizon": "7-10 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:40:14.533456",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "income_generation",
+      "title": "Build Short-Duration Bond Ladder for Near-Retirement Liquidity",
+      "summary": "Create a 5-year bond ladder starting in Year 6 (age 60) allocating 15-20% of portfolio to provide predictable cash flow, capital preservation, and liquidity bridge into retirement years 65-70.",
+      "detailed_rationale": "As you approach age 60, liquidity needs increase and sequence-of-returns risk becomes critical. A bond ladder maturing annually from ages 65-70 provides: guaranteed cash flow of $25-30K annually supplementing other income sources, reduced need to sell equities during potential bear markets in early retirement, and psychological comfort of predictable income. With medium liquidity needs and stable income now, you can build this ladder gradually. Starting at age 60 (Year 6 of glide path), allocate $150-170K (15-20% of projected portfolio) to individual Treasury bonds, CDs, or short-duration bond funds maturing sequentially. This complements your TIPS allocation (inflation protection) and core bond holdings (diversification) by adding maturity-specific income certainty. Structure: Year 6-7 purchase bonds maturing at ages 65-66; Year 8 add age 67-68 maturities; Year 9-10 complete ladder through age 70. This timing aligns with your glide path's accelerated de-risking phase (ages 61-63) and provides capital preservation as you enter retirement.",
+      "tickers": [
+        "SHV",
+        "VGSH",
+        "SCHO"
+      ],
+      "suggested_action": "Beginning Year 6 (age 60), allocate 5-7% annually into short-duration Treasury ETFs (VGSH, SCHO) or individual Treasury bonds/CDs with staggered maturities. Build position to 15-20% by age 65, sourcing from equity reduction per glide path and new contributions. Coordinate with financial advisor for individual bond purchases if preferred over ETFs.",
+      "suggested_allocation_pct": 18.0,
+      "risk_level": "low",
+      "expected_return_range": "3.8-5.2% yield depending on rate environment",
+      "time_horizon": "5-10 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:40:14.533456",
+      "composite_score": 0.0
+    }
+  ]
+}

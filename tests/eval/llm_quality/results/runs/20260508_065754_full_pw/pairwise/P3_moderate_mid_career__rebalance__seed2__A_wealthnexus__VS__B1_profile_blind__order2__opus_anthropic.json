@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A stays tightly focused on the user's actual question about tech concentration, providing concrete trim targets, sector replacements, and diversification logic directly tied to the portfolio snapshot. System B has stronger personalization (529 plan, tax bracket, asset location) but drifts away from the query and includes some weaker risk-level assignments and assumptions about account structure not in the snapshot.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A stays tightly focused on the user's actual question about tech concentration, providing concrete trim targets, sector replacements, and diversification logic directly tied to the portfolio snapshot. System B has stronger personalization (529 plan, tax bracket, asset location) but drifts away from the query and includes some weaker risk-level assignments and assumptions about account structure not in the snapshot."
+  },
+  "usage": {
+    "input_tokens": 11779,
+    "output_tokens": 258
+  },
+  "session_id": "P3_moderate_mid_career__rebalance__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

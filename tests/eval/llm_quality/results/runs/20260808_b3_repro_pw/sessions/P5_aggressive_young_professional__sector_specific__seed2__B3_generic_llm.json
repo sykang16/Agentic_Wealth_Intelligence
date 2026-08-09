@@ -1,0 +1,111 @@
+{
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed2",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "sector_specific",
+  "query": "I'm already heavy in tech. Should I rotate into AI infrastructure plays, or diversify into a different sector entirely?",
+  "seed": 2,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "diversify",
+      "title": "Reduce Tech Concentration Risk Through Sector Diversification",
+      "summary": "With 65% tech exposure and 15 years until FIRE, diversify into healthcare, financials, and energy sectors to reduce single-sector risk while maintaining growth potential.",
+      "detailed_rationale": "Your portfolio has dangerous concentration: 65% technology sector exposure significantly exceeds market weight (~28% in S&P 500). While tech has performed well, this creates substantial single-sector risk that could derail your FIRE timeline if tech faces a prolonged downturn. At age 30 with aggressive risk tolerance, you can handle volatility, but concentration risk differs from market risk. Your stable income and low expenses ($195k income vs $5.5k monthly expenses = ~$130k annual savings capacity) means you don't need maximum risk. Diversifying into healthcare (defensive growth, aging demographics), financials (rising rates benefit, value exposure), and energy (inflation hedge, transition opportunities) would maintain growth potential while reducing correlation. Target allocation: reduce tech from 65% to 45%, add 15% healthcare, 10% financials, 10% energy, keep 10% in communication services and other sectors.",
+      "tickers": [
+        "VHT",
+        "XLF",
+        "XLE",
+        "VIG"
+      ],
+      "suggested_action": "Gradually rotate 20% of portfolio (~$36k) from existing tech holdings into sector ETFs: Healthcare (VHT), Financials (XLF), Energy (XLE), and dividend growth (VIG) over next 3-6 months. Prioritize selling TSLA position (highest single-stock risk) and trimming QQQ.",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "long_term",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:44:50.328940",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "rebalance",
+      "title": "Reduce Individual Stock Concentration, Increase ETF Allocation",
+      "summary": "Shift from 35% individual stocks to 20%, redirecting 15% into broader market ETFs to reduce single-stock risk while maintaining growth exposure.",
+      "detailed_rationale": "You hold 35% in individual stocks (TSLA, NVDA, GOOGL, META, AMZN), all large-cap tech, creating significant company-specific risk on top of sector concentration. With intermediate investment experience and a 15-year FIRE goal requiring consistent compounding, individual stock volatility and selection risk pose unnecessary threats. Your aggressive risk tolerance is better served through sector/asset class diversification rather than single-stock bets. Historical data shows that even strong companies can underperform for extended periods. With $130k+ annual savings capacity, you'll reach your $2.5M target through consistent contributions and market returns without needing home-run individual stocks. Maintain some individual stock exposure (20%) for potential outperformance and learning, but shift majority to diversified ETFs that provide broad market capture with lower concentration risk.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "SCHD"
+      ],
+      "suggested_action": "Reduce individual stock allocation from 35% to 20% (~$27k reduction). Sell approximately half of TSLA and META positions. Redirect proceeds into VTI (total US market), VXUS (international exposure - currently 0%), and SCHD (dividend growth for diversification). This maintains equity exposure while reducing single-name risk.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "9-13% annually",
+      "time_horizon": "long_term",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:44:50.328940",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "diversify",
+      "title": "Add International Equity Exposure to Portfolio",
+      "summary": "Allocate 15-20% to international markets (currently 0%) to capture global growth and reduce US-only dependency for FIRE goal.",
+      "detailed_rationale": "Your portfolio has 0% international exposure - a critical gap for long-term wealth building. While US markets have outperformed recently, a 15-year horizon virtually guarantees periods where international markets lead. Geographic diversification reduces country-specific risks (US policy, regulatory, currency, economic cycles) that could impact your FIRE timeline. International stocks are currently trading at lower valuations than US equities, offering better risk/reward. Emerging markets provide exposure to faster-growing economies. For aggressive, long-term investors, 20-30% international allocation is standard. Your youth, stable income, and low liquidity needs make you ideal for global diversification. This also partially addresses your tech concentration, as international indices have different sector weights (more financials, industrials, materials in EAFE; more consumer/financials in emerging markets).",
+      "tickers": [
+        "VXUS",
+        "VEA",
+        "VWO",
+        "IXUS"
+      ],
+      "suggested_action": "Establish 15-20% international equity position (~$27-36k) through VXUS (total international) or combination of VEA (developed markets) and VWO (emerging markets). Fund this by reducing QQQ position and redirecting portion of new contributions. Build position over 6-12 months through dollar-cost averaging.",
+      "suggested_allocation_pct": 18.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-11% annually",
+      "time_horizon": "long_term",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:44:50.328940",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "risk_reduction",
+      "title": "Reduce Crypto Allocation and Reassess Risk Contribution",
+      "summary": "Decrease crypto from 5% to 2-3% given already-aggressive equity portfolio and lack of diversification benefit.",
+      "detailed_rationale": "Your 5% BTC allocation (~$9k) adds volatility without meaningful diversification benefits for your FIRE goal. While you have aggressive risk tolerance (9/10 loss comfort), risk should be optimized, not maximized. Crypto's correlation with tech stocks has increased significantly (often 0.6-0.8 with Nasdaq), meaning it amplifies rather than diversifies your existing tech concentration. At 30 with stable income, your biggest asset is human capital and time - you'll contribute $1M+ over the next 15 years through savings alone. Your base portfolio is already aggressive (85% equities, 65% tech). Crypto adds tail risk without commensurate expected return improvement versus diversified equities over 15 years. A 2-3% allocation maintains exposure to the asset class for potential upside while reducing unnecessary volatility that could trigger emotional decisions during drawdowns. Redeploy proceeds to fill international gap or sector diversification.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Reduce BTC position from 5% to 2-3% of portfolio (~$5.4k position vs current ~$9k). Sell approximately $3-4k of BTC. Redirect proceeds toward international equity ETFs (VXUS) or sector diversification positions (VHT, XLF). Maintain small crypto position as asymmetric bet with capital you can afford to lose completely.",
+      "suggested_allocation_pct": -2.0,
+      "risk_level": "low",
+      "expected_return_range": "N/A (risk reduction)",
+      "time_horizon": "immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "low",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:44:50.328940",
+      "composite_score": 0.0
+    }
+  ]
+}

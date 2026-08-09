@@ -1,0 +1,118 @@
+{
+  "n_pairwise_files": 432,
+  "confirmed_wins_per_pair": {
+    "A_wealthnexus__VS__B1_profile_blind": {
+      "A_wealthnexus": 56,
+      "B1_profile_blind": 2,
+      "tie": 14
+    },
+    "A_wealthnexus__VS__B2_rag_blind": {
+      "A_wealthnexus": 15,
+      "B2_rag_blind": 26,
+      "tie": 31
+    },
+    "A_wealthnexus__VS__B3_generic_llm": {
+      "A_wealthnexus": 50,
+      "B3_generic_llm": 5,
+      "tie": 17
+    }
+  },
+  "criterion_winners_per_pair": {
+    "A_wealthnexus__VS__B1_profile_blind": {
+      "C1_personalization": {
+        "A_wealthnexus": 117,
+        "B1_profile_blind": 22,
+        "tie": 4
+      },
+      "C2_risk_alignment": {
+        "A_wealthnexus": 83,
+        "B1_profile_blind": 3,
+        "tie": 57
+      },
+      "C3_factual_grounding": {
+        "A_wealthnexus": 69,
+        "B1_profile_blind": 30,
+        "tie": 44
+      },
+      "C4_actionability": {
+        "A_wealthnexus": 100,
+        "B1_profile_blind": 38,
+        "tie": 5
+      },
+      "C5_diversification": {
+        "A_wealthnexus": 42,
+        "B1_profile_blind": 36,
+        "tie": 65
+      },
+      "C6_safety_compliance": {
+        "A_wealthnexus": 32,
+        "B1_profile_blind": 4,
+        "tie": 107
+      }
+    },
+    "A_wealthnexus__VS__B2_rag_blind": {
+      "C1_personalization": {
+        "A_wealthnexus": 51,
+        "B2_rag_blind": 52,
+        "tie": 41
+      },
+      "C2_risk_alignment": {
+        "A_wealthnexus": 17,
+        "B2_rag_blind": 20,
+        "tie": 107
+      },
+      "C3_factual_grounding": {
+        "A_wealthnexus": 50,
+        "B2_rag_blind": 50,
+        "tie": 44
+      },
+      "C4_actionability": {
+        "A_wealthnexus": 52,
+        "B2_rag_blind": 90,
+        "tie": 2
+      },
+      "C5_diversification": {
+        "A_wealthnexus": 36,
+        "B2_rag_blind": 49,
+        "tie": 59
+      },
+      "C6_safety_compliance": {
+        "A_wealthnexus": 10,
+        "B2_rag_blind": 1,
+        "tie": 133
+      }
+    },
+    "A_wealthnexus__VS__B3_generic_llm": {
+      "C1_personalization": {
+        "A_wealthnexus": 116,
+        "B3_generic_llm": 17,
+        "tie": 11
+      },
+      "C2_risk_alignment": {
+        "A_wealthnexus": 31,
+        "B3_generic_llm": 21,
+        "tie": 92
+      },
+      "C3_factual_grounding": {
+        "A_wealthnexus": 59,
+        "B3_generic_llm": 49,
+        "tie": 36
+      },
+      "C4_actionability": {
+        "A_wealthnexus": 112,
+        "B3_generic_llm": 31,
+        "tie": 1
+      },
+      "C5_diversification": {
+        "A_wealthnexus": 83,
+        "B3_generic_llm": 25,
+        "tie": 36
+      },
+      "C6_safety_compliance": {
+        "A_wealthnexus": 17,
+        "B3_generic_llm": 9,
+        "tie": 118
+      }
+    }
+  }
+}

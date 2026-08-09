@@ -1,0 +1,12 @@
+{
+  "judge_label": "gpt4o_openai",
+  "status": "error",
+  "error": "Connection error.",
+  "raw_output": null,
+  "parsed": null,
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

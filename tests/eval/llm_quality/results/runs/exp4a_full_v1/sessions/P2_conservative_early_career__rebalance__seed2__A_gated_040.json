@@ -1,0 +1,16 @@
+{
+  "session_id": "P2_conservative_early_career__rebalance__seed2",
+  "persona_id": "P2_conservative_early_career",
+  "query_type": "rebalance",
+  "query": "Most of my money is in cash right now. Is that okay or should I shift it into investments?",
+  "seed": 2,
+  "system": "A_gated_040",
+  "rag_diagnostics": {
+    "top_score": 0.389,
+    "num_hits": 2,
+    "gated": true,
+    "threshold": 0.4
+  },
+  "rec_count": 0,
+  "recommendations": []
+}

@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides deeper personalization by citing multiple specific profile attributes and explicitly addresses the 30% healthcare concentration risk, which System A ignores entirely despite the user's low loss tolerance. B's actions are more concrete (specific dollar amounts, timelines, and ticker-level rebalancing steps), though A has a slight edge in factual grounding since B makes an minor inconsistency around emergency reserve sizing.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides deeper personalization by citing multiple specific profile attributes and explicitly addresses the 30% healthcare concentration risk, which System A ignores entirely despite the user's low loss tolerance. B's actions are more concrete (specific dollar amounts, timelines, and ticker-level rebalancing steps), though A has a slight edge in factual grounding since B makes an minor inconsistency around emergency reserve sizing."
+  },
+  "usage": {
+    "input_tokens": 10283,
+    "output_tokens": 276
+  },
+  "session_id": "P1_conservative_retiree__rebalance__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

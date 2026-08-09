@@ -1,0 +1,30 @@
+{
+  "session_id": "P3_moderate_mid_career__sector_specific__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "sector_specific",
+  "seed": 2,
+  "sys_a": "A_gated_045",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"tie\",\n  \"rationale_overall\": \"Both systems produce highly similar, well-personalized recommendations with matching risk levels and diversification awareness. System A offers slightly more concrete action steps (specific dollar amounts sourced from stated net worth, alternative tickers), while System B has marginally better factual grounding (correctly uses total assets $320k rather than conflating with net worth $140k as A does in Rec #2), resulting in an overall tie.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "tie",
+    "rationale_overall": "Both systems produce highly similar, well-personalized recommendations with matching risk levels and diversification awareness. System A offers slightly more concrete action steps (specific dollar amounts sourced from stated net worth, alternative tickers), while System B has marginally better factual grounding (correctly uses total assets $320k rather than conflating with net worth $140k as A does in Rec #2), resulting in an overall tie."
+  },
+  "usage": {
+    "input_tokens": 12834,
+    "output_tokens": 271
+  }
+}

@@ -69,8 +69,12 @@ data/trace.db
 .mypy_cache/
 .ruff_cache/
 
-# Tests and evaluation (excluded from demo repo)
-tests/
+# Tests and evaluation: included on the paper-artifacts branch (reproducibility
+# release); excluded from the demo/HF-Space deploy on main.
+# tests/
+
+# Claude Code local settings (local absolute paths / permission grants — not for repo)
+.claude/settings.local.json
 
 # Evaluation result HTML reports (generated, not source)
 docs/*.html

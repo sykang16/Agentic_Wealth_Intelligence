@@ -1,0 +1,192 @@
+{
+  "session_id": "P3_moderate_mid_career__sector_specific__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "sector_specific",
+  "query": "Should I add international or emerging-markets exposure, and if so what proportion is reasonable?",
+  "seed": 1,
+  "context": {
+    "portfolio_context": "## Portfolio Snapshot\n- Total Assets: $320,000\n- Total Liabilities: $180,000\n- Net Worth: $140,000\n\n### Allocation by Asset Type\n- etf: 50.0%\n- stock: 20.0%\n- bond: 30.0%\n\n### Allocation by Sector\n- Technology: 35.0%\n- Financials: 15.0%\n- Healthcare: 12.0%\n- Consumer Discretionary: 10.0%\n- Industrials: 8.0%\n- Energy: 5.0%\n- Other: 15.0%\n\n### Holdings (tickers)\nVTI, VXUS, BND, AAPL, MSFT, NVDA, GOOGL",
+    "investment_profile_context": "## Investment Profile\n- Age: 40\n- Occupation: Product manager\n- Annual Income: $175,000\n- Monthly Expenses: $9,500\n- Risk Tolerance: moderate\n- Loss Comfort (1-10): 6\n- Investment Horizon: long\n- Liquidity Needs: medium\n- Income Stability: stable\n- Has Emergency Fund: True\n- Debt Level: low\n- Investment Experience: intermediate\n- Goals:\n  - education (high priority, target $200,000): Fund college for two children, primary horizon ~10 years\n  - retirement (high priority, target $2,500,000): Long-term retirement target, ~25 years out",
+    "rag_context": "[etf_factsheet] Vanguard (VXUS)\n# Vanguard Total International Stock ETF (VXUS)\n\n## Fund Overview\nExposure to stocks from developed and emerging markets outside the United States.\n\n## Key Statistics\n- **Ticker Symbol**: VXUS\n- **Expense Ratio**: 0.07%\n- **Assets Under Management**: $60 billion\n- **Number of Holdings**: 7,800+ stocks\n- **Sector Focus**: International\n\n## Investment Objective\nThe fund seeks to track the performance of its benchmark index, providing investors with diversified exposure to the international market segment.\n\n## Risk Considerations\n- Market risk: The value of the fund may decline due to general market conditions.\n- Concentration risk: The fund may be concentrated in a particular sector or industry.\n- Liquidity risk: Some securities may be difficult to sell at favorable prices.\n\n## Who Should Invest\nThis fund is suitable for investors seeking:\n- Long-term capital appreciation\n- Diversified exposure to international securities\n- Low-cost index investing approach\n\n## Performance History\nPast performance does not guarantee future results. The fund has historically tracked its benchmark index closely, with minimal tracking error.\n\n## How to Invest\nShares can be purchased through most brokerage accounts. The fund trades on major exchanges under the ticker symbol VXUS.\n\n---\n\n[investment_guide] Wealth Intelligence Research\n# Risk Management: Protecting Your Investment Portfolio\n\n\n## Understanding Risk Types\nMarket risk affects all investments. Specific risk relates to individual securities. Inflation risk erodes purchasing power. Interest rate risk impacts bond prices. Currency risk affects international investments.\n\n## Risk Tolerance Assessment\nYour risk tolerance depends on your time horizon, financial goals, income stability, and emotional comfort with volatility. Be honest about how you'd react to significant portfolio declines.\n\n## Hedging Strategies\nOptions and inverse ETFs can protect against downside risk. Dollar-cost averaging reduces timing risk. Holding cash provides a buffer during market downturns.\n\n## Emergency Fund Importance\nMaintain 3-6 months of expenses in liquid savings. This prevents the need to sell investments at unfavorable times during personal financial emergencies.\n\n## Portfolio Stress Testing\nEvaluate how your portfolio would perform in various scenarios: 2008-style crash, rising interest rates, high inflation. Adjust allocations if potential losses exceed your tolerance.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.",
+    "data_sources_used": [
+      "portfolio",
+      "investment_profile",
+      "rag_knowledge_base"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec_b438cfdb",
+      "category": "diversify",
+      "title": "Increase International Exposure via VXUS",
+      "summary": "Add 10-15% allocation to VXUS to improve geographic diversification and reduce concentration in U.S. markets, aligning with your moderate risk profile and long-term horizon.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your current portfolio shows heavy U.S. concentration with VTI, individual U.S. tech stocks (AAPL, MSFT, NVDA, GOOGL), representing approximately 70% of equity allocation. This creates geographic concentration risk. (2) RISK ALIGNMENT: With moderate risk tolerance (loss comfort 6/10) and long investment horizon (25 years to retirement, 10 years to education goal), you can tolerate the higher volatility of international markets while benefiting from diversification. Your stable income ($175K) and existing emergency fund provide cushion during periods of international market volatility. (3) EVIDENCE: The knowledge base specifically highlights VXUS as providing 'diversified exposure to international securities' across 7,800+ stocks in developed and emerging markets with a low 0.07% expense ratio. Academic research consistently shows international diversification reduces portfolio-specific risk. Your current lack of meaningful international exposure leaves you vulnerable to U.S.-specific economic challenges. (4) TRADE-OFFS: International investments carry currency risk and may underperform U.S. markets during periods of dollar strength. Emerging markets within VXUS add volatility. However, over your 10-25 year horizon, this diversification historically reduces overall portfolio risk while maintaining growth potential needed for your education and retirement goals.",
+      "tickers": [
+        "VXUS"
+      ],
+      "suggested_action": "Allocate 10-15% of total portfolio ($32,000-$48,000) to VXUS. Execute gradually over 3-6 months using dollar-cost averaging to reduce timing risk. Fund this by reducing Technology sector overweight - consider trimming individual tech stock positions proportionally.",
+      "suggested_allocation_pct": 12.5,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "10+ years, suitable for both education and retirement goals",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:15:31.836349",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_8c7fe471",
+      "category": "rebalance",
+      "title": "Reduce Technology Overconcentration",
+      "summary": "Trim individual tech stock positions to reduce sector concentration from 35% to 25%, mitigating single-sector risk while maintaining growth exposure appropriate for your goals.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Technology sector represents 35% of your portfolio - significantly overweight versus broad market benchmarks (typically 25-28%). This concentration exists through both individual holdings (AAPL, MSFT, NVDA, GOOGL) and VTI's tech allocation, creating correlated downside risk. (2) RISK ALIGNMENT: While your moderate risk tolerance and intermediate experience support some sector tilt, 35% concentration exceeds prudent diversification principles, especially given your high-priority education goal only 10 years away. The knowledge base emphasizes 'concentration risk' as a key consideration, noting funds 'may be concentrated in a particular sector.' Your two children's education timeline reduces capacity to recover from a prolonged tech sector downturn. (3) EVIDENCE: Historical sector analysis shows technology experiences higher volatility than diversified portfolios. Recent market history (2022) demonstrated how concentrated tech exposure amplifies drawdowns. Your portfolio's 50% ETF allocation already provides tech exposure through VTI, making individual tech stocks partially redundant. (4) TRADE-OFFS: Technology has been a strong performer and may continue leading. Trimming winners feels counterintuitive. However, rebalancing enforces disciplined 'sell high' behavior. The goal isn't eliminating tech exposure but rightsizing it to 25% - still meaningfully overweight versus maintaining growth characteristics while improving risk-adjusted returns through better diversification.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Reduce individual tech stock positions by 25-30% ($16,000-$20,000). Maintain all four positions but smaller weights. Redistribute proceeds to VXUS (per recommendation #1) and consider adding to underweight sectors like Healthcare or Consumer Staples through sector ETFs.",
+      "suggested_allocation_pct": -8.0,
+      "risk_level": "low",
+      "expected_return_range": "Improves risk-adjusted returns, reduces potential drawdown by 3-5%",
+      "time_horizon": "Immediate rebalancing, benefits both 10-year and 25-year goals",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:15:31.836349",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_bcf95056",
+      "category": "diversify",
+      "title": "Add Targeted Emerging Markets Exposure",
+      "summary": "Consider adding 3-5% allocation to dedicated emerging markets ETF (VWO or IEMG) for enhanced growth potential and further diversification beyond VXUS's developed market focus.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your question specifically asks about emerging markets exposure. While VXUS includes emerging markets, they represent only ~25% of that fund, meaning your current emerging markets exposure is minimal (effectively 0% currently, potentially 3-4% after adding VXUS). For a 40-year-old with 25-year retirement horizon, higher emerging markets allocation captures long-term growth in developing economies. (2) RISK ALIGNMENT: This recommendation carries moderate-to-high risk due to emerging markets volatility, currency fluctuations, and political instability. However, limiting allocation to 3-5% appropriately sizes the risk for your moderate risk tolerance. Your stable product manager income, low debt level, and healthy emergency fund provide stability to absorb this volatility. The 25-year retirement timeline allows multiple market cycles to play out. (3) EVIDENCE: Emerging markets historically offer higher long-term growth potential as developing economies industrialize and their middle classes expand. Adding dedicated EM exposure complements VXUS rather than duplicating it. Your intermediate investment experience suggests capability to understand and tolerate EM volatility. The small allocation size (3-5%) means even significant EM drawdowns have limited portfolio impact while preserving upside participation. (4) TRADE-OFFS: Emerging markets can underperform for extended periods and experience sharp drawdowns. They carry higher political, currency, and liquidity risks than developed markets. However, the allocation is appropriately sized as a 'satellite' position. If EM exposure feels too aggressive, you could skip this and rely solely on VXUS's built-in EM component, making this recommendation lower priority than the first two.",
+      "tickers": [
+        "VWO",
+        "IEMG"
+      ],
+      "suggested_action": "Allocate 3-5% of portfolio ($9,600-$16,000) to VWO (Vanguard FTSE Emerging Markets ETF) or IEMG (iShares Core MSCI Emerging Markets ETF). Both offer broad EM exposure with low expense ratios. Implement after completing VXUS addition. Monitor quarterly but maintain through volatility given long-term horizon.",
+      "suggested_allocation_pct": 4.0,
+      "risk_level": "high",
+      "expected_return_range": "8-12% annually (higher volatility)",
+      "time_horizon": "15-25 years, primarily supporting retirement goal",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:15:31.836349",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_96997273",
+      "category": "hold",
+      "title": "Maintain Current Bond Allocation at 30%",
+      "summary": "Keep BND at 30% allocation as appropriate ballast for your moderate risk profile, providing stability for near-term education goal while supporting long-term growth for retirement.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your 30% bond allocation via BND aligns well with common age-based guidelines (rule of thumb: bonds = age, or 40% for age 40, though this is increasingly conservative). Your allocation is slightly below this traditional benchmark but appropriate given your stable income, emergency fund, and long horizons. (2) RISK ALIGNMENT: The 30% bond allocation provides crucial stability for your 10-year education goal while not being so conservative as to jeopardize 25-year retirement growth needs. With moderate risk tolerance (loss comfort 6/10), you can tolerate 70% equity exposure. The knowledge base emphasizes 'interest rate risk impacts bond prices,' acknowledging bonds' role in portfolio protection despite current challenges. Your monthly expenses ($9,500) are well covered by income, reducing need for near-term portfolio liquidity, supporting ability to maintain this allocation through bond market volatility. (3) EVIDENCE: Your two high-priority goals have different time horizons requiring balanced approach. Education funding ($200K target, 10 years) benefits from bond stability to ensure capital preservation as timeline shortens. Retirement ($2.5M target, 25 years) requires equity growth. The 70/30 stock/bond split represents appropriate compromise. BND provides diversified, low-cost bond exposure (Vanguard Total Bond Market). The knowledge base highlights 'dollar-cost averaging reduces timing risk' - maintaining steady bond allocation provides this benefit. (4) TRADE-OFFS: In rising rate environments, bonds may deliver modest or negative returns. Higher equity allocation could boost returns if markets cooperate. However, eliminating bond ballast would increase portfolio volatility beyond your moderate risk tolerance and jeopardize education goal stability. As you approach education funding needs (7-8 years out), consider gradually increasing bonds to 35-40% specifically for that goal, but maintain current 30% for now.",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "Maintain current BND position. No action required now. Set calendar reminder for 3 years (when education goal is 7 years away) to consider increasing bond allocation to 35% by directing new contributions toward bonds and potentially shifting some equity gains into fixed income for education goal stability.",
+      "suggested_allocation_pct": 30.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5% annually (current environment)",
+      "time_horizon": "Ongoing, review in 3 years as education goal approaches",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:15:31.836349",
+      "composite_score": 0.0
+    }
+  ],
+  "rec_count": 4
+}

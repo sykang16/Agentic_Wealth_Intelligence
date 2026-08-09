@@ -1,0 +1,190 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "query": "I'm 40 with two kids heading to college in about 10 years. How should I balance saving for their education versus retirement?",
+  "seed": 2,
+  "system": "A_gated_040",
+  "rag_diagnostics": {
+    "top_score": 0.42,
+    "num_hits": 4,
+    "gated": false,
+    "threshold": 0.4
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_496ea042",
+      "category": "diversify",
+      "title": "Establish Dedicated 529 College Savings Plan",
+      "summary": "Open 529 plans for both children to take advantage of tax-advantaged growth for your 10-year education goal while maintaining your current portfolio for retirement.",
+      "detailed_rationale": "Signal: Your portfolio shows no dedicated education savings vehicle, yet education is a high-priority goal with $200K target and 10-year horizon. Step-by-step reasoning: (1) Currently, your entire $320K portfolio appears allocated to general investments without tax-advantaged education savings. (2) With moderate risk tolerance and 10-year horizon, you can afford equity exposure early but need to de-risk as college approaches. (3) The knowledge base emphasizes tax-advantaged accounts for wealth building - 529 plans offer tax-free growth for education expenses, similar to the retirement account benefits mentioned. (4) Your stable $175K income and low debt level provide capacity to fund both goals simultaneously. Recommended approach: Contribute $2,000-2,500/month to 529 plans (split between two children), targeting age-based portfolios that automatically shift from 80% stocks now to 30% stocks by college entry. This represents roughly 13-15% of your gross income while maintaining retirement contributions. Trade-off: This reduces available cash flow for other goals and locks funds for education use (10% penalty + taxes on earnings for non-qualified withdrawals), but the tax benefits (~22% federal bracket savings) and goal-specific structure justify the commitment given your stated priority.",
+      "tickers": [
+        "VANGUARD_529",
+        "FIDELITY_529"
+      ],
+      "suggested_action": "Open 529 college savings plans for both children, starting with $5,000 initial funding per child, then contribute $2,000-2,500 monthly total. Select age-based portfolios that automatically adjust asset allocation as college approaches.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "low",
+      "expected_return_range": "5-7% annually",
+      "time_horizon": "10 years (decreasing equity exposure from year 7 onward)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:44:12.792460",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_754557b4",
+      "category": "rebalance",
+      "title": "Reduce Technology Concentration with International Diversification",
+      "summary": "Decrease technology allocation from 35% to 25% by trimming individual tech stocks and increasing VXUS (international) exposure for better diversification.",
+      "detailed_rationale": "Signal: Technology represents 35% of your portfolio, significantly overweight versus typical moderate-risk allocations (typically 20-25%). Step-by-step reasoning: (1) Your holdings show heavy concentration in AAPL, MSFT, NVDA, GOOGL individual stocks plus likely tech exposure through VTI, creating single-sector risk that exceeds moderate risk tolerance guidelines. (2) The knowledge base emphasizes diversification to 'reduce portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Your 35% tech allocation creates correlation risk. (3) At age 40 with 25-year retirement horizon and 10-year education goal, you have time to recover from volatility but shouldn't take unnecessary concentration risk. (4) Your VXUS allocation appears underweight - international diversification provides exposure to different economic cycles and currencies. Specific action: Sell 30-40% positions in NVDA and GOOGL (the highest-beta names), redirecting proceeds to VXUS to increase international exposure from current level to 20-25% of equity allocation. This maintains growth potential while reducing single-sector dependency. Trade-off: May sacrifice some upside if US tech continues outperforming, and triggers taxable capital gains, but significantly reduces downside risk from tech sector corrections (like 2022's 30%+ tech decline) that could derail near-term education funding needs.",
+      "tickers": [
+        "VXUS",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Sell 35% of NVDA and GOOGL positions (approximately $22,400 based on 20% individual stock allocation). Reinvest proceeds into VXUS to increase international exposure. This reduces tech concentration to ~25% while improving geographic diversification.",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "Long-term (10+ years)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:44:12.792460",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_d688a95a",
+      "category": "buy",
+      "title": "Add Short-Duration Bond Fund for Education Goal Liquidity",
+      "summary": "Allocate 10% of portfolio to short-term bond fund (VGSH or BSV) to create lower-volatility assets accessible for college expenses starting in 7-8 years.",
+      "detailed_rationale": "Signal: Your 30% bond allocation (BND) is appropriate for total portfolio, but you lack a specific low-volatility bucket for the approaching education goal. Step-by-step reasoning: (1) BND holds 10,000+ bonds with average duration around 6-7 years, creating interest rate risk inappropriate for funds needed in 7-10 years. (2) The knowledge base notes that asset allocation should consider 'investment goals, time horizon, and risk tolerance' - your dual goals require different bond strategies. (3) With education expenses starting in 10 years and continuing for 8+ years (two children, 4 years each), you need a ladder of increasingly liquid, stable assets. (4) Your moderate risk tolerance (loss comfort 6/10) and medium liquidity needs suggest you'd be uncomfortable with significant bond losses right before college bills arrive. Recommended approach: Reallocate $32,000 (10% of portfolio) from BND to short-duration bond fund like Vanguard Short-Term Bond ETF (BSV) or Short-Term Treasury (VGSH), with 1-3 year duration. This creates a 'near-term education reserve' while maintaining BND for longer-term retirement stability. As you get within 5 years of first college payment, gradually shift more from stocks to this short-duration bucket. Trade-off: Short-term bonds yield 1-2% less than intermediate bonds currently (approximately 4.5% vs 5.5%), representing $320-640 annual opportunity cost, but provides crucial capital preservation for imminent goal and reduces sequence-of-returns risk.",
+      "tickers": [
+        "BSV",
+        "VGSH"
+      ],
+      "suggested_action": "Purchase $32,000 of BSV (Vanguard Short-Term Bond ETF) or VGSH (Vanguard Short-Term Treasury ETF) by reducing BND position proportionally. Label this mentally as 'education reserve' and plan to increase this allocation to 20-25% of portfolio over next 5 years.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "3.5-4.5% annually",
+      "time_horizon": "7-10 years (capital preservation focus)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:44:12.792460",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_04520a4d",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Advantaged Retirement Contributions",
+      "summary": "Ensure you're contributing at least $23,000 to 401(k) and capturing full employer match, while considering backdoor Roth IRA contributions for tax diversification.",
+      "detailed_rationale": "Signal: Your $175K income and stable employment suggest capacity for increased retirement savings, but current portfolio data doesn't indicate contribution levels to tax-advantaged accounts. Step-by-step reasoning: (1) Knowledge base explicitly states '401(k) limits are $23,000' and emphasizes to 'always contribute enough to capture the full employer match - this is essentially free money with an immediate 100% return.' (2) As a product manager earning $175K, you likely have 4-6% employer match available (typical for tech/corporate roles), representing $7,000-10,500 in free money annually. (3) Your moderate risk tolerance and 25-year retirement horizon align perfectly with aggressive tax-advantaged saving - the knowledge base notes 'time in the market often matters more than timing the market.' (4) At $175K income, you're in 24% federal bracket (32% effective with FICA), making pre-tax contributions highly valuable, but you also exceed Roth IRA income limits ($161K married), making backdoor Roth IRA strategy relevant for tax diversification. Specific action: Verify you're contributing $23,000 annually to 401(k) (approximately $1,917/month). If employer match is 50% up to 6% of salary, ensure you contribute at least $10,500 to capture full $5,250 match. Additionally, execute backdoor Roth IRA: contribute $7,000 to traditional IRA (non-deductible), immediately convert to Roth IRA. This creates tax-free growth bucket alongside pre-tax 401(k). Trade-off: Reduces current take-home pay by approximately $1,400/month after tax benefits, which requires careful budgeting given $9,500 monthly expenses, but knowledge base emphasizes 'tax-advantaged accounts provide tax benefits that accelerate wealth building' - the long-term compounding benefits far exceed short-term cash flow constraints given your stable income.",
+      "tickers": [
+        "401K",
+        "ROTH_IRA"
+      ],
+      "suggested_action": "Increase 401(k) contributions to reach $23,000 annual maximum if not already there. Verify employer match percentage and ensure you're capturing full match. Execute backdoor Roth IRA: contribute $7,000 to traditional IRA, immediately convert to Roth IRA for tax-free retirement growth.",
+      "suggested_allocation_pct": 25.0,
+      "risk_level": "low",
+      "expected_return_range": "6-8% annually with significant tax benefits",
+      "time_horizon": "25+ years (retirement focus)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:44:12.792460",
+      "composite_score": 0.0
+    }
+  ]
+}

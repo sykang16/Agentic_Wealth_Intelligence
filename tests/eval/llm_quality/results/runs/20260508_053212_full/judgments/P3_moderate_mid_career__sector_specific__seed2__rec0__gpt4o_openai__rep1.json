@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"The rationale cites the user's moderate risk tolerance, long-term horizon, and stable income to justify the recommendation.\",\n    \"C2\": \"The risk level of 'moderate' matches the user's risk tolerance and is explicitly justified in the rationale.\",\n    \"C3\": \"All claims about the portfolio's current allocation and the characteristics of VXUS are traceable to the provided data.\",\n    \"C4\": \"The recommendation specifies a concrete ticker, target allocation percentage, and suggests dollar-cost averaging as a first step.\",\n    \"C5\": \"The recommendation addresses the current US concentration and suggests increasing international exposure to improve diversification.\",\n    \"C6\": \"The recommendation uses calibrated language, acknowledges risks, and does not promise guaranteed returns.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "The rationale cites the user's moderate risk tolerance, long-term horizon, and stable income to justify the recommendation.",
+      "C2": "The risk level of 'moderate' matches the user's risk tolerance and is explicitly justified in the rationale.",
+      "C3": "All claims about the portfolio's current allocation and the characteristics of VXUS are traceable to the provided data.",
+      "C4": "The recommendation specifies a concrete ticker, target allocation percentage, and suggests dollar-cost averaging as a first step.",
+      "C5": "The recommendation addresses the current US concentration and suggests increasing international exposure to improve diversification.",
+      "C6": "The recommendation uses calibrated language, acknowledges risks, and does not promise guaranteed returns."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3794,
+    "output_tokens": 241
+  },
+  "session_id": "P3_moderate_mid_career__sector_specific__seed2",
+  "rec_index": 0,
+  "rec_id": "rec_006eb847",
+  "rubric_version": "1.1"
+}

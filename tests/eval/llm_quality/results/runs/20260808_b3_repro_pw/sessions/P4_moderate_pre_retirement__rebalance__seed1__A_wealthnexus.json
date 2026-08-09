@@ -1,0 +1,194 @@
+{
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "rebalance",
+  "query": "Walk me through a year-by-year glide path that gradually shifts my allocation over the next decade.",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_cbe663f9",
+      "category": "rebalance",
+      "title": "Initiate 10-Year Retirement Glide Path: Year 1-2 Adjustment",
+      "summary": "Begin shifting from 55% equity/40% bonds to a more conservative 50% equity/45% bonds allocation over the next 2 years to align with your approaching retirement at 65.",
+      "detailed_rationale": "Signal: You are 55 years old with a 10-year retirement horizon and $755,000 net worth targeting $1.8M by age 65. Your current allocation (55% stocks via ETFs and individual holdings, 40% bonds, 5% cash) is appropriately moderate but needs to begin a systematic de-risking process. Step-by-step reasoning: (1) With 10 years to retirement, you're entering the critical 'preservation zone' where market downturns have outsized impact on your final retirement corpus. A major correction in years 8-10 could significantly delay retirement. (2) Your moderate risk tolerance (loss comfort 5/10) and stable income ($220k annually) support a gradual glide path rather than abrupt changes. The knowledge base confirms that target-date funds 'automatically adjust asset allocation as you approach retirement, becoming more conservative over time' - we're replicating this principle. (3) Years 1-2 (ages 55-57): Reduce equity from 55% to 50% by trimming individual stock positions (JNJ, UNH, JPM, BRK.B currently at 15% total) to 12%, while increasing BND (bond allocation) from current ~35% to 40%. This represents a modest 5% shift, allowing continued growth while reducing volatility. (4) Evidence from portfolio: Your current sector concentration shows 22% Healthcare (JNJ, UNH) - reducing individual stock exposure here first makes sense for diversification. Your VTI and VXUS ETF holdings provide sufficient equity exposure. (5) Trade-off: Shifting 5% from stocks to bonds may reduce upside potential by approximately 0.5-1% annually, but significantly reduces sequence-of-returns risk in your final decade before retirement.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "BND"
+      ],
+      "suggested_action": "Reduce individual stock holdings by selling 20% of JNJ and UNH positions (approximately $25,500 total). Use proceeds to purchase additional BND shares, increasing bond allocation from 35% to 40%. This brings total equity to 50% and bonds to 45%.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "5-7% annually",
+      "time_horizon": "Next 2 years (Ages 55-57)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:39:25.597253",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_eed7e196",
+      "category": "diversify",
+      "title": "Establish International Bond Exposure for Glide Path Years 3-5",
+      "summary": "Add 5-7% allocation to international bonds (BNDX or similar) during years 3-5 of your glide path to enhance diversification and reduce US-specific interest rate risk.",
+      "detailed_rationale": "Signal: Your current bond allocation is 100% domestic (BND), creating concentration risk in US fixed income markets. As you progress through the glide path, bond allocation will grow from 40% to eventually 55-60% by retirement, making diversification within fixed income critical. Step-by-step reasoning: (1) Portfolio gap identified: Zero international bond exposure despite having 10-15% international equity exposure via VXUS. This creates asymmetric geographic risk. (2) Risk profile alignment: Your moderate risk tolerance and advanced investment experience suggest you can handle the slight additional complexity of international bonds. Your stable $220k income and low debt ($95k liabilities) provide flexibility to add this position gradually. (3) Years 3-5 timeline (ages 57-60): As equity drops from 50% to 45% and bonds increase from 45% to 50%, introduce international bonds at 5-7% of total portfolio. This timing coincides with the midpoint of your glide path when fixed income becomes the dominant allocation. (4) Supporting evidence: The knowledge base emphasizes that 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' International bonds provide currency diversification and lower correlation to US interest rate movements (correlation typically 0.5-0.7 vs 1.0 for domestic bonds). (5) Specific implementation: Use Vanguard Total International Bond ETF (BNDX) which holds investment-grade foreign bonds hedged to USD, minimizing currency risk while providing geographic diversification. (6) Trade-off: International bonds typically yield 0.5-1% less than US bonds currently, and add modest complexity. However, they reduce single-country fixed income risk as your bond allocation grows to majority of portfolio.",
+      "tickers": [
+        "BNDX",
+        "BND"
+      ],
+      "suggested_action": "In years 3-5 of glide path, gradually build 5-7% position in BNDX by allocating new bond purchases to international bonds while maintaining existing BND position. Target: 7% international bonds, 43% domestic bonds by age 60.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5% annually",
+      "time_horizon": "Years 3-5 of glide path (Ages 57-60)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:39:25.597253",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_18b60e47",
+      "category": "rebalance",
+      "title": "Mid-Glide Path Adjustment: Years 5-7 Equity Reduction",
+      "summary": "Execute second major equity reduction from 45% to 38% during ages 60-62, focusing on reducing sector concentration in Healthcare and Financials while maintaining core broad-market exposure.",
+      "detailed_rationale": "Signal: At the 5-7 year mark of your glide path, you'll be 60-62 years old with only 3-5 years until retirement. This is the critical deceleration phase where capital preservation becomes paramount while maintaining some growth potential. Step-by-step reasoning: (1) Timeline trigger: The knowledge base notes that 'regular rebalancing ensures your portfolio stays aligned with target allocations' and conservative portfolios hold '20-40% stocks, 50-70% bonds.' At 60-62, you're transitioning from moderate to moderate-conservative positioning. (2) Current sector analysis reveals concentration risk: 22% Healthcare (JNJ, UNH) and 18% Financials (JPM, BRK.B) represent 40% of your equity exposure. Reducing individual stock positions further during this phase accomplishes dual goals: de-risking and de-concentrating. (3) Risk alignment: With loss comfort of 5/10 and retirement just 3-5 years away, your ability to recover from market downturns diminishes significantly. Historical data shows that preserving capital in the 5 years before retirement is more important than maximizing returns. A 30% market correction at age 61 could force a 2-3 year retirement delay. (4) Specific action plan for years 5-7: Reduce individual stocks from 12% to 7% of portfolio by selling remaining concentrated positions in JNJ, UNH, JPM. Reduce VTI (broad market equity) from ~25% to 20%. This brings total equity from 45% to 38%. Simultaneously increase bond allocation from 50% to 57% (split between BND at 43% and BNDX at 14%). (5) Evidence-based approach: This follows the target-date fund model from your knowledge base, which becomes 'more conservative over time.' The 7% equity reduction over 2 years (3.5% annually) is gradual enough to avoid market timing risk. (6) Trade-off: Further equity reduction means foregoing potential bull market gains. If markets return 10% annually during this period, the opportunity cost is approximately $25,000-30,000. However, downside protection is worth this trade-off given proximity to retirement and your need to reach $1.8M target with certainty.",
+      "tickers": [
+        "VTI",
+        "JNJ",
+        "UNH",
+        "JPM",
+        "BND",
+        "BNDX"
+      ],
+      "suggested_action": "At ages 60-62, sell remaining JNJ and UNH positions completely ($40,000-45,000), reduce JPM by 50% ($15,000), and trim VTI by 20% ($42,500). Reallocate proceeds 70% to BND and 30% to BNDX, achieving 38% equity / 57% bonds / 5% cash allocation.",
+      "suggested_allocation_pct": 7.0,
+      "risk_level": "low",
+      "expected_return_range": "4.5-6.5% annually",
+      "time_horizon": "Years 5-7 of glide path (Ages 60-62)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:39:25.597253",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_63f54077",
+      "category": "income_generation",
+      "title": "Final Glide Path Phase: Years 8-10 Income-Focused Positioning",
+      "summary": "Complete glide path transition by shifting to 30% equity / 65% bonds / 5% cash allocation and introduce 10-15% dividend-focused equity holdings to support retirement income generation at age 65.",
+      "detailed_rationale": "Signal: Years 8-10 (ages 63-65) represent the landing phase where your portfolio must be positioned to generate income while preserving capital for a 25-30 year retirement. Your goal specifies '$80-100k/yr income' from $1.8M target, implying a 4.4-5.5% withdrawal rate. Step-by-step reasoning: (1) Goal alignment: Your primary high-priority goal is 'Retire at 65 with $80-100k/yr income; begin glide-path now.' By year 10, the glide path must deliver a portfolio optimized for income generation, not growth. Current holdings (VTI, VXUS, JNJ, UNH) provide some dividends but aren't income-optimized. (2) Final allocation target: Conservative portfolios per knowledge base hold '20-40% stocks, 50-70% bonds' - your target of 30/65/5 falls perfectly in this range for a retiree with moderate risk tolerance. This preserves purchasing power against inflation while minimizing sequence-of-returns risk in early retirement. (3) Income generation strategy: Within the 30% equity allocation, shift 10-15% (approximately $180,000-200,000 at projected $1.8M portfolio) into dividend-focused holdings. Consider adding SCHD (Schwab US Dividend Equity ETF, ~3.5% yield), VYM (Vanguard High Dividend Yield, ~3% yield), or maintaining positions in dividend aristocrats like PG, BRK.B. This generates $6,000-7,000 annually in qualified dividends. (4) Bond ladder implementation: The 65% bond allocation ($1.17M) should include a 10-year bond ladder to provide predictable income and manage interest rate risk. Combine BND (40%), BNDX (15%), and individual Treasury bonds or CDs (10%) maturing annually to supplement withdrawals. Expected bond income: $30,000-35,000 annually at current rates. (5) Mathematical validation: Total expected income - Dividends ($6,500) + Bond interest ($32,500) + Social Security (assume $35,000-40,000 if delayed to 67) = $74,000-79,000. Remaining $6,000-21,000 comes from strategic principal withdrawals, achieving your $80-100k target. (6) Evidence from knowledge base: 'Social Security Planning - Delaying Social Security benefits until age 70 can increase monthly payments by up to 77%.' Consider delaying to age 67-70 to increase guaranteed income floor, reducing portfolio withdrawal pressure. (7) Trade-off: The conservative 30/65/5 allocation may underperform during strong equity markets, potentially returning 4-5% vs 6-8% for a more aggressive allocation. However, this is appropriate given you'll be in withdrawal phase, where capital preservation outweighs growth. The risk of a major drawdown forcing spending cuts in early retirement is unacceptable.",
+      "tickers": [
+        "SCHD",
+        "VYM",
+        "PG",
+        "BRK.B",
+        "BND",
+        "BNDX",
+        "VTI",
+        "VXUS"
+      ],
+      "suggested_action": "Ages 63-65: Complete equity reduction to 30% by selling remaining VXUS and 60% of VTI. Within 30% equity, allocate 15% to dividend-focused ETFs (SCHD, VYM) and maintain 10% in quality dividend stocks (PG, BRK.B). Increase bonds to 65% (BND 40%, BNDX 15%, bond ladder/CDs 10%). Maintain 5% cash for liquidity. Begin coordinating with Social Security claiming strategy.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "low",
+      "expected_return_range": "4-6% annually with $38,000-42,000 portfolio income",
+      "time_horizon": "Years 8-10 of glide path (Ages 63-65), then ongoing in retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:39:25.597253",
+      "composite_score": 0.0
+    }
+  ]
+}

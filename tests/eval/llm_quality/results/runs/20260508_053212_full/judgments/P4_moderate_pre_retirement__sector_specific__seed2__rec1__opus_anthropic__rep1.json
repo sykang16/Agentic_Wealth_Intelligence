@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"The rationale cites multiple specific profile attributes (age 55, $80-100k income goal, $220k stable income, low debt, moderate risk tolerance, glide-path to retirement) and ties them causally to the recommendation.\",\n    \"C2\": \"Risk_level 'moderate' matches the user's moderate risk tolerance, and the rationale explicitly justifies the fit by noting lower-beta sectors appropriate for glide-path.\",\n    \"C3\": \"Most claims are traceable (PG holding, 35% bonds, 10% Consumer Staples), though several yield/return figures (2.2% portfolio yield, 3.5% BND yield, $18,700 income) and the $51,000 reduction figure are unverified quantitative assertions.\",\n    \"C4\": \"Provides specific tickers (VNQ, VPU, PG), exact dollar amounts, a 3-4 month DCA timeline, and a clear first step.\",\n    \"C5\": \"Explicitly identifies the absence of Utilities/REITs and the relatively low Consumer Staples weighting, addressing a diversification gap directly.\",\n    \"C6\": \"Language is mostly calibrated ('approximately', 'would boost'), confidence='high' is somewhat strong but no guarantee language or harmful framing; no explicit disclaimer at rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "The rationale cites multiple specific profile attributes (age 55, $80-100k income goal, $220k stable income, low debt, moderate risk tolerance, glide-path to retirement) and ties them causally to the recommendation.",
+      "C2": "Risk_level 'moderate' matches the user's moderate risk tolerance, and the rationale explicitly justifies the fit by noting lower-beta sectors appropriate for glide-path.",
+      "C3": "Most claims are traceable (PG holding, 35% bonds, 10% Consumer Staples), though several yield/return figures (2.2% portfolio yield, 3.5% BND yield, $18,700 income) and the $51,000 reduction figure are unverified quantitative assertions.",
+      "C4": "Provides specific tickers (VNQ, VPU, PG), exact dollar amounts, a 3-4 month DCA timeline, and a clear first step.",
+      "C5": "Explicitly identifies the absence of Utilities/REITs and the relatively low Consumer Staples weighting, addressing a diversification gap directly.",
+      "C6": "Language is mostly calibrated ('approximately', 'would boost'), confidence='high' is somewhat strong but no guarantee language or harmful framing; no explicit disclaimer at rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6235,
+    "output_tokens": 554
+  },
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed2",
+  "rec_index": 1,
+  "rec_id": "rec_2585c071",
+  "rubric_version": "1.1"
+}

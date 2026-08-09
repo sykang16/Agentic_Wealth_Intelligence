@@ -1,0 +1,186 @@
+{
+  "session_id": "P5_aggressive_young_professional__open_ended__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "open_ended",
+  "query": "I'm aiming for FIRE in about 15 years. Am I on the right track with my current allocation?",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rag_diagnostics": {
+    "top_score": 0.395,
+    "num_hits": 5,
+    "gated": false,
+    "threshold": null
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_e66287d4",
+      "category": "diversify",
+      "title": "Reduce Technology Concentration - Add Sector Diversification",
+      "summary": "Your portfolio is 65% concentrated in Technology, creating significant sector risk. Diversify into underrepresented sectors to reduce volatility while maintaining aggressive growth.",
+      "detailed_rationale": "Step 1 - Portfolio Signal: Your current allocation shows 65% Technology concentration (QQQ, NVDA, TSLA tech components, GOOGL, META, AMZN), which is 3-4x higher than the tech sector's ~20% weight in broad market indices like VTI. This creates extreme correlation risk - if tech corrects, your entire portfolio suffers simultaneously. Step 2 - Risk Profile Alignment: While you have aggressive risk tolerance (9/10 loss comfort) and long horizon (15 years to FIRE), concentration risk differs from market risk. Even aggressive investors benefit from sector diversification to reduce idiosyncratic shocks. Your stable income ($195K) and emergency fund mean you can weather volatility, but unnecessary concentration jeopardizes your $2.5M FIRE target. Step 3 - Evidence: The knowledge base emphasizes 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Historical data shows tech sector drawdowns of 50%+ (2000-2002, 2022) significantly exceeded broader market declines. With 15 years to FIRE, you can't afford a sector-specific bear market in years 10-15. Step 4 - Trade-offs: Diversifying into slower-growth sectors (Healthcare, Financials, Industrials) may reduce short-term returns during tech bull markets, but substantially improves risk-adjusted returns and Sharpe ratio over your investment horizon. The goal isn't to eliminate tech exposure, but right-size it to 30-40% of portfolio.",
+      "tickers": [
+        "VHT",
+        "VFH",
+        "VDE"
+      ],
+      "suggested_action": "Sell 20% of QQQ position (~$18,000) and reallocate: $8,000 to Vanguard Health Care ETF (VHT), $6,000 to Vanguard Financials ETF (VFH), and $4,000 to Vanguard Energy ETF (VDE). This reduces tech from 65% to ~45% while adding defensive/cyclical balance.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-11% annually",
+      "time_horizon": "15 years to FIRE target",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T06:28:23.255136",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_24e2a015",
+      "category": "diversify",
+      "title": "Add International Equity Exposure for Geographic Diversification",
+      "summary": "Your portfolio has zero international exposure, missing 40% of global market opportunities and currency diversification benefits critical for 15-year horizons.",
+      "detailed_rationale": "Step 1 - Portfolio Signal: 100% of your equity holdings (QQQ, VTI, individual stocks) are U.S.-domiciled. You have zero exposure to developed international markets (Europe, Japan, Australia) or emerging markets (China, India, Brazil) which represent ~60% of global GDP and 40% of global market cap. Step 2 - Risk Profile Alignment: For aggressive, long-horizon investors pursuing $2.5M in 15 years, international diversification provides: (a) access to faster-growing emerging economies, (b) currency diversification against dollar depreciation, (c) exposure to sectors/companies underrepresented in U.S. markets (luxury goods, manufacturing, commodities). The knowledge base's diversification principle applies geographically - 'when one asset class underperforms, others may compensate.' U.S. equity has outperformed internationally 2010-2023, but mean reversion suggests this won't persist 15 more years. Step 3 - Evidence: Historical analysis shows 10-15 year rolling periods where international outperformed U.S. significantly (1970s, 1980s, 2000s). Current valuations show international trades at lower P/E ratios (13-15x) vs U.S. (20-22x), suggesting better forward returns. Your FIRE timeline of 15 years captures full market cycles where geographic diversification reduces path dependency risk. Step 4 - Trade-offs: International markets have higher volatility, currency risk, and potentially lower returns if U.S. exceptionalism continues. However, the diversification benefit and valuation opportunity outweigh these risks for your timeline. Target 15-20% international allocation aligns with aggressive growth while managing home-country bias.",
+      "tickers": [
+        "VXUS",
+        "VWO"
+      ],
+      "suggested_action": "Allocate $14,000 (8% of portfolio) to Vanguard Total International Stock ETF (VXUS) and $9,000 (5% of portfolio) to Vanguard Emerging Markets ETF (VWO). Fund this by redirecting new contributions and selling $5,000 from cash reserves (still maintaining 7% cash buffer).",
+      "suggested_allocation_pct": 13.0,
+      "risk_level": "moderate",
+      "expected_return_range": "9-13% annually",
+      "time_horizon": "15 years to FIRE target",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T06:28:23.255136",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_2aee2b3e",
+      "category": "diversify",
+      "title": "Add Real Estate Exposure (REITs) for Income and Inflation Protection",
+      "summary": "Zero real estate allocation misses inflation-hedging asset class that provides diversification from tech-heavy equity holdings and potential income streams.",
+      "detailed_rationale": "Step 1 - Portfolio Signal: Your allocation shows 0% in real estate despite having knowledge base information on VNQ (Vanguard Real Estate ETF). Real estate/REITs have low correlation to technology stocks (0.3-0.5) and provide inflation protection as property values/rents rise with inflation - critical for maintaining purchasing power over 15 years. Step 2 - Risk Profile Alignment: While you have aggressive risk tolerance, the knowledge base explicitly states 'aggressive portfolios may hold 80-90% stocks' - you're at 85% (stock + ETF equity). Adding REITs maintains equity exposure (REITs are stocks) while diversifying sector concentration. Your stable $195K income and low liquidity needs mean you don't need REIT dividends now, but can reinvest them for compound growth. Real estate also provides behavioral diversification - when tech corrects sharply (as in 2022), REITs often move independently, reducing panic-selling risk. Step 3 - Evidence: The VNQ factsheet shows 160 diversified real estate holdings with 0.12% expense ratio, providing exposure to 'office buildings, hotels, and other properties.' Historical data shows REITs returned 9-11% annually with 3-4% dividend yields. For FIRE planning, real estate can provide future income optionality. The knowledge base's allocation guidance supports 5-10% real estate in diversified portfolios. Step 4 - Trade-offs: REITs underperform in rising interest rate environments and have higher volatility than bonds. However, they offer better returns than fixed income over 15-year horizons. The 5% allocation provides meaningful diversification without excessive drag if REITs underperform technology.",
+      "tickers": [
+        "VNQ"
+      ],
+      "suggested_action": "Allocate $9,000 (5% of portfolio) to Vanguard Real Estate ETF (VNQ). Fund this by reducing crypto allocation from 5% to 3% ($3,600 from BTC) and using $5,400 from cash reserves, maintaining 8% cash position.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually plus 3-4% dividends",
+      "time_horizon": "15 years to FIRE target",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T06:28:23.255136",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_8beac57f",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Advantaged Retirement Account Contributions",
+      "summary": "With $195K income and FIRE goal, maximizing 401(k), Roth IRA, and HSA contributions could accelerate wealth building by $150K+ through tax savings over 15 years.",
+      "detailed_rationale": "Step 1 - Portfolio Signal: Your profile shows $195K annual income with $5,500 monthly expenses ($66K/year), leaving ~$129K annual savings capacity before taxes. The knowledge base states '401(k) limits are $23,000 ($30,500 if 50+)' and emphasizes 'always contribute enough to capture the full employer match' with 'immediate 100% return.' No data indicates whether you're maximizing these accounts. Step 2 - Risk Profile Alignment: For FIRE planning, tax-advantaged accounts are critical: (a) 401(k) contributions reduce current taxable income from $195K to potentially $172K, saving ~$5,000+ in taxes annually at your bracket, (b) Roth IRA ($7,000/year) provides tax-free growth - worth $50K+ in tax savings on $2.5M portfolio by age 59.5, (c) HSA if eligible ($4,150/year) is triple-tax-advantaged. The knowledge base emphasizes 'these vehicles provide tax benefits that accelerate wealth building.' Over 15 years, maximizing these accounts ($34,150/year * 15 years * 8% return) could add $925K to your net worth vs taxable investing. Step 3 - Evidence: Math: If you max 401(k) ($23K), Roth IRA ($7K), HSA ($4,150) = $34,150 annual contributions. Tax savings: ~$7K-8K annually on 401(k) contributions at 24-32% bracket. Compound growth: $34,150/year * 15 years at 9% = $990K vs same amount in taxable accounts yielding ~$850K after capital gains taxes = $140K advantage. The knowledge base explicitly recommends 'maximize contributions to 401(k)s, IRAs, and Roth accounts.' Step 4 - Trade-offs: 401(k) funds are locked until 59.5 (though FIRE strategies like Roth conversion ladders exist), and you'd need to maintain $66K living expenses from remaining income. However, with $195K income, you'd still have ~$95K post-tax after maxing all accounts - more than sufficient for $66K expenses plus additional taxable investing. This is foundational FIRE strategy.",
+      "tickers": [],
+      "suggested_action": "Verify you're contributing: (1) $23,000/year to 401(k) with full employer match capture, (2) $7,000/year to Roth IRA (backdoor if income-limited), (3) $4,150/year to HSA if eligible. If not maxing, increase contributions immediately. Consider mega backdoor Roth if your 401(k) allows after-tax contributions up to $69,000 combined limit.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Effective 15-25% return via tax savings plus market returns",
+      "time_horizon": "15 years to FIRE target",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T06:28:23.255136",
+      "composite_score": 0.0
+    }
+  ]
+}

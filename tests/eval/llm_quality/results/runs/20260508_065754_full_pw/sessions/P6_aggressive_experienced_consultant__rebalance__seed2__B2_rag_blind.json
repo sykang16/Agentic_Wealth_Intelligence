@@ -1,0 +1,169 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed2",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "rebalance",
+  "query": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+  "seed": 2,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_8a7996ba",
+      "category": "rebalance",
+      "title": "Reduce Energy Overweight and Rebalance into Technology Growth",
+      "summary": "Trim energy allocation from 15% to 8-10% by reducing XOM/CVX positions, and redeploy proceeds into high-growth tech sectors aligned with your aggressive profile and $4M wealth target.",
+      "detailed_rationale": "Signal: Your energy sector allocation at 15% is significantly overweight relative to the S&P 500 (approximately 4-5% currently) and creates concentration risk that conflicts with optimal diversification for long-term wealth compounding. Step-by-step reasoning: (1) Current macro conditions show energy sector facing headwinds: oil prices have stabilized in the $70-80 range after the 2022 spike, global demand growth is moderating with China's economic slowdown, and the energy transition is accelerating institutional capital away from fossil fuels. (2) Your aggressive risk tolerance (8/10 loss comfort), advanced investment experience, and long-term horizon (targeting $4M wealth) make you ideal for higher-growth sectors. Energy typically offers 6-8% annual returns with high volatility but lower long-term growth than technology. (3) Your portfolio is already 30% technology, but given tech's dominance in wealth creation (S&P 500 tech companies delivered 15-20% CAGR over the past decade) and your $280K income providing cushion for volatility, increasing tech exposure aligns better with aggressive wealth compounding goals. (4) Supporting evidence: You hold strong energy positions (XLE, XOM, CVX) that have likely appreciated significantly since 2020-2021 lows, making this an optimal rebalancing opportunity to lock in gains. Your existing emergency fund and advanced experience mean you can weather tech sector volatility. Trade-off: Energy provides inflation hedging and dividend income (~4-5% yields) that tech doesn't offer. Trimming energy removes some portfolio stability during inflation spikes, and you'll be taking profits in a sector that could rally if geopolitical tensions escalate. However, maintaining 8-10% energy exposure preserves some inflation protection while optimizing for growth.",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "XLE",
+        "NVDA",
+        "QQQ",
+        "MSFT"
+      ],
+      "suggested_action": "Sell 30-40% of combined XOM and CVX positions (approximately $67,500-$90,000). Maintain XLE for diversified energy exposure at reduced weight. Redeploy proceeds: 60% into QQQ (Nasdaq-100 ETF) for broad tech exposure, 40% into additional NVDA or add MSFT for AI/cloud infrastructure growth themes.",
+      "suggested_allocation_pct": -5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "12-18% annually",
+      "time_horizon": "5-15 years to align with long-term wealth target",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:16:29.141163",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_7b924e08",
+      "category": "diversify",
+      "title": "Add International Developed Markets Exposure to Reduce Emerging Markets Concentration",
+      "summary": "Your 15% emerging markets allocation (VWO) is elevated for aggressive portfolios. Add 8-10% developed international markets (VEA or VXUS) to capture global growth with lower volatility.",
+      "detailed_rationale": "Signal: Emerging markets at 15% represents significant concentration risk, especially given current macro headwinds in China (property sector issues, slower GDP growth) and geopolitical tensions. Traditional aggressive portfolios typically hold 8-12% EM within a 20-25% total international allocation. Step-by-step reasoning: (1) Your portfolio shows home bias with limited developed international exposure beyond VTI's US focus and VWO's emerging markets. This creates geographic concentration risk that's suboptimal for wealth compounding to $4M. (2) With your variable income as an independent consultant, geographic diversification provides stability\u2014developed markets (Europe, Japan, Australia) offer growth with less volatility than EM. Historical data shows developed international markets deliver 8-12% returns with 40% less volatility than emerging markets. (3) Current macro conditions favor developed markets: Europe's economy is stabilizing post-energy crisis, Japan is experiencing corporate governance reforms boosting shareholder returns, and currency dynamics may favor non-US assets if dollar weakens. Your aggressive profile can handle currency risk. (4) Supporting evidence: Your advanced investment experience means you understand correlation benefits. Adding developed international exposure reduces portfolio correlation (typically 0.85 vs 0.90+ for pure US holdings) while maintaining growth orientation. Trade-off: Developed international markets have underperformed US markets over the past decade due to tech sector dominance. You're accepting potentially lower returns than continuing US concentration, but gaining downside protection and exposure to sectors (luxury goods, industrials, financials) where Europe/Japan excel. Currency fluctuations add volatility.",
+      "tickers": [
+        "VEA",
+        "VXUS",
+        "EFA",
+        "VWO"
+      ],
+      "suggested_action": "Add $120,000-$150,000 to developed international markets via VEA (Vanguard Developed Markets ETF) or VXUS (Vanguard Total International). Consider reducing VWO position by 3-5% to fund this partially, bringing EM allocation to 10-12% and total international to 18-22%.",
+      "suggested_allocation_pct": 9.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "10+ years for full diversification benefits",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:16:29.141163",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_fd6768ba",
+      "category": "risk_reduction",
+      "title": "Reduce Cryptocurrency Volatility Through Partial Position Trimming",
+      "summary": "Reduce BTC allocation from 5% ($75,000) to 2-3% to manage extreme volatility risk while maintaining exposure to digital asset upside for wealth compounding goals.",
+      "detailed_rationale": "Signal: Bitcoin at 5% of portfolio represents $75,000 in highly volatile assets with 60-80% annual volatility and limited correlation stability. While your aggressive profile supports crypto exposure, 5% is at the upper bounds even for aggressive portfolios and creates outsized impact on net worth fluctuations. Step-by-step reasoning: (1) Your variable income as an independent consultant introduces income volatility; layering 5% portfolio allocation in an asset that can swing 30% in a month compounds uncertainty during lean business periods. Even with 8/10 loss comfort, the combined volatility of income and crypto can impair decision-making. (2) Current macro conditions show crypto facing regulatory headwinds (SEC enforcement actions, global regulatory frameworks tightening), banking sector skepticism post-Silicon Valley Bank, and correlation to risk assets increasing (reducing diversification benefits). Bitcoin has shifted from uncorrelated alternative to high-beta tech proxy. (3) Your $4M wealth target over long-term horizon is achievable through traditional growth assets with proven track records. Maintaining 2-3% crypto exposure preserves optionality if digital assets become mainstream while reducing tail risk of major drawdowns impacting legacy planning ($800K goal for child). (4) Supporting evidence: Your advanced experience means you likely understand crypto's risk/reward asymmetry. Academic research suggests optimal crypto allocation for most portfolios is 1-3% maximum due to risk-adjusted returns. Trade-off: You're potentially limiting upside if Bitcoin enters another bull cycle (like 2020-2021's 300%+ gains). Reducing position now means missing parabolic moves, but preserves capital for more predictable compounding. The 2-3% remaining position still provides meaningful exposure to potential digital asset revolution.",
+      "tickers": [
+        "BTC",
+        "VTI",
+        "QQQ"
+      ],
+      "suggested_action": "Sell 40-60% of BTC position (approximately $30,000-$45,000) to bring allocation to 2-3%. Redeploy proceeds into VTI for broad market exposure or QQQ for concentrated growth, depending on post-energy rebalancing. Set clear rules for when to trim further (if BTC reaches 4% again) or add (if drops below 1.5%).",
+      "suggested_allocation_pct": -2.5,
+      "risk_level": "high",
+      "expected_return_range": "Risk reduction focus; redeployed capital: 10-15% annually",
+      "time_horizon": "Immediate risk reduction; redeployed capital: 10+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:16:29.141163",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_9e8126a0",
+      "category": "diversify",
+      "title": "Add Real Estate Exposure for Inflation Protection and Income Generation",
+      "summary": "Introduce 5-8% allocation to REITs (VNQ or specialized real estate ETFs) to diversify beyond stocks/bonds, provide inflation hedging, and generate income stream supporting legacy planning.",
+      "detailed_rationale": "Signal: Your portfolio lacks real estate exposure beyond potential indirect holdings within VTI. With $1.5M total assets, 0% dedicated real estate allocation represents a missing asset class that provides unique benefits: inflation protection, income generation, and low correlation to technology stocks. Step-by-step reasoning: (1) Your portfolio is heavily weighted toward equity growth (70% stocks/ETFs) with minimal income generation beyond BND's bond yields. Adding REITs introduces 3-5% dividend yields that can compound or provide cash flow, supporting your child's legacy planning goal ($800K target). (2) Current macro environment shows commercial real estate distress (office sector weakness) but strong fundamentals in industrial, residential, and data center REITs. Your advanced investment experience allows you to target specific REIT sectors rather than broad exposure. Industrial REITs benefit from e-commerce growth; data center REITs benefit from AI infrastructure build-out (complementing your NVDA position). (3) Your aggressive profile and long-term horizon make you ideal for real estate's cyclicality. REITs historically deliver 9-11% annual returns with 60% coming from dividends, providing ballast during tech drawdowns. This diversification aligns with your $4M wealth goal by reducing portfolio volatility through imperfect correlation (typically 0.60-0.70 to stocks). (4) Supporting evidence: Your moderate debt level ($380K liabilities) and strong income ($280K) suggest you're not overleveraged in personal real estate, making portfolio real estate allocation sensible. Your emergency fund provides liquidity, offsetting REITs' relative illiquidity during market stress. Trade-off: Real estate has underperformed growth stocks over the past decade and faces headwinds from higher interest rates (though rates may have peaked). Office sector remains challenged by remote work trends. You're accepting lower growth potential than pure equity allocation but gaining income and diversification that becomes more valuable as portfolio scales toward $4M.",
+      "tickers": [
+        "VNQ",
+        "XLRE",
+        "PLD",
+        "AMT",
+        "EQIX"
+      ],
+      "suggested_action": "Allocate $75,000-$120,000 to real estate via VNQ (Vanguard Real Estate ETF) for broad exposure, or build targeted positions: 40% industrial REITs (PLD - Prologis), 30% data center REITs (EQIX - Equinix), 30% infrastructure REITs (AMT - American Tower) to align with tech/logistics growth themes.",
+      "suggested_allocation_pct": 6.5,
+      "risk_level": "moderate",
+      "expected_return_range": "8-11% annually including dividends",
+      "time_horizon": "7-15 years for full cycle benefits",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:16:29.141163",
+      "composite_score": 0.0
+    }
+  ]
+}

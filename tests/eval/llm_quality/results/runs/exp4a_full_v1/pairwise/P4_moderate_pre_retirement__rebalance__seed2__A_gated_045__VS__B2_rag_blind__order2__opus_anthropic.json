@@ -1,0 +1,30 @@
+{
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "rebalance",
+  "seed": 2,
+  "sys_a": "A_gated_045",
+  "sys_b": "B2_rag_blind",
+  "order": 2,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B directly answers the user's query with a specific year-by-year allocation table (age 55 through 65), which is exactly what was asked, and adds valuable tax-location and bond-ladder strategies grounded in the user's income and account context. System A's glide path is less explicit year-by-year and contains an internal inconsistency (states 55% equity currently but portfolio shows 60% equity when including mutual funds), while B's actionability and factual grounding are stronger.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B directly answers the user's query with a specific year-by-year allocation table (age 55 through 65), which is exactly what was asked, and adds valuable tax-location and bond-ladder strategies grounded in the user's income and account context. System A's glide path is less explicit year-by-year and contains an internal inconsistency (states 55% equity currently but portfolio shows 60% equity when including mutual funds), while B's actionability and factual grounding are stronger."
+  },
+  "usage": {
+    "input_tokens": 13123,
+    "output_tokens": 283
+  }
+}

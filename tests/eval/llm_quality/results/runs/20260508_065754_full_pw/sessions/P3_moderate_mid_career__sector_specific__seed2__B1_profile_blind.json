@@ -1,0 +1,179 @@
+{
+  "session_id": "P3_moderate_mid_career__sector_specific__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "sector_specific",
+  "query": "Should I add international or emerging-markets exposure, and if so what proportion is reasonable?",
+  "seed": 2,
+  "system": "B1_profile_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_89207288",
+      "category": "diversify",
+      "title": "Increase International Exposure via VXUS",
+      "summary": "Your portfolio is heavily US-concentrated (70%+ based on VTI, US stocks). Adding 10-15% to VXUS would provide meaningful international diversification while maintaining your moderate risk profile.",
+      "detailed_rationale": "Signal: Your current holdings show significant home-country bias. VTI tracks US total market, and your individual stocks (AAPL, MSFT, NVDA, GOOGL) are all US-domiciled. While you hold VXUS, it appears underweighted relative to global market capitalization (~40% of world equity markets are non-US). Step 1 - Portfolio Analysis: You already own VXUS, demonstrating comfort with international exposure, but it likely represents less than 15% of your equity allocation. Step 2 - Risk Alignment: VXUS has a 0.07% expense ratio and holds 7,800+ diversified international stocks across developed and emerging markets, providing broad exposure without excessive risk. This fits a moderate risk profile as it reduces concentration risk without requiring exposure to volatile single-country emerging market funds. Step 3 - Evidence: The knowledge base confirms VXUS provides 'diversified exposure to international securities' and is suitable for 'long-term capital appreciation.' Geographic diversification has historically reduced portfolio volatility during US-specific downturns. Target allocation: International equities should represent 20-30% of total equity holdings for proper diversification. Step 4 - Trade-off: You'll face currency risk and potentially different regulatory environments. International markets may underperform US markets in some periods, but they provide essential diversification benefits that reduce overall portfolio risk through low correlation with US assets.",
+      "tickers": [
+        "VXUS"
+      ],
+      "suggested_action": "Increase VXUS position by $14,000-$21,000 (10-15% of current portfolio value) through systematic purchases over 2-3 months to average entry points. Source funds from new contributions or by slightly trimming overweight US tech positions.",
+      "suggested_allocation_pct": 12.5,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "5+ years for international equity exposure to smooth out regional market cycles",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:23:43.480412",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_6a8af6e0",
+      "category": "rebalance",
+      "title": "Reduce Technology Overconcentration",
+      "summary": "Technology represents 35% of your portfolio, creating significant concentration risk. Trim tech holdings to 25% and reallocate to underweight sectors for better diversification.",
+      "detailed_rationale": "Signal: Your 35% technology allocation far exceeds the ~28% tech weighting in the S&P 500, creating outsized exposure to a single sector. Your individual stock holdings (AAPL, MSFT, NVDA, GOOGL) are all mega-cap tech, and VTI contains significant tech exposure as well. Step 1 - Risk Assessment: The knowledge base emphasizes 'concentration risk' where funds or portfolios concentrated in particular sectors face amplified losses during sector-specific downturns. The 2022 tech selloff demonstrated this risk when growth stocks declined 30-40%. Step 2 - Profile Alignment: With $180,000 in liabilities against $320,000 in assets, you need portfolio stability. A 35% allocation to a single volatile sector contradicts prudent risk management, especially given tech's sensitivity to interest rate changes and valuation compression. Step 3 - Diversification Principles: Your Healthcare (12%), Industrials (8%), and Energy (5%) allocations are underweight relative to market cap weights. The knowledge base states 'diversification is essential for managing risk' and recommends 'regular review and rebalancing keeps your strategy on track.' Step 4 - Action Plan: Reduce one or two tech positions (consider trimming NVDA given its high volatility and concentration in AI narrative) to bring tech allocation to 25%. This sells strength while valuations remain elevated. Reallocate proceeds to sector ETFs in Healthcare (XLV), Industrials (XLI), or diversified funds. Trade-off: You may miss some upside if tech continues outperforming, but you significantly reduce downside risk and improve portfolio resilience during market rotations.",
+      "tickers": [
+        "NVDA",
+        "XLV",
+        "XLI"
+      ],
+      "suggested_action": "Sell 30% of NVDA position (~$6,400 if NVDA represents 2-3% of portfolio) and reinvest proceeds equally into Healthcare ETF (XLV) and Industrials ETF (XLI) to reduce sector concentration from 35% to ~27%.",
+      "suggested_allocation_pct": -10.0,
+      "risk_level": "low",
+      "expected_return_range": "Improved risk-adjusted returns; reduce potential downside by 15-20% in tech sector corrections",
+      "time_horizon": "Immediate rebalancing action; reduces short-term concentration risk",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:23:43.480412",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_c384b313",
+      "category": "hold",
+      "title": "Maintain Bond Allocation at 30%",
+      "summary": "Your 30% bond allocation (BND) provides appropriate stability for your debt-to-asset ratio and acts as essential portfolio ballast. Hold this position and continue regular contributions.",
+      "detailed_rationale": "Signal: With $180,000 in liabilities representing 56% of your total assets, you have meaningful debt obligations requiring cash flow stability and capital preservation. Step 1 - Current Position Strength: Your 30% bond allocation via BND (Vanguard Total Bond Market ETF) provides diversified exposure to investment-grade bonds, helping offset equity volatility. This allocation is appropriate for a moderate risk profile and aligns with traditional 60/40 or 70/30 stock/bond portfolios. Step 2 - Risk Management: The knowledge base emphasizes maintaining an 'emergency fund of 3-6 months expenses in liquid savings' and warns that without adequate reserves, investors may need to 'sell investments at unfavorable times.' Your bond allocation serves as portfolio-level dry powder, providing stability during equity drawdowns. With your leverage ratio, preserving this ballast is crucial. Step 3 - Market Environment: While interest rates have risen (creating paper losses in existing bonds), BND now offers more attractive yields (4-5% range) than the past decade. Holding allows you to capture higher income and provides natural rebalancing opportunities when stocks decline. Step 4 - Profile Fit: Given your moderate risk tolerance and liability position, moving to a more aggressive allocation (reducing bonds) would be inappropriate. Equally, increasing bonds above 30% would limit growth potential needed to build net worth. Your current 70/30 equity/bond split hits the right balance. Trade-off: Bonds will likely underperform stocks in strong bull markets, but they provide essential diversification, income, and downside protection. The knowledge base confirms 'diversification is essential for managing risk' - your bond position is a core component of that strategy.",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "Maintain current 30% bond allocation. Continue regular contributions to BND with new cash flows to maintain target weighting. Review quarterly and rebalance if bond allocation drifts below 25% or above 35%.",
+      "suggested_allocation_pct": 30.0,
+      "risk_level": "low",
+      "expected_return_range": "4-5% annually with reduced volatility",
+      "time_horizon": "Hold indefinitely as portfolio foundation; bonds serve as permanent allocation component",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:23:43.480412",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_0df9ea7b",
+      "category": "risk_reduction",
+      "title": "Establish Dedicated Emergency Reserve",
+      "summary": "Given your $180,000 liability burden, establish a separate 3-6 month emergency fund outside your investment portfolio to prevent forced liquidations during market downturns.",
+      "detailed_rationale": "Signal: Your portfolio data shows total assets of $320,000 with $180,000 in liabilities (56% debt-to-asset ratio), indicating meaningful financial obligations (likely mortgage, auto loans, or student debt). However, there's no indication of a separate emergency fund outside the investment portfolio. Step 1 - Knowledge Base Guidance: The risk management guide explicitly states 'Maintain 3-6 months of expenses in liquid savings. This prevents the need to sell investments at unfavorable times during personal financial emergencies.' This is foundational advice that precedes investment decisions. Step 2 - Risk Scenario: If you face job loss, medical emergency, or major expense while markets are down 20-30%, you'd be forced to sell equities at losses or increase debt burden. With your current liability level, you have limited financial cushion. An emergency fund acts as a financial shock absorber. Step 3 - Calculation: Assuming monthly expenses of $4,000-6,000 (reasonable given your asset level), you need $12,000-36,000 in highly liquid, low-risk accounts separate from your investment portfolio. High-yield savings accounts currently offer 4-5% APY with FDIC insurance. Step 4 - Implementation Strategy: This shouldn't come from selling current investments (especially given equity volatility), but rather from redirecting new contributions temporarily. Pause additional investment contributions for 3-6 months and build emergency reserves first. Once established, resume your regular investment plan. Trade-off: You'll miss potential market gains during the accumulation period, and cash will underperform equities long-term. However, the knowledge base warns about 'emergency fund importance' specifically to avoid selling 'investments at unfavorable times' - this is essential foundation-level financial planning that protects your portfolio from forced liquidation risk.",
+      "tickers": [],
+      "suggested_action": "Open a high-yield savings account (Ally, Marcus, or similar offering 4-5% APY). Redirect next 6 months of investment contributions (estimate $2,000-3,000/month based on portfolio size) to build $15,000-20,000 emergency fund. Once established, resume regular investment contributions.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "4-5% APY on emergency funds; prevents forced investment liquidation losses",
+      "time_horizon": "3-6 months to establish fund; maintain permanently as financial foundation",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:23:43.480412",
+      "composite_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"tie\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"tie\",\n  \"rationale_overall\": \"System A demonstrates better personalization by referencing specific user attributes like risk tolerance and investment horizon. However, System B provides more actionable steps, particularly in establishing a 529 plan with clear monthly contributions, making it easier for the user to execute the recommendation.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "tie",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "tie",
+    "rationale_overall": "System A demonstrates better personalization by referencing specific user attributes like risk tolerance and investment horizon. However, System B provides more actionable steps, particularly in establishing a 529 plan with clear monthly contributions, making it easier for the user to execute the recommendation."
+  },
+  "usage": {
+    "input_tokens": 7645,
+    "output_tokens": 145
+  },
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,159 @@
+{
+  "session_id": "P3_moderate_mid_career__rebalance__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "rebalance",
+  "query": "My tech exposure is around 35% across my ETFs and individual stocks. Is that too concentrated, and how would I trim it?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_258db1ab",
+      "category": "rebalance",
+      "title": "Reduce Technology Overweight to 25-28%",
+      "summary": "Your 35% technology allocation exceeds prudent diversification limits for a moderate risk investor. Trim individual tech holdings and rotate proceeds into underweight sectors.",
+      "detailed_rationale": "Signal: Your portfolio shows 35% technology concentration across AAPL, MSFT, NVDA, GOOGL, plus tech exposure within VTI. This creates significant sector-specific risk. Step 1 - Risk Profile Alignment: As a moderate risk investor with a loss comfort of 6/10, concentration risk in a single volatile sector contradicts your profile. A balanced portfolio for moderate investors typically caps any single sector at 25-30% maximum. Step 2 - Goal Impact: With dual high-priority goals including education funding in ~10 years, you need stability in the medium term. Tech's historical volatility (standard deviation ~25-30% annually) puts near-term goals at risk during market corrections. The 2022 tech drawdown saw NASDAQ fall 33%, which would significantly impact your education timeline. Step 3 - Evidence: Your current allocation means roughly $49,000 of your $140,000 net worth is in technology. A 25% sector correction would cost you ~$12,250 - over a year of college savings. Step 4 - Specific Action Path: Sell 20-25% of your individual tech positions (NVDA or GOOGL as they're likely smaller positions). This reduces direct tech exposure while maintaining some through VTI's natural 25-30% tech weighting. Trade-off: You may sacrifice some near-term upside if tech continues outperforming, but you significantly reduce drawdown risk and improve sleep-at-night factor given your moderate tolerance.",
+      "tickers": [
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Sell $8,000-10,000 worth of NVDA and/or GOOGL (approximately 20-25% of individual tech holdings) to bring total tech exposure down to 25-28% of portfolio",
+      "suggested_allocation_pct": -7.0,
+      "risk_level": "low",
+      "expected_return_range": "N/A - risk reduction focused",
+      "time_horizon": "Execute within 1-2 months during favorable market conditions",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:06:26.938831",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_17c00e72",
+      "category": "diversify",
+      "title": "Deploy Rebalancing Proceeds to Consumer Staples and Utilities",
+      "summary": "Reinvest trimmed tech proceeds into defensive sectors (Consumer Staples, Utilities) that provide stability and dividend income while remaining underweight in your portfolio.",
+      "detailed_rationale": "Signal: Your portfolio shows 0% explicit exposure to consumer staples and utilities - sectors that represent ~10-12% of the broad market and provide crucial defensive characteristics. Step 1 - Portfolio Gap: Consumer staples and utilities are negatively correlated with technology during market stress, providing natural hedging. These sectors showed positive or flat returns during 2022's tech rout. Step 2 - Risk-Return Balance: For a 40-year-old product manager with stable income but $180,000 in liabilities, adding recession-resistant sectors improves portfolio resilience. Consumer staples companies (food, household products) maintain demand regardless of economic conditions. Step 3 - Income Generation: Both sectors offer above-market dividend yields (3-4% vs. S&P 500's 1.5%), providing cash flow that can be reinvested or used for liquidity needs (you indicated medium liquidity requirements). This aligns with your moderate profile by generating returns through income, not just capital appreciation. Step 4 - Evidence: Historical data shows 60/40 portfolios with staples/utilities allocations experience 15-20% lower maximum drawdowns than tech-heavy portfolios. With your 10-year education goal, reducing volatility is critical. Trade-off: Lower growth potential than technology, but significantly improved risk-adjusted returns and portfolio stability during corrections.",
+      "tickers": [
+        "VDC",
+        "VPU"
+      ],
+      "suggested_action": "Invest $8,000-10,000 from tech rebalancing into Vanguard Consumer Staples ETF (VDC) and Vanguard Utilities ETF (VPU) in a 60/40 split",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "low",
+      "expected_return_range": "6-9% annually with 2.5-3.5% dividend yield",
+      "time_horizon": "Long-term hold, minimum 5-10 years aligned with education goal",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:06:26.938831",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_66f26c6a",
+      "category": "buy",
+      "title": "Increase International Diversification via VXUS",
+      "summary": "Boost your existing VXUS position by 5-7% to capture global growth opportunities and reduce US concentration risk, particularly given elevated US market valuations.",
+      "detailed_rationale": "Signal: While you hold VXUS (international exposure), the US market trades at a CAPE ratio near 30 vs. international markets around 15-17, suggesting better value overseas. Step 1 - Valuation Gap: US markets are near historic valuation peaks while developed international (Europe, Japan) and emerging markets offer better risk-reward profiles. International stocks have underperformed US for 15 years, creating mean-reversion potential. Step 2 - Profile Alignment: With 25 years to retirement and intermediate experience, you can tolerate the currency fluctuations and geopolitical risks of international investing. Your long horizon allows you to benefit from eventual normalization of US/international performance gaps. Step 3 - Diversification Math: Geographic diversification reduces portfolio volatility by 8-12% historically. With dual high-priority goals totaling $2.7M, you need efficient growth. International exposure provides this without adding high-beta risk like small-cap or sector concentration would. Step 4 - Evidence: Your current portfolio appears US-heavy (VTI + individual US stocks). Increasing VXUS from its current weight adds exposure to 7,000+ non-US companies across different economic cycles, regulatory environments, and currency zones. Modern portfolio theory suggests 20-40% international allocation is optimal. Trade-off: Currency risk and potential near-term underperformance if US exceptionalism continues, but protects against US-specific downturns and captures global economic growth.",
+      "tickers": [
+        "VXUS"
+      ],
+      "suggested_action": "Add $7,000-9,800 to VXUS position over next 2-3 months using dollar-cost averaging, targeting 25-30% total international allocation",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-11% annually over 10+ years",
+      "time_horizon": "Long-term, minimum 10-15 years for full benefit",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:06:26.938831",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_ba0e8df0",
+      "category": "tax_optimization",
+      "title": "Tax-Loss Harvest Tech Positions if Underwater",
+      "summary": "If any individual tech holdings show unrealized losses, harvest them to offset gains while maintaining market exposure through equivalent ETF positions.",
+      "detailed_rationale": "Signal: Given tech volatility and your need to trim exposure, tax-loss harvesting can add 1-2% annual alpha through tax savings. Step 1 - Opportunity Assessment: If NVDA, GOOGL, or other positions were purchased at higher prices, selling at a loss generates tax deductions (up to $3,000 against ordinary income annually, plus unlimited offset against capital gains). With $175,000 income, you're likely in the 24% federal bracket, making each $1,000 loss worth $240-320 in tax savings. Step 2 - Wash Sale Avoidance: After selling individual tech stocks at a loss, wait 31 days or immediately replace with substantially different but similar-exposure funds (like VGT - Vanguard Information Technology ETF) to maintain market participation while locking in tax benefits. Step 3 - Portfolio Construction Benefit: This strategy accomplishes multiple goals simultaneously: (a) reduces tech concentration per recommendation #1, (b) generates immediate tax savings, (c) simplifies portfolio by moving from individual stocks to diversified ETFs, reducing idiosyncratic risk. Step 4 - Timing Considerations: Year-end is optimal for tax-loss harvesting, but given your moderate risk tolerance and trimming needs, executing during any market pullback captures both strategic rebalancing and tax benefits. Trade-off: Requires careful tracking of wash sale rules and 31-day waiting periods. Tax savings are real but deferred (reducing future capital gains taxes), and you lose specific stock exposure in favor of broader sector exposure.",
+      "tickers": [
+        "NVDA",
+        "GOOGL",
+        "VGT"
+      ],
+      "suggested_action": "Review cost basis on NVDA and GOOGL. If either shows unrealized losses, sell to harvest losses and either wait 31 days or replace with VGT immediately to maintain tech exposure while capturing tax benefit",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "1-2% annual tax alpha on affected positions",
+      "time_horizon": "Execute opportunistically during market weakness or before year-end",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:06:26.938831",
+      "composite_score": 0.0
+    }
+  ]
+}

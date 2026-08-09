@@ -1,0 +1,4002 @@
+[
+  {
+    "message": "What's my current portfolio value?",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Show me my holdings",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "How are my investments performing this quarter?",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "What's the breakdown of my asset allocation right now?",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Did I make or lose money this month?",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Check my account balance please",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "What stocks do I currently own?",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "How much have I gained since last year?",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Show total net worth",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "What percentage of my portfolio is in bonds versus equities at the moment?",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "I want to see my current positions",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "How my investments doing?",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "What's my year-to-date return looking like across all accounts?",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Tell me which funds I'm holding",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Am I up or down overall?",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "What is my total equity exposure right now in dollar terms?",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Show me performance numbers",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "How much money I got in my retirement account?",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "What's the current value of my tech stocks compared to what I paid for them originally?",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "List all my assets",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "I need to know if I'm meeting my savings targets based on what I have so far",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "What do I own",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Can you tell me how much unrealized gain I'm sitting on in my portfolio?",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Where does my money currently sit in terms of different investment categories?",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "I'm trying to understand whether my current financial position reflects the goals I set earlier",
+    "generator": "claude_sonnet",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I need to update my risk tolerance settings",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Help me figure out what kind of investor I am",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Can we go through my investment goals together?",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "What's my current investment strategy looking like?",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I want to set up my investor profile",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "How aggressive should I be with my investments given my age?",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Let's talk about my financial situation and goals",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I'm retiring in 10 years, what does that mean for my approach?",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Can you help me understand my risk appetite?",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Need to reassess my investment time horizon",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "What kind of portfolio makes sense for someone like me?",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I want to change my financial goals",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Help me determine if I'm conservative or aggressive investor",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Let's build my profile from scratch",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I'm not sure what my risk tolerance is anymore",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Can we review my personal financial objectives?",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "What investment strategy fits my life situation best?",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I think my goals have changed since we last talked",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "How do I know what investment approach is right for me?",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I need help understanding what I'm comfortable losing",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "My income just doubled, should we rethink my strategy?",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "What questions do I need to answer about myself before investing?",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I have three kids going to college soon, does this change things?",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Tell me more about different investor personality types",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "I want to be more hands-off, is that okay for my situation?",
+    "generator": "claude_sonnet",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "What stocks should I buy right now?",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Should I sell my tech holdings before the market drops?",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "I'm looking for recommendations on bond funds for stability",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Which sectors do you think I should invest in this quarter?",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Can you suggest some dividend stocks for passive income?",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "What's a good asset allocation for someone my age?",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Should I rebalance my portfolio or leave it as is?",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Tell me which ETFs to add for better diversification",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "I need advice on reducing my exposure to equities",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "What do you recommend for hedging against inflation?",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Give me some ideas for growth investments",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Should I move money from bonds into stocks now?",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Which emerging market funds would be good to consider?",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "I want to know if I should increase my international allocation",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "What would you suggest for a more aggressive investment strategy?",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Recommend some real estate investment trusts I could buy",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "How much should I put in commodities?",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Is it good time for buying gold or maybe crypto?",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "I'm thinking maybe I need more small cap exposure what you think",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Could you help me figure out what to invest in for retirement income?",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "My portfolio seems unbalanced lately - what changes would you make?",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Looking for your thoughts on whether I should go heavier into value stocks versus growth",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "What defensive positions might make sense given current conditions?",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "I have some cash sitting idle and need suggestions where to deploy it",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Tell me about diversification options I haven't considered yet",
+    "generator": "claude_sonnet",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Hello there!",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Thanks for your help",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What is compound interest?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Can you explain what a mutual fund is?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "How does the stock market work in general?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What's the difference between stocks and bonds?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Good morning",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Thank you so much for explaining that to me, I really appreciate it",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Could you define what beta means in finance?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What are the typical trading hours for US markets?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Hey, quick question - what does ETF stand for?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "I'm curious about how dividends work, can you explain the basic concept?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What is meant by market capitalization?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Thanks a lot!",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Who regulates the financial markets?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What's a bear market versus a bull market?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Can you tell me what kind of assistant you are?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "How inflation affects purchasing power over time?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What does it mean when people say a stock is overvalued?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Goodbye",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "I heard people talking about index funds but not sure what they are exactly",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What are some good resources for learning about investing?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Could you maybe help me understand the concept of diversification in general terms without looking at my specific situation?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Is there difference between fiscal policy and monetary policy?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "When someone says the Fed raised rates, what does that actually mean for the economy as a whole?",
+    "generator": "claude_sonnet",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Can you show me my asset distribution?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "What's the latest value of my investments?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "How's my portfolio doing right now?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Please provide a summary of my account balances.",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Do I have any significant gains this quarter?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "What are my total assets worth?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Give me the details on my stock holdings.",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "How's the performance of my mutual funds?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "What's my current net worth today?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Can you update me on my investment performance?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Do I have more equities or bonds?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "How much did my portfolio increase in value last year?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Where do I stand with my current savings?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Show me the breakdown of my financial holdings.",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Did my real estate investments appreciate?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Are my investments diversified appropriately?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Which assets in my portfolio are underperforming?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Do I hold any foreign currencies?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "What’s my cash balance in all accounts?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Am I gaining or losing money this month?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Could you give me a portfolio performance summary?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Is my asset allocation aligned with market trends?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "What percentage of my portfolio is in stocks?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Have my investments grown since last quarter?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Are my current investments on track to meet my goals?",
+    "generator": "gpt_4o",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Can you help me assess my risk tolerance?",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I want to review my investment strategy.",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Let's talk about my financial goals.",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "How do I figure out my time horizon?",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "What should be my investment plan?",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Can we update my risk profile?",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I'm not sure if my current strategy matches my goals.",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Help me decide my financial priorities.",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Guide me through establishing my investment profile.",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I need advice on setting realistic financial objectives.",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "How should I adjust my investments based on my income?",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "I want to make sure my strategy aligns with my retirement goals.",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Could you evaluate my risk comfort level?",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "What are the steps to determine my financial objectives?",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Can you explain how to set up an investment profile?",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "What’s the best way to assess my financial situation?",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I feel lost about my financial planning, where do I even start?",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "How do I know if my investment risk is too high?",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Could you help draft a strategy based on my goals?",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I want to ensure my investments are aligned with my future plans.",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Is my current investment approach suitable for my age?",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Achieving financial stability is important, how should I go about it?",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Can you help tailor my investment approach?",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Evaluate my financial plan, please.",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I'm thinking about my long-term investment goals; what should I consider?",
+    "generator": "gpt_4o",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "What stocks are good buys right now?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Can you suggest some bonds for stable income?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Hey, should I sell my tech stocks?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "I'm looking to diversify; any tips?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "What mutual funds would you recommend for steady growth?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Any advice on high-yield investment options?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "How can I rebalance my portfolio?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Got any stock tips for this week?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Should I consider more real estate investments?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Help me pick a few good ETFs for long-term growth.",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Can you recommend any sustainable investment funds?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "What’s your take on investing in emerging markets?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "I'm thinking of selling some shares; good idea?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Any thoughts on cryptocurrency investments?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "What should I invest in for the short term?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Would you advise increasing my cash reserves?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Are there any sectors you think are undervalued?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "If I want low risk, where should I put my money?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Do you think I should add more dividend stocks?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "What's the best way to adjust my asset allocation?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Should I focus on growth or value stocks?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Can you give me some investment ideas for retirement?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Are international bonds a good addition to my portfolio?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "What would be a good alternative to my current holdings?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Do you think I should increase my gold investments?",
+    "generator": "gpt_4o",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Hi there, how are you?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Could you explain what compound interest is?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Thank you for your help!",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What is diversification in finance?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Hey, what's up?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Can you tell me how stock markets work?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Hey there, need some info!",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What do investment banks do?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "How's your day going?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Could you recommend a good finance podcast?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What exactly is a mutual fund?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Please tell me about economic recessions.",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Thanks for your support!",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Do you know what cryptocurrency is?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What's the role of a financial advisor?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Greetings! How can I learn more about investing?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Hey, how does inflation affect the economy?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What is the importance of credit scores?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Hey! What's a good app for learning about finance?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Is it true that saving for retirement early is important?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Explain to me the concept of risk management.",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Why do businesses issue stocks?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Could you please describe what GDP means?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What is the significance of a budget?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Do you have tips for understanding financial news?",
+    "generator": "gpt_4o",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What's my current portfolio worth?",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Can you show me a breakdown of my asset allocation across all accounts?",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "how much money i have in stocks right now",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Show balances please",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "I'd like a comprehensive summary of my holdings including unrealized gains and losses year to date.",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "am i up or down this month",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "What percentage of my portfolio is in bonds versus equities at the moment?",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "net worth?",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "How's my 401k doing lately?",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Could you please provide the current market value of my brokerage account along with performance metrics?",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "did i make any money this year",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "tell me what i own",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "What's the total value sitting across my checking, savings, and investment accounts combined?",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "how are things looking on my end financially speaking",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Show me my top performing positions this quarter.",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "cash balance in my account?",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "I want to know if my retirement savings have grown since last year and by how much.",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "give me the damage report on my portfolio",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "What's my exposure to tech stocks right now?",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "How much have I gained or lost since I started investing with you?",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "account value pls",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Are my investments actually beating inflation at this point or am I just treading water?",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "break down where my money is sitting",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Am I ahead of where I was last quarter?",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "Can you pull up the dividend income I've received across my holdings so far this year?",
+    "generator": "claude_opus",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "portfolio_query",
+      "gemini_flash": "portfolio_query"
+    }
+  },
+  {
+    "message": "I'd like to set up my investor profile please",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "how do i figure out my risk tolerance",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Can we go through the risk assessment questionnaire together?",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "update my goals",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I'm saving for a house in about 5 years, can we factor that in",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "new baby on the way, need to rethink my whole financial plan",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "what's my time horizon",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I want to redo my profile, my situation changed a lot",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Please help me define my long-term investment objectives.",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "kinda nervous about market swings, how do we account for that in my strategy",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "set up my risk profile",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I recently got married and my income doubled, should update my info",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "hey can u help me plan my investing approach",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Walk me through the onboarding questions",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I'm 45 and want to retire at 60, help me think through the strategy",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "change my risk level to conservative",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "start the questionnaire",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "My priorities shifted this year, want to reassess how I should be investing",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "build me a strategy",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "Can you assess whether my current approach fits my life stage?",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "not sure if im aggressive or moderate investor, help me figure out",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "I inherited some money and don't know what kind of investor I am now",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "redo profiling",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "tell me what type of investor I am",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "let's revisit my financial goals and adjust the plan accordingly",
+    "generator": "claude_opus",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "profiling",
+      "gemini_flash": "profiling"
+    }
+  },
+  {
+    "message": "What stocks should I buy right now?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Suggest me some good ETFs for long term",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Should I sell my Tesla shares?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Can you recommend a diversified portfolio allocation for me?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "I need advice on which bonds to add to my mix",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "what to invest in with 10k?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Would you suggest increasing my exposure to emerging markets at this point?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Please recommend a suitable rebalancing strategy given current market conditions.",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "any good dividend stocks to pick?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "I'm thinking about tech, should I go for it?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Help me pick between VTI and VOO",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "What sectors look promising for the next quarter?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "give me 3 stock ideas plz",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Could you advise on the optimal split between equities and fixed income for my situation?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Should I move some money out of crypto into something safer?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "recommend me smth for passive income",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Is it a good time to buy gold or silver?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "What would you do if you had $50k to invest today?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "I want to reduce risk, what changes should I make?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "my portfolio feels too tech-heavy, what should i add?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Kindly suggest alternative investments that could complement my current holdings.",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "hows about REITs, worth adding?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "I'm not sure where to put my bonus, any thoughts on best options?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Would shifting toward index funds be a smart move for me right now?",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "what small cap stocks u think are gonna pop",
+    "generator": "claude_opus",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "recommendation",
+      "gemini_flash": "recommendation"
+    }
+  },
+  {
+    "message": "Hi there!",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What is a mutual fund?",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "thanks a lot",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Can you explain how compound interest works in simple terms?",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "good morning",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Are you a real person or a bot?",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What's the difference between a stock and a bond?",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "hey",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Could you please walk me through what an ETF actually is and how it differs from a mutual fund?",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "tell me something interesting about the stock market",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "How does inflation affect purchasing power over time?",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "who created you?",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "what you can do for me exactly",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Thanks, that was helpful!",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "can i talk to real advisor please",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What does bull market mean?",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Do you also help with mortgages or just investing stuff?",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "I want to understand more about how dividends work in general, not for my account",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "lol nice one",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Is it going to rain tomorrow?",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Can you clarify what you meant just now, I didn't quite follow",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "How is the S&P 500 index calculated anyway?",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "appreciate the help mate",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What time do stock markets usually open in the US?",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "Sorry, one quick thing before we continue, do you speak Spanish too?",
+    "generator": "claude_opus",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "gpt_4o": "general",
+      "gemini_flash": "general"
+    }
+  },
+  {
+    "message": "What's my current balance?",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "Show my stock holdings.",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "Am I up today?",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "My total net worth?",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "Check my portfolio performance.",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "Could you please provide a detailed breakdown of my current asset allocation across all accounts?",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "I would like to review the year-to-date performance of my retirement portfolio, please.",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "Kindly display the total unrealized gains and losses for my equity investments.",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "Please generate a summary of my financial accounts and their respective balances as of today.",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "Can you show me how much money I have invested in tech stocks compared to energy stocks right now?",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "I need to see a full list of all the mutual funds I currently hold and their current market value.",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "How much cash do I have left in my brokerage account after those transactions we did last week?",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "Show me the percentage split of my investments between bonds, domestic stocks, and international equities.",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "How much cash I got in my account?",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "My stocks doing good today or what?",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "Please to show my money balance now.",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "Where is my money invested currently?",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "Did I lose money this month?",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "Show me my pie chart of investments.",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "How much did my wealth grow this year?",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "How is my risk currently distributed across my actual investments right now?",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "Did that dividend payment hit my account yet?",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "What is the damage from the market dip on my investments?",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "How far off is my actual asset mix from my target allocation?",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "Where did all my money go this past quarter?",
+    "generator": "gemini_flash",
+    "generator_label": "portfolio_query",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "portfolio_query",
+      "gpt_4o": "portfolio_query"
+    }
+  },
+  {
+    "message": "I need to update my investment goals.",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "Can we go over the risk tolerance questionnaire again? I think my situation has changed recently.",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "Set up my investor profile.",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "I want to change my investment horizon from short-term to long-term because I just got a stable job.",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "How do I take the risk assessment test here?",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "Let's define my financial objectives for the next ten years.",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "I'm ready to do the onboarding profile thingy.",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "Can you help me figure out my risk appetite?",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "I want to change my profile settings from conservative to aggressive.",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "Where do I fill out my financial details so you know my investment style?",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "I need to redo my suitability assessment.",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "Let's establish my risk profile before we start buying stuff.",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "Could we evaluate my current financial situation to see what kind of strategy fits my lifestyle?",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "My target retirement age has changed, so I need to adjust my investment timeline.",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "I'm a newbie, how do I set up my investment preferences?",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "What's my current risk score on here?",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "I wanna update my annual income and net worth details in my profile.",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "Let's run through the questions to determine my investor type.",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "Is it possible to modify the risk level I selected during signup?",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "How do I tell the app how much risk I am comfortable with?",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "I'm really losing sleep over the market drops lately, maybe we should dial back my strategy's risk?",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "Can we talk about what my plan should look like if I can't afford to lose my capital?",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "I just had a baby, so my saving capacity and timeline are totally different now.",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "Am I considered a conservative or moderate investor based on what I filled out earlier?",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "I want to make sure the system knows I only care about saving for a house down payment in 3 years.",
+    "generator": "gemini_flash",
+    "generator_label": "profiling",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "profiling",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "Should I buy Apple stock?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "Where to invest 10k now?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "Sell my crypto?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "Best ETFs for long-term?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "What to buy today?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "Could you please provide some guidance on how I should reallocate my capital given the current high-inflation environment?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "I would appreciate your professional opinion on whether it is wise to increase my exposure to emerging markets at this time.",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "Please advise on the optimal asset allocation strategy to maximize returns while minimizing downside risk for a medium-term horizon.",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "Is it advisable to liquidate a portion of my real estate holdings to invest in high-yield corporate bonds right now?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "Me want to buy stocks, which one is good for make money quick?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "Bro, tell me what to do with my cash, it's just sitting there losing value.",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "Give me some hot stocks to buy this week, please.",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "I have extra money, what is best place to put it for safety?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "Stocks are dropping, should I panic sell or buy more?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "How should I rebalance my portfolio to protect against a potential market crash?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "Do you recommend index funds or mutual funds for a beginner investor?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "What's the recommended split between domestic and international equities for a balanced growth strategy?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "Suggest some green energy stocks that are worth looking into.",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "Should I put my savings into a high-yield CD or a treasury bill?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "Which sector looks most promising for investment in the next quarter?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "My tech holdings are keeping me up at night, what's a good way to fix this?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "I feel like my current portfolio is way too heavy on tech, how do I balance it out?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "If you had to choose between gold and silver to hedge against inflation today, which path would you take?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "I'm looking to generate about $500 a month in passive income, what should I add to my basket to achieve this?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "recommendation"
+    }
+  },
+  {
+    "message": "I want to be aggressive but not stupidly risky, what kind of mix are we looking at for that?",
+    "generator": "gemini_flash",
+    "generator_label": "recommendation",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "recommendation",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "Hey there, how's it going?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "Thanks for the help.",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "What is an ETF?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "Reset everything please.",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "profiling"
+    }
+  },
+  {
+    "message": "Tell me a joke.",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "Can we start again?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "Explain inflation simply.",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "Could you please explain the primary structural differences between a traditional IRA and a Roth IRA in terms of tax implications?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "I am quite confused about how central banks use interest rates to control inflation, could you break that down for me?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "Good morning, I was hoping to learn a bit more about how the stock market actually functions on a day-to-day basis.",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "Thank you so much for the detailed explanation earlier, it really helped me understand the basic concepts of investing much better.",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "How money grow in bank?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "What mean dividend yield?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "Yo, what's up with the federal reserve raising rates again?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "Is there like a dictionary for all these weird Wall Street words?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "My friend told me about short selling but I don't get it at all, please explain.",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "When people talk about 'buying the dip', what does that actually mean from a technical standpoint?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "How does this app secure user data and encrypt financial information?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "What is the typical risk profile of a college student versus someone who is about to retire?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "If interest rates go up, does that usually make bond prices go down or is it the other way around?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "Wait, I think we are talking about two different things, can we go back to the beginning?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "What is the difference between a bull market and a bear market?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "Who founded the New York Stock Exchange?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "Can you explain what a mutual fund is to a complete beginner?",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  },
+  {
+    "message": "Awesome, that makes total sense, thank you!",
+    "generator": "gemini_flash",
+    "generator_label": "general",
+    "difficulty": "unknown",
+    "verifier_labels": {
+      "claude_opus": "general",
+      "gpt_4o": "general"
+    }
+  }
+]

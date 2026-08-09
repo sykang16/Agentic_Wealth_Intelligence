@@ -1,0 +1,182 @@
+{
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "sector_specific",
+  "query": "Are there particular sectors I should reduce as I approach retirement, and which ones should I keep for income generation?",
+  "seed": 2,
+  "system": "B1_profile_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_66cb4fc1",
+      "category": "rebalance",
+      "title": "Reduce Technology and Healthcare Overweight for Retirement Income Focus",
+      "summary": "Your portfolio is overweight in growth-oriented sectors (Technology 18%, Healthcare 22%) that typically provide lower dividend yields. As you approach retirement, gradually shift toward income-generating sectors.",
+      "detailed_rationale": "Signal: Your portfolio shows 40% combined exposure to Technology and Healthcare sectors, which are growth-oriented with lower dividend yields (typically 1-2%). This creates a mismatch with approaching retirement needs for stable income generation. Step-by-step reasoning: (1) The knowledge base explicitly recommends that portfolios become 'more conservative over time' as retirement approaches, emphasizing income generation over growth. (2) Your current 35% bond allocation (BND) provides some income, but your equity exposure heavily favors capital appreciation sectors rather than dividend-yielding sectors. (3) Healthcare holdings like JNJ and UNH, while quality companies, represent 22% sector concentration\u2014above the diversification threshold that increases volatility. (4) According to conservative retirement strategies, income-focused portfolios should emphasize Consumer Staples, Utilities, and dividend-paying Financials over growth sectors. Evidence: Your PG holding (Consumer Staples) represents only 10% sector exposure, while Technology and Healthcare combined are 40%. Trade-off: Reducing growth sectors may limit upside potential in bull markets, but aligns with capital preservation and income generation priorities for retirement.",
+      "tickers": [
+        "JNJ",
+        "UNH"
+      ],
+      "suggested_action": "Reduce Technology and Healthcare sector exposure by 10-12% total over the next 12-18 months. Trim positions in JNJ or UNH to bring Healthcare from 22% down to 15-16%. Redeploy proceeds into higher-yielding sectors.",
+      "suggested_allocation_pct": -10.0,
+      "risk_level": "low",
+      "expected_return_range": "5-7% annually with improved dividend yield from 2% to 3.5%",
+      "time_horizon": "Execute over 12-18 months to avoid market timing risk",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:10:42.798515",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_dd963a5b",
+      "category": "diversify",
+      "title": "Add Real Estate (REITs) for Income Generation and Inflation Protection",
+      "summary": "Your portfolio lacks real estate exposure, missing a key income-generating asset class that provides inflation protection and diversification benefits for retirement portfolios.",
+      "detailed_rationale": "Signal: Portfolio analysis shows zero allocation to Real Estate/REITs, representing a significant diversification gap for a retirement-focused portfolio. Step-by-step reasoning: (1) The knowledge base on VNQ highlights that REITs provide diversified real estate exposure with historically higher dividend yields (3-4%) than traditional equity sectors, directly addressing your income generation question. (2) Your moderate-to-conservative profile (evidenced by 35% bonds) suggests prioritizing income and capital preservation. REITs offer monthly/quarterly distributions that complement bond income while providing equity-like growth potential. (3) With $755K net worth and only 5% cash, you have sufficient liquidity to add a new asset class without creating cash flow constraints. (4) Real estate historically shows low correlation with stocks and bonds, reducing overall portfolio volatility\u2014the knowledge base emphasizes that 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' (5) Proceeds from Healthcare/Technology reduction provide natural redeployment opportunity. Evidence: VNQ factsheet shows 0.12% expense ratio, 160 holdings for diversification, and $35B AUM indicating liquidity. Trade-off: REITs carry interest rate sensitivity and real estate market risk, but provide inflation hedging and income that bonds alone cannot deliver.",
+      "tickers": [
+        "VNQ"
+      ],
+      "suggested_action": "Establish a 7-10% allocation to VNQ (Vanguard Real Estate ETF) using proceeds from sector reduction. Start with 5% position ($37,750) and dollar-cost average remaining 2-5% over 6 months.",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually including 3-4% dividend yield",
+      "time_horizon": "Establish position over 6 months, hold for 10+ years through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:10:42.798515",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_2cb14b50",
+      "category": "risk_reduction",
+      "title": "Gradually Increase Bond Allocation from 35% to 45-50% for Capital Preservation",
+      "summary": "Your 35% bond allocation is appropriate for moderate risk, but should increase toward 45-50% as retirement approaches to enhance capital preservation and reduce equity market volatility exposure.",
+      "detailed_rationale": "Signal: Current 35% bond / 55% equity split (ETF 40% + Stock 15% + MF 5%) represents moderate allocation, but the knowledge base retirement guide states 'Target-Date Funds automatically adjust asset allocation as you approach retirement, becoming more conservative over time.' Your allocation should mirror this principle. Step-by-step reasoning: (1) The asset allocation guide specifies that 'Conservative portfolios typically hold 20-40% stocks, 50-70% bonds. Moderate portfolios balance around 50-60% stocks, 30-40% bonds.' As you transition toward retirement (suggested by your query focus on income generation), moving from moderate to moderate-conservative makes sense. (2) Your BND holding provides excellent foundation\u20140.03% expense ratio, 10,000+ bond holdings for diversification, tracking U.S. investment-grade bonds. This is the right vehicle to increase. (3) With equity markets historically volatile and current valuations elevated in Technology, increasing bond allocation reduces sequence-of-returns risk in early retirement years. (4) Your $95K liabilities are manageable at 12.6% of assets, so you have flexibility to prioritize capital preservation without liquidity concerns. Evidence: Current 35% bonds provide some stability, but research shows 45-50% bond allocation for near-retirees reduces portfolio standard deviation by 2-3% while only modestly reducing expected returns. Trade-off: Lower equity exposure means potentially giving up 1-2% annual returns in strong bull markets, but significantly reduces downside risk (protecting against 15-20% equity drawdowns becoming 8-12% portfolio drawdowns).",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "Increase BND allocation from 35% to 45% over 24 months. Add $85,000 to bonds ($42,500 from sector reduction, $42,500 from new contributions or gradual equity reallocation). Implement through quarterly rebalancing.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5% annually from bonds; reduces overall portfolio volatility by 15-20%",
+      "time_horizon": "Implement over 24 months with quarterly rebalancing, maintain through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:10:42.798515",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_e1c09438",
+      "category": "hold",
+      "title": "Maintain Core Dividend Aristocrats and Consumer Staples for Stable Income",
+      "summary": "Keep your positions in JPM, BRK.B, and PG\u2014these provide reliable dividends, financial stability, and defensive characteristics essential for retirement income generation.",
+      "detailed_rationale": "Signal: Your query specifically asks 'which ones should I keep for income generation'\u2014these holdings directly answer that question. Step-by-step reasoning: (1) JPM (Financials 18% sector) is a dividend aristocrat with 2.5-3% yield, strong balance sheet, and benefits from higher interest rate environments that support net interest margins. As a systemically important bank, it offers stability within the financial sector. (2) BRK.B provides diversified exposure across industries through Berkshire's subsidiaries and stock holdings, effectively acting as a balanced fund with Warren Buffett's capital allocation discipline. It generates cash flow through operating businesses even without paying dividends. (3) PG (Consumer Staples 10%) is a defensive holding with 2.5% dividend yield, 67 consecutive years of dividend increases, and recession-resistant products (household essentials). The knowledge base notes Consumer Staples are appropriate for conservative retirement portfolios. (4) These companies have sustainable payout ratios (JPM ~30%, PG ~60%), meaning dividends are well-covered by earnings and likely to grow with inflation. (5) Your Financials (18%) and Consumer Staples (10%) sectors are appropriately sized\u2014not overweight like Healthcare/Technology. Evidence: These holdings align with the retirement planning guide's emphasis on 'income generation' and the allocation guide's recommendation that diversification should include 'various asset classes that don't move in perfect correlation.' Trade-off: These mature, dividend-paying companies offer lower growth potential (5-8% annually) compared to Technology, but provide the stable income and capital preservation you need approaching retirement. Their defensive nature protects capital during market downturns.",
+      "tickers": [
+        "JPM",
+        "BRK.B",
+        "PG"
+      ],
+      "suggested_action": "Maintain current positions in JPM, BRK.B, and PG without reduction. Consider adding to PG if Consumer Staples falls below 10% during rebalancing to maintain defensive exposure. Reinvest dividends during accumulation phase.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "6-8% annually including 2.5-3% dividend income",
+      "time_horizon": "Hold indefinitely through retirement for income generation",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:10:42.798515",
+      "composite_score": 0.0
+    }
+  ]
+}

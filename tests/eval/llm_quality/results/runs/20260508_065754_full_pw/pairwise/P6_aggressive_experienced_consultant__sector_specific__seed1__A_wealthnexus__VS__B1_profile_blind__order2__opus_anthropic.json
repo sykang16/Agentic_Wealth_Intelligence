@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B more consistently leverages specific profile attributes (variable consulting income, $4M wealth goal, legacy planning, 8/10 loss comfort, age 45) and aligns risk_level with the user's aggressive tolerance, while System A often labels recs as 'low/moderate' risk for an aggressive investor without clear justification. System A has slightly tighter factual grounding (fewer speculative numeric claims), but B's stronger personalization, risk alignment, and concrete actions (specific dollar amounts, execution mechanics) make it the overall winner.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B more consistently leverages specific profile attributes (variable consulting income, $4M wealth goal, legacy planning, 8/10 loss comfort, age 45) and aligns risk_level with the user's aggressive tolerance, while System A often labels recs as 'low/moderate' risk for an aggressive investor without clear justification. System A has slightly tighter factual grounding (fewer speculative numeric claims), but B's stronger personalization, risk alignment, and concrete actions (specific dollar amounts, execution mechanics) make it the overall winner."
+  },
+  "usage": {
+    "input_tokens": 12675,
+    "output_tokens": 317
+  },
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

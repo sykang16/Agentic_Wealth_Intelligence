@@ -1,0 +1,30 @@
+{
+  "session_id": "P1_conservative_retiree__sector_specific__seed1",
+  "persona_id": "P1_conservative_retiree",
+  "query_type": "sector_specific",
+  "seed": 1,
+  "sys_a": "A_gated_045",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides broader diversification thinking (adding REITs, corporate bonds) that directly addresses the user's concentration question with more concrete tickers and actionable steps across a wider set of asset categories. System B is slightly more grounded factually (avoiding the VZ-as-utility ambiguity less and staying closer to the snapshot) but offers narrower, more repetitive rebalancing coverage, making A the stronger overall response.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides broader diversification thinking (adding REITs, corporate bonds) that directly addresses the user's concentration question with more concrete tickers and actionable steps across a wider set of asset categories. System B is slightly more grounded factually (avoiding the VZ-as-utility ambiguity less and staying closer to the snapshot) but offers narrower, more repetitive rebalancing coverage, making A the stronger overall response."
+  },
+  "usage": {
+    "input_tokens": 12126,
+    "output_tokens": 275
+  }
+}

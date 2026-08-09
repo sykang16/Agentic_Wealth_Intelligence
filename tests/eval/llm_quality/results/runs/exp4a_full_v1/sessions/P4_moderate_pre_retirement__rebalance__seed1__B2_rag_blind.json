@@ -1,0 +1,173 @@
+{
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "rebalance",
+  "query": "Walk me through a year-by-year glide path that gradually shifts my allocation over the next decade.",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rag_diagnostics": {
+    "top_score": 0.0,
+    "num_hits": 0,
+    "gated": false,
+    "threshold": null
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_92e37605",
+      "category": "rebalance",
+      "title": "Implement 10-Year Retirement Glide Path Starting Immediately",
+      "summary": "Initiate a systematic annual rebalancing schedule that gradually shifts from 50% equity/45% fixed income to 30% equity/65% fixed income by age 65, reducing portfolio volatility as you approach retirement.",
+      "detailed_rationale": "Signal: You are 55 years old with a 10-year retirement horizon and moderate risk tolerance, but your current 55% equity allocation (40% ETF + 15% stock) needs a structured de-risking path. Step-by-step reasoning: (1) At age 55, a common retirement glide path suggests starting at 50-60% equity and reducing by 2-3% annually, ending at 30-40% equity at retirement. Your current 55% equity is appropriate NOW, but without a plan, you risk being overexposed to market volatility in your final working years. (2) Your moderate risk tolerance (loss comfort 5/10) and stable income ($220k annually) support a gradual shift rather than aggressive changes. The goal of $1.8M for retirement with $80-100k/yr income requires preservation of capital while maintaining some growth. (3) Evidence from your portfolio: You hold broad market exposure (VTI, VXUS) and quality bonds (BND), providing a solid foundation. Your sector allocation shows 22% Healthcare and 18% Technology - defensive and growth sectors that will naturally rebalance during the glide path. (4) Trade-off: Reducing equity too quickly could limit growth potential and leave you short of your $1.8M target (currently at $755k net worth). The recommended 2.5% annual equity reduction balances growth needs with risk mitigation. Year-by-year schedule: Age 55 (now): 55% equity/40% bonds/5% cash; Age 56: 52.5% equity/42.5% bonds/5% cash; Age 57: 50% equity/45% bonds/5% cash; Age 58: 47.5% equity/47.5% bonds/5% cash; Age 59: 45% equity/50% bonds/5% cash; Age 60: 42.5% equity/52.5% bonds/5% cash; Age 61: 40% equity/55% bonds/5% cash; Age 62: 37.5% equity/57.5% bonds/5% cash; Age 63: 35% equity/60% bonds/5% cash; Age 64: 32.5% equity/62.5% bonds/5% cash; Age 65: 30% equity/65% bonds/5% cash.",
+      "tickers": [
+        "VTI",
+        "BND",
+        "VXUS",
+        "VIG"
+      ],
+      "suggested_action": "For Year 1 (age 55-56), reduce equity allocation by 2.5% ($21,250): Sell $10,625 from VTI and $10,625 from individual stocks (JNJ or UNH) and purchase BND or add a dividend-focused ETF like VIG for income generation. Set calendar reminder to rebalance annually in the same month each year.",
+      "suggested_allocation_pct": 2.5,
+      "risk_level": "low",
+      "expected_return_range": "4-6% annually through the glide path, declining from 6-7% now to 3-4% at age 65",
+      "time_horizon": "10-year structured program through age 65",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:30:50.878522",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_6165ae09",
+      "category": "diversify",
+      "title": "Add Intermediate-Term Treasury Protection for Recession Risk",
+      "summary": "Allocate 8-10% to intermediate-term Treasury bonds (IEF or VGIT) to provide recession protection and reduce concentration risk in your bond holdings, which currently appear focused on BND.",
+      "detailed_rationale": "Signal: Your bond allocation is 35% ($297,500) but appears concentrated in BND (Vanguard Total Bond Market), which holds corporate bonds, mortgage-backed securities, and government bonds. With recession indicators present (potential economic slowdown, inverted yield curves in recent history), you need explicit Treasury exposure. Step-by-step reasoning: (1) Your portfolio lacks dedicated Treasury protection. While BND includes government bonds, it's only ~40% of that fund. For a 55-year-old entering retirement planning, having 8-10% in pure intermediate Treasuries provides stability during equity market stress. (2) This aligns with moderate risk tolerance by adding a low-volatility, highly liquid asset class that typically performs well when stocks decline. Your stable income and low debt ($95k liabilities) mean you can afford this defensive positioning without sacrificing liquidity. (3) Evidence from market conditions: The Fed's rate policy creates uncertainty. Intermediate-term Treasuries (5-10 year duration) offer better yield than short-term bills while avoiding the interest rate sensitivity of long-term bonds. Historical data shows 7-10 year Treasuries have negative correlation with equity drawdowns, exactly what you need as you de-risk. (4) Trade-off: Treasury yields (currently 4-4.5% for 7-year) are lower than potential equity returns, creating opportunity cost. However, the primary purpose is capital preservation and volatility reduction, not return maximization. At your age and wealth level ($755k net worth targeting $1.8M), you need $1.045M growth over 10 years - achievable with 6% average returns, making this defensive allocation prudent.",
+      "tickers": [
+        "IEF",
+        "VGIT",
+        "BND"
+      ],
+      "suggested_action": "Allocate $68,000 (8% of total portfolio) to IEF (iShares 7-10 Year Treasury Bond ETF) or VGIT (Vanguard Intermediate-Term Treasury ETF). Source funds by reducing BND position by $68,000, maintaining your overall 35% bond allocation while improving quality and recession protection.",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "low",
+      "expected_return_range": "3.5-4.5% annually based on current Treasury yields",
+      "time_horizon": "Hold through retirement transition (10 years), then reassess at age 65",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:30:50.878522",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_486e8fd6",
+      "category": "buy",
+      "title": "Establish Income Foundation with Dividend Growth ETF",
+      "summary": "Add 5-7% allocation to a dividend growth ETF (VIG or SCHD) to begin building the income stream needed for your $80-100k retirement income goal while maintaining growth potential during your accumulation phase.",
+      "detailed_rationale": "Signal: Your retirement goal requires $80-100k annual income starting in 10 years, but your current portfolio lacks an explicit income-generation strategy. While you hold dividend payers (JNJ, PG), they represent only ~15% of your portfolio and aren't optimized for growing income. Step-by-step reasoning: (1) With $1.8M target portfolio at retirement, a 4.5-5.5% withdrawal rate would generate $81-99k annually. Building a dividend growth foundation now allows you to potentially rely more on dividends and less on principal withdrawal, extending portfolio longevity. Starting this strategy at 55 gives 10 years for dividend compounding. (2) Your moderate risk profile and advanced investment experience mean you can appreciate the dual benefit of dividend growth ETFs: capital appreciation potential (historically 9-10% total return) plus rising income (3-4% initial yield growing 7-8% annually). This fits your 'medium' investment horizon perfectly - long enough for growth, short enough to need income visibility. (3) Evidence from your holdings: You already own quality dividend payers (JNJ, UNH, PG, JPM) showing you value this strategy. VIG holds 290+ stocks with 10+ year dividend growth records, providing diversification beyond your 8 current holdings. SCHD focuses on dividend quality and value, currently yielding ~3.4% with lower volatility than broad market. Your Healthcare overweight (22%) would be balanced as VIG/SCHD have more diversified sector exposure. (4) Trade-off: Dividend-focused strategies may underperform in strong bull markets dominated by growth stocks. However, given your proximity to retirement, total return volatility is more concerning than maximizing upside. The 10-year horizon allows recovery from market downturns while the dividend stream provides psychological comfort and spending flexibility.",
+      "tickers": [
+        "VIG",
+        "SCHD",
+        "VTI"
+      ],
+      "suggested_action": "Invest $51,000 (6% of portfolio) into VIG (Vanguard Dividend Appreciation ETF) or split between VIG ($25,500) and SCHD ($25,500) for diversification. Source funds by reducing VTI position by $51,000, which shifts your equity allocation from broad market to income-focused while maintaining overall equity percentage in Year 1 of your glide path.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% total return annually (3-4% yield + 3-4% growth), with dividend growth of 6-8% per year",
+      "time_horizon": "10+ years through and into retirement; dividend growth compounds over time",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:30:50.878522",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_59b762bf",
+      "category": "risk_reduction",
+      "title": "Reduce Individual Stock Concentration to Mitigate Single-Security Risk",
+      "summary": "Trim individual stock holdings from 15% to 8-10% of portfolio by reducing positions in JNJ, UNH, JPM, and BRK.B, reallocating proceeds to diversified equity ETFs to lower idiosyncratic risk as you approach retirement.",
+      "detailed_rationale": "Signal: Individual stocks comprise 15% ($127,500) of your portfolio across only 4 positions, creating concentration risk inappropriate for someone 10 years from retirement with moderate risk tolerance. Each position represents ~3.75% of your portfolio - meaningful single-stock exposure. Step-by-step reasoning: (1) At age 55, single-stock risk becomes increasingly problematic because your recovery time from company-specific disasters (regulatory action, earnings misses, management issues) is limited. While JNJ, UNH, JPM, and BRK.B are quality companies, even blue chips face unexpected challenges (e.g., JNJ's talc litigation, UNH's regulatory pressures). Your advanced experience means you understand this intellectually, but behavioral finance shows investors often maintain concentrated positions due to familiarity bias. (2) Your moderate risk tolerance and loss comfort of 5/10 suggests you'd be uncomfortable with a 20-30% drop in a single holding, which could occur even in quality names. Reducing to 8-10% individual stocks (2% per position) maintains some active selection while limiting downside. This aligns with your medium-term horizon - enough time to benefit from equity upside but not enough to be cavalier about concentration. (3) Evidence from portfolio analysis: Your sector allocation shows 22% Healthcare (likely JNJ + UNH contributing significantly), 18% Financials (JPM + BRK.B), creating sector concentration layered on top of single-stock risk. By reducing individual holdings and increasing VTI/VXUS, you maintain sector exposure through diversified vehicles with 3,500+ underlying securities. Your mutual fund allocation is only 5%, suggesting you generally prefer passive/ETF approaches anyway. (4) Trade-off: You may have tax consequences if these positions have significant unrealized gains, and you'll lose the potential alpha from stock selection. However, the risk reduction is more valuable at this life stage. Consider harvesting any loss positions first, then trimming winners gradually over 2-3 years to manage tax impact.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "JPM",
+        "BRK.B",
+        "VTI",
+        "VXUS"
+      ],
+      "suggested_action": "Over the next 12-18 months, reduce individual stock positions from $127,500 (15%) to $68,000-85,000 (8-10%). Sell approximately $10,000-15,000 from each holding (JNJ, UNH, JPM, BRK.B). Reallocate 60% of proceeds ($25,500-38,250) to VTI for domestic diversification and 40% ($17,000-25,500) to VXUS for international exposure. This maintains equity allocation while drastically reducing single-stock risk from 4 names to 6,000+ underlying securities.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "Similar to current equity returns (6-8%) but with 40-50% lower volatility due to diversification",
+      "time_horizon": "Execute over 12-18 months to manage tax impact; benefits compound through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:30:50.878522",
+      "composite_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 4,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Cites advanced experience, moderate risk tolerance, and 10-year horizon to retirement to justify the choice, though doesn't fully tie to the specific glide-path question asked.\",\n    \"C2\": \"risk_level 'moderate' matches user's moderate tolerance exactly and rationale explicitly addresses risk fit including small-cap volatility trade-off.\",\n    \"C3\": \"Holdings and concentration claims accurately reflect the snapshot; the '2-3% small-cap value premium' and '6-8% annually' are generic unsupported quantitative claims but minor.\",\n    \"C4\": \"Provides specific tickers (VBR, BNDX), exact dollar amounts, allocation percentages, a 6-month implementation window, and clear first step.\",\n    \"C5\": \"Identifies concrete concentration gaps (100% large-cap equity, 100% domestic bonds) and directly addresses them with offsetting allocations.\",\n    \"C6\": \"Uses calibrated language ('historically', 'may improve') and acknowledges trade-offs; no rec-level disclaimer but no guarantee language either.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 4,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Cites advanced experience, moderate risk tolerance, and 10-year horizon to retirement to justify the choice, though doesn't fully tie to the specific glide-path question asked.",
+      "C2": "risk_level 'moderate' matches user's moderate tolerance exactly and rationale explicitly addresses risk fit including small-cap volatility trade-off.",
+      "C3": "Holdings and concentration claims accurately reflect the snapshot; the '2-3% small-cap value premium' and '6-8% annually' are generic unsupported quantitative claims but minor.",
+      "C4": "Provides specific tickers (VBR, BNDX), exact dollar amounts, allocation percentages, a 6-month implementation window, and clear first step.",
+      "C5": "Identifies concrete concentration gaps (100% large-cap equity, 100% domestic bonds) and directly addresses them with offsetting allocations.",
+      "C6": "Uses calibrated language ('historically', 'may improve') and acknowledges trade-offs; no rec-level disclaimer but no guarantee language either."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6076,
+    "output_tokens": 484
+  },
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed2",
+  "rec_index": 1,
+  "rec_id": "rec_ca486462",
+  "rubric_version": "1.1"
+}

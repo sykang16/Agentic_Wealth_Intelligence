@@ -1,0 +1,108 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed2",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "rebalance",
+  "query": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+  "seed": 2,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "rebalance",
+      "title": "Tactical Trim of Energy Overweight Position",
+      "summary": "Reduce energy allocation from 15% to 8-10% by taking profits in XLE, XOM, and CVX, reallocating proceeds to underweight sectors.",
+      "detailed_rationale": "While energy remains fundamentally sound with disciplined capital allocation and healthy cash flows, your 15% energy allocation is significantly overweight relative to typical aggressive portfolio benchmarks (S&P 500 energy weight ~4%). Given current macro conditions including: (1) oil prices moderating from recent highs with demand concerns from China slowdown, (2) increasing recession probability reducing industrial demand, (3) continued push toward energy transition creating long-term headwinds, and (4) strong performance over past 2 years creating natural rebalancing opportunity. Your aggressive risk profile and long time horizon support maintaining some energy exposure for inflation protection and dividend income, but trimming to 8-10% reduces concentration risk while capturing gains. This rebalancing also aligns with your wealth compounding goal by diversifying away from cyclical sector concentration.",
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX"
+      ],
+      "suggested_action": "Sell 30-45% of combined energy positions (XLE, XOM, CVX) to reduce total energy allocation to 8-10% of portfolio",
+      "suggested_allocation_pct": 8.5,
+      "risk_level": "moderate",
+      "expected_return_range": "N/A - risk reduction through rebalancing",
+      "time_horizon": "immediate execution over 2-4 weeks",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T15:17:05.286596",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "buy",
+      "title": "Increase Healthcare Exposure to Reduce Portfolio Cyclicality",
+      "summary": "Deploy energy rebalancing proceeds into healthcare sector (currently 10%) to reach 15% allocation, adding defensive characteristics and reducing overall portfolio cyclicality.",
+      "detailed_rationale": "Your portfolio is heavily tilted toward cyclical sectors (Energy 15%, Industrials 15%, Financials 15% = 45% cyclical exposure) which amplifies volatility during economic downturns. Healthcare at only 10% is significantly underweight versus your needs. Healthcare offers: (1) defensive characteristics with non-discretionary demand, (2) innovation-driven growth through biotech and medical technology, (3) favorable demographics with aging populations globally, (4) strong cash flows and dividend growth, (5) lower correlation to economic cycles. Given your variable income as independent consultant, adding defensive sectors provides portfolio stability during revenue fluctuations. Target healthcare allocation of 15% through diversified healthcare ETF (VHT or XLV) or select positions in established pharma, medical devices, and healthcare services. This complements your aggressive profile while reducing drawdown risk that could interfere with wealth compounding objectives.",
+      "tickers": [
+        "VHT",
+        "XLV"
+      ],
+      "suggested_action": "Buy healthcare sector ETF to increase allocation from 10% to 15%",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annualized",
+      "time_horizon": "5-10+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T15:17:05.286596",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "diversify",
+      "title": "Address Technology Concentration Risk",
+      "summary": "Your 30% technology allocation creates significant concentration risk. Consider trimming NVDA gains and diversifying into international developed markets or consumer sectors.",
+      "detailed_rationale": "At 30% technology weighting (3x the energy position you're concerned about), you have substantial concentration risk in a single sector, particularly given NVDA's strong run-up and high valuation. While technology remains a long-term growth driver, this concentration creates vulnerabilities: (1) sector-specific regulatory risks (AI regulation, antitrust), (2) valuation compression risk if rates remain elevated, (3) excessive correlation within your portfolio reducing diversification benefits, (4) amplified volatility during tech selloffs. Your advanced investment experience and aggressive profile support significant tech exposure, but 30% may be excessive even for growth-oriented portfolios. Consider trimming to 22-25% and deploying proceeds into: international developed markets (currently embedded in VTI/VWO but could be separated), consumer staples for stability, or communication services for growth with different drivers. This maintains growth orientation while improving risk-adjusted returns through genuine diversification.",
+      "tickers": [
+        "NVDA",
+        "VEA",
+        "VGK"
+      ],
+      "suggested_action": "Trim technology from 30% to 23-25%, diversify into international developed markets ETF",
+      "suggested_allocation_pct": 24.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Portfolio volatility reduction of 8-12%",
+      "time_horizon": "3-6 months for gradual rebalancing",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T15:17:05.286596",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "hold",
+      "title": "Maintain Emerging Markets Allocation Despite Near-Term Headwinds",
+      "summary": "Hold VWO position at 15% allocation despite current challenges; emerging markets offer essential diversification and long-term demographic advantages aligned with your time horizon.",
+      "detailed_rationale": "While emerging markets (VWO at 15%) face near-term headwinds including dollar strength, China property sector concerns, and geopolitical tensions, your 20+ year investment horizon and aggressive profile make this an appropriate strategic hold. Rationale for maintaining position: (1) valuations are attractive relative to developed markets (forward P/E approximately 11x vs 18x for S&P 500), (2) demographic tailwinds with younger, growing populations, (3) necessary diversification away from US-centric portfolio, (4) currency diversification benefits, (5) exposure to commodity producers and different economic cycles. The current 15% allocation is substantial but reasonable for aggressive, long-horizon portfolios. Emerging markets historically experience extended periods of underperformance followed by strong catch-up rallies\u2014attempting to time these turns is difficult. Your variable income creates tactical opportunity to add on significant weakness, but current allocation is appropriate. Monitor for opportunities to add if emerging markets correct another 15-20% from current levels.",
+      "tickers": [
+        "VWO"
+      ],
+      "suggested_action": "Hold current 15% emerging markets allocation; consider adding on 15-20% correction",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "high",
+      "expected_return_range": "8-12% annualized over 10+ years",
+      "time_horizon": "10-20+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "low",
+      "data_sources": [],
+      "generated_at": "2026-05-08T15:17:05.286596",
+      "composite_score": 0.0
+    }
+  ]
+}

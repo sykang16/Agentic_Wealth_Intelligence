@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more actionable, concrete recommendations (specific dollar amounts, glide paths, and step-by-step account priorities) with better risk-level alignment (e.g., Rec #2 correctly labeled moderate) and cleaner factual grounding, while System B has some inconsistencies (Rec #2 labeled 'low' risk for an equity rebalance, negative allocation_pct, and a $30K initial 529 transfer that exceeds gift-tax annual exclusion framing). System B shows slightly stronger personalization and diversification framing via structured signal/analysis, but System A wins overall on actionability, risk labeling accuracy, and factual precision.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more actionable, concrete recommendations (specific dollar amounts, glide paths, and step-by-step account priorities) with better risk-level alignment (e.g., Rec #2 correctly labeled moderate) and cleaner factual grounding, while System B has some inconsistencies (Rec #2 labeled 'low' risk for an equity rebalance, negative allocation_pct, and a $30K initial 529 transfer that exceeds gift-tax annual exclusion framing). System B shows slightly stronger personalization and diversification framing via structured signal/analysis, but System A wins overall on actionability, risk labeling accuracy, and factual precision."
+  },
+  "usage": {
+    "input_tokens": 10905,
+    "output_tokens": 351
+  },
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

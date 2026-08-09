@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 4,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale explicitly references the $60,000 house goal, 5-7 year timeline, conservative risk tolerance, $38,000 debt level, and emergency fund status \u2014 well over three profile attributes used causally.\",\n    \"C2\": \"risk_level 'low' aligns perfectly with the user's conservative tolerance, and the rationale explicitly justifies the low-risk approach due to drawdown sensitivity near the purchase date.\",\n    \"C3\": \"Claims are largely grounded in the profile/portfolio, though the debt interest rate range (4-8%) and the 4-6% blended return are unsupported assumptions, constituting minor unsupported quantitative claims.\",\n    \"C4\": \"Provides specific allocation (70% HYSA / 30% BND), monthly contribution range ($500-700), and a clear sequencing instruction, though the action is deferred 6-9 months reducing immediate executability.\",\n    \"C5\": \"Rationale is allocation-neutral with respect to the existing portfolio concentration and does not address the current 60% cash position that prompted the query.\",\n    \"C6\": \"Uses calibrated language ('may', 'consider', 'depending on returns'), no guaranteed returns, and frames advice as future consideration appropriately.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 4,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale explicitly references the $60,000 house goal, 5-7 year timeline, conservative risk tolerance, $38,000 debt level, and emergency fund status \u2014 well over three profile attributes used causally.",
+      "C2": "risk_level 'low' aligns perfectly with the user's conservative tolerance, and the rationale explicitly justifies the low-risk approach due to drawdown sensitivity near the purchase date.",
+      "C3": "Claims are largely grounded in the profile/portfolio, though the debt interest rate range (4-8%) and the 4-6% blended return are unsupported assumptions, constituting minor unsupported quantitative claims.",
+      "C4": "Provides specific allocation (70% HYSA / 30% BND), monthly contribution range ($500-700), and a clear sequencing instruction, though the action is deferred 6-9 months reducing immediate executability.",
+      "C5": "Rationale is allocation-neutral with respect to the existing portfolio concentration and does not address the current 60% cash position that prompted the query.",
+      "C6": "Uses calibrated language ('may', 'consider', 'depending on returns'), no guaranteed returns, and frames advice as future consideration appropriately."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 5873,
+    "output_tokens": 528
+  },
+  "session_id": "P2_conservative_early_career__rebalance__seed1",
+  "rec_index": 2,
+  "rec_id": "rec_f8a729c6",
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"The rationale cites multiple specific profile attributes\u2014age 65, conservative risk tolerance, loss comfort of 2/10, short horizon, high liquidity needs, intermediate experience, and monthly expenses of $4,200\u2014and ties them causally to the recommendation.\",\n    \"C2\": \"Risk_level 'low' matches the user's conservative tolerance exactly, and the rationale explicitly justifies the fit via short-duration ladder and capital preservation.\",\n    \"C3\": \"Numeric claims about cash ($240,000) and expenses are traceable to inputs; the 4-5% yield and $6,000-$7,500 income estimates are reasonable but mildly unsupported quantitative projections.\",\n    \"C4\": \"Specifies concrete tickers, dollar amounts per sleeve, a clear first action (reallocate $150k from cash), allocation %, and a defined time horizon.\",\n    \"C5\": \"Recommendation acknowledges existing bond allocation and addresses the cash overweight, improving diversification across bond types without worsening any concentration.\",\n    \"C6\": \"Uses calibrated language ('approximately', 'may decline') with no return guarantees; no explicit disclaimer at rec level but tone is appropriately cautious.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "The rationale cites multiple specific profile attributes\u2014age 65, conservative risk tolerance, loss comfort of 2/10, short horizon, high liquidity needs, intermediate experience, and monthly expenses of $4,200\u2014and ties them causally to the recommendation.",
+      "C2": "Risk_level 'low' matches the user's conservative tolerance exactly, and the rationale explicitly justifies the fit via short-duration ladder and capital preservation.",
+      "C3": "Numeric claims about cash ($240,000) and expenses are traceable to inputs; the 4-5% yield and $6,000-$7,500 income estimates are reasonable but mildly unsupported quantitative projections.",
+      "C4": "Specifies concrete tickers, dollar amounts per sleeve, a clear first action (reallocate $150k from cash), allocation %, and a defined time horizon.",
+      "C5": "Recommendation acknowledges existing bond allocation and addresses the cash overweight, improving diversification across bond types without worsening any concentration.",
+      "C6": "Uses calibrated language ('approximately', 'may decline') with no return guarantees; no explicit disclaimer at rec level but tone is appropriately cautious."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6005,
+    "output_tokens": 529
+  },
+  "session_id": "P1_conservative_retiree__open_ended__seed1",
+  "rec_index": 0,
+  "rec_id": "rec_09e1dfd4",
+  "rubric_version": "1.1"
+}

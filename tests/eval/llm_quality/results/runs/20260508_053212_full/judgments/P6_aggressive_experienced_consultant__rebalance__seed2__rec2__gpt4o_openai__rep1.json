@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"The rationale uses the user's aggressive risk tolerance, medium liquidity needs, and wealth goal to justify the recommendation.\",\n    \"C2\": \"The risk level is moderate, one tier below the user's aggressive tolerance, justified by the need to manage volatility and income variability.\",\n    \"C3\": \"All claims about the portfolio and market conditions are traceable to the user's profile and portfolio snapshot.\",\n    \"C4\": \"The recommendation provides specific actions, including selling a percentage of Bitcoin and reallocating to bonds.\",\n    \"C5\": \"The recommendation addresses diversification by suggesting a reduction in crypto exposure, which is consistent with managing risk.\",\n    \"C6\": \"The recommendation uses calibrated language and includes a disclaimer about potential risks and volatility.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "The rationale uses the user's aggressive risk tolerance, medium liquidity needs, and wealth goal to justify the recommendation.",
+      "C2": "The risk level is moderate, one tier below the user's aggressive tolerance, justified by the need to manage volatility and income variability.",
+      "C3": "All claims about the portfolio and market conditions are traceable to the user's profile and portfolio snapshot.",
+      "C4": "The recommendation provides specific actions, including selling a percentage of Bitcoin and reallocating to bonds.",
+      "C5": "The recommendation addresses diversification by suggesting a reduction in crypto exposure, which is consistent with managing risk.",
+      "C6": "The recommendation uses calibrated language and includes a disclaimer about potential risks and volatility."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3995,
+    "output_tokens": 241
+  },
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed2",
+  "rec_index": 2,
+  "rec_id": "rec_e6a878bc",
+  "rubric_version": "1.1"
+}

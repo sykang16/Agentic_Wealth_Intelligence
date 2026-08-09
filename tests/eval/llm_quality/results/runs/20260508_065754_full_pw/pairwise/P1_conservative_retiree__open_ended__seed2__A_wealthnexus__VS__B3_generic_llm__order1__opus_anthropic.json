@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"A\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides four detailed, well-personalized recommendations addressing income generation, sector concentration, bond laddering, and tax optimization, all aligned with the user's conservative, income-focused retirement profile. System B returned no recommendations, so it fails on every rubric criterion by default.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "A"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides four detailed, well-personalized recommendations addressing income generation, sector concentration, bond laddering, and tax optimization, all aligned with the user's conservative, income-focused retirement profile. System B returned no recommendations, so it fails on every rubric criterion by default."
+  },
+  "usage": {
+    "input_tokens": 9044,
+    "output_tokens": 224
+  },
+  "session_id": "P1_conservative_retiree__open_ended__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 1,
+  "rubric_version": "1.1"
+}

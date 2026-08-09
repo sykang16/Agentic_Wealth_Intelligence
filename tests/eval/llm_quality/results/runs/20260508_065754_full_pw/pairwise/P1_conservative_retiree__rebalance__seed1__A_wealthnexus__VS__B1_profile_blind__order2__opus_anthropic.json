@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"tie\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"B\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System A fundamentally misreads the user's profile\u2014recommending higher equity exposure and moderate risk for a 65-year-old retired conservative investor with a 2/10 loss comfort and short horizon\u2014which is a serious risk-alignment and personalization failure. System B correctly anchors recommendations to the retiree's conservative profile, preserves capital, and offers actionable, well-justified adjustments (cash deployment, healthcare concentration, rebalancing discipline).\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "tie",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "B"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System A fundamentally misreads the user's profile\u2014recommending higher equity exposure and moderate risk for a 65-year-old retired conservative investor with a 2/10 loss comfort and short horizon\u2014which is a serious risk-alignment and personalization failure. System B correctly anchors recommendations to the retiree's conservative profile, preserves capital, and offers actionable, well-justified adjustments (cash deployment, healthcare concentration, rebalancing discipline)."
+  },
+  "usage": {
+    "input_tokens": 12187,
+    "output_tokens": 287
+  },
+  "session_id": "P1_conservative_retiree__rebalance__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,3509 @@
+[
+  {
+    "message": "What's my net worth?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Show me my portfolio",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What are my current holdings?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "How is my asset allocation split?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What's my liquidity ratio?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "How much cash do I have available?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Show my investment gains this year",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What's in my bank account?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Tell me about my real estate value",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What's my current account balance?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What do I own across all accounts?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Show all my liabilities",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "How much are my total assets worth?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What's in my investment account?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What sector is most of my wealth in?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "How are my stocks performing?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What's the value of my investments?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What are my recent investment losses?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Show the accounts I have",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "How is my brokerage account doing?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Am I in the positive overall?",
+    "label": "portfolio_query",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "How am I doing financially?",
+    "label": "portfolio_query",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Give me a summary of my finances",
+    "label": "portfolio_query",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What's my current financial health?",
+    "label": "portfolio_query",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Am I saving enough for the future?",
+    "label": "portfolio_query",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Build my investment profile",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "I want to do a risk assessment",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What's my risk tolerance?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Create my investor profile",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Set up my investment strategy",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Help me build my portfolio plan",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "I want to take the investment questionnaire",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What are my investment preferences?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Update my investment profile",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Let's create my financial profile",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "I want to assess my investment goals",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Plan my investment strategy",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Help me set up my investment plan",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Build an investment portfolio for me",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Tell me about your profiling process",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Let's go through the risk questionnaire",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "I need to determine my financial goals",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Start the investment profiling survey",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "I need to know my risk appetite",
+    "label": "profiling",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What kind of investor am I?",
+    "label": "profiling",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Help me understand my investment style",
+    "label": "profiling",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "I'm new to investing, where should I start?",
+    "label": "profiling",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Let me figure out my risk level",
+    "label": "profiling",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "I want to figure out how much risk I can handle",
+    "label": "profiling",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Help me understand my investment objectives",
+    "label": "profiling",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What should I invest in?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Should I buy more AAPL shares?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Can you recommend some ETFs?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Should I sell my tech stocks?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "How should I diversify my portfolio?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Give me investment advice please",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Where should I invest my extra cash?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Should I rebalance my portfolio?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "How can I optimize my investment returns?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Can you give me a suggestion on bonds?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "How can I improve my portfolio performance?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Is it a good time to invest in bonds?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Which stocks should I buy right now?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "I want financial advice on my allocation",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Help me rebalance my investments",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What ETFs would you recommend for growth?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What's the best way to grow my wealth?",
+    "label": "recommendation",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Should I add international exposure to my holdings?",
+    "label": "recommendation",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Is now a good time to buy tech stocks?",
+    "label": "recommendation",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What percentage should I put in bonds?",
+    "label": "recommendation",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "How do I reduce risk in my investments?",
+    "label": "recommendation",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "I need guidance on choosing index funds",
+    "label": "recommendation",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Which asset class should I focus on?",
+    "label": "recommendation",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Can you help me build a safer portfolio?",
+    "label": "recommendation",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What do you suggest for my retirement plan?",
+    "label": "recommendation",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Hello!",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Thanks for your help",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "How are you?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What can you do?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Can you explain what ETFs are?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Goodbye",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "That was really helpful, thank you",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "I don't understand, can you explain that again?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What are the stock market trading hours?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Tell me a joke",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Who are you?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What is inflation?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "How does compound interest work?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Can you help me with my taxes?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Start over please",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What's a bond?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "How does dollar-cost averaging work?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What does PE ratio mean?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "I need a break, I'll be back later",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Help me",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Can I speak to a human financial advisor?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "I just started using this app",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "Nice, let's keep going",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What time is it?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What's your recommendation for a good finance book?",
+    "label": "general",
+    "difficulty": "hard",
+    "source": "original",
+    "consensus": "gold"
+  },
+  {
+    "message": "What's my current portfolio value?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Show me my holdings",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How are my investments performing this quarter?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's the breakdown of my asset allocation right now?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Did I make or lose money this month?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Check my account balance please",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What stocks do I currently own?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How much have I gained since last year?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Show total net worth",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What percentage of my portfolio is in bonds versus equities at the moment?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I want to see my current positions",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How my investments doing?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's my year-to-date return looking like across all accounts?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Tell me which funds I'm holding",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Am I up or down overall?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What is my total equity exposure right now in dollar terms?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Show me performance numbers",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How much money I got in my retirement account?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's the current value of my tech stocks compared to what I paid for them originally?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "List all my assets",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I need to know if I'm meeting my savings targets based on what I have so far",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What do I own",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you tell me how much unrealized gain I'm sitting on in my portfolio?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Where does my money currently sit in terms of different investment categories?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'm trying to understand whether my current financial position reflects the goals I set earlier",
+    "label": "profiling",
+    "difficulty": "hard",
+    "source": "claude_sonnet",
+    "consensus": "2/3-relabel",
+    "generator_label": "portfolio_query"
+  },
+  {
+    "message": "I need to update my risk tolerance settings",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Help me figure out what kind of investor I am",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can we go through my investment goals together?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's my current investment strategy looking like?",
+    "label": "profiling",
+    "difficulty": "hard",
+    "source": "claude_sonnet",
+    "consensus": "2/3"
+  },
+  {
+    "message": "I want to set up my investor profile",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How aggressive should I be with my investments given my age?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Let's talk about my financial situation and goals",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'm retiring in 10 years, what does that mean for my approach?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you help me understand my risk appetite?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Need to reassess my investment time horizon",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What kind of portfolio makes sense for someone like me?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I want to change my financial goals",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Help me determine if I'm conservative or aggressive investor",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Let's build my profile from scratch",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'm not sure what my risk tolerance is anymore",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can we review my personal financial objectives?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What investment strategy fits my life situation best?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I think my goals have changed since we last talked",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How do I know what investment approach is right for me?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I need help understanding what I'm comfortable losing",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "My income just doubled, should we rethink my strategy?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What questions do I need to answer about myself before investing?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I have three kids going to college soon, does this change things?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Tell me more about different investor personality types",
+    "label": "general",
+    "difficulty": "hard",
+    "source": "claude_sonnet",
+    "consensus": "2/3-relabel",
+    "generator_label": "profiling"
+  },
+  {
+    "message": "I want to be more hands-off, is that okay for my situation?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What stocks should I buy right now?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Should I sell my tech holdings before the market drops?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'm looking for recommendations on bond funds for stability",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Which sectors do you think I should invest in this quarter?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you suggest some dividend stocks for passive income?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's a good asset allocation for someone my age?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Should I rebalance my portfolio or leave it as is?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Tell me which ETFs to add for better diversification",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I need advice on reducing my exposure to equities",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What do you recommend for hedging against inflation?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Give me some ideas for growth investments",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Should I move money from bonds into stocks now?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Which emerging market funds would be good to consider?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I want to know if I should increase my international allocation",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What would you suggest for a more aggressive investment strategy?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Recommend some real estate investment trusts I could buy",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How much should I put in commodities?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Is it good time for buying gold or maybe crypto?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'm thinking maybe I need more small cap exposure what you think",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Could you help me figure out what to invest in for retirement income?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "My portfolio seems unbalanced lately - what changes would you make?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Looking for your thoughts on whether I should go heavier into value stocks versus growth",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What defensive positions might make sense given current conditions?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I have some cash sitting idle and need suggestions where to deploy it",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Tell me about diversification options I haven't considered yet",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Hello there!",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Thanks for your help",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What is compound interest?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you explain what a mutual fund is?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How does the stock market work in general?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's the difference between stocks and bonds?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Good morning",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Thank you so much for explaining that to me, I really appreciate it",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Could you define what beta means in finance?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What are the typical trading hours for US markets?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Hey, quick question - what does ETF stand for?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'm curious about how dividends work, can you explain the basic concept?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What is meant by market capitalization?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Thanks a lot!",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Who regulates the financial markets?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's a bear market versus a bull market?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you tell me what kind of assistant you are?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How inflation affects purchasing power over time?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What does it mean when people say a stock is overvalued?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Goodbye",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I heard people talking about index funds but not sure what they are exactly",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What are some good resources for learning about investing?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Could you maybe help me understand the concept of diversification in general terms without looking at my specific situation?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Is there difference between fiscal policy and monetary policy?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "When someone says the Fed raised rates, what does that actually mean for the economy as a whole?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_sonnet",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you show me my asset distribution?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's the latest value of my investments?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How's my portfolio doing right now?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Please provide a summary of my account balances.",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Do I have any significant gains this quarter?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What are my total assets worth?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Give me the details on my stock holdings.",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How's the performance of my mutual funds?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's my current net worth today?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you update me on my investment performance?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Do I have more equities or bonds?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How much did my portfolio increase in value last year?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Where do I stand with my current savings?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Show me the breakdown of my financial holdings.",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Did my real estate investments appreciate?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Are my investments diversified appropriately?",
+    "label": "recommendation",
+    "difficulty": "hard",
+    "source": "gpt_4o",
+    "consensus": "2/3-relabel",
+    "generator_label": "portfolio_query"
+  },
+  {
+    "message": "Which assets in my portfolio are underperforming?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Do I hold any foreign currencies?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What’s my cash balance in all accounts?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Am I gaining or losing money this month?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Could you give me a portfolio performance summary?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Is my asset allocation aligned with market trends?",
+    "label": "portfolio_query",
+    "difficulty": "hard",
+    "source": "gpt_4o",
+    "consensus": "2/3"
+  },
+  {
+    "message": "What percentage of my portfolio is in stocks?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Have my investments grown since last quarter?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Are my current investments on track to meet my goals?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you help me assess my risk tolerance?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I want to review my investment strategy.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Let's talk about my financial goals.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How do I figure out my time horizon?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What should be my investment plan?",
+    "label": "profiling",
+    "difficulty": "hard",
+    "source": "gpt_4o",
+    "consensus": "2/3"
+  },
+  {
+    "message": "Can we update my risk profile?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'm not sure if my current strategy matches my goals.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Help me decide my financial priorities.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Guide me through establishing my investment profile.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I need advice on setting realistic financial objectives.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How should I adjust my investments based on my income?",
+    "label": "recommendation",
+    "difficulty": "hard",
+    "source": "gpt_4o",
+    "consensus": "2/3-relabel",
+    "generator_label": "profiling"
+  },
+  {
+    "message": "I want to make sure my strategy aligns with my retirement goals.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Could you evaluate my risk comfort level?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What are the steps to determine my financial objectives?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you explain how to set up an investment profile?",
+    "label": "profiling",
+    "difficulty": "hard",
+    "source": "gpt_4o",
+    "consensus": "2/3"
+  },
+  {
+    "message": "What’s the best way to assess my financial situation?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I feel lost about my financial planning, where do I even start?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How do I know if my investment risk is too high?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Could you help draft a strategy based on my goals?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I want to ensure my investments are aligned with my future plans.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Is my current investment approach suitable for my age?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Achieving financial stability is important, how should I go about it?",
+    "label": "general",
+    "difficulty": "hard",
+    "source": "gpt_4o",
+    "consensus": "2/3-relabel",
+    "generator_label": "profiling"
+  },
+  {
+    "message": "Can you help tailor my investment approach?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Evaluate my financial plan, please.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'm thinking about my long-term investment goals; what should I consider?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What stocks are good buys right now?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you suggest some bonds for stable income?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Hey, should I sell my tech stocks?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'm looking to diversify; any tips?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What mutual funds would you recommend for steady growth?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Any advice on high-yield investment options?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How can I rebalance my portfolio?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Got any stock tips for this week?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Should I consider more real estate investments?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Help me pick a few good ETFs for long-term growth.",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you recommend any sustainable investment funds?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What’s your take on investing in emerging markets?",
+    "label": "general",
+    "difficulty": "hard",
+    "source": "gpt_4o",
+    "consensus": "2/3-relabel",
+    "generator_label": "recommendation"
+  },
+  {
+    "message": "I'm thinking of selling some shares; good idea?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Any thoughts on cryptocurrency investments?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What should I invest in for the short term?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Would you advise increasing my cash reserves?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Are there any sectors you think are undervalued?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "If I want low risk, where should I put my money?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Do you think I should add more dividend stocks?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's the best way to adjust my asset allocation?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Should I focus on growth or value stocks?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you give me some investment ideas for retirement?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Are international bonds a good addition to my portfolio?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What would be a good alternative to my current holdings?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Do you think I should increase my gold investments?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Hi there, how are you?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Could you explain what compound interest is?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Thank you for your help!",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What is diversification in finance?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Hey, what's up?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you tell me how stock markets work?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Hey there, need some info!",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What do investment banks do?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How's your day going?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Could you recommend a good finance podcast?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What exactly is a mutual fund?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Please tell me about economic recessions.",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Thanks for your support!",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Do you know what cryptocurrency is?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's the role of a financial advisor?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Greetings! How can I learn more about investing?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Hey, how does inflation affect the economy?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What is the importance of credit scores?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Hey! What's a good app for learning about finance?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Is it true that saving for retirement early is important?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Explain to me the concept of risk management.",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Why do businesses issue stocks?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Could you please describe what GDP means?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What is the significance of a budget?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Do you have tips for understanding financial news?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gpt_4o",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's my current portfolio worth?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you show me a breakdown of my asset allocation across all accounts?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "how much money i have in stocks right now",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Show balances please",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'd like a comprehensive summary of my holdings including unrealized gains and losses year to date.",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "am i up or down this month",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What percentage of my portfolio is in bonds versus equities at the moment?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "net worth?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How's my 401k doing lately?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Could you please provide the current market value of my brokerage account along with performance metrics?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "did i make any money this year",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "tell me what i own",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's the total value sitting across my checking, savings, and investment accounts combined?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "how are things looking on my end financially speaking",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Show me my top performing positions this quarter.",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "cash balance in my account?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I want to know if my retirement savings have grown since last year and by how much.",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "give me the damage report on my portfolio",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's my exposure to tech stocks right now?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How much have I gained or lost since I started investing with you?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "account value pls",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Are my investments actually beating inflation at this point or am I just treading water?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "break down where my money is sitting",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Am I ahead of where I was last quarter?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you pull up the dividend income I've received across my holdings so far this year?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'd like to set up my investor profile please",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "how do i figure out my risk tolerance",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can we go through the risk assessment questionnaire together?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "update my goals",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'm saving for a house in about 5 years, can we factor that in",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "new baby on the way, need to rethink my whole financial plan",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "what's my time horizon",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I want to redo my profile, my situation changed a lot",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Please help me define my long-term investment objectives.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "kinda nervous about market swings, how do we account for that in my strategy",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "set up my risk profile",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I recently got married and my income doubled, should update my info",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "hey can u help me plan my investing approach",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Walk me through the onboarding questions",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'm 45 and want to retire at 60, help me think through the strategy",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "change my risk level to conservative",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "start the questionnaire",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "My priorities shifted this year, want to reassess how I should be investing",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "build me a strategy",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you assess whether my current approach fits my life stage?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "not sure if im aggressive or moderate investor, help me figure out",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I inherited some money and don't know what kind of investor I am now",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "redo profiling",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "tell me what type of investor I am",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "let's revisit my financial goals and adjust the plan accordingly",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What stocks should I buy right now?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Suggest me some good ETFs for long term",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Should I sell my Tesla shares?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you recommend a diversified portfolio allocation for me?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I need advice on which bonds to add to my mix",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "what to invest in with 10k?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Would you suggest increasing my exposure to emerging markets at this point?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Please recommend a suitable rebalancing strategy given current market conditions.",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "any good dividend stocks to pick?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'm thinking about tech, should I go for it?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Help me pick between VTI and VOO",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What sectors look promising for the next quarter?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "give me 3 stock ideas plz",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Could you advise on the optimal split between equities and fixed income for my situation?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Should I move some money out of crypto into something safer?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "recommend me smth for passive income",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Is it a good time to buy gold or silver?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What would you do if you had $50k to invest today?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I want to reduce risk, what changes should I make?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "my portfolio feels too tech-heavy, what should i add?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Kindly suggest alternative investments that could complement my current holdings.",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "hows about REITs, worth adding?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'm not sure where to put my bonus, any thoughts on best options?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Would shifting toward index funds be a smart move for me right now?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "what small cap stocks u think are gonna pop",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Hi there!",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What is a mutual fund?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "thanks a lot",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you explain how compound interest works in simple terms?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "good morning",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Are you a real person or a bot?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's the difference between a stock and a bond?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "hey",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Could you please walk me through what an ETF actually is and how it differs from a mutual fund?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "tell me something interesting about the stock market",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How does inflation affect purchasing power over time?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "who created you?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "what you can do for me exactly",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Thanks, that was helpful!",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "can i talk to real advisor please",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What does bull market mean?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Do you also help with mortgages or just investing stuff?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I want to understand more about how dividends work in general, not for my account",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "lol nice one",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Is it going to rain tomorrow?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you clarify what you meant just now, I didn't quite follow",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How is the S&P 500 index calculated anyway?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "appreciate the help mate",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What time do stock markets usually open in the US?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Sorry, one quick thing before we continue, do you speak Spanish too?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "claude_opus",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's my current balance?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Show my stock holdings.",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Am I up today?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "My total net worth?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Check my portfolio performance.",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Could you please provide a detailed breakdown of my current asset allocation across all accounts?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I would like to review the year-to-date performance of my retirement portfolio, please.",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Kindly display the total unrealized gains and losses for my equity investments.",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Please generate a summary of my financial accounts and their respective balances as of today.",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you show me how much money I have invested in tech stocks compared to energy stocks right now?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I need to see a full list of all the mutual funds I currently hold and their current market value.",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How much cash do I have left in my brokerage account after those transactions we did last week?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Show me the percentage split of my investments between bonds, domestic stocks, and international equities.",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How much cash I got in my account?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "My stocks doing good today or what?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Please to show my money balance now.",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Where is my money invested currently?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Did I lose money this month?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Show me my pie chart of investments.",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How much did my wealth grow this year?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How is my risk currently distributed across my actual investments right now?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Did that dividend payment hit my account yet?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What is the damage from the market dip on my investments?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How far off is my actual asset mix from my target allocation?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Where did all my money go this past quarter?",
+    "label": "portfolio_query",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I need to update my investment goals.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can we go over the risk tolerance questionnaire again? I think my situation has changed recently.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Set up my investor profile.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I want to change my investment horizon from short-term to long-term because I just got a stable job.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How do I take the risk assessment test here?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Let's define my financial objectives for the next ten years.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'm ready to do the onboarding profile thingy.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you help me figure out my risk appetite?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I want to change my profile settings from conservative to aggressive.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Where do I fill out my financial details so you know my investment style?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I need to redo my suitability assessment.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Let's establish my risk profile before we start buying stuff.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Could we evaluate my current financial situation to see what kind of strategy fits my lifestyle?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "My target retirement age has changed, so I need to adjust my investment timeline.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'm a newbie, how do I set up my investment preferences?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What's my current risk score on here?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I wanna update my annual income and net worth details in my profile.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Let's run through the questions to determine my investor type.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Is it possible to modify the risk level I selected during signup?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How do I tell the app how much risk I am comfortable with?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I'm really losing sleep over the market drops lately, maybe we should dial back my strategy's risk?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can we talk about what my plan should look like if I can't afford to lose my capital?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I just had a baby, so my saving capacity and timeline are totally different now.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Am I considered a conservative or moderate investor based on what I filled out earlier?",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I want to make sure the system knows I only care about saving for a house down payment in 3 years.",
+    "label": "profiling",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Should I buy Apple stock?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Where to invest 10k now?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Sell my crypto?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Best ETFs for long-term?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What to buy today?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Could you please provide some guidance on how I should reallocate my capital given the current high-inflation environment?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I would appreciate your professional opinion on whether it is wise to increase my exposure to emerging markets at this time.",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Please advise on the optimal asset allocation strategy to maximize returns while minimizing downside risk for a medium-term horizon.",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Is it advisable to liquidate a portion of my real estate holdings to invest in high-yield corporate bonds right now?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Me want to buy stocks, which one is good for make money quick?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Bro, tell me what to do with my cash, it's just sitting there losing value.",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Give me some hot stocks to buy this week, please.",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I have extra money, what is best place to put it for safety?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Stocks are dropping, should I panic sell or buy more?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How should I rebalance my portfolio to protect against a potential market crash?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Do you recommend index funds or mutual funds for a beginner investor?",
+    "label": "recommendation",
+    "difficulty": "hard",
+    "source": "gemini_flash",
+    "consensus": "2/3"
+  },
+  {
+    "message": "What's the recommended split between domestic and international equities for a balanced growth strategy?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Suggest some green energy stocks that are worth looking into.",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Should I put my savings into a high-yield CD or a treasury bill?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Which sector looks most promising for investment in the next quarter?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "My tech holdings are keeping me up at night, what's a good way to fix this?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I feel like my current portfolio is way too heavy on tech, how do I balance it out?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "If you had to choose between gold and silver to hedge against inflation today, which path would you take?",
+    "label": "general",
+    "difficulty": "hard",
+    "source": "gemini_flash",
+    "consensus": "2/3-relabel",
+    "generator_label": "recommendation"
+  },
+  {
+    "message": "I'm looking to generate about $500 a month in passive income, what should I add to my basket to achieve this?",
+    "label": "recommendation",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I want to be aggressive but not stupidly risky, what kind of mix are we looking at for that?",
+    "label": "recommendation",
+    "difficulty": "hard",
+    "source": "gemini_flash",
+    "consensus": "2/3"
+  },
+  {
+    "message": "Hey there, how's it going?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Thanks for the help.",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What is an ETF?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Reset everything please.",
+    "label": "general",
+    "difficulty": "hard",
+    "source": "gemini_flash",
+    "consensus": "2/3"
+  },
+  {
+    "message": "Tell me a joke.",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can we start again?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Explain inflation simply.",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Could you please explain the primary structural differences between a traditional IRA and a Roth IRA in terms of tax implications?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "I am quite confused about how central banks use interest rates to control inflation, could you break that down for me?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Good morning, I was hoping to learn a bit more about how the stock market actually functions on a day-to-day basis.",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Thank you so much for the detailed explanation earlier, it really helped me understand the basic concepts of investing much better.",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How money grow in bank?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What mean dividend yield?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Yo, what's up with the federal reserve raising rates again?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Is there like a dictionary for all these weird Wall Street words?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "My friend told me about short selling but I don't get it at all, please explain.",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "When people talk about 'buying the dip', what does that actually mean from a technical standpoint?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "How does this app secure user data and encrypt financial information?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What is the typical risk profile of a college student versus someone who is about to retire?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "If interest rates go up, does that usually make bond prices go down or is it the other way around?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Wait, I think we are talking about two different things, can we go back to the beginning?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "What is the difference between a bull market and a bear market?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Who founded the New York Stock Exchange?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Can you explain what a mutual fund is to a complete beginner?",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  },
+  {
+    "message": "Awesome, that makes total sense, thank you!",
+    "label": "general",
+    "difficulty": "easy",
+    "source": "gemini_flash",
+    "consensus": "3/3"
+  }
+]

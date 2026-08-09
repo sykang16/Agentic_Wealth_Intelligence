@@ -1,0 +1,184 @@
+{
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "rebalance",
+  "query": "Walk me through a year-by-year glide path that gradually shifts my allocation over the next decade.",
+  "seed": 2,
+  "system": "B1_profile_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_ac7970a3",
+      "category": "rebalance",
+      "title": "Implement Year-by-Year Glide Path for 10-Year Allocation Shift",
+      "summary": "Establish a structured glide path that gradually reduces equity exposure from 55% to 40% and increases bond allocation from 35% to 50% over the next decade, implementing annual rebalancing checkpoints.",
+      "detailed_rationale": "SIGNAL: Your current portfolio shows 55% equity exposure (40% ETF + 15% stock) and 35% bonds with a moderate-to-conservative profile based on the 60/40 balance. However, there's no defined transition strategy for the next decade. ALIGNMENT WITH PROFILE: Given your $755K net worth and the knowledge base emphasis on target-date fund principles\u2014which 'automatically adjust asset allocation as you approach retirement, becoming more conservative over time'\u2014a structured glide path provides the discipline needed for long-term wealth preservation. SPECIFIC EVIDENCE: Your current allocation is close to a 'moderate' model (50-60% stocks, 30-40% bonds per the knowledge base), but lacks the systematic de-risking mechanism. The knowledge base explicitly states 'regular rebalancing ensures your portfolio stays aligned with target allocations' and recommends rebalancing 'when allocations drift more than 5% from targets, or at least annually.' PROPOSED GLIDE PATH: Year 1-2: Maintain 55% equity/35% bond (current state, 10% other). Year 3-4: Shift to 52% equity/37% bond. Year 5-6: Move to 48% equity/42% bond. Year 7-8: Adjust to 44% equity/46% bond. Year 9-10: Reach target 40% equity/50% bond (conservative end-state). This represents a 1.5% annual equity reduction, implemented through rebalancing existing positions (VTI, VXUS, BND) rather than liquidating holdings. TRADE-OFF: The main risk is opportunity cost\u2014if equity markets significantly outperform over this decade, you'll capture less upside than maintaining current allocation. However, this is offset by reduced volatility and downside protection as you approach potential retirement or wealth preservation phase. The gradual 10-year timeline minimizes sequence-of-returns risk.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "BND"
+      ],
+      "suggested_action": "Create annual calendar reminders to rebalance portfolio following the glide path schedule. In years 1-2, maintain current allocation but sell equity gains and redirect to BND if equity allocation exceeds 57%. Starting year 3, begin systematic quarterly transfers from VTI/VXUS to BND to achieve 52/37 target.",
+      "suggested_allocation_pct": null,
+      "risk_level": "low",
+      "expected_return_range": "4-6% annually with decreasing volatility",
+      "time_horizon": "10-year structured transition",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:57:01.951495",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_bd164f12",
+      "category": "diversify",
+      "title": "Reduce Healthcare Sector Concentration Through Gradual Reallocation",
+      "summary": "Your 22% healthcare allocation (JNJ, UNH) is significantly overweight versus typical market exposure. Gradually reduce to 12-15% over the next 2-3 years by trimming positions and redirecting to underweight sectors.",
+      "detailed_rationale": "SIGNAL: Portfolio analysis reveals 22% healthcare concentration, which is roughly 8-10 percentage points above the S&P 500's healthcare weighting (~13-14%). This creates single-sector risk that conflicts with diversification principles. ALIGNMENT WITH PROFILE: The knowledge base emphasizes that 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation. When one asset class underperforms, others may compensate.' Your dual healthcare holdings (JNJ and UNH) create correlated risk\u2014both are vulnerable to healthcare policy changes, pharmaceutical pricing regulations, and Medicare reimbursement pressures. SPECIFIC EVIDENCE: While JNJ and UNH are quality companies, the concentration violates the diversification principle. Your current sector allocation shows technology (18%), financials (18%), and industrials (12%) are more balanced, but consumer staples (10%), energy (8%), and 'other' (12%) are underweighted. The S&P 500 typically has 8-10% consumer discretionary, 3-4% real estate, 2-3% utilities, and 2-3% materials\u2014sectors largely absent from your portfolio. PROPOSED ACTION: Over 24-36 months, trim healthcare to 12-15% total allocation. This means reducing your healthcare exposure by approximately $53,000-$75,000 (from ~$187,000 to ~$112,000-134,000). Implement through tax-loss harvesting if positions are underwater, or gradually sell 20-30% of combined JNJ/UNH positions annually. TRADE-OFF: Healthcare has defensive characteristics and aging demographics favor the sector long-term. However, concentration risk outweighs these benefits. By diversifying, you sacrifice potential healthcare outperformance but gain portfolio stability and reduce regulatory/policy risk exposure.",
+      "tickers": [
+        "JNJ",
+        "UNH"
+      ],
+      "suggested_action": "Trim 25% of combined JNJ and UNH positions over the next 12 months (approximately $47,000). Reinvest proceeds into VTI or VXUS to maintain equity exposure while improving diversification, or allocate to sectors currently underrepresented such as utilities (VPU), real estate (VNQ), or consumer discretionary (VCR) ETFs.",
+      "suggested_allocation_pct": -7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Portfolio-wide volatility reduction of 3-5%",
+      "time_horizon": "24-36 months for complete rebalancing",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:57:01.951495",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_e7adfd07",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Advantaged Account Contributions to Accelerate Wealth Building",
+      "summary": "With $850K in assets and $95K in liabilities, you have capacity to maximize 401(k), IRA, and potentially HSA contributions. This captures immediate tax benefits and accelerates compound growth through tax-deferred or tax-free vehicles.",
+      "detailed_rationale": "SIGNAL: Your 5% cash allocation ($42,500) suggests available liquidity that could be redirected to tax-advantaged accounts. With net worth of $755K, you're likely in a position to maximize retirement contributions if not already doing so. ALIGNMENT WITH PROFILE: The knowledge base explicitly states 'maximize contributions to 401(k)s, IRAs, and Roth accounts. These vehicles provide tax benefits that accelerate wealth building. For 2024, 401(k) limits are $23,000 ($30,500 if 50+).' Furthermore, 'always contribute enough to capture the full employer match in your 401(k). This is essentially free money with an immediate 100% return on your contribution.' SPECIFIC EVIDENCE: If you're under 50, maximizing 401(k) ($23,000), IRA ($7,000), and HSA if eligible ($4,150 individual/$8,300 family) totals $34,150 annually in tax-advantaged space. At a 24% marginal tax rate, this represents $8,196 in immediate tax savings, plus decades of tax-deferred growth. The knowledge base emphasizes 'the power of compound interest makes starting early crucial' and 'time in the market often matters more than timing the market.' Even if you're already contributing, verify you're capturing the full employer match and maximizing available limits. PORTFOLIO IMPLEMENTATION: Within tax-advantaged accounts, maintain your glide path allocation but consider placing tax-inefficient assets (bonds generating ordinary income, REITs) in tax-deferred accounts, while keeping tax-efficient assets (VTI, VXUS with qualified dividends and long-term capital gains) in taxable accounts. Your current BND holding (35% allocation = ~$297,500) should ideally be in 401(k)/IRA space to defer bond interest. TRADE-OFF: The main constraint is reduced liquidity\u2014funds in retirement accounts are generally inaccessible before age 59\u00bd without penalties. However, with $42,500 cash (5% allocation) and your net worth position, you appear to have adequate emergency reserves. The tax benefits and compound growth advantages far outweigh liquidity constraints for long-term wealth building.",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "Audit current 401(k), IRA, and HSA contribution levels against 2024 maximums. If not maximizing, increase payroll deferrals to capture limits. Prioritize moving BND holdings into tax-deferred accounts (401(k)/Traditional IRA) where bond interest won't be taxed annually. If already maxed, consider Roth conversions during lower-income years or mega backdoor Roth if your 401(k) plan allows after-tax contributions up to the $69,000 combined limit.",
+      "suggested_allocation_pct": null,
+      "risk_level": "low",
+      "expected_return_range": "Immediate 22-35% return via tax savings, plus enhanced compound growth",
+      "time_horizon": "Immediate implementation, lifetime benefit",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:57:01.951495",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_85cb287b",
+      "category": "hold",
+      "title": "Maintain Core Broad Market ETF Foundation (VTI, VXUS, BND)",
+      "summary": "Your core ETF holdings (VTI, VXUS, BND) representing 75% of your portfolio provide excellent diversification and low costs. Continue holding these positions as the foundation of your glide path strategy.",
+      "detailed_rationale": "SIGNAL: Your ETF allocation (40% of portfolio) combined with your bond allocation (35%, likely BND) creates a solid 75% core holding in low-cost, broadly diversified index funds. This is a strength, not a problem requiring action. ALIGNMENT WITH PROFILE: The knowledge base emphasizes diversification as essential for managing risk, and your three-fund portfolio (US stocks via VTI, international stocks via VXUS, bonds via BND) is a textbook implementation of modern portfolio theory. VTI provides exposure to the entire US stock market (3,500+ companies across all sectors and market caps), VXUS covers international developed and emerging markets, and BND offers broad US investment-grade bond exposure. SPECIFIC EVIDENCE: This structure aligns with the knowledge base principle that 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Your strategic allocation using low-cost index ETFs (VTI expense ratio ~0.03%, VXUS ~0.08%, BND ~0.03%) maximizes returns by minimizing costs\u2014a critical long-term performance factor. These holdings provide the flexibility to implement your 10-year glide path simply by adjusting the ratios between these three funds. TRADE-OFF AWARENESS: The only 'risk' of this approach is simplicity\u2014you won't capture concentrated sector bets or active management alpha. However, the knowledge base acknowledges 'past performance does not guarantee future results,' and research consistently shows low-cost index funds outperform most active managers over long periods. Your individual stock positions (JNJ, UNH, JPM, BRK.B, PG) at 15% allocation provide modest active exposure without overwhelming your core index strategy. ACTION RATIONALE: No changes needed to these core positions. As you implement the glide path over 10 years, simply adjust the VTI/VXUS/BND ratios through rebalancing. These holdings are appropriate for all phases of your glide path from current moderate allocation (55% equity/35% bond) to your conservative target (40% equity/50% bond).",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "BND"
+      ],
+      "suggested_action": "Maintain current positions in VTI, VXUS, and BND. Use these as the rebalancing mechanism for implementing your 10-year glide path by gradually shifting dollars from VTI/VXUS into BND. Review expense ratios annually to ensure no comparable funds offer meaningfully lower costs, but expect these Vanguard ETFs to remain highly competitive.",
+      "suggested_allocation_pct": null,
+      "risk_level": "low",
+      "expected_return_range": "Market-matching returns with minimal tracking error",
+      "time_horizon": "Hold indefinitely as portfolio foundation",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:57:01.951495",
+      "composite_score": 0.0
+    }
+  ]
+}

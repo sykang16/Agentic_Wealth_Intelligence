@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides better risk alignment (moderate risk_level matching user's moderate tolerance vs. A's inconsistent low/moderate labels) and adds a valuable tax optimization recommendation grounded in the user's actual income/expense data. While A offers more granular year-by-year detail and actionability, B's recommendations are more holistic and factually consistent (A misstates current allocation as 55% equity when it's actually 55% equity/35% bond/5% MF/5% cash and contains internal contradictions about starting allocation).\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides better risk alignment (moderate risk_level matching user's moderate tolerance vs. A's inconsistent low/moderate labels) and adds a valuable tax optimization recommendation grounded in the user's actual income/expense data. While A offers more granular year-by-year detail and actionability, B's recommendations are more holistic and factually consistent (A misstates current allocation as 55% equity when it's actually 55% equity/35% bond/5% MF/5% cash and contains internal contradictions about starting allocation)."
+  },
+  "usage": {
+    "input_tokens": 12749,
+    "output_tokens": 307
+  },
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 1,
+  "rubric_version": "1.1"
+}

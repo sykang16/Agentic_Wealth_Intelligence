@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 4,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 4,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"References aggressive risk tolerance, FIRE goal, 15-year horizon, and tech concentration to justify the trim, though the recommendation does not directly answer the user's bond question.\",\n    \"C2\": \"High risk_level matches the aggressive tolerance and the rationale explicitly justifies why crypto risk is excessive even within an aggressive frame.\",\n    \"C3\": \"All figures (5% crypto, $9,000, 65% tech, $180K total) are traceable to the snapshot, and BTC is correctly identified as a held ticker.\",\n    \"C4\": \"Specifies ticker (BTC), target allocation range, dollar amounts, and an immediate first step, though reallocation destination is somewhat deferred to another recommendation.\",\n    \"C5\": \"Explicitly identifies crypto-tech correlation alongside the existing 65% tech overweight and proposes a trim that improves diversification.\",\n    \"C6\": \"Uses calibrated language ('may miss', 'could'), no guarantees, and frames the action as risk-adjusted rather than promised return.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 4,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 4,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "References aggressive risk tolerance, FIRE goal, 15-year horizon, and tech concentration to justify the trim, though the recommendation does not directly answer the user's bond question.",
+      "C2": "High risk_level matches the aggressive tolerance and the rationale explicitly justifies why crypto risk is excessive even within an aggressive frame.",
+      "C3": "All figures (5% crypto, $9,000, 65% tech, $180K total) are traceable to the snapshot, and BTC is correctly identified as a held ticker.",
+      "C4": "Specifies ticker (BTC), target allocation range, dollar amounts, and an immediate first step, though reallocation destination is somewhat deferred to another recommendation.",
+      "C5": "Explicitly identifies crypto-tech correlation alongside the existing 65% tech overweight and proposes a trim that improves diversification.",
+      "C6": "Uses calibrated language ('may miss', 'could'), no guarantees, and frames the action as risk-adjusted rather than promised return."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 5919,
+    "output_tokens": 468
+  },
+  "session_id": "P5_aggressive_young_professional__rebalance__seed1",
+  "rec_index": 2,
+  "rec_id": "rec_102725f2",
+  "rubric_version": "1.1"
+}

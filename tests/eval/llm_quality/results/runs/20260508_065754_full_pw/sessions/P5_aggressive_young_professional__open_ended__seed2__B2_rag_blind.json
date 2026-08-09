@@ -1,0 +1,165 @@
+{
+  "session_id": "P5_aggressive_young_professional__open_ended__seed2",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "open_ended",
+  "query": "I'm aiming for FIRE in about 15 years. Am I on the right track with my current allocation?",
+  "seed": 2,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_d705e95c",
+      "category": "diversify",
+      "title": "Reduce Technology Concentration to Mitigate Sector Risk",
+      "summary": "Your portfolio is 65% concentrated in Technology sector, creating significant single-sector risk that could derail your 15-year FIRE goal if tech experiences a prolonged downturn.",
+      "detailed_rationale": "Signal: Your portfolio shows extreme sector concentration with 65% in Technology (QQQ, NVDA, TSLA, GOOGL, META, AMZN), nearly 4x the S&P 500's tech weighting of ~28%. While your aggressive risk tolerance and 9/10 loss comfort support growth-oriented holdings, this concentration creates unnecessary idiosyncratic risk unrelated to market risk. Evidence from portfolio analysis: Tech holdings overlap significantly (QQQ already contains NVDA, GOOGL, META, AMZN at ~40% of its weight), creating compounding concentration. Historical context: The 2000-2002 tech crash saw Nasdaq fall 78% over 2.5 years, and 2022 saw QQQ drop 33%. For a 15-year FIRE goal requiring growth from $162K to $2.5M (compound annual growth rate of ~19%), you need consistent returns rather than boom-bust cycles. Risk alignment: Even with aggressive tolerance, diversification improves risk-adjusted returns. The trade-off: You'll sacrifice some upside if tech continues its dominance, but you'll protect against catastrophic sector-specific events (regulatory crackdowns, interest rate sensitivity, multiple compression) that could set your FIRE timeline back by years. Target: Reduce tech to 40-45% by reallocating 20% of portfolio (~$36K) into underrepresented sectors.",
+      "tickers": [
+        "VTI",
+        "VIG",
+        "SCHD",
+        "XLV",
+        "XLE"
+      ],
+      "suggested_action": "Trim positions in individual tech stocks (NVDA, META, GOOGL) by selling $36,000 total and reallocate into dividend growth ETFs (VIG or SCHD) for ~$18,000 and sector ETFs in Healthcare (XLV) and Energy (XLE) for ~$9,000 each to establish positions in defensive and cyclical sectors",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "15 years to FIRE target",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:24:24.160913",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_4bbdd8a0",
+      "category": "risk_reduction",
+      "title": "Eliminate Crypto Position to Improve Risk-Adjusted Returns",
+      "summary": "The 5% Bitcoin allocation ($9,000) adds significant volatility without meaningful diversification benefits, representing unnecessary risk for your FIRE timeline.",
+      "detailed_rationale": "Signal: Your portfolio includes 5% in BTC, which exhibits extreme volatility (80%+ annual standard deviation) and 50%+ drawdowns. Step-by-step reasoning: (1) At age 30 with 15 years to FIRE, you have time to recover from losses, but your goal requires consistent compounding\u2014Bitcoin's -73% drawdown in 2022 would have required +270% gains just to break even. (2) Your aggressive risk tolerance is better expressed through equity beta than through crypto's non-systematic risk. Evidence: Bitcoin has a low correlation to stocks during bull markets but high correlation during crisis periods (2022, 2020 March), meaning it fails as a true diversifier when needed most. (3) For your $2.5M target, you need ~19% CAGR. Historical equity returns of 10-12% with leverage through growth stocks is more reliable than crypto's unpredictable cycles. (4) Supporting evidence from your profile: You have intermediate investment experience and stable income\u2014crypto adds complexity without aligning with wealth accumulation goals. Known trade-off: You'll miss potential outsized crypto gains if Bitcoin enters another bull cycle, but you'll improve portfolio Sharpe ratio and reduce sequence-of-returns risk critical for FIRE planning. The $9,000 redeployed into equities compounds more reliably toward your goal.",
+      "tickers": [
+        "BTC",
+        "VUG",
+        "SCHG"
+      ],
+      "suggested_action": "Sell entire BTC position (~$9,000) and reallocate into growth equity ETFs like VUG or SCHG to maintain aggressive growth profile while reducing non-systematic volatility",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "high",
+      "expected_return_range": "10-14% annually",
+      "time_horizon": "15 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:24:24.160913",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_1d528e6a",
+      "category": "diversify",
+      "title": "Add International Equity Exposure for Global Diversification",
+      "summary": "Your portfolio has 0% international exposure, missing diversification benefits and growth opportunities in non-US markets over your 15-year horizon.",
+      "detailed_rationale": "Signal: Portfolio analysis shows 100% US equity exposure through your holdings (QQQ, VTI, US stocks). Your aggressive profile and long 15-year horizon support global diversification. Step-by-step fit: (1) International markets (developed and emerging) represent ~60% of global market cap but 0% of your portfolio. (2) While US has outperformed for the past 15 years, performance is cyclical\u2014international outperformed 2000-2010. For a 15-year FIRE goal starting now, you'll likely experience both cycles. (3) Evidence from investment theory: International exposure reduces country-specific risk (US fiscal issues, regulatory changes, dollar weakness). Your stable $195K income provides cash flow for portfolio volatility, supporting emerging market allocation. (4) With low liquidity needs and no near-term withdrawals, you can handle international equity volatility. Supporting data: VXUS (total international) has 7,000+ holdings across 40+ countries providing true diversification from your US-heavy tech concentration. Trade-off: International stocks may underperform US in short-term continuation of current trends, and you'll face currency risk, but valuations are more attractive (CAPE ratio of 15 vs 30+ for US) providing better forward return potential. Target 15-20% international allocation aligns with aggressive profile while maintaining US home bias.",
+      "tickers": [
+        "VXUS",
+        "VEA",
+        "VWO"
+      ],
+      "suggested_action": "Allocate $27,000-36,000 (15-20% of portfolio) into international equity ETFs: 12% in developed markets (VXUS or VEA) and 5-8% in emerging markets (VWO) by trimming QQQ position proportionally",
+      "suggested_allocation_pct": 17.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-11% annually",
+      "time_horizon": "15 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:24:24.160913",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_a19d14f5",
+      "category": "income_generation",
+      "title": "Establish Tax-Advantaged Dividend Growth Strategy",
+      "summary": "Build a dividend growth sleeve (~10% of portfolio) to create rising passive income streams supporting your FIRE transition while maintaining tax efficiency.",
+      "detailed_rationale": "Signal: Your FIRE goal in 15 years means you'll need income generation at age 45, before traditional retirement age. Current portfolio generates minimal income (QQQ yields 0.6%, growth stocks pay no dividends). Step-by-step reasoning: (1) Your profile shows low liquidity needs now but FIRE requires 4% withdrawal rate on $2.5M target = $100K annual income. Starting dividend growth position now creates rising income stream by age 45. (2) Dividend growth stocks (10+ year payment increase history) provide 2-3% current yield with 7-10% annual dividend growth, meaning income doubles every 7-10 years through compounding. Evidence: Companies like dividend aristocrats historically deliver competitive total returns (9-10%) while building income\u2014aligning with your aggressive growth need and future income need. (3) Tax efficiency: Qualified dividends taxed at 15% for your income level vs 24% ordinary income, and in retirement potentially 0% under $89K income. This supports tax optimization in your FIRE drawdown strategy. (4) Your $195K income and $5,500 monthly expenses leave $60K+ annual savings capacity\u2014you're in accumulation phase where dividends can reinvest. Trade-off: Lower pure price appreciation than pure growth stocks, but dividend growth provides behavioral benefit of visible progress and downside protection (dividend stocks fell less in 2022). At 10% allocation, this supplements rather than replaces growth strategy.",
+      "tickers": [
+        "SCHD",
+        "VIG",
+        "DGRO"
+      ],
+      "suggested_action": "Allocate $18,000 (10% of portfolio) into dividend growth ETFs like SCHD (Schwab US Dividend Equity) or VIG (Vanguard Dividend Appreciation) by reducing cash position from 10% to 5% and trimming AMZN position",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "8-11% annually with 7-10% dividend growth",
+      "time_horizon": "15 years building to income generation",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:24:24.160913",
+      "composite_score": 0.0
+    }
+  ]
+}

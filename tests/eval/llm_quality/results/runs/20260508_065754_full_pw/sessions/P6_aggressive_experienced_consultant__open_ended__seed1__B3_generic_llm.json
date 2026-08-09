@@ -1,0 +1,109 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed1",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "open_ended",
+  "query": "Given my variable income from consulting, how should I think about cash buffers versus staying fully deployed?",
+  "seed": 1,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "rebalance",
+      "title": "Implement Tiered Cash Buffer Strategy for Variable Income",
+      "summary": "Increase cash allocation from 5% to 12% ($180k) to create a 14-month expense buffer while maintaining aggressive growth positioning in remaining portfolio.",
+      "detailed_rationale": "With variable consulting income and $13k monthly expenses, your current 5% cash position ($75k) provides only 5.8 months of coverage\u2014insufficient for income volatility. A 12-14 month buffer ($156k-$182k) is optimal for independent consultants, allowing you to ride out client acquisition gaps without forced liquidations during market downturns. This preserves your aggressive 8/10 risk tolerance in invested assets. Source the additional $105k by trimming overweight Technology (30% vs typical 25%) and reducing bond allocation (15% to 10%), as your long horizon and high risk tolerance don't require significant fixed income. The remaining 88% stays fully deployed in growth assets, maintaining compounding toward your $4M wealth goal.",
+      "tickers": [
+        "NVDA",
+        "BND"
+      ],
+      "suggested_action": "Reduce Technology exposure by 5% and Bonds by 5% to raise cash buffer to 12%",
+      "suggested_allocation_pct": 12.0,
+      "risk_level": "moderate",
+      "expected_return_range": "0-2%",
+      "time_horizon": "immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T14:57:13.129691",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "diversify",
+      "title": "Establish Rules-Based Dynamic Deployment Strategy",
+      "summary": "Create systematic rules to shift between 8-15% cash based on contract pipeline visibility, automating deployment decisions without emotion.",
+      "detailed_rationale": "Rather than static allocation, implement a dynamic cash strategy tied to consulting income predictability: maintain 8% cash minimum with 6+ months of contracted revenue visibility; increase to 12% with 3-6 months visibility; hold 15% with <3 months secured work. This approach keeps you maximally deployed during stable periods while automatically building buffers during uncertainty. When cash exceeds thresholds, dollar-cost-average excess into VTI and VWO monthly to maintain diversification. This disciplined framework prevents the psychological trap of holding excessive 'safety cash' during bull markets (opportunity cost) or panic-selling growth positions during income gaps. Given your advanced experience and $1.12M net worth, this sophisticated approach optimizes return while respecting variable income reality.",
+      "tickers": [
+        "VTI",
+        "VWO"
+      ],
+      "suggested_action": "Implement pipeline-based cash allocation rules with systematic monthly redeployment triggers",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "n/a",
+      "time_horizon": "ongoing",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T14:57:13.129691",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "risk_reduction",
+      "title": "Reduce Crypto Concentration Risk Given Income Variability",
+      "summary": "Trim crypto from 5% to 2% ($30k), reallocating $45k to increase diversified equity exposure through VTI and international markets.",
+      "detailed_rationale": "Your 5% crypto allocation ($75k in BTC) adds unnecessary volatility layered on top of already variable income\u2014a double-volatility scenario. While your 8/10 risk tolerance supports aggressive positioning, crypto's extreme drawdowns (60-80%) combined with potential income gaps creates forced-sale risk at portfolio lows. Your Technology sector already provides 30% growth exposure. Reducing crypto to 2% ($30k) maintains speculative upside while cutting tail risk. Redeploy $45k: $30k to VTI (broad diversification) and $15k to VWO (emerging markets already align with aggressive profile). This maintains your 70% growth equity allocation while improving risk-adjusted returns. Given moderate debt ($380k) and medium liquidity needs, concentrated volatile assets require income stability you don't have. Keep 2% crypto as asymmetric bet without portfolio-threatening concentration.",
+      "tickers": [
+        "BTC",
+        "VTI",
+        "VWO"
+      ],
+      "suggested_action": "Reduce crypto from 5% to 2%, reallocate to diversified equity",
+      "suggested_allocation_pct": 2.0,
+      "risk_level": "high",
+      "expected_return_range": "n/a",
+      "time_horizon": "immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T14:57:13.129691",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "buy",
+      "title": "Add Small-Cap Value Tilt for Long-Horizon Compounding",
+      "summary": "Allocate 5-7% ($75k-$105k) to small-cap value exposure to enhance long-term returns given your 20+ year horizon and high risk tolerance.",
+      "detailed_rationale": "With long time horizon to age 65+ and aggressive risk profile, your portfolio lacks small-cap value exposure\u2014historically the highest-returning asset class over extended periods (10%+ annualized). Current holdings skew large-cap (VTI) and mega-cap tech (NVDA). Adding 5-7% small-cap value (VBR or AVUV) increases expected returns for your $4M wealth goal while diversifying away from current large-cap/growth concentration. Small-cap volatility is acceptable given your 8/10 loss comfort and long runway. Source funds from the proposed bond reduction (trim BND further from 15% to 8%, freeing $105k). This maintains adequate cash buffer while maximizing equity upside. Small-cap value performs independently from mega-cap tech, improving diversification during sector rotations. Implementation: dollar-cost-average $105k over 3 months into small-cap value ETF to smooth entry.",
+      "tickers": [
+        "VBR",
+        "AVUV",
+        "BND"
+      ],
+      "suggested_action": "Add 5-7% allocation to small-cap value ETF, funded by bond reduction",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "high",
+      "expected_return_range": "8-12%",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T14:57:13.129691",
+      "composite_score": 0.0
+    }
+  ]
+}

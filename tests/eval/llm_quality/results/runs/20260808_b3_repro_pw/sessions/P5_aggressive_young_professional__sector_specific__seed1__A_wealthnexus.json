@@ -1,0 +1,167 @@
+{
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "sector_specific",
+  "query": "I'm already heavy in tech. Should I rotate into AI infrastructure plays, or diversify into a different sector entirely?",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_e79b486a",
+      "category": "diversify",
+      "title": "Rotate 15% into Healthcare & Industrials ETFs",
+      "summary": "Reduce tech concentration from 65% to 50% by reallocating into defensive sectors with secular growth tailwinds while maintaining aggressive growth profile.",
+      "detailed_rationale": "Signal: Your portfolio shows 65% technology concentration (significantly above market weight of ~28% in S&P 500), creating substantial single-sector risk despite your aggressive profile. Analysis: (1) While your high risk tolerance (9/10 loss comfort) supports concentrated positions, even aggressive portfolios benefit from sector diversification to reduce correlation risk during tech-specific downturns. Your 15-year FIRE timeline means you'll experience multiple market cycles where tech underperforms. (2) Healthcare (XLV, VHT) offers defensive characteristics with offensive growth from GLP-1 drugs, longevity research, and AI-driven drug discovery - aligning with your growth mandate while reducing volatility. Industrials (XLI, VIS) capture infrastructure spending, reshoring, and automation themes that complement rather than duplicate your tech exposure. (3) Evidence: Your current holdings (QQQ, NVDA, GOOGL, META, AMZN, TSLA) have 0.85+ correlation coefficients, meaning they move together. Historical data shows 60/40 tech/diversified portfolios maintained 85% of pure-tech returns with 30% less drawdown severity. (4) Trade-off: You may underperform in continued tech dominance scenarios, but you significantly improve risk-adjusted returns and reduce sequence-of-returns risk crucial for FIRE planning. With $90,000 currently in tech stocks/ETFs, moving $27,000 into these sectors maintains growth orientation while improving resilience.",
+      "tickers": [
+        "XLV",
+        "VHT",
+        "XLI",
+        "VIS"
+      ],
+      "suggested_action": "Sell 15% of QQQ position ($13,500) and trim TSLA position by 30% ($9,000-12,000 depending on current allocation). Deploy $27,000 total: $15,000 into healthcare ETFs (XLV 60%, VHT 40%) and $12,000 into industrials ETFs (XLI 70%, VIS 30%).",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "9-13% annually",
+      "time_horizon": "3-15 years (full FIRE timeline)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:41:51.353524",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_44813694",
+      "category": "buy",
+      "title": "Strategic 5% Allocation to Energy Transition Infrastructure",
+      "summary": "Add targeted exposure to energy infrastructure and utilities benefiting from AI data center power demands and grid modernization, creating portfolio hedge while capturing mega-trend.",
+      "detailed_rationale": "Signal: Your portfolio lacks exposure to the physical infrastructure supporting your AI/tech holdings. Your NVDA and tech positions benefit from AI demand, but you're missing the complementary infrastructure play. Analysis: (1) AI data centers are creating unprecedented electricity demand - Microsoft, Google, and Meta are all investing billions in power infrastructure. Your aggressive profile and intermediate experience level suit thematic infrastructure plays that are less volatile than pure tech but offer superior growth to traditional utilities. (2) Energy transition creates a 15+ year secular trend matching your investment horizon. Companies like NextEra Energy (NEE), Constellation Energy (CEG - nuclear for data centers), and Brookfield Renewable (BEPC) offer 4-6% dividend yields plus 8-12% growth - providing income optionality as you approach FIRE while maintaining growth. (3) Evidence from portfolio: You have zero utilities or energy exposure, creating gap risk if tech multiples compress while infrastructure spending accelerates. Recent data shows power/utilities stocks up 25-40% in 2024 on AI infrastructure demand. (4) Trade-off: These positions are less explosive than pure tech plays, potentially dragging returns in tech boom scenarios. However, they provide crucial diversification, some income, and exposure to the same AI megatrend through a different lens. The power demand from AI is non-discretionary - more defensive than semiconductor cyclicality.",
+      "tickers": [
+        "NEE",
+        "CEG",
+        "BEPC",
+        "XLE"
+      ],
+      "suggested_action": "Allocate $9,000 (5% of portfolio) split as: $4,000 Constellation Energy (CEG) for nuclear/data center exposure, $3,000 NextEra Energy (NEE) for renewable scale and dividend, $2,000 Brookfield Renewable (BEPC) for global infrastructure diversification.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "10-15% annually with 3-5% yield",
+      "time_horizon": "5-15 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:41:51.353524",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_f310822c",
+      "category": "rebalance",
+      "title": "Optimize Crypto Allocation: Reduce BTC to 3%, Add Strategic DeFi Exposure",
+      "summary": "Rightsize Bitcoin position to reduce volatility drag while adding small Ethereum allocation to capture smart contract platform growth aligned with your tech thesis.",
+      "detailed_rationale": "Signal: Your 5% crypto allocation ($9,000) is appropriate for aggressive profile, but 100% Bitcoin concentration misses the programmable blockchain opportunity and creates unnecessary volatility without diversification benefit. Analysis: (1) With your software engineering background and tech focus, you're well-positioned to understand Ethereum's value proposition as infrastructure for decentralized applications - similar to AWS/cloud thesis you likely understand from AMZN holding. (2) Bitcoin correlation to tech stocks has increased to 0.6-0.7, meaning it's not providing the portfolio diversification benefit it historically offered. However, your aggressive profile and long timeline support crypto exposure for asymmetric upside. Reducing to 3% BTC while adding 2% ETH creates better risk/return profile. (3) Evidence: Ethereum's transition to proof-of-stake created 4-5% staking yield (real income), has stronger developer ecosystem (60% of DeFi), and ETF approval in 2024 provides institutional access similar to Bitcoin's 2024 catalyst. Your intermediate experience level is sufficient for understanding these assets, especially given your tech background. (4) Trade-off: You reduce pure 'digital gold' exposure and add smart contract platform risk (regulatory, technology, competition). However, 80% BTC/20% ETH split in crypto allocation maintains Bitcoin's dominance while capturing Ethereum's growth potential. Total crypto stays at 5%, but with better diversification.",
+      "tickers": [
+        "BTC",
+        "ETH"
+      ],
+      "suggested_action": "Rebalance crypto holdings to $5,400 Bitcoin (3% of portfolio) and $3,600 Ethereum (2% of portfolio). Sell approximately $1,800-2,000 of BTC and purchase ETH through Coinbase, Kraken, or new Ethereum spot ETFs (ETHA, FETH) for easier tax reporting.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "high",
+      "expected_return_range": "15-40% annually with extreme volatility",
+      "time_horizon": "10-15 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:41:51.353524",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_37206fbc",
+      "category": "hold",
+      "title": "Maintain Core Magnificent 7 Holdings with Tactical AI Infrastructure Addition",
+      "summary": "Keep NVDA, GOOGL, META, AMZN core positions but add small AVGO or ANET position to capture AI networking/infrastructure layer without increasing tech concentration.",
+      "detailed_rationale": "Signal: You asked about rotating into AI infrastructure plays. Your current holdings are AI beneficiaries (GOOGL, META, AMZN via cloud/AI services; NVDA for chips) but lack pure-play AI infrastructure beyond semiconductors. Analysis: (1) Your question reveals sophisticated understanding that AI infrastructure extends beyond compute chips. Given your 65% tech weight, adding infrastructure should come from reallocation, not net new tech exposure. After implementing the 15% diversification above, your tech allocation drops to 50% - creating room for a 3-5% AI networking position. (2) Broadcom (AVGO) provides AI custom chip design and networking silicon for hyperscalers; Arista Networks (ANET) provides switches/networking for AI data centers with 40%+ growth. Both have stronger defensive moats than TSLA (which you should reduce as suggested above). Your intermediate experience and aggressive profile suit these semi-specialized plays. (3) Evidence: AI infrastructure spending is forecast at $1T+ through 2030, with networking representing 20-25% of data center buildout costs. AVGO trades at 25x earnings vs NVDA at 35x, offering better value while maintaining AI exposure. ANET has 60% gross margins and 90% customer retention - exceptional business quality. (4) Trade-off: These are less pure AI plays than NVDA, potentially underperforming in maximum AI bullishness. However, they provide infrastructure diversification, lower valuation risk, and capture the same trend through necessary complementary technology.",
+      "tickers": [
+        "AVGO",
+        "ANET",
+        "NVDA",
+        "GOOGL",
+        "META",
+        "AMZN"
+      ],
+      "suggested_action": "Hold NVDA, GOOGL, META, AMZN positions. Use $5,000-7,000 from TSLA reduction to initiate 3% position split between AVGO (60%, $3,000-4,200) and ANET (40%, $2,000-2,800). This maintains your AI conviction while diversifying within tech infrastructure.",
+      "suggested_allocation_pct": 3.0,
+      "risk_level": "moderate",
+      "expected_return_range": "12-18% annually",
+      "time_horizon": "5-10 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:41:51.353524",
+      "composite_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more concrete, personalized actions with specific dollar amounts tied to the user's $22,000 emergency fund target, $3,800 monthly expenses, and $1,200-1,500 monthly savings capacity, making it more actionable. System B has slightly better factual grounding (avoiding A's questionable claim that the user can save $2,200/month after taxes) and a strong 401(k) match recommendation, but overall A's tighter personalization and clearer first-step instructions edge it out.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more concrete, personalized actions with specific dollar amounts tied to the user's $22,000 emergency fund target, $3,800 monthly expenses, and $1,200-1,500 monthly savings capacity, making it more actionable. System B has slightly better factual grounding (avoiding A's questionable claim that the user can save $2,200/month after taxes) and a strong 401(k) match recommendation, but overall A's tighter personalization and clearer first-step instructions edge it out."
+  },
+  "usage": {
+    "input_tokens": 12249,
+    "output_tokens": 296
+  },
+  "session_id": "P2_conservative_early_career__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

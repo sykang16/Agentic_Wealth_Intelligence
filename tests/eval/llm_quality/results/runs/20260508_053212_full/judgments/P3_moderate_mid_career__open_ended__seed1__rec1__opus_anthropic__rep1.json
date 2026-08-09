@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Rationale references moderate risk tolerance, 10-year education goal, 25-year retirement horizon, and specific holdings, causally linking them to the rebalance choice.\",\n    \"C2\": \"Risk_level is 'low' for a moderate-tolerance user (one tier off), but the rationale defensibly justifies it as concentration reduction and stability for the near-term education goal.\",\n    \"C3\": \"All cited figures (35% tech, 30% bonds, individual ticker holdings, 20% in tech stocks) are traceable to the snapshot with no fabricated holdings.\",\n    \"C4\": \"Provides specific tickers to sell/buy, dollar amounts ($32K, $20K, $12K), target allocation percentages, and an immediate first step.\",\n    \"C5\": \"Explicitly identifies the 35% tech overconcentration and the redundancy between VTI/VXUS and individual tech names, directly addressing it via trimming.\",\n    \"C6\": \"Uses mostly calibrated language and acknowledges trade-offs (taxes, missed upside), though no explicit disclaimer is included at the rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Rationale references moderate risk tolerance, 10-year education goal, 25-year retirement horizon, and specific holdings, causally linking them to the rebalance choice.",
+      "C2": "Risk_level is 'low' for a moderate-tolerance user (one tier off), but the rationale defensibly justifies it as concentration reduction and stability for the near-term education goal.",
+      "C3": "All cited figures (35% tech, 30% bonds, individual ticker holdings, 20% in tech stocks) are traceable to the snapshot with no fabricated holdings.",
+      "C4": "Provides specific tickers to sell/buy, dollar amounts ($32K, $20K, $12K), target allocation percentages, and an immediate first step.",
+      "C5": "Explicitly identifies the 35% tech overconcentration and the redundancy between VTI/VXUS and individual tech names, directly addressing it via trimming.",
+      "C6": "Uses mostly calibrated language and acknowledges trade-offs (taxes, missed upside), though no explicit disclaimer is included at the rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6074,
+    "output_tokens": 485
+  },
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "rec_index": 1,
+  "rec_id": "rec_bb2db515",
+  "rubric_version": "1.1"
+}

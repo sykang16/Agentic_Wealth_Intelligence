@@ -1,0 +1,197 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed2",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "open_ended",
+  "query": "Given my variable income from consulting, how should I think about cash buffers versus staying fully deployed?",
+  "seed": 2,
+  "context": {
+    "portfolio_context": "## Portfolio Snapshot\n- Total Assets: $1,500,000\n- Total Liabilities: $380,000\n- Net Worth: $1,120,000\n\n### Allocation by Asset Type\n- stock: 45.0%\n- etf: 25.0%\n- bond: 15.0%\n- cash: 5.0%\n- crypto: 5.0%\n- mutual_fund: 5.0%\n\n### Allocation by Sector\n- Technology: 30.0%\n- Energy: 15.0%\n- Financials: 15.0%\n- Industrials: 15.0%\n- Healthcare: 10.0%\n- Emerging Markets: 15.0%\n\n### Holdings (tickers)\nVTI, VWO, XLE, XOM, CVX, JPM, GS, CAT, DE, NVDA, BTC, BND",
+    "investment_profile_context": "## Investment Profile\n- Age: 45\n- Occupation: Independent strategy consultant\n- Annual Income: $280,000\n- Monthly Expenses: $13,000\n- Risk Tolerance: aggressive\n- Loss Comfort (1-10): 8\n- Investment Horizon: long\n- Liquidity Needs: medium\n- Income Stability: variable\n- Has Emergency Fund: True\n- Debt Level: moderate\n- Investment Experience: advanced\n- ESG Preference: False\n- Goals:\n  - wealth (high priority, target $4,000,000): Continue compounding wealth; comfortable with cyclical drawdowns\n  - other (medium priority, target $800,000): Legacy planning for one child",
+    "rag_context": "[investment_guide] Wealth Intelligence Research\n# Risk Management: Protecting Your Investment Portfolio\n\n\n## Understanding Risk Types\nMarket risk affects all investments. Specific risk relates to individual securities. Inflation risk erodes purchasing power. Interest rate risk impacts bond prices. Currency risk affects international investments.\n\n## Risk Tolerance Assessment\nYour risk tolerance depends on your time horizon, financial goals, income stability, and emotional comfort with volatility. Be honest about how you'd react to significant portfolio declines.\n\n## Hedging Strategies\nOptions and inverse ETFs can protect against downside risk. Dollar-cost averaging reduces timing risk. Holding cash provides a buffer during market downturns.\n\n## Emergency Fund Importance\nMaintain 3-6 months of expenses in liquid savings. This prevents the need to sell investments at unfavorable times during personal financial emergencies.\n\n## Portfolio Stress Testing\nEvaluate how your portfolio would perform in various scenarios: 2008-style crash, rising interest rates, high inflation. Adjust allocations if potential losses exceed your tolerance.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.\n\n---\n\n[investment_guide] Wealth Intelligence Research\n# Asset Allocation: Building a Diversified Portfolio\n\n\n## What is Asset Allocation?\nAsset allocation is the process of dividing investments among different asset categories, such as stocks, bonds, and cash. This strategy helps manage risk and optimize returns based on your investment goals, time horizon, and risk tolerance.\n\n## The Importance of Diversification\nDiversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation. When one asset class underperforms, others may compensate, helping to smooth overall returns.\n\n## Strategic vs Tactical Allocation\nStrategic allocation sets long-term targets based on your investment profile. Tactical allocation makes short-term adjustments to capitalize on market opportunities while staying within risk parameters.\n\n## Common Allocation Models\nConservative portfolios typically hold 20-40% stocks, 50-70% bonds. Moderate portfolios balance around 50-60% stocks, 30-40% bonds. Aggressive portfolios may hold 80-90% stocks with minimal bonds.\n\n## Rebalancing Your Portfolio\nRegular rebalancing ensures your portfolio stays aligned with target allocations. Consider rebalancing when allocations drift more than 5% from targets, or at least annually.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.\n\n---\n\n[investment_guide] Wealth Intelligence Research\n# Retirement Planning: Strategies for Long-Term Wealth Building\n\n\n## Starting Early\nThe power of compound interest makes starting early crucial. Even small contributions in your 20s and 30s can grow significantly over decades. Time in the market often matters more than timing the market.\n\n## Tax-Advantaged Accounts\nMaximize contributions to 401(k)s, IRAs, and Roth accounts. These vehicles provide tax benefits that accelerate wealth building. For 2024, 401(k) limits are $23,000 ($30,500 if 50+).\n\n## Employer Matching\nAlways contribute enough to capture the full employer match in your 401(k). This is essentially free money with an immediate 100% return on your contribution.\n\n## Target-Date Funds\nThese funds automatically adjust asset allocation as you approach retirement, becoming more conservative over time. They offer a simple, hands-off approach to retirement investing.\n\n## Social Security Planning\nDelaying Social Security benefits until age 70 can increase monthly payments by up to 77% compared to claiming at 62. Consider this in your overall retirement income strategy.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.",
+    "data_sources_used": [
+      "portfolio",
+      "investment_profile",
+      "rag_knowledge_base"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec_3fab0ec7",
+      "category": "diversify",
+      "title": "Reduce Technology Concentration Risk",
+      "summary": "Your 30% technology allocation significantly exceeds diversification best practices for your wealth accumulation goals. Trim technology exposure and redistribute to underweight sectors.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your portfolio shows 30% technology concentration, which creates single-sector risk that could jeopardize your $4M wealth target during tech downturns. Combined with NVDA individual holdings, you have meaningful concentration risk. (2) RISK ALIGNMENT: While your aggressive risk tolerance (loss comfort 8/10) supports growth investing, the knowledge base emphasizes 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' With variable consulting income, concentrated sector bets amplify both portfolio and income volatility simultaneously. (3) EVIDENCE: Your current allocation shows Technology at 30%, Healthcare at only 10%, and no exposure to Consumer Staples or Utilities\u2014defensive sectors that provide stability. Given you're 45 with a long horizon but also legacy planning needs ($800K for your child), maintaining wealth through market cycles matters as much as growth. (4) TRADE-OFF: You may sacrifice some upside if technology continues outperforming, but you gain downside protection and smoother compounding. Historical data shows concentrated sector bets underperform diversified approaches over 20+ year periods.",
+      "tickers": [
+        "VTI",
+        "NVDA",
+        "VHT",
+        "VDC"
+      ],
+      "suggested_action": "Reduce technology allocation from 30% to 20-22% by trimming NVDA position by 40-50% and rotating $100K-$120K into healthcare ETF (VHT) and adding consumer staples exposure (VDC). VTI already provides tech exposure, so this creates balanced diversification.",
+      "suggested_allocation_pct": 7.5,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually",
+      "time_horizon": "10-20 years to wealth target",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:43:23.072812",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_63571e47",
+      "category": "risk_reduction",
+      "title": "Establish Strategic Cash Buffer for Income Variability",
+      "summary": "Your 5% cash allocation is insufficient given variable consulting income and medium liquidity needs. Increase to 10-12% to create operational flexibility without forced liquidations.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: You asked specifically about 'cash buffers versus staying fully deployed' with variable consulting income. Your current 5% cash ($75K) covers only 5.8 months of your $13K monthly expenses\u2014just barely meeting the knowledge base recommendation of '3-6 months of expenses in liquid savings.' However, as an independent consultant with 'variable' income stability, you face potential income gaps. (2) RISK ALIGNMENT: The knowledge base explicitly states emergency funds 'prevent the need to sell investments at unfavorable times during personal financial emergencies.' With aggressive portfolio positioning (45% stocks, 5% crypto, 30% technology), you need larger cash reserves to avoid selling growth assets during market downturns coinciding with consulting dry spells. Your advanced experience means you understand this trade-off. (3) EVIDENCE: Current cash of $75K barely covers emergencies, but provides zero buffer for tactical opportunities or business development periods when consulting revenue dips. At $280K annual income, 6-9 months of expenses ($78K-$117K) is appropriate\u2014requiring 8-12% cash allocation. (4) TRADE-OFF: Increasing cash to 10-12% ($150K-$180K) means $75K-$105K earning ~5% in money market instead of potential 10-12% equity returns, costing approximately $3,750-$7,350 annually in opportunity cost. However, this prevents forced selling at market bottoms and provides peace of mind for business development.",
+      "tickers": [
+        "VMFXX",
+        "SGOV"
+      ],
+      "suggested_action": "Gradually build cash position from 5% to 10% ($150K total) over next 3 months by directing new consulting income to money market funds (VMFXX) or short-term Treasury ETF (SGOV) rather than immediately deploying to equities. This creates 11.5 months of expense coverage.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "4.5-5.5% annually",
+      "time_horizon": "Immediate to 12 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:43:23.072812",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_45e2cda8",
+      "category": "rebalance",
+      "title": "Optimize Bond Allocation for Legacy Planning Goal",
+      "summary": "At 15% bonds with long-term horizon and $800K legacy goal, shift from generic bond exposure to structured income strategy balancing growth and preservation.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your 15% bond allocation (currently BND\u2014broad bond exposure) represents $225K. With your medium-priority legacy goal of $800K for your child, you need assets that can grow but also preserve capital over your planning horizon. Current bond positioning is generic and doesn't optimize for legacy timing. (2) RISK ALIGNMENT: Your aggressive profile and advanced experience allow for sophisticated fixed income positioning. The knowledge base notes 'aggressive portfolios may hold 80-90% stocks with minimal bonds,' suggesting your current 15% is actually conservative relative to your risk tolerance. However, the $800K legacy goal creates a dual mandate: growth for wealth accumulation plus a specific preservation target. (3) EVIDENCE: At age 45 with a child's legacy goal, you likely have 20-40 years before full legacy transfer. BND currently yields ~4.5% but has interest rate risk. A laddered approach with intermediate corporates (VCIT) and inflation-protected bonds (VTIP) would provide better risk-adjusted returns while maintaining optionality. Your $380K debt (moderate level) suggests you understand leverage and fixed income dynamics. (4) TRADE-OFF: Moving from generic BND to a 60% VCIT / 40% VTIP split adds slight complexity but improves yield (~5-5.5%) and inflation protection. Risk increases marginally with corporate credit exposure, but remains appropriate for your profile.",
+      "tickers": [
+        "BND",
+        "VCIT",
+        "VTIP",
+        "SCHD"
+      ],
+      "suggested_action": "Restructure bond allocation by selling BND and deploying: 8% to VCIT (intermediate corporate bonds, ~$120K), 4% to VTIP (inflation-protected, ~$60K), and 3% to SCHD (high-quality dividend ETF, ~$45K) to create income stream supporting legacy goal while maintaining growth potential.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-7% annually",
+      "time_horizon": "20-40 years for legacy transfer",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:43:23.072812",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_3684d350",
+      "category": "risk_reduction",
+      "title": "Right-Size Cryptocurrency Exposure for Net Worth Preservation",
+      "summary": "5% crypto allocation ($75K in BTC) introduces asymmetric volatility risk inappropriate for someone approaching peak earning years with specific wealth targets.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your $75K Bitcoin position represents 5% of portfolio and 6.7% of net worth. While your loss comfort is 8/10 and risk tolerance is aggressive, crypto's volatility profile (historical drawdowns of 70-80%) creates disproportionate impact on your $4M wealth goal timeline. (2) RISK ALIGNMENT: The knowledge base emphasizes 'portfolio stress testing: evaluate how your portfolio would perform in various scenarios.' In a 2008-style crash scenario, equities might drop 40-50%, but crypto could drop 70-85%, turning your $75K into $11K-$22K. Your advanced experience likely means you understand this, but at age 45 with 'moderate' debt and variable income, preserving accumulated wealth becomes increasingly important. The knowledge base states 'be honest about how you'd react to significant portfolio declines'\u2014would losing $50K-$60K in crypto during a simultaneous consulting revenue decline affect your goals? (3) EVIDENCE: You're targeting $4M wealth (requiring ~$2.88M growth from current $1.12M net worth) over a long horizon. This needs ~8-9% annual returns consistently. Crypto's boom-bust cycles create sequence-of-returns risk that could derail compounding. Traditional 80-90% equity aggressive portfolios have achieved this historically without crypto volatility. (4) TRADE-OFF: Reducing crypto from 5% to 2% ($30K) means missing potential crypto upside but removes tail risk that could force portfolio restructuring at worst possible time. The $45K redeployed to core equity positions contributes more reliable compounding.",
+      "tickers": [
+        "BTC",
+        "VTI",
+        "VWO"
+      ],
+      "suggested_action": "Reduce Bitcoin position from 5% to 2% ($30K) by selling $45K of BTC. Redeploy proceeds: $30K to VTI (core US equity) and $15K to VWO (emerging markets) to maintain your aggressive growth orientation without crypto-specific volatility risk.",
+      "suggested_allocation_pct": -3.0,
+      "risk_level": "high",
+      "expected_return_range": "Reduces downside risk; opportunity cost of 0-15% if crypto rallies",
+      "time_horizon": "Immediate risk reduction",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:43:23.072812",
+      "composite_score": 0.0
+    }
+  ],
+  "rec_count": 4
+}

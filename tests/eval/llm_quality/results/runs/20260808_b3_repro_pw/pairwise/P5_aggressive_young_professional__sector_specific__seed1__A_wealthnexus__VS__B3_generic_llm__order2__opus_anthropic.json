@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"A\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides more deeply personalized rationales (referencing software engineering background, FIRE timeline, loss comfort score) with highly concrete dollar-denominated actions, directly addressing the user's AI infrastructure question. System A is more factually conservative and better calibrated but less specific and actionable, so B wins overall despite some unverifiable quantitative claims.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "A"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides more deeply personalized rationales (referencing software engineering background, FIRE timeline, loss comfort score) with highly concrete dollar-denominated actions, directly addressing the user's AI infrastructure question. System A is more factually conservative and better calibrated but less specific and actionable, so B wins overall despite some unverifiable quantitative claims."
+  },
+  "usage": {
+    "input_tokens": 10486,
+    "output_tokens": 252
+  },
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

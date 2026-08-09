@@ -1,0 +1,183 @@
+{
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "rebalance",
+  "query": "Walk me through a year-by-year glide path that gradually shifts my allocation over the next decade.",
+  "seed": 1,
+  "system": "B1_profile_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_4dceb559",
+      "category": "rebalance",
+      "title": "Implement Year-by-Year Glide Path Toward Conservative Allocation",
+      "summary": "Establish a systematic 10-year glide path that gradually reduces equity exposure from 55% to 35% while increasing bond allocation, with annual rebalancing checkpoints to manage risk as you approach retirement.",
+      "detailed_rationale": "Signal: Your current allocation (55% equities via stocks/ETFs, 35% bonds, 5% cash, 5% mutual funds) suggests a moderate risk profile, but without knowing your exact age and retirement timeline, a decade-long glide path indicates you're likely 10-15 years from retirement. Knowledge base evidence: The retirement planning guide emphasizes that 'Target-Date Funds automatically adjust asset allocation as you approach retirement, becoming more conservative over time' - we're applying this principle manually. Step-by-step reasoning: (1) Year 1-3: Maintain current 55/35/10 split while optimizing within categories; (2) Year 4-6: Shift to 50/40/10 by reducing equity exposure 1.5% annually; (3) Year 7-8: Move to 45/45/10 allocation; (4) Year 9-10: Target final 35/55/10 conservative allocation. This aligns with the knowledge base guidance that 'Conservative portfolios typically hold 20-40% stocks, 50-70% bonds.' Your current net worth of $755,000 provides sufficient capital to weather this transition. Portfolio evidence: Your holdings (VTI, VXUS, JNJ, UNH) provide quality equity exposure that can be systematically trimmed. Trade-off: Reducing equity exposure means potentially lower growth, but significantly reduced volatility and downside protection as you near retirement when capital preservation becomes paramount. The 'time in market' principle still applies early in the glide path.",
+      "tickers": [
+        "VTI",
+        "BND",
+        "VXUS"
+      ],
+      "suggested_action": "Create a written glide path schedule: Years 1-3 maintain 55/35/10, Years 4-6 shift to 50/40/10 (reduce equity by ~$42,500 total, add to BND), Years 7-8 reach 45/45/10 (additional ~$42,500 shift), Years 9-10 achieve 35/55/10 (final ~$85,000 shift). Set annual calendar reminders each January to rebalance according to schedule.",
+      "suggested_allocation_pct": null,
+      "risk_level": "low",
+      "expected_return_range": "4-6% annually initially, declining to 3-5% by year 10",
+      "time_horizon": "10-year systematic transition",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:49:43.464998",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_46d4b01f",
+      "category": "diversify",
+      "title": "Address Sector Concentration in Healthcare (22%) Through Geographic Diversification",
+      "summary": "Your 22% healthcare allocation (likely JNJ, UNH) exceeds prudent diversification limits. Gradually reduce to 15% over the first 3 years of your glide path while increasing international exposure via VXUS to improve sector balance.",
+      "detailed_rationale": "Signal: Portfolio analysis reveals healthcare at 22% is significantly overweight compared to its ~13% representation in broad market indices, creating concentration risk. Your holdings show JNJ and UNH as likely culprits. Knowledge base evidence: 'Diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation. When one asset class underperforms, others may compensate.' Step-by-step alignment: (1) Healthcare exposure above 15-18% creates single-sector vulnerability; (2) Your moderate risk profile requires better diversification; (3) VXUS (international) currently represents only a portion of your equity allocation, likely under 20% of equities when best practice suggests 30-40%; (4) By trimming healthcare positions (approximately $53,000 reduction from 22% to 15% = $59,500 total shift), you can rebalance into VXUS, improving geographic diversification without changing overall equity allocation during Years 1-3 of glide path. Supporting evidence: You already hold VXUS, indicating comfort with international exposure. Trade-off: Healthcare has defensive characteristics and may outperform in downturns; however, concentration risk outweighs sector-specific benefits. International stocks add currency risk but provide essential geographic diversification, especially important given U.S. market concentration in mega-cap tech.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "VXUS"
+      ],
+      "suggested_action": "Over the next 3 years, sell approximately $20,000 per year from healthcare positions (trim UNH or JNJ proportionally) to reduce healthcare from 22% to 15%. Simultaneously increase VXUS position to achieve 35-40% of total equity allocation in international stocks. Execute during annual rebalancing to minimize transaction costs.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-7% annually from rebalanced equity portion",
+      "time_horizon": "Years 1-3 of glide path",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:49:43.464998",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_550bebe0",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Advantaged Account Contributions During High-Income Years",
+      "summary": "Front-load retirement contributions in Years 1-5 of your glide path when earning power is highest. Max out 401(k) at $23,000 annually ($30,500 if 50+) and consider Roth conversions during lower-income years in the latter half of the decade.",
+      "detailed_rationale": "Signal: With $755,000 net worth and only $95,000 in liabilities, you have strong cash flow capacity. The glide path query suggests retirement planning focus, but portfolio snapshot doesn't indicate what percentage is in tax-advantaged versus taxable accounts. Knowledge base evidence explicitly states: 'Maximize contributions to 401(k)s, IRAs, and Roth accounts. These vehicles provide tax benefits that accelerate wealth building. For 2024, 401(k) limits are $23,000 ($30,500 if 50+)' and 'Always contribute enough to capture the full employer match in your 401(k). This is essentially free money with an immediate 100% return.' Step-by-step reasoning: (1) Your current 5% cash position ($42,500) provides liquidity buffer; (2) Early glide path years (1-5) likely represent peak earning years before retirement; (3) Tax-deferred contributions reduce current taxable income while building retirement assets; (4) Later glide path years (6-10) may see reduced income, creating Roth conversion opportunities at lower tax brackets; (5) Your BND holding suggests bonds may be in taxable accounts - these should be tax-sheltered due to ordinary income treatment. Trade-off: Maxing contributions reduces current liquidity, but your 5% cash allocation and low debt burden ($95,000 liabilities) suggest this is manageable. Tax-deferred accounts have RMD requirements at 73, but tax savings and compound growth typically outweigh this constraint.",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "Years 1-5: Maximize 401(k) contributions to legal limit ($23,000 or $30,500), prioritize Roth IRA if eligible ($7,000, $8,000 if 50+). Ensure bond holdings (BND) are held in tax-advantaged accounts, not taxable. Years 6-10: After income potentially decreases, evaluate partial Roth conversions of traditional IRA/401(k) balances to diversify tax treatment. Consult tax advisor to model specific brackets.",
+      "suggested_allocation_pct": null,
+      "risk_level": "low",
+      "expected_return_range": "Immediate tax savings of 22-32% depending on bracket, plus compound growth benefits",
+      "time_horizon": "10-year implementation with front-loaded contributions",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:49:43.464998",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_d7aeaeba",
+      "category": "risk_reduction",
+      "title": "Establish Bond Ladder in Years 4-7 as Fixed Income Allocation Increases",
+      "summary": "As your glide path increases bond allocation from 35% to 55%, transition from BND (aggregate bond fund) to a bond ladder structure to reduce interest rate risk and create predictable income streams for retirement.",
+      "detailed_rationale": "Signal: Your glide path will increase fixed income from $297,500 (35%) to eventually $467,500 (55%) by year 10, representing a $170,000 increase in bond exposure. Currently holding BND (broad bond fund) works for moderate allocation, but becomes inefficient at higher allocations approaching retirement. Knowledge base context: While not explicitly mentioned in the provided guides, bond ladders are a standard conservative strategy that complements the guidance that 'Conservative portfolios typically hold...50-70% bonds.' Step-by-step reasoning: (1) BND provides broad exposure but subjects you to interest rate risk across the entire portfolio; (2) As bonds grow to 45-55% of portfolio (years 7-10), a bond ladder with staggered maturities (1, 3, 5, 7, 10 years) provides: predictable income, reduced reinvestment risk, and ability to hold to maturity avoiding mark-to-market losses; (3) Your timeline (years 4-7 for implementation) allows you to build the ladder gradually as you add to fixed income allocation; (4) With $755,000 net worth growing over time, you'll have sufficient capital to meet minimum bond purchase requirements ($1,000-$5,000 typically). Supporting evidence: Your current BND position shows comfort with fixed income; laddering is a natural evolution. Trade-off: Bond ladders require more active management than BND, offer less liquidity, and need larger position sizes. However, they provide superior income predictability and interest rate risk management crucial for retirement income planning.",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "Years 4-7: As you add to fixed income allocation per glide path, begin building a bond ladder. Allocate 60% of new bond purchases to individual Treasury or investment-grade corporate bonds with staggered maturities (2, 4, 6, 8, 10 years from purchase date). Maintain 40% in BND for liquidity and diversification. By year 10, target 50-60% of total bond allocation in ladder structure, remainder in BND. Use Treasury Direct for government bonds to minimize costs.",
+      "suggested_allocation_pct": null,
+      "risk_level": "low",
+      "expected_return_range": "3-5% annually with reduced volatility",
+      "time_horizon": "Years 4-10 implementation, holds through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:49:43.464998",
+      "composite_score": 0.0
+    }
+  ]
+}

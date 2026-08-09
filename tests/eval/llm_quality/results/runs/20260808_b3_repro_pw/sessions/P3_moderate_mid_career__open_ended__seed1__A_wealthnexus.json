@@ -1,0 +1,185 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "query": "I'm 40 with two kids heading to college in about 10 years. How should I balance saving for their education versus retirement?",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_c1f7f8f6",
+      "category": "diversify",
+      "title": "Establish Dedicated 529 College Savings Allocation",
+      "summary": "Create a separate 529 plan allocation funded by redirecting 15% of current portfolio growth to address the critical 10-year education timeline while maintaining retirement contributions.",
+      "detailed_rationale": "Signal: Your portfolio shows no dedicated education savings vehicle despite having a high-priority $200,000 college funding goal with a compressed 10-year timeline. (1) Portfolio Analysis: Your current allocation is retirement-focused with long-term holdings (VTI, VXUS) and no tax-advantaged education savings. With two children and college expenses starting in ~10 years, you need approximately $20,000 annually in growth to reach your $200,000 target. (2) Risk Alignment: As a moderate-risk investor with stable income ($175,000 annually) and low debt, you can afford to carve out education-specific savings without compromising retirement. Your 6/10 loss comfort and intermediate experience make you suitable for a balanced 529 approach. (3) Knowledge Base Evidence: The retirement planning guide emphasizes tax-advantaged accounts - 529 plans offer tax-free growth for education expenses, parallel to retirement account benefits. The 10-year horizon for education vs 25-year retirement horizon requires different asset allocation strategies. (4) Trade-off: This creates an additional account to monitor and temporarily reduces capital available for retirement compounding. However, the tax benefits and goal-specific allocation outweigh the complexity. Recommended 529 allocation: 60% stock index funds, 40% bonds, becoming more conservative as children approach college age.",
+      "tickers": [
+        "VTSAX",
+        "VBTLX"
+      ],
+      "suggested_action": "Open a 529 college savings plan and fund with $30,000 initial transfer (using tax-free gifting limits), then contribute $1,500 monthly. Allocate 60% to total stock market index and 40% to bond index, automatically shifting to age-based allocation 5 years before first child's college entry.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-7% annually",
+      "time_horizon": "10 years for first disbursement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:19:10.562834",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_335fe7ee",
+      "category": "rebalance",
+      "title": "Reduce Technology Overconcentration to Improve Risk-Adjusted Returns",
+      "summary": "Decrease technology sector exposure from 35% to 25% by trimming individual tech stock positions (AAPL, MSFT, NVDA, GOOGL) and reallocating to underrepresented defensive sectors.",
+      "detailed_rationale": "Signal: Your portfolio shows severe technology concentration at 35% vs typical moderate-risk allocation of 20-25%, creating unnecessary single-sector risk. (1) Portfolio Analysis: You hold four individual tech stocks (AAPL, MSFT, NVDA, GOOGL) plus significant tech exposure through VTI (where tech represents ~30% of the index), creating double concentration. This violates diversification principles for moderate-risk investors. (2) Risk Profile Alignment: With a moderate risk tolerance (6/10 loss comfort) and two competing high-priority goals requiring capital preservation over different horizons, sector concentration increases volatility beyond your stated comfort level. Your stable income allows you to accept market returns without reaching for concentrated tech growth. (3) Knowledge Base Evidence: The asset allocation guide specifically warns that 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Your current tech concentration means a sector downturn could simultaneously impact 35% of holdings. The guide recommends rebalancing when allocations drift more than 5% from targets - you're 10-15% over appropriate tech exposure. (4) Trade-off: You may sacrifice short-term outperformance if tech continues rallying, but you significantly reduce downside risk during sector rotations, which is critical given your approaching education funding need.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL",
+        "VHT",
+        "XLV",
+        "VNQ"
+      ],
+      "suggested_action": "Sell 40% of combined individual tech stock holdings (~$25,600 based on 20% stock allocation). Reallocate proceeds: $10,000 to healthcare ETF (VHT or XLV) to increase healthcare from 12% to 15%, $8,000 to real estate ETF (VNQ) for inflation protection and diversification, $7,600 to increase BND position for education timeline stability.",
+      "suggested_allocation_pct": -10.0,
+      "risk_level": "low",
+      "expected_return_range": "Maintains 7-9% portfolio returns with lower volatility",
+      "time_horizon": "Immediate rebalancing, benefits realized over 5+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:19:10.562834",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_7095a345",
+      "category": "buy",
+      "title": "Add International Bond Exposure for Enhanced Diversification",
+      "summary": "Allocate 5% to international bonds (BNDX) to reduce US-only fixed income concentration and improve portfolio resilience across economic cycles.",
+      "detailed_rationale": "Signal: Your fixed income allocation is 100% US-focused (BND) despite having international equity exposure (VXUS), creating geographic mismatch in your diversification strategy. (1) Portfolio Gap Analysis: You hold 30% bonds entirely in BND (US bonds), while your equity side includes VXUS for international diversification. This creates asymmetric geographic exposure where your defensive assets (bonds) lack the global diversification of your growth assets. With $96,000 in bonds, zero international fixed income represents a missed diversification opportunity. (2) Risk Alignment: As a moderate-risk investor with medium liquidity needs and stable income, you can handle the slightly higher duration and currency risk of international bonds in exchange for improved diversification. Your 10-year education horizon and 25-year retirement horizon both benefit from geographic bond diversification reducing US-specific economic risks. (3) Knowledge Base Evidence: The asset allocation guide emphasizes that 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' International bonds have historically shown low correlation with US bonds during certain economic cycles (especially during dollar weakness or US-specific fiscal concerns). Your current 'moderate' portfolio should balance 50-60% stocks with 30-40% bonds - adding international bonds optimizes the defensive portion. (4) Trade-off: International bonds carry currency risk and potentially lower yields currently, but provide valuable diversification especially for education goal capital preservation as children approach college age.",
+      "tickers": [
+        "BNDX",
+        "BND"
+      ],
+      "suggested_action": "Reduce BND position by $16,000 (from 30% to 25% of portfolio) and invest in Vanguard Total International Bond ETF (BNDX) to establish 5% international bond allocation. Set annual review to potentially increase to 7-8% as education timeline approaches.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "3-5% annually with reduced US correlation",
+      "time_horizon": "Medium to long-term (5-15 years)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:19:10.562834",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_9a1735c0",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Advantaged Retirement Contributions Before Taxable Investing",
+      "summary": "Verify you're contributing the maximum $23,000 to your 401(k) and $7,000 to IRA annually before adding to taxable brokerage accounts, optimizing tax efficiency for your $175,000 income level.",
+      "detailed_rationale": "Signal: Your profile shows $175,000 annual income with stable employment but doesn't confirm whether you're maximizing tax-advantaged retirement account contributions, which is foundational before pursuing taxable investment strategies. (1) Income Analysis: At $175,000 annual income with $9,500 monthly expenses ($114,000 annually), you have $61,000 in annual surplus before taxes. Your marginal tax bracket is likely 24% federal, making tax-advantaged contributions worth $7,200 annually in immediate tax savings on maximum 401(k) contribution alone. (2) Goal Alignment: With retirement as a high-priority goal targeting $2.5M in 25 years, maximizing tax-advantaged space is mathematically superior to taxable investing. The knowledge base explicitly states '401(k) limits are $23,000 ($30,500 if 50+)' and emphasizes 'always contribute enough to capture the full employer match - essentially free money with immediate 100% return.' (3) Knowledge Base Evidence: The retirement planning guide emphasizes that 'tax-advantaged accounts provide tax benefits that accelerate wealth building' and 'maximize contributions to 401(k)s, IRAs, and Roth accounts.' For someone 40 years old with 25 years to retirement, maximizing these accounts could mean $200,000+ in tax savings over your working career through deductions and tax-free growth. (4) Trade-off: Maximum contributions reduce current cash flow flexibility, but with stable income, low debt, existing emergency fund, and medium liquidity needs, you're well-positioned to prioritize tax-advantaged growth. Your moderate risk tolerance suits the long-term lock-up nature of retirement accounts.",
+      "tickers": [],
+      "suggested_action": "Confirm current 401(k) contribution reaches $23,000 annually ($1,917/month). If not maximized, increase contribution rate immediately. Additionally, contribute $7,000 annually ($583/month) to a Roth IRA given your income level allows it. Combined with employer match, this ensures 15-20% retirement savings rate appropriate for your goals and timeline.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Immediate 24% tax savings plus 7-10% long-term growth",
+      "time_horizon": "Immediate tax benefit, long-term growth over 25 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:19:10.562834",
+      "composite_score": 0.0
+    }
+  ]
+}

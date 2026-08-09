@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 4,\n  \"C2_risk_alignment\": 2,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"The rationale uses the user's income, tax bracket, and risk profile to justify the recommendation.\",\n    \"C2\": \"The recommendation's low risk level does not align with the user's aggressive risk tolerance, and the rationale does not justify this deviation.\",\n    \"C3\": \"All claims about tax brackets, bond yields, and portfolio allocations are traceable to the user's profile and portfolio snapshot.\",\n    \"C4\": \"The recommendation provides specific tickers, allocation percentages, and a clear action plan with a timeline.\",\n    \"C5\": \"The recommendation is allocation-neutral as it does not address or worsen diversification.\",\n    \"C6\": \"The recommendation uses calibrated language and suggests consulting a CPA, but lacks a specific disclaimer.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 4,
+    "C2_risk_alignment": 2,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "The rationale uses the user's income, tax bracket, and risk profile to justify the recommendation.",
+      "C2": "The recommendation's low risk level does not align with the user's aggressive risk tolerance, and the rationale does not justify this deviation.",
+      "C3": "All claims about tax brackets, bond yields, and portfolio allocations are traceable to the user's profile and portfolio snapshot.",
+      "C4": "The recommendation provides specific tickers, allocation percentages, and a clear action plan with a timeline.",
+      "C5": "The recommendation is allocation-neutral as it does not address or worsen diversification.",
+      "C6": "The recommendation uses calibrated language and suggests consulting a CPA, but lacks a specific disclaimer."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 4010,
+    "output_tokens": 240
+  },
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed2",
+  "rec_index": 3,
+  "rec_id": "rec_0fa99fa0",
+  "rubric_version": "1.1"
+}

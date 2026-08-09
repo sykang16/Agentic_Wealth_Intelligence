@@ -1,0 +1,162 @@
+{
+  "session_id": "P5_aggressive_young_professional__open_ended__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "open_ended",
+  "query": "I'm aiming for FIRE in about 15 years. Am I on the right track with my current allocation?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_b24dfd08",
+      "category": "diversify",
+      "title": "Reduce Technology Sector Concentration from 65% to 45%",
+      "summary": "Your portfolio is heavily overweight in technology (65% vs. market weight of ~28%). While aligned with aggressive risk tolerance, this concentration creates unnecessary single-sector risk that could derail your 15-year FIRE timeline.",
+      "detailed_rationale": "(1) Signal: Portfolio analysis shows 65% technology concentration across QQQ (tech-heavy), individual tech stocks (NVDA, TSLA, GOOGL, META, AMZN), creating correlated downside risk. A 2022-style tech correction could set your FIRE timeline back years. (2) Alignment: Your aggressive risk tolerance and 9/10 loss comfort support equity concentration, BUT your specific goal requires sustained compounding over 15 years to reach $2.5M from $162K net worth (~20% CAGR needed). Sector concentration increases path volatility without proportionally increasing expected returns\u2014diversification improves risk-adjusted returns. (3) Evidence: Historical data shows that while tech outperformed 2010-2021, the 2022 drawdown saw QQQ drop 33% vs. VTI's 20%. Your current allocation would have amplified losses. For FIRE goals, sequence-of-returns risk matters: a major drawdown in years 10-15 is particularly damaging. (4) Trade-offs: You'll reduce exposure to potential tech mega-cap outperformance, but you'll gain resilience. Consider this a risk-adjusted optimization, not a risk reduction\u2014you're still 90% equities, fully appropriate for your profile.",
+      "tickers": [
+        "VTI",
+        "VEA",
+        "VWO",
+        "XLE",
+        "XLV"
+      ],
+      "suggested_action": "Gradually trim NVDA, META, and QQQ positions over next 3-6 months. Redeploy capital into: (1) Increase VTI from current weight to capture broad market (20% allocation), (2) Add international developed markets via VEA (10%), (3) Add emerging markets via VWO (5%), (4) Add energy sector exposure via XLE (5%), (5) Add healthcare via XLV (5%). Target final tech allocation: 45%.",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "moderate",
+      "expected_return_range": "9-12% annually",
+      "time_horizon": "Implement over 3-6 months, hold 15+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:18:07.929219",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_52804fd1",
+      "category": "risk_reduction",
+      "title": "Eliminate or Cap Cryptocurrency at 2% Maximum",
+      "summary": "5% BTC allocation introduces asymmetric downside risk inconsistent with your time-bound FIRE goal requiring predictable compounding to reach $2.5M target.",
+      "detailed_rationale": "(1) Signal: You hold 5% in BTC ($9,000), which represents highly speculative, volatile exposure. While crypto can produce outsized returns, it can also experience 70-80% drawdowns with extended recovery periods. (2) Alignment: Here's the key insight\u2014your FIRE goal is mathematically demanding. To grow $162K to $2.5M in 15 years requires ~19.5% annualized returns, or more realistically, $162K current + aggressive savings ($195K income - $66K expenses = $129K annual savings capacity) compounded at 10-12% annually. Your goal is achievable but requires CONSISTENCY and avoiding catastrophic losses. A 5% crypto allocation that goes to zero costs you $9,000 in absolute terms, but more importantly, it represents speculative capital that could be deployed in higher-probability growth assets. Your 9/10 loss tolerance supports equity volatility, not speculative asset gambles. (3) Evidence: BTC has experienced multiple 70%+ drawdowns (2018, 2022), with recovery periods of 3+ years. In a 15-year timeline, a drawdown in year 8-12 could derail accumulation momentum. Academic research shows crypto has near-zero correlation benefits to equity portfolios and doesn't improve risk-adjusted returns for long-term goals. (4) Trade-offs: You'll miss potential crypto rallies, but you're optimizing for goal completion probability, not maximum upside. Your aggressive stock allocation already provides substantial growth potential.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Sell 60% of BTC position immediately, reducing allocation from 5% to 2% ($3,600). Redeploy proceeds into VTI or international equity ETFs. Consider eliminating entirely if you want to maximize FIRE probability. If keeping 2% for 'lottery ticket' exposure, set a hard rule: never add more capital to crypto, let it fluctuate as a small satellite position.",
+      "suggested_allocation_pct": -3.0,
+      "risk_level": "high",
+      "expected_return_range": "N/A (risk reduction)",
+      "time_horizon": "Execute within 30 days",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:18:07.929219",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_4b85cd11",
+      "category": "rebalance",
+      "title": "Increase International Equity Exposure to 15-20%",
+      "summary": "Your portfolio has 0% international allocation, creating home-country bias. Adding developed and emerging market exposure improves diversification and captures global growth, particularly important for a 15-year horizon.",
+      "detailed_rationale": "(1) Signal: Portfolio shows 100% U.S. equity exposure (QQQ, VTI, and U.S. mega-caps). This creates concentration risk in U.S. market performance and dollar-denominated assets. (2) Alignment: Your aggressive profile and long 15-year horizon are perfectly suited for international equity exposure. While U.S. has outperformed recently, valuation spreads between U.S. and international markets are at historic extremes (U.S. trading at ~20x P/E vs. international at ~13x). Mean reversion over 15 years is likely. Your FIRE goal benefits from capturing global GDP growth, not just U.S. growth. At 30 years old with stable income, you can weather international volatility. (3) Evidence: Historical analysis shows international equity provides diversification benefits and has led U.S. returns during various decades (2000s, for example). MSCI EAFE and emerging markets are currently trading at significant discounts to U.S. markets. With your timeline extending to 2040, you'll capture multiple business cycles\u2014international exposure reduces dependency on continued U.S. exceptionalism. Additionally, demographic and growth trends in emerging markets (India, Southeast Asia) offer compelling long-term opportunities. (4) Trade-offs: International stocks may underperform U.S. in the near term, and currency fluctuations add volatility. However, over 15 years, this diversification improves your risk-adjusted return profile and reduces single-country risk.",
+      "tickers": [
+        "VEA",
+        "VWO",
+        "VXUS"
+      ],
+      "suggested_action": "Build 15-20% international allocation using: (1) VEA (Vanguard Developed Markets ETF) for 10-12% allocation\u2014provides exposure to Europe, Japan, UK, Canada with low 0.05% expense ratio, (2) VWO (Vanguard Emerging Markets ETF) for 5-8% allocation\u2014captures growth in China, India, Brazil, Taiwan. Alternative: use VXUS (Total International) for single-fund simplicity at 15-20% allocation. Source capital from trimming tech overweights (NVDA, META positions) and reducing BTC. Implement via dollar-cost averaging over 3-4 months.",
+      "suggested_allocation_pct": 17.5,
+      "risk_level": "moderate",
+      "expected_return_range": "8-11% annually",
+      "time_horizon": "15+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:18:07.929219",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_76c16939",
+      "category": "buy",
+      "title": "Add Small-Cap Value Exposure via AVUV or VBR (5-10% Allocation)",
+      "summary": "Your portfolio is entirely large-cap growth oriented. Adding small-cap value tilt captures factor premiums that historically enhance long-term returns, supporting your 15-year FIRE timeline.",
+      "detailed_rationale": "(1) Signal: Current holdings are exclusively large-cap mega-caps (GOOGL, META, AMZN, NVDA, TSLA) and large-cap weighted ETFs (QQQ, VTI). You're missing small-cap and value factor exposure, which academic research (Fama-French) shows provides excess returns over long periods. (2) Alignment: Your aggressive risk tolerance, 15-year horizon, and high loss tolerance (9/10) make you an ideal candidate for factor tilting. Small-cap value stocks are more volatile but have historically outperformed large-cap growth over multi-decade periods. Your stable $195K income and low liquidity needs mean you can tolerate the higher volatility. The mathematical reality of your FIRE goal\u2014needing sustained high returns\u2014justifies optimizing for evidence-based return premiums. (3) Evidence: Small-cap value has delivered ~2-3% annual premium over market returns historically (1926-present data). While recent decade saw large-cap growth dominance, valuations suggest mean reversion potential. Current small-cap value spreads are attractive\u2014Russell 2000 Value trades at ~12x earnings vs. Russell 2000 Growth at ~30x. For a 2025-2040 timeframe, you'll likely capture multiple cycles where small-cap value leads. AVUV (Avantis U.S. Small Cap Value) uses systematic screening for profitability and value, with strong historical performance. VBR (Vanguard Small-Cap Value) offers similar exposure with lower costs. (4) Trade-offs: Small-cap value can underperform for extended periods (2010-2020) and has higher volatility (standard deviation ~20% vs. ~15% for S&P 500). You may experience multi-year periods of underperformance, but your timeline and profile support this allocation.",
+      "tickers": [
+        "AVUV",
+        "VBR"
+      ],
+      "suggested_action": "Allocate 5-10% to small-cap value exposure. Recommended: AVUV for 7% allocation due to its profitability screening and factor purity. Source capital from further trimming QQQ position (you'll still have plenty of growth exposure). Implement via lump sum if market neutral, or dollar-cost average over 2 months. Set expectation: this is a 10-15 year position, not a trading vehicle. Rebalance annually to maintain target weight.",
+      "suggested_allocation_pct": 7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "10-14% annually",
+      "time_horizon": "15+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:18:07.929219",
+      "composite_score": 0.0
+    }
+  ]
+}

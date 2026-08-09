@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides deeper, more specific personalization (citing income, expenses, loss comfort, dual goals, and human-capital tech exposure) and more concrete, traceable numerical reasoning with clearer execution steps. System B is competent and concise but uses shallower rationales, a notably under-sized 529 contribution ($1,500/mo for $200k goal), and less rigorous grounding.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides deeper, more specific personalization (citing income, expenses, loss comfort, dual goals, and human-capital tech exposure) and more concrete, traceable numerical reasoning with clearer execution steps. System B is competent and concise but uses shallower rationales, a notably under-sized 529 contribution ($1,500/mo for $200k goal), and less rigorous grounding."
+  },
+  "usage": {
+    "input_tokens": 11093,
+    "output_tokens": 262
+  },
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 1,
+  "rubric_version": "1.1"
+}

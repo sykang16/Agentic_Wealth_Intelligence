@@ -1,0 +1,110 @@
+{
+  "session_id": "P3_moderate_mid_career__sector_specific__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "sector_specific",
+  "query": "Should I add international or emerging-markets exposure, and if so what proportion is reasonable?",
+  "seed": 2,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "diversify",
+      "title": "Increase International Exposure to 30% of Equity Allocation",
+      "summary": "Your current international exposure via VXUS represents only a portion of your portfolio. Increase to 30% of total equity holdings to improve global diversification and reduce US concentration risk.",
+      "detailed_rationale": "With 35% technology sector concentration and heavy US market exposure, you face significant geographic concentration risk. At age 40 with a 25-year retirement horizon, increasing international developed markets exposure to 30% of equities (approximately 21% of total portfolio) provides better global diversification. This allocation balances growth potential with your moderate risk tolerance while maintaining sufficient US equity exposure. International markets offer different economic cycles and valuation opportunities that can enhance risk-adjusted returns over your long-term horizon.",
+      "tickers": [
+        "VXUS",
+        "VEA",
+        "IDEV"
+      ],
+      "suggested_action": "Gradually increase VXUS holdings or add VEA (Vanguard Developed Markets ETF) through dollar-cost averaging over 3-6 months",
+      "suggested_allocation_pct": 21.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:32:00.855546",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "diversify",
+      "title": "Add 5-10% Emerging Markets Allocation",
+      "summary": "Introduce emerging markets exposure at 5-10% of total portfolio to capture higher growth potential while managing volatility risk.",
+      "detailed_rationale": "Emerging markets offer higher growth potential aligned with your long time horizon and can enhance portfolio diversification. However, given your moderate risk tolerance (loss comfort 6/10) and medium liquidity needs, a conservative 5-10% allocation is appropriate. This provides growth exposure to faster-growing economies while limiting volatility impact on your education funding goal (10-year horizon). Start with 5% and potentially increase to 10% as you approach your mid-40s and assess comfort with volatility. The higher expected returns can support both retirement and education goals without excessive risk.",
+      "tickers": [
+        "VWO",
+        "IEMG",
+        "SCHE"
+      ],
+      "suggested_action": "Allocate 5% initially to broad emerging markets ETF (VWO or IEMG), monitor for 12 months, then consider increasing to 10% if volatility is manageable",
+      "suggested_allocation_pct": 7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-11% annually",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:32:00.855546",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "rebalance",
+      "title": "Reduce Technology Concentration from 35% to 25%",
+      "summary": "Trim technology sector allocation to fund international expansion and reduce single-sector risk.",
+      "detailed_rationale": "Your 35% technology allocation creates significant sector concentration risk, particularly with individual holdings in AAPL, MSFT, NVDA, and GOOGL. While tech has strong long-term prospects, this concentration exposes you to sector-specific downturns that could impact your 10-year education funding goal. Reducing to 25% (still overweight vs. market) provides better risk management while maintaining meaningful tech exposure. Use proceeds to fund recommended international and emerging markets positions, improving overall portfolio diversification without abandoning your technology conviction.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Trim 25-30% of individual tech stock positions, reinvest proceeds into international developed (VXUS/VEA) and emerging markets (VWO) allocations",
+      "suggested_allocation_pct": 25.0,
+      "risk_level": "moderate",
+      "expected_return_range": "N/A - rebalancing action",
+      "time_horizon": "medium",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:32:00.855546",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "hold",
+      "title": "Maintain 30% Bond Allocation for Education Goal Stability",
+      "summary": "Keep current 30% bond allocation (BND) to provide stability for near-term education funding needs while supporting moderate risk profile.",
+      "detailed_rationale": "Your 30% bond allocation via BND is appropriate given your 10-year education funding goal requiring $200,000 and moderate risk tolerance. This allocation provides portfolio stability and reduces volatility as you approach education funding needs. With stable income, low debt, and an emergency fund, you can maintain equity exposure for growth while bonds serve as ballast. As you approach the education funding timeline (7-8 years out), consider gradually increasing bond allocation to 35-40% to protect accumulated gains. Current allocation balances growth needs for retirement with stability for education goals.",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "Maintain current BND holdings, continue regular contributions, review allocation annually and increase bonds to 35% when education goal is 5 years away",
+      "suggested_allocation_pct": 30.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5% annually",
+      "time_horizon": "medium",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:32:00.855546",
+      "composite_score": 0.0
+    }
+  ]
+}

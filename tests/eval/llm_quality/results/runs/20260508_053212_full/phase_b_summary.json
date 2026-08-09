@@ -1,0 +1,359 @@
+{
+  "sections": {
+    "absolute": {
+      "present": true,
+      "run_dir": "tests\\eval\\llm_quality\\results\\runs\\20260508_053212_full",
+      "n_sessions": 36,
+      "n_judgments_total": 288,
+      "n_parse_failures": 0,
+      "n_errors": 0,
+      "n_critical_failures": 5,
+      "judges": [
+        "gpt4o_openai",
+        "opus_anthropic"
+      ],
+      "mean_per_criterion_overall": {
+        "C1_personalization": 4.823,
+        "C2_risk_alignment": 4.069,
+        "C3_factual_grounding": 4.337,
+        "C4_actionability": 4.722,
+        "C5_diversification": 3.99,
+        "C6_safety_compliance": 4.507
+      },
+      "mean_per_criterion_per_judge": {
+        "gpt4o_openai": {
+          "C1_personalization": 4.854,
+          "C2_risk_alignment": 4.042,
+          "C3_factual_grounding": 4.729,
+          "C4_actionability": 4.688,
+          "C5_diversification": 4.139,
+          "C6_safety_compliance": 4.688
+        },
+        "opus_anthropic": {
+          "C1_personalization": 4.792,
+          "C2_risk_alignment": 4.097,
+          "C3_factual_grounding": 3.944,
+          "C4_actionability": 4.757,
+          "C5_diversification": 3.84,
+          "C6_safety_compliance": 4.326
+        }
+      },
+      "cross_judge_gap_per_criterion": {
+        "C1_personalization": 0.062,
+        "C2_risk_alignment": 0.055,
+        "C3_factual_grounding": 0.785,
+        "C4_actionability": 0.069,
+        "C5_diversification": 0.299,
+        "C6_safety_compliance": 0.362
+      },
+      "composite_mean_overall": 4.408
+    },
+    "pairwise": {
+      "present": true,
+      "run_dir": "tests\\eval\\llm_quality\\results\\runs\\20260508_065754_full_pw",
+      "n_pairwise_files": 432,
+      "confirmed_wins_per_pair": {
+        "A_wealthnexus__VS__B1_profile_blind": {
+          "A_wealthnexus": 56,
+          "B1_profile_blind": 2,
+          "tie": 14
+        },
+        "A_wealthnexus__VS__B2_rag_blind": {
+          "A_wealthnexus": 15,
+          "B2_rag_blind": 26,
+          "tie": 31
+        },
+        "A_wealthnexus__VS__B3_generic_llm": {
+          "A_wealthnexus": 50,
+          "B3_generic_llm": 5,
+          "tie": 17
+        }
+      },
+      "win_rates_per_pair": {
+        "A_wealthnexus__VS__B1_profile_blind": {
+          "sys_a": "A_wealthnexus",
+          "sys_b": "B1_profile_blind",
+          "a_wins": 56,
+          "b_wins": 2,
+          "ties": 14,
+          "total": 72,
+          "a_win_rate": 0.778,
+          "b_win_rate": 0.028,
+          "tie_rate": 0.194
+        },
+        "A_wealthnexus__VS__B2_rag_blind": {
+          "sys_a": "A_wealthnexus",
+          "sys_b": "B2_rag_blind",
+          "a_wins": 15,
+          "b_wins": 26,
+          "ties": 31,
+          "total": 72,
+          "a_win_rate": 0.208,
+          "b_win_rate": 0.361,
+          "tie_rate": 0.431
+        },
+        "A_wealthnexus__VS__B3_generic_llm": {
+          "sys_a": "A_wealthnexus",
+          "sys_b": "B3_generic_llm",
+          "a_wins": 50,
+          "b_wins": 5,
+          "ties": 17,
+          "total": 72,
+          "a_win_rate": 0.694,
+          "b_win_rate": 0.069,
+          "tie_rate": 0.236
+        }
+      },
+      "criterion_winners_per_pair": {
+        "A_wealthnexus__VS__B1_profile_blind": {
+          "C1_personalization": {
+            "A_wealthnexus": 117,
+            "B1_profile_blind": 22,
+            "tie": 4
+          },
+          "C2_risk_alignment": {
+            "A_wealthnexus": 83,
+            "B1_profile_blind": 3,
+            "tie": 57
+          },
+          "C3_factual_grounding": {
+            "A_wealthnexus": 69,
+            "B1_profile_blind": 30,
+            "tie": 44
+          },
+          "C4_actionability": {
+            "A_wealthnexus": 100,
+            "B1_profile_blind": 38,
+            "tie": 5
+          },
+          "C5_diversification": {
+            "A_wealthnexus": 42,
+            "B1_profile_blind": 36,
+            "tie": 65
+          },
+          "C6_safety_compliance": {
+            "A_wealthnexus": 32,
+            "B1_profile_blind": 4,
+            "tie": 107
+          }
+        },
+        "A_wealthnexus__VS__B2_rag_blind": {
+          "C1_personalization": {
+            "A_wealthnexus": 51,
+            "B2_rag_blind": 52,
+            "tie": 41
+          },
+          "C2_risk_alignment": {
+            "A_wealthnexus": 17,
+            "B2_rag_blind": 20,
+            "tie": 107
+          },
+          "C3_factual_grounding": {
+            "A_wealthnexus": 50,
+            "B2_rag_blind": 50,
+            "tie": 44
+          },
+          "C4_actionability": {
+            "A_wealthnexus": 52,
+            "B2_rag_blind": 90,
+            "tie": 2
+          },
+          "C5_diversification": {
+            "A_wealthnexus": 36,
+            "B2_rag_blind": 49,
+            "tie": 59
+          },
+          "C6_safety_compliance": {
+            "A_wealthnexus": 10,
+            "B2_rag_blind": 1,
+            "tie": 133
+          }
+        },
+        "A_wealthnexus__VS__B3_generic_llm": {
+          "C1_personalization": {
+            "A_wealthnexus": 116,
+            "B3_generic_llm": 17,
+            "tie": 11
+          },
+          "C2_risk_alignment": {
+            "A_wealthnexus": 31,
+            "B3_generic_llm": 21,
+            "tie": 92
+          },
+          "C3_factual_grounding": {
+            "A_wealthnexus": 59,
+            "B3_generic_llm": 49,
+            "tie": 36
+          },
+          "C4_actionability": {
+            "A_wealthnexus": 112,
+            "B3_generic_llm": 31,
+            "tie": 1
+          },
+          "C5_diversification": {
+            "A_wealthnexus": 83,
+            "B3_generic_llm": 25,
+            "tie": 36
+          },
+          "C6_safety_compliance": {
+            "A_wealthnexus": 17,
+            "B3_generic_llm": 9,
+            "tie": 118
+          }
+        }
+      }
+    },
+    "postfilter": {
+      "present": true,
+      "run_dir": "tests\\eval\\llm_quality\\results\\runs\\20260508_053212_full",
+      "n_recs_pre_filter": 144,
+      "n_recs_post_filter": 136,
+      "n_recs_dropped_by_filter": 8,
+      "structural_violation_rate_pre": 0.05555555555555555,
+      "structural_violation_rate_post": 0.0,
+      "content_overriding_rate_pre": 0.05555555555555555,
+      "content_overriding_rate_post": 0.058823529411764705,
+      "raw_counts": {
+        "pre_structural": 8,
+        "post_structural": 0,
+        "pre_content_overriding": 8,
+        "post_content_overriding": 8,
+        "n_recs_pre": 144,
+        "n_recs_post": 136
+      },
+      "dropped_examples_sample": [
+        {
+          "session_id": "P1_conservative_retiree__open_ended__seed2",
+          "rec_id": "rec_66df89ac",
+          "title": "Add Preferred Stock Exposure for Higher Income with Bond-Like Characteristics",
+          "rec_risk_level": "moderate",
+          "user_risk_tolerance": "conservative",
+          "structural_violation": true,
+          "content_overriding": false
+        },
+        {
+          "session_id": "P1_conservative_retiree__rebalance__seed1",
+          "rec_id": "rec_39fe3f09",
+          "title": "Increase Dividend Stock Allocation for Enhanced Income",
+          "rec_risk_level": "moderate",
+          "user_risk_tolerance": "conservative",
+          "structural_violation": true,
+          "content_overriding": false
+        },
+        {
+          "session_id": "P1_conservative_retiree__sector_specific__seed1",
+          "rec_id": "rec_0aa2579f",
+          "title": "Consider Adding Preferred Stock ETF for Enhanced Income",
+          "rec_risk_level": "moderate",
+          "user_risk_tolerance": "conservative",
+          "structural_violation": true,
+          "content_overriding": false
+        },
+        {
+          "session_id": "P2_conservative_early_career__rebalance__seed1",
+          "rec_id": "rec_8c4eb9c8",
+          "title": "Maintain Conservative Investment Mix in VTTSX and BND",
+          "rec_risk_level": "moderate",
+          "user_risk_tolerance": "conservative",
+          "structural_violation": true,
+          "content_overriding": false
+        },
+        {
+          "session_id": "P2_conservative_early_career__rebalance__seed2",
+          "rec_id": "rec_9596dafc",
+          "title": "Maintain Conservative Target-Date Fund Foundation",
+          "rec_risk_level": "moderate",
+          "user_risk_tolerance": "conservative",
+          "structural_violation": true,
+          "content_overriding": false
+        },
+        {
+          "session_id": "P2_conservative_early_career__sector_specific__seed1",
+          "rec_id": "rec_b6e79ffb",
+          "title": "Add VTI After Emergency Fund Milestone for Broader Market Exposure",
+          "rec_risk_level": "moderate",
+          "user_risk_tolerance": "conservative",
+          "structural_violation": true,
+          "content_overriding": false
+        },
+        {
+          "session_id": "P2_conservative_early_career__sector_specific__seed2",
+          "rec_id": "rec_e9f1da98",
+          "title": "Future Portfolio Evolution: Plan Transition to VTI After Emergency Fund",
+          "rec_risk_level": "moderate",
+          "user_risk_tolerance": "conservative",
+          "structural_violation": true,
+          "content_overriding": false
+        },
+        {
+          "session_id": "P3_moderate_mid_career__sector_specific__seed1",
+          "rec_id": "rec_bcf95056",
+          "title": "Add Targeted Emerging Markets Exposure",
+          "rec_risk_level": "high",
+          "user_risk_tolerance": "moderate",
+          "structural_violation": true,
+          "content_overriding": false
+        }
+      ]
+    },
+    "calibration": {
+      "present": false,
+      "reason": "not provided"
+    }
+  },
+  "headline": {
+    "composite_mean": 4.408,
+    "mean_per_criterion": {
+      "C1_personalization": 4.823,
+      "C2_risk_alignment": 4.069,
+      "C3_factual_grounding": 4.337,
+      "C4_actionability": 4.722,
+      "C5_diversification": 3.99,
+      "C6_safety_compliance": 4.507
+    },
+    "cross_judge_max_gap_criterion": {
+      "criterion": "C3_factual_grounding",
+      "gap": 0.785
+    },
+    "critical_failure_rate": 0.017361111111111112,
+    "pairwise_win_rates": {
+      "A_wealthnexus__VS__B1_profile_blind": {
+        "sys_a": "A_wealthnexus",
+        "sys_b": "B1_profile_blind",
+        "a_wins": 56,
+        "b_wins": 2,
+        "ties": 14,
+        "total": 72,
+        "a_win_rate": 0.778,
+        "b_win_rate": 0.028,
+        "tie_rate": 0.194
+      },
+      "A_wealthnexus__VS__B2_rag_blind": {
+        "sys_a": "A_wealthnexus",
+        "sys_b": "B2_rag_blind",
+        "a_wins": 15,
+        "b_wins": 26,
+        "ties": 31,
+        "total": 72,
+        "a_win_rate": 0.208,
+        "b_win_rate": 0.361,
+        "tie_rate": 0.431
+      },
+      "A_wealthnexus__VS__B3_generic_llm": {
+        "sys_a": "A_wealthnexus",
+        "sys_b": "B3_generic_llm",
+        "a_wins": 50,
+        "b_wins": 5,
+        "ties": 17,
+        "total": 72,
+        "a_win_rate": 0.694,
+        "b_win_rate": 0.069,
+        "tie_rate": 0.236
+      }
+    },
+    "structural_violation_rate_pre": 0.05555555555555555,
+    "structural_violation_rate_post": 0.0,
+    "content_overriding_rate_pre": 0.05555555555555555,
+    "content_overriding_rate_post": 0.058823529411764705
+  }
+}

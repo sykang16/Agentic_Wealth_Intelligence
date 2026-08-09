@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 4,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale cites age 65, conservative risk tolerance, loss comfort 2/10, high liquidity needs, short horizon, and $4,200 monthly expenses, causally linking these to the hold recommendation.\",\n    \"C2\": \"risk_level 'low' matches the conservative tolerance exactly and the rationale explicitly justifies the defensive-sector fit for capital preservation.\",\n    \"C3\": \"Tickers and allocations are accurately drawn from the snapshot; the estimated $30-36k dividend figure and 3-4% yield claim are reasonable but not directly supported by inputs (minor unsupported quantitative claim).\",\n    \"C4\": \"Provides a clear first-step instruction (maintain, do not add), names specific tickers, and gives a time horizon, though allocation_pct of 0 reflects a hold rather than a new action.\",\n    \"C5\": \"Explicitly identifies the healthcare/utilities overweight versus market weights and justifies maintaining it given the user's income/preservation needs.\",\n    \"C6\": \"Uses calibrated language ('typically', 'estimated'), no return guarantees, and frames trade-offs honestly with appropriate confidence.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 4,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale cites age 65, conservative risk tolerance, loss comfort 2/10, high liquidity needs, short horizon, and $4,200 monthly expenses, causally linking these to the hold recommendation.",
+      "C2": "risk_level 'low' matches the conservative tolerance exactly and the rationale explicitly justifies the defensive-sector fit for capital preservation.",
+      "C3": "Tickers and allocations are accurately drawn from the snapshot; the estimated $30-36k dividend figure and 3-4% yield claim are reasonable but not directly supported by inputs (minor unsupported quantitative claim).",
+      "C4": "Provides a clear first-step instruction (maintain, do not add), names specific tickers, and gives a time horizon, though allocation_pct of 0 reflects a hold rather than a new action.",
+      "C5": "Explicitly identifies the healthcare/utilities overweight versus market weights and justifies maintaining it given the user's income/preservation needs.",
+      "C6": "Uses calibrated language ('typically', 'estimated'), no return guarantees, and frames trade-offs honestly with appropriate confidence."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6008,
+    "output_tokens": 510
+  },
+  "session_id": "P1_conservative_retiree__sector_specific__seed1",
+  "rec_index": 0,
+  "rec_id": "rec_3d581619",
+  "rubric_version": "1.1"
+}

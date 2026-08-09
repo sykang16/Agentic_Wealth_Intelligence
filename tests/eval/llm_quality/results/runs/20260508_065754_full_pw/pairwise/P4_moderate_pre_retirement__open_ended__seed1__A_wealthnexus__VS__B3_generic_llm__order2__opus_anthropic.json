@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides deeper personalization (citing specific profile values like loss comfort 5/10, $11k expenses, $220k income, debt level), addresses diversification more directly by tackling the 22% healthcare concentration, and offers more concrete actionable steps including specific dollar amounts and tax-advantaged contribution mechanics. System A is more risk-aligned (its rec #1 risk_level 'moderate' matches the user better than B's 'low') and slightly better grounded factually, but B's broader scope (TIPS, tax optimization, concentration reduction) and richer profile usage outweigh these advantages.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides deeper personalization (citing specific profile values like loss comfort 5/10, $11k expenses, $220k income, debt level), addresses diversification more directly by tackling the 22% healthcare concentration, and offers more concrete actionable steps including specific dollar amounts and tax-advantaged contribution mechanics. System A is more risk-aligned (its rec #1 risk_level 'moderate' matches the user better than B's 'low') and slightly better grounded factually, but B's broader scope (TIPS, tax optimization, concentration reduction) and richer profile usage outweigh these advantages."
+  },
+  "usage": {
+    "input_tokens": 11628,
+    "output_tokens": 333
+  },
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

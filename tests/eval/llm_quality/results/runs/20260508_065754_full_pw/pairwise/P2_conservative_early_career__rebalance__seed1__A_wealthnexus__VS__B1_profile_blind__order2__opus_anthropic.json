@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"B\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B correctly prioritizes the user's explicit emergency fund goal and conservative risk tolerance (3/10 loss comfort, no emergency fund), aligning recommendations with the user's stated profile and goals. System A pushes moderate-risk equity expansion that contradicts the conservative tolerance and ignores the high-priority emergency fund goal, representing a risk-alignment failure for a fiduciary recommendation.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "B"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B correctly prioritizes the user's explicit emergency fund goal and conservative risk tolerance (3/10 loss comfort, no emergency fund), aligning recommendations with the user's stated profile and goals. System A pushes moderate-risk equity expansion that contradicts the conservative tolerance and ignores the high-priority emergency fund goal, representing a risk-alignment failure for a fiduciary recommendation."
+  },
+  "usage": {
+    "input_tokens": 12346,
+    "output_tokens": 273
+  },
+  "session_id": "P2_conservative_early_career__rebalance__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

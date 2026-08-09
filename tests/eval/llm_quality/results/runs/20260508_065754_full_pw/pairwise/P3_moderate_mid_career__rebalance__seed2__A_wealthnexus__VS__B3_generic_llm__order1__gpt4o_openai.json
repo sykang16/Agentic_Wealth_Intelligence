@@ -1,0 +1,28 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"tie\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides a more personalized rationale by explicitly linking recommendations to the user's profile attributes, such as risk tolerance and investment goals. While System B offers actionable steps and diversification strategies, System A better aligns with the user's moderate risk tolerance and provides a clearer rationale for risk alignment.\"\n}\n```",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "tie",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides a more personalized rationale by explicitly linking recommendations to the user's profile attributes, such as risk tolerance and investment goals. While System B offers actionable steps and diversification strategies, System A better aligns with the user's moderate risk tolerance and provides a clearer rationale for risk alignment."
+  },
+  "usage": {
+    "input_tokens": 6582,
+    "output_tokens": 154
+  },
+  "session_id": "P3_moderate_mid_career__rebalance__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 1,
+  "rubric_version": "1.1"
+}

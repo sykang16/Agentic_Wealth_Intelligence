@@ -1,0 +1,110 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "query": "I'm 40 with two kids heading to college in about 10 years. How should I balance saving for their education versus retirement?",
+  "seed": 1,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "diversify",
+      "title": "Establish Dedicated 529 College Savings Plans",
+      "summary": "Open 529 plans for each child to separate education savings from retirement, with age-appropriate asset allocation shifting from 70% equity now to more conservative mix as college approaches.",
+      "detailed_rationale": "With a $200,000 education goal in 10 years and current net worth of $140,000, you need dedicated education savings vehicles. 529 plans offer tax-advantaged growth and withdrawals for education expenses. Given your $175K income and $9,500 monthly expenses, you have roughly $5,500/month available for savings. Recommend allocating $2,000/month ($24K/year) to 529s, which could grow to approximately $320,000 in 10 years at 7% returns. Start with aggressive allocation (70/30 stocks/bonds) now, automatically shifting to 50/50 by year 7 and 30/70 by year 9 to protect against market downturns near withdrawal time. This separates education funding from your retirement portfolio, reducing the risk of tapping retirement assets early and incurring penalties.",
+      "tickers": [
+        "VANGUARD 529",
+        "FIDELITY 529"
+      ],
+      "suggested_action": "Open two 529 college savings plans and fund with $1,000/month each. Select age-based portfolio option or create custom allocation starting at 70% equity.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-8% annually",
+      "time_horizon": "10 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:19:48.817163",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "rebalance",
+      "title": "Reduce Technology Concentration and Rebalance Core Portfolio",
+      "summary": "Your 35% technology allocation creates excessive concentration risk. Rebalance to 20% technology, increasing international exposure and adding real estate/commodities for better diversification.",
+      "detailed_rationale": "Your current 35% technology weighting, combined with individual tech holdings (AAPL, MSFT, NVDA, GOOGL), exposes you to significant sector-specific risk. For a 40-year-old with moderate risk tolerance and dual goals, a more balanced approach is prudent. Your current allocation is heavily US-centric; with 25 years to retirement, you can benefit from international diversification. Recommend rebalancing to: US equities 40% (with tech at 20%), International equities 25%, Bonds 25%, Real Estate/REITs 7%, Commodities/Inflation hedges 3%. This maintains growth potential while reducing concentration risk. Trim individual tech stock positions and redirect proceeds to VXUS (increase international to 25% of equity), add VNQ (Vanguard Real Estate ETF) at 7%, and consider VTIP (inflation-protected bonds) within your bond allocation. This protects both goals from sector-specific downturns.",
+      "tickers": [
+        "VXUS",
+        "VNQ",
+        "VTIP",
+        "VTI"
+      ],
+      "suggested_action": "Sell 40% of individual tech stock positions (AAPL, MSFT, NVDA, GOOGL). Increase VXUS allocation, add VNQ for real estate exposure, and diversify bond holdings with VTIP.",
+      "suggested_allocation_pct": 25.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "25 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:19:48.817163",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "buy",
+      "title": "Maximize Retirement Contributions with Roth Conversions Strategy",
+      "summary": "Max out 401(k) contributions ($23,000/year) and backdoor Roth IRA ($7,000/year) to prioritize tax-advantaged retirement savings while maintaining flexibility for education expenses.",
+      "detailed_rationale": "With $175K income and stable employment, you're in a strong position to maximize tax-advantaged retirement accounts. Your $2.5M retirement goal requires aggressive saving over 25 years. Contributing $30,000/year to retirement accounts (401k + Roth IRA) growing at 7% would yield approximately $1.9M by age 65, requiring additional taxable account savings to reach your goal. The Roth IRA strategy is particularly valuable: contributions (not earnings) can be withdrawn penalty-free for education if absolutely needed, providing a backup to 529 plans without derailing retirement. Recommend: (1) Contribute at least enough to 401(k) to get full employer match, then (2) Fund backdoor Roth IRA $7,000/year, then (3) Max remaining 401(k) to $23,000 total. If employer offers Roth 401(k), consider 50/50 split between traditional and Roth for tax diversification. After retirement and 529 contributions, you'll have ~$1,500/month for taxable brokerage investments.",
+      "tickers": [
+        "401K",
+        "ROTH IRA"
+      ],
+      "suggested_action": "Increase 401(k) contributions to maximum $23,000/year and execute backdoor Roth IRA contributions of $7,000/year. Set up automatic monthly contributions.",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "low",
+      "expected_return_range": "6-8% annually",
+      "time_horizon": "25 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:19:48.817163",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "hold",
+      "title": "Maintain Current Bond Allocation with Quality Focus",
+      "summary": "Keep 30% bond allocation appropriate for your timeline, but ensure holdings emphasize investment-grade and inflation-protected securities given current interest rate environment.",
+      "detailed_rationale": "Your 30% bond allocation strikes a reasonable balance for someone with dual 10-year and 25-year goals and moderate risk tolerance. However, verify that BND holdings emphasize quality (investment-grade corporates and government bonds) over high-yield. With potential inflation concerns and your long time horizon, allocate 30-40% of your bond sleeve to VTIP (inflation-protected) or I-Bonds (up to $10K/year). The bond allocation serves as portfolio stabilizer and provides dry powder for rebalancing during equity downturns. As you approach college funding years (years 7-10), gradually increase bond allocation to 35-40% to protect education funds, while maintaining more aggressive equity allocation for retirement assets. Your stable income and strong emergency fund support this moderate bond position. Avoid chasing yield with high-yield bonds or long-duration bonds given interest rate uncertainty.",
+      "tickers": [
+        "BND",
+        "VTIP",
+        "I-BONDS"
+      ],
+      "suggested_action": "Maintain current 30% bond allocation. Review BND holdings to ensure quality focus. Consider adding VTIP or I-Bonds for inflation protection within bond allocation.",
+      "suggested_allocation_pct": 30.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5% annually",
+      "time_horizon": "10-25 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T09:19:48.817163",
+      "composite_score": 0.0
+    }
+  ]
+}

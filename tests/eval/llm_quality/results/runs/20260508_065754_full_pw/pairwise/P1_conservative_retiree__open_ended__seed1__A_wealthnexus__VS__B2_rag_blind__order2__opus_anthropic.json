@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more specific quantitative ties to the user's profile (monthly expense math, months-of-cash calculations, beta values, specific yield figures) and more concrete, executable instructions with specific dollar amounts and instruments. System B is solid and adds tax-sequencing value, but contains a few less-grounded claims (e.g., assuming JNJ drives the 30% Healthcare figure, recommending T whose dividend was cut) and slightly less precise actionability.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more specific quantitative ties to the user's profile (monthly expense math, months-of-cash calculations, beta values, specific yield figures) and more concrete, executable instructions with specific dollar amounts and instruments. System B is solid and adds tax-sequencing value, but contains a few less-grounded claims (e.g., assuming JNJ drives the 30% Healthcare figure, recommending T whose dividend was cut) and slightly less precise actionability."
+  },
+  "usage": {
+    "input_tokens": 14283,
+    "output_tokens": 288
+  },
+  "session_id": "P1_conservative_retiree__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

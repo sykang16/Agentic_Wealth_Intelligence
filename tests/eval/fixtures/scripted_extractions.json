@@ -1,0 +1,119 @@
+[
+  {
+    "name": "clean_json_single_slot",
+    "description": "LLM returns clean JSON with one slot",
+    "llm_response": "{\"risk_tolerance\": \"moderate\"}",
+    "expected_keys": ["risk_tolerance"],
+    "expected_values": {"risk_tolerance": "moderate"}
+  },
+  {
+    "name": "clean_json_multiple_slots",
+    "description": "LLM returns clean JSON with multiple slots",
+    "llm_response": "{\"risk_tolerance\": \"conservative\", \"loss_comfort\": 3, \"investment_horizon\": \"long\"}",
+    "expected_keys": ["risk_tolerance", "loss_comfort", "investment_horizon"],
+    "expected_values": {
+      "risk_tolerance": "conservative",
+      "loss_comfort": 3,
+      "investment_horizon": "long"
+    }
+  },
+  {
+    "name": "json_embedded_in_prose",
+    "description": "LLM wraps JSON in explanation text (common LLM behavior)",
+    "llm_response": "Based on the user message, I extracted the following:\n{\"risk_tolerance\": \"aggressive\", \"experience_level\": \"advanced\"}\nThese values are confident extractions.",
+    "expected_keys": ["risk_tolerance", "experience_level"],
+    "expected_values": {
+      "risk_tolerance": "aggressive",
+      "experience_level": "advanced"
+    }
+  },
+  {
+    "name": "json_with_list_value",
+    "description": "LLM returns JSON containing a list for previous_investments",
+    "llm_response": "{\"previous_investments\": [\"stocks\", \"ETFs\", \"bonds\"]}",
+    "expected_keys": ["previous_investments"],
+    "expected_values": {"previous_investments": ["stocks", "ETFs", "bonds"]}
+  },
+  {
+    "name": "json_with_null_values",
+    "description": "LLM includes null for slots it could not extract",
+    "llm_response": "{\"risk_tolerance\": \"moderate\", \"loss_comfort\": null, \"investment_horizon\": null}",
+    "expected_keys": ["risk_tolerance", "loss_comfort", "investment_horizon"],
+    "expected_values": {"risk_tolerance": "moderate", "loss_comfort": null, "investment_horizon": null}
+  },
+  {
+    "name": "json_with_boolean",
+    "description": "LLM returns boolean values for has_emergency_fund",
+    "llm_response": "{\"has_emergency_fund\": true, \"debt_level\": \"low\"}",
+    "expected_keys": ["has_emergency_fund", "debt_level"],
+    "expected_values": {"has_emergency_fund": true, "debt_level": "low"}
+  },
+  {
+    "name": "json_with_float",
+    "description": "LLM returns float for target_return",
+    "llm_response": "{\"target_return\": 8.5, \"primary_goal\": \"retirement\"}",
+    "expected_keys": ["target_return", "primary_goal"],
+    "expected_values": {"target_return": 8.5, "primary_goal": "retirement"}
+  },
+  {
+    "name": "empty_extraction",
+    "description": "LLM returns JSON with no extracted slots (user was off-topic)",
+    "llm_response": "{}",
+    "expected_keys": [],
+    "expected_values": {}
+  },
+  {
+    "name": "invalid_json_no_braces",
+    "description": "LLM returns plain text instead of JSON",
+    "llm_response": "I could not determine the user's risk tolerance from their response.",
+    "expected_keys": [],
+    "expected_values": {}
+  },
+  {
+    "name": "malformed_json_partial",
+    "description": "LLM returns truncated/malformed JSON",
+    "llm_response": "{\"risk_tolerance\": \"moderate\", \"loss_comfort\":",
+    "expected_keys": [],
+    "expected_values": {}
+  },
+  {
+    "name": "json_after_code_fence",
+    "description": "LLM wraps JSON in markdown code block (another common pattern)",
+    "llm_response": "Here is the extracted data:\n```json\n{\"income_stability\": \"stable\", \"has_emergency_fund\": false}\n```",
+    "expected_keys": ["income_stability", "has_emergency_fund"],
+    "expected_values": {"income_stability": "stable", "has_emergency_fund": false}
+  },
+  {
+    "name": "all_required_slots_at_once",
+    "description": "LLM extracts all required slots in one pass (ideal case)",
+    "llm_response": "{\"risk_tolerance\": \"moderate\", \"loss_comfort\": 5, \"investment_horizon\": \"long\", \"liquidity_needs\": \"low\", \"income_stability\": \"stable\", \"has_emergency_fund\": true, \"debt_level\": \"low\", \"experience_level\": \"intermediate\", \"primary_goal\": \"retirement\", \"monthly_income\": 7000.0, \"monthly_expenses\": 4500.0}",
+    "expected_keys": ["risk_tolerance", "loss_comfort", "investment_horizon", "liquidity_needs", "income_stability", "has_emergency_fund", "debt_level", "experience_level", "primary_goal", "monthly_income", "monthly_expenses"],
+    "expected_values": {
+      "risk_tolerance": "moderate",
+      "loss_comfort": 5,
+      "investment_horizon": "long",
+      "liquidity_needs": "low",
+      "income_stability": "stable",
+      "has_emergency_fund": true,
+      "debt_level": "low",
+      "experience_level": "intermediate",
+      "primary_goal": "retirement",
+      "monthly_income": 7000.0,
+      "monthly_expenses": 4500.0
+    }
+  },
+  {
+    "name": "esg_preference_extracted",
+    "description": "LLM extracts optional ESG preference slot",
+    "llm_response": "{\"esg_preference\": true}",
+    "expected_keys": ["esg_preference"],
+    "expected_values": {"esg_preference": true}
+  },
+  {
+    "name": "unknown_slot_in_json",
+    "description": "LLM returns an unrecognized slot name that must be ignored",
+    "llm_response": "{\"risk_tolerance\": \"conservative\", \"unknown_field\": \"some_value\"}",
+    "expected_keys": ["risk_tolerance", "unknown_field"],
+    "expected_values": {"risk_tolerance": "conservative", "unknown_field": "some_value"}
+  }
+]

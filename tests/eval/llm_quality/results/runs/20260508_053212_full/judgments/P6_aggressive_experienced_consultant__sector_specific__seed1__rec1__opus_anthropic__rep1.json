@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 4,\n  \"C2_risk_alignment\": 2,\n  \"C3_factual_grounding\": 3,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 3,\n  \"rationale\": {\n    \"C1\": \"Cites multiple specific profile attributes (aggressive risk, $4M wealth goal, $800K legacy goal, advanced experience, variable income) and ties them to the recommendation.\",\n    \"C2\": \"User is aggressive (should map to high) but risk_level is set to moderate without a clear justification for the downward deviation, and the rationale even invokes the legacy goal as needing 'stability' which slightly contradicts the aggressive tolerance.\",\n    \"C3\": \"Holdings and allocations are accurately referenced, but several quantitative claims (Europe 35% discount, P/E 12x vs 19x, 8-10% earnings growth, 3-4% yields, <0.75 correlation, 9-14% return range) are unsupported by the inputs and not all verifiable.\",\n    \"C4\": \"Provides specific tickers, dollar amounts, allocation %, funding sources, and a concrete rebalancing instruction \u2014 fully executable.\",\n    \"C5\": \"Identifies a real geographic concentration gap (US + EM with no developed-international middle) and proposes a rebalance that improves diversification, though it doesn't address the user's actual query about energy vs AI rotation.\",\n    \"C6\": \"Uses mostly calibrated language but pairs 'high confidence' with a fairly specific 9-14% return range and definitive valuation-convergence framing, which is mildly overconfident; no rec-level disclaimer.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 4,
+    "C2_risk_alignment": 2,
+    "C3_factual_grounding": 3,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 3,
+    "rationale": {
+      "C1": "Cites multiple specific profile attributes (aggressive risk, $4M wealth goal, $800K legacy goal, advanced experience, variable income) and ties them to the recommendation.",
+      "C2": "User is aggressive (should map to high) but risk_level is set to moderate without a clear justification for the downward deviation, and the rationale even invokes the legacy goal as needing 'stability' which slightly contradicts the aggressive tolerance.",
+      "C3": "Holdings and allocations are accurately referenced, but several quantitative claims (Europe 35% discount, P/E 12x vs 19x, 8-10% earnings growth, 3-4% yields, <0.75 correlation, 9-14% return range) are unsupported by the inputs and not all verifiable.",
+      "C4": "Provides specific tickers, dollar amounts, allocation %, funding sources, and a concrete rebalancing instruction \u2014 fully executable.",
+      "C5": "Identifies a real geographic concentration gap (US + EM with no developed-international middle) and proposes a rebalance that improves diversification, though it doesn't address the user's actual query about energy vs AI rotation.",
+      "C6": "Uses mostly calibrated language but pairs 'high confidence' with a fairly specific 9-14% return range and definitive valuation-convergence framing, which is mildly overconfident; no rec-level disclaimer."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6148,
+    "output_tokens": 584
+  },
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed1",
+  "rec_index": 1,
+  "rec_id": "rec_8cae0522",
+  "rubric_version": "1.1"
+}

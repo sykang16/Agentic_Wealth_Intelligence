@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Rationale explicitly cites multiple profile attributes \u2014 10-year education goal with $200K target, moderate risk tolerance, stable income, and net worth/liabilities \u2014 and ties them causally to the recommendation.\",\n    \"C2\": \"Risk_level is 'low' for a moderate-tolerance user (one tier adjacent), but the rationale defensibly justifies the deviation as adding defensive ballast for a near-term education goal.\",\n    \"C3\": \"Tickers and sector percentages match the snapshot; however, specific quantitative claims (20-30% lower beta, 25% lower volatility, 10-15% vs 30-40% recession declines) are unsupported generic figures.\",\n    \"C4\": \"Provides specific tickers (VHT, VDC), dollar ranges, target allocation percentages, and a clear first step of redeploying tech proceeds.\",\n    \"C5\": \"Directly identifies the 35% tech overweight and 12% healthcare/absent staples underweight and proposes a concrete rebalancing to address concentration.\",\n    \"C6\": \"Uses mostly calibrated language ('historically', 'typically'), though 'confidence: high' combined with precise volatility-reduction figures is slightly overconfident; no explicit disclaimer at rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Rationale explicitly cites multiple profile attributes \u2014 10-year education goal with $200K target, moderate risk tolerance, stable income, and net worth/liabilities \u2014 and ties them causally to the recommendation.",
+      "C2": "Risk_level is 'low' for a moderate-tolerance user (one tier adjacent), but the rationale defensibly justifies the deviation as adding defensive ballast for a near-term education goal.",
+      "C3": "Tickers and sector percentages match the snapshot; however, specific quantitative claims (20-30% lower beta, 25% lower volatility, 10-15% vs 30-40% recession declines) are unsupported generic figures.",
+      "C4": "Provides specific tickers (VHT, VDC), dollar ranges, target allocation percentages, and a clear first step of redeploying tech proceeds.",
+      "C5": "Directly identifies the 35% tech overweight and 12% healthcare/absent staples underweight and proposes a concrete rebalancing to address concentration.",
+      "C6": "Uses mostly calibrated language ('historically', 'typically'), though 'confidence: high' combined with precise volatility-reduction figures is slightly overconfident; no explicit disclaimer at rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6017,
+    "output_tokens": 536
+  },
+  "session_id": "P3_moderate_mid_career__rebalance__seed1",
+  "rec_index": 1,
+  "rec_id": "rec_660a5550",
+  "rubric_version": "1.1"
+}

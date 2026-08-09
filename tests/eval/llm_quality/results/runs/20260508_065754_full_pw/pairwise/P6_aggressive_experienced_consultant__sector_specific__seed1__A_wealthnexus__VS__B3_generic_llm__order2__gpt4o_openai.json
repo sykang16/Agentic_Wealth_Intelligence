@@ -1,0 +1,28 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"B\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides detailed recommendations that are well-aligned with the user's aggressive risk tolerance and investment goals, using specific profile attributes to justify the advice. System A did not provide any recommendations, making System B the clear winner across all criteria.\"\n}\n```",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "B"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides detailed recommendations that are well-aligned with the user's aggressive risk tolerance and investment goals, using specific profile attributes to justify the advice. System A did not provide any recommendations, making System B the clear winner across all criteria."
+  },
+  "usage": {
+    "input_tokens": 5385,
+    "output_tokens": 147
+  },
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

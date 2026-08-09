@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B more deeply personalizes to the retiree profile (age, tax bracket, monthly expenses, income stability, loss comfort) and stays better aligned with the conservative/short-horizon/high-liquidity needs by recommending short-term Treasuries and munis rather than pushing broad market equity ETFs as System A does. System A directly answers the sector concentration question more pointedly, but several recommendations (VTI/VOO at 10-15%, 7-10% return claims) drift from the user's conservative, short-horizon profile, weakening risk alignment and grounding.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B more deeply personalizes to the retiree profile (age, tax bracket, monthly expenses, income stability, loss comfort) and stays better aligned with the conservative/short-horizon/high-liquidity needs by recommending short-term Treasuries and munis rather than pushing broad market equity ETFs as System A does. System A directly answers the sector concentration question more pointedly, but several recommendations (VTI/VOO at 10-15%, 7-10% return claims) drift from the user's conservative, short-horizon profile, weakening risk alignment and grounding."
+  },
+  "usage": {
+    "input_tokens": 11561,
+    "output_tokens": 320
+  },
+  "session_id": "P1_conservative_retiree__sector_specific__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

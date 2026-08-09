@@ -1,0 +1,187 @@
+{
+  "session_id": "P3_moderate_mid_career__rebalance__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "rebalance",
+  "query": "My tech exposure is around 35% across my ETFs and individual stocks. Is that too concentrated, and how would I trim it?",
+  "seed": 2,
+  "system": "B1_profile_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_6ff2d0dc",
+      "category": "rebalance",
+      "title": "Reduce Technology Concentration to 20-25%",
+      "summary": "Your 35% technology allocation significantly exceeds typical diversification guidelines (15-25% for any single sector). Trim tech holdings by selling portions of individual tech stocks and redirecting to underweight sectors.",
+      "detailed_rationale": "Signal: Your portfolio shows 35% technology concentration across VTI, individual holdings (AAPL, MSFT, NVDA, GOOGL), creating significant sector risk. Step-by-step reasoning: (1) Portfolio analysis reveals tech is your dominant sector at 35%, while Financials (15%), Healthcare (12%), Consumer Discretionary (10%), Industrials (8%), and Energy (5%) are underweight relative to market-cap weighted indices. (2) Even moderate-risk investors should typically cap single-sector exposure at 20-25% to avoid concentration risk. A 35% allocation means over one-third of your portfolio moves with tech sector performance, magnifying downside risk during sector rotations or tech corrections. (3) Your VTI holding already provides 25-30% technology exposure inherently (as tech represents approximately that portion of the total U.S. market), meaning your individual tech stocks (AAPL, MSFT, NVDA, GOOGL) create overlapping exposure. (4) Trade-off: Trimming high-performers like NVDA or GOOGL may trigger taxable gains and you'll reduce exposure to a sector that has historically outperformed. However, maintaining current concentration leaves you vulnerable to sector-specific risks including regulatory changes, interest rate sensitivity, and valuation compression.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Sell 40-50% of your combined individual tech stock positions (approximately $25,600-$32,000 based on 20% stock allocation). Prioritize trimming positions with lowest cost basis to minimize tax impact. Maintain VTI for core tech exposure.",
+      "suggested_allocation_pct": -10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Risk reduction rather than return enhancement; reduces portfolio volatility by 8-12%",
+      "time_horizon": "Execute over 1-2 months to allow for favorable entry/exit points",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:11:29.833745",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_36f4fc96",
+      "category": "diversify",
+      "title": "Increase Healthcare Sector Exposure to 15%",
+      "summary": "Healthcare is underweight at 12% and offers defensive characteristics with lower correlation to technology. Add healthcare-focused ETF exposure to improve portfolio resilience.",
+      "detailed_rationale": "Signal: Healthcare sector represents only 12% of your portfolio versus 13-15% in broad market indices, and this sector provides defensive characteristics particularly valuable given your tech concentration. Step-by-step reasoning: (1) Healthcare demonstrates lower correlation to technology (0.4-0.6 correlation coefficient) compared to other growth sectors, providing genuine diversification benefits when tech underperforms. (2) The sector benefits from demographic tailwinds (aging population), inelastic demand, and consistent innovation pipelines, offering growth potential with lower volatility than technology. (3) For a portfolio with 30% bond allocation suggesting moderate risk tolerance, healthcare bridges growth and stability\u2014historically showing 60-70% of tech sector returns with 40% less volatility. (4) Using proceeds from tech trimming to add healthcare maintains your growth orientation while reducing concentration risk. Evidence from your knowledge base shows VGT has 316 holdings concentrated in one sector versus VTI's 3,945 holdings providing broader diversification. (5) Trade-off: Healthcare faces regulatory risks (drug pricing legislation, Medicare negotiations) and tends to underperform during strong risk-on rallies. However, this defensive characteristic actually complements your aggressive tech exposure.",
+      "tickers": [
+        "VHT",
+        "XLV"
+      ],
+      "suggested_action": "Allocate $8,000-$10,000 (approximately 6-7% of portfolio) from tech sale proceeds into Vanguard Health Care ETF (VHT) or Health Care Select Sector SPDR (XLV), bringing total healthcare exposure to 15%.",
+      "suggested_allocation_pct": 3.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually with lower volatility than current portfolio",
+      "time_horizon": "3-7 years for full sector cycle benefits",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:11:29.833745",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_ae136806",
+      "category": "diversify",
+      "title": "Add Consumer Staples and Utilities for Stability",
+      "summary": "Your portfolio lacks defensive sectors entirely. Allocate 8-10% to consumer staples and utilities to reduce volatility and provide income during market downturns.",
+      "detailed_rationale": "Signal: Sector allocation shows complete absence of traditional defensive sectors (Consumer Staples 0%, Utilities 0%) while growth-oriented sectors dominate, creating asymmetric downside risk. Step-by-step reasoning: (1) Your current allocation shows Technology (35%), Financials (15%), and Consumer Discretionary (10%)\u2014all cyclical sectors that correlate positively during market stress. During the 2022 correction, portfolios lacking defensive sectors experienced 25-30% drawdowns versus 15-20% for balanced portfolios. (2) With $180,000 in liabilities against $320,000 in assets, a 56% debt-to-asset ratio suggests you need portfolio stability to avoid forced liquidations during market volatility. (3) Consumer staples (food, household products, utilities) provide essential products with inelastic demand, historically maintaining earnings through recessions. These sectors offer 2.5-4% dividend yields, enhancing your income generation while bonds currently yield similar rates. (4) Your 30% bond allocation suggests moderate risk tolerance, but sector concentration undermines this positioning. Adding defensive equities provides equity upside potential with bond-like stability characteristics. (5) Trade-off: Defensive sectors typically underperform during bull markets and economic expansions. However, your current portfolio already captures upside through substantial tech and discretionary exposure. This addition provides balance, not replaces growth.",
+      "tickers": [
+        "VDC",
+        "VPU",
+        "XLP"
+      ],
+      "suggested_action": "Allocate $12,000-$16,000 (8-10% of portfolio) from remaining tech sale proceeds into Vanguard Consumer Staples ETF (VDC) 5% and Vanguard Utilities ETF (VPU) 3-5%, creating ballast for volatile periods.",
+      "suggested_allocation_pct": 8.5,
+      "risk_level": "low",
+      "expected_return_range": "5-8% annually plus 2.5-4% dividend yield",
+      "time_horizon": "Long-term holding (5+ years) for stability and income",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:11:29.833745",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_93a520c5",
+      "category": "hold",
+      "title": "Maintain Core Positions in VTI, VXUS, and BND",
+      "summary": "Your foundation of low-cost, diversified index funds (VTI, VXUS, BND) provides excellent core exposure. Maintain these positions while rebalancing around them.",
+      "detailed_rationale": "Signal: Your knowledge base highlights VTI's exceptional diversification (3,945 holdings) with minimal 0.03% expense ratio and VGT's sector-specific approach (316 holdings, 0.10% expense ratio). Step-by-step reasoning: (1) VTI provides optimal U.S. equity exposure capturing small, mid, and large-cap stocks with near-zero tracking error to the total market. This single holding delivers inherent sector diversification including your baseline 25-30% tech exposure aligned with market weights. (2) VXUS offers international diversification, crucial given your portfolio currently shows domestic concentration. Maintain this position as geographic diversification reduces country-specific risks. (3) BND at 30% allocation appropriately matches a moderate risk profile, providing stability and income. With your $180,000 liability burden, maintaining this bond allocation ensures liquidity and reduces portfolio volatility. (4) These three core holdings represent best-in-class low-cost indexing (total expense ratio under 0.05% weighted average), saving you $1,600+ annually versus actively managed alternatives on a $320,000 portfolio. (5) Rather than replacing these core holdings, your rebalancing should occur through adjusting individual stock positions and adding targeted sector ETFs around this foundation. Trade-off: Index funds provide market returns, not outperformance. However, evidence shows 85-90% of active managers underperform their benchmarks over 10+ years after fees, validating this passive core approach.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "BND"
+      ],
+      "suggested_action": "Maintain current allocations in VTI, VXUS, and BND. Do not sell these positions. Use them as your portfolio foundation while implementing sector rebalancing through individual stock sales and targeted sector ETF additions.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Market-matching returns: 7-9% for equities, 3-5% for bonds",
+      "time_horizon": "Long-term core holdings (10+ years)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:11:29.833745",
+      "composite_score": 0.0
+    }
+  ]
+}

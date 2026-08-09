@@ -1,0 +1,164 @@
+{
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "open_ended",
+  "query": "I'm 10 years from retirement. Should I start de-risking now and how aggressively?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_de203fa4",
+      "category": "rebalance",
+      "title": "Initiate Gradual Bond Glide Path for Retirement",
+      "summary": "Begin shifting 5-7% from equities to intermediate-term bonds annually over the next decade to reduce volatility as retirement approaches.",
+      "detailed_rationale": "Signal: You're exactly 10 years from retirement with a 55% equity allocation (40% ETF stocks + 15% individual stocks) and only 35% bonds. For a moderate risk investor approaching retirement, this is slightly equity-heavy for capital preservation goals. Step-by-step alignment: (1) Traditional glide path guidance suggests age-based allocation (your age in bonds: ~55-60% bonds by retirement), but given your advanced experience and stable income, a more gradual approach is appropriate. (2) Your moderate risk tolerance (loss comfort 5/10) and high-priority retirement goal requiring $80-100k annual income means preserving capital becomes increasingly important. (3) With $755k net worth targeting $1.8M by 65, you need ~9% annualized growth - achievable with 45-50% equities maintained through most of the decade. (4) Current portfolio shows 35% BND allocation - this should increase to 40-42% now, then 45% in 2-3 years. Evidence: Your current 65/35 equity/bond split provides expected returns of 7-8% with 10-12% volatility. Shifting to 60/40 reduces volatility to 9-10% while maintaining 6.5-7.5% expected returns - still sufficient for your goals. Trade-off: More conservative positioning means potentially sacrificing 0.5-1% annual returns during bull markets, but significantly reduces sequence-of-returns risk in the critical decade before retirement.",
+      "tickers": [
+        "BND",
+        "BNDX",
+        "VGIT"
+      ],
+      "suggested_action": "Reduce VTI by 5 percentage points ($42,500) and allocate to BND (3%) and add new position in VGIT - Vanguard Intermediate Treasury (2%) for additional stability and duration management",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "3.5-5.0% annually",
+      "time_horizon": "10 years with annual rebalancing",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:31:10.733386",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_d900f25e",
+      "category": "diversify",
+      "title": "Add Dividend Growth Component for Future Income",
+      "summary": "Allocate 8-10% to dividend growth ETFs to build sustainable retirement income stream while maintaining growth potential.",
+      "detailed_rationale": "Signal: Your portfolio lacks a dedicated income-generation component despite needing $80-100k annual income in 10 years. Current holdings (JNJ, PG, BRK.B) provide some dividends but represent only 15% of portfolio without systematic income focus. Step-by-step alignment: (1) At 55 with medium-term horizon, you need to transition from pure accumulation to hybrid accumulation-income strategy. (2) Your retirement goal requires 4.4-5.5% withdrawal rate on projected $1.8M portfolio - dividends can provide 2-3% of this, reducing principal drawdown. (3) Dividend growth stocks historically provide 60-70% of equity returns with 20-25% less volatility than pure growth, perfectly matching moderate risk tolerance. (4) Your advanced experience and stable $220k income means you can maintain equity exposure through dividend payers rather than shifting entirely to bonds. Evidence: VIG (Vanguard Dividend Appreciation) has 10-year returns of 11.2% annually with current 1.8% yield growing 8-10% annually. SCHD (Schwab US Dividend Equity) yields 3.5% with strong fundamentals. These would complement existing quality holdings (JNJ 3% yield, PG 2.5% yield). Current portfolio generates approximately $15,000-18,000 in annual dividends (2-2.4% yield); increasing to 10% dedicated dividend allocation could boost this to $25,000-28,000 (3.3-3.7% portfolio yield). Trade-off: Dividend stocks may underperform growth stocks in technology-driven bull markets, but provide essential income foundation and behavioral benefit of seeing cash distributions during volatility.",
+      "tickers": [
+        "VIG",
+        "SCHD",
+        "DGRO"
+      ],
+      "suggested_action": "Allocate 8% ($68,000) to dividend growth ETFs: 5% to VIG and 3% to SCHD, funded by reducing mutual fund allocation (currently only 5%) and trimming 3% from VTI",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-9% annually with 2-3.5% current yield",
+      "time_horizon": "10+ years (hold through retirement)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:31:10.733386",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_cc5e1369",
+      "category": "risk_reduction",
+      "title": "Reduce Healthcare Concentration Risk",
+      "summary": "Healthcare sector at 22% (nearly double market weight) creates concentration risk; trim individual healthcare holdings while maintaining sector exposure through diversified ETFs.",
+      "detailed_rationale": "Signal: Healthcare represents 22% of portfolio versus ~13-14% S&P 500 weighting - an 8-percentage-point overweight representing significant single-sector concentration risk. This appears driven by JNJ and UNH individual holdings. Step-by-step alignment: (1) While healthcare is traditionally defensive and suitable for pre-retirees, 22% concentration exposes you to sector-specific risks (regulatory changes, drug pricing legislation, Medicare reimbursement cuts). (2) Your moderate risk tolerance and high-priority retirement goal require better diversification - you cannot afford a 20-30% healthcare sector correction significantly impacting your timeline. (3) The 2024 political environment brings heightened healthcare policy uncertainty (drug pricing negotiations, potential Medicare reforms) that specifically threatens this overweight position. (4) Your advanced experience suggests you likely built this position intentionally, but at 10 years to retirement, position-specific risk should decrease in favor of systematic exposures. Evidence: Individual stock holdings (JNJ, UNH) likely represent 12-15% of total portfolio combined. While both are quality companies with strong fundamentals, concentration in two names creates idiosyncratic risk. Recent healthcare sector volatility (\u00b115-20% swings) demonstrates risk. VTI already provides ~13% healthcare exposure through market-cap weighting. Trade-off: JNJ and UNH are excellent companies with strong dividend growth; trimming them means giving up potentially higher individual stock returns and known dividend streams. However, this is outweighed by reduced volatility and better portfolio resilience approaching retirement.",
+      "tickers": [
+        "JNJ",
+        "UNH"
+      ],
+      "suggested_action": "Reduce combined JNJ and UNH positions by 40% (approximately $51,000 assuming these represent 12% of portfolio), reallocating to VTI (2%) for broad diversification and additional bond allocation (4%) to BND or VGIT",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Impact: reduce portfolio volatility by 0.5-1.0%",
+      "time_horizon": "Immediate rebalancing",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:31:10.733386",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_47e55f5a",
+      "category": "hold",
+      "title": "Maintain Core Diversified Equity Foundation",
+      "summary": "Keep VTI, VXUS, and quality holdings (JPM, BRK.B, PG) as portfolio anchors; these provide appropriate growth exposure with lower volatility for your profile.",
+      "detailed_rationale": "Signal: Core holdings VTI, VXUS, JPM, BRK.B, and PG represent well-chosen, high-quality investments appropriate for moderate-risk pre-retiree. No rebalancing needed here. Step-by-step alignment: (1) VTI provides low-cost (0.03% ER) broad US market exposure - essential foundation for any portfolio. Your 40% ETF allocation with VTI as core is appropriate. (2) VXUS provides international diversification (typically 20-30% of equity allocation recommended) - critical for reducing US-specific risk as you approach retirement. (3) JPM, BRK.B, and PG represent high-quality, lower-volatility individual positions with strong track records and reasonable valuations. These align perfectly with moderate risk tolerance. (4) Your advanced experience is evident in these selections - holding rather than over-trading preserves tax efficiency and compounds returns. Evidence: VTI 10-year return: 12.8% annually with 0.03% fees. VXUS provides geographic diversification across developed and emerging markets. JPM: strong capital position, 2.5% dividend yield, financial sector exposure (18% of portfolio is appropriate, not overweight). BRK.B: Buffett's conglomerate provides diversification across sectors with defensive characteristics. PG: consumer staples defensive position with 2.5% yield and 60+ year dividend growth record. Combined, these holdings provide 60-65% of portfolio with appropriate risk-adjusted returns for your situation. Trade-off: Holding means accepting market volatility over next decade, but these positions are tax-efficient (unrealized gains) and well-suited for your goals. Over-trading would generate unnecessary taxes and potentially worse risk-adjusted returns.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "JPM",
+        "BRK.B",
+        "PG"
+      ],
+      "suggested_action": "Maintain current positions in VTI, VXUS, JPM, BRK.B, and PG. Continue dollar-cost averaging any new contributions across these holdings proportionally. Review annually but avoid tactical changes.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually (blended)",
+      "time_horizon": "10+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:31:10.733386",
+      "composite_score": 0.0
+    }
+  ]
+}

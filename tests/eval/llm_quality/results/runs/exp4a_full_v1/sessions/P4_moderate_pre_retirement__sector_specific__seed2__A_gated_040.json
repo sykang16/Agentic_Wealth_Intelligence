@@ -1,0 +1,187 @@
+{
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "sector_specific",
+  "query": "Are there particular sectors I should reduce as I approach retirement, and which ones should I keep for income generation?",
+  "seed": 2,
+  "system": "A_gated_040",
+  "rag_diagnostics": {
+    "top_score": 0.477,
+    "num_hits": 5,
+    "gated": false,
+    "threshold": 0.4
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_ac226939",
+      "category": "rebalance",
+      "title": "Begin Retirement Glide Path: Reduce Equity Exposure by 10%",
+      "summary": "At age 55 with a 10-year retirement horizon, initiate a gradual shift from 55% equities to a more conservative 45% allocation, moving 10% into bonds to reduce volatility as you approach retirement.",
+      "detailed_rationale": "Signal: Your current allocation is 55% equities (40% ETF + 15% stock) and 35% bonds, which is appropriate for moderate risk but needs adjustment as you enter the retirement glide path phase. (1) With retirement targeted in 10 years and a moderate risk tolerance (loss comfort 5/10), your portfolio should begin transitioning toward capital preservation. The knowledge base explicitly states that target-date funds 'automatically adjust asset allocation as you approach retirement, becoming more conservative over time' - this same principle applies to your DIY portfolio. (2) Your stated goal is to retire at 65 with $80-100k annual income, requiring approximately $1.8M in assets. At your current $755k net worth with $220k income and stable employment, you're in accumulation mode but need to protect gains. A moderate 55-year-old approaching retirement typically moves toward 40-50% equities. (3) Evidence from portfolio: You hold quality core holdings (VTI, VXUS, BND) that make rebalancing straightforward. Your BND factsheet shows it provides 'diversified exposure to U.S. investment-grade bonds' with a minimal 0.03% expense ratio - an ideal vehicle for this shift. (4) Trade-off: Reducing equity exposure means potentially lower growth, but this is offset by reduced downside risk. A 10-15% market correction in your 60s would be far more damaging to retirement readiness than modest growth sacrifice now. Given stable income and advanced investment experience, you can execute this systematically over 12-18 months.",
+      "tickers": [
+        "VTI",
+        "BND"
+      ],
+      "suggested_action": "Sell 10% of VTI position ($34,000) and allocate to BND, adjusting your target allocation to 45% equities / 45% bonds / 5% cash / 5% mutual funds. Execute this over 2-3 quarters to dollar-cost-average the transition.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "4-6% annually (blended)",
+      "time_horizon": "Execute over 12-18 months; hold through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:48:11.474547",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_0c362f27",
+      "category": "risk_reduction",
+      "title": "Reduce Healthcare Sector Concentration from 22% to 15%",
+      "summary": "Your 22% Healthcare allocation (likely JNJ + UNH) represents significant sector concentration risk. Trim to 15% and diversify into consumer staples and utilities for more stable retirement income generation.",
+      "detailed_rationale": "Signal: Portfolio analysis shows 22% Healthcare concentration - nearly double the S&P 500's ~13% healthcare weighting, creating sector-specific risk inappropriate for a pre-retiree. (1) While healthcare has defensive characteristics, this overweight creates vulnerability to sector-specific shocks (regulatory changes, drug pricing legislation, Medicare policy shifts). Your holdings list shows JNJ and UNH as individual stock positions, meaning you're taking single-company risk in an already concentrated sector. (2) Your risk tolerance is moderate with medium liquidity needs and a 10-year horizon. The knowledge base emphasizes that 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Healthcare's 22% weight means sector-specific events have outsized portfolio impact. (3) Evidence: At 55 with retirement income needs of $80-100k annually, you need reliable dividend payers across multiple defensive sectors. Your current 10% Consumer Staples allocation is underweight for someone prioritizing income generation - staples typically yield 2.5-3.5% with more stable dividends than healthcare. The knowledge base notes that moderate portfolios should 'balance around 50-60% stocks, 30-40% bonds' with implicit diversification across sectors. (4) Trade-off: JNJ and UNH are quality holdings with strong fundamentals. Trimming means potentially missing upside, but also reducing single-stock and sector concentration risk. The reallocation to consumer staples (like your existing PG position) and utilities provides more stable, recession-resistant income - critical for retirement portfolios.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "VNQ"
+      ],
+      "suggested_action": "Reduce healthcare holdings by selling 30-35% of either JNJ or UNH position (~$60,000). Allocate 4% to VNQ (Real Estate ETF for income) and 3% to a utility sector ETF or dividend aristocrat in consumer staples to complement your PG holding.",
+      "suggested_allocation_pct": 7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-7% annually with 3-4% dividend yield",
+      "time_horizon": "Execute within 6 months; hold for income generation through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:48:11.474547",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_8fcf1a41",
+      "category": "income_generation",
+      "title": "Add Treasury Inflation-Protected Securities (TIPS) for Retirement Income Protection",
+      "summary": "Allocate 5-7% to TIPS or a TIPS ETF to protect purchasing power of retirement income against inflation, especially important given your 10-year horizon and need for $80-100k annual income.",
+      "detailed_rationale": "Signal: Your bond allocation is entirely in BND (broad investment-grade bonds), which provides no specific inflation protection - a critical gap for someone retiring in 10 years who needs predictable real (inflation-adjusted) income. (1) At 55 with a target retirement income of $80-100k annually, inflation poses significant risk to purchasing power. A 3% annual inflation rate reduces $100k purchasing power to $74k over 10 years. Your profile shows stable income ($220k), low debt, and medium liquidity needs - you can afford to lock in inflation protection now. (2) The knowledge base emphasizes diversification and notes that 'moderate portfolios balance around 50-60% stocks, 30-40% bonds' but doesn't specify bond types. For pre-retirees, diversifying fixed income between nominal bonds (BND) and TIPS provides protection against both deflationary and inflationary scenarios. (3) Evidence from portfolio: Your 35% bond allocation in BND provides excellent diversification (10,000+ holdings, 0.03% expense ratio) but zero inflation linkage. Social Security provides some inflation adjustment (the knowledge base notes benefits can increase 77% by waiting until 70), but your portfolio income needs inflation protection too. With $297,500 currently in bonds, reallocating $42,500-$59,500 to TIPS maintains your conservative bond allocation while adding inflation hedge. (4) Trade-off: TIPS typically yield less than nominal bonds in low-inflation environments, and can underperform if deflation occurs. However, with the Fed's 2% inflation target and your 10-year horizon, this trade-off favors protection over yield maximization. Your advanced investment experience means you understand this nuance.",
+      "tickers": [
+        "SCHP",
+        "TIP"
+      ],
+      "suggested_action": "Allocate 5-7% of portfolio ($37,750-$52,850) to a TIPS ETF like Schwab U.S. TIPS ETF (SCHP) or iShares TIPS Bond ETF (TIP). Fund this by reducing BND position proportionally, maintaining your overall 35-45% bond target while adding inflation protection.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "low",
+      "expected_return_range": "Inflation rate + 1-2% annually",
+      "time_horizon": "10+ years; hold through retirement for income protection",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:48:11.474547",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_163acbde",
+      "category": "tax_optimization",
+      "title": "Maximize Catch-Up Contributions to 401(k) and Consider Roth Conversion Strategy",
+      "summary": "As a 55-year-old earning $220k, maximize your $30,500 401(k) catch-up contributions and evaluate partial Roth conversions before retirement to optimize tax efficiency on your $1.8M retirement goal.",
+      "detailed_rationale": "Signal: Your profile shows $220k annual income, stable employment as operations director, and $11k monthly expenses ($132k annually), leaving substantial savings capacity. However, there's no indication you're maximizing tax-advantaged retirement accounts - a critical oversight with retirement 10 years away. (1) The knowledge base explicitly states: 'For 2024, 401(k) limits are $23,000 ($30,500 if 50+)' and emphasizes 'always contribute enough to capture the full employer match' and that 'tax-advantaged accounts provide tax benefits that accelerate wealth building.' At your income level, you're likely in the 24-32% federal tax bracket, making pre-tax 401(k) contributions highly valuable. (2) Your goal requires $1.8M by age 65. With current net worth of $755k, you need approximately $1.045M in additional growth/contributions over 10 years. At 6% average returns, maxing out $30,500 annually adds ~$425k, plus employer match potentially adds another $85-125k. This accounts for 40-50% of your remaining gap - you cannot reach your goal without maximizing these contributions. (3) Evidence from portfolio: Your current allocation shows no explicit mention of 401(k) or IRA holdings vs taxable accounts. With advanced investment experience and stable income exceeding expenses by $88k annually, you have both the knowledge and cash flow to implement this. The knowledge base notes 'employer matching is essentially free money with an immediate 100% return' - leaving this unclaimed is leaving 50-100% returns on the table. (4) Trade-off: This reduces current taxable investment capacity and liquidity, but given your $42,500 in cash (5% of portfolio) and medium liquidity needs, this isn't constraining. The tax benefits far outweigh the liquidity reduction. Additionally, consider converting some traditional IRA funds to Roth while still working - you'll pay taxes at known rates now rather than unknown (potentially higher) rates in retirement.",
+      "tickers": [],
+      "suggested_action": "Immediately increase 401(k) contributions to maximize the $30,500 limit (if not already doing so). Meet with your HR/benefits team to confirm employer match percentage and ensure you're capturing it fully. Separately, consult with a CPA about converting $20-30k annually from traditional IRA to Roth IRA to diversify tax treatment of retirement assets, paying conversion taxes from cash flow rather than portfolio assets.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Immediate tax savings of 24-32% plus long-term tax-free growth on Roth conversions",
+      "time_horizon": "Immediate implementation; benefits compound through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:48:11.474547",
+      "composite_score": 0.0
+    }
+  ]
+}

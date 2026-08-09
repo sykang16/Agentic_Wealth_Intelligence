@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale cites aggressive risk tolerance, 9/10 loss comfort, 15-year horizon, and the $2.5M FIRE goal, all causally tied to the recommendation.\",\n    \"C2\": \"Risk_level is 'moderate' for an aggressive user (one tier off), but the rationale defensibly explains that the deviation is to reduce concentration while maintaining aggressive equity stance.\",\n    \"C3\": \"All cited holdings (QQQ, NVDA, META, GOOGL, AMZN, TSLA) and the 65% tech concentration figure are traceable to the snapshot, with only a generic 8-12% return range.\",\n    \"C4\": \"Provides concrete tickers, specific sell percentages, target reallocation percentages per ticker, and a clear first step (trim QQQ 20%).\",\n    \"C5\": \"Directly identifies the 65% tech overweight and overlapping QQQ holdings, and the recommendation explicitly addresses this concentration.\",\n    \"C6\": \"Uses calibrated language ('may miss some upside', 'protect against'), no guaranteed returns, and no FOMO framing; though it doesn't directly answer the bond question, the safety framing is appropriate.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale cites aggressive risk tolerance, 9/10 loss comfort, 15-year horizon, and the $2.5M FIRE goal, all causally tied to the recommendation.",
+      "C2": "Risk_level is 'moderate' for an aggressive user (one tier off), but the rationale defensibly explains that the deviation is to reduce concentration while maintaining aggressive equity stance.",
+      "C3": "All cited holdings (QQQ, NVDA, META, GOOGL, AMZN, TSLA) and the 65% tech concentration figure are traceable to the snapshot, with only a generic 8-12% return range.",
+      "C4": "Provides concrete tickers, specific sell percentages, target reallocation percentages per ticker, and a clear first step (trim QQQ 20%).",
+      "C5": "Directly identifies the 65% tech overweight and overlapping QQQ holdings, and the recommendation explicitly addresses this concentration.",
+      "C6": "Uses calibrated language ('may miss some upside', 'protect against'), no guaranteed returns, and no FOMO framing; though it doesn't directly answer the bond question, the safety framing is appropriate."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 5985,
+    "output_tokens": 520
+  },
+  "session_id": "P5_aggressive_young_professional__rebalance__seed1",
+  "rec_index": 0,
+  "rec_id": "rec_9c839ae4",
+  "rubric_version": "1.1"
+}

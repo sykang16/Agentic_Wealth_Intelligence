@@ -1,0 +1,109 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed1",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "rebalance",
+  "query": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+  "seed": 1,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "rebalance",
+      "title": "Trim Energy Overweight Position - Reduce to 8-10%",
+      "summary": "Reduce energy allocation from 15% to 8-10% by selling portions of XLE, XOM, and CVX to lock in gains and reduce concentration risk in a cyclical sector facing demand uncertainties.",
+      "detailed_rationale": "While energy had a strong run post-2022, current macro conditions present headwinds: (1) Global growth concerns, particularly China slowdown, reduce oil demand forecasts; (2) OPEC+ production discipline remains uncertain; (3) Renewable energy transition accelerating; (4) Your 15% allocation is 3x the S&P 500 energy weighting (~5%), creating significant concentration risk. Given your aggressive risk tolerance but variable income as a consultant, reducing cyclical exposure improves portfolio resilience. Your $1.5M portfolio with 45-year timeline can afford higher-beta exposure elsewhere with better risk-adjusted returns. Trimming to 8-10% maintains exposure to potential oil price spikes while freeing capital for diversification.",
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX"
+      ],
+      "suggested_action": "Sell 30-40% of combined energy positions (approximately $75,000-$100,000)",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Avoid potential 15-25% downside in energy correction; redeploy for 8-12% annualized elsewhere",
+      "time_horizon": "3-6 months to execute trim; rebalance quarterly",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:52:35.813367",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "buy",
+      "title": "Rotate Energy Proceeds into AI Infrastructure and Semiconductors",
+      "summary": "Deploy proceeds from energy trim into expanding NVDA position and adding semiconductor exposure via SMH or SOXX to capitalize on sustained AI infrastructure buildout.",
+      "detailed_rationale": "You already have 30% tech allocation but NVDA-specific exposure should increase given: (1) Multi-year AI infrastructure spending cycle with data center capex growing 20-30% annually through 2026; (2) NVDA's dominant position in AI accelerators with 80%+ market share and pricing power; (3) Diversification across cloud hyperscalers, enterprise AI, and sovereign AI initiatives; (4) Your advanced investment experience and aggressive risk tolerance aligns with concentrated growth bets. At age 45 with 20+ year horizon and wealth compounding goal of $4M, technology growth offers superior risk-adjusted returns versus cyclical energy. Adding SMH/SOXX provides broader semiconductor exposure (ASML, TSMC, AMD) to capture entire AI supply chain while managing single-stock risk.",
+      "tickers": [
+        "NVDA",
+        "SMH",
+        "SOXX"
+      ],
+      "suggested_action": "Allocate 60% of energy trim proceeds ($45,000-$60,000) to NVDA and semiconductor ETFs",
+      "suggested_allocation_pct": 35.0,
+      "risk_level": "high",
+      "expected_return_range": "15-25% annualized over 3-5 years",
+      "time_horizon": "long-term (5+ years)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:52:35.813367",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "diversify",
+      "title": "Add International Developed Markets Exposure",
+      "summary": "Allocate remaining energy trim proceeds to developed international markets (VEA, IEFA) to reduce US concentration and capture valuation arbitrage.",
+      "detailed_rationale": "Your current portfolio shows heavy US bias with VTI and sector-specific US equities. International developed markets (Europe, Japan) trade at meaningful discounts: P/E ratios 30-40% below US equivalents while offering: (1) Currency diversification as dollar strength may moderate; (2) Quality dividend yields 3-4% supporting your income generation sub-goal for legacy planning; (3) Different economic cycle exposure - European defense spending, Japan corporate reforms; (4) Your VWO holding (15% emerging markets) needs balance with developed market stability. At $1.5M portfolio targeting $4M, geographic diversification reduces single-country risk while your aggressive tolerance allows equity-heavy approach. This complements rather than conflicts with your growth objectives while providing more defensive characteristics than pure US tech.",
+      "tickers": [
+        "VEA",
+        "IEFA"
+      ],
+      "suggested_action": "Allocate 40% of energy trim proceeds ($30,000-$40,000) to developed international equity ETFs",
+      "suggested_allocation_pct": 12.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-14% annualized over 5-7 years",
+      "time_horizon": "long-term (7+ years)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:52:35.813367",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "hold",
+      "title": "Maintain Selective Energy Exposure as Portfolio Ballast",
+      "summary": "Retain reduced 8-10% energy allocation as inflation hedge and geopolitical risk buffer; avoid complete exit given long-term energy transition complexities.",
+      "detailed_rationale": "Complete energy exit would be premature despite trimming recommendation: (1) Energy provides negative correlation to tech during inflation spikes and geopolitical events; (2) Transition to renewables remains 15-20 year process - oil/gas demand likely plateaus mid-2030s, not declines precipitously; (3) Major integrated positions (XOM, CVX) offer 3-4% dividends supporting legacy planning goal; (4) Supply discipline from underinvestment 2015-2020 could support prices medium-term. Your aggressive risk profile doesn't require elimination of cyclical exposure - just right-sizing it. Maintaining 8-10% provides optionality for supply shocks (Middle East tensions, Russia sanctions) while preventing over-concentration. This balanced approach aligns with your advanced investment experience - tactical reduction rather than ideological exit.",
+      "tickers": [
+        "XOM",
+        "CVX"
+      ],
+      "suggested_action": "Hold remaining energy positions after 30-40% trim; review quarterly for further adjustments",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-10% annualized with 3-4% dividend yield",
+      "time_horizon": "medium-term (3-5 years)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "low",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:52:35.813367",
+      "composite_score": 0.0
+    }
+  ]
+}

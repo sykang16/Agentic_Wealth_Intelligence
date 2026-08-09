@@ -1,0 +1,192 @@
+{
+  "session_id": "P3_moderate_mid_career__sector_specific__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "sector_specific",
+  "query": "Should I add international or emerging-markets exposure, and if so what proportion is reasonable?",
+  "seed": 2,
+  "context": {
+    "portfolio_context": "## Portfolio Snapshot\n- Total Assets: $320,000\n- Total Liabilities: $180,000\n- Net Worth: $140,000\n\n### Allocation by Asset Type\n- etf: 50.0%\n- stock: 20.0%\n- bond: 30.0%\n\n### Allocation by Sector\n- Technology: 35.0%\n- Financials: 15.0%\n- Healthcare: 12.0%\n- Consumer Discretionary: 10.0%\n- Industrials: 8.0%\n- Energy: 5.0%\n- Other: 15.0%\n\n### Holdings (tickers)\nVTI, VXUS, BND, AAPL, MSFT, NVDA, GOOGL",
+    "investment_profile_context": "## Investment Profile\n- Age: 40\n- Occupation: Product manager\n- Annual Income: $175,000\n- Monthly Expenses: $9,500\n- Risk Tolerance: moderate\n- Loss Comfort (1-10): 6\n- Investment Horizon: long\n- Liquidity Needs: medium\n- Income Stability: stable\n- Has Emergency Fund: True\n- Debt Level: low\n- Investment Experience: intermediate\n- Goals:\n  - education (high priority, target $200,000): Fund college for two children, primary horizon ~10 years\n  - retirement (high priority, target $2,500,000): Long-term retirement target, ~25 years out",
+    "rag_context": "[etf_factsheet] Vanguard (VXUS)\n# Vanguard Total International Stock ETF (VXUS)\n\n## Fund Overview\nExposure to stocks from developed and emerging markets outside the United States.\n\n## Key Statistics\n- **Ticker Symbol**: VXUS\n- **Expense Ratio**: 0.07%\n- **Assets Under Management**: $60 billion\n- **Number of Holdings**: 7,800+ stocks\n- **Sector Focus**: International\n\n## Investment Objective\nThe fund seeks to track the performance of its benchmark index, providing investors with diversified exposure to the international market segment.\n\n## Risk Considerations\n- Market risk: The value of the fund may decline due to general market conditions.\n- Concentration risk: The fund may be concentrated in a particular sector or industry.\n- Liquidity risk: Some securities may be difficult to sell at favorable prices.\n\n## Who Should Invest\nThis fund is suitable for investors seeking:\n- Long-term capital appreciation\n- Diversified exposure to international securities\n- Low-cost index investing approach\n\n## Performance History\nPast performance does not guarantee future results. The fund has historically tracked its benchmark index closely, with minimal tracking error.\n\n## How to Invest\nShares can be purchased through most brokerage accounts. The fund trades on major exchanges under the ticker symbol VXUS.\n\n---\n\n[investment_guide] Wealth Intelligence Research\n# Risk Management: Protecting Your Investment Portfolio\n\n\n## Understanding Risk Types\nMarket risk affects all investments. Specific risk relates to individual securities. Inflation risk erodes purchasing power. Interest rate risk impacts bond prices. Currency risk affects international investments.\n\n## Risk Tolerance Assessment\nYour risk tolerance depends on your time horizon, financial goals, income stability, and emotional comfort with volatility. Be honest about how you'd react to significant portfolio declines.\n\n## Hedging Strategies\nOptions and inverse ETFs can protect against downside risk. Dollar-cost averaging reduces timing risk. Holding cash provides a buffer during market downturns.\n\n## Emergency Fund Importance\nMaintain 3-6 months of expenses in liquid savings. This prevents the need to sell investments at unfavorable times during personal financial emergencies.\n\n## Portfolio Stress Testing\nEvaluate how your portfolio would perform in various scenarios: 2008-style crash, rising interest rates, high inflation. Adjust allocations if potential losses exceed your tolerance.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.",
+    "data_sources_used": [
+      "portfolio",
+      "investment_profile",
+      "rag_knowledge_base"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec_006eb847",
+      "category": "diversify",
+      "title": "Increase International Exposure via VXUS",
+      "summary": "Your portfolio has strong US concentration (VTI + US tech stocks represent ~55% of holdings). Adding 10-15% to VXUS would improve geographic diversification and align with moderate risk tolerance.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your current international exposure through VXUS is underweight relative to global market capitalization (~40% of world equity markets are non-US). Your portfolio shows heavy US concentration with VTI as a core holding plus significant individual US tech stocks (AAPL, MSFT, NVDA, GOOGL). (2) ALIGNMENT: This recommendation fits your moderate risk tolerance and long-term horizon (25-year retirement, 10-year education goals) because VXUS provides broad diversification across 7,800+ international stocks from developed and emerging markets, reducing single-country risk. The 0.07% expense ratio makes this cost-effective for long-term holding. Your stable income ($175k annually) and existing emergency fund mean you can weather international market volatility. (3) EVIDENCE: The knowledge base confirms VXUS is 'suitable for investors seeking long-term capital appreciation and diversified exposure to international securities.' Your intermediate experience level makes this index approach appropriate\u2014you avoid stock-picking risk in unfamiliar markets. International markets often have low correlation with US markets, providing downside protection during US-specific downturns. (4) TRADE-OFFS: Currency risk and potential higher volatility in emerging market components. International markets have underperformed US markets over the past decade, but diversification benefits persist. Consider that this reduces your home-country bias, which some investors find psychologically challenging.",
+      "tickers": [
+        "VXUS"
+      ],
+      "suggested_action": "Increase VXUS allocation from current holdings to represent 15-20% of your total equity portfolio. Given your $320k in assets with 70% in equities ($224k), this means targeting $33.6-44.8k in VXUS. If currently minimal, consider dollar-cost averaging this increase over 3-4 months to reduce timing risk.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "10+ years, aligns with both education and retirement goals",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:17:20.487319",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_2b743584",
+      "category": "rebalance",
+      "title": "Reduce Technology Sector Concentration",
+      "summary": "Technology represents 35% of your portfolio\u2014significantly overweight versus market benchmarks (~28%). Your individual holdings (AAPL, MSFT, NVDA, GOOGL) create concentrated risk that conflicts with moderate risk tolerance.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Sector allocation data shows 35% technology concentration, driven by four individual mega-cap tech stocks that overlap significantly with your VTI holdings (these companies represent ~20% of VTI itself). This creates 'double-dipping' risk\u2014if tech corrects, you're hit twice. (2) ALIGNMENT: Your moderate risk tolerance and loss comfort level of 6/10 suggests you should avoid single-sector concentration above 30%. The knowledge base emphasizes 'diversification is essential for managing risk' and warns about concentration risk where 'the fund may be concentrated in a particular sector.' With two high-priority goals (education in 10 years, retirement in 25), you need stability in the medium term. Tech's historical volatility (seen in 2022's 30%+ drawdowns) could jeopardize your education funding timeline. (3) EVIDENCE: Your stable income as a product manager likely already ties your human capital to the tech sector, creating additional undiversified exposure. Portfolio stress testing mentioned in the knowledge base would reveal vulnerability to sector-specific shocks. (4) TRADE-OFFS: Technology has driven exceptional returns over the past decade. Reducing exposure means potentially lower returns if tech continues outperforming, but this trade-off is justified by risk management principles. You maintain some tech exposure through VTI's market-weight allocation.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Trim one or two of your individual tech positions (suggest starting with whichever has the largest unrealized gain for tax efficiency). Reduce total tech allocation from 35% to 25-28%. Reallocate proceeds to underweight sectors: increase Healthcare (currently 12%, target 15%) or add Consumer Staples/Utilities for defensive positioning. This maintains growth potential while improving balance.",
+      "suggested_allocation_pct": -7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Reduces volatility by 15-20% without significantly impacting long-term returns",
+      "time_horizon": "Immediate rebalancing, benefits both near-term (education) and long-term (retirement) goals",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:17:20.487319",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_95b658ed",
+      "category": "hold",
+      "title": "Maintain Current Bond Allocation at 30%",
+      "summary": "Your 30% bond allocation (BND) is appropriate for your age (40), moderate risk profile, and time horizon. This provides stability for your 10-year education goal while allowing equity growth for retirement.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: At age 40 with a long investment horizon, conventional wisdom suggests 60-80% equities, meaning 20-40% bonds. Your 30% allocation falls appropriately in the middle of this range. Given you have two distinct time horizons (10 years for education, 25 years for retirement), this allocation balances both needs. (2) ALIGNMENT: Your moderate risk tolerance and loss comfort of 6/10 indicates you're not comfortable with maximum volatility. The knowledge base emphasizes having an emergency fund (which you have) and avoiding the 'need to sell investments at unfavorable times.' Bonds provide this buffer\u2014if markets drop 30% (as in 2022), your 30% bond allocation cushions the blow and provides rebalancing opportunities. Your stable income means you don't need income generation from bonds, so BND's total return approach is appropriate. (3) EVIDENCE: The rule of thumb '100 minus your age' suggests 60% bonds at 40, but this is outdated given longer lifespans and low yields. Modern approaches suggest 30-40% bonds for moderate investors in their 40s. Your medium liquidity needs mean you might tap investments before retirement\u2014bonds provide this access without forcing equity sales. The knowledge base warns about 'interest rate risk impacts bond prices,' and with rates currently elevated, bonds now offer reasonable yields (4-5% range) unlike the 2010s. (4) TRADE-OFFS: Higher bond allocation means lower expected long-term returns versus an aggressive equity portfolio. However, your $175k income and low debt level mean you can meet goals through continued contributions rather than relying solely on aggressive portfolio growth.",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "Maintain your current 30% allocation to BND. Review annually and consider gradually reducing to 25% as you move through your 40s and your education goal timeline extends further. No action needed currently\u2014your allocation is well-calibrated to your profile.",
+      "suggested_allocation_pct": 30.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5% annually for bond component",
+      "time_horizon": "Ongoing allocation suitable for both 10-year and 25-year horizons",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:17:20.487319",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_51e60796",
+      "category": "diversify",
+      "title": "Consider Adding Small-Cap Exposure for Enhanced Diversification",
+      "summary": "Your portfolio lacks dedicated small-cap exposure beyond VTI's market-weight allocation (~15%). Adding 5-8% to small-cap funds could enhance long-term returns given your 25-year retirement horizon.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your current holdings (VTI, individual mega-cap tech stocks) skew heavily toward large-cap companies. VTI holds small caps at market weight, but your individual stock picks are all mega-caps, creating an overweight to large companies. Historically, small-cap stocks outperform over long periods with higher volatility\u2014suitable for your retirement portion (25-year horizon) but not necessarily your education goal. (2) ALIGNMENT: Your moderate risk tolerance and intermediate experience make this recommendation appropriate but not essential (hence medium priority). The knowledge base states investors should be 'honest about how you'd react to significant portfolio declines'\u2014small caps can decline 40-50% in bear markets versus 30-35% for large caps. However, with loss comfort of 6/10, stable income, and long runway to retirement, you can absorb this volatility. Your age (40) gives you time to recover from downturns. (3) EVIDENCE: Small-cap value stocks have historically provided ~2% annual premium over large caps across decades, though with extended periods of underperformance. The diversification benefit comes from different performance drivers\u2014small caps are more domestically focused, less impacted by currency fluctuations, and more sensitive to economic cycles. This complements your international exposure (VXUS) and large-cap holdings. Consider funds like VBR (Vanguard Small-Cap Value ETF) or SCHA (Schwab U.S. Small-Cap ETF) with expense ratios under 0.10%. (4) TRADE-OFFS: Higher volatility and potential for extended underperformance. Small caps underperformed significantly 2010-2020. Liquidity is lower than large caps, though ETF structures mitigate this. This addition increases portfolio complexity.",
+      "tickers": [
+        "VBR",
+        "SCHA"
+      ],
+      "suggested_action": "Allocate 5-8% of your equity portfolio to small-cap exposure through VBR or SCHA. Given your $224k equity allocation, this represents $11.2-17.9k. Implement this gradually over 2-3 quarters through new contributions rather than selling existing positions, allowing for dollar-cost averaging. Designate this specifically for your retirement goal bucket, not education savings.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-11% annually over full market cycles",
+      "time_horizon": "Best suited for your 25-year retirement horizon; exclude from education goal allocation",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:17:20.487319",
+      "composite_score": 0.0
+    }
+  ],
+  "rec_count": 4
+}

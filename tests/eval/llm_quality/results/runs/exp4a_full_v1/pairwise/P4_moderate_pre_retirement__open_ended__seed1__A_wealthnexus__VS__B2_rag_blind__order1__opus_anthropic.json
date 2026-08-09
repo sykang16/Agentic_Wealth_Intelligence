@@ -1,0 +1,30 @@
+{
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "open_ended",
+  "seed": 1,
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"B\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B demonstrates stronger risk alignment and factual grounding, particularly by explicitly addressing sequence-of-returns risk, providing a cash buffer recommendation, and avoiding questionable claims (System A's Rec #3 asserts a 401k catch-up limit of $30,500 and assumes employer plan details not in the profile). System B's diversification approach (bond ladder via VGIT, dividend aristocrats) is more retirement-appropriate, while System A only edges out slightly on actionability specificity.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "B"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B demonstrates stronger risk alignment and factual grounding, particularly by explicitly addressing sequence-of-returns risk, providing a cash buffer recommendation, and avoiding questionable claims (System A's Rec #3 asserts a 401k catch-up limit of $30,500 and assumes employer plan details not in the profile). System B's diversification approach (bond ladder via VGIT, dividend aristocrats) is more retirement-appropriate, while System A only edges out slightly on actionability specificity."
+  },
+  "usage": {
+    "input_tokens": 13215,
+    "output_tokens": 303
+  }
+}

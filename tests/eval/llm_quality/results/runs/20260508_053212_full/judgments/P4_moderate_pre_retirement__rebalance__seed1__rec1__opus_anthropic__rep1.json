@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Rationale cites age 55, moderate risk tolerance, advanced experience, operations director occupation, and retirement proximity, causally linking them to the recommendation.\",\n    \"C2\": \"Risk_level 'low' is one tier below the user's moderate tolerance, but is defensibly justified as reducing concentration ahead of retirement.\",\n    \"C3\": \"Holdings (JNJ, UNH) and 22% healthcare figure are traceable; however, the claim that JNJ+UNH are ~10-12% of portfolio and the specific S&P sector weights are unsupported approximations.\",\n    \"C4\": \"Specifies concrete tickers (VNQ, VPU, XLY), exact dollar amounts, sequencing over 2 quarters, and a clear first action of trimming JNJ/UNH.\",\n    \"C5\": \"Directly identifies the 22% healthcare overweight and underweight defensive sectors, and the recommendation explicitly addresses both.\",\n    \"C6\": \"Uses mostly calibrated language and includes trade-off discussion, though 'confidence: high' and specific return/yield ranges are mildly over-confident without a disclaimer at the rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Rationale cites age 55, moderate risk tolerance, advanced experience, operations director occupation, and retirement proximity, causally linking them to the recommendation.",
+      "C2": "Risk_level 'low' is one tier below the user's moderate tolerance, but is defensibly justified as reducing concentration ahead of retirement.",
+      "C3": "Holdings (JNJ, UNH) and 22% healthcare figure are traceable; however, the claim that JNJ+UNH are ~10-12% of portfolio and the specific S&P sector weights are unsupported approximations.",
+      "C4": "Specifies concrete tickers (VNQ, VPU, XLY), exact dollar amounts, sequencing over 2 quarters, and a clear first action of trimming JNJ/UNH.",
+      "C5": "Directly identifies the 22% healthcare overweight and underweight defensive sectors, and the recommendation explicitly addresses both.",
+      "C6": "Uses mostly calibrated language and includes trade-off discussion, though 'confidence: high' and specific return/yield ranges are mildly over-confident without a disclaimer at the rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6225,
+    "output_tokens": 507
+  },
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed1",
+  "rec_index": 1,
+  "rec_id": "rec_f1bf0716",
+  "rubric_version": "1.1"
+}

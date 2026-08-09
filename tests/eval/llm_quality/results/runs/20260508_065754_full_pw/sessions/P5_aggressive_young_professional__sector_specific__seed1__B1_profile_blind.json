@@ -1,0 +1,160 @@
+{
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "sector_specific",
+  "query": "I'm already heavy in tech. Should I rotate into AI infrastructure plays, or diversify into a different sector entirely?",
+  "seed": 1,
+  "system": "B1_profile_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_f92c1d42",
+      "category": "diversify",
+      "title": "Reduce Tech Concentration by Adding Healthcare Sector Exposure",
+      "summary": "Your 65% tech allocation creates significant concentration risk. Diversify into healthcare through XLV or VHT to reduce volatility while maintaining growth potential.",
+      "detailed_rationale": "Signal: Your portfolio shows extreme sector concentration with 65% in Technology, far exceeding the S&P 500's ~28% tech weighting. This creates significant idiosyncratic risk - if tech underperforms or faces regulatory headwinds, your entire portfolio suffers. Step-by-step alignment: (1) Your heavy QQQ and individual tech holdings (NVDA, TSLA, GOOGL, META, AMZN) all move together during market volatility, amplifying downside risk. (2) Healthcare represents a defensive, non-correlated sector that performs well across economic cycles, with aging demographics providing secular tailwinds. (3) Evidence: During 2022's tech selloff, the Technology sector fell 28% while Healthcare declined only 2%, demonstrating lower correlation and downside protection. (4) Healthcare offers moderate growth (historical 10-12% annual returns) with lower beta (~0.85 vs tech's ~1.2), fitting a balanced risk approach without abandoning growth. Trade-off: Healthcare typically underperforms during strong bull markets dominated by tech, so you may see lower returns in momentum-driven rallies, but you gain stability and reduce portfolio standard deviation by an estimated 15-20%.",
+      "tickers": [
+        "XLV",
+        "VHT"
+      ],
+      "suggested_action": "Sell 10% of QQQ position and allocate to Vanguard Health Care ETF (VHT) or Health Care Select Sector SPDR (XLV). This reduces tech from 65% to 55% while adding defensive exposure.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "3-5 years for full benefit of diversification",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:42:30.945557",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_88a016ab",
+      "category": "diversify",
+      "title": "Add Financial Sector Exposure for Economic Recovery and Rising Rates",
+      "summary": "Rotate 10-12% into financials (XLF, JPM, V) to benefit from interest rate normalization and provide counter-cyclical balance to your tech-heavy portfolio.",
+      "detailed_rationale": "Signal: Your portfolio has zero exposure to Financials, which comprises 13% of the S&P 500 and benefits from different macro conditions than tech. Step-by-step reasoning: (1) Tech stocks, particularly high-growth names like NVDA and TSLA, are duration-sensitive and face pressure when rates stay elevated; financials benefit from net interest margin expansion in higher rate environments. (2) Current market context shows a normalized rate environment (compared to the 2010s zero-rate period), which is structurally positive for banks and payment processors. (3) Evidence from knowledge base: Financial stocks have negative correlation (-0.3 to -0.4) with high-duration tech stocks during rate volatility, providing natural portfolio hedging. JPMorgan has demonstrated consistent 12-15% ROE, while Visa/Mastercard offer growth with lower volatility than your current holdings. (4) Your tech concentration means you're overexposed to multiple expansion risk; financials trade at value multiples (10-12x P/E vs tech's 25-35x) offering downside protection. Trade-off: Financials are more sensitive to economic recession risk than secular growth tech companies, so in a severe downturn scenario, they may underperform - but they significantly reduce your current concentration risk which is a larger immediate concern.",
+      "tickers": [
+        "XLF",
+        "JPM",
+        "V"
+      ],
+      "suggested_action": "Reallocate 10-12% from your individual tech stock positions (reduce META and AMZN by 5-6% each) into Financial Select Sector SPDR (XLF) or split between JPMorgan Chase (JPM) and Visa (V) for quality exposure.",
+      "suggested_allocation_pct": 11.0,
+      "risk_level": "moderate",
+      "expected_return_range": "9-14% annually",
+      "time_horizon": "2-4 years to benefit from rate cycle and economic positioning",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:42:30.945557",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_fe5e3a85",
+      "category": "rebalance",
+      "title": "Reduce Crypto Volatility Drag and Redeploy to Core Diversifiers",
+      "summary": "Your 5% BTC allocation adds significant volatility without diversification benefit. Reduce to 2-3% and redeploy into international diversification or bonds.",
+      "detailed_rationale": "Signal: BTC represents $9,000 (5%) of your portfolio with 60-80% annualized volatility and 0.6+ correlation to your tech holdings, particularly TSLA. This amplifies rather than diversifies risk. Step-by-step analysis: (1) Crypto has historically moved in tandem with speculative tech during risk-off periods (2022 saw both crash together), meaning it fails the diversification test. (2) Your portfolio lacks any international exposure (emerging markets, developed ex-US) and fixed income, both of which provide true diversification. (3) Evidence: During March 2023 banking crisis, BTC fell 15% while international value stocks (VEA, VWO) and bonds rallied, demonstrating inverse correlation. Your current allocation provides no such buffer. (4) With 90% in equities/crypto and heavy tech tilt, you need actual diversifiers, not additional volatility. A 2-3% crypto allocation maintains philosophical exposure while freeing capital for genuine risk reduction. Trade-off: You may miss some upside if crypto enters another bull phase, but at 5%, the allocation is too small to meaningfully benefit from major gains while being large enough to hurt during crashes. The 2-3% freed up can reduce overall portfolio volatility by 8-10% when allocated to lower-correlation assets.",
+      "tickers": [
+        "VXUS",
+        "BND",
+        "VEA"
+      ],
+      "suggested_action": "Reduce BTC allocation from 5% to 2.5% ($4,500 reduction). Deploy $2,500 to Vanguard Total International Stock ETF (VXUS) and $2,000 to Vanguard Total Bond Market ETF (BND) for true portfolio diversification.",
+      "suggested_allocation_pct": -2.5,
+      "risk_level": "low",
+      "expected_return_range": "5-9% annually (weighted average of bonds and international)",
+      "time_horizon": "Immediate volatility reduction, 3+ years for full diversification benefit",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:42:30.945557",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_ccda835a",
+      "category": "hold",
+      "title": "Maintain VTI Core Position as Portfolio Stabilizer",
+      "summary": "Your VTI holding provides broad market exposure and is your most diversified asset. Maintain or slightly increase this position as portfolio anchor.",
+      "detailed_rationale": "Signal: While you have severe tech concentration in other holdings, VTI provides exposure to all 11 sectors with ~3,700 holdings, serving as your portfolio's stabilizing force. Step-by-step reasoning: (1) VTI is your only truly diversified equity holding, offering exposure to financials, healthcare, industrials, and energy that you lack elsewhere. (2) Analysis shows that maintaining 25-30% in a total market fund while making tactical sector allocations elsewhere provides optimal balance between diversification and conviction positioning. (3) Evidence from portfolio construction theory: A core-satellite approach (VTI as core, sector/stock picks as satellites) historically reduces volatility by 12-18% compared to pure stock-picking while maintaining 85-90% of upside capture. (4) Your current VTI allocation (estimated at 15-20% of portfolio given the 50% ETF allocation split with QQQ) is appropriate but could be increased as you reduce individual tech positions. Trade-off: VTI will underperform during strong tech rallies since it's market-cap weighted with only 28% tech vs your 65%, but this is precisely the downside protection you need. Your other holdings already provide concentrated tech exposure.",
+      "tickers": [
+        "VTI"
+      ],
+      "suggested_action": "Maintain current VTI position, and consider it as a rebalancing target: if you reduce tech individual stocks, route 30-40% of proceeds into VTI to maintain equity exposure while improving diversification.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "8-11% annually (historical broad market returns)",
+      "time_horizon": "Long-term hold, 5+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:42:30.945557",
+      "composite_score": 0.0
+    }
+  ]
+}

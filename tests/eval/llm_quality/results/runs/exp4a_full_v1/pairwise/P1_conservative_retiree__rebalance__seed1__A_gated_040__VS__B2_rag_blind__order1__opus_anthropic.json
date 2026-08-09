@@ -1,0 +1,30 @@
+{
+  "session_id": "P1_conservative_retiree__rebalance__seed1",
+  "persona_id": "P1_conservative_retiree",
+  "query_type": "rebalance",
+  "seed": 1,
+  "sys_a": "A_gated_040",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"B\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A directly addresses the 30% Healthcare sector concentration\u2014a critical diversification issue for a conservative retiree\u2014with specific dollar amounts and redistribution targets, while System B ignores it entirely and even rates its dividend equity rec as 'moderate' risk which slightly misaligns with the conservative profile. System B has marginally more calibrated language and better framing on the equity income rec, but A's superior actionability, diversification awareness, and stronger grounding in the actual portfolio snapshot outweigh this.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "B"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A directly addresses the 30% Healthcare sector concentration\u2014a critical diversification issue for a conservative retiree\u2014with specific dollar amounts and redistribution targets, while System B ignores it entirely and even rates its dividend equity rec as 'moderate' risk which slightly misaligns with the conservative profile. System B has marginally more calibrated language and better framing on the equity income rec, but A's superior actionability, diversification awareness, and stronger grounding in the actual portfolio snapshot outweigh this."
+  },
+  "usage": {
+    "input_tokens": 11974,
+    "output_tokens": 302
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B demonstrates stronger personalization by tying recommendations to specific profile attributes (income, expenses, $1.8M goal, age-55 catch-up eligibility, loss comfort 5/10) and provides more concrete, executable actions including dollar amounts, monthly contribution schedules, and TIPS/tax-advantaged strategies directly relevant to a 10-year glide path. System A has slightly better factual grounding (avoiding the questionable inflation/TIPS framing and a too-low retirement spending estimate in A's Rec #3) but B's broader strategic coverage\u2014rebalancing, inflation hedge, tax optimization, and concentration reduction\u2014better addresses the user's de-risking question.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B demonstrates stronger personalization by tying recommendations to specific profile attributes (income, expenses, $1.8M goal, age-55 catch-up eligibility, loss comfort 5/10) and provides more concrete, executable actions including dollar amounts, monthly contribution schedules, and TIPS/tax-advantaged strategies directly relevant to a 10-year glide path. System A has slightly better factual grounding (avoiding the questionable inflation/TIPS framing and a too-low retirement spending estimate in A's Rec #3) but B's broader strategic coverage\u2014rebalancing, inflation hedge, tax optimization, and concentration reduction\u2014better addresses the user's de-risking question."
+  },
+  "usage": {
+    "input_tokens": 13256,
+    "output_tokens": 368
+  },
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,190 @@
+{
+  "session_id": "P3_moderate_mid_career__rebalance__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "rebalance",
+  "query": "My tech exposure is around 35% across my ETFs and individual stocks. Is that too concentrated, and how would I trim it?",
+  "seed": 1,
+  "system": "A_gated_040",
+  "rag_diagnostics": {
+    "top_score": 0.429,
+    "num_hits": 2,
+    "gated": false,
+    "threshold": 0.4
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_cc101270",
+      "category": "rebalance",
+      "title": "Reduce Technology Overconcentration to 25%",
+      "summary": "Your 35% technology allocation exceeds recommended diversification limits for moderate risk investors. Trim tech holdings to 25% by reducing individual stock positions and redirecting to underweight sectors.",
+      "detailed_rationale": "Signal: Your portfolio shows 35% technology concentration, which is significantly above the 20-25% benchmark for moderate risk profiles. This stems from both VTI's natural tech weighting (~28% of its broad market exposure) plus your individual holdings in AAPL, MSFT, NVDA, and GOOGL. Alignment: (1) At age 40 with a 10-year education goal requiring $200K and moderate risk tolerance (loss comfort 6/10), excessive sector concentration creates unacceptable volatility risk - a tech downturn could significantly impact your near-term education funding target. (2) For moderate investors, portfolio theory suggests sector weights shouldn't exceed 25-30% to maintain proper risk-adjusted returns. Evidence: Your knowledge base confirms VTI provides broad market diversification (3,945 holdings), making it your core holding, while individual tech stocks add concentrated risk without proportional return benefit for your profile. The S&P 500 technology weighting is approximately 28%, and your 35% represents a 25% overweight position. Trade-off: Reducing individual tech stocks (NVDA, GOOGL are likely candidates given their volatility) means potentially missing outsized gains if tech continues outperforming, but protects against sector-specific corrections. Your stable income ($175K annually) and existing emergency fund provide the security to take this prudent rebalancing step now rather than after a drawdown.",
+      "tickers": [
+        "NVDA",
+        "GOOGL",
+        "VGT"
+      ],
+      "suggested_action": "Sell 50% of your NVDA and GOOGL positions (or trim to equal-weight them at 2-3% each). Consider adding VGT as a diversified tech position if you want targeted tech exposure, but limit total sector allocation to 25%. Redirect proceeds to underweight sectors.",
+      "suggested_allocation_pct": 25.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-10% annually",
+      "time_horizon": "Rebalance within 30-60 days to minimize market timing risk",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:50:39.861774",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_6c24628a",
+      "category": "diversify",
+      "title": "Expand International Exposure for Geographic Diversification",
+      "summary": "Increase your VXUS allocation from current levels to achieve 20-30% international exposure, reducing US-centric concentration risk while maintaining moderate risk profile.",
+      "detailed_rationale": "Signal: Your portfolio appears heavily concentrated in US equities through VTI and individual US tech stocks. Standard modern portfolio theory for moderate investors suggests 20-30% international allocation. Current holdings show VXUS present but likely underweighted relative to your $140K net worth. Alignment: (1) Your 25-year retirement horizon and 10-year education goal both benefit from geographic diversification - international markets often perform differently than US markets, providing natural hedging. (2) As a product manager with stable $175K income from likely a US company, your human capital is already US-concentrated; your investment portfolio should counterbalance this. (3) Moderate risk tolerance supports developed international markets exposure, which historically shows similar volatility to US large-caps but low correlation (0.7-0.8), improving risk-adjusted returns. Evidence: VXUS provides exposure to both developed and emerging international markets with a 0.08% expense ratio, making it cost-effective for your intermediate experience level. Academic research (Vanguard, Morningstar) consistently shows 20-40% international allocation improves portfolio efficiency for long-term investors. Trade-off: International investing introduces currency risk and potentially higher short-term volatility from emerging markets within VXUS. However, your long time horizon (10-25 years for both goals) and stable income allow you to weather these fluctuations. Recent US outperformance may continue short-term, but valuations suggest international markets offer better forward-looking returns.",
+      "tickers": [
+        "VXUS"
+      ],
+      "suggested_action": "Increase VXUS allocation to represent 25% of your equity portfolio. Use proceeds from tech trimming and direct 50% toward VXUS. Set up monthly auto-investments of $500-750 to dollar-cost average into this position over 6 months.",
+      "suggested_allocation_pct": 25.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-11% annually",
+      "time_horizon": "Build position over 3-6 months, hold 10+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:50:39.861774",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_1fb145cc",
+      "category": "diversify",
+      "title": "Add Healthcare and Consumer Staples for Defensive Balance",
+      "summary": "Your 12% healthcare and minimal consumer staples exposure leaves your portfolio vulnerable to economic cycles. Add defensive sector exposure to balance your growth-heavy tech concentration.",
+      "detailed_rationale": "Signal: Sector analysis shows Technology (35%), Financials (15%), and Consumer Discretionary (10%) dominate your portfolio - all cyclical sectors sensitive to economic conditions. Healthcare at 12% is reasonable but Consumer Staples appears absent, and combined defensive positioning is weak for someone with near-term education funding needs. Alignment: (1) Your high-priority education goal has a 10-year timeline, meaning you'll begin drawing funds during your late 40s. Portfolios approaching distribution benefit from 20-30% defensive sector exposure to reduce sequence-of-returns risk. (2) Moderate risk tolerance and loss comfort of 6/10 suggests you'd experience significant stress in a prolonged market downturn - defensive sectors (healthcare, consumer staples, utilities) historically decline 30-40% less than tech during recessions. (3) Your stable employment and low debt ($180K liabilities vs $320K assets) mean you don't need aggressive growth; you can afford quality over volatility. Evidence: Historical data shows consumer staples and healthcare exhibit 0.6-0.7 correlation with broad markets while maintaining positive long-term returns. During 2022's downturn, consumer staples declined 3% while tech dropped 28%. Knowledge base confirms VTI includes these sectors but your individual stock positions have eliminated this natural balance. Trade-off: Defensive sectors typically underperform during strong bull markets and offer lower growth rates (6-8% vs 10-12% for tech). However, for your profile with two high-priority goals requiring capital preservation alongside growth, reducing drawdown risk is more valuable than maximizing upside. You're sacrificing potential peak returns for consistency.",
+      "tickers": [
+        "VDC",
+        "XLV",
+        "VHT"
+      ],
+      "suggested_action": "Allocate 15% of portfolio to defensive sectors: 8-10% healthcare (add XLV or VHT) and 5-7% consumer staples (VDC). Use remaining proceeds from tech trimming. This creates a 60/30/10 split between growth/balanced/defensive sectors appropriate for moderate investors with near-term goals.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "low",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "Establish position within 60-90 days, hold long-term",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:50:39.861774",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_360fd63b",
+      "category": "hold",
+      "title": "Maintain Core BND and VTI Holdings as Portfolio Foundation",
+      "summary": "Your 30% bond allocation via BND and broad market exposure through VTI form a solid foundation. Maintain these positions while executing rebalancing recommendations.",
+      "detailed_rationale": "Signal: Your current 50% ETF, 30% bond, 20% individual stock split shows thoughtful core/satellite construction. VTI (3,945 holdings, 0.03% expense ratio) and BND provide low-cost, diversified exposure that aligns perfectly with your intermediate experience and moderate risk profile. Alignment: (1) 30% bonds is appropriate for your age (40) using the rule of thumb (age in bonds = 40%, but adjusted down for longer 25-year retirement horizon and stable income). (2) BND provides capital preservation for your medium liquidity needs while generating income, crucial as you approach education funding withdrawals in 10 years. (3) VTI as your core equity holding (approximately 25-30% of total portfolio based on 50% ETF allocation) gives you proper broad market exposure without the expense and complexity of building this through individual stocks. Evidence: Knowledge base confirms VTI tracks the total US market with minimal tracking error and ultra-low costs - your expense drag is likely under 0.05% on this portion. For a product manager with $175K income and $9,500 monthly expenses (leaving $5,125 monthly surplus), this passive core lets you focus on career rather than active management. Academic research shows 80-90% of portfolio returns come from asset allocation, not security selection - your VTI/BND foundation captures this efficiently. Trade-off: This recommendation to 'hold' means resisting the temptation to trade these positions during rebalancing. Don't sell VTI to buy sector ETFs - instead, trim individual stocks and redirect new contributions. The trade-off is accepting VTI's embedded 28% tech weighting while reducing additional tech exposure elsewhere. Your 30% bond allocation may underperform in strong equity markets, but provides essential stability for your goals. Confidence is high because these holdings match your profile perfectly.",
+      "tickers": [
+        "VTI",
+        "BND"
+      ],
+      "suggested_action": "No action required on VTI and BND positions. Maintain current allocations and continue any existing contribution plans. Use these as stable anchors while implementing rebalancing in satellite positions (individual stocks). Review bond allocation annually - consider reducing to 25% as you pass age 45 if retirement goals remain on track.",
+      "suggested_allocation_pct": 50.0,
+      "risk_level": "low",
+      "expected_return_range": "5-8% annually (blended)",
+      "time_horizon": "Hold indefinitely, review allocation every 12-18 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:50:39.861774",
+      "composite_score": 0.0
+    }
+  ]
+}

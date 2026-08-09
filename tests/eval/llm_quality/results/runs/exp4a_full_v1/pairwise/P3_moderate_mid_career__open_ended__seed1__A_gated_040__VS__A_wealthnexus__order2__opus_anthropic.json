@@ -1,0 +1,30 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "seed": 1,
+  "sys_a": "A_gated_040",
+  "sys_b": "A_wealthnexus",
+  "order": 2,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more precise budget math tied to the user's specific $61K surplus, more concrete allocation targets and dollar amounts, and grounds international diversification in the existing VXUS holding. System B is solid and well-structured but includes a questionable dividend-ETF recommendation and a less accurate tax-bracket claim (32% at $175K), and its actionable dollar figures are slightly less tightly linked to the user's cashflow.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more precise budget math tied to the user's specific $61K surplus, more concrete allocation targets and dollar amounts, and grounds international diversification in the existing VXUS holding. System B is solid and well-structured but includes a questionable dividend-ETF recommendation and a less accurate tax-bracket claim (32% at $175K), and its actionable dollar figures are slightly less tightly linked to the user's cashflow."
+  },
+  "usage": {
+    "input_tokens": 12228,
+    "output_tokens": 276
+  }
+}

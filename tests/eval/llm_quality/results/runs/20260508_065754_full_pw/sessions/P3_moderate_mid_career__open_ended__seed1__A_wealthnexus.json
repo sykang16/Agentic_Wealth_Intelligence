@@ -1,0 +1,188 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "query": "I'm 40 with two kids heading to college in about 10 years. How should I balance saving for their education versus retirement?",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_cd14a062",
+      "category": "diversify",
+      "title": "Reduce Technology Overweight Through International Diversification",
+      "summary": "Your portfolio is 35% concentrated in Technology sector, creating excessive risk. Reallocate 10% from tech stocks to increase VXUS (international) holdings for better diversification aligned with your moderate risk tolerance.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your portfolio shows 35% Technology sector concentration, primarily through individual holdings (AAPL, MSFT, NVDA, GOOGL) representing 20% of total assets. This creates correlated risk - a tech sector downturn would significantly impact your portfolio. (2) RISK ALIGNMENT: With moderate risk tolerance (loss comfort 6/10) and two high-priority goals with different timelines (education in 10 years, retirement in 25 years), concentration risk is inappropriate. The knowledge base states 'Diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Your moderate profile suggests a 50-60% stock allocation with diversification across sectors and geographies. (3) EVIDENCE: You currently hold VXUS (international ETF) but at an underweight level given your total equity allocation of 70% (50% ETF + 20% individual stocks). International diversification provides exposure to different economic cycles and reduces US-centric risk. With stable income ($175k annually) and low debt, you can handle moderate volatility but shouldn't concentrate in one sector. (4) TRADE-OFF: Moving from high-performing US tech stocks to broader international exposure may reduce short-term returns if US tech continues outperforming, but significantly reduces concentration risk and improves long-term risk-adjusted returns critical for your dual education and retirement goals.",
+      "tickers": [
+        "VXUS"
+      ],
+      "suggested_action": "Sell approximately $14,000 (10% of stock allocation) from your individual tech holdings (proportionally across AAPL, MSFT, NVDA, GOOGL) and invest in VXUS to increase international exposure from current levels to approximately 25% of your equity allocation.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "Appropriate for both 10-year education and 25-year retirement horizons",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T11:51:06.898165",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_bc2d4d40",
+      "category": "diversify",
+      "title": "Add 529 College Savings Plan for Tax-Advantaged Education Funding",
+      "summary": "With $200k education goal in 10 years and two children, establish dedicated 529 plans to capture tax-free growth and state tax deductions, separate from your general brokerage holdings.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: You have a high-priority education goal ($200k target, ~10 years) but your current portfolio shows no mention of tax-advantaged education accounts. Your holdings (VTI, VXUS, BND, individual stocks) appear to be in taxable or retirement accounts. With $175k annual income and $9,500 monthly expenses ($114k annually), you have capacity to save approximately $5,000+ monthly. (2) RISK ALIGNMENT: The 10-year education horizon requires a different risk profile than your 25-year retirement goal. The knowledge base emphasizes 'tax-advantaged accounts provide tax benefits that accelerate wealth building.' A 529 plan offers tax-free growth on education expenses and potential state tax deductions. Your moderate risk tolerance fits a 529 allocation of approximately 60% stocks/40% bonds that will gradually shift more conservative as college approaches. (3) EVIDENCE: To reach $200k in 10 years, you need approximately $1,300/month assuming 7% returns, or $1,500/month at 5% returns. Your current cash flow supports this. The knowledge base notes 'diversification is essential for managing risk' - separating education funds into dedicated accounts prevents the temptation to raid retirement savings and provides clear goal tracking. Many states offer tax deductions for 529 contributions (often $10k+ per year for married couples). (4) TRADE-OFF: Money in 529 plans is restricted to education expenses (or faces penalties), reducing liquidity. However, with your stated medium liquidity needs and existing emergency fund, this trade-off is worthwhile for the significant tax advantages. If children don't use all funds, beneficiaries can be changed to other family members.",
+      "tickers": [
+        "529-VTI",
+        "529-BND"
+      ],
+      "suggested_action": "Open 529 college savings plans (one per child) and establish automatic monthly contributions of $1,500 total ($750 per child). Use age-based portfolio options or allocate 60% to stock index funds (VTI-equivalent) and 40% to bond funds (BND-equivalent) within the 529, with automatic glide path to more conservative allocation as college approaches.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-8% annually with decreasing risk profile over time",
+      "time_horizon": "10 years to first college need, 14+ years for second child",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T11:51:06.898165",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_d4866c90",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Advantaged Retirement Contributions Before Additional Taxable Investing",
+      "summary": "As a product manager earning $175k with stable income, ensure you're maximizing 401(k) contributions ($23k limit) and capturing full employer match before adding to taxable brokerage accounts.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your profile shows intermediate investment experience with $320k in assets, but there's no breakdown showing retirement account utilization versus taxable accounts. Your $175k income puts you in a high tax bracket (likely 24-32% federal), making tax-deferred growth extremely valuable. The portfolio shows sophisticated holdings (VTI, VXUS, BND mix with individual stocks) suggesting you're actively investing, but optimal tax efficiency requires prioritizing retirement accounts. (2) RISK ALIGNMENT: The knowledge base explicitly states 'Maximize contributions to 401(k)s, IRAs, and Roth accounts' and 'Always contribute enough to capture the full employer match - this is essentially free money with an immediate 100% return.' Your moderate risk tolerance, long-term horizon (25 years to retirement), and stable income make you an ideal candidate for maximizing tax-advantaged space. With $114k annual expenses against $175k income, you have $61k gross capacity, easily covering $23k 401(k) + $7k IRA contributions. (3) EVIDENCE: Your $2.5M retirement goal in 25 years requires approximately $4,100/month in contributions assuming 7% returns. The knowledge base notes 'for 2024, 401(k) limits are $23,000' - maximizing this provides immediate tax deduction of $5,520-$7,360 based on your bracket. Contributing $23k to 401(k) + $7k to Roth IRA = $30k annually in tax-advantaged space. Any employer match is additional wealth. Only after maximizing these should you invest in taxable accounts. (4) TRADE-OFF: Money in retirement accounts has limited access before age 59.5 (with some exceptions). However, with your stated emergency fund, medium liquidity needs, and specific long-term goals, this trade-off is strongly favorable given the tax savings compounded over 25 years.",
+      "tickers": [
+        "401k-VTI",
+        "401k-VXUS",
+        "ROTH-VTI"
+      ],
+      "suggested_action": "Verify you're contributing the full $23,000 annually to your 401(k) (approximately $1,917/month). If not, immediately increase contributions to maximize this limit. Ensure you're capturing full employer match. Additionally, open and fund a Roth IRA with $7,000 annually ($583/month) if income limits allow, or use backdoor Roth strategy. Use similar diversified allocation (VTI, VXUS equivalent funds) within retirement accounts.",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "low",
+      "expected_return_range": "6-9% annually, plus immediate tax savings of 24-32% on 401(k) contributions",
+      "time_horizon": "25 years to retirement age, tax benefits compound throughout",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T11:51:06.898165",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_24483004",
+      "category": "rebalance",
+      "title": "Quarterly Rebalancing Strategy to Maintain Target Allocation",
+      "summary": "Implement systematic quarterly rebalancing to maintain your 50% ETF / 20% individual stocks / 30% bonds allocation and prevent drift from tech concentration or market movements.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your current allocation (50% ETF, 20% stocks, 30% bonds) represents a 70/30 equity-to-fixed-income split appropriate for moderate risk tolerance, but portfolio drift is inevitable. Given your 35% technology concentration and holdings in high-growth stocks (NVDA especially volatile), your allocation can shift significantly quarter-to-quarter. The knowledge base states 'Regular rebalancing ensures your portfolio stays aligned with target allocations' and recommends 'rebalancing when allocations drift more than 5% from targets, or at least annually.' (2) RISK ALIGNMENT: With moderate risk tolerance and dual time horizons (10 and 25 years), maintaining discipline prevents emotional decisions and reduces concentration risk. Your intermediate experience level and stable income support a systematic approach. The knowledge base notes 'Strategic allocation sets long-term targets based on your investment profile' - your current 70/30 split aligns with moderate profiles described as '50-60% stocks, 30-40% bonds,' though you're on the aggressive end. (3) EVIDENCE: Your individual tech stocks likely experienced significant appreciation (NVDA especially had major gains in 2023-2024), creating drift from target allocations. Without rebalancing, winner concentration increases risk. Systematic rebalancing also provides 'buy low, sell high' discipline - selling appreciated tech positions to buy underweighted assets (bonds, international). With $320k portfolio, a 5% drift equals $16k misallocation, creating meaningful risk exposure. (4) TRADE-OFF: Rebalancing in taxable accounts triggers capital gains taxes, potentially costing 15-20% on gains. However, this is outweighed by risk reduction benefits. Strategy: rebalance primarily within tax-advantaged accounts where possible, use new contributions to buy underweight positions in taxable accounts, and only sell when drift exceeds 5% in taxable holdings. The knowledge base emphasizes this discipline 'keeps your strategy on track.'",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "BND",
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Establish quarterly portfolio review (March, June, September, December). Check if any position has drifted more than 5% from target allocation. If total equity exceeds 75% or falls below 65%, rebalance back to 70/30. If tech concentration exceeds 30%, trim individual stock positions. Use new contributions to buy underweight positions first. Set calendar reminders and use portfolio tracking tools to automate drift alerts.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Maintains target 6-9% annually while reducing volatility by 10-15%",
+      "time_horizon": "Ongoing discipline for both education and retirement goals",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T11:51:06.898165",
+      "composite_score": 0.0
+    }
+  ]
+}

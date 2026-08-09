@@ -1,0 +1,264 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "purpose": "Phase B persona dataset for LLM-as-judge recommendation text quality evaluation",
+    "design": "6 personas crossing risk_tolerance x experience x goal; each with 3 query types (open_ended, rebalance, sector_specific)",
+    "total_sessions": "6 personas x 3 queries x 2 seeds = 36 sessions",
+    "schema_alignment": {
+      "investment_profile": "matches backend.src.common.models.InvestmentProfile (string enum values)",
+      "user": "matches backend.src.common.models.User",
+      "portfolio_summary": "subset of backend.src.common.models.PortfolioSummary used by AggregatedContext"
+    },
+    "anonymization": "All names are placeholder; no real PII. Safe for double-blind submission."
+  },
+  "personas": [
+    {
+      "persona_id": "P1_conservative_retiree",
+      "label": "Conservative Retiree",
+      "description": "Age 65, retired, capital preservation and steady income. Pension + Social Security cover monthly expenses; investment portfolio is the legacy/buffer.",
+      "user": {
+        "user_id": "eval_p1",
+        "name": "Persona One",
+        "age": 65,
+        "occupation": "Retired (former civil engineer)",
+        "annual_income": 78000,
+        "monthly_expenses": 4200
+      },
+      "investment_profile": {
+        "risk_tolerance": "conservative",
+        "loss_comfort": "2",
+        "investment_horizon": "short",
+        "liquidity_needs": "high",
+        "income_stability": "stable",
+        "has_emergency_fund": true,
+        "debt_level": "none",
+        "investment_experience": "intermediate",
+        "esg_preference": false,
+        "goals": [
+          {"goal_type": "retirement", "target_amount": 1200000, "priority": "high",
+           "description": "Preserve capital and generate steady income to supplement pension and Social Security"}
+        ]
+      },
+      "portfolio_summary": {
+        "total_assets": 1200000,
+        "total_liabilities": 0,
+        "allocation_by_asset_type": {"bond": 50.0, "stock": 25.0, "etf": 5.0, "cash": 20.0},
+        "allocation_by_sector": {"Healthcare": 30.0, "Utilities": 25.0, "Consumer Staples": 20.0, "Financials": 15.0, "Technology": 10.0},
+        "portfolio_tickers": ["BND", "AGG", "VYM", "JNJ", "PG", "KO", "DUK", "SO", "VZ"]
+      },
+      "queries": {
+        "open_ended": "What should I do with my retirement savings to maintain steady income while keeping risk low?",
+        "rebalance": "I have about 50% of my portfolio in bonds. Is that the right level for someone my age, or should I rebalance?",
+        "sector_specific": "Should I add any healthcare or utility positions, or am I already overweight there?"
+      }
+    },
+    {
+      "persona_id": "P2_conservative_early_career",
+      "label": "Conservative Early-Career Beginner",
+      "description": "Age 28, two years into first corporate job, has student loans and no emergency fund yet. New to investing and wary of losses.",
+      "user": {
+        "user_id": "eval_p2",
+        "name": "Persona Two",
+        "age": 28,
+        "occupation": "Junior data analyst",
+        "annual_income": 72000,
+        "monthly_expenses": 3800
+      },
+      "investment_profile": {
+        "risk_tolerance": "conservative",
+        "loss_comfort": "3",
+        "investment_horizon": "medium",
+        "liquidity_needs": "medium",
+        "income_stability": "stable",
+        "has_emergency_fund": false,
+        "debt_level": "moderate",
+        "investment_experience": "beginner",
+        "esg_preference": null,
+        "goals": [
+          {"goal_type": "emergency", "target_amount": 22000, "priority": "high",
+           "description": "Build a 6-month emergency fund before increasing investment risk"},
+          {"goal_type": "house", "target_amount": 60000, "priority": "medium",
+           "description": "Down payment for a starter home in 5-7 years"}
+        ]
+      },
+      "portfolio_summary": {
+        "total_assets": 25000,
+        "total_liabilities": 38000,
+        "allocation_by_asset_type": {"cash": 60.0, "mutual_fund": 30.0, "bond": 10.0},
+        "allocation_by_sector": {"Diversified ETF": 100.0},
+        "portfolio_tickers": ["VTTSX", "BND"]
+      },
+      "queries": {
+        "open_ended": "I'm new to investing and have student loans. What should I prioritize first with my savings?",
+        "rebalance": "Most of my money is in cash right now. Is that okay or should I shift it into investments?",
+        "sector_specific": "As a beginner, are there particular industries or fund types that are considered safer to start with?"
+      }
+    },
+    {
+      "persona_id": "P3_moderate_mid_career",
+      "label": "Moderate Mid-Career Parent",
+      "description": "Age 40, dual-income household, two children with college 8-10 years out. Already saving for retirement via 401k. Tech-overweight from holding employer-adjacent stocks.",
+      "user": {
+        "user_id": "eval_p3",
+        "name": "Persona Three",
+        "age": 40,
+        "occupation": "Product manager",
+        "annual_income": 175000,
+        "monthly_expenses": 9500
+      },
+      "investment_profile": {
+        "risk_tolerance": "moderate",
+        "loss_comfort": "6",
+        "investment_horizon": "long",
+        "liquidity_needs": "medium",
+        "income_stability": "stable",
+        "has_emergency_fund": true,
+        "debt_level": "low",
+        "investment_experience": "intermediate",
+        "esg_preference": null,
+        "goals": [
+          {"goal_type": "education", "target_amount": 200000, "priority": "high",
+           "description": "Fund college for two children, primary horizon ~10 years"},
+          {"goal_type": "retirement", "target_amount": 2500000, "priority": "high",
+           "description": "Long-term retirement target, ~25 years out"}
+        ]
+      },
+      "portfolio_summary": {
+        "total_assets": 320000,
+        "total_liabilities": 180000,
+        "allocation_by_asset_type": {"etf": 50.0, "stock": 20.0, "bond": 30.0},
+        "allocation_by_sector": {"Technology": 35.0, "Financials": 15.0, "Healthcare": 12.0, "Consumer Discretionary": 10.0, "Industrials": 8.0, "Energy": 5.0, "Other": 15.0},
+        "portfolio_tickers": ["VTI", "VXUS", "BND", "AAPL", "MSFT", "NVDA", "GOOGL"]
+      },
+      "queries": {
+        "open_ended": "I'm 40 with two kids heading to college in about 10 years. How should I balance saving for their education versus retirement?",
+        "rebalance": "My tech exposure is around 35% across my ETFs and individual stocks. Is that too concentrated, and how would I trim it?",
+        "sector_specific": "Should I add international or emerging-markets exposure, and if so what proportion is reasonable?"
+      }
+    },
+    {
+      "persona_id": "P4_moderate_pre_retirement",
+      "label": "Moderate Pre-Retirement Glide-Path",
+      "description": "Age 55, planning to retire at 65. Wants to gradually de-risk over the next decade while still capturing market growth. Advanced investor.",
+      "user": {
+        "user_id": "eval_p4",
+        "name": "Persona Four",
+        "age": 55,
+        "occupation": "Operations director",
+        "annual_income": 220000,
+        "monthly_expenses": 11000
+      },
+      "investment_profile": {
+        "risk_tolerance": "moderate",
+        "loss_comfort": "5",
+        "investment_horizon": "medium",
+        "liquidity_needs": "medium",
+        "income_stability": "stable",
+        "has_emergency_fund": true,
+        "debt_level": "low",
+        "investment_experience": "advanced",
+        "esg_preference": false,
+        "goals": [
+          {"goal_type": "retirement", "target_amount": 1800000, "priority": "high",
+           "description": "Retire at 65 with $80-100k/yr income; begin glide-path now"},
+          {"goal_type": "wealth", "target_amount": 500000, "priority": "low",
+           "description": "Legacy/wealth transfer to heirs"}
+        ]
+      },
+      "portfolio_summary": {
+        "total_assets": 850000,
+        "total_liabilities": 95000,
+        "allocation_by_asset_type": {"etf": 40.0, "stock": 15.0, "bond": 35.0, "mutual_fund": 5.0, "cash": 5.0},
+        "allocation_by_sector": {"Healthcare": 22.0, "Financials": 18.0, "Technology": 18.0, "Industrials": 12.0, "Consumer Staples": 10.0, "Energy": 8.0, "Other": 12.0},
+        "portfolio_tickers": ["VTI", "BND", "VXUS", "JNJ", "UNH", "JPM", "BRK.B", "PG"]
+      },
+      "queries": {
+        "open_ended": "I'm 10 years from retirement. Should I start de-risking now and how aggressively?",
+        "rebalance": "Walk me through a year-by-year glide path that gradually shifts my allocation over the next decade.",
+        "sector_specific": "Are there particular sectors I should reduce as I approach retirement, and which ones should I keep for income generation?"
+      }
+    },
+    {
+      "persona_id": "P5_aggressive_young_professional",
+      "label": "Aggressive Young Professional (FIRE-oriented)",
+      "description": "Age 30, software engineer, high income with high risk tolerance. Aiming for financial independence in ~15 years. Heavy tech-sector concentration.",
+      "user": {
+        "user_id": "eval_p5",
+        "name": "Persona Five",
+        "age": 30,
+        "occupation": "Senior software engineer",
+        "annual_income": 195000,
+        "monthly_expenses": 5500
+      },
+      "investment_profile": {
+        "risk_tolerance": "aggressive",
+        "loss_comfort": "9",
+        "investment_horizon": "long",
+        "liquidity_needs": "low",
+        "income_stability": "stable",
+        "has_emergency_fund": true,
+        "debt_level": "low",
+        "investment_experience": "intermediate",
+        "esg_preference": null,
+        "goals": [
+          {"goal_type": "wealth", "target_amount": 2500000, "priority": "high",
+           "description": "Reach financial independence in ~15 years (FIRE target)"}
+        ]
+      },
+      "portfolio_summary": {
+        "total_assets": 180000,
+        "total_liabilities": 18000,
+        "allocation_by_asset_type": {"etf": 50.0, "stock": 35.0, "crypto": 5.0, "cash": 10.0},
+        "allocation_by_sector": {"Technology": 65.0, "Consumer Discretionary": 15.0, "Communication Services": 10.0, "Other": 10.0},
+        "portfolio_tickers": ["QQQ", "VTI", "TSLA", "NVDA", "GOOGL", "META", "AMZN", "BTC"]
+      },
+      "queries": {
+        "open_ended": "I'm aiming for FIRE in about 15 years. Am I on the right track with my current allocation?",
+        "rebalance": "Should I add any bond exposure at all, or stay close to 100% equity given my horizon?",
+        "sector_specific": "I'm already heavy in tech. Should I rotate into AI infrastructure plays, or diversify into a different sector entirely?"
+      }
+    },
+    {
+      "persona_id": "P6_aggressive_experienced_consultant",
+      "label": "Aggressive Experienced Consultant",
+      "description": "Age 45, independent consultant with variable income. Sophisticated investor with sector tilts (energy, EM). Holds an investment property in addition to liquid portfolio.",
+      "user": {
+        "user_id": "eval_p6",
+        "name": "Persona Six",
+        "age": 45,
+        "occupation": "Independent strategy consultant",
+        "annual_income": 280000,
+        "monthly_expenses": 13000
+      },
+      "investment_profile": {
+        "risk_tolerance": "aggressive",
+        "loss_comfort": "8",
+        "investment_horizon": "long",
+        "liquidity_needs": "medium",
+        "income_stability": "variable",
+        "has_emergency_fund": true,
+        "debt_level": "moderate",
+        "investment_experience": "advanced",
+        "esg_preference": false,
+        "goals": [
+          {"goal_type": "wealth", "target_amount": 4000000, "priority": "high",
+           "description": "Continue compounding wealth; comfortable with cyclical drawdowns"},
+          {"goal_type": "other", "target_amount": 800000, "priority": "medium",
+           "description": "Legacy planning for one child"}
+        ]
+      },
+      "portfolio_summary": {
+        "total_assets": 1500000,
+        "total_liabilities": 380000,
+        "allocation_by_asset_type": {"stock": 45.0, "etf": 25.0, "bond": 15.0, "cash": 5.0, "crypto": 5.0, "mutual_fund": 5.0},
+        "allocation_by_sector": {"Technology": 30.0, "Energy": 15.0, "Financials": 15.0, "Industrials": 15.0, "Healthcare": 10.0, "Emerging Markets": 15.0},
+        "portfolio_tickers": ["VTI", "VWO", "XLE", "XOM", "CVX", "JPM", "GS", "CAT", "DE", "NVDA", "BTC", "BND"]
+      },
+      "queries": {
+        "open_ended": "Given my variable income from consulting, how should I think about cash buffers versus staying fully deployed?",
+        "rebalance": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+        "sector_specific": "Should I rotate from energy into AI/semiconductor exposure at current valuations, or keep the cyclical tilt?"
+      }
+    }
+  ]
+}

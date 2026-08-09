@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"The rationale cites the user's moderate risk tolerance, education goal with a 10-year horizon, and current tech concentration.\",\n    \"C2\": \"The recommendation suggests a low-risk allocation, which is one tier below the user's moderate risk tolerance, justified by the need for stability for the education goal.\",\n    \"C3\": \"All claims about sector allocations and tickers are traceable to the user's portfolio snapshot.\",\n    \"C4\": \"The recommendation provides specific tickers, allocation percentages, and a clear action plan.\",\n    \"C5\": \"The recommendation addresses the tech concentration by suggesting diversification into underweight sectors.\",\n    \"C6\": \"The recommendation uses calibrated language and includes a disclaimer about potential trade-offs in returns.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "The rationale cites the user's moderate risk tolerance, education goal with a 10-year horizon, and current tech concentration.",
+      "C2": "The recommendation suggests a low-risk allocation, which is one tier below the user's moderate risk tolerance, justified by the need for stability for the education goal.",
+      "C3": "All claims about sector allocations and tickers are traceable to the user's portfolio snapshot.",
+      "C4": "The recommendation provides specific tickers, allocation percentages, and a clear action plan.",
+      "C5": "The recommendation addresses the tech concentration by suggesting diversification into underweight sectors.",
+      "C6": "The recommendation uses calibrated language and includes a disclaimer about potential trade-offs in returns."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3772,
+    "output_tokens": 240
+  },
+  "session_id": "P3_moderate_mid_career__rebalance__seed1",
+  "rec_index": 1,
+  "rec_id": "rec_660a5550",
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides more specific, executable instructions (concrete tickers with target percentages, DCA schedules, and timeframes) and more thoroughly references profile attributes and knowledge-base principles in its rationales. System A is slightly stronger on factual grounding (fewer speculative quantitative claims like B's '10-14% equity factor exposure'), but B's superior actionability and diversification-specific reasoning outweigh this.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides more specific, executable instructions (concrete tickers with target percentages, DCA schedules, and timeframes) and more thoroughly references profile attributes and knowledge-base principles in its rationales. System A is slightly stronger on factual grounding (fewer speculative quantitative claims like B's '10-14% equity factor exposure'), but B's superior actionability and diversification-specific reasoning outweigh this."
+  },
+  "usage": {
+    "input_tokens": 10601,
+    "output_tokens": 272
+  },
+  "session_id": "P5_aggressive_young_professional__rebalance__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

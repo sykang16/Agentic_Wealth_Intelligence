@@ -1,0 +1,30 @@
+{
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "open_ended",
+  "seed": 1,
+  "sys_a": "A_gated_040",
+  "sys_b": "A_wealthnexus",
+  "order": 1,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"tie\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"tie\",\n  \"rationale_overall\": \"System B offers stronger personalization by leveraging specific profile details (income, expenses, catch-up contribution eligibility, discretionary cash flow) via the 401(k) recommendation, but System A has better factual grounding \u2014 B contains a math error (reducing JNJ+UNH from 22% to 15% requires ~$59,500 which matches 7% but the framing is muddled) and assumes portfolio yield figures without support. Both are comparable on risk alignment, actionability, diversification awareness, and safety, making the overall comparison a tie.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "tie",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "tie",
+    "rationale_overall": "System B offers stronger personalization by leveraging specific profile details (income, expenses, catch-up contribution eligibility, discretionary cash flow) via the 401(k) recommendation, but System A has better factual grounding \u2014 B contains a math error (reducing JNJ+UNH from 22% to 15% requires ~$59,500 which matches 7% but the framing is muddled) and assumes portfolio yield figures without support. Both are comparable on risk alignment, actionability, diversification awareness, and safety, making the overall comparison a tie."
+  },
+  "usage": {
+    "input_tokens": 12692,
+    "output_tokens": 313
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"A\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A correctly aligns with the user's conservative risk tolerance (3/10 loss comfort), no emergency fund, and explicit emergency-fund goal, recommending cash retention until the $22,000 target is met. System B contradicts the user's profile by pushing aggressive equity exposure and mischaracterizes the user as having moderate risk tolerance, which is a significant risk-alignment and personalization failure.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "A"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A correctly aligns with the user's conservative risk tolerance (3/10 loss comfort), no emergency fund, and explicit emergency-fund goal, recommending cash retention until the $22,000 target is met. System B contradicts the user's profile by pushing aggressive equity exposure and mischaracterizes the user as having moderate risk tolerance, which is a significant risk-alignment and personalization failure."
+  },
+  "usage": {
+    "input_tokens": 12346,
+    "output_tokens": 268
+  },
+  "session_id": "P2_conservative_early_career__rebalance__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,30 @@
+{
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "rebalance",
+  "seed": 1,
+  "sys_a": "A_gated_040",
+  "sys_b": "A_wealthnexus",
+  "order": 2,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"tie\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A directly answers the user's query for a year-by-year glide path with four sequential phases explicitly tied to age and profile attributes, while System B drifts into tangential topics (dividend strategy, tax location) and contains a contradictory glide path target (going from 55/45 down to 48/52 then jumping back to 60/40 at retirement). System B has stronger diversification and tax insights, but A better matches the query, risk profile, and factual grounding.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "tie",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A directly answers the user's query for a year-by-year glide path with four sequential phases explicitly tied to age and profile attributes, while System B drifts into tangential topics (dividend strategy, tax location) and contains a contradictory glide path target (going from 55/45 down to 48/52 then jumping back to 60/40 at retirement). System B has stronger diversification and tax insights, but A better matches the query, risk profile, and factual grounding."
+  },
+  "usage": {
+    "input_tokens": 13626,
+    "output_tokens": 279
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "sector_specific",
+  "query": "Are there particular sectors I should reduce as I approach retirement, and which ones should I keep for income generation?",
+  "seed": 2,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_bd656dac",
+      "category": "rebalance",
+      "title": "Initiate Retirement Glide Path: Reduce Technology and Healthcare Overweight",
+      "summary": "Begin transitioning from growth-oriented sectors to income-generating positions by reducing Technology (18%) and Healthcare (22%) overweight, rebalancing toward target-date fund principles for a 10-year retirement horizon.",
+      "detailed_rationale": "(1) Signal: Your portfolio shows 40% combined allocation to Technology and Healthcare sectors, which are growth-oriented sectors with higher volatility. At age 55 with a 10-year retirement horizon and moderate risk tolerance (loss comfort: 5/10), this creates excessive exposure to market corrections that could impact your $1.8M retirement goal. The investment guide explicitly states 'Target-Date Funds automatically adjust asset allocation as you approach retirement, becoming more conservative over time.' (2) Alignment with profile: As an operations director with stable income and advanced investment experience, you understand the need to preserve capital as retirement approaches. Your moderate risk tolerance and medium-term horizon (10 years) align with a gradual shift toward lower-volatility sectors. The guide's moderate portfolio recommendation of 50-60% stocks, 30-40% bonds suggests your current 55% equity exposure (40% ETF + 15% stock) is reasonable, but sector composition needs adjustment. (3) Supporting evidence: Your holdings include JNJ and UNH (Healthcare) which represent significant concentration risk. While Healthcare has defensive characteristics, a 22% allocation exceeds prudent diversification limits (typically 15-20% maximum per sector). Technology at 18% adds growth volatility inappropriate for someone entering the retirement glide path. Current allocation model should shift from 'moderate-growth' to 'moderate-conservative' over the next decade. (4) Trade-offs: Reducing growth sectors means potentially lower returns in bull markets. However, capital preservation becomes increasingly important. Risk: Missing out on continued Healthcare/Tech outperformance, but this is offset by reduced downside capture risk and smoother portfolio returns as you approach retirement.",
+      "tickers": [
+        "JNJ",
+        "UNH"
+      ],
+      "suggested_action": "Reduce Healthcare exposure from 22% to 15% by selling 30% of your JNJ and UNH positions over the next 6 months. Simultaneously reduce Technology exposure from 18% to 12% by trimming any tech-heavy holdings within VTI through tactical rebalancing.",
+      "suggested_allocation_pct": -7.0,
+      "risk_level": "low",
+      "expected_return_range": "Impact: -0.5 to -1.0% annually, but volatility reduction of 15-20%",
+      "time_horizon": "Begin immediately, complete over 6 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:09:50.776790",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_086b4ab5",
+      "category": "buy",
+      "title": "Add Real Estate (REITs) for Retirement Income Generation",
+      "summary": "Allocate 8-10% to real estate ETFs (VNQ) to create diversified income streams, reduce correlation with existing stock holdings, and provide inflation protection as you approach retirement.",
+      "detailed_rationale": "(1) Signal: Your portfolio completely lacks real estate exposure, which is a critical income-generating asset class for retirees. With a retirement goal requiring $80-100k annual income and current net worth of $755k, you need multiple income streams. Your sector allocation shows 'Other: 12%' but no specific real estate holdings. The knowledge base specifically highlights VNQ as a vehicle that 'invests in real estate investment trusts (REITs) that purchase office buildings' - precisely the income-generating, low-correlation asset missing from your portfolio. (2) Alignment with profile: At 55 with 10 years to retirement, adding REITs now allows time for both capital appreciation and income growth. Your moderate risk tolerance supports this allocation, as REITs offer 3-5% dividend yields with moderate volatility - lower than individual stocks but higher income than bonds. With stable $220k annual income and $11k monthly expenses, you have the liquidity to make this strategic addition. Your advanced investment experience means you understand REIT tax treatment and interest rate sensitivity. (3) Supporting evidence: The asset allocation guide emphasizes 'Diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Real estate historically shows 0.4-0.6 correlation with stocks, providing genuine diversification. Your current 5% cash position can be partially deployed here without compromising emergency fund adequacy (you have $42,500 cash with $11k monthly expenses = 3.9 months, which is adequate given stable income). REITs would complement your existing BND bond holdings by providing higher income with inflation protection that bonds lack. (4) Trade-offs: REITs are interest-rate sensitive and can decline when rates rise. They also have lower capital appreciation potential than growth stocks. However, for a retirement-focused portfolio, the consistent 4-6% dividend yields provide the income generation your query specifically requested.",
+      "tickers": [
+        "VNQ"
+      ],
+      "suggested_action": "Allocate $68,000-85,000 (8-10% of total assets) to VNQ - Vanguard Real Estate ETF. Fund this by using $42,500 from cash reserves and $25,500-42,500 from the Healthcare/Technology reduction outlined above. Execute via dollar-cost averaging over 3 months to minimize timing risk.",
+      "suggested_allocation_pct": 9.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually (3-4% dividends + 3-5% appreciation)",
+      "time_horizon": "10+ years through retirement, hold for income generation",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:09:50.776790",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_794e4ff3",
+      "category": "buy",
+      "title": "Increase Dividend Aristocrats and Consumer Staples for Stable Income",
+      "summary": "Expand Consumer Staples allocation from 10% to 15% and add dividend aristocrat positions to create predictable income streams that will support your $80-100k retirement income requirement.",
+      "detailed_rationale": "(1) Signal: Your retirement goal explicitly requires $80-100k annual income in 10 years. With current assets of $850k and target of $1.8M, you need a portfolio that generates approximately 4.5-5.5% yield at retirement. Your current Consumer Staples allocation (10%) and holdings like PG provide some dividend income, but this is insufficient. The investment guide emphasizes that moderate portfolios should balance 'growth and income' - you have adequate growth exposure but insufficient income infrastructure. Your query specifically asks 'which ones should I keep for income generation' - Consumer Staples and dividend aristocrats are the answer. (2) Alignment with profile: Consumer Staples are the most defensive equity sector, perfectly aligned with your moderate risk tolerance and approaching retirement. Companies like PG, Coca-Cola (KO), and Procter & Gamble have raised dividends for 50+ consecutive years, providing inflation-adjusted income growth. At 55 with medium investment horizon, you need positions that won't require selling during market downturns - dividend payers allow you to hold through volatility while collecting income. Your stable $220k income and low debt level mean you can afford the slightly lower total returns of dividend aristocrats in exchange for income certainty. (3) Supporting evidence: The knowledge base states 'Moderate portfolios balance around 50-60% stocks, 30-40% bonds' and emphasizes balancing growth with income. Consumer Staples historically provide 2.5-3.5% dividend yields with lower volatility (beta 0.6-0.8 vs market). Your existing PG holding demonstrates this strategy is already partially implemented - this recommendation scales it appropriately. Financial sector exposure (18%, including JPM and BRK.B) provides some dividends, but these are more cyclical than Staples. Increasing Staples to 15% while maintaining Financials creates better income diversification. The retirement guide confirms: 'Consider this in your overall retirement income strategy' - dividends are a critical component alongside Social Security. (4) Trade-offs: Dividend stocks typically underperform growth stocks in bull markets. Consumer Staples may lag Technology/Healthcare in capital appreciation. However, your question specifically prioritizes 'income generation' over maximum growth, and 10 years from retirement is the appropriate time to make this trade-off.",
+      "tickers": [
+        "PG",
+        "KO",
+        "JNJ",
+        "MCD"
+      ],
+      "suggested_action": "Increase Consumer Staples allocation from 10% to 15% by adding $42,500 to high-quality dividend aristocrats. Specifically: add Coca-Cola (KO) and McDonald's (MCD) alongside your existing PG position, creating a diversified staples portfolio. Fund this through the Healthcare sector reduction (keeping JNJ for its dividend but reducing UNH). Target a blended 3%+ dividend yield from this allocation.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "7-10% annually (3-4% dividends + 4-6% appreciation)",
+      "time_horizon": "10 years to retirement, then hold indefinitely for income",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:09:50.776790",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_2771c4bb",
+      "category": "hold",
+      "title": "Maintain Core Bond Allocation (BND) and Increase Gradually Toward Retirement",
+      "summary": "Keep your current 35% bond allocation (primarily BND) as the foundation of capital preservation, but plan to increase toward 40-45% over the next 5-7 years as retirement approaches, following glide path principles.",
+      "detailed_rationale": "(1) Signal: Your 35% bond allocation via BND is appropriate for your current age and moderate risk profile, but the investment guide on retirement planning states that 'Target-Date Funds automatically adjust asset allocation as you approach retirement, becoming more conservative over time.' At 55, you're in the transition phase where bonds should gradually increase. Your query asks about sectors to 'reduce' and 'keep' - bonds are definitively in the 'keep and expand' category for retirement income. The knowledge base specifically describes BND as providing 'diversified exposure to the fixed income market segment' with 10,000+ bonds and a 0.03% expense ratio - an excellent low-cost core holding. (2) Alignment with profile: The asset allocation guide states 'Moderate portfolios balance around 50-60% stocks, 30-40% bonds.' At 55, you should be at the upper end of this bond range (40%) and trending toward 45-50% by age 62-63. Your moderate risk tolerance (loss comfort 5/10) and medium liquidity needs support this gradual increase. With stable income and low debt, you don't need to sacrifice bonds for liquidity. Your advanced investment experience means you understand that BND's current yield (4-5% as of 2024) provides income while preserving capital - essential for retirement. (3) Supporting evidence: The BND factsheet confirms 'broad exposure to U.S. investment-grade bonds including government, corporate, and mortgage-backed securities' with minimal 0.03% fees. This diversification within fixed income is optimal - you're not concentrated in any single bond type. The guide emphasizes 'Regular rebalancing ensures your portfolio stays aligned with target allocations' - as your equity positions grow, you should rebalance into bonds rather than letting equity allocation drift higher. Your current 35% allocation is not a problem, but it needs a planned increase trajectory: 35% now \u2192 38% at age 58 \u2192 42% at age 62 \u2192 45% at age 65. (4) Trade-offs: Higher bond allocation means lower growth potential and less inflation protection than equities. However, your $1.8M retirement goal with current $755k net worth requires only 9% annual growth - achievable with 55% equity allocation declining to 50% by retirement. The guide confirms: 'Time in the market often matters more than timing the market' - staying invested in balanced allocation is more important than chasing maximum returns.",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "Maintain current BND position but establish a glide path schedule: increase bond allocation by 1% annually over the next 7 years, reaching 42% by age 62. Do this through regular rebalancing (selling equity gains into bonds) rather than new contributions. Review allocation quarterly and rebalance when drift exceeds 3% from target. Continue dollar-cost averaging into BND with any new savings.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "3.5-5.0% annually based on current yield environment",
+      "time_horizon": "Permanent allocation, increasing gradually through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:09:50.776790",
+      "composite_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "session_id": "P5_aggressive_young_professional__open_ended__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "open_ended",
+  "query": "I'm aiming for FIRE in about 15 years. Am I on the right track with my current allocation?",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_47c96a87",
+      "category": "diversify",
+      "title": "Reduce Technology Concentration with Diversified Bond/REIT Allocation",
+      "summary": "Your portfolio is 65% technology-focused, creating significant concentration risk. For FIRE goals, diversify into bonds and REITs to reduce volatility and create a more sustainable withdrawal-ready portfolio.",
+      "detailed_rationale": "Signal: Your portfolio shows extreme sector concentration with 65% in Technology, which creates outsized volatility risk despite your aggressive profile. For FIRE in 15 years, you need a glide path that reduces concentration risk over time. Step-by-step reasoning: (1) Current allocation (QQQ, NVDA, GOOGL, META, AMZN, TSLA) creates correlated downside risk - if tech sector corrects 30-40%, your entire portfolio could decline 20-25%, potentially delaying FIRE timeline. (2) Your risk tolerance is aggressive (9/10 loss comfort), but FIRE goals require capital preservation in final 5-7 years before retirement. (3) Knowledge base evidence: 'Diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Your current holdings move in high correlation. (4) At age 30 with 15-year horizon, you can afford aggressive growth now but should begin building the bond/alternative allocation that will stabilize your portfolio as you approach FIRE date. Recommendation: Allocate 15% to intermediate-term treasury bonds (BND or VGIT) and 10% to real estate (VNQ per knowledge base) over next 12 months. This reduces tech to ~45%, maintains growth potential, but adds non-correlated assets. Trade-off: Lower absolute returns in strong tech markets, but significantly reduced drawdown risk and more predictable path to $2.5M target.",
+      "tickers": [
+        "BND",
+        "VGIT",
+        "VNQ"
+      ],
+      "suggested_action": "Over the next 6-12 months, redirect 25% of new contributions and selectively trim overweight tech positions (suggest reducing QQQ from current allocation) to build 15% bond position (BND or VGIT) and 10% REIT position (VNQ). This creates 25% portfolio stabilization while maintaining 75% growth orientation.",
+      "suggested_allocation_pct": 25.0,
+      "risk_level": "low",
+      "expected_return_range": "Bonds: 4-5% annually, REITs: 7-9% annually",
+      "time_horizon": "Begin implementation immediately, complete rebalancing within 12 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:31:28.681463",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_042e96f3",
+      "category": "diversify",
+      "title": "Add International Equity Exposure to Reduce US Concentration",
+      "summary": "Your entire equity allocation is US-focused. Add 15-20% international developed and emerging markets exposure to capture global growth and reduce geographic concentration risk.",
+      "detailed_rationale": "Signal: Portfolio analysis shows 0% international equity exposure despite holding diversified funds like VTI. Your tech-heavy portfolio is entirely dependent on US market performance. Step-by-step reasoning: (1) Geographic concentration amplifies risk - US markets represent ~60% of global market cap, meaning you're missing 40% of opportunity set and have correlated US economic risk. (2) Your aggressive profile, stable $195K income, and 15-year horizon align perfectly with international diversification to capture global growth cycles. (3) Knowledge base states 'Diversification is essential for managing risk' and aggressive portfolios should maintain broad exposure. International markets often outperform during dollar weakness and different economic cycles. (4) For FIRE goals, international diversification reduces sequence-of-returns risk if US enters prolonged underperformance during your accumulation phase. Evidence: During 2000-2010, international stocks significantly outperformed US; diversification would have accelerated wealth building. Recommendation: Allocate 15% to developed international markets (VXUS or VEA) and 5% to emerging markets (VWO). This creates global portfolio aligned with market cap weights. Main trade-off: Currency risk and potential short-term underperformance if US tech continues dominance, but essential for long-term risk-adjusted FIRE goal achievement.",
+      "tickers": [
+        "VXUS",
+        "VEA",
+        "VWO"
+      ],
+      "suggested_action": "Allocate 15% to developed international markets ETF (VXUS or VEA) and 5% to emerging markets (VWO). Fund this by reducing QQQ position by 10% and redirecting 20% of monthly contributions to international equities for next 8-10 months until target allocation reached.",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-10% annually (developed markets), 8-12% annually (emerging markets)",
+      "time_horizon": "15-year hold period aligned with FIRE timeline, begin building position over next 8-10 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:31:28.681463",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_695b18f9",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Advantaged Retirement Account Contributions",
+      "summary": "With $195K income and FIRE goals, you should maximize 401(k) and backdoor Roth IRA contributions to accelerate tax-advantaged wealth building and create tax diversification for early retirement.",
+      "detailed_rationale": "Signal: Your income profile ($195K salary, $5,500 monthly expenses = $66K annually) suggests significant savings capacity (~$129K/year pre-tax), but no mention of maxing tax-advantaged accounts. This is critical inefficiency for FIRE goals. Step-by-step reasoning: (1) Knowledge base explicitly states: 'Maximize contributions to 401(k)s, IRAs, and Roth accounts. These vehicles provide tax benefits that accelerate wealth building. For 2024, 401(k) limits are $23,000.' You should be contributing $23K to 401(k) minimum. (2) Your aggressive profile and 15-year FIRE horizon means you need every tax advantage to reach $2.5M target. Tax-deferred growth dramatically accelerates compounding. (3) Knowledge base states 'Employer Matching: Always contribute enough to capture the full employer match in your 401(k). This is essentially free money with immediate 100% return.' At senior software engineer compensation, likely 4-6% match available ($7,800-$11,700 free money). (4) For FIRE specifically, you need Roth conversion ladder strategy - having pre-tax 401(k) basis allows tax-efficient conversions during early retirement years before 59.5. Evidence: Contributing $23K to 401(k) + $7K backdoor Roth IRA = $30K annual tax-advantaged savings. At 8% returns over 15 years = $865K from these contributions alone. Trade-off: Reduces current liquidity and access to funds before 59.5, but Roth conversion ladder and rule 72(t) provide FIRE-compatible early access strategies.",
+      "tickers": [],
+      "suggested_action": "Immediately adjust payroll to contribute $23,000 annually to 401(k) (minimum to capture full employer match, ideally max contribution). Execute backdoor Roth IRA contribution of $7,000 annually. Allocate these tax-advantaged funds to aggressive growth positions (VTI, QQQ mix) since they're locked until retirement. This creates $30K+ annual tax-advantaged savings without reducing your taxable account growth.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Tax savings: 24-32% immediate return on contributions, plus 7-9% long-term growth",
+      "time_horizon": "Implement for 2024 tax year immediately, continue annually through FIRE date",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:31:28.681463",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_892bdf5a",
+      "category": "risk_reduction",
+      "title": "Reduce Individual Stock Concentration to Below 25% of Portfolio",
+      "summary": "Individual stocks (TSLA, NVDA, GOOGL, META, AMZN) represent 35% of portfolio, creating idiosyncratic risk. Reduce to 20-25% by rotating into diversified ETFs while maintaining aggressive growth profile.",
+      "detailed_rationale": "Signal: 35% allocation to individual stocks creates company-specific risk that could derail FIRE timeline if any single position experiences severe decline. Step-by-step reasoning: (1) While your aggressive profile supports individual stock ownership, concentration risk is distinct from market risk. Single stock can decline 50-80% on company-specific issues (regulatory, competition, management) independent of risk tolerance. (2) Your FIRE goal requires predictable accumulation path - knowledge base states 'Time in the market often matters more than timing the market' and 'Diversification reduces portfolio volatility.' Individual stocks increase path dependency risk. (3) Current positions (TSLA, NVDA, GOOGL, META, AMZN) all carry significant idiosyncratic risks: TSLA faces EV competition and regulatory scrutiny, NVDA has semiconductor cycle risk, META/GOOGL have regulatory risk. While growth potential is high, concentration risk is unnecessary given ETF alternatives. (4) Your intermediate experience level suggests stock-picking may not provide sufficient alpha to justify concentration risk versus diversified tech exposure through QQQ. Evidence: Maintaining aggressive profile through ETFs (QQQ already 50% FAANG exposure) provides similar upside with dramatically reduced single-company risk. Trade-off: May miss exceptional individual stock outperformance, but significantly reduces risk of catastrophic loss that would extend FIRE timeline. Recommendation aligns aggressive profile with prudent risk management.",
+      "tickers": [
+        "QQQ",
+        "VTI",
+        "VUG"
+      ],
+      "suggested_action": "Trim individual stock positions from 35% to 20-25% of portfolio by selling 30-40% of holdings with largest gains (consider tax-loss harvesting opportunities). Rotate proceeds into QQQ (for continued tech exposure), VTI (for broad diversification), or VUG (for growth focus). Maintain positions in your highest-conviction stock only. Execute over 3-6 months to manage tax impact.",
+      "suggested_allocation_pct": -10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Minimal expected return difference, primary benefit is risk reduction of 15-25% portfolio volatility",
+      "time_horizon": "Execute rebalancing over next 3-6 months, hold ETF positions through FIRE date",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:31:28.681463",
+      "composite_score": 0.0
+    }
+  ]
+}

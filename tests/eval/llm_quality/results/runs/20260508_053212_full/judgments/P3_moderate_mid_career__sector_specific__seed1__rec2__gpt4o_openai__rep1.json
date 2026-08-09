@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"The rationale uses the user's moderate risk tolerance, long investment horizon, and stable income to justify the recommendation.\",\n    \"C2\": \"The risk level is high, one tier above the user's moderate tolerance, but the rationale justifies this by limiting the allocation to 3-5%.\",\n    \"C3\": \"All claims about the user's current portfolio and the characteristics of emerging markets are accurate and traceable.\",\n    \"C4\": \"The recommendation specifies tickers, allocation percentage, and a clear action plan.\",\n    \"C5\": \"The recommendation addresses diversification by adding emerging markets exposure, which is currently minimal in the user's portfolio.\",\n    \"C6\": \"The recommendation uses calibrated language and acknowledges risks, but lacks an explicit disclaimer.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "The rationale uses the user's moderate risk tolerance, long investment horizon, and stable income to justify the recommendation.",
+      "C2": "The risk level is high, one tier above the user's moderate tolerance, but the rationale justifies this by limiting the allocation to 3-5%.",
+      "C3": "All claims about the user's current portfolio and the characteristics of emerging markets are accurate and traceable.",
+      "C4": "The recommendation specifies tickers, allocation percentage, and a clear action plan.",
+      "C5": "The recommendation addresses diversification by adding emerging markets exposure, which is currently minimal in the user's portfolio.",
+      "C6": "The recommendation uses calibrated language and acknowledges risks, but lacks an explicit disclaimer."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3845,
+    "output_tokens": 244
+  },
+  "session_id": "P3_moderate_mid_career__sector_specific__seed1",
+  "rec_index": 2,
+  "rec_id": "rec_bcf95056",
+  "rubric_version": "1.1"
+}

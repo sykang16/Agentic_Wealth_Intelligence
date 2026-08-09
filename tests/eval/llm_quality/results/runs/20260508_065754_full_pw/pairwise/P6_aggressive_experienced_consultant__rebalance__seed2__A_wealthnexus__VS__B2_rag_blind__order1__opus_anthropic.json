@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"tie\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"A\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A directly addresses the energy question with a diversification-focused trim into underweight sectors (healthcare/consumer) and uses more calibrated language, while System B's energy rec redeploys into already-overweight tech (30%) which worsens concentration. A also has tighter factual grounding and avoids B's mismatched risk_level tags (e.g., labeling BTC trim as 'high' risk reduction).\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "tie",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "A"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A directly addresses the energy question with a diversification-focused trim into underweight sectors (healthcare/consumer) and uses more calibrated language, while System B's energy rec redeploys into already-overweight tech (30%) which worsens concentration. A also has tighter factual grounding and avoids B's mismatched risk_level tags (e.g., labeling BTC trim as 'high' risk reduction)."
+  },
+  "usage": {
+    "input_tokens": 13283,
+    "output_tokens": 267
+  },
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

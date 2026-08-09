@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 2,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 3,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes (aggressive tolerance, advanced experience, loss comfort 8, long horizon, $4M goal, age 45, $280K income) and ties them causally to the recommendation.\",\n    \"C2\": \"User is aggressive but risk_level is set to moderate; the rationale does not justify why a moderate-risk action suits an aggressive investor, making this a one-tier deviation without defensible reasoning.\",\n    \"C3\": \"Claims about holdings and allocations are traceable to the snapshot, but unsupported quantitative projections (12-18% vs 6-9%, S&P energy weight 3-4%) are minor unverified figures.\",\n    \"C4\": \"Specifies tickers, target allocation range, percentage to sell, tax-aware first step, and a 30-60 day timeline \u2014 all four actionability elements present.\",\n    \"C5\": \"Directly identifies the energy overweight and tech concentration in NVDA, and proposes a rebalance that addresses concentration risk explicitly.\",\n    \"C6\": \"Mostly calibrated language, but the expected_return_range phrasing ('Frees capital for 12-18% annually') is overconfident and presented without hedging, and no explicit disclaimer is included.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 2,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 3,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes (aggressive tolerance, advanced experience, loss comfort 8, long horizon, $4M goal, age 45, $280K income) and ties them causally to the recommendation.",
+      "C2": "User is aggressive but risk_level is set to moderate; the rationale does not justify why a moderate-risk action suits an aggressive investor, making this a one-tier deviation without defensible reasoning.",
+      "C3": "Claims about holdings and allocations are traceable to the snapshot, but unsupported quantitative projections (12-18% vs 6-9%, S&P energy weight 3-4%) are minor unverified figures.",
+      "C4": "Specifies tickers, target allocation range, percentage to sell, tax-aware first step, and a 30-60 day timeline \u2014 all four actionability elements present.",
+      "C5": "Directly identifies the energy overweight and tech concentration in NVDA, and proposes a rebalance that addresses concentration risk explicitly.",
+      "C6": "Mostly calibrated language, but the expected_return_range phrasing ('Frees capital for 12-18% annually') is overconfident and presented without hedging, and no explicit disclaimer is included."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6182,
+    "output_tokens": 528
+  },
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed1",
+  "rec_index": 0,
+  "rec_id": "rec_d70b7fee",
+  "rubric_version": "1.1"
+}

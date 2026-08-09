@@ -1,0 +1,109 @@
+{
+  "session_id": "P3_moderate_mid_career__sector_specific__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "sector_specific",
+  "query": "Should I add international or emerging-markets exposure, and if so what proportion is reasonable?",
+  "seed": 2,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "diversify",
+      "title": "Increase International Developed Markets Exposure",
+      "summary": "Boost VXUS allocation from current levels to achieve 25-30% total international equity exposure for better global diversification.",
+      "detailed_rationale": "Your portfolio currently has VXUS (international stocks) but appears underweighted relative to global market cap (~40% of world equity). For a 40-year-old with moderate risk tolerance and long-term horizons (10-25 years), increasing international developed markets exposure provides: (1) Geographic diversification to reduce U.S.-specific risk, (2) Currency diversification benefits, (3) Access to different economic cycles, and (4) Valuation advantages as international markets often trade at lower P/E ratios than U.S. markets. Given your 70% equity allocation target (50% ETF + 20% stock), allocating 25-30% of total portfolio to international developed markets (primarily through VXUS) balances home-country bias with meaningful global exposure. This aligns with your intermediate experience level and moderate risk tolerance.",
+      "tickers": [
+        "VXUS"
+      ],
+      "suggested_action": "Increase allocation to VXUS through systematic purchases over 3-6 months",
+      "suggested_allocation_pct": 25.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually",
+      "time_horizon": "10+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:25:19.987546",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "diversify",
+      "title": "Add Targeted Emerging Markets Exposure",
+      "summary": "Introduce 8-12% emerging markets allocation through VWO or similar low-cost EM ETF to capture high-growth potential.",
+      "detailed_rationale": "Emerging markets represent ~25% of global GDP but often comprise only 10-15% of global equity indices. For your long-term goals (education in 10 years, retirement in 25 years), a modest EM allocation provides: (1) Higher growth potential from developing economies, (2) Further geographic and currency diversification, (3) Demographic advantages as many EMs have younger populations, and (4) Reduced correlation with U.S. markets during certain periods. An 8-12% allocation is appropriate given your moderate risk tolerance (EM volatility is higher) and intermediate experience. This represents meaningful exposure without overconcentration. Consider VWO (Vanguard FTSE Emerging Markets) or IEMG (iShares Core MSCI Emerging Markets) for broad, low-cost exposure. The 10-year education goal timeline allows recovery from potential volatility, while the 25-year retirement horizon is ideal for EM growth potential.",
+      "tickers": [
+        "VWO",
+        "IEMG"
+      ],
+      "suggested_action": "Initiate new position in emerging markets ETF, dollar-cost average over 6 months",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "10+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:25:19.987546",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "rebalance",
+      "title": "Reduce U.S. Technology Concentration to Fund International Expansion",
+      "summary": "Trim individual tech holdings (AAPL, MSFT, NVDA, GOOGL) from 20% to 12-15% of portfolio to fund international diversification.",
+      "detailed_rationale": "Your 35% Technology sector allocation creates significant concentration risk, especially considering VTI also contains substantial tech exposure (~30% of the index). With individual holdings in AAPL, MSFT, NVDA, and GOOGL comprising your entire 20% stock allocation, you have overlapping U.S. mega-cap tech exposure. This concentration conflicts with diversification principles and exposes you to sector-specific risks (regulatory, valuation compression, rate sensitivity). Given your stable income ($175K), emergency fund, and moderate risk tolerance, reducing direct tech stock holdings to 12-15% while increasing international exposure creates a more balanced portfolio. This rebalancing achieves multiple objectives: (1) Reduces single-sector risk, (2) Funds your international expansion without new capital, (3) Potentially harvests gains for tax management, (4) Maintains tech exposure through VTI while improving overall diversification. Keep your highest-conviction tech position but trim others proportionally.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Sell 25-40% of individual tech positions to rebalance, prioritize highest tax-efficiency",
+      "suggested_allocation_pct": 13.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "10+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:25:19.987546",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "buy",
+      "title": "Implement Target International/EM Portfolio Structure",
+      "summary": "Establish final target of 35-40% total international exposure: 25-30% developed markets (VXUS) and 10% emerging markets (VWO).",
+      "detailed_rationale": "Based on your profile, goals, and current portfolio, an optimal structure includes 35-40% international equity exposure split between developed and emerging markets. This comprehensive recommendation synthesizes: (1) Your moderate risk tolerance supports international volatility, (2) Long investment horizons (10 and 25 years) allow time for international markets to perform, (3) Your intermediate experience level is sufficient to understand and maintain international exposure, (4) Stable income and emergency fund provide buffer during higher volatility periods, (5) Education and retirement goals benefit from global diversification. Target structure: 35-40% U.S. equity (VTI + reduced individual stocks), 25-30% international developed (VXUS), 10% emerging markets (VWO), 30% bonds (BND). This maintains your 70/30 equity/bond split while dramatically improving geographic diversification. Implementation: Use monthly cash flows over 6-12 months to build positions, rebalance from tech holdings as outlined above, and consider tax-loss harvesting opportunities during implementation.",
+      "tickers": [
+        "VXUS",
+        "VWO",
+        "VTI"
+      ],
+      "suggested_action": "Execute phased implementation over 6-12 months using new contributions and rebalancing proceeds",
+      "suggested_allocation_pct": 38.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually",
+      "time_horizon": "10+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:25:19.987546",
+      "composite_score": 0.0
+    }
+  ]
+}

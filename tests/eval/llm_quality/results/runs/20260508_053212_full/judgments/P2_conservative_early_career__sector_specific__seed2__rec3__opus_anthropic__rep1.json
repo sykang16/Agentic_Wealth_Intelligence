@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 4,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 3,\n  \"C4_actionability\": 4,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 2,\n  \"rationale\": {\n    \"C1\": \"Cites age, occupation, salary, and conservative risk tolerance to justify the recommendation, with causal reasoning around the match capture.\",\n    \"C2\": \"Risk_level 'low' matches the user's conservative tolerance and the rationale explicitly frames the employer match as risk-free, justifying the fit.\",\n    \"C3\": \"Assumes the user has access to a 401(k) and an employer match, which is not stated in the profile; also fabricates specific match percentages and dollar figures as if confirmed.\",\n    \"C4\": \"Provides a clear first step (check with HR, raise contribution to match), specific dollar figures, and fund-type guidance, but no allocation % and the recommendation is conditional on facts not in the profile.\",\n    \"C5\": \"Mentions choosing a target-date or total market index fund for diversification within the 401(k) but doesn't engage with the existing portfolio's cash-heavy allocation.\",\n    \"C6\": \"Uses guarantee-style language repeatedly ('guaranteed 100% return', 'risk-free gains', '100% immediate return on match') and an expected_return_range that promises returns, which is over-confident framing.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 4,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 3,
+    "C4_actionability": 4,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 2,
+    "rationale": {
+      "C1": "Cites age, occupation, salary, and conservative risk tolerance to justify the recommendation, with causal reasoning around the match capture.",
+      "C2": "Risk_level 'low' matches the user's conservative tolerance and the rationale explicitly frames the employer match as risk-free, justifying the fit.",
+      "C3": "Assumes the user has access to a 401(k) and an employer match, which is not stated in the profile; also fabricates specific match percentages and dollar figures as if confirmed.",
+      "C4": "Provides a clear first step (check with HR, raise contribution to match), specific dollar figures, and fund-type guidance, but no allocation % and the recommendation is conditional on facts not in the profile.",
+      "C5": "Mentions choosing a target-date or total market index fund for diversification within the 401(k) but doesn't engage with the existing portfolio's cash-heavy allocation.",
+      "C6": "Uses guarantee-style language repeatedly ('guaranteed 100% return', 'risk-free gains', '100% immediate return on match') and an expected_return_range that promises returns, which is over-confident framing."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 5897,
+    "output_tokens": 497
+  },
+  "session_id": "P2_conservative_early_career__sector_specific__seed2",
+  "rec_index": 3,
+  "rec_id": "rec_918a06f2",
+  "rubric_version": "1.1"
+}

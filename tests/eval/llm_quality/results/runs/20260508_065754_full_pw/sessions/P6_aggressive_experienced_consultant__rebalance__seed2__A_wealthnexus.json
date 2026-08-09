@@ -1,0 +1,185 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed2",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "rebalance",
+  "query": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+  "seed": 2,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_5052e605",
+      "category": "rebalance",
+      "title": "Trim Energy Overweight to Reduce Sector Concentration Risk",
+      "summary": "Reduce energy allocation from 15% to 8-10% by selling partial positions in XOM and CVX, reallocating proceeds to healthcare and consumer sectors for better diversification.",
+      "detailed_rationale": "(1) Signal: Your energy sector represents 15% of portfolio versus typical aggressive portfolio targets of 8-10%, creating concentration risk in a cyclical, commodity-dependent sector. With holdings in XLE (energy sector ETF), XOM, and CVX, you have triple exposure to the same thesis. (2) Alignment with profile: While your aggressive risk tolerance (loss comfort 8/10) supports sector concentration, the knowledge base emphasizes that 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Your variable income as an independent consultant increases the importance of portfolio stability during energy downturns. With $4M wealth target and legacy planning goals, a 50% energy correction could delay timeline by 2-3 years. (3) Supporting evidence: Your portfolio shows only 10% healthcare allocation versus 30% technology, creating an imbalanced sector profile. Energy sector historically exhibits 30-40% annual volatility versus 20-25% for diversified equity portfolios. Current macro conditions show oil price stabilization after 2022-2023 volatility, suggesting tactical profit-taking opportunity after strong run. (4) Trade-off: You may miss upside if energy enters another supercycle, but trimming to 8-10% still maintains meaningful exposure while reducing single-sector dependency. This rebalancing aligns with the guide's recommendation to 'consider rebalancing when allocations drift more than 5% from targets.'",
+      "tickers": [
+        "XOM",
+        "CVX"
+      ],
+      "suggested_action": "Sell 30-40% of XOM and CVX positions (approximately $80,000-$100,000). Maintain XLE for diversified energy exposure. Redeploy proceeds into healthcare ETF (VHT or XLV) and consumer staples/discretionary (VDC or XLY) to fill sector gaps.",
+      "suggested_allocation_pct": -5.0,
+      "risk_level": "low",
+      "expected_return_range": "Risk reduction move; maintains 8-12% energy sector return potential",
+      "time_horizon": "Execute within 1-2 months to capture current favorable energy valuations",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:14:17.755953",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_ac20f3a0",
+      "category": "diversify",
+      "title": "Add International Developed Markets Exposure",
+      "summary": "Your 15% emerging markets allocation (VWO) lacks developed international diversification. Add 10-15% to developed international equities (Europe, Japan, Australia) for geographic balance.",
+      "detailed_rationale": "(1) Signal: Portfolio analysis reveals 30% domestic technology, 15% emerging markets (VWO), but zero allocation to developed international markets (Europe, Japan, Pacific ex-US). This creates geographic concentration risk in US markets (approximately 70% of equity exposure) and emerging markets dependency. (2) Alignment with profile: Your aggressive risk tolerance and advanced investment experience position you to handle international currency volatility. Your long-term horizon (likely 20+ years at age 45) allows time to benefit from developed international valuations, which currently trade at 30-40% discounts to US market multiples. The knowledge base states 'currency risk affects international investments,' but your $280K income and moderate debt provide buffer against short-term FX fluctuations. Your wealth compounding goal of $4M benefits from accessing the 50% of global equity market cap outside the US. (3) Supporting evidence: Developed international markets (EFA, VEA, IEFA) provide exposure to quality companies in healthcare (Roche, Novartis), industrials (Siemens, Airbus), and consumer goods (LVMH, Nestle) that complement your portfolio. Japan's improving corporate governance and Europe's energy transition investments offer growth catalysts. Your current 15% emerging markets via VWO already covers EM risk; adding developed markets improves diversification without doubling down on emerging market volatility. (4) Trade-off: Developed international markets have underperformed US markets over the past decade, and currency headwinds from strong dollar could continue. However, valuation mean reversion and diversification benefits justify strategic allocation for long-term wealth building.",
+      "tickers": [
+        "VEA",
+        "IEFA",
+        "EFA"
+      ],
+      "suggested_action": "Allocate 10-15% of portfolio ($150,000-$225,000) to developed international equity ETFs. Use VEA (Vanguard FTSE Developed Markets) or IEFA (iShares Core MSCI EAFE) for broad exposure. Source funds from reducing cash position (currently 5%, above emergency fund needs) and partial energy trim.",
+      "suggested_allocation_pct": 12.5,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually over 10+ years",
+      "time_horizon": "Long-term strategic position; dollar-cost average over 3-6 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:14:17.755953",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_4b604f3a",
+      "category": "risk_reduction",
+      "title": "Reduce Cryptocurrency Allocation and Establish Tactical Rebalancing Discipline",
+      "summary": "At 5% portfolio allocation ($75,000), your BTC position represents concentrated risk in a volatile, non-cash-flowing asset. Trim to 2-3% and implement systematic rebalancing rules.",
+      "detailed_rationale": "(1) Signal: Your 5% cryptocurrency allocation (BTC) represents $75,000 in a single asset with 60-80% annual volatility and no underlying cash flows or earnings. While appropriate for an aggressive investor, this exceeds recommended 1-3% allocation for even high risk tolerance profiles. Your knowledge base emphasizes 'portfolio stress testing' and evaluating 'how your portfolio would perform in 2008-style crash scenarios.' A 50-70% BTC drawdown (historically common) would represent $37,500-$52,500 loss, potentially impacting liquidity needs given your medium liquidity requirement and variable consulting income. (2) Alignment with profile: Your loss comfort of 8/10 and advanced experience suggest you understand crypto volatility, but the guide recommends maintaining 3-6 months expenses in liquid savings for 'personal financial emergencies.' With $13,000 monthly expenses, you need $39,000-$78,000 emergency buffer. Your current 5% cash ($75,000) covers this, but crypto volatility could necessitate emergency selling at unfavorable prices. Trimming to 2-3% ($30,000-$45,000) maintains upside exposure while reducing scenario risk. (3) Supporting evidence: Your $1.12M net worth supports aggressive positioning, but the $380K liabilities (moderate debt) and variable income create refinancing or income gap risks where crypto volatility becomes problematic. The asset allocation guide states 'aggressive portfolios may hold 80-90% stocks with minimal bonds' \u2014 you're at 70% stocks/ETFs, appropriate, but crypto should sit outside core allocation framework. Your legacy planning goal for your child ($800K target) benefits from reducing non-traditional asset concentration. (4) Trade-off: Bitcoin may continue substantial appreciation in favorable monetary policy environments. However, trimming from 5% to 2.5% still captures 50% of upside while reducing volatility drag on overall portfolio. Establish rule-based rebalancing: if BTC exceeds 4% due to appreciation, trim back to 2.5%.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Sell 40-50% of BTC holdings, reducing allocation from 5% to 2.5-3% ($37,500-$45,000). Establish automatic rebalancing rule: trim crypto if it exceeds 4% of portfolio, or add if it falls below 1.5%. Deploy proceeds to developed international equities (VEA) and healthcare sector ETF to address diversification gaps identified in recommendation #2.",
+      "suggested_allocation_pct": -2.5,
+      "risk_level": "moderate",
+      "expected_return_range": "Risk management move; maintains 2.5% exposure to potential 20-30% annual crypto returns",
+      "time_horizon": "Execute over 2-4 weeks during favorable market conditions; avoid panic selling",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:14:17.755953",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_af6481df",
+      "category": "tax_optimization",
+      "title": "Harvest Tax Losses in Financials and Implement Systematic Loss Harvesting Strategy",
+      "summary": "With 15% financials allocation (JPM, GS) and recent banking sector volatility, evaluate tax-loss harvesting opportunities while maintaining sector exposure through ETF substitution.",
+      "detailed_rationale": "(1) Signal: Your financials allocation via individual banks (JPM, GS) represents 15% of portfolio in a sector that experienced 2023 volatility (regional banking crisis) and faces 2024 interest rate uncertainty. As an independent consultant with $280K annual income, you likely face significant tax liability. Tax-loss harvesting can generate $3,000 annual ordinary income deductions plus unlimited capital gains offsets. Your advanced investment experience positions you to execute sophisticated tax strategies. (2) Alignment with profile: The knowledge base highlights 'tax-advantaged accounts' but you hold taxable positions (evidenced by individual stock holdings). With variable income, tax planning becomes crucial for cash flow management. Your aggressive risk tolerance supports tactical sector positioning, and ETF substitution (selling JPM/GS at loss, buying XLF financial sector ETF) maintains exposure while harvesting losses without wash sale violations. This aligns with 'tactical allocation makes short-term adjustments to capitalize on market opportunities while staying within risk parameters.' (3) Supporting evidence: If JPM or GS trades below your cost basis, you can harvest losses while maintaining financials exposure through XLF (Financial Select Sector SPDR) or VFH (Vanguard Financials ETF). These ETFs provide diversified exposure to 60-80 financial companies versus concentration in two money-center banks. Your moderate debt level ($380K) may include mortgage interest deductions, but additional tax loss harvesting improves after-tax returns by 0.5-1.5% annually. The retirement planning guide notes '401(k) limits are $23,000 ($30,500 if 50+)' \u2014 at age 45, you're 5 years from catch-up contributions, making taxable account tax efficiency increasingly important. (4) Trade-off: You lose specific exposure to JPM and GS franchises and may trigger wash sales if you repurchase within 30 days. However, systematic loss harvesting across portfolio can generate $5,000-$15,000 annual tax savings (at your income level), equivalent to 0.3-1.0% portfolio return enhancement.",
+      "tickers": [
+        "JPM",
+        "GS",
+        "XLF",
+        "VFH"
+      ],
+      "suggested_action": "Review current cost basis on JPM and GS holdings. If either shows unrealized losses, sell position and immediately purchase XLF or VFH to maintain financials sector exposure without wash sale. Establish systematic tax-loss harvesting review quarterly. If no current losses exist, place alerts for 10-15% drawdowns to harvest opportunistically. Consult with CPA to coordinate with overall tax strategy and maximize $3,000 ordinary loss deduction plus capital gains offsets.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "0.3-1.0% annual after-tax return enhancement through tax savings",
+      "time_horizon": "Ongoing strategy; implement immediately if losses exist, otherwise monitor quarterly",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:14:17.755953",
+      "composite_score": 0.0
+    }
+  ]
+}

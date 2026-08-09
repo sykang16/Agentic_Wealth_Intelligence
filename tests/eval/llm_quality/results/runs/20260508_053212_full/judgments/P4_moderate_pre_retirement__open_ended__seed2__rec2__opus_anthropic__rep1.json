@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 4,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes (moderate risk tolerance, advanced experience, stable $220K income, retirement goal/$1.8M target, 10-year horizon) and ties them causally to the hold decision.\",\n    \"C2\": \"Risk_level 'moderate' matches the user's moderate risk tolerance and the rationale explicitly justifies the fit via defensive/dividend characteristics during the glide path.\",\n    \"C3\": \"Holdings JNJ and UNH and the 22% healthcare figure are traceable to the snapshot; minor unsupported quantitative claims ('60+ years', 6-9% return range) are generic but not fabricated portfolio details.\",\n    \"C4\": \"Provides specific tickers, allocation %, monitoring trigger (>25%), and a first step (reinvest dividends into underweight sectors/bonds), though the time-bound step is loose ('quarterly').\",\n    \"C5\": \"Acknowledges the 22% healthcare overweight and concentration risk but ultimately recommends maintaining the overweight rather than addressing it, making the recommendation allocation-neutral at best.\",\n    \"C6\": \"Uses calibrated language ('may', 'consider', 'historically'), avoids guarantees, and frames trade-offs and regulatory risks appropriately.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 4,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes (moderate risk tolerance, advanced experience, stable $220K income, retirement goal/$1.8M target, 10-year horizon) and ties them causally to the hold decision.",
+      "C2": "Risk_level 'moderate' matches the user's moderate risk tolerance and the rationale explicitly justifies the fit via defensive/dividend characteristics during the glide path.",
+      "C3": "Holdings JNJ and UNH and the 22% healthcare figure are traceable to the snapshot; minor unsupported quantitative claims ('60+ years', 6-9% return range) are generic but not fabricated portfolio details.",
+      "C4": "Provides specific tickers, allocation %, monitoring trigger (>25%), and a first step (reinvest dividends into underweight sectors/bonds), though the time-bound step is loose ('quarterly').",
+      "C5": "Acknowledges the 22% healthcare overweight and concentration risk but ultimately recommends maintaining the overweight rather than addressing it, making the recommendation allocation-neutral at best.",
+      "C6": "Uses calibrated language ('may', 'consider', 'historically'), avoids guarantees, and frames trade-offs and regulatory risks appropriately."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6233,
+    "output_tokens": 551
+  },
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed2",
+  "rec_index": 2,
+  "rec_id": "rec_beb811e7",
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 4,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"The rationale uses the user's aggressive risk tolerance, advanced experience, and long investment horizon to justify the recommendation.\",\n    \"C2\": \"The high risk level of the recommendation matches the user's aggressive risk tolerance and is explicitly justified in the rationale.\",\n    \"C3\": \"All claims about the portfolio and market conditions are traceable to the provided portfolio snapshot and user profile.\",\n    \"C4\": \"The recommendation specifies tickers and allocation percentages but lacks a specific first-step instruction.\",\n    \"C5\": \"The recommendation addresses concentration risk in China by suggesting diversification into India-specific exposure.\",\n    \"C6\": \"The recommendation uses calibrated language and includes no guarantees, aligning with safety and compliance standards.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 4,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "The rationale uses the user's aggressive risk tolerance, advanced experience, and long investment horizon to justify the recommendation.",
+      "C2": "The high risk level of the recommendation matches the user's aggressive risk tolerance and is explicitly justified in the rationale.",
+      "C3": "All claims about the portfolio and market conditions are traceable to the provided portfolio snapshot and user profile.",
+      "C4": "The recommendation specifies tickers and allocation percentages but lacks a specific first-step instruction.",
+      "C5": "The recommendation addresses concentration risk in China by suggesting diversification into India-specific exposure.",
+      "C6": "The recommendation uses calibrated language and includes no guarantees, aligning with safety and compliance standards."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3943,
+    "output_tokens": 234
+  },
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed1",
+  "rec_index": 2,
+  "rec_id": "rec_94c472bb",
+  "rubric_version": "1.1"
+}

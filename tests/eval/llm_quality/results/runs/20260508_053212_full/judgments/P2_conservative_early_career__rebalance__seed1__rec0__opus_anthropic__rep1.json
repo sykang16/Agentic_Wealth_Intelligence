@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Cites multiple specific profile attributes (conservative tolerance, loss comfort 3/10, beginner experience, $3,800 expenses, $72k income, negative net worth, emergency goal) and causally ties them to the hold recommendation.\",\n    \"C2\": \"Risk level 'low' matches conservative tolerance exactly, and the rationale explicitly justifies the risk fit by referencing loss comfort and beginner status.\",\n    \"C3\": \"Numbers tie to inputs (60% cash, $38k debt, negative net worth, $3,800 expenses), though the 4.5-5% APY rate and specific bank names are unsupported by the snapshot but are reasonable generic claims.\",\n    \"C4\": \"Provides concrete next step (move to HYSA), specific institutions, target monthly contribution ($700-800), allocation %, and clear timeline (6-9 months).\",\n    \"C5\": \"Acknowledges the current allocation profile and rationalizes maintaining cash overweight given the user's circumstances rather than worsening concentration risk.\",\n    \"C6\": \"Uses calibrated language ('currently', 'allows you to') and avoids guarantees, though no explicit disclaimer is included at the rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Cites multiple specific profile attributes (conservative tolerance, loss comfort 3/10, beginner experience, $3,800 expenses, $72k income, negative net worth, emergency goal) and causally ties them to the hold recommendation.",
+      "C2": "Risk level 'low' matches conservative tolerance exactly, and the rationale explicitly justifies the risk fit by referencing loss comfort and beginner status.",
+      "C3": "Numbers tie to inputs (60% cash, $38k debt, negative net worth, $3,800 expenses), though the 4.5-5% APY rate and specific bank names are unsupported by the snapshot but are reasonable generic claims.",
+      "C4": "Provides concrete next step (move to HYSA), specific institutions, target monthly contribution ($700-800), allocation %, and clear timeline (6-9 months).",
+      "C5": "Acknowledges the current allocation profile and rationalizes maintaining cash overweight given the user's circumstances rather than worsening concentration risk.",
+      "C6": "Uses calibrated language ('currently', 'allows you to') and avoids guarantees, though no explicit disclaimer is included at the rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 5796,
+    "output_tokens": 520
+  },
+  "session_id": "P2_conservative_early_career__rebalance__seed1",
+  "rec_index": 0,
+  "rec_id": "rec_d99b4d96",
+  "rubric_version": "1.1"
+}

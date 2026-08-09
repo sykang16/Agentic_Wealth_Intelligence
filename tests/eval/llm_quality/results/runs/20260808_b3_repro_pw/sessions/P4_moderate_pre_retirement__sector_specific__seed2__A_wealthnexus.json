@@ -1,0 +1,180 @@
+{
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "sector_specific",
+  "query": "Are there particular sectors I should reduce as I approach retirement, and which ones should I keep for income generation?",
+  "seed": 2,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_e9557525",
+      "category": "rebalance",
+      "title": "Initiate Retirement Glide Path: Reduce Technology and Healthcare Overweight",
+      "summary": "Begin your 10-year glide path by reducing overweight positions in Technology (18%) and Healthcare (22%) to fund a shift toward income-generating and lower-volatility assets appropriate for approaching retirement.",
+      "detailed_rationale": "(1) Signal from portfolio: Your Technology and Healthcare sectors combined represent 40% of your portfolio, which is higher concentration than typical for someone 10 years from retirement. While these sectors have growth potential, they carry higher volatility that conflicts with capital preservation needs as you approach retirement. Your investment guide specifically recommends that portfolios become 'more conservative over time' as retirement approaches. (2) Risk alignment: At age 55 with a moderate risk tolerance (loss comfort 5/10) and medium investment horizon, you're in the critical transition phase where protecting accumulated wealth becomes equally important as growth. Your $755,000 net worth needs to reach $1.8M in 10 years, requiring roughly 9% annual growth\u2014achievable with balanced growth, not aggressive sector concentration. (3) Supporting evidence: The asset allocation guide indicates moderate portfolios should balance 50-60% stocks with 30-40% bonds. You're currently at 55% stocks (ETF+stock+mutual fund), but the sector concentration in high-beta sectors increases effective risk beyond moderate levels. Healthcare specifically is at 22% vs. typical market weight of 13-14%. (4) Trade-off: Reducing these positions means potentially missing some upside if these sectors outperform, but at your stage, downside protection and income generation take precedence over maximum growth. The guide notes this trade-off is inherent in target-date strategies.",
+      "tickers": [
+        "JNJ",
+        "UNH"
+      ],
+      "suggested_action": "Reduce individual healthcare stock positions (JNJ, UNH) by 30-40%, redeploying proceeds into dividend-focused funds and additional bond allocation. This reduces Healthcare from 22% to 15% and begins your glide path adjustment.",
+      "suggested_allocation_pct": -7.0,
+      "risk_level": "low",
+      "expected_return_range": "Reduced volatility, maintaining 6-8% portfolio growth",
+      "time_horizon": "Execute over next 2-3 months to avoid concentrated tax impact",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:28:58.563712",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_7ef3b81b",
+      "category": "diversify",
+      "title": "Add Real Estate Exposure for Income Generation and Inflation Protection",
+      "summary": "Allocate 5-8% to real estate ETFs (VNQ) to add income-generating assets with inflation protection, diversifying away from overweight traditional equity sectors while maintaining growth potential.",
+      "detailed_rationale": "(1) Signal from portfolio and goals: You currently have zero real estate exposure in your portfolio, and your primary goal explicitly requires '$80-100k/yr income' starting at age 65. Real estate investments, particularly REITs, are specifically designed for income generation through dividend distributions. The factsheet for VNQ confirms it 'invests in real estate investment trusts (REITs)' which are required by law to distribute 90% of taxable income. (2) Risk alignment: Real estate provides moderate risk exposure appropriate for your profile\u2014it offers growth potential but with lower correlation to stocks (typically 0.5-0.7 correlation to S&P 500), enhancing diversification. At your stable $220k income and with low debt, you can handle the moderate illiquidity risk mentioned in REIT investments. Your advanced investment experience means you understand REIT taxation and characteristics. (3) Evidence from knowledge base: The asset allocation guide emphasizes that 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Real estate historically provides 3-5% dividend yields, contributing directly to your income generation goal. Your current 5% cash position is excessive for someone with stable income, emergency fund, and 10-year horizon\u2014reallocating half of this to REITs improves portfolio efficiency. (4) Trade-off: REITs are interest-rate sensitive and can underperform during rising rate environments. However, with inflation concerns persistent and your need for income generation, the diversification and yield benefits outweigh timing concerns over your medium-term horizon.",
+      "tickers": [
+        "VNQ"
+      ],
+      "suggested_action": "Purchase VNQ (Vanguard Real Estate ETF) using 2.5% from cash reserves and 2.5% from healthcare stock reductions, creating a 5% real estate allocation. Set up automatic dividend reinvestment until age 60, then switch to cash distributions.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% total return (3-4% dividend yield + 3-5% appreciation)",
+      "time_horizon": "10+ years; transition to income distribution at age 60",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:28:58.563712",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_0e02b63f",
+      "category": "income_generation",
+      "title": "Increase Bond Duration and Quality Focus for Retirement Income Stream",
+      "summary": "Enhance your 35% bond allocation by shifting toward intermediate-term treasury and investment-grade corporate bonds, positioning for stable income generation as you approach retirement.",
+      "detailed_rationale": "(1) Signal from portfolio and profile: While your 35% bond allocation (via BND) is appropriate for moderate risk, your approaching retirement timeline (10 years) and specific income goal ($80-100k annually) require optimizing fixed income for predictable cash flows. The BND factsheet shows it holds 10,000+ bonds with 0.03% expenses, providing broad exposure but not optimized for your specific income timeline. Your retirement planning guide states that as you approach retirement, portfolios should 'become more conservative over time'\u2014at 55, you're entering the critical 10-year window. (2) Risk alignment: With stable $220k income, low debt, and an emergency fund, you can handle modest interest rate risk in exchange for higher yields. Your moderate risk tolerance and loss comfort of 5/10 suggests you can withstand bond volatility but need protection against equity drawdowns. The guide recommends moderate portfolios hold 30-40% bonds; you're at 35%, which is appropriate, but the composition needs refinement for income focus. (3) Supporting evidence: Your $11k monthly expenses ($132k annually) against target retirement income of $80-100k suggests you'll need portfolio income to supplement Social Security. The retirement guide notes 'delaying Social Security benefits until age 70 can increase monthly payments by up to 77%'\u2014if you follow this strategy, you'll need portfolio income from 65-70. Investment-grade corporate bonds currently yield 5-6% vs. the aggregate bond market's 4-5%, providing 100-150bps additional income without excessive credit risk. (4) Trade-off: Moving from total bond market to more focused corporate/treasury allocation reduces diversification within fixed income and may have slightly higher volatility. However, for your income generation priority, the yield pickup and more predictable cash flows justify this focused approach.",
+      "tickers": [
+        "BND",
+        "VCIT",
+        "VGIT"
+      ],
+      "suggested_action": "Gradually shift 50% of BND holdings to a combination of VCIT (Vanguard Intermediate-Term Corporate Bond ETF) for higher yield and VGIT (Vanguard Intermediate-Term Treasury ETF) for stability, creating a 17.5% intermediate corporate, 17.5% split between BND and treasuries. This increases yield while maintaining appropriate duration for your 10-year horizon.",
+      "suggested_allocation_pct": 17.5,
+      "risk_level": "low",
+      "expected_return_range": "4.5-6% yield with moderate price stability",
+      "time_horizon": "Begin immediately; complete transition over 6-12 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:28:58.563712",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_e2553109",
+      "category": "tax_optimization",
+      "title": "Maximize Age 50+ Catch-Up Contributions for Tax-Advantaged Retirement Funding",
+      "summary": "With $220k income and only 10 years to retirement, maximize 401(k) catch-up contributions ($30,500 for 2024) to accelerate retirement savings with immediate tax benefits and ensure you reach your $1.8M target.",
+      "detailed_rationale": "(1) Signal from profile and goals: Your current net worth is $755k with a target of $1.8M in 10 years\u2014a $1.045M gap. At 9% annual returns, you need to contribute approximately $50k annually to reach this goal. Your $220k income easily supports this, especially with only $11k monthly expenses ($132k annually) and low debt. The retirement guide explicitly states: 'For 2024, 401(k) limits are $23,000 ($30,500 if 50+)'\u2014you're eligible for the full catch-up amount. (2) Risk alignment: This is a risk-free enhancement to your strategy. Your stable income as an operations director, combined with low debt and existing emergency fund, means you have the cash flow capacity. The immediate tax deduction (likely 24-32% federal bracket at $220k income) provides $7,300-$9,800 in annual tax savings, effectively reducing the true cost of contributions. (3) Supporting evidence: The guide emphasizes 'tax-advantaged accounts provide tax benefits that accelerate wealth building' and notes 'employer matching is essentially free money with an immediate 100% return.' While not mentioned in your profile, if your employer offers any match, you must capture it fully. Even without matching, the tax deferral and compound growth in a 401(k) significantly accelerates wealth building. Contributing $30,500 annually at 8% returns over 10 years adds approximately $470k to your retirement assets\u2014nearly half your remaining gap. Combined with growth on existing $755k at 8%, you'd reach approximately $1.9M, exceeding your target. (4) Trade-off: Maxing contributions reduces current take-home pay, but your expense-to-income ratio (60%) leaves ample room. The liquidity reduction is minimal given your existing emergency fund and the fact that these are retirement funds you don't need for 10 years anyway.",
+      "tickers": [],
+      "suggested_action": "Immediately increase 401(k) contributions to the maximum $30,500 annual limit (if not already doing so). If employer plan allows, split between traditional (for immediate tax deduction) and Roth (for tax-free retirement income) based on your tax bracket. Direct contributions toward your existing allocation strategy with gradual shift toward bonds as you approach retirement.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "8-10% within tax-advantaged growth, plus immediate 24-32% tax savings",
+      "time_horizon": "Immediate and ongoing through age 65",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:28:58.563712",
+      "composite_score": 0.0
+    }
+  ]
+}

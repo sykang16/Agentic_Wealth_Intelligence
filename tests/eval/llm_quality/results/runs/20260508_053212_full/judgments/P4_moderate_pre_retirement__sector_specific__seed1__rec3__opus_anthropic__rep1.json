@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Cites multiple specific profile attributes (age 55, 10-year horizon, moderate risk tolerance, loss comfort 5/10, retirement goal, $850k assets) and ties them causally to the glide-path recommendation.\",\n    \"C2\": \"Risk_level 'low' is one tier below the user's moderate tolerance, but the rationale defensibly justifies the conservative tilt as part of a pre-retirement de-risking glide path.\",\n    \"C3\": \"Most claims are traceable to the portfolio (BND holding, 35% bonds, 55% equity, $850k assets), though specific figures like '2008 saw 55% equity portfolios decline 28-32%' and current bond yields are unsupported but minor.\",\n    \"C4\": \"Provides concrete tickers (BND, BNDX), specific allocation percentages, a 5-year time-bound schedule (1%/year), and a clear first step (add to existing BND).\",\n    \"C5\": \"The recommendation addresses asset-type allocation but does not engage with the user's actual question about sector concentration (Healthcare 22%, Financials 18%, Tech 18%); it is allocation-neutral on sectors.\",\n    \"C6\": \"Uses calibrated language ('should', 'consider', 'historical returns'), no guarantees, and frames trade-offs explicitly.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Cites multiple specific profile attributes (age 55, 10-year horizon, moderate risk tolerance, loss comfort 5/10, retirement goal, $850k assets) and ties them causally to the glide-path recommendation.",
+      "C2": "Risk_level 'low' is one tier below the user's moderate tolerance, but the rationale defensibly justifies the conservative tilt as part of a pre-retirement de-risking glide path.",
+      "C3": "Most claims are traceable to the portfolio (BND holding, 35% bonds, 55% equity, $850k assets), though specific figures like '2008 saw 55% equity portfolios decline 28-32%' and current bond yields are unsupported but minor.",
+      "C4": "Provides concrete tickers (BND, BNDX), specific allocation percentages, a 5-year time-bound schedule (1%/year), and a clear first step (add to existing BND).",
+      "C5": "The recommendation addresses asset-type allocation but does not engage with the user's actual question about sector concentration (Healthcare 22%, Financials 18%, Tech 18%); it is allocation-neutral on sectors.",
+      "C6": "Uses calibrated language ('should', 'consider', 'historical returns'), no guarantees, and frames trade-offs explicitly."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6193,
+    "output_tokens": 556
+  },
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed1",
+  "rec_index": 3,
+  "rec_id": "rec_e0ea331e",
+  "rubric_version": "1.1"
+}

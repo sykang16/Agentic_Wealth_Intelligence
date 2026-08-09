@@ -1,0 +1,110 @@
+{
+  "session_id": "P5_aggressive_young_professional__open_ended__seed2",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "open_ended",
+  "query": "I'm aiming for FIRE in about 15 years. Am I on the right track with my current allocation?",
+  "seed": 2,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "diversify",
+      "title": "Reduce Technology Concentration Risk",
+      "summary": "Your portfolio has 65% concentrated in technology sector, creating significant single-sector risk that could derail your FIRE timeline if tech underperforms.",
+      "detailed_rationale": "While your aggressive risk tolerance and long time horizon support growth investing, having 65% in technology (plus additional crypto exposure) creates unnecessary concentration risk. A sustained tech downturn could severely impact your 15-year FIRE goal. Historical sector rotation shows that no single sector leads indefinitely. Diversifying into healthcare, financials, industrials, and international markets would maintain growth potential while reducing volatility. Consider adding VHT (healthcare), VFH (financials), or VGK (European stocks) to achieve better risk-adjusted returns over your timeline.",
+      "tickers": [
+        "VHT",
+        "VFH",
+        "VGK",
+        "VWO"
+      ],
+      "suggested_action": "Gradually reduce tech exposure from 65% to 40-45% over next 6-12 months through strategic rebalancing",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-11%",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:34:47.989414",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "rebalance",
+      "title": "Increase Broad Market Index Exposure",
+      "summary": "Shift from individual stock picking to more diversified index funds to reduce company-specific risk and improve reliability for FIRE planning.",
+      "detailed_rationale": "Your 35% allocation to individual stocks (TSLA, NVDA, GOOGL, META, AMZN) adds unnecessary volatility for a FIRE-focused strategy. While these may outperform, they also carry higher downside risk. For reliable wealth accumulation toward a $2.5M target, increasing VTI (total market) and adding complementary index funds like VXUS (international) provides better risk-adjusted returns. This approach reduces the chance of permanent capital loss from individual company failures while maintaining strong growth potential. With $195K income and $5.5K monthly expenses, you can save ~$90K+ annually\u2014consistent index investing will compound more predictably than stock picking.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "SCHD"
+      ],
+      "suggested_action": "Reduce individual stocks from 35% to 15-20%, increase broad index funds to 60-65% total equity allocation",
+      "suggested_allocation_pct": 25.0,
+      "risk_level": "moderate",
+      "expected_return_range": "9-12%",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:34:47.989414",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "risk_reduction",
+      "title": "Reassess Cryptocurrency Allocation",
+      "summary": "5% crypto allocation is appropriate for aggressive profile, but consider capping at this level given volatility and FIRE goal dependency.",
+      "detailed_rationale": "Your 5% BTC allocation ($9,000) is reasonable for someone with aggressive risk tolerance and high loss comfort (9/10). However, crypto's extreme volatility and lack of fundamental value anchors make it unsuitable for increasing beyond this level when you have a specific FIRE target. Crypto should be viewed as a high-risk/high-reward satellite position that could accelerate your timeline if successful, but won't derail it if it fails. Keep this allocation at 5% or less, and resist the temptation to increase during bull markets. Your core FIRE strategy should rely on equity markets with 100+ years of wealth creation history.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Maintain crypto at 5% maximum, rebalance annually to prevent allocation drift during bull runs",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "high",
+      "expected_return_range": "-20% to +40%",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:34:47.989414",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "buy",
+      "title": "Add Small-Cap Value Exposure for Enhanced Returns",
+      "summary": "Adding small-cap value stocks through VBR or AVUV could boost long-term returns based on factor investing research.",
+      "detailed_rationale": "Academic research shows small-cap value stocks have historically delivered premium returns over long periods (Fama-French factors). With 15 years to FIRE, you have sufficient time horizon to capture these premiums despite higher short-term volatility. Your current portfolio is heavily weighted toward large-cap growth (QQQ, tech stocks). Adding 10-15% to small-cap value via VBR or AVUV provides complementary exposure that tends to outperform during different market cycles. This enhances diversification while maintaining aggressive growth orientation. Given your stable income, low expenses, and emergency fund, you can weather the volatility. This addition could meaningfully accelerate your path to $2.5M.",
+      "tickers": [
+        "VBR",
+        "AVUV",
+        "VIOV"
+      ],
+      "suggested_action": "Allocate 10-15% to small-cap value funds using new contributions over next 6 months",
+      "suggested_allocation_pct": 12.0,
+      "risk_level": "high",
+      "expected_return_range": "10-14%",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:34:47.989414",
+      "composite_score": 0.0
+    }
+  ]
+}

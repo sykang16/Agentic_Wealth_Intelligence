@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B more deeply personalizes recommendations by tying advice to specific profile attributes (education goal timeline, loss comfort 6/10, income, two children) and offers more actionable steps including a 529 plan strategy with concrete dollar amounts and glide path. System A is slightly more factually grounded (e.g., correct ~26% tech weight in VTI vs B's ~30% claim), but B's stronger personalization and actionability give it the overall edge.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "B",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B more deeply personalizes recommendations by tying advice to specific profile attributes (education goal timeline, loss comfort 6/10, income, two children) and offers more actionable steps including a 529 plan strategy with concrete dollar amounts and glide path. System A is slightly more factually grounded (e.g., correct ~26% tech weight in VTI vs B's ~30% claim), but B's stronger personalization and actionability give it the overall edge."
+  },
+  "usage": {
+    "input_tokens": 12454,
+    "output_tokens": 283
+  },
+  "session_id": "P3_moderate_mid_career__rebalance__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

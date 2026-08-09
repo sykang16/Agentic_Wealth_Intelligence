@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 4,\n  \"C2_risk_alignment\": 2,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale references multiple specific profile attributes (variable consulting income, age 45, long horizon, $4M wealth goal, $800K legacy goal) and uses them to justify the recommendation.\",\n    \"C2\": \"User has aggressive risk tolerance but rec is labeled moderate; rationale offers a diversification justification but the deviation is one tier off and somewhat in tension with the user's stated comfort with cyclical drawdowns.\",\n    \"C3\": \"Claims about 30% tech, 10% healthcare, NVDA holding, and absence of staples/utilities are traceable to the snapshot; the '7-10% annually' return range is a minor unsupported quantitative claim.\",\n    \"C4\": \"Specifies concrete tickers (VHT, VDC), exact allocation targets (30%\u219220-22%), dollar amounts ($100K-$120K), and a clear first step (trim NVDA by 40-50%).\",\n    \"C5\": \"Directly identifies the 30% technology overweight and the underweight in defensive sectors, and the recommendation explicitly rebalances toward them.\",\n    \"C6\": \"Uses calibrated language ('may sacrifice', 'historical data shows'), no guarantees, and frames trade-offs appropriately.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 4,
+    "C2_risk_alignment": 2,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale references multiple specific profile attributes (variable consulting income, age 45, long horizon, $4M wealth goal, $800K legacy goal) and uses them to justify the recommendation.",
+      "C2": "User has aggressive risk tolerance but rec is labeled moderate; rationale offers a diversification justification but the deviation is one tier off and somewhat in tension with the user's stated comfort with cyclical drawdowns.",
+      "C3": "Claims about 30% tech, 10% healthcare, NVDA holding, and absence of staples/utilities are traceable to the snapshot; the '7-10% annually' return range is a minor unsupported quantitative claim.",
+      "C4": "Specifies concrete tickers (VHT, VDC), exact allocation targets (30%\u219220-22%), dollar amounts ($100K-$120K), and a clear first step (trim NVDA by 40-50%).",
+      "C5": "Directly identifies the 30% technology overweight and the underweight in defensive sectors, and the recommendation explicitly rebalances toward them.",
+      "C6": "Uses calibrated language ('may sacrifice', 'historical data shows'), no guarantees, and frames trade-offs appropriately."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6013,
+    "output_tokens": 530
+  },
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed2",
+  "rec_index": 0,
+  "rec_id": "rec_3fab0ec7",
+  "rubric_version": "1.1"
+}

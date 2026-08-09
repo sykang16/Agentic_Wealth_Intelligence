@@ -1,0 +1,109 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed1",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "open_ended",
+  "query": "Given my variable income from consulting, how should I think about cash buffers versus staying fully deployed?",
+  "seed": 1,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "rebalance",
+      "title": "Establish Dynamic Cash Reserve Strategy",
+      "summary": "Increase cash allocation to 12-15% to create a robust buffer against income variability while maintaining aggressive growth positioning in equities.",
+      "detailed_rationale": "With variable consulting income and $13K monthly expenses ($156K annually), your current 5% cash position ($75K) provides only ~5 months of coverage. Given your aggressive risk tolerance and advanced experience, recommend a tiered approach: maintain 9-12 months emergency fund ($117K-156K) plus 3-6 months opportunity fund ($39K-78K) for market downturns. This totals 12-15% allocation. Fund by trimming overweight Technology exposure (currently 30% vs diversified benchmark ~25%) and taking profits from NVDA which has had exceptional returns. This preserves capital deployment in growth assets while providing income stability cushion without sacrificing long-term compounding potential.",
+      "tickers": [
+        "NVDA",
+        "VTI"
+      ],
+      "suggested_action": "Reduce NVDA position by 30-40% and trim VTI by 5-7% to raise cash reserves to $180K-225K total",
+      "suggested_allocation_pct": 12.0,
+      "risk_level": "moderate",
+      "expected_return_range": "0-2%",
+      "time_horizon": "immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:47:26.199809",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "diversify",
+      "title": "Add International Developed Markets Exposure",
+      "summary": "Allocate 10-12% to international developed markets (Europe/Japan) to reduce home bias and enhance diversification beyond current emerging markets tilt.",
+      "detailed_rationale": "Your portfolio shows strong US concentration (VTI, individual US stocks) with only 15% emerging markets (VWO). Adding developed international markets through VEA or VXUS provides: (1) valuation advantages as European/Japanese equities trade at lower multiples than US, (2) currency diversification against dollar volatility affecting your consulting income, (3) reduced correlation during US-specific downturns. With aggressive risk tolerance and long horizon to age 65+, this enhances geographic diversification without reducing equity exposure. Your advanced experience positions you well to handle international volatility. Fund through partial reduction of redundant VTI/individual stock overlap.",
+      "tickers": [
+        "VEA",
+        "VXUS"
+      ],
+      "suggested_action": "Initiate 10-12% position in VEA or VXUS, funded by reducing VTI overlap with individual holdings",
+      "suggested_allocation_pct": 11.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-12%",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:47:26.199809",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "risk_reduction",
+      "title": "Reduce Crypto Concentration Risk",
+      "summary": "Decrease crypto allocation from 5% to 2-3% given its extreme volatility and your need for income stability with variable consulting revenues.",
+      "detailed_rationale": "While your aggressive risk tolerance and loss comfort (8/10) support alternative assets, 5% crypto ($75K) represents significant volatility risk given variable income. Bitcoin's 50-80% drawdown potential could coincide with consulting income gaps, forcing liquidation at unfavorable prices. Your $380K debt (likely mortgage) and medium liquidity needs require more predictable asset behavior. Recommend reducing to 2-3% ($30K-45K) while maintaining exposure for asymmetric upside aligned with your wealth compounding goals. Redeploy proceeds to quality growth equities (technology, healthcare) that offer high returns with more manageable volatility. This optimizes risk-adjusted returns while preserving aggressive growth orientation.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Reduce BTC position by 40-60%, reallocating to quality growth stocks or emerging technology leaders",
+      "suggested_allocation_pct": 2.5,
+      "risk_level": "high",
+      "expected_return_range": "varies",
+      "time_horizon": "immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:47:26.199809",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "income_generation",
+      "title": "Implement Covered Call Strategy on Core Holdings",
+      "summary": "Generate 2-4% additional annual income through selective covered call writing on VTI, XLE, and large-cap individual positions to smooth variable consulting cash flows.",
+      "detailed_rationale": "Given variable consulting income and advanced investment experience, implementing a disciplined covered call strategy on 30-40% of equity holdings can generate $30K-60K annual premium income (~2-4% portfolio yield). Focus on: (1) VTI - sell 30-45 day calls at 5-7% out-of-money strikes, (2) XLE/XOM - capitalize on energy volatility while maintaining positions, (3) CAT/DE - industrial cyclicals where you can accept capping upside. This creates quasi-fixed income stream smoothing revenue volatility without reducing equity exposure or compromising long-term growth. Avoid writing calls on NVDA given momentum. Strategy aligns with your sophisticated experience level and provides downside cushion during income gaps without triggering tax events from outright sales.",
+      "tickers": [
+        "VTI",
+        "XLE",
+        "XOM",
+        "CAT",
+        "DE"
+      ],
+      "suggested_action": "Initiate covered call program on 30-40% of equity positions, targeting 2-4% annual premium yield",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "moderate",
+      "expected_return_range": "2-4%",
+      "time_horizon": "medium",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "low",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:47:26.199809",
+      "composite_score": 0.0
+    }
+  ]
+}

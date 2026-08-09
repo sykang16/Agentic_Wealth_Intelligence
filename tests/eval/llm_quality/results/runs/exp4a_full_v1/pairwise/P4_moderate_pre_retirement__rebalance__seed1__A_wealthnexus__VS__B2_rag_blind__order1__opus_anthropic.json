@@ -1,0 +1,30 @@
+{
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "rebalance",
+  "seed": 1,
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A directly answers the user's query with a true year-by-year (phased) glide path across four sequential recommendations, with strong personalization to age, horizon, and $1.8M goal at each phase. System B provides one glide-path schedule plus three tangential recommendations (Treasuries, dividend ETF, concentration reduction) that, while useful, drift from the specific year-by-year walkthrough requested.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A directly answers the user's query with a true year-by-year (phased) glide path across four sequential recommendations, with strong personalization to age, horizon, and $1.8M goal at each phase. System B provides one glide-path schedule plus three tangential recommendations (Treasuries, dividend ETF, concentration reduction) that, while useful, drift from the specific year-by-year walkthrough requested."
+  },
+  "usage": {
+    "input_tokens": 13611,
+    "output_tokens": 264
+  }
+}

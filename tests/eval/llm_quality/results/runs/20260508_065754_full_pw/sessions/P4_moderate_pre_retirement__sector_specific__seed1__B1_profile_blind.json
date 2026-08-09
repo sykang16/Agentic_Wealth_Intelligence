@@ -1,0 +1,179 @@
+{
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "sector_specific",
+  "query": "Are there particular sectors I should reduce as I approach retirement, and which ones should I keep for income generation?",
+  "seed": 1,
+  "system": "B1_profile_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_8def63be",
+      "category": "diversify",
+      "title": "Add Real Estate Exposure for Retirement Income Diversification",
+      "summary": "Introduce 5-8% allocation to real estate (VNQ) to diversify income sources and reduce concentration in Healthcare and Financials as you approach retirement.",
+      "detailed_rationale": "(1) Signal: Your portfolio shows 22% Healthcare and 18% Financials concentration, which creates sector-specific risk as you approach retirement when capital preservation becomes critical. You currently have 0% real estate exposure despite holding $755k net worth. (2) Alignment: Real estate provides income generation through dividends (typically 3-4% yield from REITs), which aligns with retirement income needs. The knowledge base indicates conservative-to-moderate portfolios benefit from diversification across non-correlated asset classes. Your current 40% ETF, 35% bond mix suggests moderate risk tolerance suitable for adding income-generating real estate. (3) Evidence: The VNQ factsheet shows it holds 160 diversified REIT positions with 0.12% expense ratio, providing broad real estate exposure. Historically, REITs have low correlation with healthcare and financial sectors, offering genuine diversification. Your knowledge base explicitly states 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' (4) Trade-offs: Real estate can be volatile during economic downturns and interest rate increases. REITs are sensitive to rising rates, which could impact short-term performance. However, the income generation and inflation hedge properties make this appropriate for pre-retirement positioning.",
+      "tickers": [
+        "VNQ"
+      ],
+      "suggested_action": "Allocate 5-8% of portfolio ($38,000-$60,000) to VNQ by reducing overweight Healthcare position (JNJ or UNH) by 3-4% and Financials (JPM) by 2-4%. Execute over 2-3 months to average entry price.",
+      "suggested_allocation_pct": 6.5,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually (including dividends)",
+      "time_horizon": "5-15 years through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:04:12.546786",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_364e718f",
+      "category": "risk_reduction",
+      "title": "Gradually Reduce Technology Concentration Pre-Retirement",
+      "summary": "Decrease Technology sector exposure from 18% to 12-14% over next 12-18 months to lower volatility risk as retirement approaches.",
+      "detailed_rationale": "(1) Signal: At 18% Technology allocation, you're carrying higher volatility than typically recommended for pre-retirement portfolios. While your knowledge base doesn't show specific tech holdings detail, the 18% concentration exceeds conservative pre-retirement guidance. As you approach retirement, the asset allocation guide states portfolios should 'become more conservative over time' similar to target-date funds. (2) Alignment: Reducing tech exposure aligns with the retirement planning principle of capital preservation becoming increasingly important. Your 35% bond allocation already shows moderate-conservative positioning, but 18% tech creates asymmetric risk. The allocation models in your knowledge base suggest conservative portfolios hold 20-40% stocks total, and your current equity mix should tilt away from growth/volatility sectors. (3) Evidence: Technology historically shows 20-30% annual volatility versus 12-15% for consumer staples or utilities. Your knowledge base emphasizes 'regular rebalancing ensures your portfolio stays aligned with target allocations' and recommends action 'when allocations drift more than 5% from targets.' An 18% tech position likely exceeds prudent pre-retirement targets by 4-6%. (4) Trade-offs: Technology has driven strong returns over the past decade, and reducing exposure means potentially missing some upside. However, sequence-of-returns risk (losses near retirement) is more damaging than opportunity cost of capped gains. You're trading growth potential for stability.",
+      "tickers": [],
+      "suggested_action": "Reduce Technology sector allocation by 4-6 percentage points ($34,000-$51,000) over 12-18 months. Reallocate proceeds 60% to bond position (BND) and 40% to Consumer Staples or Utilities for defensive equity exposure. Use tax-loss harvesting opportunities if available.",
+      "suggested_allocation_pct": -5.0,
+      "risk_level": "low",
+      "expected_return_range": "Lower overall volatility, modest return reduction of 0.5-1% annually",
+      "time_horizon": "12-18 months execution, benefit through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:04:12.546786",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_10a6678d",
+      "category": "income_generation",
+      "title": "Maintain and Slightly Increase High-Quality Dividend Holdings",
+      "summary": "Preserve current positions in JNJ, PG, and consider increasing Consumer Staples allocation by 2-3% for reliable retirement income generation.",
+      "detailed_rationale": "(1) Signal: Your holdings include JNJ (healthcare dividend aristocrat) and PG (consumer staples dividend aristocrat), representing quality income generators. At 10% Consumer Staples and 22% Healthcare, you have solid income foundation, but could optimize further. Your query specifically asks about sectors to 'keep for income generation' as you approach retirement. (2) Alignment: The retirement planning guide emphasizes building reliable income streams. Dividend aristocrats like JNJ and PG have 25+ year histories of annual dividend increases, providing inflation-protected income. These sectors (Healthcare, Consumer Staples) are defensive with lower volatility than market average - essential for retirement portfolios. Your 35% bond allocation provides fixed income, but quality dividend stocks offer growth potential bonds lack while maintaining income. (3) Evidence: Healthcare and Consumer Staples typically yield 2.5-3.5% with dividend growth of 5-7% annually. JNJ specifically has increased dividends for 60+ consecutive years. Your knowledge base states conservative allocations should emphasize 'capital preservation, bonds, dividend stocks' - you're well-positioned here. Consumer Staples at only 10% could be increased to 12-13% for enhanced income without excessive concentration. (4) Trade-offs: Dividend stocks still carry equity risk and can decline in value. However, quality dividend payers historically show lower drawdowns than growth stocks. Increasing staples slightly means reducing something else, likely your cash position (currently 5%) which earns minimal yield.",
+      "tickers": [
+        "JNJ",
+        "PG"
+      ],
+      "suggested_action": "Hold current JNJ and PG positions indefinitely. Add 2-3% ($17,000-$25,000) to Consumer Staples sector through additional PG shares or diversified consumer staples ETF. Fund from cash position, reducing cash from 5% to 2-3%. Set dividends to reinvest automatically until retirement, then switch to cash distribution.",
+      "suggested_allocation_pct": 2.5,
+      "risk_level": "low",
+      "expected_return_range": "5-8% annually (3% yield + 2-5% growth)",
+      "time_horizon": "Permanent hold through retirement and beyond",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:04:12.546786",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_a814d739",
+      "category": "rebalance",
+      "title": "Reduce Healthcare Overweight to Mitigate Sector Concentration Risk",
+      "summary": "Trim Healthcare allocation from 22% to 16-18% to reduce single-sector risk while maintaining quality dividend exposure through retained JNJ position.",
+      "detailed_rationale": "(1) Signal: Healthcare at 22% represents your largest sector concentration, exceeding typical diversified portfolio targets by 6-8 percentage points. While healthcare is defensive and appropriate for pre-retirement, this concentration creates single-sector regulatory, innovation, and policy risk. Your knowledge base explicitly warns about 'concentration risk' in fund descriptions. (2) Alignment: The asset allocation guide emphasizes 'diversification reduces portfolio volatility' and recommends rebalancing 'when allocations drift more than 5% from targets.' A 22% single-sector allocation likely exceeds prudent diversification standards for a moderate risk investor approaching retirement. Healthcare is appropriate to maintain (it's defensive and income-generating), but at a more balanced 16-18% weighting. This reduction complements the real estate addition recommendation and maintains overall portfolio balance. (3) Evidence: Your holdings show both JNJ and UNH in healthcare, representing pharmaceutical and insurance sub-sectors. While both are quality companies, combined they create concentration. The knowledge base rebalancing guidance suggests annual review and action when positions drift >5% from target - healthcare appears 5-7% overweight for a diversified moderate portfolio. Standard portfolio construction suggests no single sector should exceed 20% for non-index investors. (4) Trade-offs: Healthcare has defensive characteristics valuable in retirement, and both JNJ and UNH are quality holdings. Reducing means lower exposure to an aging demographic tailwind. However, concentration risk outweighs sector-specific opportunity, and you'll retain 16-18% exposure to maintain healthcare benefits.",
+      "tickers": [
+        "UNH",
+        "JNJ"
+      ],
+      "suggested_action": "Reduce Healthcare allocation by 4-6 percentage points ($34,000-$51,000). Recommend selling partial UNH position (retain or reduce JNJ less due to superior dividend history). Reallocate proceeds: 40% to real estate (VNQ), 30% to increased bond position (BND), 30% to Consumer Staples. Execute over 2-3 months.",
+      "suggested_allocation_pct": -5.0,
+      "risk_level": "low",
+      "expected_return_range": "Minimal return impact, significant risk reduction through diversification",
+      "time_horizon": "Execute over 2-3 months, benefit ongoing",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:04:12.546786",
+      "composite_score": 0.0
+    }
+  ]
+}

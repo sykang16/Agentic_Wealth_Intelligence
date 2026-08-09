@@ -1,0 +1,164 @@
+{
+  "session_id": "P3_moderate_mid_career__rebalance__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "rebalance",
+  "query": "My tech exposure is around 35% across my ETFs and individual stocks. Is that too concentrated, and how would I trim it?",
+  "seed": 2,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_724a7a7e",
+      "category": "rebalance",
+      "title": "Reduce Technology Concentration to 25-28%",
+      "summary": "Your 35% technology allocation exceeds prudent diversification limits for a moderate risk profile. Trim individual tech holdings and redirect to underweight sectors.",
+      "detailed_rationale": "Signal: Your technology sector exposure at 35% is significantly concentrated, especially for a moderate risk investor with two high-priority goals requiring capital preservation over 10-25 years. Step-by-step reasoning: (1) Portfolio analysis shows Technology represents 35% vs. the S&P 500's ~29% weighting, creating single-sector risk. Your holdings (AAPL, MSFT, NVDA, GOOGL) plus tech-heavy VTI create overlap and amplified volatility exposure. (2) With your moderate risk tolerance (loss comfort: 6/10) and critical education goal in 10 years, a 35% concentration in one cyclical sector exposes you to significant drawdown risk if tech corrects 20-30%, which historically occurs every 3-5 years. Your $200K education target requires more stability as the timeframe approaches. (3) Modern portfolio theory suggests sector allocations above 30% increase unsystematic risk without proportional return benefits. Academic research (Fama-French) shows diversification across sectors reduces volatility by 15-25% while maintaining similar returns. (4) Trade-off: Tech has outperformed recently, so trimming may feel like missing gains, but rebalancing is about risk management, not market timing. You'll maintain meaningful tech exposure at 25-28%, just with better risk-adjusted positioning.",
+      "tickers": [
+        "NVDA",
+        "GOOGL",
+        "AAPL"
+      ],
+      "suggested_action": "Sell 40-50% of your NVDA and GOOGL positions (higher volatility individual stocks). Reduce AAPL position by 25%. This should lower tech allocation to 25-28% while maintaining exposure through MSFT and VTI's tech component.",
+      "suggested_allocation_pct": -7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Risk reduction focused; maintain 7-9% portfolio return",
+      "time_horizon": "Immediate rebalancing; reassess quarterly",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:12:31.551610",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_5786182d",
+      "category": "diversify",
+      "title": "Increase Healthcare and Consumer Staples to 20% Combined",
+      "summary": "Redirect proceeds from tech trimming into defensive sectors (Healthcare 15%, Consumer Staples 5%) to balance your portfolio for both growth and stability.",
+      "detailed_rationale": "Signal: Your Healthcare allocation at 12% and complete absence of Consumer Staples creates a gap in defensive positioning needed for your moderate risk profile and dual high-priority goals. Step-by-step reasoning: (1) Your sector allocation shows Technology 35%, but defensive sectors are underweight\u2014Healthcare at only 12% vs. 13-14% market weight, and Consumer Staples at 0% vs. 6-7% market weight. This creates excessive cyclical exposure. (2) As a 40-year-old with stable income but $9,500 monthly expenses and a 10-year education funding goal, you need sectors that perform during economic downturns. Healthcare and Consumer Staples have 30% lower volatility than Technology and maintain demand across economic cycles. During the 2022 downturn, Healthcare ETFs (XLV) fell only 3% while tech (XLK) dropped 28%. (3) Your investment profile shows 'intermediate' experience with 'medium' liquidity needs\u2014this suggests you may need to access portions of the portfolio before retirement. Defensive sectors provide liquidity with less volatility risk. Evidence from your holdings shows BND provides 30% fixed income stability, but equity allocation needs better sector balance. (4) Main trade-off: Healthcare and Consumer Staples typically offer lower growth rates (8-10% vs. tech's 12-15% historically), but the risk-adjusted returns are superior for your time horizon. With college funding in 10 years, you cannot afford a concentrated portfolio drawdown.",
+      "tickers": [
+        "VHT",
+        "XLP",
+        "JNJ"
+      ],
+      "suggested_action": "Invest proceeds from tech trimming into: (1) Vanguard Health Care ETF (VHT) - allocate 3-4% of portfolio, (2) Consumer Staples Select Sector SPDR (XLP) - allocate 3-4% of portfolio, (3) Consider adding Johnson & Johnson (JNJ) for 1-2% as a dividend-paying healthcare anchor with 2.9% yield.",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "low",
+      "expected_return_range": "7-10% annually with lower volatility",
+      "time_horizon": "Long-term hold; 10-25 years aligned with education and retirement goals",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:12:31.551610",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_f661ec5d",
+      "category": "tax_optimization",
+      "title": "Implement Tax-Loss Harvesting Strategy on Tech Positions",
+      "summary": "Before trimming tech holdings, check for positions with losses to harvest tax benefits, then immediately reinvest in similar but not substantially identical securities.",
+      "detailed_rationale": "Signal: You're planning to rebalance tech holdings, creating a tax optimization opportunity. As a product manager earning $175K annually, you're likely in the 24-32% federal tax bracket, making tax efficiency valuable. Step-by-step reasoning: (1) Market context shows tech stocks have experienced volatility in recent periods. If any of your individual holdings (NVDA, GOOGL, AAPL, MSFT) are showing unrealized losses from higher purchase prices, selling these first allows you to harvest up to $3,000 in losses annually against ordinary income, plus unlimited offset against capital gains. (2) Your moderate risk tolerance and intermediate experience level suggests you understand tax-advantaged strategies but may not be implementing them systematically. With stable income and low debt, maximizing after-tax returns directly accelerates both your $200K education goal and $2.5M retirement target. Every $3,000 in harvested losses saves $720-960 in taxes (at 24-32% rates). (3) IRS wash-sale rules require 30-day waiting period for substantially identical securities, but you can immediately reinvest in similar alternatives: sell GOOGL, buy META or AMZN (different companies, same sector exposure); sell NVDA, buy AMD or AVGO (semiconductor peers). This maintains market exposure while capturing tax benefits. (4) Trade-off: Transaction costs and tracking complexity increase slightly. You must maintain records for cost basis. However, with your portfolio size ($320K assets) and income level, the tax savings outweigh administrative burden. This strategy works best in taxable accounts, not retirement accounts.",
+      "tickers": [
+        "NVDA",
+        "GOOGL",
+        "AMD",
+        "META"
+      ],
+      "suggested_action": "Review cost basis for all tech holdings. If NVDA or GOOGL show unrealized losses, sell those positions first to harvest losses. Immediately reinvest proceeds into AMD (for NVDA exposure) or META (for GOOGL exposure) to maintain tech allocation during 30-day wash-sale period. After 30 days, optionally switch back or maintain new positions as part of rebalancing.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Tax savings of $700-3,000 annually; neutral on returns",
+      "time_horizon": "Execute during rebalancing; ongoing annual strategy",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:12:31.551610",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_2722af5c",
+      "category": "income_generation",
+      "title": "Add 3-5% Dividend Growth Allocation for Education Goal",
+      "summary": "Establish a dividend growth sleeve targeting 3-4% yield to create predictable cash flow approaching your 10-year education funding deadline.",
+      "detailed_rationale": "Signal: Your education goal has a 10-year timeline requiring $200K, but your current portfolio emphasizes growth over income generation. With medium liquidity needs, building predictable income streams reduces forced selling risk. Step-by-step reasoning: (1) Portfolio composition shows 50% ETFs (largely growth-focused VTI/VXUS), 20% growth stocks (tech), and 30% bonds (BND yielding ~4-5%). You have no dedicated dividend equity strategy. As your education goal approaches year 7-10, transitioning 3-5% into dividend growers creates optionality\u2014either reinvest dividends for compounding or use for college expenses without selling principal. (2) Your moderate risk tolerance and stable $175K income with emergency fund established means you can handle equity market volatility, but the education goal's high priority demands reduced sequence-of-returns risk in the later years. Dividend stocks historically show 20-25% less volatility than pure growth stocks while providing 80-90% of total returns. (3) Research shows dividend growth strategies (companies increasing dividends 10+ consecutive years) outperform in flat/down markets. Examples: Dividend Aristocrats returned 9.2% annually over 20 years vs. 8.1% for S&P 500, with significantly lower drawdowns. Your intermediate experience level suggests you can evaluate dividend sustainability. (4) Main trade-off: Dividend stocks may underperform in strong bull markets compared to growth stocks, and dividends are taxed as ordinary income in taxable accounts (vs. deferred capital gains). However, for your 10-year education timeline, the income certainty and lower volatility align better with goal-based investing principles. The psychological benefit of seeing dividend income grow toward your $200K target provides tangible progress.",
+      "tickers": [
+        "SCHD",
+        "VIG",
+        "NOBL"
+      ],
+      "suggested_action": "Allocate 3-5% of portfolio into dividend growth ETFs: (1) Schwab US Dividend Equity ETF (SCHD) - 2-3% allocation, yields ~3.5% with strong quality screens, (2) Vanguard Dividend Appreciation ETF (VIG) - 1-2% allocation, 10+ year dividend growth requirement, or (3) ProShares S&P 500 Dividend Aristocrats ETF (NOBL) - 1-2% allocation, 25+ year dividend growth track record. Source from tech trimming proceeds.",
+      "suggested_allocation_pct": 4.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-11% total return (3-4% yield + 5-7% growth)",
+      "time_horizon": "10 years, aligned with education goal deadline",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:12:31.551610",
+      "composite_score": 0.0
+    }
+  ]
+}

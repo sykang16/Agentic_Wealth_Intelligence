@@ -1,0 +1,188 @@
+{
+  "session_id": "P5_aggressive_young_professional__rebalance__seed2",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "rebalance",
+  "query": "Should I add any bond exposure at all, or stay close to 100% equity given my horizon?",
+  "seed": 2,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_8e24cffb",
+      "category": "diversify",
+      "title": "Reduce Technology Concentration from 65% to 45-50%",
+      "summary": "Your portfolio is dangerously overweight in technology (65% vs. typical 25-30% market weight), creating excessive sector-specific risk that contradicts diversification principles even for aggressive investors.",
+      "detailed_rationale": "Signal: Portfolio analysis shows 65% technology concentration across QQQ (tech-heavy), NVDA, TSLA, GOOGL, META, AMZN. This creates correlated risk where a sector downturn could severely impact your entire portfolio simultaneously. Step-by-step alignment: (1) While your aggressive risk tolerance and 15-year horizon support high equity allocation, diversification remains critical even for aggressive portfolios - the knowledge base explicitly states 'Diversification is essential for managing risk' and warns about concentration risk. (2) Your FIRE goal of $2.5M requires sustained compounding; a tech sector correction (like 2022's 30%+ decline) would dramatically set back your timeline. (3) Supporting evidence: The investment guide notes 'aggressive portfolios may hold 80-90% stocks' but doesn't advocate sector concentration - it emphasizes spreading across 'various asset classes that don't move in perfect correlation.' (4) Trade-off: You'll reduce exposure to tech's high growth potential, but you'll gain protection against sector-specific shocks (regulatory changes, interest rate sensitivity, valuation compression). Your 9/10 loss comfort suggests you can handle volatility, but concentrated positions amplify specific risk beyond market risk.",
+      "tickers": [
+        "VTI",
+        "VGT",
+        "VDC",
+        "VHT",
+        "XLF"
+      ],
+      "suggested_action": "Trim positions in TSLA, NVDA, or META by $20,000-$25,000. Reallocate into sector diversification: Add VDC (Consumer Staples) for defensive exposure, VHT (Healthcare) for demographic trends, and XLF (Financials) for rate sensitivity. Keep VTI as your core broad-market holding.",
+      "suggested_allocation_pct": 45.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "15+ years to FIRE goal",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:39:18.748328",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_dfc2ff60",
+      "category": "risk_reduction",
+      "title": "Reduce Crypto Allocation from 5% to 2-3%",
+      "summary": "While crypto fits aggressive profiles, 5% ($9,000) represents outsized volatility risk that could create emotional decision-making during drawdowns, potentially derailing your systematic wealth-building strategy.",
+      "detailed_rationale": "Signal: 5% crypto allocation in BTC represents high volatility (80%+ annualized) that's disproportionate to its portfolio contribution. Step-by-step reasoning: (1) Your intermediate experience and stable income support some alternative asset exposure, but crypto's 50-80% drawdowns could trigger emotional responses even with your 9/10 loss comfort - paper losses of $4,500-$7,200 on this position alone could feel different than diversified market declines. (2) The knowledge base warns about 'how you'd react to significant portfolio declines' - crypto introduces asymmetric downside beyond typical market risk. (3) At your $195K income with $5,500 monthly expenses, you have strong savings capacity (~$69K annually). This means you can achieve your FIRE goal through systematic equity investing without requiring crypto's lottery-ticket upside. (4) Supporting evidence: Risk management guide states 'be honest about how you'd react' and emphasizes matching allocations to 'emotional comfort with volatility.' A 2-3% allocation still gives you exposure to the asset class while reducing the behavioral finance risk of panic-selling during crypto winters. (5) Trade-off: You'll cap potential outsized gains if BTC rallies 3-5x, but you'll reduce the probability of emotionally-driven portfolio decisions that derail long-term compounding.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Trim BTC position to $3,600-$5,400 (2-3% of portfolio). Redeploy proceeds into your core equity positions (VTI) or sector diversification funds. Consider this your 'asymmetric bet' allocation - enough for meaningful upside, small enough to hold through volatility.",
+      "suggested_allocation_pct": 2.5,
+      "risk_level": "high",
+      "expected_return_range": "Highly variable, -50% to +100%+ annually",
+      "time_horizon": "10+ years (speculative allocation)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:39:18.748328",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_857ef562",
+      "category": "hold",
+      "title": "Maintain 100% Equity Allocation - No Bond Exposure Needed",
+      "summary": "Your query about bonds is answered clearly: with 15-year horizon, aggressive tolerance, 9/10 loss comfort, stable income, and low liquidity needs, bonds would reduce expected returns without meaningful benefit.",
+      "detailed_rationale": "Signal: Your direct question about bond exposure reveals appropriate self-reflection about portfolio construction. Step-by-step analysis: (1) Traditional allocation models suggest aggressive portfolios hold 80-90% stocks with 10-20% bonds, but these are generic templates. Your specific situation argues against bonds: 30 years old = 30+ year investment horizon when including retirement drawdown phase, stable $195K income provides income stability that bonds typically offer, existing emergency fund eliminates the liquidity buffer need, and 9/10 loss comfort genuinely supports equity volatility. (2) The knowledge base states 'aggressive portfolios may hold 80-90% stocks with minimal bonds' - but your profile justifies the upper end or beyond. With 15 years to FIRE, you can absorb multiple market cycles. A 2008-style 50% crash would recover within your timeframe, and your high savings rate ($69K+ annually) enables buying opportunities during downturns. (3) Mathematical evidence: At 7-8% real equity returns vs. 2-3% real bond returns, the opportunity cost of 20% bond allocation over 15 years could exceed $200,000 in foregone wealth - directly impacting FIRE feasibility. (4) The BND factsheet shows 0.03% expenses and 10,000+ holdings for diversification, but you need growth, not income stability. (5) Trade-off: You'll experience higher portfolio volatility (20-25% annual standard deviation vs. 15-18% with bonds), but volatility is not risk when you won't need the capital for 15+ years. Risk is permanent capital loss, which diversified equities have historically avoided over 15+ year periods.",
+      "tickers": [
+        "VTI",
+        "QQQ"
+      ],
+      "suggested_action": "Maintain your equity-focused approach. Keep your 10% cash allocation as your stability buffer - this provides dry powder for opportunistic buying during corrections and serves the psychological function bonds would. Do NOT add BND or other bond funds.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Preserves 8-11% equity return potential vs. 6-8% with bonds",
+      "time_horizon": "15 years to FIRE, 50+ years total",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:39:18.748328",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_bb877698",
+      "category": "rebalance",
+      "title": "Establish Systematic Rebalancing Discipline",
+      "summary": "Implement annual or threshold-based rebalancing to maintain target allocations and avoid behavioral drift into concentrated positions as winners run.",
+      "detailed_rationale": "Signal: Current portfolio shows signs of momentum-driven concentration (tech winners have likely grown into oversized positions). Step-by-step reasoning: (1) Your intermediate experience level benefits from systematic processes that remove emotional decision-making. The knowledge base explicitly recommends 'rebalancing when allocations drift more than 5% from targets, or at least annually.' (2) Without rebalancing discipline, your tech positions will continue to dominate as they outperform, creating compounding concentration risk. This is how diversified portfolios become unintentionally concentrated. (3) Your stable income and low liquidity needs mean you can execute rebalancing through new contributions rather than tax-generating sales. With ~$69K annual savings capacity, you can direct new investments to underweight positions. (4) Evidence from knowledge base: 'Regular rebalancing ensures your portfolio stays aligned with target allocations' and helps 'smooth overall returns' by systematically buying low and selling high. (5) For your aggressive profile, appropriate targets might be: 45-50% Technology, 15-20% Healthcare, 10-15% Financials, 10-15% Consumer sectors, 10% Cash, 2-3% Crypto. (6) Trade-off: Rebalancing may feel counterintuitive (selling winners, buying laggards) and could create tax events, but it enforces discipline and prevents concentration risk from compounding. Use your Roth/401k accounts for rebalancing to minimize tax impact.",
+      "tickers": [
+        "VTI",
+        "VGT",
+        "VHT",
+        "VDC",
+        "XLF"
+      ],
+      "suggested_action": "Set calendar reminder for December annually. Establish 5% drift threshold: if any sector exceeds target by 5%+, rebalance. Document target allocations: Tech 45-50%, Healthcare 12-15%, Consumer 10-12%, Financials 10-12%, International 5-8%, Cash 10%, Crypto 2-3%. Use monthly contributions to rebalance incrementally rather than large trades.",
+      "suggested_allocation_pct": null,
+      "risk_level": "low",
+      "expected_return_range": "Improves risk-adjusted returns by 0.5-1% annually",
+      "time_horizon": "Ongoing discipline through FIRE",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:39:18.748328",
+      "composite_score": 0.0
+    }
+  ]
+}

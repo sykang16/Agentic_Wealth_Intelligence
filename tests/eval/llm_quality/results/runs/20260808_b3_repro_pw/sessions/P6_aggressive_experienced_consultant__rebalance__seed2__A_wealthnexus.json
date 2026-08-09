@@ -1,0 +1,181 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed2",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "rebalance",
+  "query": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+  "seed": 2,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_1ad58c33",
+      "category": "rebalance",
+      "title": "Trim Energy Overweight to Fund Technology Growth Opportunities",
+      "summary": "Reduce energy allocation from 15% to 8-10% by trimming XOM and CVX positions, reallocating proceeds to technology and emerging market equities to better align with aggressive growth objectives.",
+      "detailed_rationale": "Signal: Your portfolio shows 15% energy concentration (XLE, XOM, CVX) while technology represents 30%, creating sector imbalance risk. Step-by-step reasoning: (1) Energy sector faces structural headwinds from renewable transition and cyclical volatility, with current oil prices showing mean reversion risk after recent strength. Your question itself signals concern about this overweight position. (2) With aggressive risk tolerance (8/10 loss comfort), 20+ year horizon, and $4M wealth target, your profile favors secular growth sectors over cyclical value. Energy's defensive characteristics don't match your ability to withstand volatility for higher long-term returns. (3) The knowledge base emphasizes diversification to 'reduce portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Energy's correlation with broader equity markets has increased, reducing its diversification benefit. Your advanced experience means you understand sector rotation dynamics. (4) Trade-off: You may miss near-term energy strength if geopolitical tensions escalate, but your long-term wealth compounding goal (currently at $1.12M toward $4M) requires exposure to higher-growth secular trends. With $280K annual income and variable cash flow, maintaining some energy (8-10%) provides income stability through dividends while reducing concentration risk. Recommended action: Sell 30-40% of XOM and CVX positions over 2-3 months using limit orders to capture strength, maintaining XLE for diversified energy exposure.",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "XLE"
+      ],
+      "suggested_action": "Reduce combined XOM and CVX positions by $80,000-$100,000 (approximately 30-40% of energy holdings), maintaining XLE for diversified exposure. Execute over 8-12 weeks to avoid concentrated tax impact and capture price strength.",
+      "suggested_allocation_pct": -5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Reallocation opportunity: 8-12% annually from energy to growth sectors",
+      "time_horizon": "Execute over 2-3 months; benefits materialize over 3-5 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:54:36.500880",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_7b9c0ac3",
+      "category": "buy",
+      "title": "Increase Emerging Markets Exposure for Geographic Diversification",
+      "summary": "Increase emerging markets allocation from 15% to 20% using proceeds from energy trim, adding to VWO or complementary Asia-Pacific focused ETFs to capture demographic growth trends.",
+      "detailed_rationale": "Signal: Your 15% emerging markets (EM) position through VWO is solid but represents opportunity cost given your aggressive profile and long timeline. Step-by-step reasoning: (1) With 20+ year horizon and high risk tolerance, EM valuations offer 3-5% higher expected returns versus developed markets, supported by demographic tailwinds and technology adoption in Asia. Your $4M wealth target requires ~10% annualized returns from current $1.12M net worth over 20 years\u2014EM allocation supports this mathematics. (2) Your portfolio shows 30% technology concentration, largely US-focused (NVDA). Increasing EM exposure provides geographic diversification while maintaining growth orientation, as Asian markets lead in semiconductor manufacturing, EV adoption, and digital payments. This aligns with the knowledge base principle that 'diversification reduces portfolio volatility by spreading investments.' (3) At age 45 with advanced investment experience and no immediate liquidity needs (you have emergency fund, medium liquidity requirements), you can absorb EM volatility. Your variable income ($280K annually) as independent consultant actually benefits from portfolio growth uncorrelated to US economic cycles. (4) Trade-off: EM carries higher volatility (15-20% standard deviation vs 12-15% for US markets), currency risk, and geopolitical uncertainty. However, your loss comfort of 8/10 and statement about being 'comfortable with cyclical drawdowns' demonstrates capacity for this volatility. Your moderate debt ($380K) is manageable with strong income, not constraining risk capacity. Recommended: Add $75K-$100K to VWO from energy proceeds, or consider complementary exposure through targeted Asia ex-Japan or India-focused ETFs for demographic concentration.",
+      "tickers": [
+        "VWO"
+      ],
+      "suggested_action": "Allocate $75,000-$100,000 from energy reduction into VWO or complementary emerging market ETFs, bringing total EM exposure to 18-20% of portfolio. Consider dollar-cost averaging over 2-3 months to manage entry timing risk.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "high",
+      "expected_return_range": "10-14% annually over full market cycle",
+      "time_horizon": "5-10 years for full thesis to materialize; expect 20%+ volatility",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:54:36.500880",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_b349da09",
+      "category": "diversify",
+      "title": "Add Healthcare Sector Exposure to Balance Technology Concentration",
+      "summary": "Increase healthcare from 10% to 15% allocation through defensive healthcare ETF or quality pharmaceutical positions to reduce technology concentration risk while maintaining growth characteristics.",
+      "detailed_rationale": "Signal: 30% technology weighting creates significant single-sector risk, particularly with NVDA as individual holding amplifying concentration. Healthcare at 10% represents underweight relative to sector's 13% S&P 500 representation and defensive growth characteristics. Step-by-step reasoning: (1) Your aggressive profile appropriately favors growth, but 30% in one sector creates unnecessary idiosyncratic risk. Technology faces regulatory headwinds (AI regulation, antitrust) and valuation compression risk after strong 2023-2024 performance. Healthcare offers similar long-term growth (aging demographics, innovation) with lower correlation to technology cycle. (2) The knowledge base emphasizes 'regular rebalancing ensures your portfolio stays aligned with target allocations' and 'consider rebalancing when allocations drift more than 5% from targets.' Your technology position has likely drifted beyond optimal weighting. With legacy planning as medium-priority goal ($800K target for child), reducing concentration risk becomes important for wealth preservation alongside growth. (3) At 45 years old, you're entering peak earning years but also face potential healthcare needs over next 20 years. Healthcare sector exposure provides both portfolio diversification and thematic alignment with personal lifecycle. Your advanced investment experience means you understand that 'aggressive' doesn't mean concentrated\u2014it means accepting volatility for returns, not accepting unnecessary single-sector risk. (4) Trade-off: Healthcare has underperformed technology over past 3 years and may continue lagging during AI-driven rallies. However, your variable income and $13K monthly expenses ($156K annually) leave substantial savings capacity, meaning you don't need maximum returns\u2014you need sustainable compounding. Recommended approach: Use partial energy proceeds ($40-50K) to establish healthcare position via XLV or similar broad healthcare ETF, complementing existing technology without abandoning growth thesis. This balances your 80-90% equity allocation (per aggressive profile guidelines) while reducing single-sector dependency.",
+      "tickers": [
+        "XLV"
+      ],
+      "suggested_action": "Allocate $50,000-$75,000 to healthcare sector through broad ETF like XLV or targeted pharmaceutical/biotech positions. Source from energy reduction or rebalance from technology if positions show profit-taking opportunities.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-11% annually with lower volatility than technology",
+      "time_horizon": "3-7 years; provides defensive positioning during late-cycle periods",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:54:36.500880",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_1e715052",
+      "category": "risk_reduction",
+      "title": "Evaluate Cryptocurrency Allocation Against Legacy Planning Goals",
+      "summary": "Review 5% crypto (BTC) position in context of legacy planning goal; consider reducing to 3% given medium-priority estate objectives and crypto's binary risk profile unsuited for intergenerational wealth transfer.",
+      "detailed_rationale": "Signal: Your 5% BTC allocation ($56K-$75K based on portfolio size) represents substantial capital in highly volatile, regulatory-uncertain asset class. Tension exists between aggressive wealth building (comfortable with drawdowns) and legacy planning for child (medium priority, $800K target). Step-by-step reasoning: (1) Crypto offers asymmetric upside but carries binary risk\u2014regulatory crackdown, technological obsolescence, or security breach could result in total loss. While your high risk tolerance (8/10) supports this position for personal wealth building, legacy planning requires more predictable asset base. Knowledge base emphasizes 'Emergency Fund Importance: maintain 3-6 months expenses in liquid savings. This prevents the need to sell investments at unfavorable times.' Same logic applies to legacy assets\u2014they need reliability. (2) At age 45 with one child, your legacy planning timeline likely spans 30-40 years (through child's adulthood). The knowledge base notes 'Strategic allocation sets long-term targets based on your investment profile' while 'Tactical allocation makes short-term adjustments.' Your crypto position may have been tactical speculation but should be evaluated against strategic asset allocation. With $1.12M current net worth toward $800K legacy goal, you're on track\u2014this capital could shift to higher-probability compounding vehicles. (3) Your advanced investment experience means you understand position sizing. The knowledge base discusses 'Portfolio Stress Testing: evaluate how your portfolio would perform in various scenarios.' In scenario where crypto faces severe regulatory restriction (not implausible given 2024-2025 policy landscape), 5% position becomes dead capital. Reducing to 3% ($33-45K) maintains upside optionality while freeing $22-30K for more stable legacy-focused allocation. (4) Trade-off: You may underperform if crypto enters another bull cycle with BTC reaching $150K+ levels. However, your primary $4M wealth goal doesn't require crypto returns\u2014it needs disciplined compounding at 9-10% annually, achievable through traditional equity allocation. Your variable income means you could add back to crypto from future earnings if conviction strengthens. Recommended: Trim crypto to 3%, reallocate proceeds to bond ladder or dividend growth strategy supporting legacy goal. This represents 'tactical rebalancing' within aggressive framework while honoring medium-priority multi-generational objective.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Reduce BTC position by 40% (from 5% to 3% portfolio allocation), representing approximately $22,000-$30,000. Reallocate proceeds to intermediate-term bond ladder or dividend aristocrat positions that provide more stable foundation for legacy planning objective.",
+      "suggested_allocation_pct": -2.0,
+      "risk_level": "high",
+      "expected_return_range": "Risk reduction rather than return enhancement; preserves $22-30K capital from binary downside",
+      "time_horizon": "Execute over 1-2 months; benefits legacy planning over 20-30 year timeframe",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:54:36.500880",
+      "composite_score": 0.0
+    }
+  ]
+}

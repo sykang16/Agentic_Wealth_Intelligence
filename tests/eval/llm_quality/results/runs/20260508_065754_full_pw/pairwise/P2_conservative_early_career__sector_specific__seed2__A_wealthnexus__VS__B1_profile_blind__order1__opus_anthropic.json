@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A correctly identifies that the user has no emergency fund (profile explicitly states has_emergency_fund=False) and ties recommendations to the $22,000 emergency goal and $3,800 monthly expenses, while System B incorrectly claims the 60% cash already serves as the emergency fund, which is a factual error contradicting the profile. System A also provides more concrete, time-bound actions (specific APY, dollar gap, contribution math) making it more actionable and better grounded.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A correctly identifies that the user has no emergency fund (profile explicitly states has_emergency_fund=False) and ties recommendations to the $22,000 emergency goal and $3,800 monthly expenses, while System B incorrectly claims the 60% cash already serves as the emergency fund, which is a factual error contradicting the profile. System A also provides more concrete, time-bound actions (specific APY, dollar gap, contribution math) making it more actionable and better grounded."
+  },
+  "usage": {
+    "input_tokens": 10929,
+    "output_tokens": 291
+  },
+  "session_id": "P2_conservative_early_career__sector_specific__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

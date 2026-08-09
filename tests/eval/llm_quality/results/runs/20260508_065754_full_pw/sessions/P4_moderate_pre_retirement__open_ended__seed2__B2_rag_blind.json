@@ -1,0 +1,163 @@
+{
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "open_ended",
+  "query": "I'm 10 years from retirement. Should I start de-risking now and how aggressively?",
+  "seed": 2,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_a0d26e19",
+      "category": "rebalance",
+      "title": "Initiate 10-Year Retirement Glide Path with Gradual Bond Increase",
+      "summary": "Begin systematic de-risking by increasing bond allocation from 35% to 40% now, with plan to reach 50-55% by age 65, while maintaining growth exposure for portfolio longevity.",
+      "detailed_rationale": "Signal: You're exactly 10 years from retirement with a moderate risk profile and $1.8M retirement target (currently at $755K net worth). Your current 60/35 equity/bond split is appropriate for early glide-path but should begin shifting. Analysis: (1) At age 55 with 10-year horizon, conventional wisdom suggests starting gradual de-risking while maintaining sufficient growth to bridge the $1.045M gap to your target. Your portfolio needs ~6.5% annualized return to reach $1.8M by 65. (2) Your moderate risk tolerance (5/10 loss comfort) and stable income ($220K annually with only $11K monthly expenses = 50% savings rate) provide cushion to maintain equity exposure longer than conservative peers. (3) Research shows target-date funds typically hold 60-65% equities at age 55, declining to 45-50% by 65. Your current 60% equity exposure is appropriate NOW, but instituting a systematic annual rebalancing schedule (reducing equities by 2-2.5% annually) prevents abrupt changes and market-timing risks. (4) Key trade-off: Starting too aggressively could sacrifice growth needed to reach your $1.8M target. Your strong savings rate ($9K+/month surplus) means you'll contribute an additional ~$1M over 10 years, reducing pressure on portfolio returns. Recommendation: Shift 5% from equities to bonds NOW (moving to 55/40 allocation), then rebalance annually to reduce equity exposure by 2% per year. This preserves growth potential early while systematically reducing volatility as retirement approaches.",
+      "tickers": [
+        "BND",
+        "VGIT",
+        "VGLT"
+      ],
+      "suggested_action": "Sell $42,500 from VTI and VXUS proportionally (maintaining international diversification), then purchase intermediate-term treasury or total bond ETFs like VGIT or add to BND position. Set calendar reminder to rebalance annually each January.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "3.5-4.5% annually for bond component",
+      "time_horizon": "10-year systematic glide path to retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:37:24.532213",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_b47afda1",
+      "category": "diversify",
+      "title": "Reduce Healthcare Concentration and Add Dividend Growth Exposure",
+      "summary": "Healthcare sector at 22% creates concentration risk and lacks inflation protection. Trim to 15% and rotate into dividend growth ETFs for retirement income preparation.",
+      "detailed_rationale": "Signal: Healthcare represents 22% of your portfolio (JNJ, UNH holdings plus likely healthcare exposure in VTI), creating single-sector concentration that exceeds prudent diversification limits (typically 15% max per sector). Analysis: (1) With JNJ and UNH as individual holdings, you're making specific bets in a sector already experiencing regulatory uncertainty (Medicare negotiation, political risk around healthcare costs). While healthcare is traditionally defensive, this concentration exposes you to sector-specific shocks. (2) Your retirement goal requires generating $80-100K annual income in 10 years. Current portfolio yields approximately 2% ($17K annually), far short of target. Transitioning toward dividend growth strategies NOW allows 10 years of dividend compounding and increases. (3) Supporting evidence: dividend growth stocks historically provide inflation protection (companies raise dividends ~5-6% annually) while reducing total return volatility compared to pure growth strategies\u2014ideal for your de-risking phase. Your advanced investment experience means you understand dividend strategies. (4) Trade-off: Healthcare has demonstrated resilience and aging demographics support long-term thesis, so trimming reduces exposure to a favorable mega-trend. However, concentration risk outweighs this benefit given your proximity to retirement. Recommendation: Reduce healthcare to 15% by selling ~$59,500 of JNJ/UNH (retain some for quality/defensive exposure), and deploy into dividend growth ETFs like VIG, SCHD, or DGRO that provide broad diversification across dividend-paying companies with history of increasing payouts.",
+      "tickers": [
+        "VIG",
+        "SCHD",
+        "DGRO"
+      ],
+      "suggested_action": "Sell approximately $30,000 of JNJ and $29,500 of UNH (or proportion that brings healthcare to 15% of portfolio). Purchase $59,500 of dividend growth ETF like VIG (Vanguard Dividend Appreciation) or SCHD (Schwab US Dividend Equity) to gain exposure to 100+ quality dividend growers across sectors.",
+      "suggested_allocation_pct": 7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% annually with 2.5-3% current yield growing 5-6% annually",
+      "time_horizon": "10 years to retirement, then income generation phase",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:37:24.532213",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_56da459c",
+      "category": "buy",
+      "title": "Add Treasury Inflation-Protected Securities (TIPS) for Inflation Hedge",
+      "summary": "Allocate 5-8% to TIPS to protect purchasing power of retirement income against inflation risk over the next decade, particularly given current elevated inflation environment.",
+      "detailed_rationale": "Signal: Your bond allocation (35%, primarily BND) consists largely of nominal bonds vulnerable to inflation erosion. With $80-100K retirement income target in 10 years, protecting purchasing power is critical\u2014especially given recent inflation has been 3-8% versus 2% historical average. Analysis: (1) Your current bond holdings provide interest rate and credit diversification but lack inflation protection. A retiree needing $100K in today's dollars will need $122K in 10 years assuming just 2% inflation, or $148K at 4% inflation. TIPS provide explicit inflation indexing of both principal and interest. (2) At age 55 with stable income and low debt, you can afford to lock in real yields now. Current TIPS yields are attractive (real yields 1.5-2.5% range) compared to historical near-zero or negative real yields of 2020-2021. Your advanced investment experience means you understand TIPS mechanics and taxation. (3) Modern portfolio theory suggests 5-10% TIPS allocation for pre-retirees provides inflation protection while maintaining overall portfolio efficiency. Given your moderate risk tolerance and specific retirement income goal, this is particularly relevant. (4) Trade-off: TIPS underperform nominal bonds when inflation comes in below expectations, and they create tax complexity (phantom income on inflation adjustments). However, the insurance value for your retirement income goal outweighs these concerns. Evidence: The 10-year period before retirement is optimal for TIPS accumulation as you're transitioning from wealth accumulation to wealth preservation and income generation.",
+      "tickers": [
+        "SCHP",
+        "VTIP",
+        "TIP"
+      ],
+      "suggested_action": "Allocate $42,500-$68,000 (5-8% of portfolio) to TIPS ETFs like SCHP (Schwab TIPS) or VTIP (Vanguard Short-Term TIPS). Start with 5% ($42,500) now and consider increasing to 8% over next 2-3 years. This can come from new contributions or from the bond rebalancing in recommendation #1.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "Real return of 1.5-2.5% plus inflation adjustment",
+      "time_horizon": "10 years through retirement transition",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:37:24.532213",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_60ba83b0",
+      "category": "hold",
+      "title": "Maintain Core Low-Cost Index ETF Foundation (VTI, VXUS, BND)",
+      "summary": "Preserve your tax-efficient, low-cost core holdings (VTI, VXUS, BND) which provide excellent diversification and minimize costs during accumulation phase. Continue dollar-cost averaging into these positions.",
+      "detailed_rationale": "Signal: Your portfolio demonstrates sophisticated construction with core low-cost index ETFs (VTI for US total market, VXUS for international, BND for bonds), which is optimal for your advanced investment experience and cost-consciousness. Analysis: (1) VTI (expense ratio 0.03%), VXUS (0.07%), and BND (0.03%) provide extremely cost-efficient exposure to thousands of securities. Over 10 years, the cost advantage versus actively managed funds (typical 0.5-1% fees) compounds to $42,500-$85,000 saved on an $850K portfolio\u2014material toward your retirement goal. (2) Your 60% domestic/35% bond/5% other allocation aligns well with moderate risk profile, and VTI/VXUS provide automatic diversification without concentration risk of individual stock picking. Your holdings of JNJ, UNH, JPM, BRK.B, and PG represent <15% of portfolio, avoiding over-concentration while allowing some active selection. (3) Tax efficiency matters significantly given your $220K income (likely 24-32% federal bracket). ETF structure minimizes capital gains distributions compared to mutual funds, and broad index exposure allows tax-loss harvesting opportunities if needed. (4) Trade-off: Pure indexing means accepting market returns without potential for outperformance, and you're fully exposed to market drawdowns. However, evidence strongly supports index investing for long-term wealth building\u2014particularly for investors with your time horizon and contribution capacity. Your $9K monthly surplus can continue flowing into these core positions through your employer retirement plans or taxable accounts. Supporting data: Vanguard research shows 85-90% of active managers underperform their benchmarks over 10-year periods after fees, validating your core index approach.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "BND"
+      ],
+      "suggested_action": "Maintain current positions in VTI, VXUS, and BND as portfolio foundation. Continue systematic contributions ($4,000-6,000 monthly from your $9K surplus) into these core holdings, adjusting the ratio annually per the glide-path in recommendation #1. Do not sell these positions except for strategic rebalancing.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% annually for equity components, 3.5-4.5% for bonds",
+      "time_horizon": "10 years through retirement and beyond",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:37:24.532213",
+      "composite_score": 0.0
+    }
+  ]
+}

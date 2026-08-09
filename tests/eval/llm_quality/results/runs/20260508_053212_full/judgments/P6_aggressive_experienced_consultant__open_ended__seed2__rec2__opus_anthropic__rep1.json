@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 4,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Cites multiple profile attributes (age 45, aggressive tolerance, advanced experience, $800K legacy goal, moderate debt) and ties them to the recommendation, though the link to legacy goal is somewhat loose.\",\n    \"C2\": \"User is aggressive but rec is moderate risk_level; rationale defensibly justifies the deviation via the legacy preservation mandate, qualifying as a justified one-tier adjacency.\",\n    \"C3\": \"Holdings (BND), allocation (15%), and net worth math are accurate; the ~4.5% BND yield and 5-5.5% projected yield are minor unsupported quantitative claims.\",\n    \"C4\": \"Provides specific tickers, exact dollar amounts, target allocation percentages, and a clear first action (sell BND and redeploy).\",\n    \"C5\": \"Recommendation is allocation-neutral on the bond sleeve and doesn't address the more pressing 30% Technology concentration or the user's actual question about cash buffers.\",\n    \"C6\": \"Uses calibrated language ('would provide', 'may hold') and medium confidence with no guarantee framing; no explicit disclaimer at rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 4,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Cites multiple profile attributes (age 45, aggressive tolerance, advanced experience, $800K legacy goal, moderate debt) and ties them to the recommendation, though the link to legacy goal is somewhat loose.",
+      "C2": "User is aggressive but rec is moderate risk_level; rationale defensibly justifies the deviation via the legacy preservation mandate, qualifying as a justified one-tier adjacency.",
+      "C3": "Holdings (BND), allocation (15%), and net worth math are accurate; the ~4.5% BND yield and 5-5.5% projected yield are minor unsupported quantitative claims.",
+      "C4": "Provides specific tickers, exact dollar amounts, target allocation percentages, and a clear first action (sell BND and redeploy).",
+      "C5": "Recommendation is allocation-neutral on the bond sleeve and doesn't address the more pressing 30% Technology concentration or the user's actual question about cash buffers.",
+      "C6": "Uses calibrated language ('would provide', 'may hold') and medium confidence with no guarantee framing; no explicit disclaimer at rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6137,
+    "output_tokens": 506
+  },
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed2",
+  "rec_index": 2,
+  "rec_id": "rec_45e2cda8",
+  "rubric_version": "1.1"
+}

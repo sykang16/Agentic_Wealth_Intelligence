@@ -1,0 +1,181 @@
+{
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "open_ended",
+  "query": "I'm 10 years from retirement. Should I start de-risking now and how aggressively?",
+  "seed": 2,
+  "system": "B1_profile_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_ee8f3301",
+      "category": "rebalance",
+      "title": "Initiate Gradual Bond Allocation Increase for Retirement Glide Path",
+      "summary": "Begin systematic de-risking by increasing bond allocation from 35% to 45% over the next 2-3 years to align with your 10-year retirement horizon.",
+      "detailed_rationale": "Signal: Your current 35% bond allocation is moderately conservative but should increase as you approach retirement in 10 years. Analysis: (1) With $755K net worth and 10 years to retirement, you're in the critical transition phase where capital preservation becomes increasingly important while maintaining growth potential. (2) The knowledge base specifically recommends target-date funds that 'automatically adjust asset allocation as you approach retirement, becoming more conservative over time.' Your current 55% equity exposure (40% ETF + 15% stock) is appropriate now but should gradually decrease. (3) Your BND holding provides low-cost (0.03% expense ratio) diversified bond exposure across 10,000+ holdings including government, corporate, and mortgage-backed securities - an ideal vehicle for increasing fixed income allocation. (4) Risk consideration: Moving too aggressively to bonds now (going beyond 45%) could sacrifice growth needed to reach retirement goals, as you still have a decade of compounding potential. A gradual approach over 2-3 years allows you to dollar-cost average into bonds and potentially benefit from higher yields if rates remain elevated.",
+      "tickers": [
+        "BND",
+        "VTI"
+      ],
+      "suggested_action": "Increase BND position by redirecting 3-4% of portfolio value annually from VTI over the next 2-3 years. Start with a $25,000-30,000 reallocation from VTI to BND in the next quarter, then review quarterly.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5% annually for incremental bond allocation",
+      "time_horizon": "Implement gradually over 2-3 years, completing by 7 years before retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:36:22.153000",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_c848315d",
+      "category": "risk_reduction",
+      "title": "Reduce Healthcare Sector Concentration Risk",
+      "summary": "Decrease overweight 22% healthcare allocation to 15% by trimming individual healthcare stock positions while maintaining diversified exposure through ETFs.",
+      "detailed_rationale": "Signal: Healthcare represents 22% of your portfolio, making it your largest sector exposure and creating concentration risk that's inappropriate as you approach retirement. Analysis: (1) Your holdings include JNJ and UNH as individual healthcare stocks, which combined with healthcare exposure in VTI creates significant sector concentration. A balanced portfolio typically allocates 10-15% to healthcare, so you're 7-12 percentage points overweight. (2) The risk management knowledge base emphasizes that 'specific risk relates to individual securities' and recommends diversification to reduce volatility. With 10 years to retirement, you need to minimize sector-specific risks that could derail your retirement timeline. (3) While healthcare is considered defensive, regulatory risks (drug pricing reforms, Medicare policy changes) and individual company risks (patent cliffs, FDA decisions) could disproportionately impact your portfolio. (4) Trade-off: Healthcare stocks like JNJ and UNH have provided stable dividends and defensive characteristics, but this concentration exposes you to sector-specific downturns. Your VTI holding already provides diversified healthcare exposure at market-weight (~13%), making individual stock positions redundant for a pre-retiree.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "VTI"
+      ],
+      "suggested_action": "Sell 40-50% of combined JNJ and UNH positions (approximately $45,000-55,000) and redistribute proceeds proportionally to VTI (60%) and BND (40%) to maintain diversification while reducing sector concentration.",
+      "suggested_allocation_pct": -7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Neutral to portfolio; reduces potential downside volatility by 1-2%",
+      "time_horizon": "Execute over 2-4 transactions across 6 months to avoid concentration timing risk",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:36:22.153000",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_55e0adf1",
+      "category": "income_generation",
+      "title": "Establish Predictable Income Stream Through Dividend Aristocrats",
+      "summary": "Allocate 5% of portfolio to established dividend-paying stocks or dividend-focused ETFs to create reliable income as you transition toward retirement cash flow needs.",
+      "detailed_rationale": "Signal: Your query about de-risking for retirement indicates concern about portfolio stability, and with only 5% cash allocation, you lack immediate liquidity and income generation. Analysis: (1) With 10 years to retirement, you're entering the phase where establishing predictable cash flow becomes important. Your current holdings (JNJ, PG) provide dividends, but lack a systematic income strategy. (2) The retirement planning knowledge base emphasizes the importance of 'Social Security planning' and multiple income streams. Building dividend income now provides: flexibility to delay Social Security until 70 (increasing payments by up to 77%), reduced need to sell assets during market downturns, and psychological comfort during volatility. (3) Your current holdings already include quality dividend payers (JNJ ~3% yield, PG ~2.5% yield), but they're held for growth rather than structured for income. Your moderate-conservative profile (35% bonds, established companies like BRK.B) suggests comfort with stable, proven businesses. (4) Risk consideration: Dividend stocks can still experience capital depreciation, and high yields sometimes signal distressed companies. However, focusing on 'Dividend Aristocrats' (25+ years of dividend increases) provides both income reliability and quality screens. This allocation shouldn't exceed 5-7% to maintain diversification.",
+      "tickers": [
+        "VIG",
+        "SCHD"
+      ],
+      "suggested_action": "Allocate $37,500-42,500 (5% of portfolio) to a dividend-focused ETF like VIG (Vanguard Dividend Appreciation) or SCHD (Schwab U.S. Dividend Equity). Fund this through a combination of reducing overweight healthcare positions and slightly trimming technology allocation.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% total return with 2-3% current dividend yield",
+      "time_horizon": "10 years through retirement, providing income during transition phase",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:36:22.153000",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_2f2d5473",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Advantaged Retirement Account Contributions",
+      "summary": "Ensure you're maximizing 401(k)/IRA contributions with catch-up provisions to reduce current tax burden while building retirement assets in tax-protected accounts.",
+      "detailed_rationale": "Signal: Your query about retirement preparedness and $95K in liabilities suggests you're in peak earning years where tax-advantaged saving provides dual benefits. Analysis: (1) With $755K net worth and approaching retirement, you're likely in a higher tax bracket where pre-tax contributions provide maximum benefit. The knowledge base states '2024 401(k) limits are $23,000 ($30,500 if 50+)' - if you're over 50, the $7,500 catch-up contribution represents $2,250-3,000 in immediate tax savings (at 30-40% marginal rate). (2) Your portfolio shows taxable brokerage holdings (individual stocks, ETFs), but I cannot determine if you're maximizing retirement accounts. The retirement planning guide emphasizes 'always contribute enough to capture the full employer match' which provides 'immediate 100% return.' (3) Tax-advantaged accounts provide: tax-deferred or tax-free growth, asset protection from creditors in most states, and flexibility in retirement tax planning (choosing which accounts to draw from based on tax situation). With 10 years remaining, maximizing contributions could add $230,000-305,000 in pre-tax contributions plus growth. (4) Trade-off: Pre-tax contributions reduce current cash flow and create future required minimum distributions (RMDs). However, Roth conversions during early retirement (before Social Security/RMDs begin) can provide tax optimization opportunities. Insufficient data to assess current contribution levels, but this is critical for retirement readiness.",
+      "tickers": [],
+      "suggested_action": "Verify you're contributing the maximum $30,500 to 401(k) if over 50 (or $23,000 if under 50) plus $7,500 to IRA ($8,500 if over 50). If not maxing out, increase contributions immediately. Consider Roth IRA conversions if you expect higher tax rates in retirement or want tax-free inheritance for beneficiaries.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Immediate 30-40% 'return' from tax savings plus long-term growth",
+      "time_horizon": "10 years of maximum contributions before retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:36:22.153000",
+      "composite_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed2",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "rebalance",
+  "query": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+  "seed": 2,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "rebalance",
+      "title": "Reduce Energy Overweight to Capture Gains and Improve Diversification",
+      "summary": "Trim energy allocation from 15% to 8-10% by taking profits in XLE, XOM, and CVX. Energy has delivered strong returns but faces headwinds from slowing global growth, OPEC+ production uncertainty, and transition risks.",
+      "detailed_rationale": "Your 15% energy allocation is significantly overweight versus typical diversified portfolios (5-7%). While energy has been profitable, current macro conditions suggest reducing exposure: (1) Global growth is decelerating with manufacturing PMIs contracting in major economies, reducing oil demand projections; (2) OPEC+ cohesion is weakening with production cheating increasing; (3) China's economic recovery remains uneven, limiting demand catalysts; (4) Energy transition investments are accelerating, creating long-term secular headwinds; (5) Geopolitical risk premiums may normalize as Middle East tensions stabilize. With your aggressive risk tolerance and $280K income, you can afford volatility, but concentration risk in a cyclical sector creates unnecessary portfolio drag. Your technology overweight (30%) already provides cyclical exposure. Rebalancing energy to 8-10% maintains tactical exposure while improving risk-adjusted returns and freeing capital for higher-growth opportunities aligned with your $4M wealth target.",
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX"
+      ],
+      "suggested_action": "Sell 30-45% of combined energy positions (XLE, XOM, CVX) to reduce sector allocation to 8-10%",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Rebalancing action - improves portfolio efficiency, energy sector 4-8% annual forward returns expected",
+      "time_horizon": "immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:55:19.050128",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "buy",
+      "title": "Redeploy Energy Profits into High-Growth Technology and AI Infrastructure",
+      "summary": "Reallocate capital from energy trim into technology growth opportunities, particularly AI infrastructure, semiconductors, and cloud computing to leverage secular trends aligned with your wealth accumulation goals.",
+      "detailed_rationale": "With your advanced investment experience, aggressive risk profile, and long-term horizon, redeploying energy profits into high-growth technology maximizes wealth compounding potential. Current macro environment favors this shift: (1) AI infrastructure spending is accelerating with $150B+ annual investments projected through 2027; (2) Your existing NVDA position has proven thesis but represents small portion of portfolio; (3) Semiconductor cycle is turning positive with inventory digestion complete; (4) Cloud reacceleration visible in enterprise IT budgets; (5) Your 30% tech allocation can support 35-40% given risk tolerance and conviction. You already have NVDA exposure; consider adding diversified tech exposure through QQQ or individual positions in hyperscalers (MSFT, GOOGL, META), semiconductor equipment (ASML, AMAT), or cybersecurity (CRWD, PANW). This sector alignment better supports your $4M target with 15-20% potential annualized returns versus energy's 6-8%, while your income stability and emergency fund buffer drawdown risk.",
+      "tickers": [
+        "QQQ",
+        "MSFT",
+        "GOOGL",
+        "META",
+        "ASML"
+      ],
+      "suggested_action": "Deploy 50-60% of energy rebalancing proceeds into technology growth positions",
+      "suggested_allocation_pct": 35.0,
+      "risk_level": "high",
+      "expected_return_range": "12-22% annually over 5-7 years",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:55:19.050128",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "diversify",
+      "title": "Add International Developed Markets Exposure to Reduce US Concentration",
+      "summary": "Deploy remaining energy rebalancing proceeds into international developed markets (Europe/Japan) through EFA or VEA to capture valuation discounts and reduce geographic concentration risk.",
+      "detailed_rationale": "Your portfolio shows high US concentration (estimated 70%+) with only 15% emerging markets via VWO. Adding developed international markets provides: (1) Valuation advantage - European equities trade at 30-40% discount to US on P/E basis; (2) Currency diversification as dollar strength may moderate with Fed cutting cycle; (3) Geographic risk reduction given US political/fiscal uncertainties; (4) Exposure to industrial/manufacturing recovery in Europe and Japan; (5) Complement to your VWO emerging markets position. With variable income from consulting, geographic diversification reduces correlation to US economic cycles affecting your earnings. Target 10-12% allocation to developed international markets through low-cost ETFs like VEA or EFA. This maintains your aggressive growth posture while improving portfolio resilience. Japan offers particular value with corporate governance reforms, shareholder-friendly policies, and attractive valuations. Europe benefits from China stabilization and energy cost normalization. This diversification supports both your $4M wealth target and $800K legacy planning goal through reduced drawdown risk.",
+      "tickers": [
+        "VEA",
+        "EFA",
+        "EWJ"
+      ],
+      "suggested_action": "Allocate 40-50% of energy rebalancing proceeds to developed international markets ETFs",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-14% annually over 5-7 years",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:55:19.050128",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "hold",
+      "title": "Maintain Small Strategic Energy Position for Inflation Hedging",
+      "summary": "Retain 8-10% energy allocation rather than eliminating completely to preserve inflation hedge and optionality on geopolitical supply disruptions.",
+      "detailed_rationale": "While reducing energy from 15%, complete elimination would be premature given: (1) Energy provides natural inflation hedge particularly valuable with your variable consulting income; (2) Structural underinvestment in oil/gas production creates supply constraints that could reassert with demand recovery; (3) Geopolitical risks remain elevated (Russia-Ukraine, Middle East) with potential supply shock scenarios; (4) Energy generates strong free cash flow and dividends, supporting portfolio income; (5) Your loss comfort level of 8/10 accommodates cyclical volatility. An 8-10% position represents tactical underweight versus your current 15% but maintains optionality. This is appropriate for aggressive investors who can weather volatility but want some real asset exposure. XOM and CVX offer strong balance sheets, shareholder returns, and diversified energy portfolios. Consider holding these core positions while trimming XLE to reduce overlap. This balanced approach captures rebalancing benefits while preserving strategic exposure to energy's unique portfolio characteristics - particularly valuable given your moderate debt level and medium liquidity needs.",
+      "tickers": [
+        "XOM",
+        "CVX"
+      ],
+      "suggested_action": "Hold remaining 8-10% energy allocation in quality names after rebalancing",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-10% annually with dividend yield 3-4%",
+      "time_horizon": "long",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "low",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:55:19.050128",
+      "composite_score": 0.0
+    }
+  ]
+}

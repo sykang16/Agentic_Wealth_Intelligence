@@ -1,0 +1,13 @@
+{
+  "started_at_utc": "2026-08-09T01:27:21.769403+00:00",
+  "mode": "full_pw",
+  "system_model": "claude-sonnet-4-5",
+  "judge_anthropic": "claude-opus-4-7",
+  "judge_openai": "gpt-4o",
+  "seeds": 2,
+  "max_recs": 4,
+  "rag_disabled": false,
+  "dry_run": false,
+  "personas_sha": "f0386ff9b4acc720",
+  "rubric_sha": "b752d63159351ad0"
+}

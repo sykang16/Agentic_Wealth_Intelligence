@@ -1,0 +1,30 @@
+{
+  "session_id": "P2_conservative_early_career__open_ended__seed2",
+  "persona_id": "P2_conservative_early_career",
+  "query_type": "open_ended",
+  "seed": 2,
+  "sys_a": "A_gated_045",
+  "sys_b": "B2_rag_blind",
+  "order": 2,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"Both lists are closely matched on personalization, risk alignment, and safety, but System A provides more concrete and executable steps (e.g., specific 401(k) match capture with target-date fund selection, avalanche method with refinancing thresholds). System B's side-income recommendation and DTI math contain more speculative/unsupported quantitative claims, slightly weakening its factual grounding compared to A.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "Both lists are closely matched on personalization, risk alignment, and safety, but System A provides more concrete and executable steps (e.g., specific 401(k) match capture with target-date fund selection, avalanche method with refinancing thresholds). System B's side-income recommendation and DTI math contain more speculative/unsupported quantitative claims, slightly weakening its factual grounding compared to A."
+  },
+  "usage": {
+    "input_tokens": 11463,
+    "output_tokens": 264
+  }
+}

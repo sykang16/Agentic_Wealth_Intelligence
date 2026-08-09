@@ -1,0 +1,111 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "query": "I'm 40 with two kids heading to college in about 10 years. How should I balance saving for their education versus retirement?",
+  "seed": 1,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "diversify",
+      "title": "Establish Dedicated 529 College Savings Plans",
+      "summary": "Create separate 529 plans for each child to take advantage of tax-deferred growth and potential state tax deductions while maintaining age-appropriate asset allocation.",
+      "detailed_rationale": "With a 10-year horizon to college and a $200,000 target, you need approximately $1,500/month in dedicated college savings assuming 6% annual returns. Your current portfolio lacks dedicated education savings vehicles. 529 plans offer tax-free growth for qualified education expenses and potential state tax benefits. Given your moderate risk tolerance and 10-year timeline, start with 70% equity/30% fixed income allocation, transitioning to more conservative allocations as college approaches. This separates education funding from retirement assets ($320K total portfolio), allowing retirement investments to maintain aggressive growth positioning for your 25-year horizon.",
+      "tickers": [
+        "VGRO",
+        "VCONX",
+        "FDELX"
+      ],
+      "suggested_action": "Open 529 plans and fund with initial $10,000 transfer from existing portfolio, then contribute $1,500/month split between education ($750) and retirement ($750) from monthly cash flow.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-7% annually",
+      "time_horizon": "10 years for education",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T11:54:02.409306",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "rebalance",
+      "title": "Reduce Technology Concentration Risk",
+      "summary": "Your 35% technology allocation is significantly overweight and creates unnecessary concentration risk. Rebalance to 20-25% technology exposure.",
+      "detailed_rationale": "Technology represents 35% of your portfolio through both direct holdings (AAPL, MSFT, NVDA, GOOGL) and ETF exposure (VTI). This is roughly double the S&P 500's tech weighting of ~28% and creates significant single-sector risk. While your tech holdings have performed well, this concentration conflicts with your moderate risk tolerance and need for stability given dual high-priority goals. With college expenses starting in 10 years, you cannot afford a sector-specific downturn. Recommend reducing individual tech stock positions by 40-50% and reallocating to underweighted sectors (Healthcare, Consumer Staples, Utilities) and international diversification through VXUS.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "VHT",
+        "VDC"
+      ],
+      "suggested_action": "Sell 40% of NVDA and GOOGL positions, reduce AAPL and MSFT by 25% each. Reallocate proceeds to increase VXUS by 10%, add healthcare (VHT) and consumer staples (VDC) exposure.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Maintains portfolio expected returns while reducing volatility",
+      "time_horizon": "Immediate rebalancing",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T11:54:02.409306",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "buy",
+      "title": "Increase International Equity Exposure",
+      "summary": "Boost international diversification from current underweight position to capture global growth opportunities and reduce US concentration risk.",
+      "detailed_rationale": "Your portfolio appears heavily US-weighted, which creates geographic concentration risk. International markets (developed and emerging) represent approximately 40% of global market capitalization but likely comprise less than 20% of your portfolio through VXUS alone. With $175K income, stable employment, and 25-year retirement horizon, you can benefit from increased international exposure. Geographic diversification reduces risk through low correlation with US markets and captures growth in emerging markets and developed economies. Target 25-30% international allocation (currently ~10-15%) provides better risk-adjusted returns. Your moderate risk tolerance and long time horizon support this allocation.",
+      "tickers": [
+        "VXUS",
+        "VEA",
+        "VWO"
+      ],
+      "suggested_action": "Increase international allocation by redirecting new contributions and partial proceeds from tech rebalancing. Target 25% total international exposure through VXUS (developed markets) with 5% emerging markets (VWO).",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually over long term",
+      "time_horizon": "Long-term (25 years retirement)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T11:54:02.409306",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "hold",
+      "title": "Maintain Core Bond Allocation with Gradual Education Fund Transition",
+      "summary": "Keep current 30% bond allocation (BND) for portfolio stability while planning to increase fixed income specifically within education funds as college approaches.",
+      "detailed_rationale": "Your 30% bond allocation through BND is appropriate for your 40-year age, moderate risk tolerance, and provides necessary portfolio stability. This allocation serves your dual goals well: provides downside protection and reduces volatility while allowing sufficient equity exposure for long-term growth. However, create a glide path strategy for education funds specifically - as each child approaches college (years 7-10), gradually shift their 529 plan allocation from 70/30 to 50/50 and finally 30/70 equity/bonds to protect accumulated gains. Keep retirement portfolio allocation at current 70/30 equity/bonds ratio given 25-year horizon. This differentiated approach optimizes for each goal's unique time horizon and liquidity requirements.",
+      "tickers": [
+        "BND",
+        "BNDX"
+      ],
+      "suggested_action": "Maintain BND position at 30% of retirement assets. Within new 529 plans, implement age-based allocation glide path that automatically increases bond allocation as college enrollment nears.",
+      "suggested_allocation_pct": 30.0,
+      "risk_level": "low",
+      "expected_return_range": "3-4% annually for bonds",
+      "time_horizon": "Ongoing with tactical adjustments",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T11:54:02.409306",
+      "composite_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed2",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "rebalance",
+  "query": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+  "seed": 2,
+  "system": "B1_profile_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_a4fe3d80",
+      "category": "rebalance",
+      "title": "Reduce Energy Overweight to Improve Diversification",
+      "summary": "Trim energy allocation from 15% to 8-10% by reducing positions in XLE, XOM, and CVX. Redeploy proceeds to underweight sectors like Healthcare and Consumer Staples to better align with diversified portfolio principles.",
+      "detailed_rationale": "(1) Signal: Your energy sector allocation at 15% is significantly overweight compared to typical broad market exposure (energy represents ~4-5% of the S&P 500). Combined with individual holdings in XOM and CVX plus the sector ETF XLE, you have concentrated sector-specific risk. This concentration violates the diversification principle outlined in the knowledge base: 'Diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' (2) Risk Alignment: While your moderate risk profile can accommodate some tactical overweights, a 15% energy position exposes you to commodity price volatility, geopolitical risks, and energy transition headwinds. The knowledge base emphasizes that 'specific risk relates to individual securities' and sector concentration amplifies this. Your current 10% Healthcare allocation is underweight relative to market benchmarks (~13-14%), creating an imbalance. (3) Supporting Evidence: With $1.5M in total assets, 15% energy equals $225K\u2014a substantial concentrated bet. Given current macro conditions of volatile oil prices, OPEC+ production uncertainties, and long-term renewable energy transition, maintaining this overweight increases portfolio volatility without proportional return benefits. The knowledge base recommends 'rebalancing when allocations drift more than 5% from targets.' (4) Trade-offs: Trimming energy now may mean missing short-term gains if oil prices spike, but reduces long-term structural risk. Energy sector correlation with broader markets has increased, diminishing diversification benefits of the overweight position.",
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX",
+        "VHT",
+        "XLP"
+      ],
+      "suggested_action": "Sell 40-50% of XLE position and reduce either XOM or CVX position by half. Redeploy proceeds into healthcare ETF (VHT) to increase healthcare exposure to 13-15%, and consider adding consumer staples exposure (XLP) for defensive balance. This maintains some energy exposure for tactical positioning while significantly reducing concentration risk.",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Reduced volatility of 15-20% while maintaining 7-9% annual portfolio return potential",
+      "time_horizon": "Implement over 1-2 months to avoid concentrated tax impact; benefits realized over 12-24 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:15:22.169465",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_674beec3",
+      "category": "risk_reduction",
+      "title": "Reduce Technology Concentration and Single-Stock Risk",
+      "summary": "Your 30% technology allocation, including significant NVDA exposure, creates excessive sector and single-name risk. Trim technology to 22-25% and diversify within the sector beyond semiconductors.",
+      "detailed_rationale": "(1) Signal: Technology represents 30% of your portfolio\u2014double the prudent allocation for a moderate risk profile and above even the S&P 500's ~28% tech weighting. NVDA, while a strong performer, likely represents a significant individual position within this allocation, creating concentrated single-stock risk. The knowledge base warns about 'specific risk relates to individual securities' and emphasizes diversification to manage volatility. (2) Risk Alignment: For a moderate risk portfolio with $1.12M net worth and $380K in liabilities, a 30% bet on one sector (especially high-volatility technology) exceeds prudent risk parameters. The knowledge base states moderate portfolios should 'balance around 50-60% stocks, 30-40% bonds'\u2014your combined stock/ETF allocation of 70% is already aggressive, and concentrating 43% of that equity allocation (30% of 70%) in one sector amplifies risk. (3) Supporting Evidence: Technology stocks have higher beta (volatility) than market averages. With your 5% crypto allocation (likely BTC), you already have significant technology/innovation exposure. The knowledge base recommends 'portfolio stress testing' and asks: 'Evaluate how your portfolio would perform in various scenarios: 2008-style crash, rising interest rates.' A 30% tech allocation would suffer disproportionately in a tech correction similar to 2022 when Nasdaq fell 33%. (4) Trade-offs: Technology has driven market returns recently, so reducing exposure may mean lower returns in continued tech bull markets. However, reducing concentration improves risk-adjusted returns and sleep-at-night factor, especially important given your liability position.",
+      "tickers": [
+        "NVDA",
+        "VTI",
+        "VGT"
+      ],
+      "suggested_action": "Trim NVDA position by 30-40% if it represents more than 8-10% of your portfolio. Maintain core technology exposure through VTI (which includes diversified tech). If additional tech exposure desired, consider rotating partial NVDA proceeds into diversified technology ETF (VGT) which spreads risk across software, semiconductors, and IT services. Target overall technology allocation of 22-25%.",
+      "suggested_allocation_pct": 23.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Reduced drawdown risk of 20-25% while maintaining 8-11% annual growth potential",
+      "time_horizon": "Execute over 4-8 weeks; benefits compound over 2-5 years through reduced volatility",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:15:22.169465",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_4d13f94a",
+      "category": "diversify",
+      "title": "Increase Bond Allocation for Better Risk-Adjusted Returns",
+      "summary": "Increase fixed income from 15% to 25-30% by adding intermediate-term treasury and corporate bond exposure. This better aligns with moderate risk profile and provides portfolio ballast.",
+      "detailed_rationale": "(1) Signal: Your 15% bond allocation is significantly below the 30-40% recommendation for moderate risk portfolios cited in the knowledge base. With 70% equity exposure (45% stocks + 25% ETFs, which are primarily equity-focused like VTI, VWO, XLE), your portfolio skews aggressive rather than moderate. Your current BND holding provides core exposure but is insufficient for proper portfolio balance. (2) Risk Alignment: The knowledge base explicitly states 'Moderate portfolios balance around 50-60% stocks, 30-40% bonds.' Your 70% equity weighting is more consistent with an aggressive profile. Given your $380K liability position (25% of total assets), you need more downside protection. Bonds provide the 'asset classes that don't move in perfect correlation' essential for diversification. At your net worth level, capital preservation becomes increasingly important alongside growth. (3) Supporting Evidence: The knowledge base emphasizes 'Strategic allocation sets long-term targets based on your investment profile.' For a $1.5M portfolio with moderate risk tolerance, insufficient bond allocation means excessive volatility. In a 20% equity market correction, your current portfolio could decline ~$210K (70% \u00d7 20% \u00d7 $1.5M). Increasing bonds to 30% would reduce this potential decline to ~$165K\u2014a meaningful $45K buffer. The knowledge base also notes 'Emergency fund importance: Maintain 3-6 months of expenses in liquid savings'\u2014your 5% cash ($75K) may be adequate for emergency fund, but bonds provide additional liquidity and safety. (4) Trade-offs: Higher bond allocation will reduce overall return potential in strong equity markets (potentially 0.5-1.5% annually), but significantly improves risk-adjusted returns and reduces maximum drawdown. Given current bond yields (4-5% range), bonds are more attractive than in the 2010s low-rate environment.",
+      "tickers": [
+        "BND",
+        "VCIT",
+        "VGIT",
+        "AGG"
+      ],
+      "suggested_action": "Increase BND position and add complementary bond exposure through VCIT (intermediate corporate bonds) and VGIT (intermediate government bonds) for yield and diversification. Fund this increase by taking profits from the technology and energy trims recommended above. Target 25-30% total bond allocation, split between government (15%), corporate (10%), and maintain some in BND for broad exposure.",
+      "suggested_allocation_pct": 27.0,
+      "risk_level": "low",
+      "expected_return_range": "3.5-5% from bonds; improves portfolio risk-adjusted return to 1.2-1.4 Sharpe ratio",
+      "time_horizon": "Build position over 2-3 months; provides immediate volatility reduction",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:15:22.169465",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_1f00ec3c",
+      "category": "risk_reduction",
+      "title": "Reduce Cryptocurrency Allocation to 2-3% Maximum",
+      "summary": "Your 5% crypto allocation (likely BTC) is excessive for a moderate risk profile. Trim to 2-3% to reduce portfolio volatility while maintaining exposure to digital asset appreciation potential.",
+      "detailed_rationale": "(1) Signal: A 5% crypto allocation ($75K) represents significant speculative risk that's inconsistent with a moderate risk profile. The knowledge base emphasizes 'Your risk tolerance depends on your time horizon, financial goals, income stability, and emotional comfort with volatility.' Cryptocurrency exhibits volatility often exceeding 60-80% annually\u2014far beyond typical moderate portfolio allocations. While not explicitly covered in your knowledge base, crypto should be treated as a high-risk, speculative asset class. (2) Risk Alignment: The knowledge base asks investors to 'Be honest about how you'd react to significant portfolio declines' and recommends 'Portfolio stress testing: Evaluate how your portfolio would perform in various scenarios.' In a crypto winter scenario (similar to 2022's 70% BTC decline), your 5% allocation could lose $52K in value. Combined with potential equity market stress, this amplifies total portfolio risk unnecessarily. For moderate risk profiles, alternative assets like crypto should represent 2-3% maximum\u2014enough for asymmetric upside exposure without jeopardizing core portfolio stability. (3) Supporting Evidence: Your portfolio already has substantial growth-oriented equity exposure (70%). Adding 5% crypto creates a 75% combined high-risk allocation, pushing your effective risk profile into aggressive territory. The knowledge base notes 'Aggressive portfolios may hold 80-90% stocks'\u2014your 75% high-risk allocation approaches this threshold despite your moderate designation. With $380K in liabilities, maintaining excessive speculative positions increases the risk of forced liquidations during market stress when you might need liquidity. (4) Trade-offs: Reducing crypto exposure may mean missing some upside in continued bull markets for digital assets. However, maintaining a 2-3% allocation still provides meaningful exposure to the asset class while dramatically reducing tail risk. You can always reassess and increase if risk tolerance changes or crypto market volatility moderates.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Reduce BTC position by 40-60%, taking your allocation from 5% to 2-3% ($30-45K). Given crypto's volatility, consider executing this sale during a market strength period if possible. Redeploy proceeds into the increased bond allocation recommended above, specifically into VCIT or VGIT for stability. Maintain the 2-3% crypto position as a long-term asymmetric bet without excessive portfolio impact.",
+      "suggested_allocation_pct": 2.5,
+      "risk_level": "high",
+      "expected_return_range": "Reduces portfolio volatility by 8-12% while maintaining exposure to potential crypto appreciation",
+      "time_horizon": "Execute within 2-4 weeks; volatility reduction immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:15:22.169465",
+      "composite_score": 0.0
+    }
+  ]
+}

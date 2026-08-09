@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"The rationale uses the user's aggressive risk tolerance, interest in AI infrastructure, and intermediate experience level to justify the recommendation.\",\n    \"C2\": \"The high risk level matches the user's aggressive risk tolerance and is explicitly justified in the rationale.\",\n    \"C3\": \"Most claims are grounded, but the expected return range lacks specific support from the user's portfolio or profile.\",\n    \"C4\": \"The recommendation provides specific tickers, allocation percentages, and a clear action plan.\",\n    \"C5\": \"The recommendation acknowledges the existing tech concentration and suggests a limited allocation to mitigate further concentration.\",\n    \"C6\": \"The recommendation uses calibrated language and acknowledges risks, but lacks an explicit disclaimer.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "The rationale uses the user's aggressive risk tolerance, interest in AI infrastructure, and intermediate experience level to justify the recommendation.",
+      "C2": "The high risk level matches the user's aggressive risk tolerance and is explicitly justified in the rationale.",
+      "C3": "Most claims are grounded, but the expected return range lacks specific support from the user's portfolio or profile.",
+      "C4": "The recommendation provides specific tickers, allocation percentages, and a clear action plan.",
+      "C5": "The recommendation acknowledges the existing tech concentration and suggests a limited allocation to mitigate further concentration.",
+      "C6": "The recommendation uses calibrated language and acknowledges risks, but lacks an explicit disclaimer."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3698,
+    "output_tokens": 233
+  },
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed2",
+  "rec_index": 1,
+  "rec_id": "rec_07374a0c",
+  "rubric_version": "1.1"
+}

@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A directly answers the user's question about healthcare/utility positions with a clear hold recommendation grounded in specific profile attributes (loss comfort 2/10, retiree income needs, expense coverage), and provides more actionable, tax-aware suggestions like muni bonds and short-term Treasuries appropriate for a conservative retiree. System B addresses sector concentration more aggressively but recommends a moderate-risk broad market ETF and aggressive trimming that less cleanly fits the conservative/short-horizon profile, and one rec admits not knowing the user's age despite it being provided.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A directly answers the user's question about healthcare/utility positions with a clear hold recommendation grounded in specific profile attributes (loss comfort 2/10, retiree income needs, expense coverage), and provides more actionable, tax-aware suggestions like muni bonds and short-term Treasuries appropriate for a conservative retiree. System B addresses sector concentration more aggressively but recommends a moderate-risk broad market ETF and aggressive trimming that less cleanly fits the conservative/short-horizon profile, and one rec admits not knowing the user's age despite it being provided."
+  },
+  "usage": {
+    "input_tokens": 11561,
+    "output_tokens": 326
+  },
+  "session_id": "P1_conservative_retiree__sector_specific__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 1,
+  "rubric_version": "1.1"
+}

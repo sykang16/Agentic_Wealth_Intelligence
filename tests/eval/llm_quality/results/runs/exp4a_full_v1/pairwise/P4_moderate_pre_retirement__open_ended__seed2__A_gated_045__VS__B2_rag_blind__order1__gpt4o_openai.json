@@ -1,0 +1,30 @@
+{
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "open_ended",
+  "seed": 2,
+  "sys_a": "A_gated_045",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"tie\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System A provides strong personalization and actionable steps, but System B better aligns with the user's risk tolerance and addresses diversification concerns more effectively. Both systems maintain safety and compliance standards.\"\n}\n```",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "tie",
+      "C4_actionability": "A",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System A provides strong personalization and actionable steps, but System B better aligns with the user's risk tolerance and addresses diversification concerns more effectively. Both systems maintain safety and compliance standards."
+  },
+  "usage": {
+    "input_tokens": 8197,
+    "output_tokens": 134
+  }
+}

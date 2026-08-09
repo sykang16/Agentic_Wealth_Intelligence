@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"Both systems address the cash buffer query well with strong personalization to variable consulting income, but System A provides more concrete actionability with specific dollar amounts, tiered structures, and tax-aware execution details. System A's recommendations are also more tightly grounded in the actual portfolio numbers (e.g., 5.8 months coverage calculation, specific lot identification for tax harvesting), while System B's Rec #4 'hold energy' feels less responsive to the query and Rec #3 partially conflates VWO holding with EM sector allocation.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "Both systems address the cash buffer query well with strong personalization to variable consulting income, but System A provides more concrete actionability with specific dollar amounts, tiered structures, and tax-aware execution details. System A's recommendations are also more tightly grounded in the actual portfolio numbers (e.g., 5.8 months coverage calculation, specific lot identification for tax harvesting), while System B's Rec #4 'hold energy' feels less responsive to the query and Rec #3 partially conflates VWO holding with EM sector allocation."
+  },
+  "usage": {
+    "input_tokens": 13655,
+    "output_tokens": 312
+  },
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B2_rag_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

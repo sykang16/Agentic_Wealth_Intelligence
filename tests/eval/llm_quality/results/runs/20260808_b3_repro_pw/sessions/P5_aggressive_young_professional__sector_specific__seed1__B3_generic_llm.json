@@ -1,0 +1,113 @@
+{
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "sector_specific",
+  "query": "I'm already heavy in tech. Should I rotate into AI infrastructure plays, or diversify into a different sector entirely?",
+  "seed": 1,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "diversify",
+      "title": "Reduce Tech Concentration Risk Through Sector Diversification",
+      "summary": "With 65% in technology and aggressive risk tolerance, diversify 20-25% into high-growth sectors like healthcare, financials, and industrials to maintain growth potential while reducing single-sector risk.",
+      "detailed_rationale": "Your 65% tech concentration creates significant correlation risk, especially with overlapping QQQ/tech stock holdings. At 30 with 15-year FIRE timeline and aggressive profile, you can maintain high equity exposure but should diversify sectors. Rather than adding more tech (AI infrastructure), rotate 20-25% into complementary high-growth sectors: Healthcare (XLV, ARKG for biotech), Financials (fintech exposure via XLF), Industrials/Infrastructure (XLI), and emerging markets (VWO). This preserves growth potential while reducing drawdown risk if tech corrects. Your current overlap (QQQ holds NVDA, GOOGL, META, AMZN) already gives AI infrastructure exposure.",
+      "tickers": [
+        "XLV",
+        "ARKG",
+        "XLF",
+        "XLI",
+        "VWO"
+      ],
+      "suggested_action": "Sell 20-25% of QQQ position and rotate into diversified sector ETFs",
+      "suggested_allocation_pct": 25.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-14%",
+      "time_horizon": "long-term (5+ years)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:42:22.776095",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "rebalance",
+      "title": "Consolidate Redundant Tech Holdings to Reduce Overlap",
+      "summary": "Eliminate redundancy between QQQ and individual tech stocks (NVDA, GOOGL, META, AMZN) which are QQQ's top holdings, creating 3x exposure to same companies.",
+      "detailed_rationale": "QQQ's top 10 holdings include NVDA (4.6%), GOOGL (2.8%), META (2.5%), and AMZN (2.7%), meaning your individual stock picks overlap heavily with your ETF position. This creates concentrated risk without additional diversification benefit. Given your aggressive profile and intermediate experience, either: (1) Keep QQQ for diversified tech exposure and sell individual overlapping stocks, or (2) Sell QQQ and build concentrated positions in 8-10 individual stocks across sectors. Option 1 is more appropriate given your FIRE timeline needs risk management. Keep TSLA separate as differentiated play. This frees capital for sector diversification.",
+      "tickers": [
+        "QQQ",
+        "NVDA",
+        "GOOGL",
+        "META",
+        "AMZN"
+      ],
+      "suggested_action": "Sell individual NVDA, GOOGL, META, AMZN positions; maintain QQQ for tech exposure",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "N/A (risk reduction)",
+      "time_horizon": "immediate",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:42:22.776095",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "buy",
+      "title": "Increase International Exposure for Global Diversification",
+      "summary": "Add 10-15% allocation to international developed and emerging markets to capture global growth and reduce US-centric portfolio risk.",
+      "detailed_rationale": "Your portfolio is 100% US-focused (VTI is 100% US, QQQ is US tech). At 30 with 15-year horizon, international markets offer: (1) Valuation advantage - international trades at lower P/E than US, (2) Currency diversification against dollar risk, (3) Exposure to different economic cycles. Emerging markets (particularly India, Southeast Asia) offer higher growth potential aligning with aggressive profile. Developed international (VXUS, VEA) provides stability. Suggested allocation: 10% developed international (VXUS), 5% emerging markets (VWO or VWILX). This complements rather than replaces US holdings and improves risk-adjusted returns through low correlation.",
+      "tickers": [
+        "VXUS",
+        "VWO",
+        "INDA"
+      ],
+      "suggested_action": "Allocate 10-15% to international equity ETFs using rebalanced funds",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "9-15%",
+      "time_horizon": "long-term (5+ years)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:42:22.776095",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "hold",
+      "title": "Maintain Current Crypto and Cash Allocations",
+      "summary": "Keep 5% BTC allocation as alternative asset and 10% cash as acceptable for aggressive growth portfolio with stable income.",
+      "detailed_rationale": "Your 5% crypto (BTC) allocation is appropriate for aggressive risk tolerance and provides: (1) Non-correlated asset during certain market conditions, (2) Inflation hedge characteristics, (3) Exposure to digital asset thesis without excessive risk. 10% cash is slightly high for aggressive profile but justified by: (1) Strong monthly savings capacity ($195k income - $66k expenses = ~$129k annual savings), (2) Existing emergency fund, (3) Deployment capital for opportunities post-diversification. Consider reducing to 5% cash after implementing diversification moves, redeploying into recommended sector/international positions. BTC position should not be increased given already concentrated risk profile.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Maintain current positions; consider reducing cash to 5% after diversification complete",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "N/A (maintain)",
+      "time_horizon": "long-term (5+ years)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "low",
+      "data_sources": [],
+      "generated_at": "2026-08-08T18:42:22.776095",
+      "composite_score": 0.0
+    }
+  ]
+}

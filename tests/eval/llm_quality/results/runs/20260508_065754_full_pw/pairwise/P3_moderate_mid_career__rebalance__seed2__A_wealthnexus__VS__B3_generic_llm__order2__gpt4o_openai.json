@@ -1,0 +1,28 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more detailed and actionable recommendations that are well-aligned with the user's moderate risk tolerance and diversification needs. While both systems offer personalized advice, System A's recommendations are more grounded in the user's current portfolio and provide clearer steps for rebalancing and diversification.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more detailed and actionable recommendations that are well-aligned with the user's moderate risk tolerance and diversification needs. While both systems offer personalized advice, System A's recommendations are more grounded in the user's current portfolio and provide clearer steps for rebalancing and diversification."
+  },
+  "usage": {
+    "input_tokens": 6582,
+    "output_tokens": 149
+  },
+  "session_id": "P3_moderate_mid_career__rebalance__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 2,
+  "rubric_version": "1.1"
+}

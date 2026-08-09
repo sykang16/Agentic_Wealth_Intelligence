@@ -1,0 +1,163 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "query": "I'm 40 with two kids heading to college in about 10 years. How should I balance saving for their education versus retirement?",
+  "seed": 2,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_6668c2ad",
+      "category": "diversify",
+      "title": "Establish Dedicated 529 College Savings Strategy",
+      "summary": "Create a separate 529 plan allocation targeting $200K in 10 years, requiring ~$1,400/month contributions with age-based asset allocation to reduce education funding risk.",
+      "detailed_rationale": "Signal: Your portfolio shows no dedicated education savings vehicle despite a high-priority $200K college goal in 10 years for two children. Current portfolio is 70% equity-weighted, appropriate for retirement but too aggressive for a near-term education goal. Step-by-step reasoning: (1) With $140K net worth and $175K income, you have capacity to fund both goals simultaneously - your monthly surplus of ~$5,000+ after expenses supports dedicated education savings. (2) A 10-year horizon is too short to rely solely on equity exposure for college funding; you need principal protection as the goal approaches. (3) 529 plans offer tax-free growth for education, plus potential state tax deductions - this is significantly more efficient than using taxable accounts. (4) Age-based 529 portfolios automatically shift from 80% stocks now to 20% stocks at year 10, protecting gains as tuition bills arrive. (5) With moderate risk tolerance and loss comfort of 6/10, you can accept short-term volatility early but need downside protection later - age-based glide paths match this perfectly. Evidence: At current contribution levels, your retirement goal ($2.5M in 25 years) can still be met with your existing portfolio's equity allocation. Separating goals into dedicated accounts prevents the behavioral risk of raiding retirement funds for education. Risk/Trade-off: This requires disciplined monthly contributions and reduces flexibility to use these funds for other purposes. If children don't attend college or get scholarships, 529 funds face penalties for non-education withdrawals (though can be transferred to other beneficiaries or used for student loan repayment up to $10K).",
+      "tickers": [
+        "529_AGE_BASED"
+      ],
+      "suggested_action": "Open a 529 plan with age-based portfolio allocation. Contribute $1,400/month ($16,800/year) to reach $200K target in 10 years assuming 5% average return. Use aggressive allocation initially (80% equity) transitioning to conservative (20% equity) by year 10.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "moderate",
+      "expected_return_range": "4-6% annually with declining risk",
+      "time_horizon": "10 years to first college year, 14 years to last",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:00:14.054534",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_7d0d8eea",
+      "category": "rebalance",
+      "title": "Reduce Technology Overconcentration to Manage Risk",
+      "summary": "Decrease technology sector allocation from 35% to 25% by trimming individual tech holdings (AAPL, MSFT, NVDA, GOOGL) and increasing broad market exposure through existing VTI and VXUS positions.",
+      "detailed_rationale": "Signal: Your portfolio shows 35% technology concentration - significantly above the S&P 500's ~28% tech weighting and well above diversified targets for moderate risk profiles (typically 20-25%). This creates concentrated risk in a single sector. Step-by-step reasoning: (1) You hold four individual tech stocks (AAPL, MSFT, NVDA, GOOGL) representing the 20% individual stock allocation, plus additional tech exposure through VTI. This double-exposure amplifies sector risk. (2) With moderate risk tolerance and two high-priority goals requiring capital preservation, a 35% single-sector bet creates unacceptable downside risk. If tech corrects 30% (as occurred in 2022), you'd lose ~10.5% of portfolio value from tech alone. (3) Your 10-year education horizon cannot afford a prolonged tech sector drawdown - diversification is essential for capital preservation. (4) VTI already provides optimal tech exposure at market weights; your individual holdings are redundant and increase concentration without commensurate return benefits for your risk profile. (5) As a product manager likely in tech, you may already have employment risk correlated with this sector - adding investment concentration compounds this risk. Evidence: Historical data shows sector concentration increases portfolio volatility by 15-25% versus broad market approaches. Your loss comfort of 6/10 suggests you'd be uncomfortable with this added volatility. Trade-off: Tech has driven market returns recently, so reducing allocation may result in underperformance if tech leadership continues. However, your moderate risk profile and dual high-priority goals prioritize capital preservation over maximum return potential.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL",
+        "VTI",
+        "VXUS"
+      ],
+      "suggested_action": "Sell 40-50% of individual tech stock positions (AAPL, MSFT, NVDA, GOOGL), reducing them from 20% to 10-12% of portfolio. Reallocate proceeds 60% to VTI and 40% to VXUS to increase international diversification while maintaining growth orientation.",
+      "suggested_allocation_pct": -10.0,
+      "risk_level": "low",
+      "expected_return_range": "Maintains 7-9% long-term growth with reduced volatility",
+      "time_horizon": "Immediate rebalancing, long-term benefit",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:00:14.054534",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_eded5184",
+      "category": "diversify",
+      "title": "Increase Bond Ladder Component for Education Goal Protection",
+      "summary": "Convert 30% of BND holdings into a 5-10 year Treasury/corporate bond ladder to create predictable cash flows aligned with college tuition payment schedule, protecting education capital from interest rate volatility.",
+      "detailed_rationale": "Signal: Your 30% BND allocation provides broad bond exposure but lacks maturity targeting for your specific 10-year education goal. BND holds intermediate-term bonds with average 8.7-year duration, creating interest rate risk as college approaches. Step-by-step reasoning: (1) With college costs beginning in 10 years and continuing for 4 years per child (potentially 10-14 years from now), you need predictable bond maturities aligned with tuition bills. (2) A bond ladder with maturities from years 9-14 provides certainty: each bond matures when needed, eliminating forced sales in down markets. (3) Current interest rates (4.5-5.5% on 10-year Treasuries and investment-grade corporates) are attractive for locking in returns for education funding - significantly higher than the 2-3% rates available in recent years. (4) Your moderate risk tolerance and intermediate investment experience make bond ladders appropriate - they're easy to understand, provide predictable outcomes, and eliminate reinvestment risk for the education goal. (5) BND's broad exposure is still appropriate for retirement (25-year horizon), but lacks the precision needed for a time-bound goal. Evidence: Bond ladders have historically provided 95%+ capital certainty when held to maturity, versus 85-90% for bond funds over 10-year periods due to interest rate risk. For a high-priority goal with fixed timing, this 5-10% risk reduction is material. Trade-off: Bond ladders sacrifice some yield (typically 0.2-0.4% annually) versus total return bond funds, and reduce liquidity since you're committed to holding specific bonds to maturity. However, for goal-based planning, the certainty premium is worth the modest yield sacrifice.",
+      "tickers": [
+        "BND",
+        "TREASURY_LADDER",
+        "CORP_LADDER"
+      ],
+      "suggested_action": "Maintain 70% of BND position for retirement portfolio. Allocate 30% of BND holdings ($30K) to construct a bond ladder: purchase individual Treasury bonds or high-grade corporate bonds (AA or higher) with staggered maturities from 2034-2038, aligned with anticipated college payment years. Each rung should equal ~$6K to match annual tuition needs.",
+      "suggested_allocation_pct": 9.0,
+      "risk_level": "low",
+      "expected_return_range": "4.5-5.5% annually with high certainty",
+      "time_horizon": "9-14 years to match education goal timeline",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:00:14.054534",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_5103bb15",
+      "category": "rebalance",
+      "title": "Increase International Equity Exposure via VXUS for Long-Term Diversification",
+      "summary": "Boost VXUS allocation from current levels to achieve 30% international equity exposure, capturing global growth opportunities and reducing US market concentration risk for your 25-year retirement horizon.",
+      "detailed_rationale": "Signal: Your portfolio appears home-biased with limited explicit international diversification mentioned beyond VXUS. With 70% in equities and US stocks dominating through VTI and individual holdings, you likely have <20% international exposure - below the ~40% non-US weighting of global market cap. Step-by-step reasoning: (1) A 25-year retirement horizon demands maximum diversification across geographies to capture global growth and reduce single-country risk. (2) Your moderate risk profile actually supports higher international allocation - diversification reduces portfolio volatility without sacrificing returns. Academic research shows 30-40% international allocation optimizes risk-adjusted returns for US investors. (3) Current valuations favor international markets: non-US developed markets trade at ~13x P/E versus 21x for US markets, while emerging markets offer 11x P/E with higher GDP growth rates (4-5% vs 2-3% US). (4) As a product manager with US-denominated income and likely US-based employment, your human capital is already heavily US-concentrated - international investment exposure provides important hedging. (5) VXUS provides broad, low-cost exposure (0.08% expense ratio) to both developed and emerging international markets, making it ideal for this allocation. Evidence: Historical analysis shows US market leadership is cyclical - international markets outperformed US from 2002-2007 and will likely lead again in future cycles. Missing these cycles hurts long-term wealth accumulation for retirement. Trade-off: International stocks have underperformed US markets over the past 15 years, creating recency bias. Increasing allocation now means potentially short-term underperformance if US leadership continues. However, valuations and mean reversion favor international markets for long-term holders with your time horizon.",
+      "tickers": [
+        "VXUS",
+        "VTI"
+      ],
+      "suggested_action": "Increase VXUS allocation to represent 30% of your total equity holdings (approximately 21% of total portfolio). If currently underweighted, redirect contributions and rebalancing proceeds to VXUS until target is achieved. Maintain this through regular rebalancing to capture international opportunities while managing risk.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually over long term with diversification benefit",
+      "time_horizon": "25 years for retirement goal",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:00:14.054534",
+      "composite_score": 0.0
+    }
+  ]
+}

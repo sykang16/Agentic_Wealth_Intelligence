@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"The rationale cites the user's aggressive risk tolerance, long investment horizon, and wealth accumulation goals, aligning the recommendation with these attributes.\",\n    \"C2\": \"The risk level is moderate, one tier below the user's aggressive tolerance, but justified by the diversification benefits and sector-specific volatility handling.\",\n    \"C3\": \"All claims about portfolio allocation, sector correlations, and user profile are traceable to the provided data.\",\n    \"C4\": \"The recommendation specifies tickers, allocation percentage, and a clear execution plan with tranches over a set period.\",\n    \"C5\": \"The recommendation addresses the overweight in energy and suggests reallocating to an underweight sector, improving diversification.\",\n    \"C6\": \"The recommendation uses calibrated language and acknowledges potential risks, though it lacks an explicit disclaimer.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "The rationale cites the user's aggressive risk tolerance, long investment horizon, and wealth accumulation goals, aligning the recommendation with these attributes.",
+      "C2": "The risk level is moderate, one tier below the user's aggressive tolerance, but justified by the diversification benefits and sector-specific volatility handling.",
+      "C3": "All claims about portfolio allocation, sector correlations, and user profile are traceable to the provided data.",
+      "C4": "The recommendation specifies tickers, allocation percentage, and a clear execution plan with tranches over a set period.",
+      "C5": "The recommendation addresses the overweight in energy and suggests reallocating to an underweight sector, improving diversification.",
+      "C6": "The recommendation uses calibrated language and acknowledges potential risks, though it lacks an explicit disclaimer."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3887,
+    "output_tokens": 254
+  },
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed1",
+  "rec_index": 1,
+  "rec_id": "rec_673dd7b6",
+  "rubric_version": "1.1"
+}

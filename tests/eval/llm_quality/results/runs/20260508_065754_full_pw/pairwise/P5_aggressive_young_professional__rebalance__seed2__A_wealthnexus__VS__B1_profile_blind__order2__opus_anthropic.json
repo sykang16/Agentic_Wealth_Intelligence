@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"tie\",\n    \"C6_safety_compliance\": \"B\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B directly answers the user's bond question with profile-specific reasoning (FIRE timeline, loss comfort 9/10, stable income, emergency fund) and aligns risk levels appropriately with the user's aggressive tolerance, whereas System A recommends a low-risk bond-heavy pivot that conflicts with the user's stated aggressive profile and 15-year horizon. System A offers more concrete execution detail and tighter factual grounding, but B's superior personalization, risk alignment, and calibrated framing make it the better overall response to this specific query.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "tie",
+      "C6_safety_compliance": "B"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B directly answers the user's bond question with profile-specific reasoning (FIRE timeline, loss comfort 9/10, stable income, emergency fund) and aligns risk levels appropriately with the user's aggressive tolerance, whereas System A recommends a low-risk bond-heavy pivot that conflicts with the user's stated aggressive profile and 15-year horizon. System A offers more concrete execution detail and tighter factual grounding, but B's superior personalization, risk alignment, and calibrated framing make it the better overall response to this specific query."
+  },
+  "usage": {
+    "input_tokens": 12907,
+    "output_tokens": 315
+  },
+  "session_id": "P5_aggressive_young_professional__rebalance__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B1_profile_blind",
+  "order": 2,
+  "rubric_version": "1.1"
+}

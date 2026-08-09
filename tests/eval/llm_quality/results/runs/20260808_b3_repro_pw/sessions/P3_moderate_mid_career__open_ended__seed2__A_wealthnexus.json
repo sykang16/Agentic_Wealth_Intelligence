@@ -1,0 +1,179 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "query": "I'm 40 with two kids heading to college in about 10 years. How should I balance saving for their education versus retirement?",
+  "seed": 2,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_49f9d917",
+      "category": "diversify",
+      "title": "Establish Dedicated 529 Education Savings",
+      "summary": "Open 529 college savings accounts for both children to take advantage of tax-free growth for your high-priority education goal with a 10-year horizon.",
+      "detailed_rationale": "Analysis of your situation reveals a critical gap: (1) Portfolio Signal: Your current portfolio shows no dedicated education savings vehicle, while you have two high-priority education goals totaling $200,000 with a 10-year timeline. (2) Risk Alignment: With moderate risk tolerance (loss comfort 6/10) and a 10-year horizon for education, a 529 plan offers the perfect balance - tax-free growth on qualified withdrawals while allowing age-based asset allocation that becomes more conservative as college approaches. (3) Evidence from Knowledge Base: The retirement planning guide emphasizes tax-advantaged accounts accelerate wealth building, and 529s provide state tax deductions in many states plus federal tax-free growth for education expenses. Your $175,000 income and stable employment as a product manager with low debt make you well-positioned to fund both goals simultaneously. (4) Trade-offs: Allocating $1,500-2,000/month to 529s ($100,000 needed per child over 10 years = ~$833/month per child) will reduce retirement contributions temporarily, but your 25-year retirement horizon provides ample recovery time. Your current monthly surplus ($175k annual = ~$14,583/month - $9,500 expenses = ~$5,083 available) can support this. The retirement guide confirms starting early matters more than timing, and at 40, you still have 25 years of compound growth for retirement.",
+      "tickers": [],
+      "suggested_action": "Open two 529 college savings plans (one per child) and begin contributing $1,600-2,000 monthly combined ($800-1,000 per child). Select age-based portfolios that automatically shift from 70% equity/30% fixed income now to 20% equity/80% fixed income by college enrollment.",
+      "suggested_allocation_pct": null,
+      "risk_level": "moderate",
+      "expected_return_range": "5-7% annually",
+      "time_horizon": "10 years to first college enrollment",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:21:40.331542",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_231a55ee",
+      "category": "rebalance",
+      "title": "Reduce Technology Overconcentration",
+      "summary": "Decrease technology sector exposure from 35% to 25% by trimming individual tech holdings and increasing diversification into underweight sectors.",
+      "detailed_rationale": "Analysis shows concerning portfolio imbalance: (1) Portfolio Signal: Technology represents 35% of your portfolio, significantly overweight versus the S&P 500's ~28% tech weighting. Your individual stock holdings (AAPL, MSFT, NVDA, GOOGL) overlap heavily with your VTI ETF holdings, creating concentration risk. Given your occupation as a product manager (likely in tech), you may have additional income correlation with tech sector performance. (2) Risk Alignment: Your moderate risk tolerance and 6/10 loss comfort suggests you should maintain sector diversification. The asset allocation guide in your knowledge base states 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Tech stocks are highly correlated and volatile. (3) Supporting Evidence: Your portfolio shows Healthcare at only 12%, Industrials at 8%, and Energy at 5% - all significantly underweight. The allocation guide recommends rebalancing when sectors drift more than 5% from appropriate targets. For moderate risk tolerance, a 25% tech allocation is more appropriate. (4) Trade-offs: Selling NVDA and partially trimming GOOGL may trigger capital gains taxes, but the risk reduction benefit outweighs short-term tax costs. You'll sacrifice some potential upside if tech continues outperforming, but protect against sector-specific downturns that could derail your education and retirement goals.",
+      "tickers": [
+        "NVDA",
+        "GOOGL",
+        "VHT",
+        "XLI"
+      ],
+      "suggested_action": "Sell 50% of NVDA position and 30% of GOOGL position. Use proceeds to add Vanguard Health Care ETF (VHT) for 3% allocation and Industrial Select Sector SPDR (XLI) for 3% allocation, bringing tech down to 25% and improving sector balance.",
+      "suggested_allocation_pct": null,
+      "risk_level": "low",
+      "expected_return_range": "Maintains 7-9% portfolio expected return with reduced volatility",
+      "time_horizon": "Execute within 30 days, monitor quarterly",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:21:40.331542",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_7c7cea28",
+      "category": "income_generation",
+      "title": "Maximize 401(k) Contributions with Employer Match",
+      "summary": "Increase 401(k) contributions to the 2024 maximum of $23,000 annually to capture full employer match and accelerate retirement savings through tax-advantaged growth.",
+      "detailed_rationale": "Critical retirement planning gap identified: (1) Profile Signal: With a $2.5M retirement target 25 years out and current net worth of only $140,000, you need aggressive retirement savings. Your $175,000 salary likely includes employer 401(k) matching that represents 'free money with immediate 100% return' per the retirement planning guide. (2) Risk Alignment: For moderate risk profile with long 25-year horizon, maximizing tax-advantaged retirement accounts is the lowest-risk, highest-certainty wealth building strategy. The knowledge base explicitly states 'maximize contributions to 401(k)s, IRAs, and Roth accounts' and 'always contribute enough to capture the full employer match.' (3) Evidence: At $175k income with $9,500 monthly expenses ($114k annually), you have $61k gross annual surplus. Contributing $23,000 to 401(k) ($1,917/month) plus $2,000/month to 529s ($24k annually) leaves $14k for additional savings and tax obligations. Your stable income and low debt level support this aggressive savings rate. The retirement guide confirms employer matching provides immediate returns that compound over decades. (4) Trade-offs: Maxing 401(k) reduces current take-home pay and flexibility, but the tax savings ($23k \u00d7 ~24% marginal rate = ~$5,520 annual tax reduction) and employer match (typically $5k-$10k annually) create substantial value. This may require modest lifestyle adjustments but is essential for reaching your $2.5M retirement goal.",
+      "tickers": [],
+      "suggested_action": "Immediately increase 401(k) contribution to $1,917 per month ($23,000 annually) to maximize 2024 limits. Ensure contributions capture full employer match. Select target-date fund aligned with age 65 retirement (2049-2050 target date fund) for automatic rebalancing mentioned in your knowledge base.",
+      "suggested_allocation_pct": null,
+      "risk_level": "low",
+      "expected_return_range": "8-10% annually pre-tax (including employer match value)",
+      "time_horizon": "25 years to retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:21:40.331542",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_1708c745",
+      "category": "buy",
+      "title": "Add International Bond Exposure",
+      "summary": "Allocate 5% to international bond ETF (BNDX) to complement your 30% BND holding and provide geographic diversification in your fixed income allocation.",
+      "detailed_rationale": "Portfolio composition analysis reveals fixed income gap: (1) Portfolio Signal: Your 30% bond allocation consists entirely of BND (U.S. Total Bond Market), with zero international fixed income exposure. Your equity allocation includes VXUS for international diversification, but bonds lack this geographic spread. For a $320,000 portfolio, this represents ~$96,000 concentrated exclusively in U.S. bonds. (2) Risk Alignment: With moderate risk tolerance and medium liquidity needs, your 30% bond allocation is appropriate per the asset allocation guide's 'moderate portfolios balance around 50-60% stocks, 30-40% bonds.' However, the diversification principle states different asset classes 'don't move in perfect correlation.' International bonds provide different interest rate, currency, and economic cycle exposure than U.S. bonds. (3) Supporting Evidence: The BND factsheet notes market risk and concentration risk. Your knowledge base emphasizes 'diversification reduces portfolio volatility by spreading investments' and warns about concentration risk. With both education (10 years) and retirement (25 years) goals, you need reliable bond performance that isn't entirely dependent on U.S. interest rate policy. (4) Trade-offs: International bonds introduce currency risk and may have slightly higher expense ratios than BND's 0.03%. However, Vanguard Total International Bond ETF (BNDX) has a low 0.07% expense ratio. You'll reduce U.S. bond allocation slightly but gain meaningful geographic diversification without changing overall 30% fixed income target.",
+      "tickers": [
+        "BNDX",
+        "BND"
+      ],
+      "suggested_action": "Allocate 5% of portfolio ($16,000) to Vanguard Total International Bond ETF (BNDX), reducing BND from 30% to 25% of portfolio. This maintains your 30% total fixed income allocation while adding geographic diversification.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5% annually",
+      "time_horizon": "Suitable for both 10-year education and 25-year retirement goals",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T09:21:40.331542",
+      "composite_score": 0.0
+    }
+  ]
+}

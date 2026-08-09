@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Rationale cites moderate risk tolerance, loss comfort 6/10, 25-year retirement horizon, 10-year education goal, stable $175K income, and emergency fund \u2014 well over three specific profile attributes causally tied to the choice.\",\n    \"C2\": \"risk_level 'moderate' matches the user's moderate risk tolerance exactly and the rationale explicitly justifies the risk fit using loss comfort and horizon.\",\n    \"C3\": \"Tickers and allocation percentages are traceable to the snapshot; minor unsupported claims include the '6-9% annually' return range and the specific '7,800+ stocks' / 0.07% ER figure attributed to a knowledge base not shown to the judge.\",\n    \"C4\": \"Provides concrete ticker (VXUS), target allocation (10-15%, 12.5%), dollar amounts, a time-bound DCA plan (3-6 months), and a clear funding source (trim tech).\",\n    \"C5\": \"Directly identifies the ~70% U.S./35% Technology concentration and prescribes an action that both adds geographic diversification and trims the overweight sector.\",\n    \"C6\": \"Uses calibrated language ('historically', 'may underperform') and acknowledges trade-offs; no rec-level disclaimer but no guarantee language either.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Rationale cites moderate risk tolerance, loss comfort 6/10, 25-year retirement horizon, 10-year education goal, stable $175K income, and emergency fund \u2014 well over three specific profile attributes causally tied to the choice.",
+      "C2": "risk_level 'moderate' matches the user's moderate risk tolerance exactly and the rationale explicitly justifies the risk fit using loss comfort and horizon.",
+      "C3": "Tickers and allocation percentages are traceable to the snapshot; minor unsupported claims include the '6-9% annually' return range and the specific '7,800+ stocks' / 0.07% ER figure attributed to a knowledge base not shown to the judge.",
+      "C4": "Provides concrete ticker (VXUS), target allocation (10-15%, 12.5%), dollar amounts, a time-bound DCA plan (3-6 months), and a clear funding source (trim tech).",
+      "C5": "Directly identifies the ~70% U.S./35% Technology concentration and prescribes an action that both adds geographic diversification and trims the overweight sector.",
+      "C6": "Uses calibrated language ('historically', 'may underperform') and acknowledges trade-offs; no rec-level disclaimer but no guarantee language either."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 5996,
+    "output_tokens": 548
+  },
+  "session_id": "P3_moderate_mid_career__sector_specific__seed1",
+  "rec_index": 0,
+  "rec_id": "rec_b438cfdb",
+  "rubric_version": "1.1"
+}

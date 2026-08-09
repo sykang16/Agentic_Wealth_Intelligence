@@ -1,0 +1,30 @@
+{
+  "session_id": "P2_conservative_early_career__sector_specific__seed2",
+  "persona_id": "P2_conservative_early_career",
+  "query_type": "sector_specific",
+  "seed": 2,
+  "sys_a": "A_gated_040",
+  "sys_b": "B2_rag_blind",
+  "order": 1,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B stays more tightly aligned with the user's conservative/beginner profile by recommending only low-risk, safety-first vehicles (HYSA, VTTSX, BND, I-Bonds) and directly addressing the house down payment goal with a goal-specific instrument, while System A introduces a moderate-risk dividend equity recommendation (NOBL/VYM) that partly conflicts with the conservative tolerance and includes a minor factual issue (calling the emergency target $22,800 vs. the stated $22,000). System A offers slightly more concrete actionability, but B's superior personalization, risk alignment, and diversification awareness make it the stronger overall set.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B stays more tightly aligned with the user's conservative/beginner profile by recommending only low-risk, safety-first vehicles (HYSA, VTTSX, BND, I-Bonds) and directly addressing the house down payment goal with a goal-specific instrument, while System A introduces a moderate-risk dividend equity recommendation (NOBL/VYM) that partly conflicts with the conservative tolerance and includes a minor factual issue (calling the emergency target $22,800 vs. the stated $22,000). System A offers slightly more concrete actionability, but B's superior personalization, risk alignment, and diversification awareness make it the stronger overall set."
+  },
+  "usage": {
+    "input_tokens": 11592,
+    "output_tokens": 351
+  }
+}

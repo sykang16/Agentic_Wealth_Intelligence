@@ -1,0 +1,165 @@
+{
+  "session_id": "P3_moderate_mid_career__rebalance__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "rebalance",
+  "query": "My tech exposure is around 35% across my ETFs and individual stocks. Is that too concentrated, and how would I trim it?",
+  "seed": 1,
+  "system": "A_gated_045",
+  "rag_diagnostics": {
+    "top_score": 0.429,
+    "num_hits": 2,
+    "gated": true,
+    "threshold": 0.45
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_abf6b5a2",
+      "category": "rebalance",
+      "title": "Reduce Technology Concentration to 25%",
+      "summary": "Your 35% tech allocation exceeds recommended diversification limits for moderate risk profiles. Trim individual tech holdings and redirect to underweight sectors.",
+      "detailed_rationale": "Step 1 - Signal Identification: Your portfolio shows 35% technology exposure, which is significantly above the S&P 500's tech weighting (~28%) and exceeds prudent concentration limits for moderate risk investors. With individual holdings in AAPL, MSFT, NVDA, and GOOGL, plus tech exposure through VTI, you have substantial overlap and single-sector risk. Step 2 - Risk Profile Alignment: As a moderate risk investor with loss comfort of 6/10, a 35% concentration in one volatile sector creates excessive downside risk. The 2022 tech selloff saw many stocks decline 30-50%; your current allocation would magnify such losses. Your dual high-priority goals (education in 10 years, retirement in 25 years) require stability for the nearer-term education goal while maintaining growth for retirement. Step 3 - Supporting Evidence: Historical data shows tech sector standard deviation of 22-25% annually versus 15-17% for diversified portfolios. With $70,000+ in tech exposure and education funding needs in 10 years, a sector-specific downturn could materially impact goal achievement. Your stable income and intermediate experience support rebalancing capability. Step 4 - Trade-offs: Reducing tech exposure may limit upside participation if the sector outperforms, but it significantly reduces concentration risk and volatility. This aligns with your moderate risk tolerance and creates capacity for gains in underweight sectors.",
+      "tickers": [
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Sell 50% of NVDA and 50% of GOOGL positions (approximately $14,000 total). Maintain AAPL and MSFT as core holdings due to their dividend income and stability profiles. This reduces tech allocation to approximately 25% while preserving exposure to the sector's growth potential.",
+      "suggested_allocation_pct": -10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Risk reduction focused; maintaining 7-9% annually through diversification",
+      "time_horizon": "Execute over 1-2 months to avoid market timing risk",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:51:36.386587",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_9311c260",
+      "category": "diversify",
+      "title": "Increase Healthcare and Consumer Staples Exposure",
+      "summary": "Deploy proceeds from tech rebalancing into defensive sectors (Healthcare, Consumer Staples) that are underweight in your portfolio and provide stability for education goal timeline.",
+      "detailed_rationale": "Step 1 - Signal Identification: Your Healthcare allocation of 12% and minimal Consumer Staples exposure (grouped in 'Other' 15%) are below market weights and create a gap in defensive positioning. With an education goal 10 years out requiring $200,000, you need sectors that provide downside protection during market volatility while still generating returns. Step 2 - Risk Profile Alignment: Healthcare and Consumer Staples historically exhibit lower volatility (beta 0.8-0.9) compared to Technology (beta 1.2+), making them ideal for moderate risk profiles with medium-term goals. These sectors provide essential goods/services with consistent demand regardless of economic cycles. Your stable $175,000 income and low debt support a strategic 10-year accumulation without forced selling during downturns. Step 3 - Supporting Evidence: Healthcare sector returns have averaged 10-12% annually over 20-year periods with significantly lower drawdowns than tech. Consumer Staples provide 6-8% returns with 3-4% dividend yields, supporting both growth and income. The $14,000 rebalancing proceeds, combined with future contributions toward your $200,000 education target, can build substantial positions. Your intermediate experience level is well-suited to sector ETFs rather than individual stock selection. Step 4 - Trade-offs: These sectors may underperform during strong bull markets dominated by growth stocks, but they provide the stability needed for your nearer-term education goal while maintaining participation in equity market growth.",
+      "tickers": [
+        "VHT",
+        "VDC"
+      ],
+      "suggested_action": "Purchase $8,000 of Vanguard Health Care ETF (VHT) and $6,000 of Vanguard Consumer Staples ETF (VDC). This increases Healthcare to 17% and establishes Consumer Staples at 5%, improving defensive positioning while maintaining growth orientation.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "8-11% annually with lower volatility",
+      "time_horizon": "Long-term hold through education goal (10+ years)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:51:36.386587",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_148694ba",
+      "category": "diversify",
+      "title": "Add International Developed Markets Allocation",
+      "summary": "While you hold VXUS, increase international developed market exposure to reduce US concentration and capture valuation opportunities in European and Asian markets.",
+      "detailed_rationale": "Step 1 - Signal Identification: Your portfolio shows strong US bias even with VXUS holdings. International developed markets (Europe, Japan, UK) currently trade at lower valuations (P/E ratios 12-14x versus S&P 500 at 19-20x) and offer diversification from US-specific risks including political uncertainty, dollar strength fluctuations, and domestic policy changes. With 25-year retirement horizon, international diversification reduces country-specific risk. Step 2 - Risk Profile Alignment: As a moderate risk investor with long-term horizons, international developed market exposure (not emerging markets) provides appropriate diversification without excessive volatility. Your stable product manager income and healthy emergency fund mean you can withstand currency fluctuations and geopolitical events. The $2.5M retirement target requires broad global equity exposure to capture worldwide growth. Step 3 - Supporting Evidence: Historical analysis shows internationally diversified portfolios reduce overall portfolio volatility by 10-15% through imperfect correlations between US and international markets. VXUS provides broad exposure, but increasing the allocation captures current valuation discounts. Your intermediate experience and ETF preference align well with broad international index funds. Academic research (Vanguard, 2023) recommends 20-40% international allocation for US investors; consider targeting the middle of this range given your moderate profile. Step 4 - Trade-offs: International investing introduces currency risk and potentially higher expense ratios. Short-term underperformance versus US markets is possible, but long-term diversification benefits and current valuation gaps support this allocation.",
+      "tickers": [
+        "VXUS"
+      ],
+      "suggested_action": "Increase VXUS position by $10,000 over next 3 months through dollar-cost averaging ($3,300 monthly purchases). Target bringing international allocation from current implied level to 25-30% of equity holdings, reducing home country bias.",
+      "suggested_allocation_pct": 7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10% annually with diversification benefits",
+      "time_horizon": "Long-term retirement focus (20+ years)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:51:36.386587",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_a5858f6b",
+      "category": "income_generation",
+      "title": "Ladder Bond Holdings for Education Goal Certainty",
+      "summary": "Convert portion of BND holdings into bond ladder maturing 7-10 years out, providing guaranteed funds for education expenses while reducing interest rate risk.",
+      "detailed_rationale": "Step 1 - Signal Identification: Your 30% bond allocation ($96,000) in BND provides diversification but lacks targeted maturity matching for your high-priority $200,000 education goal in ~10 years. With rising yields (10-year Treasury ~4.5%), this is an opportune time to lock in rates for specific future needs. Your medium liquidity needs and stable income support shifting some bonds from aggregate funds to a purposeful ladder. Step 2 - Risk Profile Alignment: As a moderate risk investor approaching a major expense milestone, you need certainty for a portion of the education funding. Bond ladders eliminate reinvestment risk and interest rate volatility for the laddered portion. Your $175,000 income, stable employment, and low debt level mean you can afford to lock up funds in individual bonds while maintaining liquidity through remaining BND holdings and your emergency fund. The education goal's 10-year timeframe perfectly matches intermediate-term bond ladder construction. Step 3 - Supporting Evidence: Bond ladders provide predictable cash flows matched to expenses, eliminating the need to sell during unfavorable market conditions. With current yields of 4.5-5.0% on investment-grade bonds, a $40,000 ladder initiated now grows to approximately $62,000-65,000 in 10 years without market risk. Combined with continued contributions, this provides substantial progress toward the $200,000 target with guaranteed outcomes. Your intermediate investment experience is sufficient to understand and implement a simple bond ladder or use target maturity bond ETFs as simplified alternatives. Step 4 - Trade-offs: Laddered bonds sacrifice liquidity and potential price appreciation if rates decline. However, for goal-specific funds with known timelines, certainty of principal and predictable income outweigh opportunity costs, especially given your long retirement horizon for remaining assets.",
+      "tickers": [
+        "IBDP",
+        "IBDQ",
+        "IBDR"
+      ],
+      "suggested_action": "Reallocate $40,000 from BND into target maturity bond ETFs: $13,000 each into iBonds Dec 2031 (IBDP), Dec 2032 (IBDQ), and Dec 2033 (IBDR). This creates a ladder maturing as children approach college age, providing $40,000+ guaranteed principal plus accumulated interest for education expenses.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "4.5-5.0% annually with principal protection",
+      "time_horizon": "7-10 years (matched to education goal)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T07:51:36.386587",
+      "composite_score": 0.0
+    }
+  ]
+}

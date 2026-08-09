@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"B\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A delivers a more granular year-by-year glide path directly responsive to the query, with specific dollar amounts, phased actions, and repeated references to the user's profile attributes (age, loss comfort, income, goals). System B is cleaner on risk-level tagging and diversification structure (bond laddering, sector overlap), but its phase-level actionability and personalization depth are weaker than A's.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "B",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "A",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A delivers a more granular year-by-year glide path directly responsive to the query, with specific dollar amounts, phased actions, and repeated references to the user's profile attributes (age, loss comfort, income, goals). System B is cleaner on risk-level tagging and diversification structure (bond laddering, sector overlap), but its phase-level actionability and personalization depth are weaker than A's."
+  },
+  "usage": {
+    "input_tokens": 11691,
+    "output_tokens": 260
+  },
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 1,
+  "rubric_version": "1.1"
+}

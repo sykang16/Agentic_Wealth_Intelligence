@@ -1,0 +1,156 @@
+{
+  "session_id": "P1_conservative_retiree__rebalance__seed1",
+  "persona_id": "P1_conservative_retiree",
+  "query_type": "rebalance",
+  "query": "I have about 50% of my portfolio in bonds. Is that the right level for someone my age, or should I rebalance?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_6f66a53d",
+      "category": "hold",
+      "title": "Maintain Current 50% Bond Allocation",
+      "summary": "Your 50% bond allocation is appropriate for your age, risk tolerance, and income needs. This allocation provides capital preservation and steady income while maintaining adequate liquidity.",
+      "detailed_rationale": "Signal: Your question about bond allocation appropriateness in retirement. Analysis: (1) At age 65 with conservative risk tolerance (loss comfort of only 2/10) and high liquidity needs, a 50% bond allocation is well-justified and falls within the traditional 'age in bonds' guideline range. (2) Your current bond holdings (BND, AGG) provide diversified exposure to investment-grade bonds generating steady income to supplement your $78,000 annual income against $50,400 in expenses. (3) With a short investment horizon and stable income needs, capital preservation is paramount - bonds provide this stability that stocks cannot. Your 25% stock allocation already provides sufficient growth potential for inflation protection. (4) The main consideration: In a rising rate environment, bond values may temporarily decline, but your diversified bond funds hold bonds to maturity, ensuring income stability. Your high cash position (20%) already provides substantial liquidity buffer, making this bond allocation sustainable.",
+      "tickers": [
+        "BND",
+        "AGG"
+      ],
+      "suggested_action": "Maintain your current 50% bond allocation split between BND and AGG. Review quarterly to ensure income generation meets your needs.",
+      "suggested_allocation_pct": 50.0,
+      "risk_level": "low",
+      "expected_return_range": "3.5-4.5% annually",
+      "time_horizon": "Ongoing through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T10:51:54.429052",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_f64effe0",
+      "category": "income_generation",
+      "title": "Optimize Cash Holdings for Enhanced Income",
+      "summary": "Reduce cash from 20% to 12-15% by moving $60,000-$96,000 into short-term Treasury bonds or high-yield savings vehicles to generate additional income without increasing risk.",
+      "detailed_rationale": "Signal: Excessive cash allocation (20% = $240,000) earning minimal returns while you have stable income needs and an existing emergency fund. Analysis: (1) Your $240,000 cash position far exceeds the recommended 6-12 months of expenses ($25,200-$50,400). With stable pension/Social Security income and no debt, maintaining $144,000-$180,000 in cash provides ample liquidity. (2) Given your conservative profile and need for income generation, the excess $60,000-$96,000 could earn 4.5-5.0% in Treasury bills, short-term Treasury ETFs (SHV, SGOV), or FDIC-insured high-yield savings without materially increasing risk. This could generate an additional $2,700-$4,800 annually in income. (3) This optimization maintains your conservative risk profile - short-term Treasuries have virtually no credit risk and minimal interest rate risk due to short duration. (4) Trade-off: Slightly reduced immediate liquidity (T-bills settle in 1-2 days vs. instant cash access), but your remaining cash position still provides substantial same-day liquidity for any emergencies.",
+      "tickers": [
+        "SHV",
+        "SGOV"
+      ],
+      "suggested_action": "Transfer $70,000 from cash into a ladder of 3-month and 6-month Treasury bills or a short-term Treasury ETF like SHV, reducing cash to 14% while maintaining conservative risk profile.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "low",
+      "expected_return_range": "4.5-5.0% annually",
+      "time_horizon": "1-2 years with rolling maturities",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T10:51:54.429052",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_b5d2c077",
+      "category": "diversify",
+      "title": "Broaden Equity Sector Exposure",
+      "summary": "Your stock holdings are heavily concentrated in defensive sectors (Healthcare 30%, Utilities 25%, Consumer Staples 20%). Add modest exposure to quality dividend-paying financial sector positions to improve diversification.",
+      "detailed_rationale": "Signal: Sector concentration analysis reveals 75% of your equity exposure in just three defensive sectors, with Financials at only 15%. Analysis: (1) While defensive sectors align with your conservative profile, excessive concentration in Healthcare (30%), Utilities (25%), and Consumer Staples (20%) creates single-sector risk. These sectors often move together during market stress. (2) For a conservative retiree, quality financial stocks like banks and insurance companies with strong dividends provide: stable income, inflation sensitivity (banks benefit from higher rates), and true sector diversification from your healthcare/utility holdings. (3) Your current holdings (JNJ, PG, KO in staples/healthcare; DUK, SO, VZ in utilities) are excellent quality but lack financial sector representation beyond your 15% allocation. Adding 3-5% to financials through proven dividend aristocrats would improve the risk/return profile. (4) Trade-off: Financials are more economically sensitive than utilities or staples, introducing slightly higher volatility, but selecting high-quality dividend payers (JPM, BLK, PRU with 2.5-4% yields) maintains conservative characteristics while improving diversification.",
+      "tickers": [
+        "JPM",
+        "BLK"
+      ],
+      "suggested_action": "Allocate $30,000-$36,000 (2.5-3% of portfolio) from your cash optimization into 2-3 high-quality financial dividend stocks like JPMorgan Chase (JPM) or BlackRock (BLK), increasing financial sector exposure from 15% to 18-20%.",
+      "suggested_allocation_pct": 3.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% annually including dividends",
+      "time_horizon": "3-5 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T10:51:54.429052",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_4e7b4cf6",
+      "category": "rebalance",
+      "title": "Establish Systematic Rebalancing Protocol",
+      "summary": "Implement a semi-annual rebalancing schedule to maintain your target 50% bond / 30% stock / 20% cash allocation, preventing drift from your conservative risk profile.",
+      "detailed_rationale": "Signal: Current allocation meets targets, but lack of systematic rebalancing discipline could lead to unintended risk exposure over time. Analysis: (1) At your age and risk tolerance, maintaining precise allocation boundaries is critical. Market movements can cause your 25% stock position to drift to 30-35% in a bull market, exposing you to excessive volatility for your loss comfort level of 2/10. (2) Systematic rebalancing enforces discipline: selling appreciated assets (stocks) and buying depreciated ones (bonds) naturally implements 'buy low, sell high' while controlling risk. Research shows rebalancing adds 0.3-0.5% annual return while reducing volatility for conservative portfolios. (3) Given your $1.2M portfolio, a 5-percentage-point drift represents $60,000 of misallocated capital - significant exposure misalignment. Setting rebalancing triggers (when any asset class drifts >5% from target) or calendar-based review (every 6 months) prevents this. (4) Trade-off: Rebalancing may trigger taxable events if implemented in taxable accounts; prioritize rebalancing within tax-advantaged accounts (IRA/401k) first, and consider tax-loss harvesting opportunities in taxable accounts to offset gains.",
+      "tickers": [],
+      "suggested_action": "Set calendar reminders for June 1st and December 1st each year to review your allocation. If any asset class has drifted more than 5 percentage points from target (bonds 50%, stocks 25-30%, cash 15-20%), execute trades to restore balance. Prioritize rebalancing in tax-advantaged accounts.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Reduces volatility by 15-25% annually",
+      "time_horizon": "Ongoing discipline throughout retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T10:51:54.429052",
+      "composite_score": 0.0
+    }
+  ]
+}

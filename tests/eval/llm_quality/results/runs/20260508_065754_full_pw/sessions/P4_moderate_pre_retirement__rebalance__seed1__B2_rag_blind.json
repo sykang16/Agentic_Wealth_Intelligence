@@ -1,0 +1,161 @@
+{
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "rebalance",
+  "query": "Walk me through a year-by-year glide path that gradually shifts my allocation over the next decade.",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_b1bd4967",
+      "category": "rebalance",
+      "title": "Implement Year-by-Year Glide Path: Decade Transition to 60/40 Portfolio",
+      "summary": "Gradually shift from current 55% equity/40% bonds to a 60/40 allocation by age 65, decreasing equity exposure by 0.5% annually while increasing bond allocation to reduce volatility as retirement approaches.",
+      "detailed_rationale": "Signal: You're 10 years from retirement (age 65) with moderate risk tolerance and need a systematic de-risking strategy. Current allocation is approximately 55% equity (40% ETF + 15% stock) and 40% bonds, with 5% cash. This is slightly aggressive for someone entering their late 50s. Step-by-step reasoning: (1) At age 55, the traditional rule of thumb (110 minus age = equity %) suggests 55% equity, but given your stable income, advanced experience, and $1.8M retirement target requiring growth, a gradual shift to 60% equity/35% bonds/5% cash by age 60, then 55/40/5 by age 65 is optimal. (2) Your moderate risk tolerance (loss comfort 5/10) and 10-year horizon allow for continued growth exposure while systematically reducing volatility. The glide path should reduce equity by approximately 0.5% annually through ages 55-60 (maintaining growth phase), then accelerate to 1% annually from 60-65 (protection phase). (3) Supporting evidence: Your $755K net worth needs to grow to $1.8M\u2014a 138% increase. With $220K annual income and low expenses ($11K/month = $132K/year), you can contribute approximately $88K annually pre-tax. Assuming 6% real returns on a balanced portfolio, you'll reach approximately $1.65M by age 65, requiring the growth component to remain robust in earlier years. Your emergency fund exists and debt is low, supporting this strategy. (4) Trade-offs: The main risk is sequence-of-returns risk in years 60-65. If markets decline significantly when you're heavily exposed (years 55-58), recovery time diminishes. The gradual approach balances growth needs against this risk. Specific yearly targets: Age 55(now): 55/40/5 | Age 56: 54.5/40.5/5 | Age 57: 54/41/5 | Age 58: 53/42/5 | Age 59: 52/43/5 | Age 60: 51/44/5 | Age 61: 49/45.5/5.5 | Age 62: 47/47/6 | Age 63: 45/48.5/6.5 | Age 64: 43/50/7 | Age 65: 40/52/8. This acceleration after 60 protects capital when recovery time is limited.",
+      "tickers": [
+        "BND",
+        "VTI",
+        "VXUS"
+      ],
+      "suggested_action": "For Year 1 (current year): Reduce equity exposure by 0.5% and increase bond allocation by 0.5%. Specifically, sell $4,250 of equity holdings (VTI or individual stocks) and purchase $4,250 of BND. Set calendar reminders for annual rebalancing each January. Document target allocations for each year of the glide path and review quarterly to ensure you're on track.",
+      "suggested_allocation_pct": 0.5,
+      "risk_level": "low",
+      "expected_return_range": "5.5-7% annually (blended, declining as bonds increase)",
+      "time_horizon": "10-year systematic implementation through age 65",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:51:12.756733",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_6126535a",
+      "category": "diversify",
+      "title": "Reduce Healthcare Overconcentration Through Sector Rebalancing",
+      "summary": "Healthcare represents 22% of portfolio\u2014significantly overweight versus S&P 500 (~13%). Trim JNJ and UNH positions by 25% and reallocate to underweight sectors (Real Estate, Utilities) to reduce sector-specific risk.",
+      "detailed_rationale": "Signal: Sector analysis reveals critical imbalance\u2014Healthcare at 22% is 1.7x market weight, creating concentration risk. With JNJ and UNH as individual holdings plus healthcare exposure within VTI, you face outsized impact from healthcare-specific headwinds (regulatory changes, drug pricing legislation, Medicare negotiations). Step-by-step reasoning: (1) For a moderate risk tolerance investor approaching retirement, sector concentration above 1.5x market weight introduces unnecessary volatility. Healthcare's recent volatility has increased due to policy uncertainty and GLP-1 drug market disruptions affecting traditional healthcare models. (2) Your investment profile shows advanced experience, meaning you understand sector rotation risks. However, your retirement goal prioritizes stability over outsized sector bets. Reducing from 22% to 15-16% (closer to market weight plus slight overweight) maintains healthcare exposure for defensive qualities while limiting concentration. (3) Current market data: Healthcare valuations are elevated (sector P/E ~18-20x vs. historical 16-17x). Your holdings JNJ and UNH are quality companies, but both face headwinds\u2014JNJ with litigation risks and patent cliffs, UNH with regulatory scrutiny on Medicare Advantage. Meanwhile, Real Estate (REITs) and Utilities are significantly underweight in your portfolio (<2% combined vs. ~5-6% market weight), and both offer defensive characteristics and income generation appropriate for your glide path. (4) Supporting evidence from portfolio: At $850K assets, 22% healthcare = $187K. Reducing to 16% = $136K, freeing $51K for reallocation. Specific action: Trim JNJ and UNH positions by 25% each (approximately $25K combined), rotate into Utilities Select Sector SPDR (XLU) at $15K and Vanguard Real Estate ETF (VNQ) at $10K. The remaining $26K reduces healthcare to ~16.5%. (5) Main trade-off: Healthcare has been a strong defensive sector with aging demographics tailwinds. You're trimming potential upside from dominant positions. However, the risk reduction and diversification benefits outweigh this, especially given your 10-year glide path where capital preservation increasingly matters.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "XLU",
+        "VNQ"
+      ],
+      "suggested_action": "Sell 25% of both JNJ and UNH positions (approximately $25,000 combined). Use proceeds to purchase $15,000 of XLU (Utilities Select Sector SPDR ETF) and $10,000 of VNQ (Vanguard Real Estate ETF). This reduces healthcare to 16.5% while adding defensive sectors with attractive dividend yields (XLU ~3.5%, VNQ ~4%) that support future income needs.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "moderate",
+      "expected_return_range": "4-6% annually from rebalanced allocation with enhanced income",
+      "time_horizon": "Execute within next quarter; benefits accrue throughout retirement approach",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:51:12.756733",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_cda9a042",
+      "category": "income_generation",
+      "title": "Build Income-Generating Bond Ladder for Retirement Cash Flow",
+      "summary": "Transform 20% of current bond allocation ($68,000) from BND into a 5-year bond ladder using individual Treasury bonds and high-quality corporate bonds to create predictable income stream starting age 60.",
+      "detailed_rationale": "Signal: Your retirement goal explicitly requires $80-100K annual income in 10 years, but current portfolio is oriented toward growth rather than income generation. BND (Total Bond Market ETF) currently yields ~4.5%, providing approximately $15,300 annually on your $340K bond position\u2014insufficient for retirement needs. Your profile shows medium liquidity needs and stable income now, making this the optimal time to transition toward income-focused fixed income. Step-by-step reasoning: (1) You have 10 years until retirement, making this the ideal window to construct a bond ladder that matures sequentially starting at age 60-65, providing known cash flows during critical early retirement years when sequence risk is highest. A bond ladder also eliminates interest rate risk at maturity since you hold to maturity rather than selling into potentially unfavorable markets. (2) Your moderate risk tolerance and advanced experience mean you can evaluate individual bonds and understand credit risk. Target allocation: Keep $272K (80%) in BND for diversification and liquidity, while building a $68K bond ladder (20% of bond allocation). Structure: Purchase 5 individual bonds of approximately $13,600 each, maturing 2029, 2030, 2031, 2032, 2033. (3) Specific evidence and implementation: Current 10-year Treasury yields ~4.3%, 7-year ~4.2%, 5-year ~4.0%. For laddering, target mix of 60% investment-grade corporate bonds (yielding 5-5.5%) and 40% Treasuries for safety. Example bonds: Consider Apple (AAPL) corporate bonds maturing 2029-2031 (AA+ rated, 4.5-5% yield), Microsoft (MSFT) bonds (AAA rated, 4.3-4.8% yield), or Treasury bonds at various maturities. This ladder generates approximately $3,400-3,700 annually in interest (5-5.5% blended yield on $68K) with principal returning at staggered intervals. (4) By age 60, you'll have the first bond maturity ($13,600 principal), which can be reinvested or held as cash for flexibility. Each subsequent year through 64 provides another maturity, creating income certainty. (5) Main trade-off: You sacrifice some liquidity (individual bonds less liquid than BND) and diversification (concentrated in 5 positions vs. thousands in BND). However, you gain yield pickup (5-5.5% vs. 4.5% on BND), maturity certainty, and predictable cash flow for retirement planning. Your emergency fund and stable income mitigate liquidity concerns.",
+      "tickers": [
+        "BND",
+        "Investment-grade individual bonds (AAPL, MSFT corporate bonds, or Treasury bonds)"
+      ],
+      "suggested_action": "Within next 2-3 months, sell $68,000 of BND holdings. Work with your brokerage's fixed income desk to construct a 5-rung bond ladder: purchase 5 individual bonds ($13,600 each) with maturities in 2029, 2030, 2031, 2032, and 2033. Target 60% investment-grade corporate bonds (rated A or higher) yielding 5-5.5% and 40% Treasury bonds for safety. Prioritize bonds with semi-annual coupon payments to generate steady income. Document maturity dates and coupon payment schedule for retirement planning.",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "low",
+      "expected_return_range": "5-5.5% yield to maturity with principal preservation",
+      "time_horizon": "5-8 years until first maturities; provides income structure through age 65",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:51:12.756733",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_ad83cc81",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Advantaged Retirement Contributions for Final Decade Accumulation",
+      "summary": "With $88K annual surplus and 10 years to retirement, maximize 401(k) contributions ($30,500 with catch-up), backdoor Roth IRA ($7,500), and consider mega backdoor Roth if available, optimizing tax efficiency for final accumulation phase.",
+      "detailed_rationale": "Signal: Analysis shows significant contribution capacity\u2014$220K income minus $132K expenses equals $88K annual surplus, but portfolio growth alone won't bridge the gap from $755K to $1.8M retirement target. Your advanced investment experience and stable income position you to maximize tax-advantaged vehicles during your highest earning years (ages 55-65). Step-by-step reasoning: (1) At age 55+, you qualify for catch-up contributions: 401(k) limit is $23,000 + $7,500 catch-up = $30,500 (2024). IRA contribution is $7,500 with $1,000 catch-up. However, your $220K income likely exceeds Roth IRA phase-out thresholds ($161K-$176K for married filing jointly, $146K-$161K single), making backdoor Roth IRA the optimal strategy. (2) Tax optimization impact: Contributing maximum $30,500 to traditional 401(k) reduces taxable income from $220K to $189,500, saving approximately $7,320 annually in federal taxes (24% bracket). Over 10 years, this is $73,200 in tax savings that can be reinvested. Additionally, $7,500 backdoor Roth IRA grows tax-free forever, protecting against future tax rate increases and providing tax diversification in retirement. (3) Advanced strategy\u2014Mega Backdoor Roth: If your employer 401(k) allows after-tax contributions and in-plan Roth conversions, you can contribute up to $69,000 total (2024 limit including employer match). After maxing traditional $30,500 and receiving typical 5% employer match (~$11K), you could contribute additional $27,500 after-tax and immediately convert to Roth, creating enormous tax-free growth potential. Over 10 years at 6% growth, this mega backdoor strategy alone adds $380K tax-free. (4) Mathematical support: Maximum strategy (401k $30,500 + backdoor Roth $7,500 + mega backdoor $27,500 = $65,500 annually) leaves $22,500 for taxable investments. Over 10 years: Tax-advantaged: $65,500 \u00d7 10 years \u00d7 1.79 (6% CAGR factor) = ~$1,172,850. Taxable: $22,500 \u00d7 10 years \u00d7 1.79 \u00d7 0.85 (tax drag) = ~$342,900. Combined: ~$1,515,750, plus existing $755K = $2,270,750, exceeding your $1.8M target and providing $470K buffer. (5) Trade-off: Traditional 401(k) contributions are taxed in retirement, but your current 24% marginal rate likely exceeds your retirement rate with planned $80-100K withdrawals (likely 12-22% brackets). Roth contributions sacrifice current tax deductions but provide tax-free growth. The blended approach (traditional 401k + Roth vehicles) optimizes tax arbitrage and provides withdrawal flexibility in retirement.",
+      "tickers": [
+        "N/A - retirement account contribution strategy"
+      ],
+      "suggested_action": "Immediately increase 401(k) contributions to maximum $30,500 annually ($2,542/month). Execute backdoor Roth IRA: contribute $7,500 to traditional IRA, immediately convert to Roth IRA (consult tax advisor on Form 8606 reporting). Contact HR to verify if your 401(k) plan allows after-tax contributions and in-plan Roth conversions for mega backdoor Roth strategy\u2014if available, contribute additional after-tax funds up to the $69,000 total limit. Automate these contributions at year-start to maximize time in market. Within tax-advantaged accounts, maintain your target glide path allocation.",
+      "suggested_allocation_pct": 77.0,
+      "risk_level": "low",
+      "expected_return_range": "Effective 8-10% when including tax savings and tax-free growth benefits",
+      "time_horizon": "10 years through retirement; benefits extend throughout retirement via tax-free withdrawals",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T13:51:12.756733",
+      "composite_score": 0.0
+    }
+  ]
+}

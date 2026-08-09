@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 2,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes (income goal, intermediate experience, no debt, emergency fund, financials sector weight) and ties them causally to the recommendation.\",\n    \"C2\": \"User is conservative with loss comfort of 2 and short horizon, but the rec is labeled moderate risk; the rationale acknowledges the hybrid nature but does not adequately justify deviating from conservative for a loss-averse retiree.\",\n    \"C3\": \"Claims are mostly traceable to portfolio/profile; the 3.2-3.8% blended yield estimate and 5-6% preferred yield are reasonable but not directly verifiable from the snapshot, constituting a minor unsupported quantitative claim.\",\n    \"C4\": \"Provides specific tickers (PFF, FPE), exact dollar amount ($48,000), allocation %, tranche schedule, and clear first step \u2014 fully executable.\",\n    \"C5\": \"Acknowledges current allocation (Financials 15%, bond-heavy) and adds a complementary income source diversifying beyond bonds and common dividends without worsening concentration.\",\n    \"C6\": \"Uses calibrated language ('would generate', 'currently'), discloses trade-offs (call risk, rate sensitivity, liquidity), and avoids guarantees, though no explicit disclaimer at the rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 2,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes (income goal, intermediate experience, no debt, emergency fund, financials sector weight) and ties them causally to the recommendation.",
+      "C2": "User is conservative with loss comfort of 2 and short horizon, but the rec is labeled moderate risk; the rationale acknowledges the hybrid nature but does not adequately justify deviating from conservative for a loss-averse retiree.",
+      "C3": "Claims are mostly traceable to portfolio/profile; the 3.2-3.8% blended yield estimate and 5-6% preferred yield are reasonable but not directly verifiable from the snapshot, constituting a minor unsupported quantitative claim.",
+      "C4": "Provides specific tickers (PFF, FPE), exact dollar amount ($48,000), allocation %, tranche schedule, and clear first step \u2014 fully executable.",
+      "C5": "Acknowledges current allocation (Financials 15%, bond-heavy) and adds a complementary income source diversifying beyond bonds and common dividends without worsening concentration.",
+      "C6": "Uses calibrated language ('would generate', 'currently'), discloses trade-offs (call risk, rate sensitivity, liquidity), and avoids guarantees, though no explicit disclaimer at the rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6011,
+    "output_tokens": 562
+  },
+  "session_id": "P1_conservative_retiree__open_ended__seed2",
+  "rec_index": 2,
+  "rec_id": "rec_66df89ac",
+  "rubric_version": "1.1"
+}

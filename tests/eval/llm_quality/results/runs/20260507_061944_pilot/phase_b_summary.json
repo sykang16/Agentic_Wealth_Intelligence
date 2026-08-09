@@ -1,0 +1,286 @@
+{
+  "sections": {
+    "absolute": {
+      "present": true,
+      "run_dir": "tests\\eval\\llm_quality\\results\\runs\\20260507_061944_pilot",
+      "n_sessions": 3,
+      "n_judgments_total": 24,
+      "n_parse_failures": 0,
+      "n_errors": 0,
+      "n_critical_failures": 0,
+      "judges": [
+        "gpt4o_openai",
+        "opus_anthropic"
+      ],
+      "mean_per_criterion_overall": {
+        "C1_personalization": 4.917,
+        "C2_risk_alignment": 4.125,
+        "C3_factual_grounding": 4.25,
+        "C4_actionability": 4.833,
+        "C5_diversification": 4.25,
+        "C6_safety_compliance": 4.458
+      },
+      "mean_per_criterion_per_judge": {
+        "gpt4o_openai": {
+          "C1_personalization": 4.917,
+          "C2_risk_alignment": 4.0,
+          "C3_factual_grounding": 4.667,
+          "C4_actionability": 4.75,
+          "C5_diversification": 4.333,
+          "C6_safety_compliance": 4.667
+        },
+        "opus_anthropic": {
+          "C1_personalization": 4.917,
+          "C2_risk_alignment": 4.25,
+          "C3_factual_grounding": 3.833,
+          "C4_actionability": 4.917,
+          "C5_diversification": 4.167,
+          "C6_safety_compliance": 4.25
+        }
+      },
+      "cross_judge_gap_per_criterion": {
+        "C1_personalization": 0.0,
+        "C2_risk_alignment": 0.25,
+        "C3_factual_grounding": 0.834,
+        "C4_actionability": 0.167,
+        "C5_diversification": 0.166,
+        "C6_safety_compliance": 0.417
+      },
+      "composite_mean_overall": 4.472
+    },
+    "pairwise": {
+      "present": true,
+      "run_dir": "tests\\eval\\llm_quality\\results\\runs\\20260508_044201_pilot_pw",
+      "n_pairwise_files": 36,
+      "confirmed_wins_per_pair": {
+        "A_wealthnexus__VS__B1_profile_blind": {
+          "A_wealthnexus": 4,
+          "B1_profile_blind": 1,
+          "tie": 1
+        },
+        "A_wealthnexus__VS__B2_rag_blind": {
+          "A_wealthnexus": 0,
+          "B2_rag_blind": 4,
+          "tie": 2
+        },
+        "A_wealthnexus__VS__B3_generic_llm": {
+          "A_wealthnexus": 2,
+          "B3_generic_llm": 2,
+          "tie": 2
+        }
+      },
+      "win_rates_per_pair": {
+        "A_wealthnexus__VS__B1_profile_blind": {
+          "sys_a": "A_wealthnexus",
+          "sys_b": "B1_profile_blind",
+          "a_wins": 4,
+          "b_wins": 1,
+          "ties": 1,
+          "total": 6,
+          "a_win_rate": 0.667,
+          "b_win_rate": 0.167,
+          "tie_rate": 0.167
+        },
+        "A_wealthnexus__VS__B2_rag_blind": {
+          "sys_a": "A_wealthnexus",
+          "sys_b": "B2_rag_blind",
+          "a_wins": 0,
+          "b_wins": 4,
+          "ties": 2,
+          "total": 6,
+          "a_win_rate": 0.0,
+          "b_win_rate": 0.667,
+          "tie_rate": 0.333
+        },
+        "A_wealthnexus__VS__B3_generic_llm": {
+          "sys_a": "A_wealthnexus",
+          "sys_b": "B3_generic_llm",
+          "a_wins": 2,
+          "b_wins": 2,
+          "ties": 2,
+          "total": 6,
+          "a_win_rate": 0.333,
+          "b_win_rate": 0.333,
+          "tie_rate": 0.333
+        }
+      },
+      "criterion_winners_per_pair": {
+        "A_wealthnexus__VS__B1_profile_blind": {
+          "C1_personalization": {
+            "A_wealthnexus": 9,
+            "B1_profile_blind": 3,
+            "tie": 0
+          },
+          "C2_risk_alignment": {
+            "A_wealthnexus": 5,
+            "B1_profile_blind": 3,
+            "tie": 4
+          },
+          "C3_factual_grounding": {
+            "A_wealthnexus": 5,
+            "B1_profile_blind": 2,
+            "tie": 5
+          },
+          "C4_actionability": {
+            "A_wealthnexus": 11,
+            "B1_profile_blind": 1,
+            "tie": 0
+          },
+          "C5_diversification": {
+            "A_wealthnexus": 6,
+            "B1_profile_blind": 4,
+            "tie": 2
+          },
+          "C6_safety_compliance": {
+            "A_wealthnexus": 0,
+            "B1_profile_blind": 0,
+            "tie": 12
+          }
+        },
+        "A_wealthnexus__VS__B2_rag_blind": {
+          "C1_personalization": {
+            "A_wealthnexus": 2,
+            "B2_rag_blind": 5,
+            "tie": 5
+          },
+          "C2_risk_alignment": {
+            "A_wealthnexus": 0,
+            "B2_rag_blind": 5,
+            "tie": 7
+          },
+          "C3_factual_grounding": {
+            "A_wealthnexus": 3,
+            "B2_rag_blind": 6,
+            "tie": 3
+          },
+          "C4_actionability": {
+            "A_wealthnexus": 2,
+            "B2_rag_blind": 10,
+            "tie": 0
+          },
+          "C5_diversification": {
+            "A_wealthnexus": 1,
+            "B2_rag_blind": 8,
+            "tie": 3
+          },
+          "C6_safety_compliance": {
+            "A_wealthnexus": 0,
+            "B2_rag_blind": 4,
+            "tie": 8
+          }
+        },
+        "A_wealthnexus__VS__B3_generic_llm": {
+          "C1_personalization": {
+            "A_wealthnexus": 10,
+            "B3_generic_llm": 2,
+            "tie": 0
+          },
+          "C2_risk_alignment": {
+            "A_wealthnexus": 0,
+            "B3_generic_llm": 6,
+            "tie": 6
+          },
+          "C3_factual_grounding": {
+            "A_wealthnexus": 5,
+            "B3_generic_llm": 4,
+            "tie": 3
+          },
+          "C4_actionability": {
+            "A_wealthnexus": 8,
+            "B3_generic_llm": 4,
+            "tie": 0
+          },
+          "C5_diversification": {
+            "A_wealthnexus": 4,
+            "B3_generic_llm": 2,
+            "tie": 6
+          },
+          "C6_safety_compliance": {
+            "A_wealthnexus": 0,
+            "B3_generic_llm": 4,
+            "tie": 8
+          }
+        }
+      }
+    },
+    "postfilter": {
+      "present": true,
+      "run_dir": "tests\\eval\\llm_quality\\results\\runs\\20260507_061944_pilot",
+      "n_recs_pre_filter": 12,
+      "n_recs_post_filter": 12,
+      "n_recs_dropped_by_filter": 0,
+      "structural_violation_rate_pre": 0.0,
+      "structural_violation_rate_post": 0.0,
+      "content_overriding_rate_pre": 0.08333333333333333,
+      "content_overriding_rate_post": 0.08333333333333333,
+      "raw_counts": {
+        "pre_structural": 0,
+        "post_structural": 0,
+        "pre_content_overriding": 1,
+        "post_content_overriding": 1,
+        "n_recs_pre": 12,
+        "n_recs_post": 12
+      },
+      "dropped_examples_sample": []
+    },
+    "calibration": {
+      "present": false,
+      "reason": "not provided"
+    }
+  },
+  "headline": {
+    "composite_mean": 4.472,
+    "mean_per_criterion": {
+      "C1_personalization": 4.917,
+      "C2_risk_alignment": 4.125,
+      "C3_factual_grounding": 4.25,
+      "C4_actionability": 4.833,
+      "C5_diversification": 4.25,
+      "C6_safety_compliance": 4.458
+    },
+    "cross_judge_max_gap_criterion": {
+      "criterion": "C3_factual_grounding",
+      "gap": 0.834
+    },
+    "critical_failure_rate": 0.0,
+    "pairwise_win_rates": {
+      "A_wealthnexus__VS__B1_profile_blind": {
+        "sys_a": "A_wealthnexus",
+        "sys_b": "B1_profile_blind",
+        "a_wins": 4,
+        "b_wins": 1,
+        "ties": 1,
+        "total": 6,
+        "a_win_rate": 0.667,
+        "b_win_rate": 0.167,
+        "tie_rate": 0.167
+      },
+      "A_wealthnexus__VS__B2_rag_blind": {
+        "sys_a": "A_wealthnexus",
+        "sys_b": "B2_rag_blind",
+        "a_wins": 0,
+        "b_wins": 4,
+        "ties": 2,
+        "total": 6,
+        "a_win_rate": 0.0,
+        "b_win_rate": 0.667,
+        "tie_rate": 0.333
+      },
+      "A_wealthnexus__VS__B3_generic_llm": {
+        "sys_a": "A_wealthnexus",
+        "sys_b": "B3_generic_llm",
+        "a_wins": 2,
+        "b_wins": 2,
+        "ties": 2,
+        "total": 6,
+        "a_win_rate": 0.333,
+        "b_win_rate": 0.333,
+        "tie_rate": 0.333
+      }
+    },
+    "structural_violation_rate_pre": 0.0,
+    "structural_violation_rate_post": 0.0,
+    "content_overriding_rate_pre": 0.08333333333333333,
+    "content_overriding_rate_post": 0.08333333333333333
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more detailed, structured rationales that explicitly cite multiple profile attributes (loss comfort 3/10, negative net worth, $3,800 expenses, beginner status) with concrete numeric calculations and clearer actionable steps. System B is competent and calibrated but shorter, less specific in its personalization, and contains a minor inconsistency (60% cash = $15k but claims $7,800 more needed to reach $22k, ignoring the actual gap).\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more detailed, structured rationales that explicitly cite multiple profile attributes (loss comfort 3/10, negative net worth, $3,800 expenses, beginner status) with concrete numeric calculations and clearer actionable steps. System B is competent and calibrated but shorter, less specific in its personalization, and contains a minor inconsistency (60% cash = $15k but claims $7,800 more needed to reach $22k, ignoring the actual gap)."
+  },
+  "usage": {
+    "input_tokens": 9919,
+    "output_tokens": 287
+  },
+  "session_id": "P2_conservative_early_career__sector_specific__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 1,
+  "rubric_version": "1.1"
+}

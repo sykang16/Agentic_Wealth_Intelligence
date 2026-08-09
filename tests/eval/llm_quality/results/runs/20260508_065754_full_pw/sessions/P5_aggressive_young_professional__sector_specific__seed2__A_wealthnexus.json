@@ -1,0 +1,164 @@
+{
+  "session_id": "P5_aggressive_young_professional__sector_specific__seed2",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "sector_specific",
+  "query": "I'm already heavy in tech. Should I rotate into AI infrastructure plays, or diversify into a different sector entirely?",
+  "seed": 2,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_000691c1",
+      "category": "diversify",
+      "title": "Diversify into Healthcare & Industrials to Reduce Tech Concentration Risk",
+      "summary": "With 65% tech exposure, diversify 15-20% into defensive sectors (Healthcare, Industrials) to reduce correlation risk while maintaining growth orientation.",
+      "detailed_rationale": "(1) Signal: Your portfolio has 65% concentration in Technology sector (QQQ, NVDA, TSLA, GOOGL, META, AMZN), creating significant single-sector risk. While your aggressive risk tolerance (9/10 loss comfort) supports concentrated positions, this level of correlation means a tech downturn could impact 65% of your holdings simultaneously. (2) Alignment: At age 30 with 15-year horizon, stable income ($195K), and low liquidity needs, you can sustain volatility, BUT diversification improves risk-adjusted returns without sacrificing growth. Healthcare and Industrials offer growth exposure with lower correlation to tech cycles. (3) Evidence: Historical data shows tech drawdowns of 30-50% in corrections (2022: Nasdaq -33%, your holdings likely worse). Healthcare (XLV) and Industrials (XLI) showed -10% and -8% respectively, demonstrating defensive characteristics while maintaining 8-12% long-term growth rates. Your current diversification ratio is dangerously skewed. (4) Trade-off: These sectors may underperform tech during AI boom periods, potentially creating FOMO. However, you'll reduce portfolio beta from ~1.4 to ~1.2, lowering drawdown risk by 15-20% while maintaining aggressive growth profile suitable for FIRE goal.",
+      "tickers": [
+        "XLV",
+        "XLI",
+        "VHT",
+        "ITA"
+      ],
+      "suggested_action": "Sell 15-20% of QQQ position (~$13,500-18,000) and allocate: 10% to healthcare ETF (XLV or VHT) for demographic tailwinds and defensive growth, 8% to industrials ETF (XLI or ITA) for infrastructure spending exposure. Execute over 2-3 weeks to average entry points.",
+      "suggested_allocation_pct": 18.0,
+      "risk_level": "moderate",
+      "expected_return_range": "9-13% annually",
+      "time_horizon": "3-15 years (full FIRE horizon)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:47:52.381456",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_2837c289",
+      "category": "rebalance",
+      "title": "Strategic Rotation: Consolidate Individual Tech Stocks into AI Infrastructure ETFs",
+      "summary": "Rather than choosing between AI infrastructure vs diversification, do both: consolidate overlapping FAANG positions into focused AI infrastructure exposure, freeing capital for true diversification.",
+      "detailed_rationale": "(1) Signal: You hold 6 individual tech stocks (TSLA, NVDA, GOOGL, META, AMZN) plus QQQ which already contains 5 of these at 40%+ weighting. This creates 2x exposure to the same names and limits your ability to access pure-play AI infrastructure (data centers, semiconductors, cloud). Your question indicates interest in AI infrastructure, but adding more would push tech above 70%. (2) Alignment: Your aggressive profile and intermediate experience supports thematic investing, but redundant holdings reduce efficiency. At $195K income with stable employment, you can take concentrated bets, but should avoid overlap. (3) Evidence: QQQ already gives you 13% AAPL, 11% NVDA, 8% MSFT, 5% AMZN, 4% META, 3% GOOGL exposure. Your individual holdings duplicate this. Consider: NVDA +180% YTD but valuations stretched (45x forward P/E). AI infrastructure plays (SMCI, ARM, AVGO for chips; EQIX, DLR for data centers) offer similar upside with less overlap. (4) Trade-off: You lose direct control over individual stock timing and may miss outsized single-stock gains. However, you gain: (a) exposure to pure-play AI infrastructure like data centers and fab equipment, (b) reduced portfolio overlap, (c) capital for sector diversification. For FIRE goals, consistent compounding beats home-run hunting.",
+      "tickers": [
+        "SOXX",
+        "SRVR",
+        "HACK",
+        "CLOU"
+      ],
+      "suggested_action": "Sell 40-50% of GOOGL, META, AMZN positions (~$22,000-28,000). Keep NVDA as core AI holding. Allocate proceeds: 12% to semiconductor ETF (SOXX) for chip infrastructure, 8% to cloud/data center ETF (SRVR or CLOU) for AI compute infrastructure. This maintains AI infrastructure exposure while reducing overlap and freeing 8-10% for sector diversification.",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "high",
+      "expected_return_range": "12-20% annually",
+      "time_horizon": "5-15 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:47:52.381456",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_1dba8597",
+      "category": "risk_reduction",
+      "title": "Reduce Crypto Allocation and Build Strategic Cash Reserve for Opportunities",
+      "summary": "Trim BTC from 5% to 2-3% and increase cash from 10% to 15% to create dry powder for market dislocations while reducing tail risk.",
+      "detailed_rationale": "(1) Signal: Your 5% BTC allocation ($9,000) represents appropriate aggressive positioning, but combined with 65% tech creates compounding correlation risk during risk-off events (BTC and tech stocks fell together in 2022: both -60-70%). Your 10% cash is adequate for emergency but leaves no opportunistic capital. (2) Alignment: Despite aggressive tolerance (9/10), your FIRE goal requires you reach $2.5M in 15 years with mathematical certainty, not maximum risk. At 30 with stable income, you can afford volatility in equities, but crypto represents binary/existential risk. Your intermediate experience suggests you understand crypto volatility but may not have lived through full cycle. (3) Evidence: To reach $2.5M from $162K in 15 years requires 19.8% CAGR - aggressive but achievable with 100% equities (historical equity returns: 10-12%, your tech tilt adds 3-5%, leverage via concentration adds 2-4%). Crypto adds minimal diversification benefit (0.85 correlation with tech during stress) while introducing -80% drawdown risk. Cash cushion allows buying opportunities: March 2020, October 2022 provided 30-50% discounts. (4) Trade-off: Missing potential crypto moonshot gains (BTC to $200K scenarios). However, trimming to 2-3% retains participation while reducing portfolio kurtosis. Higher cash may drag returns by 0.5-1% annually but provides psychological comfort and tactical flexibility critical for 15-year discipline.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Sell 40-50% of BTC position (~$3,600-4,500), reducing crypto allocation to 2-3% of portfolio. Move proceeds plus 3-5% from QQQ (~$8,000-12,000 total) into high-yield savings (5%+ current rates) or short-term Treasury ETF (SHV, BIL). Target 15% total cash position ($27,000). Use this for: (a) opportunistic buying during 10%+ market corrections, (b) tax-loss harvesting swaps, (c) new sector positions from prior recommendations.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "low",
+      "expected_return_range": "4-6% on cash, preserves capital for 15-25% deployment returns",
+      "time_horizon": "Immediate implementation, 6-24 month deployment window",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:47:52.381456",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_08c6a80b",
+      "category": "buy",
+      "title": "Initiate Position in International Developed Markets for Geographic Diversification",
+      "summary": "Add 8-10% allocation to international developed markets (Europe, Japan) to reduce US-centric risk and capture valuation discrepancies.",
+      "detailed_rationale": "(1) Signal: Your entire equity portfolio (85% of assets) is 100% US-domiciled with extreme bias toward US mega-cap tech. Zero international exposure creates geographic concentration risk and misses 40% of global market cap. Your VTI provides broad US exposure but no international diversification. (2) Alignment: Aggressive investors often over-concentrate in home country (recency bias from US outperformance 2010-2024). However, 15-year FIRE horizon spans multiple market cycles where leadership rotates. Your stable W2 income, tech job, and likely USD-denominated expenses already give you massive US economic exposure - portfolio should counterbalance this. (3) Evidence: International developed markets (MSCI EAFE) trade at 13-14x forward P/E vs 20-21x for S&P 500, offering 35-40% valuation discount. Japanese stocks (8% dividend yields, corporate reforms) and European industrials (energy transition beneficiaries) provide growth at reasonable prices. Currency diversification adds uncorrelated return stream. Historical 30-year rolling returns show international matches US performance while reducing volatility when combined. (4) Trade-off: International has underperformed US tech by wide margin over past decade (EAFE +5.5% annual vs S&P +13%). Continued US exceptionalism would mean opportunity cost. However, valuation mean reversion and weakening dollar scenarios favor international catch-up. For FIRE goal, this is portfolio insurance against sustained US underperformance, not a return maximizer.",
+      "tickers": [
+        "VEA",
+        "IEFA",
+        "EFA",
+        "DXJ"
+      ],
+      "suggested_action": "Allocate 8-10% (~$14,400-18,000) to international developed markets ETF. Recommended: 6% VEA or IEFA (broad Europe/Japan/Asia exposure, low 0.05% ER) plus 3% DXJ (currency-hedged Japan for corporate reform exposure). Dollar-cost average over 8-12 weeks given year-end timing. Source capital from VTI trim (3-4%) and cash deployment (5-6%) rather than further reducing tech positions.",
+      "suggested_allocation_pct": 9.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-11% annually",
+      "time_horizon": "7-15 years (second half of FIRE timeline)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:47:52.381456",
+      "composite_score": 0.0
+    }
+  ]
+}

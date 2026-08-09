@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Rationale cites age 55, 10-year horizon, moderate risk tolerance with loss comfort 5/10, $1.8M retirement target, and $80-100k income goal \u2014 well over three specific profile attributes causally tied to the recommendation.\",\n    \"C2\": \"User is moderate risk tolerance but rec is labeled low; the deviation is defensibly justified as a glide-path/capital-preservation move appropriate for a 55-year-old approaching retirement.\",\n    \"C3\": \"Holdings (JNJ, UNH) and sector percentages are correctly drawn from the snapshot, but several quantitative claims (15-20% volatility reduction, 9% required annual return, 30-40% higher tech volatility, sector dividend yields) are unsupported generic figures.\",\n    \"C4\": \"Provides specific tickers (JNJ, UNH), exact target allocations (22%\u219216%, 18%\u219214%), dollar amount (~$51,000), a 6-9 month DCA timeline, and a clear first step.\",\n    \"C5\": \"Explicitly identifies Healthcare (22%) and Technology (18%) overweights from the snapshot and directly addresses them with target reductions.\",\n    \"C6\": \"Uses mostly calibrated language and acknowledges trade-offs, though 'requires consistent 9% annual returns' and precise 15-20% volatility reduction claim are mildly overconfident; no rec-level disclaimer.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Rationale cites age 55, 10-year horizon, moderate risk tolerance with loss comfort 5/10, $1.8M retirement target, and $80-100k income goal \u2014 well over three specific profile attributes causally tied to the recommendation.",
+      "C2": "User is moderate risk tolerance but rec is labeled low; the deviation is defensibly justified as a glide-path/capital-preservation move appropriate for a 55-year-old approaching retirement.",
+      "C3": "Holdings (JNJ, UNH) and sector percentages are correctly drawn from the snapshot, but several quantitative claims (15-20% volatility reduction, 9% required annual return, 30-40% higher tech volatility, sector dividend yields) are unsupported generic figures.",
+      "C4": "Provides specific tickers (JNJ, UNH), exact target allocations (22%\u219216%, 18%\u219214%), dollar amount (~$51,000), a 6-9 month DCA timeline, and a clear first step.",
+      "C5": "Explicitly identifies Healthcare (22%) and Technology (18%) overweights from the snapshot and directly addresses them with target reductions.",
+      "C6": "Uses mostly calibrated language and acknowledges trade-offs, though 'requires consistent 9% annual returns' and precise 15-20% volatility reduction claim are mildly overconfident; no rec-level disclaimer."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6179,
+    "output_tokens": 591
+  },
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed2",
+  "rec_index": 0,
+  "rec_id": "rec_8a749cb9",
+  "rubric_version": "1.1"
+}

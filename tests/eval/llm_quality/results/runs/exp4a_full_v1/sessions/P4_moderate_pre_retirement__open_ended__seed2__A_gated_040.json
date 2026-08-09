@@ -1,0 +1,192 @@
+{
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "open_ended",
+  "query": "I'm 10 years from retirement. Should I start de-risking now and how aggressively?",
+  "seed": 2,
+  "system": "A_gated_040",
+  "rag_diagnostics": {
+    "top_score": 0.425,
+    "num_hits": 4,
+    "gated": false,
+    "threshold": 0.4
+  },
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_13fc87a6",
+      "category": "rebalance",
+      "title": "Initiate Gradual Glide Path: Increase Bond Allocation to 45%",
+      "summary": "Begin your 10-year retirement glide path by incrementally increasing bond exposure from 35% to 45%, shifting 10% from equities over the next 12-18 months to reduce volatility as you approach retirement.",
+      "detailed_rationale": "Signal: You are exactly 10 years from retirement at age 55, targeting retirement at 65, and your current 65% equity/35% bond allocation is still appropriate for someone with 15+ years but aggressive for someone entering the critical retirement red zone. Step-by-step alignment: (1) Your moderate risk tolerance and loss comfort of 5/10 indicates you can handle some volatility but not severe drawdowns that could derail retirement timing. (2) The knowledge base explicitly recommends target-date funds that 'automatically adjust asset allocation as you approach retirement, becoming more conservative over time' - this is exactly the glide path principle you should apply. (3) With $755k net worth against a $1.8M retirement goal, you need $1.045M more growth, which requires continuing equity exposure but with reduced risk. A 55/45 stock/bond split aligns with the conventional '110 minus age' guideline (110-55=55% stocks). (4) Your current bond holding (BND) is excellent - a low-cost, diversified total bond market ETF with 0.03% expense ratio covering 10,000+ bonds. Increasing BND from 35% ($297,500) to 45% ($382,500) means adding $85,000, which you can fund by proportionally trimming VTI and VXUS over 12-18 months using dollar-cost averaging to avoid timing risk. Supporting evidence: Your stable income ($220k) and advanced investment experience mean you can execute this methodically. Main trade-off: Bonds currently yield 4-5% versus equities' historical 10%+ returns, so this reduces growth potential by approximately $4,250-8,500 annually on the shifted $85k, but this is the essential insurance premium against a 2008-style crash occurring in your late 50s when recovery time is limited.",
+      "tickers": [
+        "BND",
+        "VTI",
+        "VXUS"
+      ],
+      "suggested_action": "Over the next 12-18 months, incrementally purchase $85,000 additional BND by selling proportional amounts from VTI and VXUS. Execute through monthly $4,700-7,100 purchases to dollar-cost average.",
+      "suggested_allocation_pct": 45.0,
+      "risk_level": "low",
+      "expected_return_range": "4-5% annually on bond portion",
+      "time_horizon": "Execute over 12-18 months, hold through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:21:28.895789",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_9373d0bc",
+      "category": "diversify",
+      "title": "Add Treasury Inflation-Protected Securities (TIPS) for Inflation Hedge",
+      "summary": "Allocate 5-8% of portfolio to TIPS through a dedicated ETF to protect purchasing power during retirement, addressing the inflation risk explicitly noted in your risk management knowledge base.",
+      "detailed_rationale": "Signal: Your portfolio currently has zero explicit inflation protection, and your retirement goal requires maintaining $80-100k/yr purchasing power for 20-30 years post-retirement. At 3% inflation, $80k today needs $108k in 10 years and $145k in 20 years - this is a critical gap. Step-by-step alignment: (1) The knowledge base on risk management explicitly identifies 'inflation risk erodes purchasing power' as a key risk type requiring mitigation. (2) Your moderate risk tolerance and medium-term horizon (10 years) make this the optimal window to add inflation protection before you actually need to draw income. (3) With retirement as your high-priority goal and stable income, you can afford to allocate 5-8% ($37,750-60,400) to TIPS, which provide government-guaranteed principal adjustment for CPI increases. (4) TIPS currently yield real returns of 2-2.5% above inflation, providing both protection and modest real growth. Specific implementation: Add Schwab U.S. TIPS ETF (SCHP) or iShares TIPS Bond ETF (TIP), both with expense ratios under 0.06%. This would come from your existing BND allocation, splitting it into 37-40% traditional bonds and 5-8% TIPS, maintaining your overall 45% bond target. Supporting evidence: Your monthly expenses of $11k ($132k annually) exceed your target retirement income, suggesting you'll need to maintain lifestyle in retirement - TIPS protect this purchasing power. Main trade-off: TIPS currently yield 1-1.5% less than nominal Treasury bonds, so if inflation stays below 2%, you sacrifice some yield. However, given your 10-year horizon and lifetime retirement need, this is appropriate insurance, particularly given recent inflation volatility (9% in 2022).",
+      "tickers": [
+        "SCHP",
+        "TIP"
+      ],
+      "suggested_action": "Allocate $37,750-60,400 (5-8% of portfolio) to a TIPS ETF like SCHP or TIP. Fund this by reducing BND allocation proportionally while maintaining total bond exposure at 45%.",
+      "suggested_allocation_pct": 6.5,
+      "risk_level": "low",
+      "expected_return_range": "2-2.5% real return above inflation",
+      "time_horizon": "10 years to retirement, hold through retirement for income",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:21:28.895789",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_8fe2b558",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Advantaged Catch-Up Contributions",
+      "summary": "Accelerate 401(k) contributions to the full $30,500 catch-up limit, adding $7,500 annually beyond standard limits to leverage tax deferral and compound growth in your final high-earning decade.",
+      "detailed_rationale": "Signal: You're 55 years old, making you eligible for catch-up contributions, and earning $220k annually (high tax bracket). Your knowledge base explicitly states '401(k) limits are $23,000 ($30,500 if 50+)' and emphasizes 'tax-advantaged accounts provide tax benefits that accelerate wealth building.' Step-by-step alignment: (1) Your $1.8M retirement goal requires adding $1.045M over 10 years. At 6% average returns, you need to contribute approximately $74k annually. With employer match (assuming 4-5% = $8,800-11,000), your personal contributions should be $63-65k annually. (2) Your income ($220k) minus expenses ($132k) leaves $88k pre-tax, minus taxes (~$44k at effective 50% federal+state+FICA) leaves $44k after-tax cash flow. However, maxing 401(k) at $30,500 saves $15,250 in taxes (at 50% marginal rate), effectively costing only $15,250 in reduced take-home. (3) The additional $7,500 catch-up contribution (above standard $23k) costs only $3,750 in after-tax dollars but gives you $7,500 of tax-deferred investment. Over 10 years at 6% returns, this $7,500 annual addition grows to $103,000 versus $51,500 if invested in taxable accounts (assuming 20% tax drag). (4) Your advanced investment experience and stable income make you sophisticated enough to understand tax arbitrage: defer taxes now at 50% marginal rate, withdraw in retirement at potentially 22-24% effective rate. Supporting evidence: Your low debt ($95k), emergency fund, and stable occupation (operations director) indicate capacity to maximize contributions without liquidity stress. Main trade-off: This reduces current cash flow by $3,750 annually after-tax benefit, limiting flexibility for other investments or expenses, but the tax leverage and forced retirement savings discipline outweigh this constraint given your high-priority retirement goal and 10-year timeline.",
+      "tickers": [],
+      "suggested_action": "Immediately adjust payroll deductions to contribute the full $30,500 annual 401(k) limit including $7,500 catch-up. If not already doing so, prioritize Roth 401(k) for a portion to create tax diversification in retirement.",
+      "suggested_allocation_pct": null,
+      "risk_level": "low",
+      "expected_return_range": "15-25% effective return from tax savings plus market growth",
+      "time_horizon": "10 years to retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:21:28.895789",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_4154834d",
+      "category": "hold",
+      "title": "Maintain Quality Healthcare and Financial Holdings, Monitor for Rebalancing",
+      "summary": "Keep your current blue-chip positions (JNJ, UNH, JPM, BRK.B, PG) but monitor sector allocations quarterly, as Healthcare (22%) and Financials (18%) are slightly concentrated for a glide-path portfolio.",
+      "detailed_rationale": "Signal: Your sector allocation shows 22% Healthcare and 18% Financials, totaling 40% in just two sectors, while you hold excellent defensive, dividend-paying companies (JNJ, UNH, JPM, BRK.B, PG). This concentration isn't critical now but merits monitoring. Step-by-step alignment: (1) These holdings are appropriate for moderate risk tolerance and retirement focus - all are established dividend payers providing income generation you'll need. JNJ and PG are consumer staples/healthcare with low correlation to economic cycles. UNH benefits from demographic aging (you're part of this cohort). JPM and BRK.B provide financial sector exposure with fortress balance sheets. (2) However, the knowledge base warns about 'concentration risk: the fund may be concentrated in a particular sector or industry' as a risk factor. At 22% Healthcare, you're roughly 2x the S&P 500 weight (~13%), creating sector-specific risk if healthcare regulation changes or pharma faces pricing pressure. (3) Your 15% individual stock allocation is reasonable for advanced experience level, but as you de-risk toward retirement, consider whether maintaining 15% in individual stocks aligns with glide-path philosophy. Alternative: trim individual positions by 5% over next 2-3 years, redirect to VTI/VXUS for broader diversification. (4) Your VTI, VXUS holdings provide excellent diversified base - these should become larger core positions as you de-risk. Supporting evidence: You already hold PG (consumer staples) providing defensive characteristics. Your income stability and low debt mean you don't need to make urgent changes. Main trade-off: These quality companies may underperform in strong bull markets but provide downside protection crucial for your timeline. The recommendation is 'hold' rather than 'sell' because: (a) triggering capital gains now is tax-inefficient, (b) these are retirement-appropriate holdings, (c) you can gradually trim through rebalancing rather than wholesale selling. Action item: Set quarterly calendar reminders to review if Healthcare exceeds 25% or any sector exceeds 20%, then trim accordingly.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "JPM",
+        "BRK.B",
+        "PG",
+        "VTI",
+        "VXUS"
+      ],
+      "suggested_action": "Hold current positions but establish 20% sector maximum threshold. If Healthcare or Financials exceed 20% at quarterly review, trim 2-3% and redirect to VTI/VXUS. Over 3-5 years, consider reducing individual stock allocation from 15% to 10%.",
+      "suggested_allocation_pct": null,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% annually with dividend yield of 2-3%",
+      "time_horizon": "Hold through retirement with gradual trimming",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-07-05T08:21:28.895789",
+      "composite_score": 0.0
+    }
+  ]
+}

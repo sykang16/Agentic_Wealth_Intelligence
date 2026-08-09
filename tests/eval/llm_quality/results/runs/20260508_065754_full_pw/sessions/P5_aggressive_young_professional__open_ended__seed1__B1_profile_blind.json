@@ -1,0 +1,184 @@
+{
+  "session_id": "P5_aggressive_young_professional__open_ended__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "open_ended",
+  "query": "I'm aiming for FIRE in about 15 years. Am I on the right track with my current allocation?",
+  "seed": 1,
+  "system": "B1_profile_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_6c8ccad6",
+      "category": "diversify",
+      "title": "Reduce Technology Concentration Risk",
+      "summary": "Your portfolio is 65% concentrated in Technology sector, creating significant risk for a 15-year FIRE goal. Diversify into bonds, real estate, and other sectors to reduce volatility.",
+      "detailed_rationale": "Signal: Your portfolio shows extreme sector concentration with 65% in Technology (vs. ~28% in S&P 500), primarily through QQQ, NVDA, TSLA, GOOGL, META, and AMZN. This creates correlated risk where a tech sector downturn could significantly delay your FIRE timeline. Step-by-step alignment: (1) With a 15-year horizon to FIRE, you need growth but cannot afford a major drawdown in years 10-15 when recovery time is limited. (2) Your current 0% bond allocation is extremely aggressive even for growth-focused investors - the knowledge base recommends even aggressive portfolios hold some bonds for stability. (3) A tech correction of 30-40% (as seen in 2022) would devastate 65% of your portfolio simultaneously. (4) Evidence from asset allocation guide: 'Diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' For a 15-year moderate-to-aggressive FIRE goal, target allocation should be closer to 60-70% stocks (diversified across sectors), 20-30% bonds, 10% alternatives. Trade-off: Reducing tech exposure may limit upside during tech bull markets, but significantly reduces catastrophic risk that could derail FIRE plans.",
+      "tickers": [
+        "BND",
+        "AGG",
+        "VNQ",
+        "VTV"
+      ],
+      "suggested_action": "Immediately reduce Technology allocation from 65% to 40% over next 3-6 months. Sell 15% of QQQ position. Add 20% allocation to bond ETFs (BND or AGG), 10% to real estate (VNQ per knowledge base), and 10% to value stocks (VTV) for sector diversification.",
+      "suggested_allocation_pct": 40.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "Begin immediately, complete rebalancing within 6 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:17:06.971930",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_96b04d23",
+      "category": "risk_reduction",
+      "title": "Eliminate Cryptocurrency Exposure for FIRE Stability",
+      "summary": "The 5% crypto allocation (BTC) introduces excessive volatility inappropriate for a goal-based FIRE timeline. Reallocate to stable assets that support predictable wealth accumulation.",
+      "detailed_rationale": "Signal: 5% BTC allocation ($9,000) represents high-volatility speculation unsuitable for time-bound FIRE goals. Step-by-step reasoning: (1) FIRE requires predictable accumulation with manageable drawdown risk - crypto has experienced 70-80% corrections multiple times, with recovery timelines uncertain. (2) With 15 years to FIRE, you're entering the critical accumulation phase where consistency matters more than lottery-ticket returns. A $9,000 crypto position going to zero (not impossible) barely helps FIRE, but protecting that capital and earning steady returns significantly aids the goal. (3) Your investment guide emphasizes 'Time in the market often matters more than timing the market' - crypto violates this by being timing-dependent and non-productive (no earnings, dividends, or cash flows). (4) With zero bond allocation currently, you need defensive positioning, not additional risk assets. (5) For a $162,000 net worth targeting FIRE, every dollar must work efficiently - speculative assets create drag on compound growth reliability. Trade-off: You'll miss potential crypto upside, but FIRE success is about hitting targets with high probability, not maximum possible returns. The downside protection is worth more than upside speculation at this wealth level and time horizon.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Liquidate entire BTC position ($9,000) within 30 days. Reallocate 60% ($5,400) to intermediate-term bond fund (BND/AGG) for stability, and 40% ($3,600) to your VTI position to increase broad market exposure with lower volatility than concentrated tech holdings.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "4-7% annually on reallocated funds",
+      "time_horizon": "Execute within 30 days",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:17:06.971930",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_02799f40",
+      "category": "rebalance",
+      "title": "Establish Tax-Advantaged Retirement Account Priority",
+      "summary": "Your portfolio lacks mention of 401(k) or IRA accounts. For FIRE in 15 years, maximizing tax-advantaged contributions ($23,000/year 401k + $7,000/year IRA) is critical for wealth acceleration.",
+      "detailed_rationale": "Signal: Portfolio shows only asset types and tickers without indicating tax-advantaged account usage - a critical gap for FIRE planning. Step-by-step alignment: (1) Your retirement planning knowledge explicitly states '401(k) limits are $23,000 ($30,500 if 50+)' and emphasizes 'These vehicles provide tax benefits that accelerate wealth building.' (2) With $162,000 net worth and 15-year FIRE timeline, you need approximately $1.2-1.5M (assuming 4% withdrawal rate for $48-60k annual expenses). This requires saving ~$30-40k annually with 7% returns. (3) Tax-advantaged accounts provide immediate tax deduction (traditional) or tax-free growth (Roth), effectively boosting returns by your marginal tax rate (likely 22-24%). On $30k annual contributions, that's $6,600-7,200/year in tax savings that can be reinvested. (4) Knowledge base states 'Always contribute enough to capture the full employer match in your 401(k). This is essentially free money with an immediate 100% return.' If you're missing employer match, you're leaving 50-100% immediate returns on the table. (5) At 15 years out, you can still access these funds through Roth conversion ladders or rule 72(t) for early retirement without penalties. Trade-off: Contributions are locked until retirement age with penalties for early withdrawal (though FIRE strategies mitigate this), but the tax advantages far outweigh liquidity constraints for goal-based investing.",
+      "tickers": [
+        "VTI",
+        "BND",
+        "VNQ"
+      ],
+      "suggested_action": "Prioritize maxing out 401(k) ($23,000/year) and Roth IRA ($7,000/year if eligible, or backdoor Roth). Redirect all new investment dollars to these accounts first. Within these accounts, hold your bond and REIT allocations (VNQ, BND) to shelter income from taxes, while keeping growth stocks (VTI, individual stocks) in taxable accounts for long-term capital gains treatment. Review if employer offers 401(k) match and ensure you're capturing 100% of available match.",
+      "suggested_allocation_pct": 100.0,
+      "risk_level": "low",
+      "expected_return_range": "Effective 8-10% annually after tax benefits",
+      "time_horizon": "Implement starting next pay period, ongoing for 15 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:17:06.971930",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_41406406",
+      "category": "hold",
+      "title": "Maintain VTI Core Holding as Portfolio Foundation",
+      "summary": "Your VTI position provides excellent broad market exposure at minimal cost (0.03% expense ratio). This should remain a core holding, potentially increasing allocation as you diversify away from concentrated tech.",
+      "detailed_rationale": "Signal: VTI represents sound portfolio construction element requiring reinforcement, not change. Step-by-step reasoning: (1) Knowledge base describes VTI as providing 'broad exposure to the entire U.S. equity market, including small, mid, and large-cap stocks' with 3,945 holdings - this is the diversification your portfolio desperately needs more of. (2) At 0.03% expense ratio vs. typical 0.50-1.00% for actively managed funds, you save $135-$873 annually per $90,000 invested (your approximate stock allocation). Over 15 years at 7% returns, low fees compound to $15,000+ in additional wealth. (3) VTI's broad market approach aligns with retirement guide principle: 'Time in the market often matters more than timing the market.' You don't need to predict which sectors will win - VTI captures all of them. (4) For FIRE planning, VTI provides the reliable equity growth engine (historical ~10% annual returns) needed to reach your target while being far less volatile than your current tech-heavy portfolio. (5) Asset allocation guide recommends rebalancing 'when allocations drift more than 5% from targets' - VTI should be your rebalancing destination as you trim overweight positions. Trade-off: VTI provides market returns, not outperformance. In tech bull markets, it will lag your current portfolio. However, FIRE is about reaching the goal with high certainty, not beating benchmarks. VTI's consistency serves this objective perfectly.",
+      "tickers": [
+        "VTI"
+      ],
+      "suggested_action": "Maintain current VTI position and designate it as your primary equity holding going forward. As you rebalance away from QQQ and individual tech stocks, redirect 50% of proceeds into VTI to increase broad market exposure. Target VTI representing 30-35% of total portfolio (currently appears to be ~25% as part of 50% ETF allocation).",
+      "suggested_allocation_pct": 35.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-10% annually based on historical broad market returns",
+      "time_horizon": "15-year hold through FIRE date",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:17:06.971930",
+      "composite_score": 0.0
+    }
+  ]
+}

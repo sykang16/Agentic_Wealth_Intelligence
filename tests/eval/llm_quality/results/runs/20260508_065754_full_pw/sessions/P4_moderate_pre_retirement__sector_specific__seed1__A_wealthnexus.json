@@ -1,0 +1,183 @@
+{
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "sector_specific",
+  "query": "Are there particular sectors I should reduce as I approach retirement, and which ones should I keep for income generation?",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_14c986ca",
+      "category": "rebalance",
+      "title": "Initiate Retirement Glide Path: Reduce Healthcare Overweight",
+      "summary": "Your healthcare allocation at 22% is significantly overweight given your 10-year retirement timeline. Reduce to 15% and reallocate to income-generating bonds and dividend stocks.",
+      "detailed_rationale": "(1) Portfolio Signal: Your healthcare sector represents 22% of holdings, making it your largest sector exposure - well above the 10-15% typical for a moderate risk, pre-retirement portfolio. With JNJ and UNH as individual stock holdings plus healthcare exposure through VTI, you have concentration risk in a single sector. (2) Risk Profile Alignment: As a 55-year-old with 'medium' investment horizon targeting retirement at 65, you should begin your glide path now per your stated goal. The knowledge base emphasizes that target-date strategies 'automatically adjust asset allocation as you approach retirement, becoming more conservative over time.' Your moderate risk tolerance (loss comfort 5/10) suggests you need to reduce single-sector volatility. Healthcare, while defensive, still carries regulatory risk, patent cliffs, and can underperform in rising rate environments. (3) Supporting Evidence: Your current bond allocation at 35% is appropriate for your age, but sector concentration undermines diversification benefits. The Asset Allocation guide states that 'moderate portfolios balance around 50-60% stocks, 30-40% bonds' - you're at 55% stocks (40% ETF + 15% individual stocks), which is suitable, but the sector mix needs adjustment. (4) Trade-offs: Healthcare is generally defensive and provides stability, but overconcentration means you're not fully diversified. Reducing now while markets are stable allows you to lock in gains and redeploy to income-focused assets. Consider tax implications of selling appreciated positions.",
+      "tickers": [
+        "UNH",
+        "JNJ"
+      ],
+      "suggested_action": "Reduce healthcare exposure by selling 50% of either UNH or JNJ position (whichever has lower tax basis), targeting 15% total healthcare allocation. Redeploy proceeds 60% to BND (bonds) and 40% to dividend aristocrat ETFs for income generation.",
+      "suggested_allocation_pct": -7.0,
+      "risk_level": "low",
+      "expected_return_range": "4-6% annually with reduced volatility",
+      "time_horizon": "Immediate rebalancing for 10-year retirement glide path",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:03:18.378098",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_e4690c67",
+      "category": "income_generation",
+      "title": "Add Dividend Growth ETF for Retirement Income Stream",
+      "summary": "Establish a 10% position in dividend growth ETFs (VIG or SCHD) to create sustainable income for retirement while maintaining growth potential during accumulation phase.",
+      "detailed_rationale": "(1) Portfolio Signal: Your goal requires $80-100k annual retirement income, but your current portfolio lacks dedicated income-generation infrastructure. With $850k in assets growing to your $1.8M target, you'll need approximately 5% yield on $1.8M to generate $90k annually. Currently, only BND (35% allocation) and partial exposure through dividend-paying stocks provide income - insufficient for your retirement income needs. (2) Risk Profile Alignment: As an advanced investor with stable income ($220k annually) and low debt, you can afford to deploy capital strategically now. Your 10-year horizon allows dividend reinvestment during accumulation while building income capacity. The Retirement Planning guide emphasizes 'tax-advantaged accounts' and strategic planning - dividend growth stocks in taxable accounts receive favorable tax treatment (qualified dividends). Your moderate risk tolerance fits dividend growth perfectly: these are typically large-cap, established companies with lower volatility than pure growth stocks but better returns than bonds. (3) Supporting Evidence: Your current holdings (JNJ, PG, BRK.B) already show preference for quality dividend payers, but at only 15% in individual stocks, you lack sufficient income infrastructure. Dividend aristocrats historically provide 2-3% yields with 5-7% annual dividend growth, creating inflation-protected income. With stable employment and $132k annual expenses, you have investment capacity from your $220k income. (4) Trade-offs: Dividend-focused strategies may underperform pure growth during bull markets, but provide downside protection and income reliability crucial for retirement. You're trading some growth potential for income certainty and reduced volatility as you approach retirement.",
+      "tickers": [
+        "VIG",
+        "SCHD"
+      ],
+      "suggested_action": "Allocate 10% of portfolio ($85k) to dividend growth ETFs - split between VIG (Vanguard Dividend Appreciation) and SCHD (Schwab US Dividend Equity). Fund from current cash position (5%, $42.5k) plus reducing 5% from VTI broad market exposure to increase income focus.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-9% annually (4-6% growth + 2-3% yield)",
+      "time_horizon": "10 years to retirement, then ongoing income generation",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:03:18.378098",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_afc34caf",
+      "category": "diversify",
+      "title": "Add Treasury Inflation-Protected Securities (TIPS) Position",
+      "summary": "Allocate 5-8% to TIPS to protect retirement purchasing power as inflation remains a key risk for fixed-income retirees over the next decade.",
+      "detailed_rationale": "(1) Portfolio Signal: Your bond allocation (35%, primarily BND) provides fixed-income stability but lacks inflation protection. BND holds primarily nominal bonds whose real value erodes with inflation. With a 10-year retirement horizon and 20-30 years of retirement spending ahead, inflation is a critical risk. At 5% annual inflation, $80k income needs become $130k in 10 years - your portfolio must keep pace. (2) Risk Profile Alignment: As a moderate risk investor approaching retirement, capital preservation and purchasing power protection become increasingly important. Your stated loss comfort of 5/10 indicates you want stability but can't afford significant real value erosion. TIPS provide government-backed security (appropriate for conservative late-career positioning) while protecting against inflation - aligning perfectly with your 'stable income' and need for predictable retirement cash flows. Your advanced investment experience means you understand the TIPS mechanism and inflation hedging strategy. (3) Supporting Evidence: The Asset Allocation guide emphasizes that 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' TIPS provide diversification within fixed income - they perform well when nominal bonds struggle (high inflation periods). Your current BND holding has 0.03% expense ratio showing cost-consciousness; TIPS ETFs like SCHP or VTIP offer similar low-cost access (0.04-0.05% expense ratios). With $385k in retirement accounts (assumed portion of $850k), TIPS work well in tax-advantaged accounts as inflation adjustments are tax-deferred. (4) Trade-offs: TIPS typically yield less than nominal bonds in low-inflation environments and have interest rate sensitivity. However, for retirement income protection, this is acceptable insurance. You're trading some current yield for inflation protection essential to your retirement income goal.",
+      "tickers": [
+        "SCHP",
+        "VTIP"
+      ],
+      "suggested_action": "Allocate 6% of portfolio ($51k) to TIPS ETFs (SCHP or VTIP). Fund by reducing BND position from 35% to 29%, maintaining total fixed-income allocation at 35% but improving inflation protection mix. Execute in tax-advantaged accounts to defer inflation adjustment taxation.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5% real return (inflation + 1-2%)",
+      "time_horizon": "10 years through retirement and beyond",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:03:18.378098",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_7c74b989",
+      "category": "risk_reduction",
+      "title": "Reduce Individual Stock Concentration Before Retirement",
+      "summary": "Gradually reduce individual stock holdings from 15% to 10% over next 2 years, shifting to diversified equity ETFs to reduce company-specific risk approaching retirement.",
+      "detailed_rationale": "(1) Portfolio Signal: At 15% in individual stocks (JNJ, UNH, JPM, BRK.B, PG), you carry meaningful company-specific risk - regulatory changes, earnings misses, or sector rotation could significantly impact your retirement timeline. While these are quality holdings, concentrated positions increase volatility inappropriate for someone 10 years from retirement. Your 40% ETF allocation shows you understand diversification benefits; extending this to your entire equity portfolio reduces tail risk. (2) Risk Profile Alignment: The Retirement Planning guide emphasizes that approaches should 'become more conservative over time' as retirement nears. Your moderate risk tolerance and loss comfort of 5/10 suggests you want to avoid dramatic drawdowns that could derail retirement timing. Individual stocks, even quality names, can decline 20-40% during market stress or company-specific events - ETF diversification typically limits such drawdowns to 10-20%. Your advanced investment experience means you've likely seen individual stock volatility; now is the time to prioritize capital preservation over potential outperformance. Your stated goal of 'retire at 65 with $80-100k/yr income; begin glide-path now' explicitly calls for de-risking. (3) Supporting Evidence: With stable income ($220k), low debt, and emergency fund in place, your financial foundation is strong - but individual stock concentration is your portfolio's primary risk point. The Asset Allocation guide notes that 'diversification reduces portfolio volatility' and 'when one asset underperforms, others may compensate.' Your financials exposure (JPM, BRK.B) at 18% combined with individual stock concentration creates double-jeopardy if the financial sector faces stress. Studies show individual stock standard deviation averages 30-50% annually versus 15-20% for diversified equity ETFs. (4) Trade-offs: You may sacrifice some outperformance if your stock picks beat the market, and you'll realize capital gains triggering taxes. However, you're exchanging potential excess return for certainty and reduced volatility - appropriate for your life stage. Consider tax-loss harvesting opportunities or spreading sales over 2 years to manage tax impact.",
+      "tickers": [
+        "VTI",
+        "VXUS"
+      ],
+      "suggested_action": "Over the next 24 months, reduce individual stock allocation from 15% to 10% by selling approximately $42k of holdings. Prioritize selling positions with lowest tax basis or highest concentration. Redeploy proceeds to VTI (60%) and VXUS (40%) to maintain equity exposure with broader diversification. Execute in tranches quarterly to dollar-cost-average and manage tax liability.",
+      "suggested_allocation_pct": -5.0,
+      "risk_level": "low",
+      "expected_return_range": "Similar equity returns (8-10% annually) with 20-30% lower volatility",
+      "time_horizon": "Execute over 24 months, benefits through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:03:18.378980",
+      "composite_score": 0.0
+    }
+  ]
+}

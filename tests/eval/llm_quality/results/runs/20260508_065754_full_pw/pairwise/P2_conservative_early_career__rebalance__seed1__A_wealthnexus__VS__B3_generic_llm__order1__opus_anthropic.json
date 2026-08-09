@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides more detailed, profile-specific reasoning with explicit numeric ties to the user's expenses, surplus calculations, and goal timelines, plus more concrete actionable steps (specific dollar amounts, monthly contributions, account separation strategy). System B is competent and adds a useful debt-rate consideration, but its rationales are shorter, less personalized, and contain a minor inconsistency (claims $2,200 surplus then $500-1,000 available) compared to A's more rigorous grounding.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides more detailed, profile-specific reasoning with explicit numeric ties to the user's expenses, surplus calculations, and goal timelines, plus more concrete actionable steps (specific dollar amounts, monthly contributions, account separation strategy). System B is competent and adds a useful debt-rate consideration, but its rationales are shorter, less personalized, and contain a minor inconsistency (claims $2,200 surplus then $500-1,000 available) compared to A's more rigorous grounding."
+  },
+  "usage": {
+    "input_tokens": 10022,
+    "output_tokens": 300
+  },
+  "session_id": "P2_conservative_early_career__rebalance__seed1",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 1,
+  "rubric_version": "1.1"
+}

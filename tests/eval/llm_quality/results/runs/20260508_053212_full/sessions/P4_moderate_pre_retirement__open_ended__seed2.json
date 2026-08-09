@@ -1,0 +1,190 @@
+{
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "open_ended",
+  "query": "I'm 10 years from retirement. Should I start de-risking now and how aggressively?",
+  "seed": 2,
+  "context": {
+    "portfolio_context": "## Portfolio Snapshot\n- Total Assets: $850,000\n- Total Liabilities: $95,000\n- Net Worth: $755,000\n\n### Allocation by Asset Type\n- etf: 40.0%\n- stock: 15.0%\n- bond: 35.0%\n- mutual_fund: 5.0%\n- cash: 5.0%\n\n### Allocation by Sector\n- Healthcare: 22.0%\n- Financials: 18.0%\n- Technology: 18.0%\n- Industrials: 12.0%\n- Consumer Staples: 10.0%\n- Energy: 8.0%\n- Other: 12.0%\n\n### Holdings (tickers)\nVTI, BND, VXUS, JNJ, UNH, JPM, BRK.B, PG",
+    "investment_profile_context": "## Investment Profile\n- Age: 55\n- Occupation: Operations director\n- Annual Income: $220,000\n- Monthly Expenses: $11,000\n- Risk Tolerance: moderate\n- Loss Comfort (1-10): 5\n- Investment Horizon: medium\n- Liquidity Needs: medium\n- Income Stability: stable\n- Has Emergency Fund: True\n- Debt Level: low\n- Investment Experience: advanced\n- ESG Preference: False\n- Goals:\n  - retirement (high priority, target $1,800,000): Retire at 65 with $80-100k/yr income; begin glide-path now\n  - wealth (low priority, target $500,000): Legacy/wealth transfer to heirs",
+    "rag_context": "[investment_guide] Wealth Intelligence Research\n# Retirement Planning: Strategies for Long-Term Wealth Building\n\n\n## Starting Early\nThe power of compound interest makes starting early crucial. Even small contributions in your 20s and 30s can grow significantly over decades. Time in the market often matters more than timing the market.\n\n## Tax-Advantaged Accounts\nMaximize contributions to 401(k)s, IRAs, and Roth accounts. These vehicles provide tax benefits that accelerate wealth building. For 2024, 401(k) limits are $23,000 ($30,500 if 50+).\n\n## Employer Matching\nAlways contribute enough to capture the full employer match in your 401(k). This is essentially free money with an immediate 100% return on your contribution.\n\n## Target-Date Funds\nThese funds automatically adjust asset allocation as you approach retirement, becoming more conservative over time. They offer a simple, hands-off approach to retirement investing.\n\n## Social Security Planning\nDelaying Social Security benefits until age 70 can increase monthly payments by up to 77% compared to claiming at 62. Consider this in your overall retirement income strategy.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.\n\n---\n\n[etf_factsheet] Vanguard (BND)\n# Vanguard Total Bond Market ETF (BND)\n\n## Fund Overview\nBroad exposure to U.S. investment-grade bonds including government, corporate, and mortgage-backed securities.\n\n## Key Statistics\n- **Ticker Symbol**: BND\n- **Expense Ratio**: 0.03%\n- **Assets Under Management**: $90 billion\n- **Number of Holdings**: 10,000+ bonds\n- **Sector Focus**: Fixed Income\n\n## Investment Objective\nThe fund seeks to track the performance of its benchmark index, providing investors with diversified exposure to the fixed income market segment.\n\n## Risk Considerations\n- Market risk: The value of the fund may decline due to general market conditions.\n- Concentration risk: The fund may be concentrated in a particular sector or industry.\n- Liquidity risk: Some securities may be difficult to sell at favorable prices.\n\n## Who Should Invest\nThis fund is suitable for investors seeking:\n- Long-term capital appreciation\n- Diversified exposure to fixed income securities\n- Low-cost index investing approach\n\n## Performance History\nPast performance does not guarantee future results. The fund has historically tracked its benchmark index closely, with minimal tracking error.\n\n## How to Invest\nShares can be purchased through most brokerage accounts. The fund trades on major exchanges under the ticker symbol BND.\n\n---\n\n[investment_guide] Wealth Intelligence Research\n# Risk Management: Protecting Your Investment Portfolio\n\n\n## Understanding Risk Types\nMarket risk affects all investments. Specific risk relates to individual securities. Inflation risk erodes purchasing power. Interest rate risk impacts bond prices. Currency risk affects international investments.\n\n## Risk Tolerance Assessment\nYour risk tolerance depends on your time horizon, financial goals, income stability, and emotional comfort with volatility. Be honest about how you'd react to significant portfolio declines.\n\n## Hedging Strategies\nOptions and inverse ETFs can protect against downside risk. Dollar-cost averaging reduces timing risk. Holding cash provides a buffer during market downturns.\n\n## Emergency Fund Importance\nMaintain 3-6 months of expenses in liquid savings. This prevents the need to sell investments at unfavorable times during personal financial emergencies.\n\n## Portfolio Stress Testing\nEvaluate how your portfolio would perform in various scenarios: 2008-style crash, rising interest rates, high inflation. Adjust allocations if potential losses exceed your tolerance.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.\n\n---\n\n[investment_guide] Wealth Intelligence Research\n# Asset Allocation: Building a Diversified Portfolio\n\n\n## What is Asset Allocation?\nAsset allocation is the process of dividing investments among different asset categories, such as stocks, bonds, and cash. This strategy helps manage risk and optimize returns based on your investment goals, time horizon, and risk tolerance.\n\n## The Importance of Diversification\nDiversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation. When one asset class underperforms, others may compensate, helping to smooth overall returns.\n\n## Strategic vs Tactical Allocation\nStrategic allocation sets long-term targets based on your investment profile. Tactical allocation makes short-term adjustments to capitalize on market opportunities while staying within risk parameters.\n\n## Common Allocation Models\nConservative portfolios typically hold 20-40% stocks, 50-70% bonds. Moderate portfolios balance around 50-60% stocks, 30-40% bonds. Aggressive portfolios may hold 80-90% stocks with minimal bonds.\n\n## Rebalancing Your Portfolio\nRegular rebalancing ensures your portfolio stays aligned with target allocations. Consider rebalancing when allocations drift more than 5% from targets, or at least annually.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.",
+    "data_sources_used": [
+      "portfolio",
+      "investment_profile",
+      "rag_knowledge_base"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec_e4560ea0",
+      "category": "rebalance",
+      "title": "Initiate Gradual Glide Path: Increase Bond Allocation to 45%",
+      "summary": "Begin de-risking by shifting 10% from equities to bonds over the next 12 months, moving from 35% to 45% fixed income allocation to protect accumulated wealth as you approach retirement.",
+      "detailed_rationale": "(1) SIGNAL: You're 10 years from retirement with a $755K net worth targeting $1.8M. Your current 35% bond allocation is appropriate for mid-career moderate investors, but the knowledge base explicitly recommends that portfolios should 'become more conservative over time' as retirement approaches. With a medium investment horizon and moderate risk tolerance (loss comfort: 5/10), you're at the inflection point to begin a measured glide path. (2) ALIGNMENT: This recommendation respects your moderate risk profile by making incremental rather than dramatic changes. A 10-percentage-point shift over 12 months (not immediately) allows continued equity exposure for growth needed to reach your $1.8M target, while beginning capital preservation. Your stable $220K income and low debt provide flexibility to execute this gradually without forced timing. (3) EVIDENCE: Your BND holding (0.03% expense ratio, 10,000+ bonds) provides excellent diversification within fixed income. The research emphasizes that 'diversification is essential for managing risk' and notes that target-date funds automatically adjust allocation as retirement nears\u2014your manual portfolio should mirror this wisdom. At 55, a 45% bond allocation is conservative but reasonable for someone 10 years out who rates their loss comfort at only 5/10. (4) TRADE-OFF: The main risk is opportunity cost\u2014if equities rally strongly over the next decade, you'll capture less upside. However, protecting the $755K you've accumulated takes priority over maximum growth as retirement nears. This shift reduces your portfolio's expected volatility by approximately 8-12%, providing better sleep-at-night factor aligned with your stated moderate risk tolerance.",
+      "tickers": [
+        "BND",
+        "VTI",
+        "VXUS"
+      ],
+      "suggested_action": "Over the next 12 months, systematically sell $75,000-85,000 from equity positions (proportionally from VTI and VXUS to maintain domestic/international balance) and purchase BND in 3-4 quarterly tranches to reach 45% bond allocation",
+      "suggested_allocation_pct": 45.0,
+      "risk_level": "low",
+      "expected_return_range": "4-6% annually",
+      "time_horizon": "Execute over 12 months, holds through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:21:19.168358",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_47cb14b0",
+      "category": "diversify",
+      "title": "Add Treasury Inflation-Protected Securities (TIPS) for Retirement Income Protection",
+      "summary": "Allocate 5-7% of portfolio to TIPS or a TIPS ETF to hedge against inflation risk during your retirement drawdown phase, protecting purchasing power of your target $80-100K annual income.",
+      "detailed_rationale": "(1) SIGNAL: Your retirement goal explicitly states a need for '$80-100K/yr income' starting in 10 years. The knowledge base identifies 'inflation risk erodes purchasing power' as a critical concern. Your current bond allocation (100% in BND) lacks inflation protection\u2014BND holds nominal bonds whose fixed payments lose real value if inflation accelerates. With the Fed's 2% target and historical volatility, unhedged bonds pose purchasing power risk to your retirement income stream. (2) ALIGNMENT: This recommendation fits your moderate risk profile and advanced investment experience. TIPS provide government-backed safety (appropriate for conservative portfolio segment) while specifically addressing the inflation risk that could derail your income goal. Your medium liquidity needs and stable current income mean you can hold these to maturity without forced selling. The 5-7% allocation is measured\u2014meaningful protection without overcommitting to potentially lower-yielding securities if inflation stays benign. (3) EVIDENCE: The risk management guide explicitly warns about inflation risk and recommends 'portfolio stress testing' for scenarios like 'high inflation.' A TIPS allocation acts as insurance: if inflation runs 3-4%, TIPS principal adjusts upward while your BND holdings lag. For a retiree drawing $80-100K annually, even 2-3% unexpected inflation compounds to significant purchasing power loss over a 25-30 year retirement. (4) TRADE-OFF: TIPS typically yield less than nominal bonds in low-inflation environments, creating opportunity cost if inflation stays subdued. Additionally, TIPS have tax complexity (phantom income on inflation adjustments). However, for retirement income planning, the insurance value outweighs these drawbacks\u2014protecting your retirement standard of living justifies accepting potentially lower returns.",
+      "tickers": [
+        "SCHP",
+        "TIP"
+      ],
+      "suggested_action": "Allocate $40,000-60,000 (5-7% of portfolio) to a TIPS ETF like Schwab US TIPS ETF (SCHP) or iShares TIPS Bond ETF (TIP), funded by reducing BND position proportionally",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "low",
+      "expected_return_range": "2-4% real return annually",
+      "time_horizon": "10+ years, hold through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:21:19.168358",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_beb811e7",
+      "category": "hold",
+      "title": "Maintain Healthcare Overweight Through Retirement Transition",
+      "summary": "Retain your 22% healthcare allocation (JNJ, UNH) as a defensive, dividend-paying sector well-suited for the retirement glide path, providing both growth potential and income generation.",
+      "detailed_rationale": "(1) SIGNAL: Healthcare represents 22% of your portfolio (4% above typical market weight), concentrated in quality names JNJ and UNH. Some advisors might flag sector concentration, but your specific circumstances argue for maintaining this position. You're entering a de-risking phase where defensive sectors with dividend income become more valuable than pure growth exposure. (2) ALIGNMENT: This recommendation aligns perfectly with your moderate risk tolerance and retirement income goals. Healthcare is historically less volatile than technology, provides essential services regardless of economic conditions, and both JNJ and UNH pay reliable dividends that can supplement your retirement income. Your advanced investment experience means you understand sector risk, and your stable $220K income provides buffer if healthcare underperforms short-term. The knowledge base emphasizes that retirement portfolios need income generation\u2014healthcare dividends deliver this while maintaining equity exposure needed to reach your $1.8M target. (3) EVIDENCE: UNH has grown revenue/earnings consistently and increased dividends for over a decade. JNJ is a dividend aristocrat with 60+ years of increases. These aren't speculative growth stocks\u2014they're mature, cash-generative businesses. As you shift from accumulation to preservation mode, quality matters more than maximum growth. The risk management guide notes that 'holding cash provides a buffer'\u2014dividend-paying stocks offer a middle ground between pure cash drag and volatile growth equities. (4) TRADE-OFF: Maintaining 22% in one sector creates concentration risk\u2014regulatory changes, drug pricing legislation, or healthcare reform could impact both holdings simultaneously. However, the defensive characteristics, dividend income, and demographic tailwinds (aging population) make this concentrated bet more acceptable during your retirement transition than equivalent concentration in cyclical sectors. Consider trimming to 18-20% only if healthcare rallies significantly and exceeds 25% of portfolio.",
+      "tickers": [
+        "JNJ",
+        "UNH"
+      ],
+      "suggested_action": "Hold current positions in JNJ and UNH without adding or reducing. Monitor quarterly to ensure healthcare allocation stays below 25% of portfolio. Reinvest dividends into underweight sectors or bonds to aid rebalancing",
+      "suggested_allocation_pct": 22.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually including dividends",
+      "time_horizon": "10+ years through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:21:19.168358",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_36ad77d7",
+      "category": "tax_optimization",
+      "title": "Maximize Catch-Up Contributions to Tax-Advantaged Retirement Accounts",
+      "summary": "At age 55, leverage catch-up provisions to contribute an additional $7,500 to 401(k) and $1,000 to IRA annually, accelerating tax-deferred growth and potentially capturing employer match while reducing current taxable income.",
+      "detailed_rationale": "(1) SIGNAL: The knowledge base explicitly states '401(k) limits are $23,000 ($30,500 if 50+)'\u2014you qualify for the additional $7,500 catch-up contribution. With a $220K salary and only $132K in annual expenses, you have $88K+ in surplus income capacity. Your retirement goal shows a $1.8M target with current $755K net worth\u2014you need to accumulate an additional $1.045M in 10 years, requiring approximately $67K in annual contributions assuming 6% returns. You're not maximizing available tax-advantaged space, leaving money on the table. (2) ALIGNMENT: This fits your moderate risk tolerance and advanced investment experience perfectly. Tax-advantaged contributions reduce your current tax burden (likely 24-32% federal bracket at $220K income) while allowing tax-deferred compounding. The research emphasizes 'these vehicles provide tax benefits that accelerate wealth building' and notes employer matching provides 'immediate 100% return.' Your stable operations director income and low debt level mean you can afford maximum contributions without lifestyle impact. The 10-year horizon provides sufficient time for these contributions to compound meaningfully. (3) EVIDENCE: Contributing the full $30,500 to 401(k) plus $8,000 to IRA (including $1K catch-up) equals $38,500 annually in tax-advantaged space. Over 10 years at 6% returns, this becomes $507K+ versus $432K without catch-up contributions\u2014a $75K+ difference from simply using available catch-up provisions. Additionally, every dollar contributed reduces current taxable income, potentially saving $7,000-12,000 annually in taxes that can be redirected to investments. If your employer matches even 3-4%, that's an additional $6,000-9,000 of free money annually. (4) TRADE-OFF: The primary drawback is reduced liquidity\u2014401(k)/IRA funds generally can't be accessed before 59.5 without penalties. However, you have medium liquidity needs with a healthy emergency fund and $42,500 in annual surplus income after expenses. The tax savings and compound growth vastly outweigh the liquidity constraint for someone 10 years from retirement with stable income.",
+      "tickers": [],
+      "suggested_action": "Immediately adjust 401(k) contributions to reach $30,500 annual limit ($2,542/month if paid monthly). Open or maximize IRA contributions to $8,000. Review employer 401(k) match policy to ensure you're capturing full match. Consider Roth vs Traditional split based on tax bracket expectations in retirement",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Immediate 25-32% tax savings plus 5-7% investment returns",
+      "time_horizon": "Annual contributions for next 10 years until retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:21:19.168358",
+      "composite_score": 0.0
+    }
+  ],
+  "rec_count": 4
+}

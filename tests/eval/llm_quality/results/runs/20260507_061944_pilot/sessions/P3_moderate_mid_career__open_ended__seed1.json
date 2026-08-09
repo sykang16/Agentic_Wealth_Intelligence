@@ -1,0 +1,194 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "query": "I'm 40 with two kids heading to college in about 10 years. How should I balance saving for their education versus retirement?",
+  "seed": 1,
+  "context": {
+    "portfolio_context": "## Portfolio Snapshot\n- Total Assets: $320,000\n- Total Liabilities: $180,000\n- Net Worth: $140,000\n\n### Allocation by Asset Type\n- etf: 50.0%\n- stock: 20.0%\n- bond: 30.0%\n\n### Allocation by Sector\n- Technology: 35.0%\n- Financials: 15.0%\n- Healthcare: 12.0%\n- Consumer Discretionary: 10.0%\n- Industrials: 8.0%\n- Energy: 5.0%\n- Other: 15.0%\n\n### Holdings (tickers)\nVTI, VXUS, BND, AAPL, MSFT, NVDA, GOOGL",
+    "investment_profile_context": "## Investment Profile\n- Age: 40\n- Occupation: Product manager\n- Annual Income: $175,000\n- Monthly Expenses: $9,500\n- Risk Tolerance: moderate\n- Loss Comfort (1-10): 6\n- Investment Horizon: long\n- Liquidity Needs: medium\n- Income Stability: stable\n- Has Emergency Fund: True\n- Debt Level: low\n- Investment Experience: intermediate\n- Goals:\n  - education (high priority, target $200,000): Fund college for two children, primary horizon ~10 years\n  - retirement (high priority, target $2,500,000): Long-term retirement target, ~25 years out",
+    "rag_context": "[investment_guide] Wealth Intelligence Research\n# Retirement Planning: Strategies for Long-Term Wealth Building\n\n\n## Starting Early\nThe power of compound interest makes starting early crucial. Even small contributions in your 20s and 30s can grow significantly over decades. Time in the market often matters more than timing the market.\n\n## Tax-Advantaged Accounts\nMaximize contributions to 401(k)s, IRAs, and Roth accounts. These vehicles provide tax benefits that accelerate wealth building. For 2024, 401(k) limits are $23,000 ($30,500 if 50+).\n\n## Employer Matching\nAlways contribute enough to capture the full employer match in your 401(k). This is essentially free money with an immediate 100% return on your contribution.\n\n## Target-Date Funds\nThese funds automatically adjust asset allocation as you approach retirement, becoming more conservative over time. They offer a simple, hands-off approach to retirement investing.\n\n## Social Security Planning\nDelaying Social Security benefits until age 70 can increase monthly payments by up to 77% compared to claiming at 62. Consider this in your overall retirement income strategy.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.\n\n---\n\n[etf_factsheet] Vanguard (BND)\n# Vanguard Total Bond Market ETF (BND)\n\n## Fund Overview\nBroad exposure to U.S. investment-grade bonds including government, corporate, and mortgage-backed securities.\n\n## Key Statistics\n- **Ticker Symbol**: BND\n- **Expense Ratio**: 0.03%\n- **Assets Under Management**: $90 billion\n- **Number of Holdings**: 10,000+ bonds\n- **Sector Focus**: Fixed Income\n\n## Investment Objective\nThe fund seeks to track the performance of its benchmark index, providing investors with diversified exposure to the fixed income market segment.\n\n## Risk Considerations\n- Market risk: The value of the fund may decline due to general market conditions.\n- Concentration risk: The fund may be concentrated in a particular sector or industry.\n- Liquidity risk: Some securities may be difficult to sell at favorable prices.\n\n## Who Should Invest\nThis fund is suitable for investors seeking:\n- Long-term capital appreciation\n- Diversified exposure to fixed income securities\n- Low-cost index investing approach\n\n## Performance History\nPast performance does not guarantee future results. The fund has historically tracked its benchmark index closely, with minimal tracking error.\n\n## How to Invest\nShares can be purchased through most brokerage accounts. The fund trades on major exchanges under the ticker symbol BND.\n\n---\n\n[investment_guide] Wealth Intelligence Research\n# Asset Allocation: Building a Diversified Portfolio\n\n\n## What is Asset Allocation?\nAsset allocation is the process of dividing investments among different asset categories, such as stocks, bonds, and cash. This strategy helps manage risk and optimize returns based on your investment goals, time horizon, and risk tolerance.\n\n## The Importance of Diversification\nDiversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation. When one asset class underperforms, others may compensate, helping to smooth overall returns.\n\n## Strategic vs Tactical Allocation\nStrategic allocation sets long-term targets based on your investment profile. Tactical allocation makes short-term adjustments to capitalize on market opportunities while staying within risk parameters.\n\n## Common Allocation Models\nConservative portfolios typically hold 20-40% stocks, 50-70% bonds. Moderate portfolios balance around 50-60% stocks, 30-40% bonds. Aggressive portfolios may hold 80-90% stocks with minimal bonds.\n\n## Rebalancing Your Portfolio\nRegular rebalancing ensures your portfolio stays aligned with target allocations. Consider rebalancing when allocations drift more than 5% from targets, or at least annually.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.\n\n---\n\n[investment_guide] Wealth Intelligence Research\n# Risk Management: Protecting Your Investment Portfolio\n\n\n## Understanding Risk Types\nMarket risk affects all investments. Specific risk relates to individual securities. Inflation risk erodes purchasing power. Interest rate risk impacts bond prices. Currency risk affects international investments.\n\n## Risk Tolerance Assessment\nYour risk tolerance depends on your time horizon, financial goals, income stability, and emotional comfort with volatility. Be honest about how you'd react to significant portfolio declines.\n\n## Hedging Strategies\nOptions and inverse ETFs can protect against downside risk. Dollar-cost averaging reduces timing risk. Holding cash provides a buffer during market downturns.\n\n## Emergency Fund Importance\nMaintain 3-6 months of expenses in liquid savings. This prevents the need to sell investments at unfavorable times during personal financial emergencies.\n\n## Portfolio Stress Testing\nEvaluate how your portfolio would perform in various scenarios: 2008-style crash, rising interest rates, high inflation. Adjust allocations if potential losses exceed your tolerance.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.",
+    "data_sources_used": [
+      "portfolio",
+      "investment_profile",
+      "rag_knowledge_base"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec_b8f9a181",
+      "category": "diversify",
+      "title": "Establish Dedicated 529 College Savings Plan",
+      "summary": "Open 529 plans for both children to create tax-advantaged education savings separate from retirement accounts, targeting $100k per child over 10 years.",
+      "detailed_rationale": "(1) Signal: Your portfolio shows no dedicated education savings vehicle despite a high-priority $200k college goal in 10 years. With current net worth of $140k, your retirement and education goals are competing for the same assets. (2) Profile alignment: As a 40-year-old with stable $175k income and intermediate investment experience, you can afford to contribute ~$1,500/month ($18k annually) toward education while maintaining retirement contributions. Your 10-year horizon for education is too short to rely solely on market-exposed assets like your current 70% stock/ETF allocation. (3) Evidence: The knowledge base emphasizes tax-advantaged accounts for wealth building. 529 plans offer tax-free growth for education expenses, effectively increasing your return by avoiding capital gains taxes (potentially 15-20% savings). Your moderate risk tolerance and medium liquidity needs support separating shorter-term education goals from longer-term retirement assets. (4) Trade-offs: Contributions reduce available cash flow for retirement accounts in the short term, and 529 funds have penalties if not used for qualified education expenses. However, with two children and potential for graduate school, overfunding risk is minimal. Consider a conservative 529 allocation (60% bonds/40% stocks) given the 10-year timeline, which is more conservative than your current 30% bond allocation.",
+      "tickers": [
+        "VGIT",
+        "VTEB",
+        "VTI"
+      ],
+      "suggested_action": "Open two 529 college savings plans (one per child) with target contributions of $1,500/month total ($750 each). Use age-based asset allocation funds or build a custom 60/40 bond-heavy portfolio using VGIT (intermediate-term government bonds), VTEB (tax-exempt municipal bonds for your tax bracket), and VTI for equity exposure.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "low",
+      "expected_return_range": "4-6% annually",
+      "time_horizon": "10 years for education goal",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-06T23:23:28.222577",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_2d6464e5",
+      "category": "rebalance",
+      "title": "Reduce Technology Overconcentration",
+      "summary": "Decrease Technology sector exposure from 35% to 25% by trimming individual tech positions (AAPL, MSFT, NVDA, GOOGL) and redirecting to underweight sectors.",
+      "detailed_rationale": "(1) Signal: Your portfolio has 35% Technology concentration, well above typical broad market exposure (~28% in S&P 500). Additionally, you hold four individual tech stocks (AAPL, MSFT, NVDA, GOOGL) representing your entire 20% individual stock allocation plus overlap in VTI. This creates significant concentration risk. (2) Profile alignment: As a product manager likely in tech, you may have additional employer concentration (RSUs, stock options) not reflected here. Your moderate risk tolerance (loss comfort 6/10) and two high-priority financial goals suggest you should reduce single-sector risk. The knowledge base emphasizes diversification to reduce volatility - 'when one asset class underperforms, others may compensate.' (3) Evidence: Your sector allocation shows Healthcare (12%), Industrials (8%), and Energy (5%) are all underweight versus market benchmarks. With a 10-year education timeline, you cannot afford a tech-sector correction to derail college funding. The knowledge base recommends rebalancing when allocations drift more than 5% from targets - your tech allocation is likely 7-10% overweight. (4) Trade-offs: You'll miss potential upside if tech continues outperforming, and selling winners triggers capital gains taxes. However, risk-adjusted returns improve with proper diversification, and you maintain tech exposure through VTI's natural weighting.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL",
+        "VHT",
+        "VDE",
+        "VIS"
+      ],
+      "suggested_action": "Sell 30-40% of positions in AAPL, MSFT, NVDA, and GOOGL (approximately $21k-28k based on 20% stock allocation of $140k net worth). Reallocate proceeds to sector ETFs: VHT (Healthcare, +5%), VDE (Energy, +3%), and VIS (Industrials, +2%) to achieve better sector balance while maintaining growth potential.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "Immediate rebalancing, long-term hold",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-06T23:23:28.222577",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_dec0735b",
+      "category": "buy",
+      "title": "Increase International Equity Exposure",
+      "summary": "Boost international diversification by increasing VXUS allocation from current levels to 25% of equity portfolio to capture global growth and reduce U.S. concentration risk.",
+      "detailed_rationale": "(1) Signal: Your portfolio is heavily U.S.-centric with VTI as your primary equity ETF and four U.S. mega-cap stocks. While you hold VXUS, the allocation appears modest. Standard diversification principles suggest 20-40% international exposure for long-term investors. (2) Profile alignment: With a 25-year retirement horizon and moderate risk tolerance, you have time to weather international market volatility while benefiting from global diversification. Your stable income and emergency fund provide the stability to handle temporary underperformance. The knowledge base states that 'moderate portfolios balance around 50-60% stocks, 30-40% bonds' - you're at 70% stocks/ETFs (aggressive end of moderate), so increasing international within equities doesn't change overall risk dramatically. (3) Evidence: International markets offer valuation opportunities and currency diversification that reduce portfolio correlation. VXUS provides exposure to developed and emerging markets at 0.08% expense ratio. Your current strong U.S. dollar position means international assets are relatively cheaper. As a product manager with U.S.-based income, international investments provide geographic income diversification for retirement. (4) Trade-offs: International stocks have underperformed U.S. markets over the past decade, and currency fluctuations add volatility. However, valuations suggest mean reversion potential, and over 25 years, global diversification typically improves risk-adjusted returns.",
+      "tickers": [
+        "VXUS"
+      ],
+      "suggested_action": "Increase VXUS position to represent 25% of total equity exposure (approximately 17-18% of total portfolio, or ~$24k-25k). Fund this by directing new contributions to VXUS over the next 6-12 months, or accelerate by reallocating a portion of VTI or proceeds from tech stock rebalancing.",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-10% annually",
+      "time_horizon": "Long-term (15-25 years)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-06T23:23:28.222577",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_c1b0d4ed",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Advantaged Retirement Contributions",
+      "summary": "Increase 401(k) contributions to the $23,000 maximum and consider backdoor Roth IRA contributions to optimize tax efficiency for your $2.5M retirement goal.",
+      "detailed_rationale": "(1) Signal: Your $2.5M retirement goal in 25 years requires approximately $60k-70k annual savings at 7% returns (or $40k-50k at 8%). With $175k income and $9,500 monthly expenses ($114k annually), you have ~$61k gross annual capacity before taxes. Current portfolio data doesn't specify retirement account utilization rates. (2) Profile alignment: The knowledge base emphasizes that 'tax-advantaged accounts provide tax benefits that accelerate wealth building' and '401(k) limits are $23,000 ($30,500 if 50+).' At 40 years old with stable income and intermediate experience, you should maximize these vehicles. Your high-priority retirement goal and 25-year horizon mean tax-deferred growth compounds significantly. With employer matching (knowledge base notes 'immediate 100% return'), you're potentially leaving money on the table. (3) Evidence: At $175k income (likely 24% federal bracket), maximizing pre-tax 401(k) saves $5,520 annually in taxes versus taxable investing. Over 25 years at 7% returns, tax-deferred growth adds approximately $140k-180k versus taxable accounts. Backdoor Roth IRA (if eligible) provides tax-free retirement withdrawals. The knowledge base specifically states: 'Always contribute enough to capture the full employer match' and 'maximize contributions to 401(k)s, IRAs, and Roth accounts.' (4) Trade-offs: Higher 401(k) contributions reduce current take-home pay and liquidity, potentially limiting 529 contributions. However, with medium liquidity needs and an emergency fund, prioritizing tax-advantaged retirement accounts first, then 529s with remaining capacity, optimizes total wealth accumulation across both goals.",
+      "tickers": [],
+      "suggested_action": "Verify current 401(k) contribution rate and increase to reach $23,000 annual maximum (~13% of gross income). If employer offers Roth 401(k), consider 50/50 split between traditional and Roth for tax diversification. Execute backdoor Roth IRA contributions ($7,000 annually) if income permits. After maximizing retirement accounts, direct remaining savings capacity (~$18k-20k annually) to 529 plans.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Tax savings of 24-32% on contributions, plus 6-8% investment returns",
+      "time_horizon": "25 years to retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-06T23:23:28.222577",
+      "composite_score": 0.0
+    }
+  ],
+  "rec_count": 4
+}

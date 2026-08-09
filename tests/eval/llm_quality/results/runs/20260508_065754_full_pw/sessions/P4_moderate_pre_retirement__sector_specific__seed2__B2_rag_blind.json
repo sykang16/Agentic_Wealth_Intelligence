@@ -1,0 +1,167 @@
+{
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "sector_specific",
+  "query": "Are there particular sectors I should reduce as I approach retirement, and which ones should I keep for income generation?",
+  "seed": 2,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_43b0889a",
+      "category": "rebalance",
+      "title": "Reduce Technology Exposure and Shift to Dividend-Focused Sectors",
+      "summary": "As you enter the retirement glide path, reduce your 18% Technology allocation by 8-10% and reallocate to utilities and consumer staples dividend aristocrats for stable income generation.",
+      "detailed_rationale": "Signal: Your 18% Technology sector allocation is appropriate for accumulation but poses excess volatility risk as you approach retirement in 10 years. At age 55 with a medium investment horizon and moderate risk tolerance (loss comfort: 5/10), you need to begin transitioning from growth-oriented sectors to income-generating, lower-volatility holdings. Evidence from your portfolio shows Technology alongside Healthcare (22%) and Financials (18%) dominate your equity exposure. While your current Consumer Staples allocation (10%) via PG provides some stability, it's insufficient for your retirement income goal of $80-100k annually from a $1.8M target portfolio (4.4-5.5% withdrawal rate). Step-by-step alignment: (1) Technology stocks historically exhibit 20-25% annual volatility versus 12-15% for utilities and consumer staples, (2) Your moderate risk profile and approaching retirement favor capital preservation over maximum growth, (3) Dividend-paying sectors (utilities, telecom, consumer staples) typically yield 3-4% with lower drawdown risk during market corrections, (4) This rebalancing maintains your growth potential through remaining diversified equity exposure while building your income foundation. Trade-off: You'll sacrifice some long-term capital appreciation potential that Technology offers, but this is appropriate given your 10-year glide path requirement. The reduced volatility protects accumulated wealth while dividend income provides cash flow optionality.",
+      "tickers": [
+        "VPU",
+        "XLU",
+        "VIG",
+        "PG"
+      ],
+      "suggested_action": "Reduce Technology allocation from 18% to 10% (approximately $68,000). Allocate $40,000 to utilities ETF (VPU or XLU) and $28,000 to dividend growth ETF (VIG) or add to existing PG position. Execute over 2-3 months to dollar-cost-average.",
+      "suggested_allocation_pct": 8.0,
+      "risk_level": "low",
+      "expected_return_range": "6-8% annually with 3-4% dividend yield",
+      "time_horizon": "Begin transition now through age 65",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:11:40.450468",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_cfdf5fad",
+      "category": "risk_reduction",
+      "title": "Decrease Healthcare Overweight to Reduce Sector Concentration Risk",
+      "summary": "Your 22% Healthcare allocation creates concentration risk. Reduce to 15% and reallocate to diversified income-oriented investments to improve portfolio resilience.",
+      "detailed_rationale": "Signal: Healthcare represents 22% of your portfolio\u2014significantly overweight versus typical moderate-risk retirement-focused allocations (10-12%). While JNJ and UNH are quality holdings with defensive characteristics, this concentration exposes you to sector-specific risks including regulatory changes, Medicare/Medicaid policy shifts, and pharmaceutical pricing pressures. At age 55 with advanced investment experience, you understand that concentration risk increases portfolio volatility without proportional return compensation. Step-by-step reasoning: (1) Your current Healthcare exposure exceeds the sector's 13-14% weight in broad market indices like VTI, creating uncompensated specific risk, (2) As an operations director with stable income ($220k) but approaching retirement, you need portfolio resilience more than sector bets, (3) Your retirement goal requires consistent 6-8% returns with controlled drawdowns\u2014overconcentration threatens this by magnifying sector-specific shocks, (4) JNJ faces ongoing litigation risks while UNH confronts regulatory uncertainty, though both remain fundamentally sound. Supporting evidence: Diversified portfolios with sector weights near market-cap allocations historically show 15-20% lower volatility during market stress. Trade-off: Healthcare's defensive characteristics and aging demographics thesis remain compelling, so this isn't about exiting the sector but right-sizing exposure. You'll retain meaningful Healthcare allocation while improving overall portfolio balance.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "SCHD",
+        "DGRO"
+      ],
+      "suggested_action": "Reduce Healthcare from 22% to 15% by trimming approximately $60,000. Sell 30-40% of either JNJ or UNH position (whichever has larger unrealized gains for tax efficiency). Redeploy into diversified dividend ETFs like SCHD or DGRO that provide multi-sector income exposure.",
+      "suggested_allocation_pct": -7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-9% annually",
+      "time_horizon": "Execute within 6 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:11:40.450468",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_d87be0fa",
+      "category": "income_generation",
+      "title": "Establish Dedicated Income Sleeve with Bond Ladder and Preferred Stock Allocation",
+      "summary": "Create a dedicated 10% income-generation allocation using short-to-intermediate bond ladders and preferred stock ETFs to establish predictable cash flow ahead of retirement.",
+      "detailed_rationale": "Signal: Your retirement goal explicitly targets $80-100k annual income from a $1.8M portfolio. Currently, your 35% bond allocation (BND) and 5% cash provide stability but lack optimized income generation structure. With 10 years until retirement and medium liquidity needs, you should begin constructing a systematic income stream now. Step-by-step alignment: (1) Your current BND holding provides ~4-4.5% yield but lacks the structural predictability of a bond ladder that can be designed to mature as you approach retirement, (2) At age 55 with moderate risk tolerance and stable income, you can afford to dedicate a portfolio sleeve specifically to income without compromising growth, (3) Preferred stocks typically yield 5-6% with less volatility than common equity while offering tax-advantaged qualified dividend treatment in many cases, (4) This establishes the income foundation required for your $80-100k withdrawal goal (representing 4.4-5.5% of target portfolio). Evidence from retirement income research shows that dedicated income sleeves reduce sequence-of-returns risk during retirement's early years by minimizing the need to sell equity during market downturns. Your advanced investment experience positions you to understand and implement this more sophisticated structure. Trade-off: The 10% allocation to this income sleeve may slightly reduce total return potential versus full equity exposure, but the risk-adjusted return profile improves substantially. Preferred stocks carry interest rate sensitivity, though less than traditional bonds.",
+      "tickers": [
+        "PFF",
+        "PFFD",
+        "VCIT",
+        "VGIT"
+      ],
+      "suggested_action": "Allocate 10% ($85,000) to income sleeve: $50,000 in preferred stock ETFs (PFF or PFFD for 5-6% yield) and $35,000 in intermediate corporate bond ETF (VCIT) or government bond ETF (VGIT) for 4-5% yield. Consider establishing a 3-5 year bond ladder within this allocation using individual bonds or target-maturity bond ETFs.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "low",
+      "expected_return_range": "4-6% annually with current income generation",
+      "time_horizon": "Establish over next 12 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:11:40.450468",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_eb3a2197",
+      "category": "diversify",
+      "title": "Add Real Asset Exposure for Inflation Protection During Retirement Glide Path",
+      "summary": "Allocate 5-7% to real assets (REITs, commodities, inflation-protected securities) to hedge inflation risk and diversify income sources as you transition toward retirement.",
+      "detailed_rationale": "Signal: Your portfolio currently lacks real asset exposure\u2014a gap that creates inflation vulnerability particularly relevant for retirement income planning. With monthly expenses of $11,000 ($132k annually), inflation erosion represents a significant long-term risk to purchasing power over a potentially 30+ year retirement. Your current 8% Energy allocation provides some inflation correlation but lacks the comprehensive real asset diversification needed. Step-by-step reasoning: (1) At age 55 with a 10-year glide path, you're in the optimal window to add inflation hedges before retirement\u2014early enough to benefit from growth but late enough that inflation protection becomes critical, (2) Your moderate risk tolerance and advanced experience allow you to understand real assets' role in portfolio construction beyond simple stock/bond allocation, (3) REITs provide 3-5% income yields while offering inflation-adjusted rent growth; TIPS provide direct inflation linkage; commodity exposure offers portfolio diversification during inflation spikes, (4) Your retirement income goal of $80-100k needs protection from inflation erosion\u2014a 3% inflation rate would reduce purchasing power by 26% over 10 years without hedging. Historical evidence shows real assets typically exhibit 0.3-0.5 correlation with traditional stock/bond portfolios, providing meaningful diversification. During the 2021-2023 inflation surge, portfolios with 10-15% real asset allocation experienced 30-40% less purchasing power erosion. Trade-off: Real assets can be volatile in the short term and may underperform during low-inflation, strong equity market environments. However, this is acceptable insurance against the retirement income erosion you cannot afford.",
+      "tickers": [
+        "VNQ",
+        "SCHH",
+        "VTIP",
+        "DBC"
+      ],
+      "suggested_action": "Allocate 5-7% ($42,500-$59,500) to real assets: 3-4% to REIT ETFs (VNQ or SCHH) for income and real estate exposure, 2% to TIPS (VTIP) for direct inflation protection, and 1% to broad commodity exposure (DBC) for diversification. Source this from your current 5% cash allocation and potentially trim 1-2% from bond allocation.",
+      "suggested_allocation_pct": 6.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-8% annually with inflation protection",
+      "time_horizon": "Establish within 6-12 months",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T14:11:40.450468",
+      "composite_score": 0.0
+    }
+  ]
+}

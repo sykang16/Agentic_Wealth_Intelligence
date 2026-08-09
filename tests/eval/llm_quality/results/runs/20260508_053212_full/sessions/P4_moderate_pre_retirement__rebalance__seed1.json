@@ -1,0 +1,194 @@
+{
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed1",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "rebalance",
+  "query": "Walk me through a year-by-year glide path that gradually shifts my allocation over the next decade.",
+  "seed": 1,
+  "context": {
+    "portfolio_context": "## Portfolio Snapshot\n- Total Assets: $850,000\n- Total Liabilities: $95,000\n- Net Worth: $755,000\n\n### Allocation by Asset Type\n- etf: 40.0%\n- stock: 15.0%\n- bond: 35.0%\n- mutual_fund: 5.0%\n- cash: 5.0%\n\n### Allocation by Sector\n- Healthcare: 22.0%\n- Financials: 18.0%\n- Technology: 18.0%\n- Industrials: 12.0%\n- Consumer Staples: 10.0%\n- Energy: 8.0%\n- Other: 12.0%\n\n### Holdings (tickers)\nVTI, BND, VXUS, JNJ, UNH, JPM, BRK.B, PG",
+    "investment_profile_context": "## Investment Profile\n- Age: 55\n- Occupation: Operations director\n- Annual Income: $220,000\n- Monthly Expenses: $11,000\n- Risk Tolerance: moderate\n- Loss Comfort (1-10): 5\n- Investment Horizon: medium\n- Liquidity Needs: medium\n- Income Stability: stable\n- Has Emergency Fund: True\n- Debt Level: low\n- Investment Experience: advanced\n- ESG Preference: False\n- Goals:\n  - retirement (high priority, target $1,800,000): Retire at 65 with $80-100k/yr income; begin glide-path now\n  - wealth (low priority, target $500,000): Legacy/wealth transfer to heirs",
+    "rag_context": "[investment_guide] Wealth Intelligence Research\n# Retirement Planning: Strategies for Long-Term Wealth Building\n\n\n## Starting Early\nThe power of compound interest makes starting early crucial. Even small contributions in your 20s and 30s can grow significantly over decades. Time in the market often matters more than timing the market.\n\n## Tax-Advantaged Accounts\nMaximize contributions to 401(k)s, IRAs, and Roth accounts. These vehicles provide tax benefits that accelerate wealth building. For 2024, 401(k) limits are $23,000 ($30,500 if 50+).\n\n## Employer Matching\nAlways contribute enough to capture the full employer match in your 401(k). This is essentially free money with an immediate 100% return on your contribution.\n\n## Target-Date Funds\nThese funds automatically adjust asset allocation as you approach retirement, becoming more conservative over time. They offer a simple, hands-off approach to retirement investing.\n\n## Social Security Planning\nDelaying Social Security benefits until age 70 can increase monthly payments by up to 77% compared to claiming at 62. Consider this in your overall retirement income strategy.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.\n\n---\n\n[investment_guide] Wealth Intelligence Research\n# Asset Allocation: Building a Diversified Portfolio\n\n\n## What is Asset Allocation?\nAsset allocation is the process of dividing investments among different asset categories, such as stocks, bonds, and cash. This strategy helps manage risk and optimize returns based on your investment goals, time horizon, and risk tolerance.\n\n## The Importance of Diversification\nDiversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation. When one asset class underperforms, others may compensate, helping to smooth overall returns.\n\n## Strategic vs Tactical Allocation\nStrategic allocation sets long-term targets based on your investment profile. Tactical allocation makes short-term adjustments to capitalize on market opportunities while staying within risk parameters.\n\n## Common Allocation Models\nConservative portfolios typically hold 20-40% stocks, 50-70% bonds. Moderate portfolios balance around 50-60% stocks, 30-40% bonds. Aggressive portfolios may hold 80-90% stocks with minimal bonds.\n\n## Rebalancing Your Portfolio\nRegular rebalancing ensures your portfolio stays aligned with target allocations. Consider rebalancing when allocations drift more than 5% from targets, or at least annually.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.",
+    "data_sources_used": [
+      "portfolio",
+      "investment_profile",
+      "rag_knowledge_base"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec_edeafb87",
+      "category": "rebalance",
+      "title": "Initiate Retirement Glide Path: Year 1-3 Tactical Rebalancing",
+      "summary": "Begin de-risking by reducing equity exposure from 55% to 50% over the next 3 years, shifting into intermediate-term bonds and increasing cash reserves to 7%.",
+      "detailed_rationale": "Signal: At age 55 with a 10-year retirement horizon, your current 55% equity allocation (40% ETF + 15% stock) is appropriate for moderate risk but requires immediate glide path initiation. Step-by-step reasoning: (1) Your investment profile indicates 'medium' investment horizon with retirement as high-priority goal targeting $1.8M by age 65. Current net worth of $755K means you need approximately 9% annual growth, which a 50-55% equity allocation can support while beginning de-risking. (2) The knowledge base emphasizes that target-date funds 'automatically adjust asset allocation as you approach retirement, becoming more conservative over time'\u2014your custom glide path should mirror this principle. For years 1-3 (ages 55-57), reducing equity by 5 percentage points provides downside protection while maintaining growth potential aligned with moderate risk tolerance (loss comfort 5/10). (3) Your current bond allocation at 35% is already conservative for age 55; increasing to 38% and cash from 5% to 7% creates a buffer for required minimum distributions and near-term liquidity needs rated as 'medium'. (4) Trade-off: Reducing equity exposure may limit upside potential in strong bull markets, potentially requiring an additional 1-2 years of work if markets significantly outperform. However, this protects against sequence-of-returns risk in the critical decade before retirement.",
+      "tickers": [
+        "BND",
+        "VGIT",
+        "VMBS"
+      ],
+      "suggested_action": "Over 36 months, systematically reduce VTI and VXUS positions by selling $42,500 total ($14,167 annually). Allocate $25,500 to intermediate-term bond ETFs (VGIT for Treasury exposure, VMBS for mortgage-backed securities providing higher yield), and $17,000 to high-yield savings or money market funds for enhanced liquidity.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5% annually on reallocated portion",
+      "time_horizon": "3 years (ages 55-57)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:23:11.041573",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_f1bf0716",
+      "category": "diversify",
+      "title": "Address Sector Concentration: Reduce Healthcare Overweight",
+      "summary": "Healthcare represents 22% of portfolio (via JNJ and UNH individual holdings), creating concentration risk. Reduce to 15% and reallocate to underweight sectors: utilities, real estate, and consumer discretionary.",
+      "detailed_rationale": "Signal: Your sector allocation shows Healthcare at 22%\u2014significantly above the S&P 500 healthcare weighting of approximately 13%. With two large individual healthcare holdings (JNJ, UNH) representing approximately 10-12% of total portfolio based on your 15% individual stock allocation, you face both sector and single-stock concentration risk. Step-by-step reasoning: (1) For a moderate-risk investor with advanced experience, the knowledge base emphasizes 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Your 22% healthcare weighting creates vulnerability to sector-specific risks like regulatory changes, drug pricing legislation, or Medicare reimbursement cuts. (2) As an operations director at age 55, you likely cannot easily replace income if healthcare sector underperforms during your final working decade. The knowledge base recommends 'rebalancing when allocations drift more than 5% from targets'\u2014your 9-point healthcare overweight qualifies. (3) You're underweight in defensive income-generating sectors critical for retirement: utilities (0% vs ~3% S&P weight), real estate (0% vs ~3%), and consumer discretionary (appears absent from your holdings). These sectors provide dividend income and inflation protection. (4) Main trade-off: JNJ and UNH are quality holdings with strong fundamentals and dividend growth. Reducing these positions means giving up known quality for broader diversification. However, maintaining concentration contradicts your moderate risk profile and retirement proximity.",
+      "tickers": [
+        "VNQ",
+        "VPU",
+        "XLY"
+      ],
+      "suggested_action": "Trim JNJ and UNH positions by $59,500 total (reducing healthcare from 22% to 15%). Reallocate: $25,000 to VNQ (Vanguard Real Estate ETF) for REIT exposure and income, $20,000 to VPU (Vanguard Utilities ETF) for defensive dividend growth, and $14,500 to XLY (Consumer Discretionary Select Sector SPDR) for economic growth participation. Execute over 2 quarters to capture tax-loss harvesting opportunities if available.",
+      "suggested_allocation_pct": 7.0,
+      "risk_level": "low",
+      "expected_return_range": "6-9% annually with enhanced dividend yield 3-4%",
+      "time_horizon": "Execute over 6 months, hold through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:23:11.041573",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_e2c7d1b4",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Deferred Catch-Up Contributions Years 55-65",
+      "summary": "As a 55-year-old earning $220K annually, maximize 401(k) catch-up contributions ($30,500 annually) and consider backdoor Roth conversions to optimize tax efficiency during high-earning years before retirement.",
+      "detailed_rationale": "Signal: Your annual income of $220K with monthly expenses of $11K ($132K annually) creates $88K pre-tax surplus\u2014yet your profile shows advanced investment experience without explicit mention of maxing tax-advantaged vehicles. At age 55+, you qualify for catch-up contributions. Step-by-step reasoning: (1) The knowledge base explicitly states: 'For 2024, 401(k) limits are $23,000 ($30,500 if 50+)' and emphasizes 'always contribute enough to capture the full employer match... essentially free money with an immediate 100% return.' With 10 years until retirement, you have a finite window for tax-deferred compounding. (2) Your moderate risk tolerance and $1.8M retirement target require disciplined savings. Contributing the full $30,500 annually for 10 years at 7% average return yields $420K+ in retirement accounts, plus employer match. This represents 23-25% of your retirement goal from systematic contributions alone. (3) Your stable income, low debt, and existing emergency fund mean you can afford maximum contributions without liquidity stress. The knowledge base notes 'tax-advantaged accounts provide tax benefits that accelerate wealth building'\u2014at your $220K income bracket (likely 24-32% federal), every $30,500 contribution saves $7,320-$9,760 annually in taxes. (4) Main trade-off: Maximum 401(k) contributions reduce current disposable income and increase retirement account concentration. However, given your secondary 'wealth transfer' goal is low priority and you have taxable accounts for pre-retirement needs, this optimizes for your high-priority retirement goal. Consider Roth conversions in lower-income years 65-70 before Social Security and RMDs begin.",
+      "tickers": [],
+      "suggested_action": "Immediately increase 401(k) contributions to $30,500 annually (catch-up eligible). If your plan allows, direct 70% to target-date fund near 2035 (automatic glide path) and 30% to stable value/bond options. After maxing 401(k), contribute $7,000 to backdoor Roth IRA annually (you exceed income limits for direct Roth contributions). This creates $37,500 annual tax-advantaged savings. Work with your plan administrator to confirm employer match and vesting schedule.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "6-8% annually with immediate 24-32% tax savings",
+      "time_horizon": "10 years (ages 55-65)",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:23:11.041573",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_9af4fd87",
+      "category": "income_generation",
+      "title": "Years 7-10 Glide Path: Transition to Income-Focused Portfolio",
+      "summary": "For ages 62-65, complete glide path by reducing equity to 35-40%, increasing bonds to 50%, and allocating 10% to dividend aristocrats and REITs to generate 3-4% portfolio yield for retirement income.",
+      "detailed_rationale": "Signal: Your retirement goal specifies needing '$80-100K/yr income' beginning at age 65. With projected portfolio value of $1.5-1.8M (assuming current trajectory), a 4% withdrawal rate yields $60-72K\u2014below your target. You need income-generating assets, not just total return. Step-by-step reasoning: (1) Years 7-10 of your glide path (ages 62-65) represent the critical transition from accumulation to income generation. The knowledge base confirms 'target-date funds automatically adjust asset allocation as you approach retirement, becoming more conservative over time.' Your custom path should reach 35-40% equity by age 65, down from current 55%, matching conservative-to-moderate allocation models. (2) Your moderate risk tolerance and stable income history suggest you'll be uncomfortable with significant portfolio volatility in early retirement when sequence-of-returns risk is highest. The knowledge base notes 'conservative portfolios typically hold 20-40% stocks, 50-70% bonds'\u2014by age 65, you should trend toward this range. (3) Current holdings (JNJ, PG, BRK.B) provide some dividend income, but your portfolio yield is likely under 2%. To bridge the income gap, you need dedicated dividend growth and REIT exposure generating 3-4% yields. This allows sustainable withdrawals without depleting principal as quickly. (4) Main trade-off: Transitioning to income focus in years 7-10 means accepting lower total return potential if equity markets surge in your early 60s. You'll also increase interest rate sensitivity via higher bond allocation. However, given your high-priority retirement goal and medium liquidity needs, predictable income and capital preservation outweigh maximum growth at this life stage.",
+      "tickers": [
+        "NOBL",
+        "SCHD",
+        "VYM",
+        "BND",
+        "VCIT"
+      ],
+      "suggested_action": "Beginning year 7 (age 62), execute final glide path phase over 36 months: (1) Reduce remaining individual stocks and growth ETFs to achieve 35-40% final equity allocation, (2) Increase BND and add VCIT (intermediate corporate bonds) to reach 50% fixed income, (3) Allocate 10% to dividend-focused equity ETFs: NOBL (Dividend Aristocrats), SCHD (high-quality dividends), or VYM (high dividend yield), targeting 3-4% portfolio yield. (4) Maintain 10% cash/money market for first 2 years of retirement expenses, reducing sequence-of-returns risk. Review annually with financial advisor to adjust for market conditions and Social Security claiming strategy.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "4-6% total return with 3-4% dividend yield",
+      "time_horizon": "Years 7-10 (ages 62-65), then hold through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:23:11.041573",
+      "composite_score": 0.0
+    }
+  ],
+  "rec_count": 4
+}

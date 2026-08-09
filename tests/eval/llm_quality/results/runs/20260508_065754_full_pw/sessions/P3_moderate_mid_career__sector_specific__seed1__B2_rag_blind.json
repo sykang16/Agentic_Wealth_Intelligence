@@ -1,0 +1,159 @@
+{
+  "session_id": "P3_moderate_mid_career__sector_specific__seed1",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "sector_specific",
+  "query": "Should I add international or emerging-markets exposure, and if so what proportion is reasonable?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_8d11d497",
+      "category": "diversify",
+      "title": "Increase International Developed Markets Exposure",
+      "summary": "Increase VXUS allocation from current levels to 25-30% of equity portfolio to enhance geographic diversification and reduce US concentration risk.",
+      "detailed_rationale": "Signal: Your portfolio shows heavy US concentration with 70% of equity exposure in US-domiciled assets (VTI, AAPL, MSFT, NVDA, GOOGL). Your existing VXUS holding represents only ~15% of total portfolio. Step-by-step reasoning: (1) For a moderate risk investor with a 25-year retirement horizon and 10-year education goal, international diversification is critical to reduce single-country risk. The US represents only ~60% of global market cap, yet you're ~85% US-exposed. (2) Your risk tolerance (moderate, loss comfort 6/10) and stable income ($175K with low debt) support increasing international exposure without exceeding risk parameters. Historical data shows international stocks have low correlation with US markets (0.7-0.8), providing meaningful diversification benefits. (3) With $320K total assets and 50% in ETFs, your equity allocation is approximately $224K. Currently VXUS likely represents $48-50K. Increasing to 25-30% of equity would mean $56-67K in international developed markets - an incremental $8-17K addition. (4) Trade-offs: International stocks have underperformed US markets over the past decade, and currency fluctuations add volatility. However, valuations in international developed markets (Europe, Japan, Australia) are more attractive than US markets currently, with lower P/E ratios. This provides better risk-adjusted return potential over your long time horizon.",
+      "tickers": [
+        "VXUS"
+      ],
+      "suggested_action": "Incrementally add $10,000-15,000 to VXUS over the next 3-6 months through dollar-cost averaging. This would bring international developed market exposure to approximately 25% of your equity allocation.",
+      "suggested_allocation_pct": 25.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "10-25 years aligned with education and retirement goals",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:18:36.073890",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_aa847956",
+      "category": "diversify",
+      "title": "Add Targeted Emerging Markets Allocation",
+      "summary": "Introduce 8-10% emerging markets exposure through VWO or IEMG to capture growth potential in developing economies while maintaining moderate risk profile.",
+      "detailed_rationale": "Signal: Your portfolio has zero emerging markets exposure, creating a gap in global diversification. Emerging markets represent ~25% of global GDP but likely 0% of your portfolio. Step-by-step reasoning: (1) Your age (40), long time horizon (25 years to retirement), and intermediate investment experience support a measured emerging markets position. While EM carries higher volatility, your stable income, emergency fund, and low debt provide the financial cushion to weather short-term fluctuations. (2) Your moderate risk tolerance suggests limiting EM to 8-10% of total equity (not the 10-15% some aggressive portfolios hold). This translates to approximately $18-22K of your $224K equity allocation. At this level, you gain exposure to faster-growing economies (India, China, Brazil) without taking excessive country-specific or currency risk. (3) For someone saving for children's education in 10 years plus retirement in 25, emerging markets offer asymmetric upside - if these economies deliver on growth potential, returns could significantly exceed developed markets. If they underperform, the limited allocation (8-10%) won't derail your goals. (4) Key risks: EM stocks are 1.5x more volatile than US stocks, face political instability, less regulatory oversight, and currency depreciation risk. However, current valuations are attractive (EM P/E ratios ~12x vs US ~20x), and demographic trends favor long-term growth. Consider VWO (Vanguard) or IEMG (iShares) for broad, diversified exposure.",
+      "tickers": [
+        "VWO",
+        "IEMG"
+      ],
+      "suggested_action": "Initiate a position of $15,000-18,000 in VWO or IEMG, representing 8-10% of equity allocation. Deploy over 6-12 months to average entry points given EM volatility.",
+      "suggested_allocation_pct": 9.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-12% annually",
+      "time_horizon": "15-25 years, primarily for retirement goal",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:18:36.073890",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_5a6d52b9",
+      "category": "rebalance",
+      "title": "Reduce Technology Sector Concentration",
+      "summary": "Trim individual tech holdings (AAPL, MSFT, NVDA, GOOGL) to reduce 35% technology exposure down to 25-28%, using proceeds to fund international diversification.",
+      "detailed_rationale": "Signal: Technology represents 35% of your portfolio, creating significant sector concentration risk that exceeds prudent diversification for a moderate risk investor. The S&P 500's tech weighting is ~29%, and you're 6 percentage points overweight. Step-by-step reasoning: (1) Your portfolio holds both VTI (which already includes these tech giants) and individual positions in AAPL, MSFT, NVDA, GOOGL - creating double exposure. This overlap means a tech sector correction would disproportionately impact your $140K net worth and jeopardize education funding timelines. (2) With a moderate risk profile and loss comfort of 6/10, a 20-30% tech sector decline would exceed your stated comfort level. The 2022 tech correction saw similar names drop 30-50%, which on 35% portfolio allocation would mean 10-17% total portfolio loss. At moderate risk tolerance, your maximum acceptable drawdown should be closer to 15-20% total portfolio. (3) You can reduce concentration while maintaining quality exposure through VTI's ~29% tech weighting. Selling $15-20K of individual tech positions (approximately 25-30% of your individual stock holdings) would drop tech exposure to 26-28% while providing capital for international diversification recommended above. (4) Trade-off: These are exceptional companies with strong fundamentals. However, at current valuations (many trading at 25-35x earnings), downside risk outweighs the marginal benefit of overweight positioning. You'll maintain exposure through VTI, just at market-weight rather than concentrated levels.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "suggested_action": "Reduce individual tech stock positions by $15,000-20,000 total across AAPL, MSFT, NVDA, and GOOGL. Prioritize trimming positions with largest gains for tax-loss harvesting opportunities or those most overweight. Use proceeds to fund VXUS and emerging markets positions.",
+      "suggested_allocation_pct": -6.0,
+      "risk_level": "low",
+      "expected_return_range": "N/A - risk reduction move",
+      "time_horizon": "Immediate rebalancing",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:18:36.073890",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_617c7b2b",
+      "category": "hold",
+      "title": "Maintain Core Bond Allocation as Stability Anchor",
+      "summary": "Maintain BND at current 30% allocation to preserve portfolio stability appropriate for moderate risk profile and near-term education funding needs.",
+      "detailed_rationale": "Signal: Your 30% bond allocation through BND is well-calibrated for your situation and should not be reduced when adding international equity exposure. Step-by-step reasoning: (1) With two high-priority goals - education funding in 10 years ($200K target) and retirement in 25 years ($2.5M target) - you need portfolio stability for the nearer-term education goal. A 30% bond allocation provides downside protection and reduces overall portfolio volatility, appropriate for a 40-year-old moderate risk investor. (2) Your loss comfort level of 6/10 suggests you can handle moderate volatility but not aggressive drawdowns. A 70/30 stock/bond split historically produces ~60% of stock market returns with only 75% of the volatility - aligning well with moderate risk tolerance. This allocation has weathered corrections with maximum drawdowns of 25-30% versus 50%+ for all-equity portfolios. (3) As you add international and emerging markets exposure (which increases geographic but also volatility exposure), maintaining the 30% bond cushion becomes even more important. BND provides exposure to investment-grade US bonds with duration around 7 years and current yield ~4.5%, offering both income and negative correlation to equities during market stress. (4) Context: Some investors your age go 80-90% equities, but that's aggressive risk tolerance. Your medium liquidity needs, $9,500 monthly expenses, and specific 10-year education goal warrant this more balanced approach. Reassess when children are through college and retirement becomes the sole focus in ~12 years.",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "Hold current BND position. As you add international equity exposure, maintain 70/30 equity/bond ratio overall. When rebalancing quarterly, ensure bond allocation stays between 28-32% of portfolio.",
+      "suggested_allocation_pct": 30.0,
+      "risk_level": "low",
+      "expected_return_range": "4-5% annually",
+      "time_horizon": "Ongoing through education funding goal",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T12:18:36.073890",
+      "composite_score": 0.0
+    }
+  ]
+}

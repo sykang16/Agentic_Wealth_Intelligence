@@ -1,0 +1,185 @@
+{
+  "session_id": "P5_aggressive_young_professional__open_ended__seed2",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "open_ended",
+  "query": "I'm aiming for FIRE in about 15 years. Am I on the right track with my current allocation?",
+  "seed": 2,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_702e2461",
+      "category": "diversify",
+      "title": "Reduce Technology Concentration Risk",
+      "summary": "Your portfolio is 65% concentrated in Technology sector, creating significant concentration risk that could jeopardize your 15-year FIRE goal if tech experiences a prolonged downturn.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your portfolio shows 65% Technology sector concentration (QQQ, NVDA, TSLA, GOOGL, META, AMZN combined), which is 3-4x higher than broad market tech weighting (~15-20% in VTI). (2) PROFILE ALIGNMENT: While your aggressive risk tolerance (loss comfort 9/10) and long 15-year horizon can handle volatility, even aggressive portfolios recommend 80-90% stocks with sector diversification per the knowledge base. Concentration risk is different from market risk - it's non-compensated risk that doesn't improve returns. (3) SUPPORTING EVIDENCE: The asset allocation guide specifically states 'Diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation.' Your current holdings move in high correlation during tech sell-offs. For FIRE planning, sequence-of-returns risk in the final 5 years before retirement is critical - a 2022-style tech correction near year 12-13 could delay your timeline significantly. (4) TRADE-OFFS: Diversifying into other sectors may reduce short-term upside if tech continues outperforming, but it protects your $2.5M FIRE target from sector-specific risks (regulatory changes, interest rate sensitivity, valuation compression). With $195K income and stable employment, you can afford tactical rebalancing.",
+      "tickers": [
+        "VNQ",
+        "XLV",
+        "XLE",
+        "VTI"
+      ],
+      "suggested_action": "Reduce tech exposure from 65% to 45% over next 3-6 months. Sell 20% of QQQ position and redirect into: (1) VNQ (Real Estate ETF) for 8% allocation - adds inflation hedge and income, (2) Healthcare sector ETF (XLV) for 7% allocation - defensive growth sector with aging demographics tailwind, (3) Energy sector exposure (XLE) for 5% allocation - portfolio inflation protection. Increase VTI holding to capture broader market diversification.",
+      "suggested_allocation_pct": 20.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "3-6 months for rebalancing, 15-year benefit",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:34:20.189969",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_773e5b0d",
+      "category": "tax_optimization",
+      "title": "Maximize Tax-Advantaged Retirement Accounts",
+      "summary": "You're leaving significant tax-advantaged growth on the table. With $195K income and FIRE goals, maxing 401(k) and backdoor Roth IRA could accelerate your timeline by 1-2 years through tax savings.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your $180K total assets with $195K income suggests you're not maximizing tax-advantaged accounts. At your income level and 30 years old, you should have $200K+ in retirement accounts if maximizing contributions. (2) PROFILE ALIGNMENT: The retirement planning guide explicitly states '401(k) limits are $23,000 ($30,500 if 50+)' and 'Always contribute enough to capture the full employer match.' For FIRE specifically, tax-advantaged accounts are crucial because: (a) immediate tax savings at 24-32% marginal rate = more capital to invest, (b) tax-free growth compounds faster, (c) Roth conversion ladder strategy enables penalty-free early access before 59.5. (3) SUPPORTING EVIDENCE: Contributing $23K to 401(k) + $7K backdoor Roth IRA = $30K annually. At your 28% effective tax rate, that's ~$6,500/year tax savings to reinvest. Over 15 years at 9% returns, maxing these accounts versus taxable adds approximately $180K to final portfolio value - that's 7% of your $2.5M target. Your stable $195K income and low $5,500 monthly expenses ($66K/year) leaves $129K pre-tax, making $30K retirement contributions highly feasible. (4) TRADE-OFFS: Reduces immediate liquidity, though you stated low liquidity needs. 401(k) funds require Roth conversion ladder planning for pre-59.5 access, but this is standard FIRE strategy. Your emergency fund is already established per profile.",
+      "tickers": [
+        "401K",
+        "ROTH_IRA"
+      ],
+      "suggested_action": "Immediately increase 401(k) contribution to max $23,000 annually (~$1,917/month). Open and fund backdoor Roth IRA for $7,000 annually. With $195K income minus $66K expenses = $129K available, allocating $30K (23%) to tax-advantaged accounts is sustainable. Within tax-advantaged accounts, maintain aggressive 90% stock allocation (VTI, QQQ mix) to maximize long-term growth. Keep high-turnover or tax-inefficient holdings (like individual stocks) in tax-advantaged accounts when possible.",
+      "suggested_allocation_pct": 16.7,
+      "risk_level": "low",
+      "expected_return_range": "Tax alpha of 2-3% annually plus market returns",
+      "time_horizon": "Immediate implementation, 15-year compounding benefit",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:34:20.189969",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_9dc6f841",
+      "category": "risk_reduction",
+      "title": "Reduce Crypto Allocation to Match Risk-Adjusted Profile",
+      "summary": "5% Bitcoin allocation represents asymmetric downside risk that's disproportionate to potential FIRE goal contribution. Consider reducing to 2-3% to improve risk-adjusted returns.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: BTC represents $9,000 (5%) of your $180K portfolio. While you have aggressive risk tolerance, crypto's 50-80% drawdown potential and lack of productive cash flows differs from equity volatility. Your loss comfort of 9/10 applies to market volatility, but crypto introduces unique risks: regulatory uncertainty, exchange/custody risk, no intrinsic value anchor. (2) PROFILE ALIGNMENT: For FIRE goals specifically, the key metric is Sharpe ratio (risk-adjusted returns), not just absolute returns. Your knowledge base states 'Diversification reduces portfolio volatility by spreading investments' and aggressive portfolios should be 80-90% stocks with 'minimal bonds' - crypto isn't mentioned in standard aggressive allocations because its volatility doesn't provide the diversification benefit of uncorrelated assets. Your $2.5M target requires 18.7% CAGR from current $162K net worth - achievable with diversified equity portfolio (historical 10-11%) plus your $50-60K annual savings capacity. You don't need crypto's risk to hit this target. (3) SUPPORTING EVIDENCE: Academic research shows crypto correlation with equities has increased to 0.6+ during stress periods (2022), reducing diversification value. A 5% allocation experiencing 70% drawdown = 3.5% portfolio impact, which could represent 6+ months of timeline delay near retirement. Your stable W2 income already provides the risk capacity for equity concentration - adding crypto creates unnecessary compounding of risk. (4) TRADE-OFFS: Potential upside if crypto enters new bull cycle, but FIRE planning prioritizes certainty of reaching goal over maximizing beyond goal. Your intermediate experience level and current trajectory suggest you'll reach $2.5M with traditional assets.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Reduce BTC position from 5% to 2% allocation ($3,600). Sell approximately $5,400 of BTC and redeploy into: (1) $2,700 to cash reserves, bringing cash to 11.5% for rebalancing dry powder and opportunity fund, (2) $2,700 to diversification plays mentioned in recommendation #1 (VNQ, healthcare, energy sectors). Maintain small 2% crypto allocation as 'lottery ticket' for asymmetric upside while protecting core FIRE goal timeline.",
+      "suggested_allocation_pct": -3.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Risk reduction benefit, 0-2% return drag if crypto outperforms significantly",
+      "time_horizon": "Immediate action, protects 15-year timeline",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:34:20.189969",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_aa84ce34",
+      "category": "rebalance",
+      "title": "Establish Systematic Rebalancing and Dollar-Cost Averaging Plan",
+      "summary": "Create quarterly rebalancing schedule and systematic investment plan to deploy your ~$10K monthly savings capacity, ensuring disciplined execution of your FIRE timeline.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your portfolio shows static allocations without mention of systematic contributions or rebalancing. With $195K income, $5,500 monthly expenses, and intermediate experience, you have ~$50-60K annual investment capacity that needs systematic deployment. The knowledge base recommends 'rebalancing when allocations drift more than 5% from targets, or at least annually.' (2) PROFILE ALIGNMENT: FIRE success requires two elements: (a) aggressive savings rate, and (b) disciplined portfolio management to prevent behavioral mistakes. Your aggressive profile and long horizon mean you should stay fully invested through volatility - systematic investing prevents market-timing mistakes. The retirement guide emphasizes 'Time in the market often matters more than timing the market' and 'The power of compound interest makes starting early crucial.' At 30 years old, every dollar invested now has 15 years to compound. Missing market upside by holding excess cash or failing to rebalance into undervalued positions reduces final portfolio value. (3) SUPPORTING EVIDENCE: Your current 10% cash ($18K) is adequate for emergency fund with stable income. Additional cash flow should be immediately deployed. Your target allocation after recommendations #1 and #3: 45% Tech, 20% other sectors, 25% broad market (VTI), 2% crypto, 8% cash. Systematic monthly investing of $8,000-10,000 into underweight positions prevents timing risk and ensures consistent progress toward $2.5M target. Quarterly rebalancing captures mean reversion - when tech outperforms, trim and add to value/defensive; when tech lags, add to tech at lower valuations. (4) TRADE-OFFS: Rebalancing may trigger taxable events, though using new contributions to rebalance minimizes this. Requires discipline to rebalance into positions that have underperformed (psychologically difficult but essential for long-term returns).",
+      "tickers": [
+        "VTI",
+        "VNQ",
+        "QQQ"
+      ],
+      "suggested_action": "Implement two-part systematic plan: (1) MONTHLY CONTRIBUTIONS: Set up automatic $8,500 monthly investment split 60% to current underweight positions (based on target allocation from recommendations #1-3) and 40% to VTI for core diversification. Use first $1,917 monthly to max 401(k), remaining ~$6,500 to taxable/Roth. (2) QUARTERLY REBALANCING: Calendar reminders for Jan/Apr/Jul/Oct to review allocations. If any position drifts >5% from target, rebalance using: (a) new contributions first (tax-free), (b) tax-loss harvesting opportunities second, (c) trimming winners only if drift >7%. Track progress toward $2.5M goal quarterly using 18.7% CAGR benchmark - you need to reach ~$240K by year 2, $355K by year 3 to stay on track.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "Behavior alpha of 1-2% annually through discipline",
+      "time_horizon": "Implement immediately, ongoing for 15 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-08-08T18:34:20.189969",
+      "composite_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "session_id": "P1_conservative_retiree__rebalance__seed2",
+  "persona_id": "P1_conservative_retiree",
+  "query_type": "rebalance",
+  "query": "I have about 50% of my portfolio in bonds. Is that the right level for someone my age, or should I rebalance?",
+  "seed": 2,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_d9c4d058",
+      "category": "hold",
+      "title": "Maintain Current 50% Bond Allocation - Aligned with Conservative Profile",
+      "summary": "Your 50% bond allocation is appropriate and should be maintained given your conservative risk tolerance, short investment horizon, and capital preservation goals as a recent retiree.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your question indicates concern about the 50% bond allocation relative to age-based guidelines. (2) PROFILE ALIGNMENT: Your investment profile shows conservative risk tolerance (loss comfort of only 2/10), short investment horizon, high liquidity needs, and a primary goal of capital preservation with steady income generation. The knowledge base states 'Conservative portfolios typically hold 20-40% stocks, 50-70% bonds' - your 50% bond allocation falls perfectly within the conservative range. (3) SUPPORTING EVIDENCE: At age 65 with $78,000 annual income and $4,200 monthly expenses ($50,400 annually), you're living primarily off retirement income. Your current holdings (BND, AGG) provide diversified fixed-income exposure with minimal expense ratios (BND at 0.03%). The 20% cash position provides the liquidity buffer recommended in the risk management guide (3-6 months expenses = $12,600-$25,200, and you hold $240,000 cash). (4) TRADE-OFFS: While a 50% bond allocation may underperform during strong equity bull markets, it protects against the significant drawdowns you cannot tolerate (loss comfort 2/10). The knowledge base emphasizes 'be honest about how you'd react to significant portfolio declines' - your profile clearly indicates low tolerance for volatility, making capital preservation paramount over growth.",
+      "tickers": [
+        "BND",
+        "AGG"
+      ],
+      "suggested_action": "Continue holding your current bond allocation. No rebalancing needed in the fixed income portion of your portfolio.",
+      "suggested_allocation_pct": 50.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5% annually",
+      "time_horizon": "Ongoing - suitable for short-term horizon and income needs",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T10:56:13.583569",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_5a6cef4c",
+      "category": "rebalance",
+      "title": "Reduce Cash Position from 20% to 10-12% for Enhanced Income",
+      "summary": "Your 20% cash allocation ($240,000) significantly exceeds emergency fund requirements and opportunity cost is high. Reallocate $96,000-$120,000 to income-generating assets.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Portfolio data shows 20% cash allocation ($240,000), which is 4.8x your annual expenses and far exceeds the 3-6 months emergency fund recommendation from the risk management guide. This represents significant opportunity cost in a low-yield environment. (2) RISK PROFILE ALIGNMENT: You have stable income, no debt, and an existing emergency fund. The knowledge base states 'Maintain 3-6 months of expenses in liquid savings' which equals $12,600-$25,200 for you. Even maintaining $120,000-$144,000 (10-12% of portfolio) provides 2.4-2.9 years of expenses as a safety buffer, well above recommended levels for someone with your stable pension and Social Security income. (3) SUPPORTING EVIDENCE: Your current sector allocation shows 30% Healthcare, 25% Utilities, 20% Consumer Staples - all defensive, dividend-paying sectors appropriate for conservative investors. Your holdings include dividend aristocrats (JNJ, PG, KO) and high-yield utilities (DUK, SO, VZ) that provide stable income. Inflation risk from the risk management guide shows cash 'erodes purchasing power' - with $78,000 annual income and stable expenses, you need income generation to maintain purchasing power. (4) TRADE-OFFS: Reducing cash increases portfolio yield but slightly reduces immediate liquidity. However, with $120,000+ remaining in cash and highly liquid bond ETFs (BND, AGG), you maintain more than adequate access to funds for any foreseeable need.",
+      "tickers": [
+        "BND",
+        "VYM",
+        "AGG"
+      ],
+      "suggested_action": "Transfer $96,000-$120,000 from cash into: (1) $48,000-$60,000 to additional bond ETFs (BND/AGG) to increase fixed income yield while maintaining low risk, and (2) $48,000-$60,000 to dividend-focused equity ETF (VYM) to boost income generation within your conservative equity allocation.",
+      "suggested_allocation_pct": -10.0,
+      "risk_level": "low",
+      "expected_return_range": "3.5-5.5% annually on reallocated funds",
+      "time_horizon": "Immediate rebalancing, long-term hold for income generation",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T10:56:13.583569",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_bd01d21c",
+      "category": "income_generation",
+      "title": "Establish Systematic Monthly Distribution Strategy",
+      "summary": "Create a tax-efficient withdrawal strategy from your dividend-producing holdings to supplement your $78,000 annual income and smooth monthly cash flow.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your monthly expenses ($4,200 = $50,400 annually) are covered by your $78,000 annual income, leaving $27,600 annual surplus. However, portfolio positioning suggests you're not optimizing the income-generation potential of your $1.2M portfolio for future needs or inflation protection. Your holdings (VYM, JNJ, PG, KO, DUK, SO, VZ) are all dividend-paying securities, but there's no mention of a systematic distribution plan. (2) PROFILE ALIGNMENT: As a retired investor with high liquidity needs, short investment horizon, and capital preservation goals, you should focus on generating predictable income streams rather than capital appreciation. The investment guide emphasizes income generation for retirees. Your conservative risk tolerance means you should receive portfolio returns primarily through distributions rather than price appreciation. (3) SUPPORTING EVIDENCE: Your current equity holdings are positioned in defensive sectors (Utilities 25%, Consumer Staples 20%, Healthcare 30%) that typically offer 2.5-4% dividend yields. VYM (Vanguard High Dividend Yield ETF) specifically targets above-average yields. Combined with bond interest from BND/AGG, your portfolio likely generates $30,000-$42,000 in annual income (2.5-3.5% yield on $1.2M). Setting up quarterly or monthly automatic distributions provides predictable cash flow. (4) TRADE-OFFS: Systematic withdrawals may require selling small amounts during market downturns, but focusing on dividend/interest distributions rather than capital sales minimizes this risk. You maintain flexibility to adjust distribution amounts based on market conditions and personal needs.",
+      "tickers": [
+        "VYM",
+        "JNJ",
+        "PG",
+        "KO",
+        "DUK",
+        "SO",
+        "VZ",
+        "BND",
+        "AGG"
+      ],
+      "suggested_action": "Work with your brokerage to establish automatic monthly or quarterly distributions from dividend and interest payments. Target initial distribution of 2.5-3% annually ($30,000-$36,000) to supplement income without depleting capital. Reinvest excess dividends during years when not needed to maintain purchasing power.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "2.5-3.5% annual distribution yield",
+      "time_horizon": "Ongoing retirement income strategy",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T10:56:13.583569",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_440a5dbb",
+      "category": "risk_reduction",
+      "title": "Monitor and Limit Individual Stock Concentration Risk",
+      "summary": "Your portfolio includes individual stocks (JNJ, PG, KO, DUK, SO, VZ) which introduce company-specific risk. Ensure no single holding exceeds 5-7% of portfolio value.",
+      "detailed_rationale": "Step-by-step analysis: (1) SIGNAL: Your holdings list shows 6 individual stocks alongside ETFs. While the sector allocation appears diversified, individual stock positions carry company-specific risk that may not align with your extremely low loss tolerance (2/10) and conservative profile. The risk management guide warns about 'specific risk relates to individual securities' as distinct from market risk. (2) RISK PROFILE ALIGNMENT: With conservative risk tolerance, short investment horizon, and capital preservation as your primary goal, you should minimize idiosyncratic risk from individual companies. A single company scandal, dividend cut, or business disruption could significantly impact your income and emotional comfort. The investment guide emphasizes 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation' - ETFs provide broader diversification than individual stocks. (3) SUPPORTING EVIDENCE: Your current holdings are high-quality dividend stocks (JNJ, PG, KO are dividend aristocrats; DUK, SO, VZ are stable utilities), but even blue-chip companies face unexpected challenges. Without knowing exact position sizes, I cannot assess current concentration, but conservative portfolios should limit individual stock positions. Your existing VYM holding already provides diversified exposure to high-dividend stocks, potentially creating redundancy. (4) TRADE-OFFS: Individual stocks can provide higher yields than diversified ETFs and allow tax-loss harvesting opportunities. However, for someone with your risk profile, the psychological and financial impact of a single stock decline outweighs these benefits. If individual stocks represent emotional attachment or tax considerations (low cost basis), consider gradual transition rather than immediate sale.",
+      "tickers": [
+        "JNJ",
+        "PG",
+        "KO",
+        "DUK",
+        "SO",
+        "VZ",
+        "VYM"
+      ],
+      "suggested_action": "Review position sizes of all individual stock holdings. If any single stock exceeds 5-7% of portfolio value ($60,000-$84,000), consider gradually reducing to limit concentration risk. Proceed with any sales gradually to avoid large tax events. Alternatively, commit to not adding to individual stock positions and let portfolio rebalancing through contributions naturally reduce their relative weight over time.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "moderate",
+      "expected_return_range": "N/A - risk reduction measure",
+      "time_horizon": "6-12 months for gradual adjustment if needed",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T10:56:13.583569",
+      "composite_score": 0.0
+    }
+  ]
+}

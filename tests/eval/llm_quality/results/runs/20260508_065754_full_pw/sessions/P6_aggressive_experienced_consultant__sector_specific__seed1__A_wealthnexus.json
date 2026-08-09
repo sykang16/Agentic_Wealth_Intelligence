@@ -1,0 +1,163 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed1",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "sector_specific",
+  "query": "Should I rotate from energy into AI/semiconductor exposure at current valuations, or keep the cyclical tilt?",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_69b538f6",
+      "category": "rebalance",
+      "title": "Gradual Rotation from Energy to AI/Semiconductors with Hedged Approach",
+      "summary": "Reduce energy exposure from 15% to 10% and increase semiconductor/AI exposure to capitalize on structural AI growth trends while maintaining some cyclical exposure for diversification.",
+      "detailed_rationale": "Signal: Your portfolio holds 15% energy (XLE, XOM, CVX) versus 30% technology (heavily weighted to NVDA). Given your query timing and aggressive risk profile, this presents a rebalancing opportunity. Step-by-step reasoning: (1) Energy sector faces structural headwinds from energy transition policies and recent oil price volatility, while AI/semiconductors represent a multi-year secular growth trend driven by enterprise AI adoption, data center buildouts, and sovereign AI initiatives. (2) Your aggressive risk tolerance (8/10 loss comfort) and long investment horizon align perfectly with high-growth semiconductor exposure, which historically exhibits higher volatility but superior long-term returns. Your $280K annual income and $13K monthly expenses provide cushion for cyclical drawdowns. (3) Current portfolio analysis shows technology concentration risk via NVDA, but semiconductors are diversified beyond single stocks. The AI infrastructure buildout is estimated at $1-2 trillion over the next decade. Energy's P/E ratios have compressed while semiconductor leaders trade at premium valuations reflecting growth expectations. (4) Key trade-off: You're rotating from undervalued cyclicals (energy P/E ~10-12x) to richly valued growth (semiconductors P/E ~25-40x). Risk includes potential AI bubble correction and energy outperformance if geopolitical tensions escalate oil prices. However, maintaining 10% energy exposure provides hedge against this scenario while your 45-year age and 20+ year horizon can absorb volatility.",
+      "tickers": [
+        "SMH",
+        "SOXX",
+        "AMD",
+        "AVGO"
+      ],
+      "suggested_action": "Sell 33% of combined XOM and CVX positions (approximately $75K) over 2-3 months using limit orders. Deploy proceeds into semiconductor ETF SMH (60% of proceeds) and individual positions in AMD and AVGO (20% each) to diversify beyond existing NVDA concentration. Maintain XLE for diversified energy exposure.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "high",
+      "expected_return_range": "12-25% annually",
+      "time_horizon": "5-10 years for full thesis to play out; expect 20-30% intra-period volatility",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:20:55.713285",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_7b269bf2",
+      "category": "diversify",
+      "title": "Add International Developed Markets Exposure to Reduce Geographic Concentration",
+      "summary": "Your 15% emerging markets allocation (VWO) lacks developed international diversification. Add 10% allocation to international developed markets for better geographic balance.",
+      "detailed_rationale": "Signal: Portfolio analysis reveals 70%+ US equity exposure (VTI, individual US stocks) with only 15% emerging markets (VWO) and no developed international presence. This creates geographic concentration risk. Step-by-step reasoning: (1) Your current allocation overweights US markets, which trade at premium valuations (S&P 500 P/E ~20x) versus international developed markets (MSCI EAFE P/E ~14x). This valuation gap presents mean reversion opportunity over your long horizon. (2) Your aggressive profile and advanced investment experience means you understand that international diversification reduces portfolio-specific risk without necessarily reducing returns. Your wealth accumulation goal of $4M by retirement benefits from exposure to different economic cycles and currency diversification. (3) Evidence from portfolio data shows your VWO emerging markets holding carries higher volatility (20%+ annualized) than developed international markets (15% annualized), yet you lack the stabilizing middle ground. International developed markets include quality companies in Europe and Japan at attractive valuations. Japan's corporate governance reforms and European industrial base provide diversification from US tech concentration. (4) Main trade-off: Developed international markets have underperformed US markets over the past decade, and currency headwinds from strong dollar could continue. However, your 20+ year horizon allows multiple currency cycles, and current valuation spreads favor long-term positioning. This also adds manufacturing and industrial exposure complementing your existing sector allocations.",
+      "tickers": [
+        "VEA",
+        "IEFA",
+        "EFA"
+      ],
+      "suggested_action": "Reduce VTI position by $150K (10% of portfolio) and allocate to developed international ETF VEA or IEFA. Implement via 3 monthly purchases to dollar-cost-average entry timing. Maintain VWO for emerging markets exposure.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-12% annually",
+      "time_horizon": "10+ years for valuation normalization and currency cycle benefits",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:20:55.713285",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_b3a4f173",
+      "category": "buy",
+      "title": "Increase Infrastructure Exposure via MLPs and Utilities for Income Diversification",
+      "summary": "Add 5% allocation to infrastructure and utility sector to generate income stream supporting legacy planning goal while maintaining growth portfolio.",
+      "detailed_rationale": "Signal: Your portfolio shows no dedicated income-generating infrastructure despite medium liquidity needs and legacy planning goal of $800K for your child. Step-by-step reasoning: (1) Your current 15% bond allocation (BND) and 5% cash provide stability but limited yield in current environment. Your goals include legacy planning, suggesting need for assets that compound reliably with lower correlation to equity markets. Infrastructure assets (utilities, MLPs, midstream energy) provide 3-5% yields with inflation protection and lower volatility than pure equities. (2) At age 45 with variable income as independent consultant, having 5% portfolio in income-generating infrastructure adds stability during lean consulting periods while your aggressive profile still accommodates 90%+ in growth assets. Your advanced experience means you understand MLP tax treatment and K-1 complexity. (3) Your existing energy holdings (XLE, XOM, CVX) focus on upstream exploration/production, but lack midstream infrastructure exposure which offers monopolistic assets with inflation-linked contracts. The infrastructure investment gap in North America exceeds $2 trillion, supporting long-term demand. Current utility valuations reflect interest rate sensitivity but offer entry point as rate cycle matures. (4) Primary trade-off: Infrastructure and utilities underperform in strong growth markets and create tax complexity with MLPs. However, they reduce overall portfolio volatility (correlation ~0.6 to equities) and provide tax-advantaged income. For legacy planning, this creates compounding cash flow that can be systematically allocated to your child's account.",
+      "tickers": [
+        "AMLP",
+        "AMT",
+        "NEE",
+        "XLU"
+      ],
+      "suggested_action": "Allocate $75K (5% of portfolio) split between infrastructure MLP ETF AMLP (40%), cell tower REIT AMT (30%), and utility positions NEE and XLU (30% combined). Source from cash position and reduce BND slightly to maintain overall risk profile. Set up dividend reinvestment plan (DRIP) to compound returns.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-11% annually including dividends",
+      "time_horizon": "15+ years aligned with legacy planning timeline",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:20:55.713285",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_e626a67d",
+      "category": "risk_reduction",
+      "title": "Reduce Single-Stock Concentration Risk in NVDA",
+      "summary": "Your NVDA position likely represents oversized single-stock risk within the 30% technology allocation. Trim to no more than 8% of total portfolio to reduce company-specific risk.",
+      "detailed_rationale": "Signal: Technology represents 30% of your portfolio, and based on your semiconductor interest and advanced investor profile, NVDA likely comprises significant single-position concentration. Step-by-step reasoning: (1) Even for aggressive investors, single-stock positions exceeding 10% of portfolio create uncompensated idiosyncratic risk. Company-specific events (product delays, competitive threats, regulatory issues, management changes) can cause 30-50% drawdowns independent of market conditions. NVDA's 2023-2024 rally has likely increased its portfolio weight through appreciation. (2) While your 8/10 loss comfort and aggressive profile support high-volatility holdings, concentration risk differs from market risk. Your $4M wealth goal requires protecting gains already achieved. At $1.5M portfolio, an oversized NVDA position could represent $150-300K exposure to single company risk. Your variable consulting income means portfolio preservation matters during revenue downturns. (3) NVDA's dominance in AI chips is clear, but competitive threats from AMD, custom chips (Google TPU, Amazon Trainium), and potential China restrictions create multiple risk vectors. Historical evidence shows that even dominant technology companies (Cisco 2000, Intel 2020) face cyclical corrections. Your advanced experience means you've likely lived through technology boom-bust cycles. (4) Main trade-off: NVDA may continue outperforming, and trimming reduces upside capture. However, converting single-stock exposure to diversified semiconductor exposure (via recommendation #1) maintains sector thesis while reducing company-specific risk. This aligns with wealth preservation aspect of your goals.",
+      "tickers": [
+        "NVDA"
+      ],
+      "suggested_action": "Calculate current NVDA position as percentage of portfolio. If exceeds 8%, trim excess over 3-6 months using trailing stop orders or limit orders at technical resistance levels. Redeploy proceeds into SMH, AMD, AVGO per recommendation #1, or into developed international markets per recommendation #2. Consider tax implications and execute trimming in tax-efficient manner, potentially using tax-loss harvesting elsewhere to offset gains.",
+      "suggested_allocation_pct": -5.0,
+      "risk_level": "low",
+      "expected_return_range": "Not applicable - risk reduction action",
+      "time_horizon": "Execute over 3-6 months to avoid market timing risk",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:20:55.713285",
+      "composite_score": 0.0
+    }
+  ]
+}

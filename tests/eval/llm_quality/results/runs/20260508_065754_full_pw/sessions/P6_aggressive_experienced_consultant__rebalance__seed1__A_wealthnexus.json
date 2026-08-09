@@ -1,0 +1,186 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed1",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "rebalance",
+  "query": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+  "seed": 1,
+  "system": "A_wealthnexus",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_dd28b000",
+      "category": "rebalance",
+      "title": "Trim Energy Overweight and Redeploy to Technology Growth",
+      "summary": "Reduce energy allocation from 15% to 8-10%, selling portions of XLE, XOM, and CVX. Redeploy proceeds to technology sector to capture AI infrastructure growth cycle while maintaining aggressive growth posture.",
+      "detailed_rationale": "Signal Analysis: Your energy sector stands at 15%, which is 3x the typical market weight (~5% in broad indices like VTI). With $1.5M total assets, this represents ~$225k in energy exposure through XLE, XOM, and CVX. Given your aggressive risk tolerance (8/10 loss comfort) and long-term horizon focused on wealth compounding to $4M, this defensive sector positioning conflicts with your growth mandate. Energy companies, while profitable in recent years, typically trade at lower P/E multiples (10-12x) compared to technology (25-30x) and offer limited growth runway compared to secular technology trends. Your Profile Alignment: As a 45-year-old with advanced investment experience, variable income, and comfort with cyclical drawdowns, you're optimally positioned for growth equity concentration. Your technology allocation at 30% (including NVDA) aligns well with aggressive profiles, but the energy overweight creates drag on long-term compounding potential. Supporting Evidence: The knowledge base emphasizes that aggressive portfolios should hold 80-90% in equities with growth orientation. Energy's recent outperformance (2021-2023) has likely created this overweight through appreciation rather than strategic intent. Current macro conditions show oil prices stabilizing in the $70-85 range, removing the urgency for energy overweights that existed during the 2022 energy crisis. Meanwhile, AI infrastructure spending (benefiting NVDA and broader tech) is projected to grow 25-30% annually through 2027. Trade-offs: You'll be selling energy near cyclical highs and accepting short-term volatility in technology. However, given your long horizon (20+ years to retirement) and high loss tolerance, this aligns with maximizing terminal wealth rather than preserving recent energy gains. Energy may outperform in inflationary scenarios, but diversification through your existing XOM/CVX positions at reduced weight still provides this hedge.",
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX",
+        "NVDA",
+        "VGT"
+      ],
+      "suggested_action": "Sell 40-50% of combined XLE, XOM, CVX positions (~$90-110k). Redeploy 60% to additional technology growth (consider VGT technology sector ETF for diversification beyond NVDA) and 40% to VTI for core market exposure. This reduces energy to 8-10% while increasing technology to 35-38%.",
+      "suggested_allocation_pct": -7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually",
+      "time_horizon": "3-5 years for technology growth cycle realization",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:07:55.656021",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_5e884639",
+      "category": "diversify",
+      "title": "Add International Developed Markets Exposure",
+      "summary": "Your portfolio lacks developed international equity exposure. Add 8-10% allocation to VEA (Vanguard Developed Markets ETF) to diversify geographic concentration and capture relative valuation opportunities in Europe and Japan.",
+      "detailed_rationale": "Signal Analysis: Your international exposure is limited to VWO (Emerging Markets) at 15% within a broader context. You hold no dedicated developed international positions (Europe, Japan, Australia, Canada). With 45% individual stocks and 25% ETFs totaling 70% equity exposure, nearly all appears US-concentrated except for VWO. This creates single-country risk despite your $1.12M net worth and advanced investment experience. Your Profile Alignment: As an aggressive investor with long-term horizon and wealth compounding goals, geographic diversification enhances risk-adjusted returns without reducing growth potential. International developed markets currently trade at meaningful discounts to US equities (Europe P/E ~13x vs US ~21x), offering value exposure that complements your growth tilt. With variable income as an independent consultant, reducing geographic concentration protects against US-specific economic scenarios. Supporting Evidence: The knowledge base emphasizes diversification as essential for managing risk, noting that different asset classes don't move in perfect correlation. International developed markets provide exposure to different economic cycles, monetary policies, and currency dynamics. Japan's corporate governance reforms and European energy independence initiatives create structural tailwinds. Historical data shows international developed markets outperform US markets in multi-year cycles, and current valuation gaps suggest we may be entering such a period. Trade-offs: International positions introduce currency risk (though this can be a diversifier) and potentially higher volatility in the short term. Some developed markets have slower growth than the US. However, your aggressive profile and 20+ year horizon make this an appropriate diversification move. You'll maintain strong US growth exposure through your technology and VTI holdings while adding geographic balance.",
+      "tickers": [
+        "VEA",
+        "VXUS"
+      ],
+      "suggested_action": "Allocate $120-150k (8-10% of portfolio) to VEA or VXUS (Vanguard Total International Stock). Source funds from your 5% cash position and by slightly trimming your overweight industrials allocation (CAT, DE represent 15%, above typical 10% market weight). This maintains your aggressive equity allocation while improving geographic diversification.",
+      "suggested_allocation_pct": 9.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-11% annually",
+      "time_horizon": "5-7 years for valuation convergence",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:07:55.656021",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_8f6dbec9",
+      "category": "risk_reduction",
+      "title": "Reduce Cryptocurrency Concentration and Formalize Legacy Planning",
+      "summary": "Your 5% crypto allocation ($75k in BTC) represents elevated concentration risk for legacy planning goals. Reduce to 2-3% and redirect to a dedicated 529 or trust structure for your child's legacy.",
+      "detailed_rationale": "Signal Analysis: You hold 5% ($75k) in BTC with a medium-priority legacy goal of $800k for your child. Cryptocurrency's extreme volatility (drawdowns of 70-80% in bear markets) and binary outcome scenarios create asymmetric risk for legacy planning, which requires higher certainty. While your aggressive risk tolerance supports crypto exposure, the specific application to multi-generational wealth transfer suggests a mismatch. Your variable income as a consultant also creates cashflow uncertainty that makes volatile assets less suitable for legacy commitments. Your Profile Alignment: As a 45-year-old with advanced investment experience, you understand crypto's risk/reward profile. However, legacy planning requires balancing growth potential with certainty of capital preservation over your child's lifetime (potentially 50+ years). The knowledge base emphasizes matching investments to specific goals and time horizons. Legacy goals benefit from compounding growth in traditional equities rather than speculative assets. Your $280k income and moderate debt suggest capacity to fund legacy goals through systematic contributions rather than concentrated bets. Supporting Evidence: The knowledge base notes that diversification reduces portfolio volatility and that different goals require different allocation strategies. Legacy planning typically employs lower-volatility growth vehicles like target-date funds, broad equity indices, or dedicated education accounts with tax advantages. Your current crypto allocation, while appropriate for your personal wealth accumulation goal ($4M target), introduces unnecessary risk to the legacy objective. A 2-3% crypto position still provides upside exposure while reducing potential for catastrophic loss that could derail legacy funding. Trade-offs: You'll reduce your exposure to potential outsized crypto returns (100%+ in bull cycles). However, you're preserving 2-3% participation while protecting legacy capital. The redeployed ~$35-40k into structured legacy vehicles (529 plans grow tax-free for education, trusts provide control and tax efficiency) provides more certainty for your child's benefit while your remaining crypto and growth equity positions still target your $4M wealth goal.",
+      "tickers": [
+        "BTC"
+      ],
+      "suggested_action": "Reduce BTC position from 5% to 2-3% by selling approximately $30-40k. Open a 529 education savings plan and/or establish a trust structure, depositing these proceeds plus committing to systematic quarterly contributions of $3,000-5,000 (easily manageable from your $280k income). Invest 529 assets in age-based target-date funds or aggressive equity allocations given your child's long time horizon.",
+      "suggested_allocation_pct": -2.5,
+      "risk_level": "low",
+      "expected_return_range": "6-9% annually for reallocated legacy funds",
+      "time_horizon": "Immediate restructuring; legacy horizon 20-40 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:07:55.656021",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_193f81e5",
+      "category": "tax_optimization",
+      "title": "Implement Tax-Loss Harvesting Strategy for Financials",
+      "summary": "With JPM and GS representing 15% financials exposure, review for tax-loss harvesting opportunities. If positions are underwater, harvest losses and immediately replace with VFH (Vanguard Financials ETF) to maintain sector exposure while capturing tax benefits.",
+      "detailed_rationale": "Signal Analysis: Your financials allocation (JPM, GS) at 15% represents concentrated individual stock positions rather than diversified sector exposure. As an independent consultant with $280k annual income, you likely face a high marginal tax rate (32-35% federal, plus state). Individual stock positions create opportunities for tax-loss harvesting if either JPM or GS has declined since purchase, while sector ETF replacement maintains your financial sector thesis. With moderate debt ($380k) and medium liquidity needs, optimizing after-tax returns directly impacts your ability to accelerate debt paydown and increase investment capacity. Your Profile Alignment: As an advanced investor with aggressive risk tolerance, you understand wash-sale rules and tax optimization strategies. Your variable income means some years may have particularly high tax burdens where loss harvesting provides immediate benefit. The knowledge base notes that rebalancing and regular review keep strategies on track\u2014tax-loss harvesting is a sophisticated rebalancing technique that adds value without changing market exposure. With your $4M wealth goal, every dollar saved in taxes compounds over your 20+ year horizon. Supporting Evidence: Tax-loss harvesting can add 0.5-1.0% annually to after-tax returns through systematic application. Financial sector stocks have experienced volatility with regional banking concerns and interest rate policy uncertainty, creating potential harvesting opportunities. By immediately replacing individual stocks with VFH, you avoid wash-sale violations while maintaining financials exposure and reducing concentration risk (VFH holds 400+ financial stocks vs your 2 positions). The knowledge base emphasizes diversification\u2014replacing 2 stocks with a broad sector ETF improves diversification while maintaining your 15% financials allocation. Trade-offs: You'll move from individual stock selection (potential for outperformance) to sector index returns. However, this reduces concentration risk, simplifies portfolio management, and captures immediate tax benefits if losses exist. If positions are profitable, you maintain the status quo until harvesting opportunities emerge. Given your advanced experience, you likely selected JPM and GS for specific theses, but sector exposure through ETFs may be more appropriate given your focus on wealth compounding rather than stock-picking alpha.",
+      "tickers": [
+        "JPM",
+        "GS",
+        "VFH"
+      ],
+      "suggested_action": "Review cost basis on JPM and GS positions. If either shows losses, sell the underwater position and immediately purchase VFH (or XLF) equivalent dollar amount to maintain financials exposure. This captures tax losses (deduct $3k annually against ordinary income, carry forward remaining) while avoiding market timing risk. If both profitable, place alerts for 10% drawdowns to execute harvesting opportunistically throughout the year.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "0.5-1.0% annual after-tax return enhancement",
+      "time_horizon": "Immediate tax benefit; ongoing strategy",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:07:55.656021",
+      "composite_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "session_id": "P2_conservative_early_career__open_ended__seed2",
+  "persona_id": "P2_conservative_early_career",
+  "query_type": "open_ended",
+  "seed": 2,
+  "sys_a": "A_gated_040",
+  "sys_b": "A_wealthnexus",
+  "order": 2,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"tie\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"Both systems produce well-personalized, risk-aligned, conservative recommendations, but System A contains a factual error (states $72,000/year equals $6,000/month cash flow calculation and mislabels the emergency target as $22,800 vs the user's stated $22,000 goal) and its 401(k) match recommendation, while reasonable, is more speculative. System B stays better grounded in the user's actual stated goals, provides more concrete actionable steps (specific HYSA providers, dollar amounts, timeline months 13-18, TreasuryDirect.gov), and adds a diversification-aware I-Bond recommendation tied directly to the house goal.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "tie",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "Both systems produce well-personalized, risk-aligned, conservative recommendations, but System A contains a factual error (states $72,000/year equals $6,000/month cash flow calculation and mislabels the emergency target as $22,800 vs the user's stated $22,000 goal) and its 401(k) match recommendation, while reasonable, is more speculative. System B stays better grounded in the user's actual stated goals, provides more concrete actionable steps (specific HYSA providers, dollar amounts, timeline months 13-18, TreasuryDirect.gov), and adds a diversification-aware I-Bond recommendation tied directly to the house goal."
+  },
+  "usage": {
+    "input_tokens": 11805,
+    "output_tokens": 348
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "session_id": "P5_aggressive_young_professional__open_ended__seed1",
+  "persona_id": "P5_aggressive_young_professional",
+  "query_type": "open_ended",
+  "seed": 1,
+  "sys_a": "A_gated_040",
+  "sys_b": "A_wealthnexus",
+  "order": 1,
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"B\",\n    \"C2_risk_alignment\": \"tie\",\n    \"C3_factual_grounding\": \"B\",\n    \"C4_actionability\": \"B\",\n    \"C5_diversification\": \"B\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"B\",\n  \"rationale_overall\": \"System B provides more concrete dollar-based actions tied to the user's actual $180K portfolio, includes a highly relevant tax-advantaged accounts recommendation crucial for FIRE planning, and offers broader diversification across sectors, geography, and real estate. System A has strong rationales but includes a questionable recommendation to eliminate crypto (contradicting the user's aggressive 9/10 loss comfort) and overlaps two recs on tech/stock reduction, while missing the foundational FIRE tax strategy angle.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "B",
+      "C2_risk_alignment": "tie",
+      "C3_factual_grounding": "B",
+      "C4_actionability": "B",
+      "C5_diversification": "B",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "B",
+    "rationale_overall": "System B provides more concrete dollar-based actions tied to the user's actual $180K portfolio, includes a highly relevant tax-advantaged accounts recommendation crucial for FIRE planning, and offers broader diversification across sectors, geography, and real estate. System A has strong rationales but includes a questionable recommendation to eliminate crypto (contradicting the user's aggressive 9/10 loss comfort) and overlaps two recs on tech/stock reduction, while missing the foundational FIRE tax strategy angle."
+  },
+  "usage": {
+    "input_tokens": 12418,
+    "output_tokens": 307
+  }
+}

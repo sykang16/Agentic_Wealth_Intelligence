@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes (age 45, $4M wealth goal, variable consulting income, moderate debt, advanced experience, loss comfort 8/10) and ties them causally to the recommendation.\",\n    \"C2\": \"Risk_level 'high' matches aggressive tolerance, but the rec actually argues for risk reduction; the deviation between framing and label is defensibly explained as preserving wealth despite aggressive tolerance.\",\n    \"C3\": \"All numeric claims (5% crypto, $75K BTC, $1.12M net worth, $4M target, tickers VTI/VWO/BTC) are traceable to the snapshot with no fabrications.\",\n    \"C4\": \"Specifies concrete tickers, exact dollar amounts ($45K sale, $30K VTI, $15K VWO), target allocation (2%), and a clear first step.\",\n    \"C5\": \"Recommendation is allocation-neutral on the bigger concentration issue (30% Technology, NVDA) and only addresses the small crypto sleeve without acknowledging the larger sector concentration.\",\n    \"C6\": \"Uses calibrated language ('could', 'might', 'historically'), no guaranteed returns, and frames trade-offs honestly including opportunity cost.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes (age 45, $4M wealth goal, variable consulting income, moderate debt, advanced experience, loss comfort 8/10) and ties them causally to the recommendation.",
+      "C2": "Risk_level 'high' matches aggressive tolerance, but the rec actually argues for risk reduction; the deviation between framing and label is defensibly explained as preserving wealth despite aggressive tolerance.",
+      "C3": "All numeric claims (5% crypto, $75K BTC, $1.12M net worth, $4M target, tickers VTI/VWO/BTC) are traceable to the snapshot with no fabrications.",
+      "C4": "Specifies concrete tickers, exact dollar amounts ($45K sale, $30K VTI, $15K VWO), target allocation (2%), and a clear first step.",
+      "C5": "Recommendation is allocation-neutral on the bigger concentration issue (30% Technology, NVDA) and only addresses the small crypto sleeve without acknowledging the larger sector concentration.",
+      "C6": "Uses calibrated language ('could', 'might', 'historically'), no guaranteed returns, and frames trade-offs honestly including opportunity cost."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6202,
+    "output_tokens": 538
+  },
+  "session_id": "P6_aggressive_experienced_consultant__open_ended__seed2",
+  "rec_index": 3,
+  "rec_id": "rec_3684d350",
+  "rubric_version": "1.1"
+}

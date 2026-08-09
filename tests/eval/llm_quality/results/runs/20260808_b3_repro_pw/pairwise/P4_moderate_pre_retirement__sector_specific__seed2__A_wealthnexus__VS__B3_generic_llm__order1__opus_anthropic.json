@@ -1,0 +1,28 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "status": "ok",
+  "raw_output": "{\n  \"winner_per_criterion\": {\n    \"C1_personalization\": \"A\",\n    \"C2_risk_alignment\": \"A\",\n    \"C3_factual_grounding\": \"A\",\n    \"C4_actionability\": \"A\",\n    \"C5_diversification\": \"A\",\n    \"C6_safety_compliance\": \"tie\"\n  },\n  \"overall_winner\": \"A\",\n  \"rationale_overall\": \"System A provides deeper personalization by citing multiple specific profile attributes (net worth gap, income, expenses, 10-year horizon, catch-up eligibility) with concrete tickers, allocation percentages, and time-bound execution steps. System B contains internal inconsistencies (e.g., Rec #1 suggests reallocating tech proceeds to healthcare while healthcare is already overweight at 22%, and Rec #2 further increases the already-overweight healthcare sector), weakening its diversification awareness and factual grounding.\"\n}",
+  "parsed": {
+    "winner_per_criterion": {
+      "C1_personalization": "A",
+      "C2_risk_alignment": "A",
+      "C3_factual_grounding": "A",
+      "C4_actionability": "A",
+      "C5_diversification": "A",
+      "C6_safety_compliance": "tie"
+    },
+    "overall_winner": "A",
+    "rationale_overall": "System A provides deeper personalization by citing multiple specific profile attributes (net worth gap, income, expenses, 10-year horizon, catch-up eligibility) with concrete tickers, allocation percentages, and time-bound execution steps. System B contains internal inconsistencies (e.g., Rec #1 suggests reallocating tech proceeds to healthcare while healthcare is already overweight at 22%, and Rec #2 further increases the already-overweight healthcare sector), weakening its diversification awareness and factual grounding."
+  },
+  "usage": {
+    "input_tokens": 10796,
+    "output_tokens": 308
+  },
+  "session_id": "P4_moderate_pre_retirement__sector_specific__seed2",
+  "sys_a": "A_wealthnexus",
+  "sys_b": "B3_generic_llm",
+  "order": 1,
+  "rubric_version": "1.1"
+}

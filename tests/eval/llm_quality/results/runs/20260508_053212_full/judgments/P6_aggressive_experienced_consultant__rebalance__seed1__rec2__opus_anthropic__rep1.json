@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 2,\n  \"C4_actionability\": 4,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Rationale cites multiple specific profile attributes (aggressive risk, advanced experience, variable consultant income, $4M wealth target, legacy goal) and ties them causally to the recommendation.\",\n    \"C2\": \"Risk_level 'moderate' is one tier below the user's aggressive tolerance, but the rationale defensibly justifies the deviation by emphasizing reduction of idiosyncratic risk while maintaining growth exposure.\",\n    \"C3\": \"Rationale fabricates that NVDA is the user's 'primary tech holding' and assumes it dominates the 30% tech sleeve, plus invents a 200%+ NVDA 2023 rally figure and unsupported 11-16% expected returns \u2014 central claims not traceable to the snapshot.\",\n    \"C4\": \"Provides concrete tickers (QQQ, VGT, SOXX), conditional trim thresholds (12-15% \u2192 8-10%), and a 60-90 day execution window, though portfolio-level allocation_pct is 0 and the first step is conditional rather than definitive.\",\n    \"C5\": \"Recommendation directly addresses an identified concentration (tech at 30%, NVDA single-name) and proposes rebalancing within the sleeve consistent with diversification principles.\",\n    \"C6\": \"Uses calibrated language ('if', 'consider', 'may') with no guarantee framing, though the specific 11-16% return range is somewhat assertive without a disclaimer at the rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 2,
+    "C4_actionability": 4,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Rationale cites multiple specific profile attributes (aggressive risk, advanced experience, variable consultant income, $4M wealth target, legacy goal) and ties them causally to the recommendation.",
+      "C2": "Risk_level 'moderate' is one tier below the user's aggressive tolerance, but the rationale defensibly justifies the deviation by emphasizing reduction of idiosyncratic risk while maintaining growth exposure.",
+      "C3": "Rationale fabricates that NVDA is the user's 'primary tech holding' and assumes it dominates the 30% tech sleeve, plus invents a 200%+ NVDA 2023 rally figure and unsupported 11-16% expected returns \u2014 central claims not traceable to the snapshot.",
+      "C4": "Provides concrete tickers (QQQ, VGT, SOXX), conditional trim thresholds (12-15% \u2192 8-10%), and a 60-90 day execution window, though portfolio-level allocation_pct is 0 and the first step is conditional rather than definitive.",
+      "C5": "Recommendation directly addresses an identified concentration (tech at 30%, NVDA single-name) and proposes rebalancing within the sleeve consistent with diversification principles.",
+      "C6": "Uses calibrated language ('if', 'consider', 'may') with no guarantee framing, though the specific 11-16% return range is somewhat assertive without a disclaimer at the rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6338,
+    "output_tokens": 604
+  },
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed1",
+  "rec_index": 2,
+  "rec_id": "rec_81ff84b3",
+  "rubric_version": "1.1"
+}

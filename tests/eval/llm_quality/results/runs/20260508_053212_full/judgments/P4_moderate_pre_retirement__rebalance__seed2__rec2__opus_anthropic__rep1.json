@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 5,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 5,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"Rationale cites moderate risk tolerance, 10-year horizon to retirement, stable $220k income, and low debt, causally linking them to the trim recommendation.\",\n    \"C2\": \"risk_level 'moderate' matches the user's moderate risk tolerance and the rationale explicitly justifies risk fit by reducing concentration ahead of retirement.\",\n    \"C3\": \"JNJ, UNH, VTI holdings and sector percentages are traceable to the snapshot; the 13-14% market weight benchmark and 6-9% return range are minor unsupported quantitative claims.\",\n    \"C4\": \"Provides specific tickers (JNJ, UNH, VTI, XLE), dollar amount (~$59,500), 50/50 redeployment split, 6-month execution window, and clear first step.\",\n    \"C5\": \"Directly identifies the 22% healthcare overweight and the energy underweight, and the action explicitly rebalances toward both.\",\n    \"C6\": \"Uses calibrated language ('may', 'likely', 'prudent') with no guarantees, though no explicit disclaimer at the rec level and the return range is stated without hedging.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 5,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 5,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "Rationale cites moderate risk tolerance, 10-year horizon to retirement, stable $220k income, and low debt, causally linking them to the trim recommendation.",
+      "C2": "risk_level 'moderate' matches the user's moderate risk tolerance and the rationale explicitly justifies risk fit by reducing concentration ahead of retirement.",
+      "C3": "JNJ, UNH, VTI holdings and sector percentages are traceable to the snapshot; the 13-14% market weight benchmark and 6-9% return range are minor unsupported quantitative claims.",
+      "C4": "Provides specific tickers (JNJ, UNH, VTI, XLE), dollar amount (~$59,500), 50/50 redeployment split, 6-month execution window, and clear first step.",
+      "C5": "Directly identifies the 22% healthcare overweight and the energy underweight, and the action explicitly rebalances toward both.",
+      "C6": "Uses calibrated language ('may', 'likely', 'prudent') with no guarantees, though no explicit disclaimer at the rec level and the return range is stated without hedging."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6133,
+    "output_tokens": 498
+  },
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed2",
+  "rec_index": 2,
+  "rec_id": "rec_6919c293",
+  "rubric_version": "1.1"
+}

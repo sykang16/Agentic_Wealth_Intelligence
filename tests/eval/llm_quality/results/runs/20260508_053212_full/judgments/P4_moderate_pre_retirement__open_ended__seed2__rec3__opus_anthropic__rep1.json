@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 5,\n  \"C2_risk_alignment\": 3,\n  \"C3_factual_grounding\": 3,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 3,\n  \"rationale\": {\n    \"C1\": \"Rationale cites age 55, $220K income, $132K expenses, moderate risk tolerance, advanced experience, stable income, low debt, $1.8M retirement goal, and 10-year horizon, with the recommendation causally tied to these attributes.\",\n    \"C2\": \"Risk_level 'low' is reasonable for tax-advantaged contributions and aligns adjacently with moderate tolerance, but the rationale doesn't explicitly justify the risk-level labeling itself.\",\n    \"C3\": \"Numeric claims about contribution limits ($23K/$30,500, $7,500 catch-up, $1,000 IRA catch-up) are mostly accurate, but the IRA total of $8,000 assumes a limit not given, the surplus income math is inconsistent ($88K vs $42.5K), and the '25-32% tax savings' framing conflates marginal bracket with savings.\",\n    \"C4\": \"Provides concrete dollar targets ($30,500 401(k), $8,000 IRA, $2,542/month), specific first step (adjust contributions immediately), time horizon (10 years), and clear sequencing including employer match review.\",\n    \"C5\": \"Recommendation is allocation-neutral regarding the existing portfolio sectors/asset types and neither addresses nor worsens diversification, though it sidesteps the user's actual de-risking question.\",\n    \"C6\": \"Language is mostly calibrated but the expected_return_range frames '25-32% tax savings' as immediate returns which is overconfident/misleading, and no explicit disclaimer is included at the rec level.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 5,
+    "C2_risk_alignment": 3,
+    "C3_factual_grounding": 3,
+    "C4_actionability": 5,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 3,
+    "rationale": {
+      "C1": "Rationale cites age 55, $220K income, $132K expenses, moderate risk tolerance, advanced experience, stable income, low debt, $1.8M retirement goal, and 10-year horizon, with the recommendation causally tied to these attributes.",
+      "C2": "Risk_level 'low' is reasonable for tax-advantaged contributions and aligns adjacently with moderate tolerance, but the rationale doesn't explicitly justify the risk-level labeling itself.",
+      "C3": "Numeric claims about contribution limits ($23K/$30,500, $7,500 catch-up, $1,000 IRA catch-up) are mostly accurate, but the IRA total of $8,000 assumes a limit not given, the surplus income math is inconsistent ($88K vs $42.5K), and the '25-32% tax savings' framing conflates marginal bracket with savings.",
+      "C4": "Provides concrete dollar targets ($30,500 401(k), $8,000 IRA, $2,542/month), specific first step (adjust contributions immediately), time horizon (10 years), and clear sequencing including employer match review.",
+      "C5": "Recommendation is allocation-neutral regarding the existing portfolio sectors/asset types and neither addresses nor worsens diversification, though it sidesteps the user's actual de-risking question.",
+      "C6": "Language is mostly calibrated but the expected_return_range frames '25-32% tax savings' as immediate returns which is overconfident/misleading, and no explicit disclaimer is included at the rec level."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6371,
+    "output_tokens": 639
+  },
+  "session_id": "P4_moderate_pre_retirement__open_ended__seed2",
+  "rec_index": 3,
+  "rec_id": "rec_36ad77d7",
+  "rubric_version": "1.1"
+}

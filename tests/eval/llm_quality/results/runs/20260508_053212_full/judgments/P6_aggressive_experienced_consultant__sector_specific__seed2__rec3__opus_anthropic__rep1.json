@@ -1,0 +1,33 @@
+{
+  "judge_label": "opus_anthropic",
+  "judge_provider": "anthropic",
+  "judge_model": "claude-opus-4-7",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "{\n  \"C1_personalization\": 4,\n  \"C2_risk_alignment\": 4,\n  \"C3_factual_grounding\": 4,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 3,\n  \"C6_safety_compliance\": 5,\n  \"rationale\": {\n    \"C1\": \"Cites income level ($280K), variable income from consulting, 15% bond allocation, and long horizon to justify tax-efficiency angle, though it sidesteps the user's actual query.\",\n    \"C2\": \"Low risk_level for an aggressive investor is one tier off but is defensibly justified as the bond sleeve serving as ballast rather than return driver.\",\n    \"C3\": \"Numeric claims (BND yield, MUB yield, duration, tax brackets) are reasonable approximations; minor unsupported specifics like exact cumulative benefit and \u00b1$50K income variability are illustrative rather than grounded in inputs.\",\n    \"C4\": \"Specifies tickers (MUB/VTEB), dollar range ($70-90K), percentage (30-40% of bond sleeve), timing (after Q1), and a clear first step (consult CPA, then execute).\",\n    \"C5\": \"Addresses bond-sleeve composition but ignores the actual concentration question (Energy 15%, Tech 30%) raised by the user, leaving sector diversification largely unaddressed.\",\n    \"C6\": \"Uses calibrated language ('likely', 'consult CPA', acknowledges trade-offs and tax-law risk), no guaranteed-return framing.\"\n  },\n  \"critical_failure\": false\n}",
+  "parsed": {
+    "C1_personalization": 4,
+    "C2_risk_alignment": 4,
+    "C3_factual_grounding": 4,
+    "C4_actionability": 5,
+    "C5_diversification": 3,
+    "C6_safety_compliance": 5,
+    "rationale": {
+      "C1": "Cites income level ($280K), variable income from consulting, 15% bond allocation, and long horizon to justify tax-efficiency angle, though it sidesteps the user's actual query.",
+      "C2": "Low risk_level for an aggressive investor is one tier off but is defensibly justified as the bond sleeve serving as ballast rather than return driver.",
+      "C3": "Numeric claims (BND yield, MUB yield, duration, tax brackets) are reasonable approximations; minor unsupported specifics like exact cumulative benefit and \u00b1$50K income variability are illustrative rather than grounded in inputs.",
+      "C4": "Specifies tickers (MUB/VTEB), dollar range ($70-90K), percentage (30-40% of bond sleeve), timing (after Q1), and a clear first step (consult CPA, then execute).",
+      "C5": "Addresses bond-sleeve composition but ignores the actual concentration question (Energy 15%, Tech 30%) raised by the user, leaving sector diversification largely unaddressed.",
+      "C6": "Uses calibrated language ('likely', 'consult CPA', acknowledges trade-offs and tax-law risk), no guaranteed-return framing."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 6392,
+    "output_tokens": 529
+  },
+  "session_id": "P6_aggressive_experienced_consultant__sector_specific__seed2",
+  "rec_index": 3,
+  "rec_id": "rec_0fa99fa0",
+  "rubric_version": "1.1"
+}

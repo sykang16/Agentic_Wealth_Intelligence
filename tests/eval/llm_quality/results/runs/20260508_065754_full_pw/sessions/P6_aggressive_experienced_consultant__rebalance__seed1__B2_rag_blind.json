@@ -1,0 +1,166 @@
+{
+  "session_id": "P6_aggressive_experienced_consultant__rebalance__seed1",
+  "persona_id": "P6_aggressive_experienced_consultant",
+  "query_type": "rebalance",
+  "query": "I'm overweight energy at 15%. Should I trim that, hold, or add given current macro conditions?",
+  "seed": 1,
+  "system": "B2_rag_blind",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "rec_a4e407ea",
+      "category": "rebalance",
+      "title": "Reduce Energy Overweight to 8-10%, Reallocate to Technology Growth",
+      "summary": "Trim energy position from 15% to 8-10% by taking profits on XLE, XOM, or CVX. Redeploy capital into technology growth positions given your aggressive risk profile and long-term wealth compounding goals.",
+      "detailed_rationale": "Signal: Your 15% energy allocation is significantly overweight relative to S&P 500 energy weighting (~4-5%) and creates concentration risk. Analysis: (1) With oil prices stabilizing in the $70-80/bbl range after the 2022-2023 spike, near-term energy upside is limited while geopolitical and demand volatility remains elevated. Your advanced experience means you likely captured strong returns during the energy rally. (2) Your aggressive risk tolerance, 25+ year investment horizon (age 45, long-term horizon), and $4M wealth target align better with secular growth sectors. Technology historically delivers 12-15% annualized returns vs. energy's 7-9% with higher cyclical volatility. (3) Your portfolio shows only 30% technology exposure despite this being your primary wealth-building vehicle. Contrast: You hold individual energy stocks (XOM, CVX) plus sector ETF (XLE), creating overlap and amplified sector risk. (4) Trade-off: You may leave some gains on the table if energy outperforms near-term due to supply constraints or geopolitical events, but your income stability is variable\u2014reducing cyclical concentration actually improves risk-adjusted returns for consultants. Taking partial profits after a strong sector run is textbook portfolio management for wealth preservation while maintaining growth orientation.",
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX",
+        "NVDA",
+        "QQQ",
+        "VGT"
+      ],
+      "suggested_action": "Sell 40-50% of your combined energy positions (suggest trimming XLE first as it duplicates your individual holdings). Redeploy proceeds into technology: add to NVDA (you already own, capitalize on AI infrastructure buildout) or purchase QQQ/VGT for diversified tech exposure. Target 8-10% energy, 38-40% technology allocation.",
+      "suggested_allocation_pct": -6.0,
+      "risk_level": "moderate",
+      "expected_return_range": "Improves portfolio expected return to 10-13% annually from better sector mix",
+      "time_horizon": "Execute over 2-4 weeks to avoid poor timing; benefits accrue over 3-5+ years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:09:54.149711",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_cfc4bed3",
+      "category": "diversify",
+      "title": "Add Healthcare Exposure to Improve Defensive Balance",
+      "summary": "Increase healthcare allocation from 10% to 15% to add defensive, non-cyclical growth that complements your aggressive profile while reducing overall portfolio volatility.",
+      "detailed_rationale": "Signal: Healthcare at 10% is underweight relative to its 13-14% S&P 500 representation, and your portfolio lacks defensive positioning despite variable income. Analysis: (1) Your occupation as an independent consultant creates income variability\u2014during economic downturns, consulting contracts may decline. Healthcare is non-cyclical (aging demographics, inelastic demand) and provides ballast when cyclical sectors (energy, industrials at 15% each, financials at 15%) contract simultaneously. (2) Aggressive risk tolerance doesn't mean ignoring volatility management. With loss comfort at 8/10, you can handle drawdowns, but unnecessary volatility hurts compounding. Healthcare delivers 9-11% annual returns with 30-40% lower volatility than technology. (3) Your $800K legacy goal for your child benefits from smoother wealth accumulation. Healthcare provides asymmetric risk/reward: strong returns with lower downside capture during recessions. (4) Evidence from portfolio construction: You hold minimal healthcare exposure while overweighting cyclical sectors (45% combined energy/industrials/financials). Modern portfolio theory suggests this increases portfolio beta to 1.3-1.5 when optimal aggressive portfolios target 1.1-1.2 beta with better diversification. Trade-off: Healthcare may underperform in strong bull markets dominated by tech, but provides crucial drawdown protection and your long horizon means you benefit from both growth and stability components.",
+      "tickers": [
+        "XLV",
+        "JNJ",
+        "UNH",
+        "LLY"
+      ],
+      "suggested_action": "Allocate 5% of portfolio ($75,000) to healthcare: Purchase XLV (healthcare sector ETF) for instant diversification, or split between XLV (3%) and individual positions in UNH (managed care, pricing power) and LLY (GLP-1 drugs, obesity market). Use proceeds from energy trim above.",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "9-11% annually with lower volatility than current portfolio mix",
+      "time_horizon": "3-7 years to realize defensive benefits through economic cycles",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:09:54.149711",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_da6ef69a",
+      "category": "risk_reduction",
+      "title": "Reduce Crypto Allocation from 5% to 2-3% Given Liquidity Needs",
+      "summary": "Trim cryptocurrency (BTC) position to 2-3% of portfolio given medium liquidity needs and moderate debt level. Reallocate to short-duration bonds or money market to increase accessible capital.",
+      "detailed_rationale": "Signal: 5% crypto allocation ($75,000) combined with only 5% cash ($75,000) creates liquidity mismatch for someone with medium liquidity needs, $13K monthly expenses, variable income, and moderate debt. Analysis: (1) Your emergency fund exists (positive), but with variable consulting income, you need 9-12 months expenses readily accessible ($117K-156K). Current cash plus easily-liquidated positions may fall short during income gaps. Crypto is highly volatile (60-80% drawdowns historically) and unsuitable for near-term liquidity despite 24/7 trading. (2) Your aggressive profile justifies some crypto exposure for asymmetric upside, but 5% is high relative to liquidity constraints. Institutional recommendations for aggressive investors with medium liquidity needs suggest 2-3% crypto maximum. (3) At age 45 with moderate debt ($380K), you may face scenarios requiring capital: business investment for consulting practice, debt refinancing, child's education beginning in ~10 years, or tactical opportunities. Having only $75K cash (4.8 months expenses) is tight for your profile. (4) Trade-off: Crypto could deliver 15-25%+ returns if Bitcoin reaches new highs, so you're sacrificing upside optionality. However, trimming from 5% to 2.5% still maintains exposure while improving financial flexibility. Risk management for variable-income professionals prioritizes liquidity buffers. Evidence: During 2022-2023 tech downturn, consultants with inadequate liquidity were forced to sell risk assets at losses when income dried up\u2014avoid this scenario.",
+      "tickers": [
+        "BTC",
+        "SGOV",
+        "SHV",
+        "VMFXX"
+      ],
+      "suggested_action": "Sell 40-50% of Bitcoin holdings (~$30-37K). Move proceeds to: (1) Treasury money market fund (VMFXX) for immediate liquidity, or (2) short-duration Treasury ETF (SGOV, SHV) yielding 4.5-5.0% with minimal duration risk. Target 7-8% total cash/cash equivalents and 2-3% crypto.",
+      "suggested_allocation_pct": -2.5,
+      "risk_level": "low",
+      "expected_return_range": "Sacrifices potential 15-25% crypto upside for 4.5-5.0% stable yield and liquidity",
+      "time_horizon": "Immediate execution; liquidity buffer valuable throughout investment horizon",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:09:54.149711",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_a53ddf72",
+      "category": "hold",
+      "title": "Maintain Emerging Markets Position but Monitor Concentration",
+      "summary": "Hold your 15% emerging markets allocation (VWO) as it aligns with aggressive growth objectives, but avoid adding further given already elevated exposure and current geopolitical headwinds.",
+      "detailed_rationale": "Signal: 15% emerging markets (likely all VWO based on holdings) is at the upper end for aggressive portfolios (typical range 10-20%), warranting evaluation given your energy rebalancing question. Analysis: (1) Emerging markets offer differentiated return streams and currency diversification valuable for long-term wealth compounding. Historical returns of 8-12% annually with low correlation to US large-cap (0.6-0.7) improve portfolio efficiency. Your $4M wealth target over 20+ years benefits from this diversification. (2) However, 15% is already substantial exposure. Combined with 15% energy (also cyclical and commodity-exposed) and emerging market correlation to energy prices, you have implicit concentration. Your loss comfort of 8/10 can handle emerging market volatility (20-25% annual standard deviation), but adding more tips into imprudent concentration. (3) Current environment shows headwinds: strong dollar pressures EM returns, China growth uncertainty affects broad EM indices, and geopolitical fragmentation creates tail risks. Yet your long horizon means these are temporary noise\u2014EM demographics and growth trajectories remain superior to developed markets. (4) Trade-off: If you trim as suggested, you miss potential 12-15% returns if EM outperforms during dollar weakening cycles or China stimulus. But holding at 15% while rebalancing energy to technology maintains growth orientation without adding correlated risk. Your advanced experience likely recognizes EM requires patience through volatility. Recommendation: Hold current 15% allocation, do not add, and revisit allocation in 12-18 months after geopolitical clarity improves or after you've reduced energy concentration as recommended above.",
+      "tickers": [
+        "VWO"
+      ],
+      "suggested_action": "No action required on emerging markets allocation currently. Maintain VWO position at ~15% ($225,000). Focus rebalancing efforts on reducing energy and adding healthcare/technology as detailed in other recommendations. Set calendar reminder to review EM allocation in Q3 2025 after energy rebalancing is complete.",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "moderate",
+      "expected_return_range": "8-12% annually with elevated volatility",
+      "time_horizon": "Hold for 5-10+ years to realize EM growth premium",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "low",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-08T15:09:54.149711",
+      "composite_score": 0.0
+    }
+  ]
+}

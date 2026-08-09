@@ -1,0 +1,193 @@
+{
+  "session_id": "P4_moderate_pre_retirement__rebalance__seed2",
+  "persona_id": "P4_moderate_pre_retirement",
+  "query_type": "rebalance",
+  "query": "Walk me through a year-by-year glide path that gradually shifts my allocation over the next decade.",
+  "seed": 2,
+  "context": {
+    "portfolio_context": "## Portfolio Snapshot\n- Total Assets: $850,000\n- Total Liabilities: $95,000\n- Net Worth: $755,000\n\n### Allocation by Asset Type\n- etf: 40.0%\n- stock: 15.0%\n- bond: 35.0%\n- mutual_fund: 5.0%\n- cash: 5.0%\n\n### Allocation by Sector\n- Healthcare: 22.0%\n- Financials: 18.0%\n- Technology: 18.0%\n- Industrials: 12.0%\n- Consumer Staples: 10.0%\n- Energy: 8.0%\n- Other: 12.0%\n\n### Holdings (tickers)\nVTI, BND, VXUS, JNJ, UNH, JPM, BRK.B, PG",
+    "investment_profile_context": "## Investment Profile\n- Age: 55\n- Occupation: Operations director\n- Annual Income: $220,000\n- Monthly Expenses: $11,000\n- Risk Tolerance: moderate\n- Loss Comfort (1-10): 5\n- Investment Horizon: medium\n- Liquidity Needs: medium\n- Income Stability: stable\n- Has Emergency Fund: True\n- Debt Level: low\n- Investment Experience: advanced\n- ESG Preference: False\n- Goals:\n  - retirement (high priority, target $1,800,000): Retire at 65 with $80-100k/yr income; begin glide-path now\n  - wealth (low priority, target $500,000): Legacy/wealth transfer to heirs",
+    "rag_context": "[investment_guide] Wealth Intelligence Research\n# Retirement Planning: Strategies for Long-Term Wealth Building\n\n\n## Starting Early\nThe power of compound interest makes starting early crucial. Even small contributions in your 20s and 30s can grow significantly over decades. Time in the market often matters more than timing the market.\n\n## Tax-Advantaged Accounts\nMaximize contributions to 401(k)s, IRAs, and Roth accounts. These vehicles provide tax benefits that accelerate wealth building. For 2024, 401(k) limits are $23,000 ($30,500 if 50+).\n\n## Employer Matching\nAlways contribute enough to capture the full employer match in your 401(k). This is essentially free money with an immediate 100% return on your contribution.\n\n## Target-Date Funds\nThese funds automatically adjust asset allocation as you approach retirement, becoming more conservative over time. They offer a simple, hands-off approach to retirement investing.\n\n## Social Security Planning\nDelaying Social Security benefits until age 70 can increase monthly payments by up to 77% compared to claiming at 62. Consider this in your overall retirement income strategy.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.\n\n---\n\n[investment_guide] Wealth Intelligence Research\n# Asset Allocation: Building a Diversified Portfolio\n\n\n## What is Asset Allocation?\nAsset allocation is the process of dividing investments among different asset categories, such as stocks, bonds, and cash. This strategy helps manage risk and optimize returns based on your investment goals, time horizon, and risk tolerance.\n\n## The Importance of Diversification\nDiversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation. When one asset class underperforms, others may compensate, helping to smooth overall returns.\n\n## Strategic vs Tactical Allocation\nStrategic allocation sets long-term targets based on your investment profile. Tactical allocation makes short-term adjustments to capitalize on market opportunities while staying within risk parameters.\n\n## Common Allocation Models\nConservative portfolios typically hold 20-40% stocks, 50-70% bonds. Moderate portfolios balance around 50-60% stocks, 30-40% bonds. Aggressive portfolios may hold 80-90% stocks with minimal bonds.\n\n## Rebalancing Your Portfolio\nRegular rebalancing ensures your portfolio stays aligned with target allocations. Consider rebalancing when allocations drift more than 5% from targets, or at least annually.\n\n\n## Key Takeaways\n- Understand your personal financial situation and goals\n- Diversification is essential for managing risk\n- Regular review and rebalancing keeps your strategy on track\n- Consider consulting with a financial advisor for personalized guidance\n\n## Disclaimer\nThis guide is for educational purposes only and should not be considered personalized investment advice. Past performance does not guarantee future results. Consult with a qualified financial professional before making investment decisions.",
+    "data_sources_used": [
+      "portfolio",
+      "investment_profile",
+      "rag_knowledge_base"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec_d2bf19ff",
+      "category": "rebalance",
+      "title": "Initiate 10-Year Retirement Glide Path with Immediate Bond Increase",
+      "summary": "Begin your retirement glide path by increasing bond allocation from 35% to 40% within the next quarter, shifting from equity overweight positions to establish a more conservative trajectory toward your age-65 retirement.",
+      "detailed_rationale": "Signal: You are 55 years old with a 10-year horizon to retirement at 65, yet your current allocation (55% equities: 40% ETF + 15% stock) is slightly aggressive for someone entering the glide-path phase. Analysis: (1) Your knowledge base emphasizes that 'target-date funds automatically adjust asset allocation as you approach retirement, becoming more conservative over time' - we're applying this principle manually to your portfolio. (2) With moderate risk tolerance and loss comfort of 5/10, a gradual shift is appropriate rather than aggressive repositioning. (3) Current sector concentration shows Technology (18%), Healthcare (22%), and Financials (18%) are your largest exposures - all growth-oriented sectors that should be gradually reduced. (4) Your $755k net worth against an $1.8M retirement target means you need continued growth but with decreasing volatility as you approach withdrawal phase. Recommended glide path: Year 0 (now): 55% equity/40% bond/5% cash \u2192 Year 3 (age 58): 50% equity/45% bond/5% cash \u2192 Year 6 (age 61): 45% equity/50% bond/5% cash \u2192 Year 10 (age 65): 40% equity/55% bond/5% cash. This aligns with moderate allocation models (50-60% stocks) while gradually moving toward conservative positioning (40% stocks). Action: Reduce VTI position by 5 percentage points and increase BND allocation proportionally. Trade-off: Slightly lower expected returns in exchange for reduced portfolio volatility and drawdown risk as you approach retirement income needs.",
+      "tickers": [
+        "VTI",
+        "BND"
+      ],
+      "suggested_action": "Sell approximately $42,500 of VTI (5% of portfolio) and purchase equivalent amount of BND to shift bond allocation from 35% to 40%",
+      "suggested_allocation_pct": 5.0,
+      "risk_level": "low",
+      "expected_return_range": "5-7% annually",
+      "time_horizon": "Execute within next 3 months, part of 10-year glide path",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:24:54.224076",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_ca486462",
+      "category": "diversify",
+      "title": "Add Small-Cap and International Bond Exposure for True Diversification",
+      "summary": "Your portfolio lacks small-cap domestic equity and international fixed income exposure. Allocate 5% to small-cap value ETF and convert 5% of domestic bonds to international bonds to enhance diversification across market caps and geographies.",
+      "detailed_rationale": "Signal: Portfolio analysis reveals concentration in large-cap domestic equities (VTI, JNJ, UNH, JPM, BRK.B, PG are all large-cap) and exclusively domestic bonds (BND). (1) Your knowledge base states 'diversification reduces portfolio volatility by spreading investments across various asset classes that don't move in perfect correlation' - you're missing entire market segments. (2) With advanced investment experience, you can handle a more sophisticated multi-factor approach. (3) VXUS provides international equity exposure, but you have zero international bond exposure, creating geographic concentration risk in fixed income. (4) Small-cap value stocks historically offer higher returns with lower correlation to large-cap growth, beneficial for a moderate risk portfolio. (5) At 10 years from retirement, you still have sufficient time horizon to benefit from small-cap premium while international bonds provide currency diversification and different interest rate exposure. Supporting evidence: Your current equity holdings are 100% large-cap focused, missing the small/mid-cap segment entirely. Research shows small-cap value has delivered 2-3% annual premium over large-cap over long periods. Trade-off: Small-caps have higher volatility than large-caps, and international bonds introduce currency risk, but both enhance overall portfolio diversification and may improve risk-adjusted returns. For your moderate risk profile and advanced experience, this complexity is manageable.",
+      "tickers": [
+        "VBR",
+        "BNDX",
+        "VTI",
+        "BND"
+      ],
+      "suggested_action": "Allocate 5% ($42,500) to VBR (Vanguard Small-Cap Value ETF) from VTI reduction, and shift 5% ($42,500) from BND to BNDX (Vanguard Total International Bond ETF)",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-8% annually",
+      "time_horizon": "Implement over next 6 months, hold long-term through retirement",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:24:54.224076",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_6919c293",
+      "category": "risk_reduction",
+      "title": "Reduce Single-Stock Healthcare Concentration from 22% to 15%",
+      "summary": "Healthcare represents 22% of your portfolio, significantly overweight relative to market benchmarks (~13%). Trim individual healthcare holdings (JNJ, UNH) and redeploy to underweight sectors to reduce single-sector risk.",
+      "detailed_rationale": "Signal: Sector allocation shows Healthcare at 22% versus typical market weight of 13-14%, creating concentrated sector risk. (1) You hold both JNJ and UNH as individual stocks within the 15% stock allocation, plus likely additional healthcare exposure through VTI and VXUS - this double-counts healthcare risk. (2) Your knowledge base emphasizes 'diversification is essential for managing risk' and warns against concentration. (3) With moderate risk tolerance and 10 years to retirement, sector concentration of nearly 1/4 of portfolio in healthcare exposes you to regulatory risk (Medicare/Medicaid policy changes), pharmaceutical pricing legislation, and healthcare reform - all material risks for someone approaching retirement who cannot easily recover from sector-specific drawdowns. (4) Energy is underweight at 8% versus market weight of ~10%, and Industrials at 12% versus market ~13%. (5) Your stable $220k income and low debt position means you don't need to chase sector-specific returns. Analysis approach: Reduce healthcare to 15% (still overweight but reasonable given your conviction), which means trimming 7 percentage points (~$59,500). Redeploy to broad market ETF exposure or underweight sectors. Trade-off: You may have conviction in healthcare given your age/stage and industry trends, but concentration risk increases portfolio volatility. Healthcare has shown strong performance but faces political and regulatory headwinds. At 10 years from retirement, reducing idiosyncratic sector risk is prudent.",
+      "tickers": [
+        "JNJ",
+        "UNH",
+        "VTI",
+        "XLE"
+      ],
+      "suggested_action": "Sell approximately 30-40% of combined JNJ and UNH positions (~$59,500 total) and redeploy 50% to VTI for broad diversification and 50% to XLE (Energy Select Sector SPDR) to address energy underweight",
+      "suggested_allocation_pct": 7.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9% annually",
+      "time_horizon": "Execute over next 6 months to manage tax implications",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:24:54.224076",
+      "composite_score": 0.0
+    },
+    {
+      "id": "rec_8a3d92d7",
+      "category": "tax_optimization",
+      "title": "Maximize Age 55+ Retirement Contributions with Catch-Up Provisions",
+      "summary": "At age 55 with $220k annual income, you qualify for catch-up contributions. Maximize 401(k) contributions to $30,500 limit (plus employer match) to accelerate tax-deferred growth and reach your $1.8M retirement target.",
+      "detailed_rationale": "Signal: You are exactly age 55, making you eligible for catch-up contributions, with high income ($220k) and stable employment. (1) Your knowledge base specifically states 'For 2024, 401(k) limits are $23,000 ($30,500 if 50+)' - you qualify for the additional $7,500 catch-up contribution. (2) Current net worth of $755k against $1.8M target in 10 years requires approximately 9% annual growth plus continued contributions. (3) With monthly expenses of $11k ($132k annually) against $220k income, you have $88k pre-tax capacity for savings - more than sufficient to maximize retirement contributions. (4) The knowledge base emphasizes 'always contribute enough to capture the full employer match' and highlights tax-advantaged accounts 'provide tax benefits that accelerate wealth building.' (5) At your income level, you're likely in 24% or 32% federal tax bracket, making tax-deferred contributions highly valuable. (6) Your stable income, emergency fund, and low debt provide financial flexibility to maximize contributions without liquidity stress. Calculation: $30,500 annual contribution + employer match (assuming 50% on 6% = $6,600) = $37,100/year. Over 10 years at 7% return = ~$512k, plus existing $850k growing = helps bridge gap to $1.8M target. This is distinct from your brokerage portfolio rebalancing - this addresses retirement account contributions. Trade-off: Reduces current take-home pay, but at $220k income with $11k monthly expenses, this is highly manageable and provides immediate tax savings plus long-term compounding benefits.",
+      "tickers": [],
+      "suggested_action": "Immediately increase 401(k) contributions to maximum $30,500 annual limit through payroll deductions; verify employer match is maximized; consider Roth 401(k) option for portion if available to diversify tax treatment",
+      "suggested_allocation_pct": 0.0,
+      "risk_level": "low",
+      "expected_return_range": "7-10% annually with tax benefits",
+      "time_horizon": "Implement immediately for current tax year, continue annually through age 65",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "medium",
+      "data_sources": [
+        {
+          "source_type": "portfolio",
+          "source_name": "portfolio",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "investment_profile",
+          "source_name": "investment_profile",
+          "relevance_score": 0.5,
+          "snippet": null
+        },
+        {
+          "source_type": "rag_knowledge_base",
+          "source_name": "rag_knowledge_base",
+          "relevance_score": 0.5,
+          "snippet": null
+        }
+      ],
+      "generated_at": "2026-05-07T23:24:54.224076",
+      "composite_score": 0.0
+    }
+  ],
+  "rec_count": 4
+}

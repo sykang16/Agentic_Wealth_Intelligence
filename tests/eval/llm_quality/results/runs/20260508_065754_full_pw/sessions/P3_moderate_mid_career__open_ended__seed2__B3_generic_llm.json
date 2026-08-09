@@ -1,0 +1,109 @@
+{
+  "session_id": "P3_moderate_mid_career__open_ended__seed2",
+  "persona_id": "P3_moderate_mid_career",
+  "query_type": "open_ended",
+  "query": "I'm 40 with two kids heading to college in about 10 years. How should I balance saving for their education versus retirement?",
+  "seed": 2,
+  "system": "B3_generic_llm",
+  "rec_count": 4,
+  "recommendations": [
+    {
+      "id": "b3_0",
+      "category": "diversify",
+      "title": "Establish Dedicated 529 College Savings Plans",
+      "summary": "Create separate 529 plans for each child with age-based asset allocation to protect capital as college approaches in 10 years.",
+      "detailed_rationale": "With $200,000 education goal and 10-year horizon, you need approximately $1,400/month assuming 6% returns. Your current portfolio lacks tax-advantaged education savings. 529 plans offer tax-free growth for education expenses and should shift from growth to conservative allocations as college nears. Given your stable income ($175k) and manageable expenses ($9,500/month), you have capacity to fund both goals simultaneously. Prioritize 529 contributions now as education timeline is fixed, while retirement has 25-year flexibility.",
+      "tickers": [
+        "VGRO",
+        "VMOD",
+        "VCON"
+      ],
+      "suggested_action": "Open 529 plans and contribute $1,500/month split between both children. Use age-based portfolios starting at 70% equity/30% fixed income, automatically shifting conservative over 10 years.",
+      "suggested_allocation_pct": 15.0,
+      "risk_level": "moderate",
+      "expected_return_range": "5-7%",
+      "time_horizon": "10 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:00:40.663129",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_1",
+      "category": "rebalance",
+      "title": "Reduce Technology Concentration Risk",
+      "summary": "Decrease technology sector exposure from 35% to 25% by rebalancing growth stocks and increasing diversification across sectors.",
+      "detailed_rationale": "Your 35% technology allocation (through AAPL, MSFT, NVDA, GOOGL plus VTI exposure) creates excessive concentration risk inconsistent with moderate risk tolerance. With two critical goals on different timelines, you cannot afford significant portfolio drawdowns. Technology sector volatility could impair education funding when needed. Recommend selling 30% of individual tech positions and redirecting to underweighted sectors (Healthcare 12%, Industrials 8%) and international exposure through VXUS.",
+      "tickers": [
+        "VHT",
+        "VIG",
+        "VXUS"
+      ],
+      "suggested_action": "Sell $22,000 from NVDA, GOOGL positions. Reallocate $10,000 to healthcare (VHT), $7,000 to dividend growth (VIG), $5,000 to VXUS.",
+      "suggested_allocation_pct": 10.0,
+      "risk_level": "moderate",
+      "expected_return_range": "6-9%",
+      "time_horizon": "long-term",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:00:40.663129",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_2",
+      "category": "buy",
+      "title": "Increase Retirement Contributions Through Tax-Advantaged Accounts",
+      "summary": "Maximize 401(k) contributions and open backdoor Roth IRA to accelerate retirement savings while maintaining education funding.",
+      "detailed_rationale": "Net monthly surplus of ~$8,000 ($175k income minus $9,500 expenses minus taxes) provides capacity for parallel goal funding. Current portfolio of $320,000 requires aggressive retirement savings to reach $2.5M in 25 years. Max out employer 401(k) ($23,000/year) and contribute to Roth IRA via backdoor ($7,000/year). Tax-advantaged growth is critical for long-term wealth building. After 529 contributions ($1,500/month), you retain $4,500+ monthly for retirement accounts and emergency reserves.",
+      "tickers": [
+        "VTI",
+        "VXUS",
+        "VUG"
+      ],
+      "suggested_action": "Increase 401(k) contribution to maximum ($1,917/month). Open and fund backdoor Roth IRA ($583/month). Allocate Roth to aggressive growth (80% VTI/VUG, 20% VXUS).",
+      "suggested_allocation_pct": 25.0,
+      "risk_level": "moderate",
+      "expected_return_range": "7-10%",
+      "time_horizon": "25 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "high",
+      "priority": "high",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:00:40.663129",
+      "composite_score": 0.0
+    },
+    {
+      "id": "b3_3",
+      "category": "hold",
+      "title": "Maintain Core Bond Allocation as Portfolio Stabilizer",
+      "summary": "Retain 30% bond allocation (BND) to provide portfolio stability and capital preservation as education timeline approaches.",
+      "detailed_rationale": "Your 30% bond allocation is appropriate for moderate risk tolerance and two-goal scenario. Bonds provide downside protection and liquidity if needed for education expenses. With 10-year education horizon, maintaining stable fixed income prevents forced equity sales during market downturns. As you approach year 7-8, consider increasing bond allocation to 40% specifically for education-earmarked funds. Current BND holding offers diversified exposure to investment-grade debt with reasonable yield in current environment.",
+      "tickers": [
+        "BND"
+      ],
+      "suggested_action": "Maintain current BND position. Review annually and increase bond allocation by 2-3% starting in year 7 as college expenses approach.",
+      "suggested_allocation_pct": 30.0,
+      "risk_level": "low",
+      "expected_return_range": "3-5%",
+      "time_horizon": "10 years",
+      "relevance_score": 0.0,
+      "risk_alignment_score": 0.0,
+      "diversification_score": 0.0,
+      "confidence": "medium",
+      "priority": "medium",
+      "data_sources": [],
+      "generated_at": "2026-05-08T12:00:40.663129",
+      "composite_score": 0.0
+    }
+  ]
+}

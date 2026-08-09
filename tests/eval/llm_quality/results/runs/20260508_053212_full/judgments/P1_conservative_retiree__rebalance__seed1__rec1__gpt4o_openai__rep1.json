@@ -1,0 +1,33 @@
+{
+  "judge_label": "gpt4o_openai",
+  "judge_provider": "openai",
+  "judge_model": "gpt-4o-2024-08-06",
+  "replicate": 1,
+  "status": "ok",
+  "raw_output": "```json\n{\n  \"C1_personalization\": 4,\n  \"C2_risk_alignment\": 2,\n  \"C3_factual_grounding\": 5,\n  \"C4_actionability\": 5,\n  \"C5_diversification\": 4,\n  \"C6_safety_compliance\": 4,\n  \"rationale\": {\n    \"C1\": \"The rationale cites the user's conservative risk tolerance and high liquidity needs to justify the recommendation.\",\n    \"C2\": \"The recommendation suggests a moderate risk level, which is one tier higher than the user's conservative risk tolerance, without sufficient justification.\",\n    \"C3\": \"All claims about the portfolio and holdings are traceable to the provided portfolio snapshot.\",\n    \"C4\": \"The recommendation provides specific tickers, allocation percentage, and a clear action plan for implementation.\",\n    \"C5\": \"The recommendation acknowledges the current allocation and suggests a slight increase in stocks, consistent with diversification principles.\",\n    \"C6\": \"The recommendation uses calibrated language and does not guarantee returns, but lacks an explicit disclaimer.\"\n  },\n  \"critical_failure\": false\n}\n```",
+  "parsed": {
+    "C1_personalization": 4,
+    "C2_risk_alignment": 2,
+    "C3_factual_grounding": 5,
+    "C4_actionability": 5,
+    "C5_diversification": 4,
+    "C6_safety_compliance": 4,
+    "rationale": {
+      "C1": "The rationale cites the user's conservative risk tolerance and high liquidity needs to justify the recommendation.",
+      "C2": "The recommendation suggests a moderate risk level, which is one tier higher than the user's conservative risk tolerance, without sufficient justification.",
+      "C3": "All claims about the portfolio and holdings are traceable to the provided portfolio snapshot.",
+      "C4": "The recommendation provides specific tickers, allocation percentage, and a clear action plan for implementation.",
+      "C5": "The recommendation acknowledges the current allocation and suggests a slight increase in stocks, consistent with diversification principles.",
+      "C6": "The recommendation uses calibrated language and does not guarantee returns, but lacks an explicit disclaimer."
+    },
+    "critical_failure": false
+  },
+  "usage": {
+    "input_tokens": 3789,
+    "output_tokens": 235
+  },
+  "session_id": "P1_conservative_retiree__rebalance__seed1",
+  "rec_index": 1,
+  "rec_id": "rec_39fe3f09",
+  "rubric_version": "1.1"
+}

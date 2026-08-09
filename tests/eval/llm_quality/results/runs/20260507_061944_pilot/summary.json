@@ -1,0 +1,33 @@
+{
+  "n_sessions": 3,
+  "n_judgments_total": 24,
+  "n_parse_failures": 0,
+  "n_errors": 0,
+  "n_critical_failures": 0,
+  "mean_per_criterion_overall": {
+    "C1_personalization": 4.917,
+    "C2_risk_alignment": 4.125,
+    "C3_factual_grounding": 4.25,
+    "C4_actionability": 4.833,
+    "C5_diversification": 4.25,
+    "C6_safety_compliance": 4.458
+  },
+  "mean_per_criterion_per_judge": {
+    "gpt4o_openai": {
+      "C1_personalization": 4.917,
+      "C2_risk_alignment": 4.0,
+      "C3_factual_grounding": 4.667,
+      "C4_actionability": 4.75,
+      "C5_diversification": 4.333,
+      "C6_safety_compliance": 4.667
+    },
+    "opus_anthropic": {
+      "C1_personalization": 4.917,
+      "C2_risk_alignment": 4.25,
+      "C3_factual_grounding": 3.833,
+      "C4_actionability": 4.917,
+      "C5_diversification": 4.167,
+      "C6_safety_compliance": 4.25
+    }
+  }
+}
