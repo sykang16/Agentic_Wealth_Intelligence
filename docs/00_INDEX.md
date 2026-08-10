@@ -28,5 +28,3 @@
 - `recommendation_quality_results.html` — Quality metrics
 - `adversarial_safety_results.html` — Safety / poisoning tests
 
-## For Claude Code
-- Start here: [.claude/context.md](../.claude/context.md)
